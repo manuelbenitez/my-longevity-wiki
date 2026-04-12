@@ -14,8 +14,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const recipe = getRecipe(slug);
+  const { locale, slug } = await params;
+  const recipe = getRecipe(slug, locale);
   if (!recipe) return {};
   const { title, longevity_ingredients, difficulty, tags } = recipe.frontmatter;
   const ingredients = longevity_ingredients
@@ -47,7 +47,7 @@ export default async function RecipePage({
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const recipe = getRecipe(slug);
+  const recipe = getRecipe(slug, locale);
   if (!recipe) notFound();
 
   const { frontmatter, content } = recipe;

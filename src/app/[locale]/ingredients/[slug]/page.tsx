@@ -45,14 +45,14 @@ export default async function IngredientPage({
 }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
-  const entry = getWikiEntry(slug);
+  const entry = getWikiEntry(slug, locale);
   if (!entry) notFound();
 
   const { frontmatter, content } = entry;
   const html = await markdownToHtml(content);
 
   // Find recipes that use this ingredient
-  const allRecipes = getAllRecipes();
+  const allRecipes = getAllRecipes(locale);
   const relatedRecipes = allRecipes.filter((r) =>
     r.frontmatter.longevity_ingredients?.some(
       (ing) =>
