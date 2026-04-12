@@ -2,9 +2,41 @@ import { getAllRecipeSlugs, getRecipe } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   return getAllRecipeSlugs().map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const recipe = getRecipe(slug);
+  if (!recipe) return {};
+  const { title, longevity_ingredients, difficulty, tags } = recipe.frontmatter;
+  const ingredients = longevity_ingredients
+    ?.map((s) => s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "))
+    .join(", ");
+  return {
+    title: `${title} — Healthy Longevity Recipe`,
+    description: `${title}: a ${difficulty || "easy"} recipe with ${ingredients}. Science-backed ingredient synergies for anti-aging and healthy longevity.`,
+    keywords: [
+      title.toLowerCase(),
+      "healthy recipe",
+      "longevity recipe",
+      "anti-aging recipe",
+      ...(longevity_ingredients || []),
+      ...(tags || []),
+    ],
+    openGraph: {
+      title: `${title} — Longevity Wiki Recipe`,
+      description: `Science-backed recipe with ${ingredients}. Every ingredient chosen for its longevity benefits.`,
+      type: "article",
+    },
+  };
 }
 
 export default async function RecipePage({
@@ -86,14 +118,6 @@ export default async function RecipePage({
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </article>
-
-      {/* Footer */}
-      <footer className="max-w-[680px] mx-auto px-6 py-12 text-center border-t border-border">
-        <p className="text-sm text-muted">
-          Longevity Wiki. Content grounded in{" "}
-          <em>The Path to Longevity</em> by Luigi Fontana.
-        </p>
-      </footer>
     </main>
   );
 }

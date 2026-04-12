@@ -2,9 +2,39 @@ import { getAllWikiSlugs, getWikiEntry, getAllRecipes } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   return getAllWikiSlugs().map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const entry = getWikiEntry(slug);
+  if (!entry) return {};
+  const { title, category, tags } = entry.frontmatter;
+  return {
+    title: `${title} — Longevity Benefits, How to Use, Recipes`,
+    description: `${title}: science-backed health benefits for longevity and healthy aging. Learn the best ways to eat ${title.toLowerCase()}, what to pair it with, and the research behind it.`,
+    keywords: [
+      title.toLowerCase(),
+      `${title.toLowerCase()} health benefits`,
+      `${title.toLowerCase()} longevity`,
+      `${title.toLowerCase()} anti-aging`,
+      `${title.toLowerCase()} nutrition`,
+      category,
+      ...(tags || []),
+    ],
+    openGraph: {
+      title: `${title} — Longevity Wiki`,
+      description: `Science-backed guide to ${title.toLowerCase()} for healthy aging. Evidence-based nutrition, preparation tips, and synergies.`,
+      type: "article",
+    },
+  };
 }
 
 export default async function IngredientPage({
@@ -137,14 +167,6 @@ export default async function IngredientPage({
           </div>
         </section>
       )}
-
-      {/* Footer */}
-      <footer className="max-w-[680px] mx-auto px-6 py-12 text-center border-t border-border">
-        <p className="text-sm text-muted">
-          Longevity Wiki. Content grounded in{" "}
-          <em>The Path to Longevity</em> by Luigi Fontana.
-        </p>
-      </footer>
     </main>
   );
 }

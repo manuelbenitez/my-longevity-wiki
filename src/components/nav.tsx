@@ -23,6 +23,12 @@ export function Nav() {
           >
             Recipes
           </Link>
+          <Link
+            href="/sources/"
+            className="text-sm text-muted hover:text-accent !no-underline !border-none transition-colors"
+          >
+            Sources
+          </Link>
         </div>
       </div>
     </nav>

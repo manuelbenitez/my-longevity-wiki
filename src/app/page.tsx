@@ -18,16 +18,12 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Hero */}
       <header className="max-w-[680px] mx-auto px-6 pt-24 pb-16 animate-fade-up">
-        <p className="text-muted text-xs font-medium tracking-[0.15em] uppercase mb-4">
-          Science-backed food encyclopedia
-        </p>
         <h1 className="font-display text-5xl font-light leading-[1.1] mb-6">
-          Longevity Wiki
+          The science of eating well, living longer.
         </h1>
         <p className="text-muted text-lg leading-relaxed max-w-[480px]">
           {wikiEntries.length} ingredients studied for their effect on healthy
-          aging. Grounded in peer-reviewed research and the work of Professor
-          Luigi Fontana.
+          aging. Grounded in peer-reviewed research from multiple sources.
         </p>
       </header>
 
@@ -79,13 +75,6 @@ export default function Home() {
         </section>
       )}
 
-      {/* Footer */}
-      <footer className="max-w-[680px] mx-auto px-6 py-12 text-center border-t border-border">
-        <p className="text-sm text-muted">
-          Longevity Wiki. Content grounded in{" "}
-          <em>The Path to Longevity</em> by Luigi Fontana.
-        </p>
-      </footer>
     </main>
   );
 }
