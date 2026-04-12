@@ -107,8 +107,9 @@ export function getAllEnrichedSlugs(): string[] {
     .map((f) => f.replace(".json", ""));
 }
 
-export function getWikiEntry(slug: string): WikiEntry | null {
-  const filePath = path.join(CONTENT_DIR, "wiki", `${slug}.md`);
+export function getWikiEntry(slug: string, locale: string = "en"): WikiEntry | null {
+  let filePath = path.join(CONTENT_DIR, "wiki", locale, `${slug}.md`);
+  if (!fs.existsSync(filePath)) filePath = path.join(CONTENT_DIR, "wiki", "en", `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
@@ -120,7 +121,7 @@ export function getWikiEntry(slug: string): WikiEntry | null {
 }
 
 export function getAllWikiSlugs(): string[] {
-  const dir = path.join(CONTENT_DIR, "wiki");
+  const dir = path.join(CONTENT_DIR, "wiki", "en");
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
@@ -128,8 +129,9 @@ export function getAllWikiSlugs(): string[] {
     .map((f) => f.replace(".md", ""));
 }
 
-export function getRecipe(slug: string): Recipe | null {
-  const filePath = path.join(CONTENT_DIR, "recipes", `${slug}.md`);
+export function getRecipe(slug: string, locale: string = "en"): Recipe | null {
+  let filePath = path.join(CONTENT_DIR, "recipes", locale, `${slug}.md`);
+  if (!fs.existsSync(filePath)) filePath = path.join(CONTENT_DIR, "recipes", "en", `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
@@ -141,7 +143,7 @@ export function getRecipe(slug: string): Recipe | null {
 }
 
 export function getAllRecipeSlugs(): string[] {
-  const dir = path.join(CONTENT_DIR, "recipes");
+  const dir = path.join(CONTENT_DIR, "recipes", "en");
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
@@ -149,20 +151,20 @@ export function getAllRecipeSlugs(): string[] {
     .map((f) => f.replace(".md", ""));
 }
 
-export function getAllRecipes(): Recipe[] {
+export function getAllRecipes(locale: string = "en"): Recipe[] {
   return getAllRecipeSlugs()
-    .map(getRecipe)
+    .map((slug) => getRecipe(slug, locale))
     .filter((r): r is Recipe => r !== null);
 }
 
-export function getAllWikiEntries(): WikiEntry[] {
+export function getAllWikiEntries(locale: string = "en"): WikiEntry[] {
   return getAllWikiSlugs()
-    .map(getWikiEntry)
+    .map((slug) => getWikiEntry(slug, locale))
     .filter((e): e is WikiEntry => e !== null);
 }
 
-export function getIndividualIngredients(): WikiEntry[] {
-  return getAllWikiEntries().filter(
+export function getIndividualIngredients(locale: string = "en"): WikiEntry[] {
+  return getAllWikiEntries(locale).filter(
     (e) => e.frontmatter.type !== "overview"
   );
 }
