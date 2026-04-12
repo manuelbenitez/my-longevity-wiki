@@ -160,19 +160,11 @@ export default function SupportPage() {
           </p>
         </div>
 
-        {/* Transparency */}
+        {/* Thank you */}
         <div className="border-t border-border pt-12">
-          <h2 className="font-display text-2xl font-normal mb-4">
-            Full transparency
-          </h2>
-          <p className="leading-relaxed mb-4">
-            This wiki is open source. You can see every line of code, every
-            ingredient extraction, every recipe. Nothing is hidden.
-          </p>
           <p className="leading-relaxed text-muted">
-            We will publish a running tally of donations received and books
-            purchased on this page as the project grows. Every dollar (or wei)
-            is accounted for.
+            Thank you for supporting independent nutrition research. Your
+            generosity keeps this project alive and growing.
           </p>
         </div>
       </article>
