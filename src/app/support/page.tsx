@@ -130,13 +130,6 @@ export default function SupportPage() {
           <DonationFeed />
         </div>
 
-        {/* Thank you */}
-        <div className="border-t border-border pt-12">
-          <p className="leading-relaxed text-muted">
-            Thank you for supporting independent nutrition research. Your
-            generosity keeps this project alive and growing.
-          </p>
-        </div>
       </article>
     </main>
   );
