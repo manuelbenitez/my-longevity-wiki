@@ -45,23 +45,15 @@ export default async function IngredientPage({
       <article className="max-w-[680px] mx-auto px-6 pb-12">
         {/* Meta */}
         <div className="flex items-center gap-3 mb-8 flex-wrap">
-          {frontmatter.longevity_score && (
-            <span
-              className="inline-flex items-center gap-1.5 bg-accent text-white px-3 py-1 rounded-sm text-xs font-semibold"
-              title="Evidence strength: how well-supported are the longevity claims for this ingredient"
-            >
-              Evidence: {frontmatter.longevity_score}/10
-            </span>
-          )}
           {frontmatter.category && (
-            <span className="text-xs border border-border rounded-sm px-2 py-1 text-muted">
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
               {frontmatter.category}
             </span>
           )}
           {frontmatter.tags?.slice(0, 3).map((tag) => (
             <span
               key={tag}
-              className="text-xs border border-border rounded-sm px-2 py-1 text-muted"
+              className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize"
             >
               {tag}
             </span>

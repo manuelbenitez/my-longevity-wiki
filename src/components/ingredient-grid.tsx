@@ -76,7 +76,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`text-xs px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
+            className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize ${
               active === cat
                 ? "bg-accent text-white border-accent"
                 : "bg-transparent text-muted border-border hover:border-accent hover:text-accent"

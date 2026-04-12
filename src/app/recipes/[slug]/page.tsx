@@ -34,22 +34,22 @@ export default async function RecipePage({
         {/* Meta */}
         <div className="flex items-center gap-3 mb-8 flex-wrap">
           {frontmatter.prep_time && (
-            <span className="text-xs border border-border rounded-sm px-2 py-1 text-muted">
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
               Prep: {frontmatter.prep_time}
             </span>
           )}
           {frontmatter.cook_time && (
-            <span className="text-xs border border-border rounded-sm px-2 py-1 text-muted">
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
               Cook: {frontmatter.cook_time}
             </span>
           )}
           {frontmatter.servings && (
-            <span className="text-xs border border-border rounded-sm px-2 py-1 text-muted">
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
               {frontmatter.servings} servings
             </span>
           )}
           {frontmatter.difficulty && (
-            <span className="text-xs border border-border rounded-sm px-2 py-1 text-muted">
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
               {frontmatter.difficulty}
             </span>
           )}
