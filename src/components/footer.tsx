@@ -30,6 +30,12 @@ export function Footer() {
           >
             Sources
           </Link>
+          <Link
+            href="/support/"
+            className="text-xs text-muted hover:text-accent !no-underline !border-none transition-colors"
+          >
+            Support
+          </Link>
         </div>
       </div>
     </footer>

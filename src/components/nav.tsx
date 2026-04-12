@@ -29,6 +29,12 @@ export function Nav() {
           >
             Sources
           </Link>
+          <Link
+            href="/support/"
+            className="text-sm font-semibold text-accent hover:text-accent-hover !no-underline !border-none transition-colors"
+          >
+            Support
+          </Link>
         </div>
       </div>
     </nav>
