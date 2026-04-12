@@ -101,9 +101,8 @@ export default async function SupportPage({
           <div className="flex gap-4">
             <div className="w-10 h-10 shrink-0 flex items-center justify-center">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="8" r="5"/>
-                <path d="M12 13v8"/>
-                <path d="M8 17h8"/>
+                <circle cx="11" cy="11" r="7"/>
+                <path d="M16 16l5 5"/>
               </svg>
             </div>
             <div>
