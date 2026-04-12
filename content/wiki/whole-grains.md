@@ -4,6 +4,7 @@ slug: whole-grains
 category: grain
 tags: [fibre, spermidine, autophagy, cardiovascular, diabetes, cancer, microbiome, Mediterranean-diet]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 

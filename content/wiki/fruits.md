@@ -4,6 +4,7 @@ slug: fruits
 category: fruit
 tags: [vitamin-c, antioxidants, fibre, polyphenols, gut-health, Mediterranean-diet]
 longevity_score: 7
+type: overview
 last_updated: 2026-04-12
 ---
 

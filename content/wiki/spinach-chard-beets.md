@@ -4,6 +4,7 @@ slug: spinach-chard-beets
 category: vegetable
 tags: [nitric-oxide, nitrate, iron, folate, oxalates, betalains, blood-pressure]
 longevity_score: 8
+type: overview
 last_updated: 2026-04-12
 ---
 # Spinach, Chard & Beets

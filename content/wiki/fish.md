@@ -4,6 +4,7 @@ slug: fish
 category: fish_seafood
 tags: [omega-3, EPA, DHA, cardiovascular, anti-inflammatory, Mediterranean-diet, protein]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 

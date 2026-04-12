@@ -4,6 +4,7 @@ slug: tea-coffee-cocoa
 category: beverage
 tags: [polyphenols, tannins, iron-absorption, meal-timing, overview]
 longevity_score: 7
+type: overview
 last_updated: 2026-04-12
 ---
 # Tea, Coffee & Cocoa

@@ -4,6 +4,7 @@ slug: green-vegetables
 category: vegetable
 tags: [low-glycemic, magnesium, chlorophyll, diabetes-prevention, overview]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 # Green Vegetables

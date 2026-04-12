@@ -4,6 +4,7 @@ slug: cabbage-broccoli
 category: vegetable
 tags: [calcium, cruciferous, sulforaphane, indole-3-carbinol, bone-health, cancer-prevention]
 longevity_score: 8
+type: overview
 last_updated: 2026-04-12
 ---
 

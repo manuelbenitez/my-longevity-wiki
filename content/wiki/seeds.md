@@ -4,6 +4,7 @@ slug: seeds
 category: seed
 tags: [omega-3, lignans, fibre, minerals, microbiome, cholesterol, anti-inflammatory]
 longevity_score: 8
+type: overview
 last_updated: 2026-04-12
 ---
 

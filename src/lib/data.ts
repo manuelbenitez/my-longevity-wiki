@@ -65,6 +65,7 @@ export interface WikiEntry {
     tags: string[];
     longevity_score: number;
     last_updated: string;
+    type?: string;
   };
   content: string;
 }
@@ -158,4 +159,10 @@ export function getAllWikiEntries(): WikiEntry[] {
   return getAllWikiSlugs()
     .map(getWikiEntry)
     .filter((e): e is WikiEntry => e !== null);
+}
+
+export function getIndividualIngredients(): WikiEntry[] {
+  return getAllWikiEntries().filter(
+    (e) => e.frontmatter.type !== "overview"
+  );
 }

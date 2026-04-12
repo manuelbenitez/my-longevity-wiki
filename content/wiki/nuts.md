@@ -4,6 +4,7 @@ slug: nuts
 category: nut
 tags: [cardiovascular, cholesterol, omega-3, plant-sterols, polyphenols, Mediterranean-diet, PREDIMED]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 

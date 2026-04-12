@@ -4,6 +4,7 @@ slug: non-starchy-vegetables-fasting
 category: vegetable
 tags: [fasting, mTOR, IGF-1, hormesis, BDNF, calorie-restriction, overview]
 longevity_score: 8
+type: overview
 last_updated: 2026-04-12
 ---
 # Non-Starchy Vegetables for Fasting Days

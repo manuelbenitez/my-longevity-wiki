@@ -4,6 +4,7 @@ slug: vegetables-general
 category: vegetable
 tags: [fiber, phytochemicals, microbiome, overview]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 # Vegetables

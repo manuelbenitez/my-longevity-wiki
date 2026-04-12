@@ -4,6 +4,7 @@ slug: beans-legumes
 category: legume
 tags: [fiber, protein, resistant-starch, gut-health, cardiovascular, overview]
 longevity_score: 9
+type: overview
 last_updated: 2026-04-12
 ---
 # Beans & Legumes

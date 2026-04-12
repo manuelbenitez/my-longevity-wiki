@@ -1,9 +1,9 @@
-import { getAllWikiEntries, getAllRecipes } from "@/lib/data";
+import { getIndividualIngredients, getAllRecipes } from "@/lib/data";
 import { IngredientGrid } from "@/components/ingredient-grid";
 import { RecipeGrid } from "@/components/recipe-grid";
 
 export default function Home() {
-  const wikiEntries = getAllWikiEntries();
+  const wikiEntries = getIndividualIngredients();
   const recipes = getAllRecipes();
 
   const ingredientCards = wikiEntries.map((e) => ({

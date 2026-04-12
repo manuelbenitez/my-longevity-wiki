@@ -4,6 +4,7 @@ slug: fruit
 category: fruit
 tags: [vitamin-c, fibre, polyphenols, cardiovascular, cancer-prevention, gut-health, food-matrix]
 longevity_score: 8
+type: overview
 last_updated: 2026-04-12
 ---
 
