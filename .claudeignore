@@ -1,0 +1,9 @@
+node_modules/
+.next/
+out/
+bun.lock
+data/book-raw/
+data/book-extracts/_raw-chapter-*.txt
+data/batch1-ingredients.json
+data/batch2-ingredients.json
+public/icons/
