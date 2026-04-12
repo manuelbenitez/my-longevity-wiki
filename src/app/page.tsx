@@ -26,7 +26,7 @@ export default function Home() {
           Longevity Wiki
         </h1>
         <p className="text-muted text-lg leading-relaxed max-w-[480px]">
-          {allIngredients.length} ingredients studied for their effect on healthy
+          {wikiEntries.length} ingredients studied for their effect on healthy
           aging. Grounded in peer-reviewed research and the work of Professor
           Luigi Fontana.
         </p>
@@ -36,15 +36,9 @@ export default function Home() {
       <div className="max-w-[680px] mx-auto px-6 pb-16 flex gap-12">
         <div>
           <div className="font-display text-3xl font-light">
-            {allIngredients.length}
-          </div>
-          <div className="text-muted text-sm">Ingredients</div>
-        </div>
-        <div>
-          <div className="font-display text-3xl font-light">
             {wikiEntries.length}
           </div>
-          <div className="text-muted text-sm">Wiki Articles</div>
+          <div className="text-muted text-sm">Ingredients</div>
         </div>
         <div>
           <div className="font-display text-3xl font-light">
