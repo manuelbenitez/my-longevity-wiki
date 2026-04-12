@@ -1,4 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 import { getIndividualIngredients, getAllRecipes } from "@/lib/data";
 import { IngredientGrid } from "@/components/ingredient-grid";
 import { RecipeGrid } from "@/components/recipe-grid";
@@ -10,8 +11,9 @@ export default async function Home({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const wikiEntries = getIndividualIngredients();
-  const recipes = getAllRecipes();
+  const t = await getTranslations("home");
+  const wikiEntries = getIndividualIngredients(locale);
+  const recipes = getAllRecipes(locale);
 
   const ingredientCards = wikiEntries.map((e) => ({
     slug: e.slug,
@@ -26,11 +28,10 @@ export default async function Home({
       {/* Hero */}
       <header className="max-w-[680px] mx-auto px-6 pt-24 pb-16 animate-fade-up">
         <h1 className="font-display text-5xl font-light leading-[1.1] mb-6">
-          The science of eating well, living longer.
+          {t("tagline")}
         </h1>
         <p className="text-muted text-lg leading-relaxed max-w-[480px]">
-          {wikiEntries.length} ingredients studied for their effect on healthy
-          aging. Grounded in peer-reviewed research from multiple sources.
+          {t("description", { count: wikiEntries.length })}
         </p>
       </header>
 
@@ -40,13 +41,13 @@ export default async function Home({
           <div className="font-display text-3xl font-light">
             {wikiEntries.length}
           </div>
-          <div className="text-muted text-sm">Ingredients</div>
+          <div className="text-muted text-sm">{t("ingredients_label")}</div>
         </div>
         <div>
           <div className="font-display text-3xl font-light">
             {recipes.length}
           </div>
-          <div className="text-muted text-sm">Recipes</div>
+          <div className="text-muted text-sm">{t("recipes_label")}</div>
         </div>
       </div>
 
@@ -55,7 +56,7 @@ export default async function Home({
       {/* Filterable Ingredient Grid */}
       <section id="ingredients" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
         <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
-          Ingredients
+          {t("section_ingredients")}
         </p>
         <IngredientGrid ingredients={ingredientCards} />
       </section>
@@ -66,7 +67,7 @@ export default async function Home({
       {recipes.length > 0 && (
         <section id="recipes" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
           <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
-            Recipes
+            {t("section_recipes")}
           </p>
           <RecipeGrid
             recipes={recipes.map((r) => ({
@@ -81,7 +82,6 @@ export default async function Home({
           />
         </section>
       )}
-
     </main>
   );
 }

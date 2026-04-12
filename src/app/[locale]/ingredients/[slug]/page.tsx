@@ -67,7 +67,7 @@ export default async function IngredientPage({
     <main className="min-h-screen">
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link
-          href="/"
+          href={`/${locale}/`}
           className="text-sm text-muted hover:text-accent transition-colors !no-underline !border-none"
         >
           &larr; Back to wiki
@@ -115,7 +115,7 @@ export default async function IngredientPage({
               {relatedRecipes.map((recipe) => (
                 <Link
                   key={recipe.slug}
-                  href={`/recipes/${recipe.slug}/`}
+                  href={`/${locale}/recipes/${recipe.slug}/`}
                   className="block bg-surface border border-border rounded-lg p-5 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
                 >
                   <div className="flex items-start justify-between gap-4">

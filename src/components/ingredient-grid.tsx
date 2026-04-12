@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 
 interface IngredientCard {
@@ -43,6 +44,9 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] }) {
+  const locale = useLocale();
+  const t = useTranslations("ingredients");
+  const tCat = useTranslations("categories");
   const [active, setActive] = useState("all");
   const [search, setSearch] = useState("");
 
@@ -64,7 +68,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
       <div className="mb-6">
         <input
           type="text"
-          placeholder="Search ingredients..."
+          placeholder={t("search")}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full max-w-xs px-4 py-2 text-sm bg-surface border border-border rounded-md text-text placeholder:text-muted/60 focus:outline-none focus:border-accent transition-colors"
@@ -83,7 +87,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
                 : "bg-transparent text-muted border-border hover:border-accent hover:text-accent"
             }`}
           >
-            {CATEGORY_LABELS[cat] || cat}
+            {tCat.has(cat) ? tCat(cat) : (CATEGORY_LABELS[cat] || cat)}
             {cat !== "all" && (
               <span className="ml-1 opacity-60">
                 {ingredients.filter((i) => i.category === cat).length}
@@ -95,9 +99,9 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
 
       {/* Count */}
       <p className="text-sm text-muted mb-6">
-        {filtered.length} ingredient{filtered.length !== 1 ? "s" : ""}
-        {active !== "all" && ` in ${CATEGORY_LABELS[active] || active}`}
-        {search && ` matching "${search}"`}
+        {t("count", { count: filtered.length })}
+        {active !== "all" && ` ${t("in_category", { category: tCat.has(active) ? tCat(active) : active })}`}
+        {search && ` ${t("matching", { query: search })}`}
       </p>
 
       {/* Grid */}
@@ -106,7 +110,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
           <StaggerItem key={entry.slug}>
           <Link
             key={entry.slug}
-            href={`/ingredients/${entry.slug}/`}
+            href={`/${locale}/ingredients/${entry.slug}/`}
             className="group flex flex-col items-center bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5 h-full"
           >
             <div className="w-12 h-12 mb-4 flex items-center justify-center">
@@ -132,7 +136,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
 
       {filtered.length === 0 && (
         <p className="text-muted text-center py-12">
-          No ingredients found. Try a different filter or search term.
+          {t("no_results")}
         </p>
       )}
     </div>

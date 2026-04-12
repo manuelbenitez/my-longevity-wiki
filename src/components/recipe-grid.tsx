@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 
 interface RecipeCard {
@@ -22,6 +23,8 @@ function slugToLabel(slug: string): string {
 }
 
 export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
+  const locale = useLocale();
+  const t = useTranslations("recipes");
   const [search, setSearch] = useState("");
   const [difficulty, setDifficulty] = useState("all");
 
@@ -44,7 +47,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       <div className="mb-6">
         <input
           type="text"
-          placeholder="Search recipes or ingredients..."
+          placeholder={t("search")}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full max-w-xs px-4 py-2 text-sm bg-surface border border-border rounded-md text-text placeholder:text-muted/60 focus:outline-none focus:border-accent transition-colors"
@@ -75,7 +78,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
 
       {/* Count */}
       <p className="text-sm text-muted mb-6">
-        {filtered.length} recipe{filtered.length !== 1 ? "s" : ""}
+        {t("count", { count: filtered.length })}
         {search && ` matching "${search}"`}
       </p>
 
@@ -87,7 +90,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
         {filtered.map((recipe) => (
           <StaggerItem key={recipe.slug}>
             <Link
-              href={`/recipes/${recipe.slug}/`}
+              href={`/${locale}/recipes/${recipe.slug}/`}
               className="flex flex-col bg-surface border border-border rounded-lg p-6 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5 h-full"
             >
               <div className="flex gap-2 mb-3">
@@ -122,7 +125,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
 
       {filtered.length === 0 && (
         <p className="text-muted text-center py-12">
-          No recipes found. Try a different search term.
+          {t("no_results")}
         </p>
       )}
     </div>

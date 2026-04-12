@@ -22,7 +22,7 @@ export default async function SupportPage({
     <main className="min-h-screen">
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link
-          href="/"
+          href={`/${locale}/`}
           className="text-sm text-muted hover:text-accent transition-colors !no-underline !border-none"
         >
           &larr; Back to wiki
