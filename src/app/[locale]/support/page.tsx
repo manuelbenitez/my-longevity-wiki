@@ -58,8 +58,12 @@ export default async function SupportPage({
 
         <div className="space-y-6 mb-12">
           <div className="flex gap-4">
-            <div className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-lg shrink-0">
-              📚
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M4 19V5c0-1 1-2 2-2h8l6 6v10c0 1-1 2-2 2H6c-1 0-2-1-2-2z"/>
+                <path d="M14 3v6h6"/>
+                <path d="M8 13h8M8 17h5"/>
+              </svg>
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
@@ -76,8 +80,11 @@ export default async function SupportPage({
           </div>
 
           <div className="flex gap-4">
-            <div className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-lg shrink-0">
-              🌐
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
@@ -92,8 +99,12 @@ export default async function SupportPage({
           </div>
 
           <div className="flex gap-4">
-            <div className="w-10 h-10 rounded-full bg-surface border border-border flex items-center justify-center text-lg shrink-0">
-              🔬
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="8" r="5"/>
+                <path d="M12 13v8"/>
+                <path d="M8 17h8"/>
+              </svg>
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
@@ -186,8 +197,10 @@ export default async function SupportPage({
             rel="noopener noreferrer"
             className="flex items-center gap-4 border border-border rounded-lg p-5 bg-surface hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
           >
-            <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent text-lg shrink-0">
-              &lt;/&gt;
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3.1-.4 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.8 1s-1.3-.4-4.2 1.6a14.6 14.6 0 0 0-7.6 0C5.1.6 3.8 1 3.8 1a5 5 0 0 0-.2 3.8 5.4 5.4 0 0 0-1.4 3.7c0 5.5 3.3 6.6 6.4 7a3.4 3.4 0 0 0-1 2.6V22"/>
+              </svg>
             </div>
             <div>
               <h3 className="font-display text-lg font-normal text-text mb-0.5">
@@ -206,8 +219,10 @@ export default async function SupportPage({
             rel="noopener noreferrer"
             className="flex items-center gap-4 border border-border rounded-lg p-5 bg-surface hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
           >
-            <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent text-lg shrink-0">
-              &lt;/&gt;
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.9a3.4 3.4 0 0 0-1-2.6c3.1-.4 6.4-1.5 6.4-7A5.4 5.4 0 0 0 20 4.8 5 5 0 0 0 19.8 1s-1.3-.4-4.2 1.6a14.6 14.6 0 0 0-7.6 0C5.1.6 3.8 1 3.8 1a5 5 0 0 0-.2 3.8 5.4 5.4 0 0 0-1.4 3.7c0 5.5 3.3 6.6 6.4 7a3.4 3.4 0 0 0-1 2.6V22"/>
+              </svg>
             </div>
             <div>
               <h3 className="font-display text-lg font-normal text-text mb-0.5">
