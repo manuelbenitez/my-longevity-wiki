@@ -106,6 +106,37 @@ export default function SupportPage() {
           How to support
         </h2>
 
+        {/* Buy Me a Coffee */}
+        <div className="border border-border rounded-lg p-8 bg-surface mb-6">
+          <h3 className="font-display text-lg font-normal mb-1">
+            Buy Me a Coffee
+          </h3>
+          <p className="text-sm text-muted mb-4">
+            One-time or monthly. Credit card, Apple Pay, Google Pay. No
+            account needed.
+          </p>
+          <a
+            href="https://buymeacoffee.com/longevity.wiki"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 border border-accent text-accent px-6 py-3 rounded-sm text-sm font-semibold hover:bg-accent/10 transition-all duration-200 !no-underline !border-b-accent"
+          >
+            Buy Me a Coffee
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M6 3l5 5-5 5" />
+            </svg>
+          </a>
+        </div>
+
         {/* Crypto */}
         <div className="border border-border rounded-lg p-8 bg-surface mb-12">
           <h3 className="font-display text-lg font-normal mb-1">

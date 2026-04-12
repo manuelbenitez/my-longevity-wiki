@@ -103,9 +103,9 @@ If you want to add a new ingredient or recipe, the easiest path is to use the [l
 
 This project is maintained by one person. If you find it useful, consider donating:
 
-**ETH / EVM:** `0x8b930D725e7D4CE7442b9BdCe4c470cf7beDda72`
+**Buy Me a Coffee:** [buymeacoffee.com/longevity.wiki](https://buymeacoffee.com/longevity.wiki)
 
-Ethereum, Polygon, Arbitrum, Optimism, Base, or any EVM chain.
+**ETH / EVM:** `0x8b930D725e7D4CE7442b9BdCe4c470cf7beDda72` (Ethereum, Polygon, Arbitrum, Optimism, Base)
 
 ## License
 
