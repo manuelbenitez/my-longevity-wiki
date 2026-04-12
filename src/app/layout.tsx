@@ -91,9 +91,7 @@ export default function RootLayout({
         <Footer />
         <BackToTop />
       </body>
-      {process.env.NEXT_PUBLIC_GA_ID && (
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-      )}
+      <GoogleAnalytics gaId="G-TEEYF701CL" />
     </html>
   );
 }
