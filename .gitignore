@@ -1,0 +1,8 @@
+# Book source material - DO NOT commit (copyright)
+data/book-raw/
+data/book-extracts/_raw-chapter-*.txt
+
+# System
+.DS_Store
+*.swp
+.env
