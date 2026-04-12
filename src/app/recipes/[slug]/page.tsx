@@ -63,14 +63,20 @@ export default async function RecipePage({
         {/* Longevity ingredients */}
         {frontmatter.longevity_ingredients && (
           <div className="flex gap-2 flex-wrap mb-12">
-            {frontmatter.longevity_ingredients.map((ing) => (
-              <span
-                key={ing}
-                className="text-xs border border-accent/30 bg-accent/5 rounded-sm px-2 py-1 text-accent font-medium"
-              >
-                {ing}
-              </span>
-            ))}
+            {frontmatter.longevity_ingredients.map((ing) => {
+              const label = ing
+                .split("-")
+                .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+                .join(" ");
+              return (
+                <span
+                  key={ing}
+                  className="text-xs font-semibold border border-accent/30 bg-accent/5 rounded-sm px-3 py-1.5 text-accent"
+                >
+                  {label}
+                </span>
+              );
+            })}
           </div>
         )}
 

@@ -84,30 +84,38 @@ export default async function IngredientPage({
                 <Link
                   key={recipe.slug}
                   href={`/recipes/${recipe.slug}/`}
-                  className="block bg-surface border border-border rounded-lg p-5 !border-b-border hover:!border-accent transition-colors duration-200 !no-underline"
+                  className="block bg-surface border border-border rounded-lg p-5 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div>
-                      <h3 className="font-display text-lg font-normal text-text mb-1">
+                      <h3 className="font-display text-lg font-normal text-text mb-2">
                         {recipe.frontmatter.title}
                       </h3>
                       <div className="flex gap-2 flex-wrap">
                         {recipe.frontmatter.longevity_ingredients
                           ?.slice(0, 5)
-                          .map((ing) => (
-                            <span
-                              key={ing}
-                              className={`text-xs rounded-sm px-2 py-0.5 ${
-                                ing === slug ||
-                                slug.includes(ing) ||
-                                ing.includes(slug.split("-")[0])
-                                  ? "border border-accent/30 bg-accent/5 text-accent font-medium"
-                                  : "border border-border text-muted"
-                              }`}
-                            >
-                              {ing}
-                            </span>
-                          ))}
+                          .map((ing) => {
+                            const label = ing
+                              .split("-")
+                              .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                              .join(" ");
+                            const isCurrentIngredient =
+                              ing === slug ||
+                              slug.includes(ing) ||
+                              ing.includes(slug.split("-")[0]);
+                            return (
+                              <span
+                                key={ing}
+                                className={`text-xs font-semibold rounded-sm px-3 py-1.5 ${
+                                  isCurrentIngredient
+                                    ? "border border-accent/30 bg-accent/5 text-accent"
+                                    : "border border-border text-muted"
+                                }`}
+                              >
+                                {label}
+                              </span>
+                            );
+                          })}
                       </div>
                     </div>
                     <div className="flex gap-2 shrink-0">
