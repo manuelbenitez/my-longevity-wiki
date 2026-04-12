@@ -3,6 +3,7 @@ import { Fraunces, Instrument_Sans } from "next/font/google";
 import { BackToTop } from "@/components/back-to-top";
 import { Nav } from "@/components/nav";
 import { SmoothScroll } from "@/components/smooth-scroll";
+import { ScrollToTop } from "@/components/scroll-to-top";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -35,6 +36,7 @@ export default function RootLayout({
     >
       <body>
         <SmoothScroll />
+        <ScrollToTop />
         <Nav />
         {children}
         <BackToTop />

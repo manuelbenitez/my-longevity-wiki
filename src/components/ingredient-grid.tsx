@@ -106,31 +106,17 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
           <Link
             key={entry.slug}
             href={`/ingredients/${entry.slug}/`}
-            className="group block bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5"
+            className="group flex flex-col items-center bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5 h-full"
           >
-            <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-bg border border-border flex items-center justify-center text-muted text-lg">
+            <div className="w-12 h-12 mb-4 rounded-full bg-bg border border-border flex items-center justify-center text-muted text-lg">
               {CATEGORY_EMOJI[entry.category] || "🌿"}
             </div>
             <h3 className="font-display text-lg font-normal mb-1 text-text">
               {entry.title}
             </h3>
-            <div className="text-xs text-muted uppercase tracking-wide mb-3">
+            <div className="text-xs text-muted uppercase tracking-wide mt-auto">
               {CATEGORY_LABELS[entry.category] || entry.category}
             </div>
-            {entry.longevity_score > 0 && (
-              <div className="flex items-center justify-center gap-1.5" title="Evidence strength for longevity benefits">
-                <div className="flex gap-0.5">
-                  {Array.from({ length: 10 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className={`w-1.5 h-1.5 rounded-full ${
-                        i < entry.longevity_score ? "bg-accent" : "bg-border"
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-            )}
           </Link>
           </StaggerItem>
         ))}
