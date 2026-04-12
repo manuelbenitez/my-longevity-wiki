@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 };
 
 const CRYPTO_ADDRESS = "0x8b930D725e7D4CE7442b9BdCe4c470cf7beDda72";
-const BUY_ME_COFFEE_URL = "https://buymeacoffee.com/longevitywiki"; // Update with real URL
 
 export default function SupportPage() {
   return (
@@ -105,44 +104,6 @@ export default function SupportPage() {
         <h2 className="font-display text-2xl font-normal mb-6">
           How to support
         </h2>
-
-        {/* Buy Me a Coffee */}
-        <div className="border border-border rounded-lg p-8 bg-surface mb-6">
-          <div className="flex items-start justify-between gap-4 mb-4">
-            <div>
-              <h3 className="font-display text-lg font-normal mb-1">
-                Buy Me a Coffee
-              </h3>
-              <p className="text-sm text-muted">
-                One-time or monthly. Credit card, Apple Pay, Google Pay. No
-                account needed.
-              </p>
-            </div>
-            <span className="shrink-0 text-xs font-semibold bg-accent/10 text-accent border border-accent/20 rounded-sm px-3 py-1.5">
-              Recommended
-            </span>
-          </div>
-          <a
-            href={BUY_ME_COFFEE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border border-accent text-accent px-6 py-3 rounded-sm text-sm font-semibold hover:bg-accent/10 transition-all duration-200 !no-underline !border-b-accent"
-          >
-            Support the Wiki
-            <svg
-              width="14"
-              height="14"
-              viewBox="0 0 16 16"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M6 3l5 5-5 5" />
-            </svg>
-          </a>
-        </div>
 
         {/* Crypto */}
         <div className="border border-border rounded-lg p-8 bg-surface mb-12">
