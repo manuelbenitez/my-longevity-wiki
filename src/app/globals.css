@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg: #F5F0EB;
   --surface: #FDFBF8;
@@ -45,6 +49,49 @@ a {
 }
 a:hover {
   border-color: var(--accent);
+}
+
+/* All clickable elements get pointer */
+a, button, [role="button"], input[type="submit"], input[type="button"], .cursor-pointer {
+  cursor: pointer;
+}
+
+/* Entrance animation for cards and content */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.4s ease-out both;
+}
+
+/* Stagger children animations */
+.stagger-children > * {
+  animation: fadeUp 0.4s ease-out both;
+}
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 30ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 60ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 90ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 120ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 150ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 180ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 210ms; }
+.stagger-children > *:nth-child(n+9) { animation-delay: 240ms; }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .stagger-children > * {
+    animation: none;
+  }
 }
 
 /* Fraunces headings */

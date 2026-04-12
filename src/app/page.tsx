@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <header className="max-w-[680px] mx-auto px-6 pt-24 pb-16">
+      <header className="max-w-[680px] mx-auto px-6 pt-24 pb-16 animate-fade-up">
         <p className="text-muted text-xs font-medium tracking-[0.15em] uppercase mb-4">
           Science-backed food encyclopedia
         </p>
@@ -72,12 +72,12 @@ export default function Home() {
           <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
             Recipes
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
             {recipes.map((recipe) => (
               <Link
                 key={recipe.slug}
                 href={`/recipes/${recipe.slug}/`}
-                className="block bg-surface border border-border rounded-lg p-6 !border-b-border hover:!border-accent transition-colors duration-200 !no-underline"
+                className="block bg-surface border border-border rounded-lg p-6 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
               >
                 <div className="flex gap-2 mb-3">
                   {recipe.frontmatter.prep_time && (

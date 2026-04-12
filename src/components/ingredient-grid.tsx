@@ -11,6 +11,20 @@ interface IngredientCard {
   tags: string[];
 }
 
+const CATEGORY_EMOJI: Record<string, string> = {
+  vegetable: "🥬",
+  fruit: "🍎",
+  legume: "🫘",
+  grain: "🌾",
+  nut: "🥜",
+  seed: "🌱",
+  spice: "🌶",
+  herb: "🌿",
+  oil_condiment: "🫒",
+  fish_seafood: "🐟",
+  beverage: "🍵",
+};
+
 const CATEGORY_LABELS: Record<string, string> = {
   all: "All",
   vegetable: "Vegetables",
@@ -85,14 +99,16 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
       </p>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 stagger-children">
         {filtered.map((entry) => (
           <Link
             key={entry.slug}
             href={`/ingredients/${entry.slug}/`}
-            className="block bg-surface border border-border rounded-lg p-6 text-center !border-b-border hover:!border-accent transition-colors duration-200 !no-underline"
+            className="group block bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5"
           >
-            <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-bg border border-border" />
+            <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-bg border border-border flex items-center justify-center text-muted text-lg">
+              {CATEGORY_EMOJI[entry.category] || "🌿"}
+            </div>
             <h3 className="font-display text-lg font-normal mb-1 text-text">
               {entry.title}
             </h3>
@@ -100,9 +116,18 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
               {CATEGORY_LABELS[entry.category] || entry.category}
             </div>
             {entry.longevity_score > 0 && (
-              <span className="inline-block text-xs font-semibold text-accent" title="Evidence strength for longevity benefits">
-                Evidence: {entry.longevity_score}/10
-              </span>
+              <div className="flex items-center justify-center gap-1.5" title="Evidence strength for longevity benefits">
+                <div className="flex gap-0.5">
+                  {Array.from({ length: 10 }).map((_, i) => (
+                    <div
+                      key={i}
+                      className={`w-1.5 h-1.5 rounded-full ${
+                        i < entry.longevity_score ? "bg-accent" : "bg-border"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
             )}
           </Link>
         ))}
