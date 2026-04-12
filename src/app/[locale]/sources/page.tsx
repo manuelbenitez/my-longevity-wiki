@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 
 const SOURCES = [
@@ -24,7 +25,13 @@ const SOURCES = [
   },
 ];
 
-export default function SourcesPage() {
+export default async function SourcesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <main className="min-h-screen">
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">

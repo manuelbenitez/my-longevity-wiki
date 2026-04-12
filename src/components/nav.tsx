@@ -1,7 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { LanguageToggle } from "@/components/language-toggle";
 
 export function Nav() {
+  const t = useTranslations("nav");
+
   return (
     <nav className="sticky top-0 z-40 bg-bg/90 backdrop-blur-sm border-b border-border">
       <div className="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
@@ -17,26 +21,27 @@ export function Nav() {
             href="/#ingredients"
             className="text-sm text-muted hover:text-accent !no-underline !border-none transition-colors"
           >
-            Ingredients
+            {t("ingredients")}
           </Link>
           <Link
             href="/#recipes"
             className="text-sm text-muted hover:text-accent !no-underline !border-none transition-colors"
           >
-            Recipes
+            {t("recipes")}
           </Link>
           <Link
             href="/sources/"
             className="text-sm text-muted hover:text-accent !no-underline !border-none transition-colors"
           >
-            Sources
+            {t("sources")}
           </Link>
           <Link
             href="/support/"
             className="text-sm font-semibold text-accent hover:text-accent-hover !no-underline !border-none transition-colors"
           >
-            Support
+            {t("support")}
           </Link>
+          <LanguageToggle />
         </div>
       </div>
     </nav>

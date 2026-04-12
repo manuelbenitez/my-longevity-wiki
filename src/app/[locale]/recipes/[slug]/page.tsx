@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 import { getAllRecipeSlugs, getRecipe } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
@@ -11,7 +12,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
   const recipe = getRecipe(slug);
@@ -42,9 +43,10 @@ export async function generateMetadata({
 export default async function RecipePage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
+  setRequestLocale(locale);
   const recipe = getRecipe(slug);
   if (!recipe) notFound();
 

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "ingredients": "Ingredientes",
+    "recipes": "Recetas",
+    "sources": "Fuentes",
+    "support": "Apoyar"
+  },
+  "home": {
+    "tagline": "La ciencia de comer bien, vivir mas.",
+    "description": "{count} ingredientes estudiados por su efecto en el envejecimiento saludable. Basado en investigacion cientifica revisada por pares.",
+    "ingredients_label": "Ingredientes",
+    "recipes_label": "Recetas",
+    "section_ingredients": "Ingredientes",
+    "section_recipes": "Recetas"
+  },
+  "ingredients": {
+    "search": "Buscar ingredientes...",
+    "all": "Todos",
+    "count": "{count} {count, plural, one {ingrediente} other {ingredientes}}",
+    "in_category": "en {category}",
+    "matching": "que coinciden con \"{query}\"",
+    "no_results": "No se encontraron ingredientes. Prueba con otro filtro o termino de busqueda.",
+    "back": "Volver al wiki",
+    "recipes_with": "Recetas con {name}"
+  },
+  "recipes": {
+    "search": "Buscar recetas o ingredientes...",
+    "all": "Todas",
+    "count": "{count} {count, plural, one {receta} other {recetas}}",
+    "no_results": "No se encontraron recetas. Prueba con otro termino de busqueda.",
+    "back": "Volver al wiki",
+    "prep": "Prep: {time}",
+    "cook": "Coccion: {time}",
+    "servings": "{count} porciones"
+  },
+  "sources": {
+    "title": "Fuentes",
+    "description": "Cada afirmacion en este wiki esta respaldada por investigacion cientifica revisada por pares. Estos son los libros y publicaciones que hemos analizado, verificado y estructurado en la base de datos de ingredientes.",
+    "active": "Activo",
+    "ingredients_extracted": "Ingredientes Extraidos",
+    "health_claims": "Afirmaciones de Salud",
+    "chapters_parsed": "Capitulos Analizados",
+    "chapters_used": "Capitulos Utilizados",
+    "coming_soon": "Mas fuentes proximamente",
+    "coming_soon_description": "Estamos analizando activamente investigacion adicional sobre longevidad, incluyendo obras de Valter Longo, Peter Attia y Dan Buettner."
+  },
+  "support": {
+    "title": "Apoya el Wiki",
+    "pledge_title": "Nuestra promesa",
+    "pledge_body": "Longevity Wiki nunca tendra publicidad. Sin contenido patrocinado. Sin enlaces de afiliados disfrazados de recomendaciones. Sin muros de pago. Sin recopilacion de datos.",
+    "pledge_sub": "Cada articulo de ingrediente y receta esta escrito basandose en ciencia revisada por pares, no en quien paga mas. Asi es como deberia funcionar la informacion nutricional.",
+    "where_title": "A donde va tu donacion",
+    "books_title": "Comprar el proximo libro",
+    "books_description": "Cada libro de investigacion sobre longevidad que analizamos se convierte en 50-100 nuevos articulos de ingredientes y docenas de recetas respaldadas por la ciencia.",
+    "hosting_title": "Mantener el sitio funcionando",
+    "hosting_description": "Registro de dominio, hosting y algun cafe para la persona que mantiene esto.",
+    "research_title": "Mejorar la investigacion",
+    "research_description": "Verificar afirmaciones con estudios de PubMed, verificar mecanismos, actualizar articulos cuando sale nueva investigacion.",
+    "how_title": "Como apoyar",
+    "bmc_title": "Buy Me a Coffee",
+    "bmc_description": "Unico o mensual. Tarjeta de credito, Apple Pay, Google Pay. No necesitas cuenta.",
+    "bmc_button": "Buy Me a Coffee",
+    "crypto_title": "Crypto (ETH / EVM)",
+    "crypto_description": "Envia ETH o cualquier token compatible con EVM a esta direccion.",
+    "crypto_networks": "Ethereum, Polygon, Arbitrum, Optimism, Base, o cualquier cadena EVM.",
+    "recent_donations": "Donaciones recientes",
+    "contribute_title": "Apoyar no solo significa dinero",
+    "contribute_description": "Este es un proyecto de codigo abierto. Puedes ayudar mejorando las habilidades de extraccion de ingredientes, agregando nuevos datos, corrigiendo errores o escribiendo mejores articulos. Cada pull request hace que el wiki sea mejor para todos.",
+    "wiki_repo": "Longevity Wiki",
+    "wiki_repo_description": "El sitio web, articulos y recetas. Agrega ingredientes, corrige contenido, mejora el diseno.",
+    "skills_repo": "Longevity Skills",
+    "skills_repo_description": "Las habilidades de Claude Code que extraen, investigan y generan contenido. Mejora el pipeline, agrega nuevos analizadores de libros."
+  },
+  "footer": {
+    "description": "Enciclopedia de alimentos de codigo abierto basada en investigacion cientifica sobre longevidad."
+  },
+  "categories": {
+    "vegetable": "Vegetales",
+    "fruit": "Frutas",
+    "legume": "Legumbres",
+    "grain": "Granos",
+    "nut": "Frutos Secos",
+    "seed": "Semillas",
+    "spice": "Especias",
+    "herb": "Hierbas",
+    "oil_condiment": "Aceites",
+    "fish_seafood": "Pescados",
+    "beverage": "Bebidas"
+  }
+}

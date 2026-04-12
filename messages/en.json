@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "ingredients": "Ingredients",
+    "recipes": "Recipes",
+    "sources": "Sources",
+    "support": "Support"
+  },
+  "home": {
+    "tagline": "The science of eating well, living longer.",
+    "description": "{count} ingredients studied for their effect on healthy aging. Grounded in peer-reviewed research from multiple sources.",
+    "ingredients_label": "Ingredients",
+    "recipes_label": "Recipes",
+    "section_ingredients": "Ingredients",
+    "section_recipes": "Recipes"
+  },
+  "ingredients": {
+    "search": "Search ingredients...",
+    "all": "All",
+    "count": "{count} {count, plural, one {ingredient} other {ingredients}}",
+    "in_category": "in {category}",
+    "matching": "matching \"{query}\"",
+    "no_results": "No ingredients found. Try a different filter or search term.",
+    "back": "Back to wiki",
+    "recipes_with": "Recipes with {name}"
+  },
+  "recipes": {
+    "search": "Search recipes or ingredients...",
+    "all": "All",
+    "count": "{count} {count, plural, one {recipe} other {recipes}}",
+    "no_results": "No recipes found. Try a different search term.",
+    "back": "Back to wiki",
+    "prep": "Prep: {time}",
+    "cook": "Cook: {time}",
+    "servings": "{count} servings"
+  },
+  "sources": {
+    "title": "Sources",
+    "description": "Every claim in this wiki is grounded in peer-reviewed research. These are the books and publications we have parsed, verified, and structured into the ingredient database.",
+    "active": "Active",
+    "ingredients_extracted": "Ingredients Extracted",
+    "health_claims": "Health Claims",
+    "chapters_parsed": "Chapters Parsed",
+    "chapters_used": "Chapters Used",
+    "coming_soon": "More sources coming soon",
+    "coming_soon_description": "We are actively parsing additional longevity research including works by Valter Longo, Peter Attia, and Dan Buettner."
+  },
+  "support": {
+    "title": "Support the Wiki",
+    "pledge_title": "Our promise to you",
+    "pledge_body": "Longevity Wiki will never run advertising. No sponsored content. No affiliate links disguised as recommendations. No paywalls. No data collection.",
+    "pledge_sub": "Every ingredient article and recipe is written based on peer-reviewed science, not whoever pays the most. This is how nutrition information should work.",
+    "where_title": "Where your donation goes",
+    "books_title": "Buy the next book",
+    "books_description": "Each longevity research book we parse becomes 50-100 new ingredient articles and dozens of science-backed recipes.",
+    "hosting_title": "Keep the site running",
+    "hosting_description": "Domain registration, hosting, and the occasional coffee for the person maintaining this.",
+    "research_title": "Improve the research",
+    "research_description": "Cross-referencing claims with PubMed studies, verifying mechanisms, updating articles when new research comes out.",
+    "how_title": "How to support",
+    "bmc_title": "Buy Me a Coffee",
+    "bmc_description": "One-time or monthly. Credit card, Apple Pay, Google Pay. No account needed.",
+    "bmc_button": "Buy Me a Coffee",
+    "crypto_title": "Crypto (ETH / EVM)",
+    "crypto_description": "Send ETH or any EVM-compatible token to this address.",
+    "crypto_networks": "Ethereum, Polygon, Arbitrum, Optimism, Base, or any EVM chain.",
+    "recent_donations": "Recent donations",
+    "contribute_title": "Support doesn't only mean money",
+    "contribute_description": "This is an open source project. You can help by improving the ingredient extraction skills, adding new data, fixing bugs, or writing better wiki articles. Every pull request makes the wiki better for everyone.",
+    "wiki_repo": "Longevity Wiki",
+    "wiki_repo_description": "The website, articles, and recipes. Add ingredients, fix content, improve the design.",
+    "skills_repo": "Longevity Skills",
+    "skills_repo_description": "The Claude Code skills that extract, research, and generate content. Improve the pipeline, add new book parsers."
+  },
+  "footer": {
+    "description": "Open source food encyclopedia grounded in peer-reviewed longevity research."
+  },
+  "categories": {
+    "vegetable": "Vegetables",
+    "fruit": "Fruits",
+    "legume": "Legumes",
+    "grain": "Grains",
+    "nut": "Nuts",
+    "seed": "Seeds",
+    "spice": "Spices",
+    "herb": "Herbs",
+    "oil_condiment": "Oils",
+    "fish_seafood": "Fish",
+    "beverage": "Beverages"
+  }
+}

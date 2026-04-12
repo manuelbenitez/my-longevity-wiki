@@ -1,8 +1,15 @@
+import { setRequestLocale } from "next-intl/server";
 import { getIndividualIngredients, getAllRecipes } from "@/lib/data";
 import { IngredientGrid } from "@/components/ingredient-grid";
 import { RecipeGrid } from "@/components/recipe-grid";
 
-export default function Home() {
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const wikiEntries = getIndividualIngredients();
   const recipes = getAllRecipes();
 
