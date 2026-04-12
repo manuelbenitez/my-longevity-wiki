@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- sesame-seeds -->
+  <ellipse cx="20" cy="26" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="32" cy="22" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="44" cy="26" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="26" cy="38" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="38" cy="36" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="32" cy="48" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="20" cy="46" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="44" cy="44" rx="3" ry="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+</svg>

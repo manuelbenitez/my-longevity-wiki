@@ -161,6 +161,59 @@ export default function SupportPage() {
           <DonationFeed />
         </div>
 
+        {/* Contribute */}
+        <h2 className="font-display text-2xl font-normal mb-6">
+          Support doesn&apos;t only mean money
+        </h2>
+        <p className="leading-relaxed mb-6">
+          This is an open source project. You can help by improving the
+          ingredient extraction skills, adding new data, fixing bugs, or
+          writing better wiki articles. Every pull request makes the wiki
+          better for everyone.
+        </p>
+
+        <div className="space-y-4 mb-12">
+          <a
+            href="https://github.com/manuelbenitez/my-longevity-wiki"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 border border-border rounded-lg p-5 bg-surface hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
+          >
+            <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent text-lg shrink-0">
+              &lt;/&gt;
+            </div>
+            <div>
+              <h3 className="font-display text-lg font-normal text-text mb-0.5">
+                Longevity Wiki
+              </h3>
+              <p className="text-sm text-muted">
+                The website, articles, and recipes. Add ingredients, fix content,
+                improve the design.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/manuelbenitez/longevity-skills"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 border border-border rounded-lg p-5 bg-surface hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
+          >
+            <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center text-accent text-lg shrink-0">
+              &lt;/&gt;
+            </div>
+            <div>
+              <h3 className="font-display text-lg font-normal text-text mb-0.5">
+                Longevity Skills
+              </h3>
+              <p className="text-sm text-muted">
+                The Claude Code skills that extract, research, and generate
+                content. Improve the pipeline, add new book parsers.
+              </p>
+            </div>
+          </a>
+        </div>
+
       </article>
     </main>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 
@@ -108,8 +109,15 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
             href={`/ingredients/${entry.slug}/`}
             className="group flex flex-col items-center bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5 h-full"
           >
-            <div className="w-12 h-12 mb-4 rounded-full bg-bg border border-border flex items-center justify-center text-muted text-lg">
-              {CATEGORY_EMOJI[entry.category] || "🌿"}
+            <div className="w-12 h-12 mb-4 flex items-center justify-center">
+              <Image
+                src={`/icons/${entry.slug}.svg`}
+                alt=""
+                width={48}
+                height={48}
+                className="opacity-70 group-hover:opacity-100 transition-opacity"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+              />
             </div>
             <h3 className="font-display text-lg font-normal mb-1 text-text">
               {entry.title}
