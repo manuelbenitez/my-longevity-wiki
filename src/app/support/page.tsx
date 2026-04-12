@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { DonationFeed } from "@/components/donation-feed";
 
 export const metadata: Metadata = {
   title: "Support the Wiki",
@@ -119,6 +120,14 @@ export default function SupportPage() {
           <p className="text-xs text-muted mt-3">
             Ethereum, Polygon, Arbitrum, Optimism, Base, or any EVM chain.
           </p>
+        </div>
+
+        {/* Donation Feed */}
+        <div className="mb-12">
+          <h2 className="font-display text-2xl font-normal mb-6">
+            Recent donations
+          </h2>
+          <DonationFeed />
         </div>
 
         {/* Thank you */}
