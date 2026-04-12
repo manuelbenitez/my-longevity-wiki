@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Nav() {
   return (
@@ -6,8 +7,9 @@ export function Nav() {
       <div className="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
         <Link
           href="/"
-          className="font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
+          className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
         >
+          <Image src="/logo.svg" alt="" width={28} height={28} className="shrink-0" />
           Longevity Wiki
         </Link>
         <div className="flex items-center gap-6">
