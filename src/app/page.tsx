@@ -57,7 +57,7 @@ export default function Home() {
       <div className="border-t border-border" />
 
       {/* Filterable Ingredient Grid */}
-      <section className="max-w-[1200px] mx-auto px-6 py-16">
+      <section id="ingredients" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
         <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
           Ingredients
         </p>
@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Recipes */}
       {recipes.length > 0 && (
-        <section className="max-w-[1200px] mx-auto px-6 py-16">
+        <section id="recipes" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
           <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
             Recipes
           </p>
