@@ -139,9 +139,19 @@ h1, h2, h3, h4 {
 }
 .wiki-content table {
   width: 100%;
+  min-width: 500px;
   border-collapse: collapse;
   font-size: 14px;
   margin-bottom: 24px;
+}
+/* Scrollable table wrapper for mobile */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 24px;
+}
+.table-scroll table {
+  margin-bottom: 0;
 }
 .wiki-content th {
   text-align: left;

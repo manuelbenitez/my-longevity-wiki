@@ -9,5 +9,9 @@ export async function markdownToHtml(content: string): Promise<string> {
     .use(remarkGfm)
     .use(remarkHtml, { sanitize: false })
     .process(stripped);
-  return result.toString();
+  // Wrap tables in scrollable div for mobile
+  return result
+    .toString()
+    .replace(/<table>/g, '<div class="table-scroll"><table>')
+    .replace(/<\/table>/g, '</table></div>');
 }
