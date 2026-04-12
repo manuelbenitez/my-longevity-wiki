@@ -1,5 +1,12 @@
 import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Sources — Peer-Reviewed Research Behind the Wiki",
+  description:
+    "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Currently featuring Professor Luigi Fontana's longevity research.",
+};
 
 const SOURCES = [
   {
