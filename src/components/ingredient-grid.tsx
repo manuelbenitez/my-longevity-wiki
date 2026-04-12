@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 
 interface IngredientCard {
   slug: string;
@@ -99,8 +100,9 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
       </p>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 stagger-children">
+      <StaggerGrid className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" key={active + search}>
         {filtered.map((entry) => (
+          <StaggerItem key={entry.slug}>
           <Link
             key={entry.slug}
             href={`/ingredients/${entry.slug}/`}
@@ -130,8 +132,9 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
               </div>
             )}
           </Link>
+          </StaggerItem>
         ))}
-      </div>
+      </StaggerGrid>
 
       {filtered.length === 0 && (
         <p className="text-muted text-center py-12">
