@@ -1,0 +1,113 @@
+{
+  "name": "Brown Rice",
+  "slug": "brown-rice",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Induces greater satiety than white rice, making overeating difficult",
+      "mechanism": "Fibre-rich cell wall slows gastric emptying and small bowel transit, triggering early satiety signals",
+      "study_ref": "book-assertion",
+      "confidence": "medium",
+      "_from_chapter": 5
+    },
+    {
+      "claim": "Contains 3x more fibre than white rice (3g vs 1g per cup)",
+      "mechanism": "Fibre-rich cell wall restricts rate of starch digestion and absorption; slow glucose release reduces insulin spikes",
+      "study_ref": "Table 3 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Part of a sample daily diet providing 73g fibre in only 1886 kcal with complete nutrition",
+      "mechanism": "2 cups brown rice + 1 cup lentils + 20 almonds + vegetables + fruit + olive oil + flax seeds = 73g fibre, 76g protein, 64g fat",
+      "study_ref": "Author's calculated example diet",
+      "confidence": "high",
+      "_from_chapter": 7
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20548009/",
+      "finding": "A 2010 study in Archives of Internal Medicine (PMID 20548009) found that replacing 50g/day of white rice with brown rice was associated with a 16% lower risk of type 2 diabetes. Replacing the same amount with whole grains reduced risk by 36%.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24158434/",
+      "finding": "A 2014 RCT (Br J Nutr, PMID 24158434) found that substituting brown rice for white rice significantly reduced postprandial blood glucose and insulin in overweight Asian Indians, consistent with the book's glycemic control claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (systematic review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31619630/",
+      "finding": "A 2019 systematic review (Nutrients, PMID 31619630) found that brown rice consumption was associated with improved glycemic control, lipid profiles, and body weight management compared to white rice across multiple trials.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27301975/",
+      "finding": "A 2016 BMJ meta-analysis (PMID 27301975) found whole grain intake associated with dose-dependent reductions in CVD mortality, cancer mortality, and all-cause mortality.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "slightly sweet", "earthy", "mild"],
+    "aroma": ["toasty", "grain-forward", "slightly grassy"],
+    "texture": ["chewy", "firm", "slightly sticky"],
+    "culinary_category": "whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lentils", "tradition": "Indian / Middle Eastern", "source": "Classic combination for complete protein (mujaddara, dal-chawal)"},
+    {"ingredient": "sesame oil", "tradition": "East Asian", "source": "Nutty fat complements grain flavor; improves nutrient absorption"},
+    {"ingredient": "vegetables (stir-fried)", "tradition": "East Asian", "source": "Foundation of bibimbap, fried rice, grain bowls"},
+    {"ingredient": "miso", "tradition": "Japanese", "source": "Traditional genmai with miso soup for balanced meal"},
+    {"ingredient": "turmeric", "tradition": "Indian / Southeast Asian", "source": "Anti-inflammatory spice in pilaf and biryani preparations"},
+    {"ingredient": "black beans", "tradition": "Latin American", "source": "Classic rice and beans for complete protein"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Healthy fat slows carbohydrate absorption"}
+  ],
+  "seasonality": "Available year-round as a dried pantry staple. Short-grain, long-grain, and basmati varieties each suit different preparations.",
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "3.5 g (cooked); 10.0 g (raw)",
+      "bioavailability_notes": "Three times the fiber of white rice. Mix of soluble and insoluble fiber supports gut microbiome diversity."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "1.97 mg (86% RDA, raw)",
+      "bioavailability_notes": "Cofactor for superoxide dismutase and other antioxidant enzymes. Partially reduced by phytic acid but still significant."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "143 mg (34% RDA, raw)",
+      "bioavailability_notes": "Important for insulin sensitivity and over 300 enzymatic reactions. Lost in white rice milling."
+    },
+    {
+      "compound": "Gamma-oryzanol",
+      "amount_per_100g": "30-60 mg (in bran layer)",
+      "bioavailability_notes": "Unique to rice bran. Reduces cholesterol absorption and has antioxidant activity. Completely absent in white rice."
+    },
+    {
+      "compound": "B vitamins (B1, B3, B6)",
+      "amount_per_100g": "B1: 0.40 mg, B3: 5.1 mg, B6: 0.51 mg",
+      "bioavailability_notes": "Concentrated in bran and germ layers removed during white rice milling. Brown rice retains 80% more B vitamins."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "lentils",
+      "type": "synergy",
+      "description": "Brown rice + lentils provides complete protein with all essential amino acids"
+    },
+    {
+      "target_ingredient": "legumes",
+      "type": "synergy",
+      "description": "Complementary amino acid profiles; grains supply methionine, legumes supply lysine"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5, 7]
+}

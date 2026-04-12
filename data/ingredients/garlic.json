@@ -1,0 +1,122 @@
+{
+  "name": "Garlic",
+  "slug": "garlic",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Provides phytochemicals with antioxidant and anti-inflammatory properties as part of Mediterranean diet pattern",
+      "mechanism": "Allicin and organosulfur compounds modulate inflammatory pathways",
+      "study_ref": "book-assertion",
+      "confidence": "low",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Regular garlic-powder intake has protective effect against hypertension and age-dependent arterial stiffening",
+      "mechanism": "When crushed, alliin is exposed to alliinase producing allicin, which lowers blood pressure and cholesterol. Diallyl sulphide inhibits bowel cancer incidence by 74% in mice.",
+      "study_ref": "Refs 62, 63, 64, 65, 66 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Associated with reduced risk of gastric, colon, prostate and endometrial cancers",
+      "mechanism": "Multiple bioactive organosulphur compounds including allicin and diallyl sulphide",
+      "study_ref": "Refs 65, 66 in book (case-controlled studies)",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/garlic/",
+      "finding": "Aged garlic extract consistently reduces blood pressure by 7-16 mmHg systolic in hypertensive individuals. Also shows reliable reductions in total and LDL cholesterol. Evidence for cancer prevention is promising but mostly observational.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed meta-analysis (Ried et al., 2008, PMID: 18554422)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18554422/",
+      "finding": "Meta-analysis of 11 RCTs found garlic supplementation significantly reduced systolic blood pressure by 4.6 mmHg and diastolic by 7.3 mmHg in hypertensive patients compared to placebo. Superior effect in hypertensive vs normotensive subjects.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed meta-analysis (Ried et al., 2013, PMID: 23590705)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23590705/",
+      "finding": "Updated meta-analysis confirmed garlic reduces blood pressure in hypertensive patients (mean reduction 8.4 mmHg systolic, 7.3 mmHg diastolic). Aged garlic extract was the most consistently effective form.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed meta-analysis (Turati et al., 2014, PMID: 25135917)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25135917/",
+      "finding": "Meta-analysis of case-control studies found high allium vegetable consumption (garlic, onion) associated with reduced risk of gastric cancer (OR 0.54, 95% CI 0.43-0.65), supporting the book's cancer risk reduction claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Matsumoto et al., 2020, PMID: 31960481)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31960481/",
+      "finding": "Aged garlic extract reduced coronary artery calcification progression and improved endothelial function, suggesting vascular anti-aging effects consistent with the book's claims about arterial stiffening prevention.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["pungent", "sharp when raw", "sweet and nutty when roasted", "savory", "umami"],
+    "aroma": ["pungent", "sulfurous", "acrid when raw", "rich and mellow when cooked"],
+    "texture": ["firm and crisp when raw", "soft and creamy when roasted", "sticky when minced"],
+    "culinary_category": "aromatic"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Foundation of aglio e olio and most Mediterranean sauces"},
+    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Classic soffritto base; synergistic anti-cancer compounds (S-allylcysteine + lycopene)"},
+    {"ingredient": "ginger", "tradition": "East Asian", "source": "Foundational aromatic duo in Chinese, Thai, and Indian cooking"},
+    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid brightens garlic's pungency in dressings and marinades"},
+    {"ingredient": "parsley", "tradition": "French / Mediterranean", "source": "Persillade (garlic + parsley) is a classic French finishing condiment"},
+    {"ingredient": "chili peppers", "tradition": "Global (Sichuan, Thai, Italian, Mexican)", "source": "Heat and pungency amplify each other across many cuisines"},
+    {"ingredient": "butter", "tradition": "French", "source": "Garlic butter (beurre a l'ail) for bread, shellfish, and vegetables"},
+    {"ingredient": "rosemary", "tradition": "Mediterranean", "source": "Classic herb pairing for roasted meats and vegetables"},
+    {"ingredient": "soy sauce", "tradition": "East Asian", "source": "Umami base for stir-fries, marinades, and dipping sauces"},
+    {"ingredient": "cumin", "tradition": "Middle Eastern / Indian", "source": "Foundational spice combination in curries, hummus, and legume dishes"}
+  ],
+  "seasonality": "Fresh garlic harvested mid-summer (July-August in Northern Hemisphere). Green/spring garlic available April-June. Cured garlic stores well and is available year-round. Black garlic is fermented and shelf-stable.",
+  "nutrient_highlights": [
+    {
+      "compound": "Allicin",
+      "amount_per_100g": "Up to 4.5 mg per crushed clove (~3g); unstable, degrades within hours",
+      "bioavailability_notes": "Formed only when alliin contacts alliinase during crushing/chopping. Destroyed by heat within minutes. Let crushed garlic sit 10 minutes before cooking to maximize allicin formation and conversion to stable thiosulfinates."
+    },
+    {
+      "compound": "S-allylcysteine (SAC)",
+      "amount_per_100g": "0.5-1.5 mg in raw garlic; 5-10 mg in aged garlic extract per gram",
+      "bioavailability_notes": "Highly bioavailable (over 90% absorption). Water-soluble and stable. Primary active compound in aged garlic extract. Synergistic with lycopene from tomatoes against gastric cancer."
+    },
+    {
+      "compound": "Diallyl disulfide (DADS)",
+      "amount_per_100g": "4-14 mg in crushed garlic",
+      "bioavailability_notes": "Oil-soluble organosulfur compound. More heat-stable than allicin. Active in cancer prevention pathways (histone deacetylase inhibition)."
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "14.2 mcg (26% RDA)",
+      "bioavailability_notes": "Garlic is one of the richest vegetable sources of selenium. Bioavailability is high as selenomethionine."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "1.67 mg (73% RDA)",
+      "bioavailability_notes": "Important cofactor for antioxidant enzyme superoxide dismutase (MnSOD)."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "Extra-Virgin Olive Oil",
+      "type": "complement",
+      "description": "Traditional pairing in Mediterranean cooking"
+    },
+    {
+      "target_ingredient": "tomatoes",
+      "type": "synergy",
+      "description": "Garlic (S-allylcysteine) + tomatoes (lycopene) inhibit stomach cancer at lower doses than either alone"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8, 9]
+}

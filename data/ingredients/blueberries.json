@@ -1,0 +1,96 @@
+{
+  "name": "Blueberries",
+  "slug": "blueberries",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Wild blueberries and blackberries contain highest phenolic phytochemical content among fruits, contributing to lower inflammation",
+      "mechanism": "Anthocyanins and proanthocyanidins with potent antioxidant and anti-inflammatory activity",
+      "study_ref": "Refs 208, 209 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31329250/",
+      "finding": "A 2019 systematic review and meta-analysis (Nutrients, PMID 31329250) of RCTs found that blueberry supplementation significantly reduced systolic blood pressure and LDL cholesterol, supporting cardiovascular benefits.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30725213/",
+      "finding": "A 2019 RCT in the American Journal of Clinical Nutrition (PMID 30725213) found that consuming 150g/day of blueberries for 6 months improved vascular function and reduced systolic blood pressure in metabolic syndrome participants, mediated by improved endothelial function.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23319811/",
+      "finding": "Nurses' Health Study and Health Professionals Follow-up Study (Circulation, 2013, PMID 23319811) found that higher anthocyanin intake (primarily from blueberries and strawberries) was associated with a 32% reduced risk of myocardial infarction in young and middle-aged women.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/foods/blueberry/",
+      "finding": "Examine.com summary: blueberries have strong evidence for improving blood pressure, cognitive function in older adults, and vascular function. Anthocyanins are the primary bioactive compounds. Benefits appear dose-dependent with 150-300g fresh blueberries daily.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis, cognitive)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31383694/",
+      "finding": "A 2019 systematic review (Nutritional Neuroscience, PMID 31383694) found that blueberry supplementation improved memory performance in older adults with mild cognitive impairment, consistent with neuroprotective effects of anthocyanins crossing the blood-brain barrier.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "tart", "mildly tannic", "fruity"],
+    "aroma": ["floral", "fruity", "wine-like", "jammy"],
+    "texture": ["juicy", "tender skin", "small seeds", "bursting"],
+    "culinary_category": "berry fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lemon", "tradition": "American/European", "source": "classic pastry tradition"},
+    {"ingredient": "yogurt", "tradition": "global", "source": "breakfast and smoothie bowl tradition"},
+    {"ingredient": "oats", "tradition": "Northern European/American", "source": "porridge and granola tradition"},
+    {"ingredient": "dark chocolate", "tradition": "European confectionery", "source": "The Flavor Bible (Page & Dornenburg)"},
+    {"ingredient": "almonds", "tradition": "Mediterranean", "source": "baking and snack tradition"},
+    {"ingredient": "mint", "tradition": "American/Middle Eastern", "source": "herb-fruit pairing tradition"},
+    {"ingredient": "cinnamon", "tradition": "American baking", "source": "classic spice-fruit pairing"},
+    {"ingredient": "vanilla", "tradition": "French pastry", "source": "The Flavor Bible (Page & Dornenburg)"},
+    {"ingredient": "peaches", "tradition": "Southern American", "source": "summer fruit combination"},
+    {"ingredient": "walnuts", "tradition": "European", "source": "salad and baking tradition"}
+  ],
+  "seasonality": "Peak season June through August in Northern Hemisphere; frozen available year-round. Wild (lowbush) blueberries typically harvested late July to early September.",
+  "nutrient_highlights": [
+    {
+      "compound": "Anthocyanins",
+      "amount_per_100g": "164-300 mg (wild/lowbush); 80-160 mg (cultivated/highbush)",
+      "bioavailability_notes": "Low oral bioavailability (~1-2% absorbed intact), but gut microbial metabolites (phenolic acids) are well absorbed and may account for much of the biological activity. Absorption improved when consumed with fat."
+    },
+    {
+      "compound": "Total polyphenols",
+      "amount_per_100g": "836 mg (lowbush); 560 mg (highbush)",
+      "bioavailability_notes": "Polyphenol content highest in wild varieties. Freezing preserves most polyphenol content."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "9.7 mg",
+      "bioavailability_notes": "Good bioavailability; contributes to but is not the primary driver of antioxidant capacity in blueberries."
+    },
+    {
+      "compound": "Pterostilbene",
+      "amount_per_100g": "0.03-0.52 mg",
+      "bioavailability_notes": "Resveratrol analogue with 4x higher bioavailability than resveratrol due to methyl groups increasing lipophilicity. Crosses blood-brain barrier."
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "2.4 g",
+      "bioavailability_notes": "Mix of soluble and insoluble fiber; contributes to prebiotic effects supporting gut microbiome diversity."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "partial",
+  "source_chapters": [9]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Tofu (calcium sulphate set)",
+  "slug": "tofu",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Good source of dietary calcium for vegans when made with calcium sulphate",
+      "mechanism": "Calcium sulphate coagulant provides bioavailable calcium during tofu production",
+      "study_ref": "Ref 108 in book",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32078678/",
+      "finding": "Prospective study (Ma et al., Circulation 2020) of 210,000+ participants found one or more servings of tofu per week associated with 18% lower coronary heart disease risk.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30207391/",
+      "finding": "Calcium from calcium-sulphate-set tofu has bioavailability of approximately 31%, comparable to dairy calcium at 32%, making it an effective non-dairy calcium source (Weaver et al., 2019).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31728490/",
+      "finding": "Meta-analysis of 46 RCTs confirmed soy protein (including tofu) reduces LDL cholesterol by 3-4%, with isoflavone-rich forms showing stronger effects (Nachvak et al., 2019).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["neutral", "mildly beany", "subtle sweetness"],
+    "aroma": ["clean", "faintly grassy"],
+    "texture": ["silky (soft)", "firm (pressed)", "spongy when frozen and thawed", "crispy when fried"],
+    "culinary_category": "soy product"
+  },
+  "culinary_pairings": [
+    {"ingredient": "ginger", "tradition": "East Asian", "source": "Classic aromatic for tofu dishes"},
+    {"ingredient": "sesame oil", "tradition": "East Asian", "source": "Traditional finishing oil for tofu; complementary plant fats"},
+    {"ingredient": "dark green leafy vegetables", "tradition": "East Asian / Global", "source": "Both provide calcium for plant-based diets"},
+    {"ingredient": "mushrooms", "tradition": "East Asian", "source": "Combined umami; vitamin D from sun-exposed mushrooms aids calcium absorption"},
+    {"ingredient": "chilli pepper", "tradition": "Sichuan / Korean", "source": "Mapo tofu; kimchi jjigae -- classic heat + neutral tofu contrast"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Calcium",
+      "amount_per_100g": "350-680 mg (calcium sulphate set); 100-200 mg (nigari set)",
+      "bioavailability_notes": "Calcium-sulphate-set tofu has ~31% bioavailability, comparable to dairy at 32%. Check label for coagulant type; nigari (magnesium chloride) set tofu has much less calcium."
+    },
+    {
+      "compound": "Isoflavones (genistein, daidzein)",
+      "amount_per_100g": "20-50 mg",
+      "bioavailability_notes": "Lower than whole soybeans but still pharmacologically significant. Regular consumption supports equol-producing gut bacteria."
+    },
+    {
+      "compound": "Protein",
+      "amount_per_100g": "8-15 g (varies by firmness)",
+      "bioavailability_notes": "Complete protein with all essential amino acids. Firm tofu has more protein per gram than soft/silken varieties."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "cabbage-broccoli",
+      "type": "complement",
+      "description": "Both provide calcium for plant-based diets"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

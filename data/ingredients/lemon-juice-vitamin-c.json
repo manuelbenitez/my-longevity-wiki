@@ -1,0 +1,94 @@
+{
+  "name": "Lemon Juice / Vitamin C",
+  "slug": "lemon-juice-vitamin-c",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Increases iron and zinc absorption from plant foods",
+      "mechanism": "Vitamin C reduces ferric iron (Fe3+) to ferrous iron (Fe2+) which is more readily absorbed; also chelates minerals making them more bioavailable",
+      "study_ref": "Refs 101, 102 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2507689/",
+      "finding": "Hallberg et al. (1989) demonstrated that 50mg of ascorbic acid (roughly one lemon's juice) increased non-heme iron absorption by 3-6x in controlled meals, with the effect strongest when consumed simultaneously with the iron source.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29099763/",
+      "finding": "Carr & Maggini (2017) reviewed vitamin C's role in immune function, finding it supports epithelial barrier function, enhances neutrophil and lymphocyte activity, and that deficiency significantly impairs immunity. 100-200mg/day optimal for infection prevention.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23595878/",
+      "finding": "Green et al. (2013) showed that adding citrus juice to green tea stabilised catechins in the alkaline gut environment, potentially increasing EGCG bioavailability by up to 6x, suggesting vitamin C-rich foods enhance other protective compounds.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sharply sour", "bright", "clean", "slightly bitter (peel)"],
+    "aroma": ["citrus-fresh", "sharp", "zesty", "essential-oil-rich"],
+    "texture": ["liquid", "thin", "slightly viscous when concentrated"],
+    "culinary_category": "acidic seasoning / fruit juice"
+  },
+  "culinary_pairings": [
+    {"ingredient": "legumes (lentils, chickpeas, beans)", "tradition": "Mediterranean / Indian / Global", "source": "Dramatically improves iron absorption; standard seasoning for dal and bean soups"},
+    {"ingredient": "leafy greens", "tradition": "Mediterranean / Middle Eastern", "source": "Vitamin C enhances iron and zinc uptake from spinach, kale, chard"},
+    {"ingredient": "whole grains", "tradition": "Mediterranean", "source": "Increases mineral bioavailability from grain-based dishes"},
+    {"ingredient": "green tea", "tradition": "Asian-inspired", "source": "Stabilises catechins, improving EGCG absorption up to 6x"},
+    {"ingredient": "olive oil", "tradition": "Mediterranean", "source": "Classic vinaigrette base; combined antioxidant and anti-inflammatory effects"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Acid + allicin both enhance mineral absorption; foundational flavour combination"},
+    {"ingredient": "fish", "tradition": "Mediterranean / Global", "source": "Traditional preparation; acidity brightens and balances rich proteins"}
+  ],
+  "seasonality": "Lemons available year-round from multiple growing regions. Peak Northern Hemisphere season November-April. Store at room temperature for juicing (more juice when warm), refrigerate for longer storage. Juice freezes well in ice cube trays.",
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin C (ascorbic acid)",
+      "amount_per_100g": "53 mg (juice: ~39 mg per 100ml)",
+      "bioavailability_notes": "Nearly 100% bioavailable at dietary doses. One lemon's juice (~30ml) provides ~12mg vitamin C. Degrades rapidly with heat and exposure to air."
+    },
+    {
+      "compound": "Citric acid",
+      "amount_per_100g": "~5-6 g per 100ml juice",
+      "bioavailability_notes": "Chelates minerals to improve absorption. Also creates acidic environment that favours iron conversion."
+    },
+    {
+      "compound": "Limonene (peel/zest)",
+      "amount_per_100g": "~65-70% of peel essential oil",
+      "bioavailability_notes": "Concentrated in zest. Promotes phase II detoxification enzymes. Anti-cancer properties in animal models."
+    },
+    {
+      "compound": "Eriocitrin (flavonoid)",
+      "amount_per_100g": "~15-30 mg in juice",
+      "bioavailability_notes": "Primary lemon flavonoid. Antioxidant and anti-diabetic properties in preclinical studies."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "138 mg (juice: ~103 mg per 100ml)",
+      "bioavailability_notes": "Modest contribution per serving but adds up with daily use."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "legumes / iron-rich plant foods",
+      "mechanism": "Vitamin C increases non-heme iron absorption 2-6x by reducing Fe3+ to Fe2+"
+    },
+    {
+      "ingredient": "green tea",
+      "mechanism": "Vitamin C stabilises catechins in alkaline gut, improving EGCG absorption up to 6x"
+    },
+    {
+      "ingredient": "turmeric",
+      "mechanism": "Acidic environment may improve curcumin solubility alongside piperine"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Oily Fish",
+  "slug": "oily-fish",
+  "category": "fish_seafood",
+  "book_claims": [
+    {
+      "claim": "4+ servings per week of omega-3 rich fish lowers heart attack risk by 22%. Even 1-4 servings per month has significant cardioprotective effect.",
+      "mechanism": "EPA and DHA omega-3 fatty acids block impulses causing irregular heart rhythm (antiarrhythmic), lower triglycerides, decrease blood pressure and inflammation, decrease platelet aggregation, improve vascular function.",
+      "study_ref": "Refs 216, 217, 218, 219, 223, 224, 225 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Broiled/baked fish 3+ times/week: 49% lower heart attack death risk and 58% lower sudden cardiac death risk. Fried fish provides NO protection and may increase risk.",
+      "mechanism": "Commercially fried seafood cooked in partially hydrogenated oils containing trans-fat negates benefits",
+      "study_ref": "Ref 220 in book (Cardiovascular Health Study)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Fish exceeds meat in vitamin B12 bioavailability and unlike red meat, consumption associated with lower colon cancer risk",
+      "mechanism": "High B12 bioavailability without the carcinogenic compounds in red meat",
+      "study_ref": "Ref 226 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30019099/",
+      "finding": "REDUCE-IT trial (Bhatt et al., 2019) demonstrated that high-dose EPA (icosapent ethyl 4g/day) reduced major adverse cardiovascular events by 25% in statin-treated patients with elevated triglycerides, confirming the cardioprotective mechanism of marine omega-3.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34862472/",
+      "finding": "Prospective cohort study (Li et al., 2021) of 420,000 participants found 2+ servings/week of oily fish associated with 17% lower risk of sudden cardiac death, consistent with the antiarrhythmic mechanism described in the book.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32479271/",
+      "finding": "Systematic review (Abdelhamid et al., Cochrane 2020) of 86 RCTs found moderate evidence that increasing EPA/DHA slightly reduces coronary heart disease events and mortality, with stronger effects at higher doses and in high-risk populations.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["rich", "savory", "briny", "umami"],
+    "aroma": ["oceanic", "smoky when grilled", "buttery (salmon)"],
+    "texture": ["moist", "flaky", "oily", "tender"],
+    "culinary_category": "fatty fish"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid cuts richness; vitamin C aids iron absorption"},
+    {"ingredient": "dill", "tradition": "Scandinavian", "source": "Classic herb pairing with salmon, herring, mackerel"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Combined unsaturated fat profiles for cardiovascular synergy"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Traditional preparation for sardines and mackerel"},
+    {"ingredient": "whole grains", "tradition": "Scandinavian / Japanese", "source": "Rye bread with herring; rice with grilled mackerel"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "EPA + DHA (omega-3)",
+      "amount_per_100g": "1,100-2,400 mg",
+      "bioavailability_notes": "Salmon: 1,200-2,400mg; anchovies: 2,300-2,400mg; sardines: 1,100-1,600mg; mackerel: 1,350-2,100mg per 115g serving."
+    },
+    {
+      "compound": "Vitamin D3",
+      "amount_per_100g": "8-25 mcg",
+      "bioavailability_notes": "Oily fish are the most significant natural dietary source of vitamin D3. Wild salmon contains substantially more than farmed."
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "35-50 mcg (65-90% DV)",
+      "bioavailability_notes": "Highly bioavailable selenomethionine form; essential cofactor for glutathione peroxidase."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

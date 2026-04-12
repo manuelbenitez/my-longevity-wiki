@@ -1,0 +1,86 @@
+{
+  "name": "Figs",
+  "slug": "figs",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Provide dietary calcium for vegans",
+      "mechanism": "Naturally contain calcium in bioavailable form",
+      "study_ref": "Ref 108 in book",
+      "confidence": "low"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11401245/",
+      "finding": "Dried figs are among the richest plant sources of calcium (162mg per 100g dried) and provide meaningful potassium, magnesium, and iron for plant-based diets (Vinson et al., 2005).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16335683/",
+      "finding": "Figs contain high levels of polyphenols (particularly gallic acid and chlorogenic acid) with antioxidant capacity comparable to or exceeding many common fruits (Vinson et al., 2005; Solomon et al., 2006).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24976030/",
+      "finding": "Systematic review of fig (Ficus carica) pharmacological properties found evidence for anti-diabetic, hypolipidaemic, and hepatoprotective effects in animal and preliminary human studies (Mawa et al., 2013).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["honey-sweet", "jammy", "berry-like", "mildly musky"],
+    "aroma": ["floral", "honey-like", "earthy", "warm"],
+    "texture": ["soft", "seedy", "chewy (dried)", "luscious (fresh)"],
+    "culinary_category": "fruit (fresh and dried)"
+  },
+  "culinary_pairings": [
+    {"ingredient": "goat cheese / ricotta", "tradition": "Mediterranean", "source": "Classic Italian antipasto; fat aids mineral absorption"},
+    {"ingredient": "walnuts", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional pairing; complementary mineral profiles"},
+    {"ingredient": "honey", "tradition": "Mediterranean", "source": "Roasted figs with honey; traditional dessert"},
+    {"ingredient": "prosciutto / jamón", "tradition": "Italian / Spanish", "source": "Classic sweet-savoury pairing (for non-vegans)"},
+    {"ingredient": "balsamic vinegar", "tradition": "Italian", "source": "Aged balsamic with roasted figs; acidity balances sweetness"},
+    {"ingredient": "yogurt", "tradition": "Mediterranean / Middle Eastern", "source": "Dried figs with yogurt for breakfast; calcium-rich combination"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern / North African", "source": "Spiced fig preparations; traditional pastry filling"}
+  ],
+  "seasonality": "Fresh figs have two short seasons: early crop (breba) June-July, main crop August-October. Extremely perishable fresh (2-3 days). Dried figs available year-round and concentrate nutrients. Mission, Kadota, Brown Turkey, and Calimyrna are common varieties.",
+  "nutrient_highlights": [
+    {
+      "compound": "Calcium",
+      "amount_per_100g": "162 mg dried (35 mg fresh)",
+      "bioavailability_notes": "Among the richest plant calcium sources. Bioavailability estimated at ~30-40%, comparable to milk. Especially valuable for vegans."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "680 mg dried (232 mg fresh)",
+      "bioavailability_notes": "Dried figs rival bananas for potassium content. Supports blood pressure regulation."
+    },
+    {
+      "compound": "Dietary fibre",
+      "amount_per_100g": "9.8 g dried (2.9 g fresh)",
+      "bioavailability_notes": "Very high in dried form. Mix of soluble and insoluble; the tiny seeds add bulk. Supports gut motility."
+    },
+    {
+      "compound": "Polyphenols (gallic acid, chlorogenic acid)",
+      "amount_per_100g": "~200-400 mg GAE dried",
+      "bioavailability_notes": "Antioxidant capacity comparable to many berries. Gallic acid is well-absorbed and anti-inflammatory."
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "2.0 mg dried (0.4 mg fresh)",
+      "bioavailability_notes": "Non-heme iron; absorption improved 2-6x when consumed with vitamin C (pair with citrus)."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "lemon juice / citrus",
+      "mechanism": "Vitamin C dramatically improves absorption of fig's non-heme iron and calcium"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Spinach / Chard / Beets",
+    "slug": "spinach-chard-beets",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "High oxalate content hinders calcium absorption",
+        "mechanism": "Oxalates chelate calcium forming insoluble calcium oxalate that cannot be absorbed in the intestine",
+        "study_ref": "Ref 107 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Can eat for other nutrients but not as calcium source",
+      "frequency": "Regular (for other benefits)",
+      "preparation": "Cooked or raw",
+      "reasoning": "Still nutritious but unreliable calcium sources due to oxalate content"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "cabbage-broccoli",
+        "type": "complement",
+        "description": "Complement with low-oxalate vegetables for calcium needs"
+      }
+    ],
+    "source_chapters": [
+      7
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Lentils",
+    "slug": "lentils",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Consumption associated with lower risk of developing cancer and cardiovascular disease",
+        "mechanism": "Second highest protein content of legumes (27%). One of highest concentrations of phenolic compounds and antioxidants among legumes.",
+        "study_ref": "Refs 151, 152, 153 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular servings, combined with grains",
+      "frequency": "several times per week",
+      "preparation": "Cook 15-20 min (red) or 10 min in pressure cooker. Sprout for salads. Use in soups, dahl, pasta sauces, masala dosa.",
+      "reasoning": "1 cup boiled green lentils: 230 cal, 16g fibre, 82% RDA iron, 90% RDA folate"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Beans / Legumes",
+    "slug": "beans-legumes",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
+        "mechanism": "Fibre-rich food that after gut microbe processing releases protective metabolites; low in empty calories compared to processed foods",
+        "study_ref": "Ref 5 in book",
+        "confidence": "medium",
+        "_from_chapter": 4
+      },
+      {
+        "claim": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
+        "mechanism": "High fibre induces early satiety; source of plant protein, vitamins, phytocompounds and minerals",
+        "study_ref": "Author's metabolic kitchen study",
+        "confidence": "high",
+        "_from_chapter": 5
+      }
+    ],
+    "consumption": {
+      "amount": "Regular inclusion in meals",
+      "frequency": "Daily (on non-fasting days)",
+      "preparation": "Cooked",
+      "reasoning": "Key component of the Mediterranean-style study diet"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "whole-grains",
+        "type": "complement",
+        "description": "Part of the core fibre-rich food group"
+      }
+    ],
+    "source_chapters": [
+      4,
+      5
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Non-Starchy Vegetables (for fasting days)",
+    "slug": "non-starchy-vegetables-fasting",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
+        "mechanism": "Absence of animal protein, grains and fruit combined with very low calorie content (~500 cal/day) inhibits the insulin/IGF-1/mTOR pathway that modulates ageing and cancer development",
+        "study_ref": "Refs 46, 47 in book; author's own clinical studies",
+        "confidence": "high"
+      },
+      {
+        "claim": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
+        "mechanism": "Very low calorie density of non-starchy vegetables keeps intake below 500 cal/day, achieving ~20-23% weekly calorie restriction",
+        "study_ref": "Author's clinical randomised studies",
+        "confidence": "high"
+      },
+      {
+        "claim": "Vegetable fasting activates longevity pathways via hormesis",
+        "mechanism": "Fasting acts as chronic mild stressor (hormetic agent) that activates cellular protective and anti-ageing pathways, increases stress resistance, elevates cortisol moderately, and enhances removal of damaged proteins",
+        "study_ref": "Refs 48, 49, 50 in book",
+        "confidence": "high"
+      },
+      {
+        "claim": "Fasting increases brain-derived neurotrophic factor (BDNF)",
+        "mechanism": "BDNF promotes growth and survival of nerve cells, strengthening brain function",
+        "study_ref": "book-assertion",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Unrestricted non-starchy vegetables, raw or cooked, keeping total daily intake under ~500 calories",
+      "frequency": "2-3 times per week (depending on baseline weight and metabolic profile)",
+      "preparation": "Raw or cooked, dressed with 1 tablespoon extra-virgin olive oil, lemon juice or vinegar at lunch and dinner. No more than 2 tablespoons oil total per fasting day",
+      "reasoning": "Author's clinical protocol for intermittent vegetable fasting; superior to 5:2 diet because excluding animal protein, grains and fruit maximises mTOR pathway suppression"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "extra-virgin-olive-oil",
+        "type": "complement",
+        "description": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
+      },
+      {
+        "target_ingredient": "lemon-juice",
+        "type": "complement",
+        "description": "Used as dressing alongside olive oil on fasting day vegetables"
+      }
+    ],
+    "source_chapters": [
+      5
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Dark chocolate",
+    "slug": "dark-chocolate",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Plain dark chocolate (rich in epicatechin) increases plasma antioxidant capacity. Effect markedly reduced when consumed with milk.",
+        "mechanism": "Epicatechin is a potent antioxidant flavonoid. Milk proteins bind to epicatechin preventing absorption.",
+        "study_ref": "Ref 183 in book (published in Nature)",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Small amounts",
+      "frequency": "occasionally",
+      "preparation": "Plain dark chocolate only, NOT milk chocolate. Consume without dairy.",
+      "reasoning": "Milk blocks the antioxidant absorption (Nature study)"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "brazil-nuts",
+        "type": "complement",
+        "description": "Author combines dark cocoa powder with brazil nuts in morning smoothies"
+      }
+    ],
+    "source_chapters": [
+      9
+    ],
+    "category": "beverage"
+  },
+  {
+    "name": "Vegetables (general)",
+    "slug": "vegetables-general",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Consuming vegetables at each meal prevents chronic disease and maximises health",
+        "mechanism": "Provides unique mixture of vegetable fibres, vitamins, oligo-elements and phytochemicals which after gut microbe processing release metabolites that protect from common diseases",
+        "study_ref": "Ref 5 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "At each meal",
+      "frequency": "Daily",
+      "preparation": "Minimally processed",
+      "reasoning": "Historical recommendation from Sun Simiao (Tang dynasty) supported by modern evidence on fibre-rich foods and gut microbiome metabolites"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "beans",
+        "type": "complement",
+        "description": "Part of the recommended fibre-rich food group alongside beans, whole grains, nuts, seeds and fruit"
+      }
+    ],
+    "source_chapters": [
+      4
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Green Vegetables (lettuce, cabbage, broccoli, spinach, arugula, chard, kale)",
+    "slug": "green-vegetables",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Almost undetectable effect on blood glucose",
+        "mechanism": "Very low carbohydrate content and high fibre means virtually no glucose load",
+        "study_ref": "book-assertion (glycaemic index data)",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Abundant; 1 cup cabbage + 1 cup spinach in sample diet",
+      "frequency": "Daily",
+      "preparation": "Raw or cooked",
+      "reasoning": "Essentially zero glycaemic impact while providing vitamins, minerals and fibre"
+    },
+    "relationships": [],
+    "source_chapters": [
+      7
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Coffee",
+    "slug": "coffee",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "3-4 cups per day achieves largest risk reduction for cardiovascular and cancer outcomes",
+        "mechanism": "Not fully specified in this chapter; epidemiological association",
+        "study_ref": "Ref 236 in book (epidemiological studies)",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "3-4 cups per day",
+      "frequency": "daily",
+      "preparation": "Filter coffee",
+      "reasoning": "Optimal dose from epidemiological data"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "beverage"
+  },
+  {
+    "name": "Purslane",
+    "slug": "purslane",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Relatively high concentration of vegetable omega-3 fatty acids",
+        "mechanism": "50g fresh purslane contains approximately 200mg alpha-linolenic acid",
+        "study_ref": "Ref 39 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Add to salads from time to time",
+      "frequency": "occasionally",
+      "preparation": "Raw stems and leaves in salads. Slightly sour and salty taste.",
+      "reasoning": "Wild edible weed with unusually high omega-3 for a plant"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Tea / Coffee / Cocoa (during meals)",
+    "slug": "tea-coffee-cocoa",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Consuming during meals reduces absorption of iron, zinc and other minerals",
+        "mechanism": "Polyphenols (tannins) in tea, coffee and cocoa chelate iron and other minerals, reducing their bioavailability",
+        "study_ref": "Ref 106 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Avoid during meals",
+      "frequency": "Consume between meals, not with food",
+      "preparation": "N/A",
+      "reasoning": "Reduces mineral absorption when consumed alongside iron/zinc-containing plant foods"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "lemon-juice-vitamin-c",
+        "type": "antagonism",
+        "description": "Opposes the mineral absorption-enhancing effect of vitamin C"
+      }
+    ],
+    "source_chapters": [
+      7
+    ],
+    "category": "beverage"
+  },
+  {
+    "name": "Onion",
+    "slug": "onion",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "One of the richest sources of dietary flavonoids important for cardiovascular disease and cancer prevention, especially gastric cancer",
+        "mechanism": "Contains fructooligosaccharides and thiosulfinates. Flavonoids prevent cardiovascular disease and cancer.",
+        "study_ref": "Ref 67 in book",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Italian sweet red onion Tropea contains taxifolin, a powerful inhibitor of many cancer cell types",
+        "mechanism": "Taxifolin directly inhibits cultured cancer cell growth. Red onions have highest flavonol levels; yellow onions contain half as much.",
+        "study_ref": "Ref 68 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular use in cooking",
+      "frequency": "daily",
+      "preparation": "Red onions preferred for highest flavonol content. Raw or cooked.",
+      "reasoning": "Red varieties contain double the flavonols of yellow onions"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Sweet potatoes",
+    "slug": "sweet-potatoes",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Contain the highest concentration of beta-carotene among common vegetables",
+        "mechanism": "31mg beta-carotene per 100g cooked, converted to vitamin A for eye health and immune function",
+        "study_ref": "book-assertion",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular servings",
+      "frequency": "several times per week",
+      "preparation": "Cooked, paired with fat for absorption",
+      "reasoning": "Highest beta-carotene concentration of common vegetables"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Pumpkin",
+    "slug": "pumpkin",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Superior source of antioxidants due to generous amounts of alpha-carotene, zeaxanthin and lutein",
+        "mechanism": "Multiple carotenoid types provide broader antioxidant coverage than beta-carotene alone",
+        "study_ref": "book-assertion",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular servings",
+      "frequency": "several times per week",
+      "preparation": "Can eat thin slices raw, roast, bake, use in soups, or puree with chickpeas for hummus. Add to morning smoothies.",
+      "reasoning": "Versatile, sweet flavour makes it easy to incorporate"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Tomatoes",
+    "slug": "tomatoes",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Rich in lycopene and vitamin C providing antioxidant protection",
+        "mechanism": "Lycopene is a potent carotenoid antioxidant; vitamin C neutralises free radicals",
+        "study_ref": "book-assertion",
+        "confidence": "medium",
+        "_from_chapter": 8
+      },
+      {
+        "claim": "Contain lycopene important in prevention of prostate, digestive tract and cervical cancers",
+        "mechanism": "Lycopene reduces IGF-I bioavailability, which may mediate anti-cancer effect. RCT showed reduction in prostate cancer growth with lycopene supplementation before surgery.",
+        "study_ref": "Refs 56, 57, 58 in book",
+        "confidence": "medium",
+        "_from_chapter": 9
+      }
+    ],
+    "consumption": {
+      "amount": "Regular use as base ingredient",
+      "frequency": "Daily",
+      "preparation": "Fresh diced, as sauce, sun-dried preserved in EVOO; paired with garlic, basil, oregano",
+      "reasoning": "Ubiquitous in traditional Mediterranean cuisine as described throughout chapter"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "Extra-Virgin Olive Oil",
+        "type": "synergy",
+        "description": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
+      },
+      {
+        "target_ingredient": "Garlic",
+        "type": "complement",
+        "description": "Traditional pairing providing complementary phytochemical profiles"
+      }
+    ],
+    "source_chapters": [
+      8,
+      9
+    ],
+    "category": "vegetable"
+  },
+  {
+    "name": "Chickpeas",
+    "slug": "chickpeas",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Far lower calorie density than cheese while providing fibre and protein",
+        "mechanism": "100g cooked chickpeas = 164 cal (2.6g fat, 27g carbs incl 7g fibre, 9g protein) vs 100g Parmesan = 384 cal (28g fat, 0g fibre, 33g protein); fibre induces early satiety",
+        "study_ref": "Nutritional comparison cited in text",
+        "confidence": "high",
+        "_from_chapter": 5
+      },
+      {
+        "claim": "Concentrated source of protein, fibre, vitamins, minerals and low-glycaemic starches",
+        "mechanism": "Complex carbohydrates with high amylose content slowly digested, low glycaemic index",
+        "study_ref": "book-assertion",
+        "confidence": "high",
+        "_from_chapter": 9
+      }
+    ],
+    "consumption": {
+      "amount": "Regular servings",
+      "frequency": "several times per week",
+      "preparation": "Soak 24 hours, cook 1 hour. Use in salads, soups, hummus, falafel, farinata.",
+      "reasoning": "1 cup boiled: 270 cal, 12g fibre, 15g protein, 64% RDA copper, 73% RDA manganese, 40% RDA folate"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "parmesan-cheese",
+        "type": "antagonism",
+        "description": "Chickpeas presented as healthier alternative to calorie-dense, fibreless Parmesan cheese"
+      },
+      {
+        "target_ingredient": "tahini",
+        "type": "complement",
+        "description": "Combined in hummus for complete amino acid profile and healthy fats"
+      }
+    ],
+    "source_chapters": [
+      5,
+      9
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Red Wine",
+    "slug": "red-wine",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
+        "mechanism": "Polyphenols (resveratrol, anthocyanins) provide antioxidant effects; consumed only with meals to moderate absorption",
+        "study_ref": "Seven Countries Study context, book-assertion",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "One glass",
+      "frequency": "With meals only",
+      "preparation": "Consumed only with food, never independently",
+      "reasoning": "Traditional pattern: 'a glass of red wine was consumed regularly but only with meals'"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "Extra-Virgin Olive Oil",
+        "type": "complement",
+        "description": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"
+      }
+    ],
+    "source_chapters": [
+      8
+    ],
+    "category": "beverage"
+  }
+]

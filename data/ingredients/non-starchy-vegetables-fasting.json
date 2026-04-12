@@ -1,0 +1,110 @@
+{
+  "name": "Non-Starchy Vegetables (Fasting Protocol)",
+  "slug": "non-starchy-vegetables-fasting",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
+      "mechanism": "Absence of animal protein, grains and fruit combined with very low calorie content (~500 cal/day) inhibits the insulin/IGF-1/mTOR pathway that modulates ageing and cancer development",
+      "study_ref": "Refs 46, 47 in book; author's own clinical studies",
+      "confidence": "high"
+    },
+    {
+      "claim": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
+      "mechanism": "Very low calorie density of non-starchy vegetables keeps intake below 500 cal/day, achieving ~20-23% weekly calorie restriction",
+      "study_ref": "Author's clinical randomised studies",
+      "confidence": "high"
+    },
+    {
+      "claim": "Vegetable fasting activates longevity pathways via hormesis",
+      "mechanism": "Fasting acts as chronic mild stressor (hormetic agent) that activates cellular protective and anti-ageing pathways, increases stress resistance, elevates cortisol moderately, and enhances removal of damaged proteins",
+      "study_ref": "Refs 48, 49, 50 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Fasting increases brain-derived neurotrophic factor (BDNF)",
+      "mechanism": "BDNF promotes growth and survival of nerve cells, strengthening brain function",
+      "study_ref": "book-assertion",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Longo & Mattson, 2014, PMID: 24440038)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24440038/",
+      "finding": "Review of fasting and calorie restriction: periodic fasting promotes stress resistance, reduces oxidative damage, and reduces IGF-1/insulin/mTOR signaling. Consistent with the book's mechanistic claims about vegetable fasting days.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Mattson et al., 2018, PMID: 29378594)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29378594/",
+      "finding": "Intermittent fasting triggers adaptive cellular stress responses including increased BDNF, improved autophagy, and enhanced DNA repair. Supports the hormesis mechanism described in the book.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Fontana et al., 2010, PMID: 20395504)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20395504/",
+      "finding": "Long-term calorie restriction in humans reduces IGF-1 only when protein intake is also restricted. This supports the book's emphasis on excluding animal protein (not just reducing calories) on fasting days.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (de Cabo & Mattson, 2019, PMID: 31881139)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31881139/",
+      "finding": "NEJM review: intermittent fasting improves insulin sensitivity, reduces blood pressure, and decreases markers of oxidative stress. Multiple pathways converge on increased healthspan.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["varied: bitter (endive), mild (zucchini), peppery (arugula)", "refreshing", "clean"],
+    "aroma": ["fresh", "green", "earthy"],
+    "texture": ["crunchy raw", "tender cooked", "high water content"],
+    "culinary_category": "mixed vegetables (fasting context)"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean / Book protocol", "source": "Book allows 1 tbsp at lunch and dinner on fasting days; essential for fat-soluble nutrient absorption"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Book protocol", "source": "Permitted dressing on fasting days alongside olive oil and vinegar"},
+    {"ingredient": "vinegar", "tradition": "Mediterranean / Book protocol", "source": "Acetic acid may further improve insulin sensitivity; permitted on fasting days"},
+    {"ingredient": "herbs (fresh)", "tradition": "Mediterranean", "source": "Zero-calorie flavor enhancement; rosemary, basil, parsley, mint"},
+    {"ingredient": "mixed salad leaves", "tradition": "Mediterranean", "source": "Lettuce, arugula, endive, chicory form the base of fasting-day meals"},
+    {"ingredient": "zucchini", "tradition": "Mediterranean", "source": "Low-calorie, versatile non-starchy vegetable for soups and grills on fasting days"},
+    {"ingredient": "fennel", "tradition": "Italian", "source": "Crunchy, aromatic, very low calorie; satisfying raw or braised"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Caloric density",
+      "amount_per_100g": "10-35 kcal for most non-starchy vegetables",
+      "bioavailability_notes": "The extreme low caloric density is the mechanism: unrestricted eating still stays under ~500 kcal/day, achieving the mTOR-suppressing effect."
+    },
+    {
+      "compound": "Fiber",
+      "amount_per_100g": "1-4 g depending on variety",
+      "bioavailability_notes": "Provides satiety on fasting days. Feeds gut bacteria producing short-chain fatty acids even during calorie restriction."
+    },
+    {
+      "compound": "Water content",
+      "amount_per_100g": "85-96% by weight",
+      "bioavailability_notes": "High water content aids hydration on fasting days and contributes to satiety."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "150-550 mg depending on variety",
+      "bioavailability_notes": "Important electrolyte during fasting. Helps maintain blood pressure and muscle function."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "complement",
+      "description": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
+    },
+    {
+      "target_ingredient": "lemon-juice",
+      "type": "complement",
+      "description": "Used as dressing alongside olive oil on fasting day vegetables"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5]
+}

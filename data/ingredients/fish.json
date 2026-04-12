@@ -1,0 +1,91 @@
+{
+  "name": "Fish (Sardines, Anchovies, and other oily fish)",
+  "slug": "fish",
+  "category": "fish_seafood",
+  "book_claims": [
+    {
+      "claim": "Acceptable animal protein source in a longevity-focused diet when consumed moderately",
+      "mechanism": "Provides essential amino acids and omega-3 fatty acids without the same negative metabolic profile as red meat",
+      "study_ref": "Author's metabolic kitchen study protocol",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Rich in omega-3 fatty acids that reduce inflammation",
+      "mechanism": "Omega-3 polyunsaturated fatty acids activate anti-inflammatory pathways (resolvins, protectins)",
+      "study_ref": "refs-28,29",
+      "confidence": "high"
+    },
+    {
+      "claim": "Replacing meat with fish contributes to lower cardiovascular mortality",
+      "mechanism": "Reduces saturated fat and L-carnitine/choline intake while increasing omega-3 fatty acids, lowering TMAO production and inflammation",
+      "study_ref": "Lyon Diet Heart Study, ref-8",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34524383/",
+      "finding": "Meta-analysis of 38 prospective studies (Jayedi et al., 2021) found fish consumption of 2-3 servings/week associated with 12% lower all-cause mortality and 15% lower cardiovascular mortality compared to no fish intake.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33539692/",
+      "finding": "VITAL trial ancillary study found marine omega-3 supplementation (1g/day) reduced total cardiovascular events by 28% in participants with low baseline fish intake, supporting the importance of dietary fish (Manson et al., 2019).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/foods/fish-oil/",
+      "finding": "Examine rates fish/fish oil as having strong evidence for triglyceride reduction and moderate evidence for cardiovascular risk reduction, anti-inflammatory effects, and improved cognitive function in older adults.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["briny", "savory", "umami", "mild to strong depending on species"],
+    "aroma": ["oceanic", "rich (sardines)", "delicate (white fish)"],
+    "texture": ["flaky", "tender", "oily (sardines, anchovies)", "meaty (tuna)"],
+    "culinary_category": "seafood protein"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Combined unsaturated fats explaining low heart disease in Crete despite 40% calories from fat"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Global", "source": "Classic acid complement; vitamin C aids iron absorption"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Traditional preparation for sardines and anchovies"},
+    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Lycopene + omega-3 for combined anti-inflammatory effect"},
+    {"ingredient": "capers", "tradition": "Italian / Sicilian", "source": "Quercetin-rich complement; traditional sardine and anchovy pairing"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "EPA + DHA (omega-3)",
+      "amount_per_100g": "1,100-2,400 mg (varies by species)",
+      "bioavailability_notes": "Marine omega-3 directly usable by the body, unlike plant ALA which requires conversion. Sardines: 1,100-1,600mg; anchovies: 2,300-2,400mg per 100g."
+    },
+    {
+      "compound": "Vitamin D",
+      "amount_per_100g": "5-20 mcg (varies by species)",
+      "bioavailability_notes": "One of few significant dietary sources of vitamin D3; sardines and salmon among the richest."
+    },
+    {
+      "compound": "Vitamin B12",
+      "amount_per_100g": "8-19 mcg (varies by species)",
+      "bioavailability_notes": "Higher bioavailability than red meat; fish consumption associated with lower colon cancer risk unlike red meat."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "synergy",
+      "description": "Combined unsaturated fat sources that together explain why Crete had low heart disease despite 40% calories from fat"
+    },
+    {
+      "target_ingredient": "nuts",
+      "type": "complement",
+      "description": "Marine omega-3 (EPA/DHA) from fish complements plant-based omega-3 (ALA) from walnuts for comprehensive anti-inflammatory coverage"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5, 8]
+}

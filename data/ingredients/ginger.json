@@ -1,0 +1,103 @@
+{
+  "name": "Ginger",
+  "slug": "ginger",
+  "category": "spice",
+  "book_claims": [
+    {
+      "claim": "Speeds up gastric emptying, promotes satiety and increases thermic effect of food, helping prevent obesity",
+      "mechanism": "Active molecule gingerol (converted to zingerone when cooked). Studies in healthy men and women showed these effects.",
+      "study_ref": "Refs 98, 99 in book",
+      "confidence": "medium"
+    },
+    {
+      "claim": "May reduce nausea and vomiting during chemotherapy",
+      "mechanism": "Gingerol's effect on digestive tract motility and nausea receptors",
+      "study_ref": "Ref 100 in book (clinical trials)",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30680163/",
+      "finding": "Systematic review and meta-analysis (Saneei et al., 2019) of 14 RCTs found ginger supplementation significantly reduced fasting blood glucose and HbA1c in type 2 diabetes patients, supporting anti-diabetic effects.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25848702/",
+      "finding": "Meta-analysis of 12 RCTs (Mazidi et al., 2016) found ginger supplementation significantly reduced CRP and TNF-alpha levels, confirming systemic anti-inflammatory effects relevant to chronic disease prevention.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/ginger/",
+      "finding": "Examine's evidence summary rates ginger as having strong evidence for anti-nausea effects (pregnancy, chemotherapy, post-operative), moderate evidence for pain reduction, and notable evidence for reducing inflammatory markers and blood glucose.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29065788/",
+      "finding": "Cochrane review (Viljoen et al., 2014, updated) confirmed ginger is effective for reducing nausea and vomiting in early pregnancy with no significant side effects, supporting the book's claim about anti-nausea properties.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30754024/",
+      "finding": "Meta-analysis of 6 RCTs (Maharlouei et al., 2019) found ginger supplementation significantly reduced body weight and waist-to-hip ratio in overweight/obese subjects, supporting the book's obesity prevention claim.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["pungent", "warm", "slightly sweet", "peppery", "citrusy"],
+    "aroma": ["sharp", "warm", "earthy", "lemony", "woody"],
+    "texture": ["fibrous (fresh)", "powdery (dried)", "crisp when young"],
+    "culinary_category": "aromatic rhizome"
+  },
+  "culinary_pairings": [
+    {"ingredient": "turmeric", "tradition": "Indian / Southeast Asian", "source": "Ayurvedic tradition"},
+    {"ingredient": "garlic", "tradition": "Chinese / pan-Asian", "source": "Chinese culinary canon"},
+    {"ingredient": "lemon", "tradition": "Global", "source": "Classic pairing in teas and dressings"},
+    {"ingredient": "soy sauce", "tradition": "Japanese / Chinese", "source": "Foundational stir-fry aromatics"},
+    {"ingredient": "honey", "tradition": "Global", "source": "Traditional remedy and tea pairing"},
+    {"ingredient": "sesame oil", "tradition": "Korean / Chinese", "source": "Classic Asian cooking base"},
+    {"ingredient": "chili", "tradition": "Thai / Indian", "source": "Thai curry pastes and Indian masalas"},
+    {"ingredient": "coconut milk", "tradition": "Thai / Malaysian", "source": "Southeast Asian curry tradition"},
+    {"ingredient": "cinnamon", "tradition": "Moroccan / Indian", "source": "Warming spice blends (garam masala, ras el hanout)"},
+    {"ingredient": "scallion", "tradition": "Chinese", "source": "Classic Chinese aromatic trinity with garlic"}
+  ],
+  "seasonality": "Available year-round; fresh ginger peaks in autumn harvest but is stored and shipped globally. Young ginger (spring ginger) available seasonally with milder flavor.",
+  "nutrient_highlights": [
+    {
+      "compound": "Gingerol (6-gingerol)",
+      "amount_per_100g": "~140-300 mg in fresh rhizome",
+      "bioavailability_notes": "Converted to zingerone and shogaol when cooked or dried; shogaol is more potent. Lipophilic, absorption improved with fats."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "0.229 mg (10% DV)",
+      "bioavailability_notes": "Good bioavailability from plant sources"
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "415 mg",
+      "bioavailability_notes": "Readily absorbed"
+    },
+    {
+      "compound": "Vitamin B6",
+      "amount_per_100g": "0.16 mg",
+      "bioavailability_notes": "Good bioavailability"
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "turmeric",
+      "type": "complement",
+      "description": "Both are rhizomes. Ginger's COX-2 pathway complements turmeric's NF-kB pathway for broader anti-inflammatory coverage."
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

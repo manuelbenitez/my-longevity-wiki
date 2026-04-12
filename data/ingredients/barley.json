@@ -1,0 +1,106 @@
+{
+  "name": "Barley",
+  "slug": "barley",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+      "study_ref": "Canadian trial, ref-17",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Beta-glucan fibre in barley lowers glucose, insulin and cholesterol levels",
+      "mechanism": "Beta-glucan (found in appreciable amounts only in barley and oats) reduces intestinal absorption of cholesterol and glucose",
+      "study_ref": "Refs 129, 130, 131 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27863994/",
+      "finding": "A 2016 systematic review and meta-analysis (Am J Clin Nutr, PMID 27863994) of 14 RCTs found that barley beta-glucan consumption significantly reduced LDL cholesterol, non-HDL cholesterol, and apolipoprotein B, with a dose-response relationship starting at 3g/day.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20142823/",
+      "finding": "A 2010 RCT (Br J Nutr, PMID 20142823) found that barley beta-glucan significantly reduced postprandial glucose and insulin responses in a dose-dependent manner, supporting the book's claims about glycemic control.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26269366/",
+      "finding": "A 2015 systematic review (Eur J Clin Nutr, PMID 26269366) confirmed that barley-derived beta-glucan at 3g or more per day reduces total and LDL cholesterol, earning EFSA and FDA health claims for cholesterol reduction.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27301975/",
+      "finding": "A 2016 BMJ meta-analysis of prospective studies (PMID 27301975) found that whole grain consumption including barley was associated with reduced risk of cardiovascular disease, cancer, and all-cause mortality in a dose-response relationship.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "malty", "slightly sweet", "earthy"],
+    "aroma": ["toasty", "grain-forward", "malty"],
+    "texture": ["chewy", "plump", "hearty"],
+    "culinary_category": "whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "mushrooms", "tradition": "Eastern European", "source": "Classic pairing in krupnik and mushroom-barley soup"},
+    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid brightens earthy grain in tabbouleh-style salads"},
+    {"ingredient": "root vegetables", "tradition": "Northern European", "source": "Traditional hearty stew and soup base"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat slows carbohydrate absorption and adds richness"},
+    {"ingredient": "herbs (dill, parsley)", "tradition": "Eastern Mediterranean", "source": "Classic grain salad herb pairings"},
+    {"ingredient": "legumes", "tradition": "Middle Eastern", "source": "Complementary amino acid profiles for complete protein"},
+    {"ingredient": "miso", "tradition": "Japanese", "source": "Mugi miso is traditionally made with barley koji"}
+  ],
+  "seasonality": "Harvested late summer. Hulled barley stores well year-round. Available dried in bulk; look for hulled (not pearled) for maximum nutrition.",
+  "nutrient_highlights": [
+    {
+      "compound": "Beta-glucan",
+      "amount_per_100g": "2.5-11.3 g (varies by variety; hulled barley averages 5-8g)",
+      "bioavailability_notes": "Soluble fibre that forms a viscous gel in the gut, trapping bile acids and cholesterol. FDA-approved health claim at 3g/day for cholesterol reduction."
+    },
+    {
+      "compound": "Dietary fiber (total)",
+      "amount_per_100g": "17.3 g (hulled)",
+      "bioavailability_notes": "Mix of soluble and insoluble fiber. Among the highest fiber content of any whole grain."
+    },
+    {
+      "compound": "Chromium",
+      "amount_per_100g": "Variable; some cultivars contain up to 10x more than brewer's yeast",
+      "bioavailability_notes": "Trace mineral involved in insulin signaling and glucose metabolism."
+    },
+    {
+      "compound": "Thiamine (B1)",
+      "amount_per_100g": "0.65 mg (54% RDA)",
+      "bioavailability_notes": "Lost in pearling; hulled barley retains full thiamine content."
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "37.7 mcg (69% RDA)",
+      "bioavailability_notes": "Cofactor for glutathione peroxidase antioxidant enzyme system."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "oats",
+      "type": "synergy",
+      "description": "Both tested together in cholesterol-lowering food portfolio trial; complementary soluble fibre types"
+    },
+    {
+      "target_ingredient": "legumes",
+      "type": "synergy",
+      "description": "Complementary amino acid profiles create complete protein when combined"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8, 9]
+}

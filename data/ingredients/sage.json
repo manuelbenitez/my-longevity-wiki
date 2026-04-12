@@ -1,0 +1,94 @@
+{
+  "name": "Sage",
+  "slug": "sage",
+  "category": "herb",
+  "book_claims": [
+    {
+      "claim": "One of the richest sources of potent antioxidants with potential cognitive-enhancing and protective effects",
+      "mechanism": "Contains an impressive range of biologically active compounds. Medieval School of Medicine considered it essential for health.",
+      "study_ref": "Ref 108 in book (animal studies + preliminary human trials)",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Akhondzadeh et al., 2003, PMID: 12605619)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12605619/",
+      "finding": "Double-blind RCT found Salvia officinalis extract significantly improved cognitive function in patients with mild-to-moderate Alzheimer's disease over 4 months compared to placebo. Supports historical and book claims about cognitive enhancement.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Kennedy et al., 2006, PMID: 16444660)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16444660/",
+      "finding": "Sage extract improved memory and attention in healthy young adults in a dose-dependent manner. Both immediate and delayed word recall improved significantly versus placebo.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Lopresti, 2017, PMID: 27888449)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27888449/",
+      "finding": "Systematic review of 8 human trials found sage (Salvia species) consistently improved cognitive performance and mood. Mechanisms include acetylcholinesterase inhibition, antioxidant activity, and anti-inflammatory effects.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/sage/",
+      "finding": "Notable evidence for cognitive enhancement in both healthy adults and Alzheimer's patients. Sage contains compounds that inhibit acetylcholinesterase, similar to the mechanism of pharmaceutical Alzheimer's drugs like donepezil.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "slightly peppery", "warm", "camphoraceous", "musty-sweet"],
+    "aroma": ["aromatic", "musty", "pine-like", "eucalyptus undertones"],
+    "texture": ["velvety leaves", "slightly fuzzy", "leathery when dried"],
+    "culinary_category": "herb"
+  },
+  "culinary_pairings": [
+    {"ingredient": "brown butter", "tradition": "Italian", "source": "Sage butter (burro e salvia) is the classic sauce for ravioli and gnocchi"},
+    {"ingredient": "legumes", "tradition": "Tuscan", "source": "Essential in Tuscan bean soups (ribollita, pasta e fagioli)"},
+    {"ingredient": "squash", "tradition": "Italian / European", "source": "Classic autumn pairing in risotto, ravioli fillings, and roasted dishes"},
+    {"ingredient": "rosemary", "tradition": "Italian", "source": "Both Lamiaceae herbs; combined in Italian roasts and herb blends"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Foundational aromatic combination in Mediterranean cooking"},
+    {"ingredient": "walnuts", "tradition": "Italian", "source": "Sage-walnut pesto; traditional Ligurian variation"},
+    {"ingredient": "honey-natural-sweeteners", "tradition": "European", "source": "Sage honey is a prized single-varietal honey in Mediterranean regions"}
+  ],
+  "seasonality": "Perennial herb available year-round in temperate climates. Grows easily in pots near windows. Fresh sage has more nuanced flavour than dried, though dried sage is more concentrated. Best harvested before flowering.",
+  "nutrient_highlights": [
+    {
+      "compound": "Total polyphenols",
+      "amount_per_100g": "12,073 mg (dried)",
+      "bioavailability_notes": "Extraordinarily high polyphenol content -- among the highest of any herb. Includes rosmarinic acid, carnosic acid, and diverse flavonoids."
+    },
+    {
+      "compound": "Rosmarinic acid",
+      "amount_per_100g": "1.0-3.5 g (dried)",
+      "bioavailability_notes": "Water-soluble; well-extracted in sage tea. Anti-inflammatory and antioxidant."
+    },
+    {
+      "compound": "Thujone",
+      "amount_per_100g": "Variable in essential oil (4-35 mg/ml)",
+      "bioavailability_notes": "Bioactive monoterpene with acetylcholinesterase inhibitory activity. Safe in culinary amounts; excessive concentrated essential oil intake should be avoided."
+    },
+    {
+      "compound": "Ursolic acid",
+      "amount_per_100g": "Variable",
+      "bioavailability_notes": "Triterpenoid with anti-inflammatory and anticancer activity. Low oral bioavailability improved by fat co-consumption."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "rosemary",
+      "type": "complement",
+      "description": "Both Lamiaceae herbs with overlapping but complementary antioxidant profiles"
+    },
+    {
+      "target_ingredient": "green-tea",
+      "type": "complement",
+      "description": "Book recommends alternating sage infusions with green tea for varied polyphenol intake"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

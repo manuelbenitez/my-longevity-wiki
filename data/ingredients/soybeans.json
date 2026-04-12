@@ -1,0 +1,85 @@
+{
+  "name": "Soybeans",
+  "slug": "soybeans",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Soy consumption modestly lowers blood pressure and improves arterial health. Isoflavones reduce osteoporosis, cancer risk and hot flush severity.",
+      "mechanism": "Soy isoflavones (genistein, daidzein) mimic oestrogen, binding to oestrogen receptors and blocking cancer cell proliferation. Soy protein replaces animal fats to reduce LDL cholesterol.",
+      "study_ref": "Refs 155, 156, 157, 158, 159 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "mechanism": "Plant protein with isoflavones that modulate LDL receptor expression and cholesterol metabolism",
+      "study_ref": "Canadian trial, ref-17",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31728490/",
+      "finding": "Meta-analysis (Nachvak et al., 2019) of 46 RCTs confirmed soy protein intake reduces LDL cholesterol by 3-4% and total cholesterol by 2-3%, with isoflavone-rich soy showing stronger effects than isoflavone-depleted soy protein.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32078678/",
+      "finding": "Prospective study (Ma et al., Circulation 2020) of 210,000+ participants found one or more servings of tofu per week associated with 18% lower coronary heart disease risk, particularly in premenopausal women.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31584063/",
+      "finding": "Systematic review (Wei et al., 2020) found soy isoflavone intake associated with 10-15% reduced risk of breast cancer recurrence in Asian populations, with equol-producing gut microbiome phenotype showing stronger protective effects.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mild", "beany", "slightly nutty", "neutral (tofu)"],
+    "aroma": ["grassy (fresh)", "nutty (roasted)", "umami (fermented)"],
+    "texture": ["firm (edamame)", "silky (tofu)", "chewy (tempeh)", "creamy (soy milk)"],
+    "culinary_category": "legume / plant protein"
+  },
+  "culinary_pairings": [
+    {"ingredient": "ginger", "tradition": "East Asian", "source": "Classic aromatic complement for tofu and edamame"},
+    {"ingredient": "garlic", "tradition": "East Asian / Global", "source": "Universal savory base for soy dishes"},
+    {"ingredient": "sesame", "tradition": "East Asian / Middle Eastern", "source": "Traditional pairing; complementary plant protein profiles"},
+    {"ingredient": "capers", "tradition": "Mediterranean-Asian fusion", "source": "Genistein + quercetin synergy blocks cancer cell growth at lower doses than either alone"},
+    {"ingredient": "turmeric", "tradition": "Southeast Asian", "source": "Curcumin + genistein combined anti-inflammatory and anticancer effects"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Isoflavones (genistein, daidzein)",
+      "amount_per_100g": "50-150 mg (whole soybeans); 20-50 mg (tofu)",
+      "bioavailability_notes": "Gut bacteria convert daidzein to equol, a more potent form. Only ~30-50% of Western populations produce equol vs. ~60% in Asian populations."
+    },
+    {
+      "compound": "Complete protein",
+      "amount_per_100g": "36 g (dried soybeans); 10 g (tofu); 18 g (1 cup edamame)",
+      "bioavailability_notes": "One of few plant proteins with all essential amino acids. Protein quality (PDCAAS) comparable to animal protein."
+    },
+    {
+      "compound": "Folate",
+      "amount_per_100g": "375 mcg (edamame, 1 cup = 121% RDA)",
+      "bioavailability_notes": "Particularly high in edamame; critical for homocysteine metabolism and DNA synthesis."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "capers",
+      "type": "synergy",
+      "description": "Soybeans (genistein) + quercetin-rich foods (capers, apples) block prostate and ovarian cancer cell growth at lower doses than either alone"
+    },
+    {
+      "target_ingredient": "nuts",
+      "type": "complement",
+      "description": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8, 9]
+}

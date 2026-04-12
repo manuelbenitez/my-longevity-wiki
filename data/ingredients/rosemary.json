@@ -1,0 +1,94 @@
+{
+  "name": "Rosemary",
+  "slug": "rosemary",
+  "category": "herb",
+  "book_claims": [
+    {
+      "claim": "Contains rosmarinic acid and carnosic acid with potential antioxidant, CNS-protective and liver-protective properties",
+      "mechanism": "Rosmarinic acid and carnosic acid are potent antioxidant compounds with neuroprotective and hepatoprotective activity",
+      "study_ref": "Refs 106, 107 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Habtemariam, 2016, PMID: 27886158)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27886158/",
+      "finding": "Comprehensive review found carnosic acid and carnosol from rosemary demonstrate neuroprotective effects in models of Alzheimer's and Parkinson's disease through Nrf2 pathway activation and reduction of oxidative stress. Supports the book's CNS-protective claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Moss & Oliver, 2012, PMID: 22529834)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22529834/",
+      "finding": "Rosemary aroma exposure improved cognitive performance (speed and accuracy) in healthy adults. Plasma levels of 1,8-cineole (a rosemary volatile) correlated with cognitive performance, suggesting absorption through inhalation.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Nieto et al., 2018, PMID: 30513839)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30513839/",
+      "finding": "Rosemary extract significantly reduces lipid oxidation in cooked meats, lowering formation of malondialdehyde and heterocyclic amines -- carcinogenic compounds formed during high-heat cooking. Practical food safety application beyond supplementation.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/rosemary/",
+      "finding": "Moderate evidence for cognitive enhancement and neuroprotection. Carnosic acid identified as primary active compound with antioxidant activity that increases under oxidative stress conditions (pro-electrophilic mechanism).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["piney", "camphoraceous", "slightly bitter", "warm", "peppery"],
+    "aroma": ["evergreen", "woody", "mentholated", "resinous"],
+    "texture": ["woody stems", "needle-like leaves", "leathery when dried"],
+    "culinary_category": "herb"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Classic pairing for roasted vegetables, meats, and focaccia"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Infused rosemary oil for bread dipping and roasting"},
+    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Brightens rosemary's resinous quality in marinades and dressings"},
+    {"ingredient": "legumes", "tradition": "Tuscan", "source": "Essential in Tuscan white bean dishes (fagioli all'uccelletto)"},
+    {"ingredient": "potatoes", "tradition": "European", "source": "Roasted rosemary potatoes are a universal pairing"},
+    {"ingredient": "walnuts", "tradition": "Italian", "source": "Rosemary-walnut combinations in breads, pestos, and salads"},
+    {"ingredient": "sage", "tradition": "Italian", "source": "Both Lamiaceae herbs; combined in Italian roasts and compound butters"}
+  ],
+  "seasonality": "Evergreen perennial available year-round. Grows easily in pots or garden beds in temperate climates. Fresh rosemary is always preferable to dried for flavour, though dried retains significant active compounds.",
+  "nutrient_highlights": [
+    {
+      "compound": "Carnosic acid",
+      "amount_per_100g": "1.5-2.5 g (dried rosemary)",
+      "bioavailability_notes": "Pro-electrophilic: becomes more potent antioxidant under oxidative stress. Activates Nrf2 pathway. Lipophilic -- pair with fats for absorption."
+    },
+    {
+      "compound": "Rosmarinic acid",
+      "amount_per_100g": "1.0-2.5 g (dried rosemary)",
+      "bioavailability_notes": "Water-soluble polyphenol well-extracted in teas and infusions. Anti-inflammatory via COX-2 inhibition. Moderate oral bioavailability."
+    },
+    {
+      "compound": "1,8-Cineole (eucalyptol)",
+      "amount_per_100g": "Major volatile compound in essential oil",
+      "bioavailability_notes": "Absorbed through both inhalation and ingestion. Linked to cognitive performance improvements in human trials."
+    },
+    {
+      "compound": "Carnosol",
+      "amount_per_100g": "0.3-0.6 g (dried rosemary)",
+      "bioavailability_notes": "Oxidation product of carnosic acid with independent anticancer and anti-inflammatory activity."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "sage",
+      "type": "complement",
+      "description": "Both Lamiaceae family herbs rich in hydroxycinnamic acids; combined provide broader antioxidant coverage"
+    },
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "complement",
+      "description": "Fat carrier enhances absorption of lipophilic carnosic acid"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

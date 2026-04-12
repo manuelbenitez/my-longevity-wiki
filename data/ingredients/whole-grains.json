@@ -1,0 +1,114 @@
+{
+  "name": "Whole Grains (barley, farro, oats, brown rice)",
+  "slug": "whole-grains",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Regular consumption prevents chronic disease and supports longevity",
+      "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Regular consumption reduces cardiovascular disease risk by 20-40% and diabetes risk by 20-30%",
+      "mechanism": "Fibre-rich cell wall restricts rate of starch/sugar digestion and absorption; slow glucose release reduces insulin spikes; low glycaemic index induces satiety",
+      "study_ref": "Refs 78, 79, 80 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Highest intake of wholegrain fibre associated with 19% lower all-cause mortality and 15-34% lower disease-specific mortality",
+      "mechanism": "Fibre increases stool bulk, increases bile acid excretion, alters colonic flora, and generates short-chain fatty acids",
+      "study_ref": "Ref 90 in book (NIH-AARP Diet and Health Study, 367,442 participants)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Two servings per day associated with 21% reduction in type 2 diabetes risk",
+      "mechanism": "Beta-glucan fibre lowers glucose, insulin and cholesterol by reducing intestinal absorption",
+      "study_ref": "Ref 122 in book (286,125 participants)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Three to five servings daily associated with 21% lower cardiovascular disease risk",
+      "mechanism": "Multiple pathways including cholesterol reduction and anti-inflammatory effects",
+      "study_ref": "Ref 123 in book (meta-analysis)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models.",
+      "mechanism": "Ferulic acid, alkylresorcinols, apigenin, lignans, phytic acid in bran; spermidine in germ removes damaged cells and reduces inflammation",
+      "study_ref": "Refs 113-127 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27301975/",
+      "finding": "Meta-analysis (Aune et al., BMJ 2016) of 45 studies found each 90g/day increment of whole grains associated with 17% lower all-cause mortality, 22% lower CVD mortality, and 15% lower cancer mortality in a dose-response relationship.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31217122/",
+      "finding": "Lancet meta-analysis (Reynolds et al., 2019) of 185 prospective studies found highest vs lowest whole grain intake associated with 13-33% reduction in CVD, diabetes, cancer, and respiratory disease, with 25-29g fibre/day being optimal.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34652691/",
+      "finding": "Intervention study (Eisenberg et al., 2016; confirmed in humans 2021) demonstrated that spermidine from whole grain germ activates autophagy and improves cardiovascular function, supporting the book's claim about germ-derived longevity compounds.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "earthy", "mildly sweet", "complex"],
+    "aroma": ["toasty", "wheaty", "grassy (fresh)"],
+    "texture": ["chewy", "substantial", "varied (porridge to pilaf)"],
+    "culinary_category": "whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "legumes", "tradition": "Mediterranean / Global", "source": "Complementary amino acids for complete protein"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Olive oil slows carbohydrate absorption from grains"},
+    {"ingredient": "vegetables", "tradition": "Global", "source": "Combined fibre sources for microbiome diversity"},
+    {"ingredient": "garlic and onion", "tradition": "Mediterranean", "source": "Allium prebiotic fibres complement grain fibres"},
+    {"ingredient": "herbs and spices", "tradition": "Global", "source": "Polyphenol-rich seasonings add anti-inflammatory compounds"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fibre (beta-glucan, arabinoxylan)",
+      "amount_per_100g": "8-17 g (varies by grain)",
+      "bioavailability_notes": "Oats and barley richest in beta-glucan (3-8g/100g), which forms gel in intestine slowing glucose absorption. Intact grain structure preserves slow-release properties."
+    },
+    {
+      "compound": "Spermidine",
+      "amount_per_100g": "2-5 mg (concentrated in germ)",
+      "bioavailability_notes": "Autophagy activator; wheat germ is one of the richest dietary sources. Refining removes most spermidine content."
+    },
+    {
+      "compound": "Ferulic acid and lignans",
+      "amount_per_100g": "50-100 mg ferulic acid; 0.5-5 mg lignans",
+      "bioavailability_notes": "Bound to bran; released by gut microbiota fermentation. Lignans converted to enterolignans with anti-cancer properties."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "legumes",
+      "type": "synergy",
+      "description": "Complementary amino acid profiles; combined provide complete protein"
+    },
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "synergy",
+      "description": "Olive oil slows carbohydrate absorption from grains"
+    },
+    {
+      "target_ingredient": "beans-legumes",
+      "type": "complement",
+      "description": "Complementary fibre-rich food group"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4, 5, 7, 9]
+}

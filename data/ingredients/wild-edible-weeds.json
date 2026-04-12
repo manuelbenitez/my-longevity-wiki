@@ -1,0 +1,86 @@
+{
+  "name": "Wild Edible Weeds",
+  "slug": "wild-edible-weeds",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Traditional Mediterranean diet included abundant wild herbs and greens at every meal, including dandelions, plantain, watercress, mallow, and purslane",
+      "mechanism": "Wild edible plants provide a broader spectrum of phytochemicals, higher nutrient density, and more diverse fiber types than cultivated varieties",
+      "study_ref": "book-assertion (Chapter 8, traditional Mediterranean diet description)",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Provide antioxidants including vitamin C, vitamin E, beta-carotene, and selenium that protect against oxidative damage driving chronic diseases",
+      "mechanism": "Antioxidants neutralise free radicals and prevent LDL oxidation that drives atherosclerotic plaque formation",
+      "study_ref": "Refs 22, 23, 24 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Pardo-de-Santayana et al., 2007, PMID: 17404895)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17404895/",
+      "finding": "Ethnobotanical review of wild food plants in the Mediterranean: traditional diets included 200+ wild species. Many wild greens contain 2-10x the polyphenol and antioxidant content of cultivated counterparts.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Morales et al., 2014, PMID: 25260557)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25260557/",
+      "finding": "Wild edible plants from Mediterranean regions showed significantly higher antioxidant capacity, total phenolics, and flavonoids compared to commercial cultivated vegetables. Dandelion greens had 3x the polyphenols of cultivated lettuce.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Guarrera & Savo, 2013, PMID: 23727631)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23727631/",
+      "finding": "Comprehensive review of wild food plants used in traditional Italian cuisine. Over 700 species documented. Many have both nutritional and medicinal properties reflecting the original meaning of 'pharma-food'.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["bitter (dandelion, chicory)", "peppery (watercress, arugula)", "sour (sorrel, purslane)", "mineral-rich", "complex"],
+    "aroma": ["green", "herbal", "earthy", "pungent (watercress)"],
+    "texture": ["varied: tender (mallow, lamb's quarters) to crunchy (purslane stems)", "often more fibrous than cultivated greens"],
+    "culinary_category": "foraged greens / wild salad"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Traditional dressing for wild greens; fat enhances absorption of fat-soluble phytochemicals"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean", "source": "Acid tames bitterness of wild greens; enhances iron absorption"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Sauteed wild greens with garlic and olive oil is the archetype of cucina povera"},
+    {"ingredient": "white beans", "tradition": "Italian (Tuscan)", "source": "Wild greens and cannellini beans is a traditional Tuscan staple"},
+    {"ingredient": "eggs", "tradition": "Mediterranean / Global", "source": "Wild green frittata or omelette; fat from yolk aids nutrient absorption"},
+    {"ingredient": "vinegar", "tradition": "Mediterranean / Asian", "source": "Acidic dressing for bitter wild greens; traditional preservation method"},
+    {"ingredient": "anchovies", "tradition": "Italian / Spanish", "source": "Umami balances bitterness; traditional combination in Southern Italian cooking"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Polyphenols (total)",
+      "amount_per_100g": "200-800 mg depending on species (2-10x cultivated greens)",
+      "bioavailability_notes": "Wild plants produce more polyphenols as defense chemicals. Many are metabolized by gut bacteria into bioactive compounds."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "30-170 mg (watercress 43mg, dandelion 35mg, mallow up to 170mg)",
+      "bioavailability_notes": "High bioavailability. Wild greens often exceed cultivated varieties. Rapidly destroyed by cooking."
+    },
+    {
+      "compound": "Beta-carotene",
+      "amount_per_100g": "3000-10,000 mcg (dandelion greens among the highest)",
+      "bioavailability_notes": "Fat-soluble. Wild dandelion greens contain more beta-carotene than carrots."
+    },
+    {
+      "compound": "Omega-3 ALA",
+      "amount_per_100g": "300-400 mg (purslane); lower in other species",
+      "bioavailability_notes": "Purslane is the richest leafy source. Most wild greens contain more ALA than cultivated lettuce."
+    },
+    {
+      "compound": "Inulin-type fructans",
+      "amount_per_100g": "Variable; high in dandelion root and chicory",
+      "bioavailability_notes": "Prebiotic fiber that selectively feeds Bifidobacteria. Not digested by human enzymes."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

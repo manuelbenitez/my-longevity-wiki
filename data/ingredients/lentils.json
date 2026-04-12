@@ -1,0 +1,99 @@
+{
+  "name": "Lentils",
+  "slug": "lentils",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Consumption associated with lower risk of developing cancer and cardiovascular disease",
+      "mechanism": "Second highest protein content of legumes (27%). One of highest concentrations of phenolic compounds and antioxidants among legumes.",
+      "study_ref": "Refs 151, 152, 153 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24871476/",
+      "finding": "A 2014 meta-analysis (CMAJ, PMID 24871476) of 21 RCTs found that one daily serving of pulses (including lentils) significantly reduced LDL cholesterol by 5%, contributing to cardiovascular risk reduction.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28011400/",
+      "finding": "The PREDIMED trial secondary analysis (PMID 28011400) found that higher lentil consumption was associated with a 33% lower risk of type 2 diabetes and significantly lower cardiovascular mortality in a Mediterranean population.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29263222/",
+      "finding": "A 2018 RCT (J Nutr, PMID 29263222) found that replacing half the available carbohydrate in rice or potatoes with cooked lentils significantly reduced postprandial blood glucose by 20-35%, demonstrating a practical strategy for glycemic control.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28242629/",
+      "finding": "A 2017 review (Int J Mol Sci, PMID 28242629) documented lentils as containing the highest phenolic content among common pulses, with condensed tannins, flavonols, and hydroxycinnamic acids that have demonstrated anti-cancer activity in vitro.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "peppery", "mild", "slightly sweet"],
+    "aroma": ["earthy", "warm", "subtle"],
+    "texture": ["variable: firm (green/brown) to creamy (red/yellow)", "tender"],
+    "culinary_category": "legume / pulse"
+  },
+  "culinary_pairings": [
+    {"ingredient": "brown rice", "tradition": "Indian / Middle Eastern", "source": "Mujaddara, dal-chawal; complementary amino acids for complete protein"},
+    {"ingredient": "cumin", "tradition": "Indian / Middle Eastern", "source": "Essential spice in dal, soups, and lentil stews"},
+    {"ingredient": "tomatoes", "tradition": "Mediterranean / Indian", "source": "Acid brightens earthy lentils in soups, stews, and curries"},
+    {"ingredient": "garlic", "tradition": "Global", "source": "Aromatic base for virtually all lentil preparations"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Indian", "source": "Vitamin C improves iron absorption; acid finishes lentil dishes"},
+    {"ingredient": "spinach", "tradition": "Indian / Mediterranean", "source": "Palak dal; complementary iron sources with combined phytonutrients"},
+    {"ingredient": "turmeric", "tradition": "Indian", "source": "Anti-inflammatory spice; standard in all Indian dal preparations"}
+  ],
+  "seasonality": "Dried lentils available year-round. No soaking required unlike most beans. Red and yellow lentils cook in 15-20 minutes; green and brown in 25-35 minutes. French green (Puy) lentils hold shape best.",
+  "nutrient_highlights": [
+    {
+      "compound": "Plant protein",
+      "amount_per_100g": "9.0 g (cooked); 25-27% dry weight",
+      "bioavailability_notes": "Second highest protein content of all legumes. High in lysine; combine with grains for complete profile. One cup cooked provides 18g protein."
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "7.9 g (cooked)",
+      "bioavailability_notes": "One cup provides 16g fiber -- over 50% RDA. Mix of soluble, insoluble, and resistant starch."
+    },
+    {
+      "compound": "Folate (B9)",
+      "amount_per_100g": "181 mcg (cooked) -- 45% RDA",
+      "bioavailability_notes": "One cup provides 90% RDA. Critical for DNA synthesis and cardiovascular health."
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "3.3 mg (cooked) -- 82% RDA per cup",
+      "bioavailability_notes": "Non-heme iron; absorption significantly improved by vitamin C (add lemon juice or tomatoes)."
+    },
+    {
+      "compound": "Polyphenols (condensed tannins, flavonols)",
+      "amount_per_100g": "Variable; dark lentils contain more than red/yellow",
+      "bioavailability_notes": "Highest phenolic content among common pulses. Dark-colored varieties (green, brown, black) contain most. Anti-cancer activity demonstrated in vitro."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "brown-rice",
+      "type": "synergy",
+      "description": "Brown rice + lentils provides complete protein with all essential amino acids"
+    },
+    {
+      "target_ingredient": "lemon-juice",
+      "type": "synergy",
+      "description": "Vitamin C from lemon dramatically improves non-heme iron absorption"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

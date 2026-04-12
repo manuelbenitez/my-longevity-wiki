@@ -1,0 +1,87 @@
+{
+  "name": "Red Wine",
+  "slug": "red-wine",
+  "category": "beverage",
+  "book_claims": [
+    {
+      "claim": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
+      "mechanism": "Polyphenols (resveratrol, anthocyanins) provide antioxidant effects; consumed only with meals to moderate absorption",
+      "study_ref": "Seven Countries Study context, book-assertion",
+      "confidence": "medium",
+      "_from_chapter": 8
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Costanzo et al., 2010, PMID: 21044610)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21044610/",
+      "finding": "Meta-analysis of 84 studies found a J-shaped relationship between alcohol and cardiovascular mortality. Maximum benefit at 1-2 drinks/day for men, 1 drink/day for women. Wine showed stronger protective association than beer or spirits.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Tresserra-Rimbau et al., 2014, PMID: 25066189)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25066189/",
+      "finding": "PREDIMED trial analysis found moderate red wine consumption (within Mediterranean diet context) associated with reduced cardiovascular events. Polyphenols -- not ethanol alone -- explained much of the benefit, as evidenced by total urinary polyphenol excretion correlating with reduced mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (GBD Alcohol Collaborators, 2018, PMID: 30146330)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30146330/",
+      "finding": "Global Burden of Disease analysis challenged the J-curve, finding the safest level of alcohol consumption is zero when accounting for all health outcomes (not just cardiovascular). Any cardiovascular benefit is offset by increased cancer risk. Important counterpoint to the book's Mediterranean wine tradition.",
+      "agrees_with_book": false
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["tannic", "fruity", "dry to sweet", "acidic", "complex"],
+    "aroma": ["berry", "earthy", "oak", "spicy", "floral"],
+    "texture": ["light to full-bodied", "astringent tannins", "silky"],
+    "culinary_category": "beverage"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin-olive-oil", "tradition": "Mediterranean", "source": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"},
+    {"ingredient": "legumes", "tradition": "Mediterranean", "source": "Traditional accompaniment to bean-based Mediterranean meals"},
+    {"ingredient": "dark-chocolate", "tradition": "European", "source": "Shared polyphenol profiles; classic flavour affinity"},
+    {"ingredient": "walnuts", "tradition": "Mediterranean", "source": "Classic cheese-and-wine board; complementary polyphenols"},
+    {"ingredient": "garlic", "tradition": "French / Mediterranean", "source": "Red wine reduction sauces and braised dishes"},
+    {"ingredient": "rosemary", "tradition": "Mediterranean", "source": "Herb-forward red wine marinades and braised meats"}
+  ],
+  "seasonality": "Available year-round. Quality varies by vintage and region. Wines aged in oak may have higher ellagitannin content. No specific seasonal consumption pattern, but traditionally consumed with meals in Mediterranean cultures.",
+  "nutrient_highlights": [
+    {
+      "compound": "Resveratrol",
+      "amount_per_100g": "0.1-1.5 mg per glass (125ml)",
+      "bioavailability_notes": "Low oral bioavailability (~1-5%). Rapidly metabolised. Therapeutic doses in studies far exceed what wine provides. The wine benefit likely comes from the total polyphenol matrix, not resveratrol alone."
+    },
+    {
+      "compound": "Anthocyanins (malvidin, delphinidin)",
+      "amount_per_100g": "20-50 mg per glass",
+      "bioavailability_notes": "Responsible for red colour. Antioxidant and anti-inflammatory. Better absorbed in the acidic environment of wine than from most food sources."
+    },
+    {
+      "compound": "Proanthocyanidins",
+      "amount_per_100g": "25-100 mg per glass (higher in tannic wines)",
+      "bioavailability_notes": "Cardiovascular protective through endothelial function improvement. Wines from Sardinia and SW France (traditional long-lived populations) tend to be highest."
+    },
+    {
+      "compound": "Ethanol",
+      "amount_per_100g": "~12-15% ABV",
+      "bioavailability_notes": "Raises HDL cholesterol and has anticoagulant effects. But also a Group 1 carcinogen (IARC). Net health effect depends on individual risk profile."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "complement",
+      "description": "Together accounted for ~25% of calories in traditional Neapolitan diet; combined polyphenol synergy"
+    }
+  ],
+  "warnings": [
+    "The Global Burden of Disease study (2018) found zero alcohol is safest when all health outcomes are considered -- cardiovascular benefit may be offset by cancer risk",
+    "Consume ONLY with meals, never independently -- this is how traditional Mediterranean populations consumed wine",
+    "Limit to 1 glass for women, 1-2 for men. Benefits disappear and harms increase rapidly beyond moderate intake"
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

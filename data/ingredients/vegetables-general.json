@@ -1,0 +1,81 @@
+{
+  "name": "Vegetables (General)",
+  "slug": "vegetables-general",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Consuming vegetables at each meal prevents chronic disease and maximises health",
+      "mechanism": "Provides unique mixture of vegetable fibres, vitamins, oligo-elements and phytochemicals which after gut microbe processing release metabolites that protect from common diseases",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Aune et al., 2017, PMID: 28338764)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "finding": "Meta-analysis of 95 studies (142 publications): higher vegetable intake associated with reduced risk of cardiovascular disease, cancer, and all-cause mortality. Estimated 7.8 million premature deaths worldwide attributable to insufficient fruit and vegetable intake.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Slavin & Lloyd, 2012, PMID: 22797986)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22797986/",
+      "finding": "Dietary fiber from vegetables promotes beneficial gut microbiota diversity and short-chain fatty acid production. The fiber-microbiome axis is now recognized as a key mechanism for vegetable health benefits.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Wang et al., 2014, PMID: 24898241)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24898241/",
+      "finding": "Each daily portion of vegetables associated with 4% reduction in all-cause mortality in a meta-analysis of 16 prospective studies. The dose-response plateaued at approximately 5 servings/day for all-cause mortality.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["varied: sweet, bitter, earthy, peppery, mild"],
+    "aroma": ["green", "earthy", "fresh"],
+    "texture": ["crunchy to tender depending on type and preparation"],
+    "culinary_category": "broad vegetable category"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Universal fat carrier for fat-soluble nutrients in vegetables"},
+    {"ingredient": "garlic", "tradition": "Global", "source": "Foundational aromatic in virtually every cuisine that cooks vegetables"},
+    {"ingredient": "legumes", "tradition": "Global", "source": "Book recommends as complementary fiber-rich foods; combined fiber supports microbiome diversity"},
+    {"ingredient": "whole grains", "tradition": "Global", "source": "Part of the recommended fiber-rich food group alongside vegetables, beans, nuts, seeds"},
+    {"ingredient": "herbs (fresh)", "tradition": "Mediterranean / Asian", "source": "Zero-calorie flavor enhancement that encourages higher vegetable consumption"},
+    {"ingredient": "lemon/vinegar", "tradition": "Global", "source": "Acid enhances flavor and mineral absorption from vegetables"},
+    {"ingredient": "nuts and seeds", "tradition": "Global", "source": "Part of the book's recommended daily dietary pattern alongside vegetables"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "1-7 g depending on type",
+      "bioavailability_notes": "Different vegetables provide different fiber types (cellulose, pectin, inulin). Diversity of vegetable fiber supports microbiome diversity."
+    },
+    {
+      "compound": "Phytochemicals",
+      "amount_per_100g": "Thousands of unique compounds across vegetable families",
+      "bioavailability_notes": "Many phytochemicals are metabolized by gut bacteria into bioactive metabolites. The combination from diverse vegetables provides broader protection than any single vegetable."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "150-550 mg across common vegetables",
+      "bioavailability_notes": "Highly bioavailable from food sources. Most adults do not meet adequate intake (4700 mg/day). Vegetables are a primary source."
+    },
+    {
+      "compound": "Folate",
+      "amount_per_100g": "10-200 mcg depending on type",
+      "bioavailability_notes": "Dark green vegetables are the richest sources. Essential for DNA methylation and cell division."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "beans",
+      "type": "complement",
+      "description": "Part of the recommended fibre-rich food group alongside beans, whole grains, nuts, seeds and fruit"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4]
+}

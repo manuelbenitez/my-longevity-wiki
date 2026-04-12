@@ -1,0 +1,85 @@
+{
+  "name": "Fruits (seasonal, dried)",
+  "slug": "fruits",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+      "mechanism": "Pectin and other fruit fibres feed beneficial gut bacteria and produce anti-inflammatory short-chain fatty acids",
+      "study_ref": "ref-40",
+      "confidence": "high"
+    },
+    {
+      "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+      "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+      "study_ref": "refs-22,23,24",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "finding": "Meta-analysis (Aune et al., 2017) of 95 prospective studies found that 800g/day of fruits and vegetables was associated with 31% lower risk of premature death, with significant benefits starting at just 200g/day.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34131950/",
+      "finding": "Prospective study (Wang et al., PLOS Medicine 2021) of 100,000+ participants found 2 servings/day of fruit associated with 12% lower risk of cardiovascular disease and 10% lower all-cause mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30899512/",
+      "finding": "Systematic review (Slavin & Lloyd, 2012; updated meta-analyses) confirmed dietary fibre from fruit reduces risk of cardiovascular disease, type 2 diabetes, and colorectal cancer, with polyphenols contributing independent anti-inflammatory effects.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "tart", "tangy", "complex when dried"],
+    "aroma": ["fragrant", "floral", "concentrated when dried"],
+    "texture": ["juicy (fresh)", "chewy (dried)", "crisp (apples)", "soft (figs)"],
+    "culinary_category": "fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "nuts", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional dessert pairing: dried fruits with nuts"},
+    {"ingredient": "yogurt", "tradition": "Mediterranean / Global", "source": "Probiotic + prebiotic fibre synergy"},
+    {"ingredient": "honey", "tradition": "Mediterranean", "source": "Traditional sweetener complement for seasonal fruits"},
+    {"ingredient": "dark chocolate", "tradition": "European", "source": "Complementary polyphenol profiles"},
+    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Fruit + whole grain fibre for sustained energy"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "10-90 mg (varies widely)",
+      "bioavailability_notes": "Citrus fruits, berries, and kiwi are richest sources. Heat and light degrade vitamin C; eat fresh when possible."
+    },
+    {
+      "compound": "Dietary fibre (pectin, cellulose)",
+      "amount_per_100g": "1-8 g (fresh); 5-15 g (dried)",
+      "bioavailability_notes": "Pectin is a soluble fibre fermented by gut bacteria to produce butyrate and propionate, key short-chain fatty acids."
+    },
+    {
+      "compound": "Polyphenols (flavonoids, anthocyanins)",
+      "amount_per_100g": "100-500 mg GAE (varies by fruit)",
+      "bioavailability_notes": "Berries and dark-skinned fruits highest; gut microbiota metabolism enhances bioactivity."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "nuts",
+      "type": "complement",
+      "description": "Traditional pairing as dessert: dried fruits with nuts"
+    },
+    {
+      "target_ingredient": "vegetables-general",
+      "type": "synergy",
+      "description": "Combined fruit and vegetable intake provides diverse phytochemicals and antioxidants"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

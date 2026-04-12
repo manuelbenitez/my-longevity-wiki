@@ -1,0 +1,64 @@
+{
+  "book_title": "The Path to Longevity",
+  "author": "Luigi Fontana",
+  "format": "epub",
+  "primary_food_chapters": [
+    {
+      "chapter": 4,
+      "file": "OEBPS/chapter04.xhtml",
+      "title": "The Science of Healthy Nutrition"
+    },
+    {
+      "chapter": 5,
+      "file": "OEBPS/chapter05.xhtml",
+      "title": "Longevity Effects of Restricting Calories and Fasting"
+    },
+    {
+      "chapter": 7,
+      "file": "OEBPS/chapter07.xhtml",
+      "title": "Diet Quality Matters"
+    },
+    {
+      "chapter": 8,
+      "file": "OEBPS/chapter08.xhtml",
+      "title": "The Mediterranean Diet"
+    },
+    {
+      "chapter": 9,
+      "file": "OEBPS/chapter09.xhtml",
+      "title": "Move to the Modern Healthy Longevity Diet"
+    },
+    {
+      "chapter": 10,
+      "file": "OEBPS/chapter10.xhtml",
+      "title": "Foods to Eliminate or Drastically Reduce"
+    }
+  ],
+  "secondary_chapters": [
+    {
+      "chapter": 2,
+      "file": "OEBPS/chapter02.xhtml",
+      "title": "Healthy Centenarians"
+    },
+    {
+      "chapter": 6,
+      "file": "OEBPS/chapter06.xhtml",
+      "title": "Healthy Children"
+    },
+    {
+      "chapter": 17,
+      "file": "OEBPS/chapter17.xhtml",
+      "title": "Take Preventative Action"
+    }
+  ],
+  "references": [
+    {
+      "file": "OEBPS/chapter32.xhtml",
+      "title": "References/Bibliography Part 1"
+    },
+    {
+      "file": "OEBPS/chapter32a.xhtml",
+      "title": "References/Bibliography Part 2"
+    }
+  ]
+}

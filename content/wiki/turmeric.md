@@ -1,0 +1,61 @@
+---
+title: Turmeric
+slug: turmeric
+category: spice
+tags: [anti-inflammatory, curcumin, cancer-prevention, neuroprotection, spice]
+longevity_score: 7
+last_updated: 2026-04-12
+---
+
+# Turmeric
+
+Curcumin, turmeric's headline compound, hits three of the biggest longevity targets at once -- inflammation, cancer, and neurodegeneration -- but your body absorbs less than 1% of it unless you know the trick.
+
+## Why It Matters for Longevity
+
+Curcumin works by shutting down NF-kB, the master switch for inflammatory gene expression. It also inhibits COX-2 and LOX pathways. In clinical trials, 1,000mg/day of curcumin significantly reduced C-reactive protein, TNF-alpha, and IL-6 -- the trifecta of chronic inflammatory markers that drive aging-related disease. A meta-analysis of 8 RCTs showed a weighted mean reduction of 1.55 mg/L in CRP, with the biggest effects in people who already had elevated inflammation.
+
+On the cancer side, curcumin induces apoptosis in cancer cells -- it literally triggers their self-destruct program. Animal studies show inhibitory effects against colon, skin, and oral cancers. A pilot human study combined curcumin with quercetin (found in capers and onions) and saw significant reduction in both the number and size of colon polyps over six months. That quercetin synergy is worth remembering.
+
+The brain data is newer but striking. A double-blind RCT gave non-demented adults 90mg of bioavailable curcumin (Theracurmin) twice daily for 18 months. The curcumin group showed significantly improved memory performance and -- here's what got attention -- measurably reduced amyloid and tau accumulation on PET brain scans. That's not just symptom management; it's evidence of structural change.
+
+## How to Use It
+
+Here's the bioavailability problem: standard curcumin powder has less than 1% oral absorption. The solution is simple and well-proven. Black pepper contains piperine, which increases curcumin absorption by roughly 2,000%. That's not a typo. Always combine turmeric with black pepper.
+
+Fat also helps. Curcumin is fat-soluble, so cooking turmeric into a dish with olive oil, coconut milk, or ghee meaningfully improves absorption. A golden milk with coconut milk, turmeric, black pepper, and a pinch of fat checks every box.
+
+Use 1-2 teaspoons of turmeric powder daily in cooking. Fresh turmeric rhizome (available late autumn through winter) can be grated into stir-fries, soups, and smoothies. Store dried powder away from light -- curcuminoid content degrades with UV exposure.
+
+## What to Pair It With
+
+| Ingredient | Why | Tradition |
+|-----------|-----|-----------|
+| Black pepper | Piperine boosts curcumin absorption by 2,000% | Indian (Ayurvedic) |
+| Capers / onions | Quercetin + curcumin synergy reduced colon polyps in pilot study | Mediterranean / fusion |
+| Coconut milk | Fat improves fat-soluble curcuminoid absorption | Thai / Indonesian |
+| Ginger | Fellow rhizome with complementary anti-inflammatory pathways | Indian / Southeast Asian |
+| Lentils and chickpeas | Traditional vehicle; turmeric is in nearly every Indian dal | Indian |
+| Cauliflower | Absorbs turmeric flavor and color; indole-3-carbinol adds cancer-fighting synergy | Indian |
+
+## Flavor Profile
+
+Earthy, warm, and slightly bitter with a mild peppery bite and a musky, ginger-adjacent aroma. Fresh turmeric is fibrous and dense; the dried powder is fine and intensely staining. It's a background spice -- it colors and warms a dish rather than dominating it. Foundational across Indian, Southeast Asian, and Persian cooking. Think curries, rice dishes, and golden milk.
+
+## The Science
+
+- Hewlings & Kalman (2017): 1,000mg/day curcumin significantly reduced CRP and inflammatory biomarkers across multiple RCTs; mechanism via NF-kB, COX-2, LOX inhibition. (Foods)
+- Sahebkar et al. (2019): Meta-analysis of 8 RCTs; curcumin reduced serum CRP by 1.55 mg/L, plus reductions in TNF-alpha and IL-6.
+- Small et al. (2018): 90mg bioavailable curcumin twice daily for 18 months improved memory and reduced amyloid/tau on PET scans. (American Journal of Geriatric Psychiatry)
+- Shoba et al. (1998): Piperine increases curcumin bioavailability by 2,000% in humans. (Classic study, widely replicated)
+- Yu et al. (book refs 84-85): Curcumin + quercetin pilot study showed significant colon polyp regression.
+
+## Key Nutrients
+
+| Nutrient | Per 100g | Notes |
+|----------|----------|-------|
+| Curcumin | 3,000-5,000mg | <1% bioavailability without enhancers; piperine increases absorption ~2,000% |
+| Demethoxycurcumin | 1,000-2,000mg | Second curcuminoid; similar bioavailability limitations |
+| Turmerone | 2-5% of rhizome (essential oil) | Independent neuroprotective activity; may enhance curcumin absorption |
+| Iron | 41.4mg | Non-heme; absorption enhanced by vitamin C |
+| Manganese | 19.8mg | High content but small serving sizes limit intake |

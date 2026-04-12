@@ -1,0 +1,97 @@
+{
+  "name": "Psyllium",
+  "slug": "psyllium",
+  "category": "herb",
+  "book_claims": [
+    {
+      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+      "study_ref": "Canadian trial, ref-17",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Reduces severity of colitis",
+      "mechanism": "Soluble fibre feeds beneficial gut bacteria, produces anti-inflammatory short-chain fatty acids; directly modulates intestinal immune response",
+      "study_ref": "ref-38",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Supplementation causes substantial improvement in gastrointestinal symptoms in ulcerative colitis patients in remission",
+      "mechanism": "Prebiotic fibre supports beneficial bacterial populations and SCFA production; reduces intestinal inflammation",
+      "study_ref": "ref-42 (small randomised clinical trial)",
+      "confidence": "medium",
+      "_from_chapter": 8
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed meta-analysis (Wei et al., 2009, PMID: 19368716)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19368716/",
+      "finding": "Meta-analysis of 21 RCTs found psyllium supplementation reduced LDL cholesterol by 7% and total cholesterol by 5%. Effects were dose-dependent and consistent across studies, supporting the book's cholesterol-lowering claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (McRorie, 2015, PMID: 25972618)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25972618/",
+      "finding": "Psyllium's gel-forming soluble fibre is the only fibre supplement with sufficient evidence to earn FDA-approved health claims for both cholesterol lowering and blood glucose reduction. Forms a viscous gel that slows digestion and traps bile acids.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Jalanka et al., 2019, PMID: 30669509)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30669509/",
+      "finding": "Psyllium supplementation significantly increased Faecalibacterium (butyrate-producing bacteria) abundance in healthy adults, supporting its prebiotic role in maintaining gut barrier integrity and reducing intestinal inflammation.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/psyllium/",
+      "finding": "Strong evidence for cholesterol reduction (LDL -5-10%), blood glucose management, and improved bowel regularity. FDA-approved health claim for coronary heart disease risk reduction.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["neutral", "slightly earthy", "bland"],
+    "aroma": ["mild", "hay-like"],
+    "texture": ["mucilaginous when hydrated", "gritty if undissolved", "gel-like"],
+    "culinary_category": "functional supplement"
+  },
+  "culinary_pairings": [
+    {"ingredient": "oat-porridge", "tradition": "Western health food", "source": "Both soluble fibre sources; combined in breakfast porridge for cholesterol lowering"},
+    {"ingredient": "smoothies", "tradition": "Modern health food", "source": "Blends seamlessly into fruit and vegetable smoothies"},
+    {"ingredient": "yogurt", "tradition": "Western", "source": "Mixed into yogurt for added fibre without flavour change"},
+    {"ingredient": "legumes", "tradition": "Functional pairing", "source": "Different fibre types feed complementary gut bacteria populations"},
+    {"ingredient": "cinnamon", "tradition": "Modern health food", "source": "Cinnamon masks psyllium's mild earthiness in drinks and porridge"},
+    {"ingredient": "flaxseeds", "tradition": "Health food", "source": "Combined soluble fibre sources for comprehensive gut and cholesterol support"}
+  ],
+  "seasonality": "Available year-round as dried husk supplement. Plantago ovata grown primarily in India. No seasonal variation in supplemental form.",
+  "nutrient_highlights": [
+    {
+      "compound": "Soluble fibre (beta-glucan equivalent)",
+      "amount_per_100g": "~70g soluble fibre per 100g husk",
+      "bioavailability_notes": "Forms viscous gel in gut that traps bile acids, slows glucose absorption, and feeds beneficial bacteria. Must be taken with adequate water (250ml+ per 5g dose)."
+    },
+    {
+      "compound": "Short-chain fatty acids (via fermentation)",
+      "amount_per_100g": "N/A (produced by gut bacteria from psyllium fermentation)",
+      "bioavailability_notes": "Gut bacteria ferment psyllium to produce butyrate, propionate, and acetate. Butyrate is the primary energy source for colonocytes and has anti-inflammatory properties."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "oats",
+      "type": "synergy",
+      "description": "Both are soluble fibre sources in the cholesterol-lowering food portfolio"
+    },
+    {
+      "target_ingredient": "legumes",
+      "type": "complement",
+      "description": "Different fibre types (soluble psyllium vs mixed legume fibre) feed complementary gut bacteria populations"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

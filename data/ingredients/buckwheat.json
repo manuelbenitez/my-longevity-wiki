@@ -1,0 +1,98 @@
+{
+  "name": "Buckwheat",
+  "slug": "buckwheat",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Whole grains including pseudocereals associated with protective effects against obesity, type 2 diabetes, cardiovascular disease and cancer",
+      "mechanism": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Provides fibre, vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites.",
+      "study_ref": "Refs 113-127 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29544922/",
+      "finding": "A 2018 systematic review (Food Chem, PMID 29544922) found that buckwheat consumption was associated with reduced blood glucose, total cholesterol, and blood pressure, attributed to its high rutin and D-chiro-inositol content.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16176615/",
+      "finding": "A 2006 study (J Agric Food Chem, PMID 16176615) found that buckwheat protein extract significantly lowered cholesterol in hamsters through increased fecal excretion of steroids, with effects comparable to soy protein.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25694675/",
+      "finding": "A 2015 review (J Agric Food Chem, PMID 25694675) documented buckwheat as the richest dietary source of D-chiro-inositol, a compound that improves insulin sensitivity and shows promise for type 2 diabetes management.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective study)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17093136/",
+      "finding": "A 2007 study in a Chinese population (Am J Clin Nutr, PMID 17093136) found that regular buckwheat consumption was associated with lower blood glucose, lower blood pressure, and improved lipid profiles compared to non-consumers.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "nutty", "slightly bitter", "robust"],
+    "aroma": ["toasty", "deep", "grain-forward when toasted (kasha)"],
+    "texture": ["tender but distinct grains", "soft when cooked", "slightly gritty in flour"],
+    "culinary_category": "pseudocereal"
+  },
+  "culinary_pairings": [
+    {"ingredient": "mushrooms", "tradition": "Eastern European", "source": "Kasha varnishkes and mushroom-buckwheat porridge traditions"},
+    {"ingredient": "soba noodles (dipping sauce)", "tradition": "Japanese", "source": "Traditional soba with dashi and soy; buckwheat flour is the base"},
+    {"ingredient": "butter or ghee", "tradition": "Eastern European / French", "source": "Galettes de sarrasin (Breton crepes); kasha cooked in butter"},
+    {"ingredient": "onions (caramelized)", "tradition": "Eastern European", "source": "Classic kasha varnishkes with caramelized onions and bow-tie pasta"},
+    {"ingredient": "honey", "tradition": "Russian / Eastern European", "source": "Buckwheat honey is a traditional pairing; sweetens bitterness"},
+    {"ingredient": "goat cheese", "tradition": "French", "source": "Galette filling; tangy dairy complements earthy grain"}
+  ],
+  "seasonality": "Available year-round as dried groats or flour. Toasted buckwheat (kasha) has deeper flavor. Raw groats are milder. Buckwheat flour best stored in fridge or freezer.",
+  "nutrient_highlights": [
+    {
+      "compound": "Rutin",
+      "amount_per_100g": "12-36 mg (groats); up to 230 mg (buckwheat greens)",
+      "bioavailability_notes": "Flavonoid glycoside with anti-inflammatory and capillary-strengthening properties. Converted to quercetin by gut bacteria. Not found in any true cereal grain."
+    },
+    {
+      "compound": "D-chiro-inositol",
+      "amount_per_100g": "2-5 mg (richest dietary source)",
+      "bioavailability_notes": "Insulin-mimetic compound that improves insulin signaling. Shows promise for type 2 diabetes and PCOS management."
+    },
+    {
+      "compound": "Complete protein",
+      "amount_per_100g": "13.3 g with high lysine content",
+      "bioavailability_notes": "Unlike true cereals, buckwheat protein contains all essential amino acids in good proportions including lysine. Protein quality comparable to animal sources (PDCAAS 0.7)."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "231 mg (55% RDA)",
+      "bioavailability_notes": "Excellent source. Important for insulin sensitivity and over 300 enzymatic reactions."
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "10.0 g",
+      "bioavailability_notes": "Includes resistant starch and soluble fiber. Supports gut microbiome diversity and SCFA production."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "legumes",
+      "type": "complement",
+      "description": "While buckwheat has complete protein, combining with legumes further improves amino acid balance"
+    },
+    {
+      "target_ingredient": "vegetables",
+      "type": "synergy",
+      "description": "Vitamin C from vegetables improves iron absorption from buckwheat"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Seeds",
+  "slug": "seeds",
+  "category": "seed",
+  "book_claims": [
+    {
+      "claim": "Regular consumption supports disease prevention and longevity",
+      "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27916000/",
+      "finding": "Meta-analysis (Aune et al., BMC Medicine 2016) included seeds alongside nuts, finding combined consumption associated with lower all-cause mortality, cardiovascular disease, and cancer risk in a dose-response manner.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30487459/",
+      "finding": "Review (Ros & Hu, 2013; updated) found seeds provide unique lignan profiles (flax: SDG; sesame: sesamin) and essential fatty acid ratios not found in other food groups, contributing to cholesterol reduction and anti-inflammatory effects.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32693185/",
+      "finding": "Systematic review found seed consumption (flax, chia, hemp, pumpkin, sunflower, sesame) associated with improved lipid profiles, reduced inflammation, and better glycemic control across multiple RCTs.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "earthy", "mild to rich (varies by type)"],
+    "aroma": ["grassy", "warm", "toasty when roasted"],
+    "texture": ["crunchy", "small", "oily"],
+    "culinary_category": "seed"
+  },
+  "culinary_pairings": [
+    {"ingredient": "yogurt", "tradition": "Global", "source": "Probiotic + prebiotic fibre synergy; classic topping"},
+    {"ingredient": "salads", "tradition": "Global", "source": "Nutrient-dense topping adding healthy fats and crunch"},
+    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Classic porridge addition for omega-3 and minerals"},
+    {"ingredient": "dark green leafy vegetables", "tradition": "Global", "source": "Mineral-rich seeds on mineral-rich greens"},
+    {"ingredient": "berries", "tradition": "Global", "source": "Seed + berry combinations for combined antioxidant profiles"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Essential fatty acids (ALA, LA)",
+      "amount_per_100g": "varies widely by seed type",
+      "bioavailability_notes": "Flaxseeds: highest ALA. Hemp: balanced omega-6/omega-3 ratio. Sunflower: rich in omega-6. Chia: high ALA. Grinding improves bioavailability for flax and chia."
+    },
+    {
+      "compound": "Lignans (various types)",
+      "amount_per_100g": "varies: flax up to 13mg/g, sesame 3-6mg/g",
+      "bioavailability_notes": "Gut microbiota convert plant lignans to enterolignans with anti-estrogenic and anticancer properties. Lignan type and concentration vary dramatically by seed."
+    },
+    {
+      "compound": "Minerals (magnesium, zinc, iron, selenium)",
+      "amount_per_100g": "varies by type",
+      "bioavailability_notes": "Seeds are among the most mineral-dense foods per calorie. Phytic acid partially inhibits absorption; soaking or sprouting improves bioavailability."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4]
+}

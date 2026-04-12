@@ -1,0 +1,375 @@
+{
+  "chapter": "Longevity Effects of Restricting Calories and Fasting",
+  "chapter_number": 5,
+  "page_range": "estimated",
+  "extraction_status": "complete",
+  "ingredients": [
+    {
+      "name": "Non-Starchy Vegetables (for fasting days)",
+      "slug": "non-starchy-vegetables-fasting",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
+          "mechanism": "Absence of animal protein, grains and fruit combined with very low calorie content (~500 cal/day) inhibits the insulin/IGF-1/mTOR pathway that modulates ageing and cancer development",
+          "study_ref": "Refs 46, 47 in book; author's own clinical studies",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
+          "mechanism": "Very low calorie density of non-starchy vegetables keeps intake below 500 cal/day, achieving ~20-23% weekly calorie restriction",
+          "study_ref": "Author's clinical randomised studies",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vegetable fasting activates longevity pathways via hormesis",
+          "mechanism": "Fasting acts as chronic mild stressor (hormetic agent) that activates cellular protective and anti-ageing pathways, increases stress resistance, elevates cortisol moderately, and enhances removal of damaged proteins",
+          "study_ref": "Refs 48, 49, 50 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Fasting increases brain-derived neurotrophic factor (BDNF)",
+          "mechanism": "BDNF promotes growth and survival of nerve cells, strengthening brain function",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Unrestricted non-starchy vegetables, raw or cooked, keeping total daily intake under ~500 calories",
+        "frequency": "2-3 times per week (depending on baseline weight and metabolic profile)",
+        "preparation": "Raw or cooked, dressed with 1 tablespoon extra-virgin olive oil, lemon juice or vinegar at lunch and dinner. No more than 2 tablespoons oil total per fasting day",
+        "reasoning": "Author's clinical protocol for intermittent vegetable fasting; superior to 5:2 diet because excluding animal protein, grains and fruit maximises mTOR pathway suppression"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "complement",
+          "description": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
+        },
+        {
+          "target_ingredient": "lemon-juice",
+          "type": "complement",
+          "description": "Used as dressing alongside olive oil on fasting day vegetables"
+        }
+      ]
+    },
+    {
+      "name": "Extra-Virgin Olive Oil",
+      "slug": "extra-virgin-olive-oil",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable fat source during fasting days that does not disrupt fasting metabolic benefits",
+          "mechanism": "Provides essential fatty acids without activating insulin/IGF-1/mTOR pathway as animal proteins would",
+          "study_ref": "Author's clinical fasting protocol",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Slows absorption of carbohydrates when added to meals",
+          "mechanism": "Fat delays gastric emptying and carbohydrate absorption in the intestine",
+          "study_ref": "book-assertion (detailed in Chapter 7)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "1 tablespoon per meal on fasting days (~100 cal per tablespoon); max 2 tablespoons per fasting day",
+        "frequency": "Daily (fasting and non-fasting days)",
+        "preparation": "Cold-pressed extra-virgin; used as dressing",
+        "reasoning": "Primary fat source in the author's fasting and Mediterranean-style protocol"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "non-starchy-vegetables-fasting",
+          "type": "complement",
+          "description": "Used to dress vegetables on fasting days"
+        }
+      ]
+    },
+    {
+      "name": "Whole Grains",
+      "slug": "whole-grains",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of a high-quality diet that substituting for refined foods causes weight loss even without calorie counting",
+          "mechanism": "High fibre content induces early satiety via slower gastric emptying and small bowel transit; requires overfeeding by 200-300 cal/day to prevent unintended weight loss",
+          "study_ref": "Author's metabolic kitchen study; Ref 41 in book (Mediterranean diet study)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Not precisely specified; fibre intake of 45g/day (3x Western average) in author's study diet",
+        "frequency": "Daily (on non-fasting days)",
+        "preparation": "Whole-wheat bread, oat porridge, brown rice and similar minimally processed forms",
+        "reasoning": "Core component of high-quality diet used in author's clinical studies"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "beans-legumes",
+          "type": "complement",
+          "description": "Combined in the author's study diet for complete nutrition"
+        }
+      ]
+    },
+    {
+      "name": "Beans / Legumes",
+      "slug": "beans-legumes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
+          "mechanism": "High fibre induces early satiety; source of plant protein, vitamins, phytocompounds and minerals",
+          "study_ref": "Author's metabolic kitchen study",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular inclusion in meals",
+        "frequency": "Daily (on non-fasting days)",
+        "preparation": "Cooked",
+        "reasoning": "Key component of the Mediterranean-style study diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "complement",
+          "description": "Combined with whole grains for complete protein and maximum fibre"
+        }
+      ]
+    },
+    {
+      "name": "Fish",
+      "slug": "fish",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Acceptable animal protein source in a longevity-focused diet when consumed moderately",
+          "mechanism": "Provides essential amino acids and omega-3 fatty acids without the same negative metabolic profile as red meat",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Moderate portions",
+        "frequency": "3 times per week",
+        "preparation": "Not specified (part of study diet protocol)",
+        "reasoning": "Included in the author's calorie restriction study diet as primary animal protein source"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "poultry",
+          "type": "complement",
+          "description": "Fish consumed 3x/week vs poultry only 1x/week in the study protocol"
+        }
+      ]
+    },
+    {
+      "name": "Poultry (pastured/organic)",
+      "slug": "poultry",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Acceptable animal protein when consumed sparingly in a longevity diet",
+          "mechanism": "Lower in harmful saturated fat and metabolic disruptors than red meat, but still activates insulin/IGF-1 pathway so must be limited",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Small portions",
+        "frequency": "Once per week only",
+        "preparation": "Pastured raised organic preferred",
+        "reasoning": "Severely limited in study protocol; calorie-restricted practitioners occasionally consume pastured raised organic poultry"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "fish",
+          "type": "complement",
+          "description": "Fish preferred over poultry (3x vs 1x per week)"
+        }
+      ]
+    },
+    {
+      "name": "Low-Fat Yogurt",
+      "slug": "low-fat-yogurt",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable breakfast component in a high-quality longevity diet",
+          "mechanism": "Provides protein and probiotics without excessive saturated fat",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Daily at breakfast",
+        "preparation": "Low-fat, unsweetened",
+        "reasoning": "Included in the breakfast protocol of the author's clinical study"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "oat-porridge",
+          "type": "complement",
+          "description": "Combined at breakfast with oat porridge, nuts and fruit"
+        }
+      ]
+    },
+    {
+      "name": "Oat Porridge",
+      "slug": "oat-porridge",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable whole grain breakfast food in a longevity diet",
+          "mechanism": "Provides slow-releasing carbohydrates and soluble fibre for sustained energy and satiety",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Daily at breakfast",
+        "preparation": "Porridge (cooked oats)",
+        "reasoning": "Included in breakfast protocol of clinical study"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "nuts",
+          "type": "complement",
+          "description": "Combined at breakfast with yogurt, nuts and fruit"
+        }
+      ]
+    },
+    {
+      "name": "Chickpeas",
+      "slug": "chickpeas",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Far lower calorie density than cheese while providing fibre and protein",
+          "mechanism": "100g cooked chickpeas = 164 cal (2.6g fat, 27g carbs incl 7g fibre, 9g protein) vs 100g Parmesan = 384 cal (28g fat, 0g fibre, 33g protein); fibre induces early satiety",
+          "study_ref": "Nutritional comparison cited in text",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Cooked",
+        "reasoning": "Used as example of how plant foods provide far more fibre and fewer calories per gram than animal products"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "parmesan-cheese",
+          "type": "antagonism",
+          "description": "Chickpeas presented as healthier alternative to calorie-dense, fibreless Parmesan cheese"
+        }
+      ]
+    },
+    {
+      "name": "Parmesan Cheese",
+      "slug": "parmesan-cheese",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Very high calorie density with zero fibre makes it a poor choice for weight management",
+          "mechanism": "100g contains 384 calories, 28g fat, 0g carbohydrates, 0g fibre; no fibre means no satiety signalling from gut",
+          "study_ref": "Nutritional comparison cited in text",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Limit",
+        "frequency": "Avoid or minimise",
+        "preparation": "N/A",
+        "reasoning": "Used as negative example of calorie-dense, fibre-free food"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "chickpeas",
+          "type": "antagonism",
+          "description": "Cheese shown as inferior to chickpeas for longevity diet"
+        }
+      ]
+    },
+    {
+      "name": "Brown Rice",
+      "slug": "brown-rice",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Induces greater satiety than white rice, making overeating difficult",
+          "mechanism": "Fibre-rich cell wall slows gastric emptying and small bowel transit, triggering early satiety signals",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular (non-fasting days)",
+        "preparation": "Cooked (not overcooked)",
+        "reasoning": "Presented as example of how whole grain versions of foods naturally limit calorie intake"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "white-rice",
+          "type": "antagonism",
+          "description": "Brown rice recommended as replacement for white rice"
+        }
+      ]
+    },
+    {
+      "name": "Refined/Processed Foods (sweets, sugary drinks, white bread, white rice, canned/pre-packaged foods)",
+      "slug": "refined-processed-foods",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consumption on non-fasting days negatively influences metabolic response to fasting-induced weight loss",
+          "mechanism": "Disrupts gut microbiome composition and metabolite production, affecting metabolic health and increasing risk of cancer, inflammatory and autoimmune disorders",
+          "study_ref": "Author's preliminary data from ongoing experiment",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Consuming refined foods during 16:8 time-restricted feeding causes huge increase in blood cholesterol",
+          "mechanism": "Refined foods (hamburgers, French fries) spike insulin and deliver trans fats and refined carbs that raise cholesterol even within a restricted feeding window",
+          "study_ref": "Author's ongoing experiment",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Zero",
+        "frequency": "Eliminated entirely",
+        "preparation": "N/A",
+        "reasoning": "All calorie-restricted practitioners in the author's studies have completely eliminated refined/processed foods; quality of food is paramount even during fasting protocols"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Must be replaced with whole grains and other minimally processed foods"
+        }
+      ]
+    },
+    {
+      "name": "Dates",
+      "slug": "dates",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Traditional frugal food consumed at dusk during Ramadan fasting",
+          "mechanism": "Provides quick glucose replenishment after extended fast without large caloric load",
+          "study_ref": "book-assertion (cultural reference)",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "A few",
+        "frequency": "During time-restricted fasting protocols (at dusk)",
+        "preparation": "Whole dried dates",
+        "reasoning": "Referenced as traditional Ramadan practice of extreme time-restricted fasting"
+      },
+      "relationships": []
+    }
+  ]
+}

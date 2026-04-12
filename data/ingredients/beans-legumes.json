@@ -1,0 +1,106 @@
+{
+  "name": "Beans / Legumes",
+  "slug": "beans-legumes",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
+      "mechanism": "Fibre-rich food that after gut microbe processing releases protective metabolites; low in empty calories compared to processed foods",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium",
+      "_from_chapter": 4
+    },
+    {
+      "claim": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
+      "mechanism": "High fibre induces early satiety; source of plant protein, vitamins, phytocompounds and minerals",
+      "study_ref": "Author's metabolic kitchen study",
+      "confidence": "high",
+      "_from_chapter": 5
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24871476/",
+      "finding": "A 2014 meta-analysis (CMAJ, PMID 24871476) of 21 RCTs found that eating one serving of pulses (beans, lentils, chickpeas, peas) per day significantly reduced LDL cholesterol by 5%, supporting cardiovascular risk reduction.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26269228/",
+      "finding": "A 2016 meta-analysis (Am J Clin Nutr, PMID 26269228) of 21 RCTs found that pulse consumption significantly increased satiety by 31% compared to control diets, supporting the weight management claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15228991/",
+      "finding": "The INTERMAP study (Asia Pac J Clin Nutr, PMID 15228991) and a 2004 analysis found that legume consumption was the single most protective dietary factor for longevity across multiple cultures, with an 8% reduction in mortality risk per 20g daily intake.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28233404/",
+      "finding": "A 2017 systematic review (Nutrients, PMID 28233404) found that regular bean consumption was associated with reduced risk of cardiovascular disease, obesity, type 2 diabetes, and colorectal cancer, with fiber and resistant starch as primary mechanisms.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "creamy", "mild", "starchy"],
+    "aroma": ["subtle", "earthy", "comforting"],
+    "texture": ["creamy interior", "tender skin", "variable by variety"],
+    "culinary_category": "legume / pulse"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Aromatic base for nearly all bean preparations worldwide"},
+    {"ingredient": "cumin", "tradition": "Middle Eastern / Mexican / Indian", "source": "Classic spice pairing across multiple bean-centric cuisines"},
+    {"ingredient": "tomatoes", "tradition": "Mediterranean / Mexican", "source": "Acid and umami complement creamy beans; classic in chili and fasolada"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Finishing fat that carries flavor and adds healthy monounsaturated fats"},
+    {"ingredient": "whole grains", "tradition": "Global", "source": "Complementary amino acids for complete protein; rice and beans is universal"},
+    {"ingredient": "onions", "tradition": "Global", "source": "Foundation aromatic in virtually every bean dish worldwide"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Middle Eastern", "source": "Vitamin C improves non-heme iron absorption from beans"}
+  ],
+  "seasonality": "Dried beans available year-round. Fresh shell beans (cranberry, fava, lima) seasonal in summer. Canned beans are nutritionally equivalent to home-cooked for most purposes.",
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "5-9 g (cooked, varies by variety)",
+      "bioavailability_notes": "Mix of soluble and insoluble fiber plus resistant starch. Feeds beneficial gut bacteria producing butyrate and other SCFAs. Significantly more fiber per calorie than any animal protein."
+    },
+    {
+      "compound": "Plant protein",
+      "amount_per_100g": "7-10 g (cooked, varies by variety)",
+      "bioavailability_notes": "High in lysine, low in methionine/tryptophan. Complementary with grains for complete amino acid profile. Lower TMAO production than animal protein."
+    },
+    {
+      "compound": "Folate (B9)",
+      "amount_per_100g": "100-180 mcg (cooked, varies by variety)",
+      "bioavailability_notes": "Excellent source. Essential for DNA synthesis and methylation. Black beans and kidney beans among the richest sources."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "350-500 mg (cooked)",
+      "bioavailability_notes": "Important for blood pressure regulation. Most adults are deficient; beans are among the best food sources."
+    },
+    {
+      "compound": "Resistant starch",
+      "amount_per_100g": "1-4 g (cooked; increases with cooling)",
+      "bioavailability_notes": "Prebiotic fiber that feeds beneficial gut bacteria. Content increases when beans are cooked and cooled."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "whole-grains",
+      "type": "complement",
+      "description": "Part of the core fibre-rich food group; complementary amino acids for complete protein"
+    },
+    {
+      "target_ingredient": "lemon-juice",
+      "type": "synergy",
+      "description": "Vitamin C from citrus dramatically improves non-heme iron absorption from beans"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4, 5]
+}

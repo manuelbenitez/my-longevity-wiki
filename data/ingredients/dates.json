@@ -1,0 +1,80 @@
+{
+  "name": "Dates",
+  "slug": "dates",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Traditional frugal food consumed at dusk during Ramadan fasting",
+      "mechanism": "Provides quick glucose replenishment after extended fast without large caloric load",
+      "study_ref": "book-assertion (cultural reference)",
+      "confidence": "low"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25770747/",
+      "finding": "Review (Al-Farsi & Lee, 2008; updated Vayalil, 2012) found dates contain high antioxidant capacity due to carotenoids, phenolics, and flavonoids, with anti-inflammatory and anti-tumour properties demonstrated in vitro.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32060408/",
+      "finding": "Despite high sugar content (~65-80%), dates have a low-to-moderate glycaemic index (GI 42-55 depending on variety) due to their fibre and fructose content (Alkaabi et al., 2011; Rock et al., 2009).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25017390/",
+      "finding": "RCT found date consumption did not adversely affect blood glucose or lipid profiles in healthy individuals, and the high potassium content may support blood pressure regulation (Rock et al., 2009).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["intensely sweet", "caramel-like", "butterscotch", "honey-like"],
+    "aroma": ["warm", "molasses-like", "slightly fermented", "toffee"],
+    "texture": ["sticky", "chewy", "dense", "fudge-like (Medjool)"],
+    "culinary_category": "dried fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "walnuts / almonds", "tradition": "Middle Eastern / North African", "source": "Traditional pairing as stuffed dates; protein + fat slow glucose absorption"},
+    {"ingredient": "tahini / sesame", "tradition": "Middle Eastern", "source": "Date-tahini balls; traditional energy food"},
+    {"ingredient": "dark chocolate", "tradition": "Global", "source": "Chocolate-stuffed dates; complementary polyphenol profiles"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern / North African", "source": "Spiced date preparations; cinnamon moderates glycaemic response"},
+    {"ingredient": "yogurt", "tradition": "Middle Eastern", "source": "Dates with labneh; natural sweetener for dairy"},
+    {"ingredient": "oats", "tradition": "Global", "source": "Date-sweetened oatmeal and energy bars; whole food sugar replacement"}
+  ],
+  "seasonality": "Harvested September-December. Dried dates available year-round. Medjool are the premium fresh-eating variety. Deglet Noor are drier and better for cooking.",
+  "nutrient_highlights": [
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "696 mg (15% DV)",
+      "bioavailability_notes": "One of the richest fruit sources of potassium. Supports blood pressure regulation and electrolyte balance."
+    },
+    {
+      "compound": "Dietary fibre",
+      "amount_per_100g": "6.7 g",
+      "bioavailability_notes": "High fibre content partially explains lower-than-expected glycaemic index despite high sugar content."
+    },
+    {
+      "compound": "Phenolic acids (ferulic, caffeic, protocatechuic)",
+      "amount_per_100g": "~100-500 mg GAE (varies by variety)",
+      "bioavailability_notes": "Antioxidant capacity comparable to some berries. Higher in darker varieties."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "54 mg (13% DV)",
+      "bioavailability_notes": "Contributes to daily intake; supports glucose metabolism and muscle function."
+    },
+    {
+      "compound": "Natural sugars (glucose, fructose, sucrose)",
+      "amount_per_100g": "~66 g",
+      "bioavailability_notes": "High sugar content moderated by fibre matrix. GI 42-55 depending on variety -- lower than white bread."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5]
+}

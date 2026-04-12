@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #F5F0EB;
+  --surface: #FDFBF8;
+  --text: #2C2418;
+  --muted: #8A7E6B;
+  --accent: #6B7F5E;
+  --accent-hover: #557049;
+  --border: #E5DDD3;
+  --success: #6B7F5E;
+  --warning: #C4963A;
+  --error: #B85C4A;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-instrument-sans);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Editorial link style */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: border-color 200ms ease-out;
+}
+a:hover {
+  border-color: var(--accent);
+}
+
+/* Fraunces headings */
+h1, h2, h3, h4 {
+  font-family: var(--font-display), serif;
+}
+
+/* Wiki content typography (server-rendered HTML from markdown) */
+.wiki-content h1 {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0 0 24px;
+}
+.wiki-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 48px 0 16px;
+}
+.wiki-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 32px 0 12px;
+}
+.wiki-content p {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+.wiki-content ul {
+  margin-bottom: 16px;
+  padding-left: 24px;
+  list-style: disc;
+}
+.wiki-content ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+  list-style: decimal;
+}
+.wiki-content li {
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.wiki-content a {
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+}
+.wiki-content a:hover {
+  border-color: var(--accent);
+}
+.wiki-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.wiki-content th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding: 12px 16px;
+  border-bottom: 2px solid var(--border);
+}
+.wiki-content td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.wiki-content blockquote {
+  border-left: 2px solid var(--accent);
+  padding-left: 16px;
+  margin: 16px 0;
+  color: var(--muted);
+  font-style: italic;
+}
+.wiki-content strong {
+  font-weight: 600;
+  color: var(--text);
+}
+.wiki-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}

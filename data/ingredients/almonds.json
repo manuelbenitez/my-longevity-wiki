@@ -1,0 +1,74 @@
+{
+  "name": "Almonds",
+  "slug": "almonds",
+  "category": "nut",
+  "book_claims": [
+    {
+      "claim": "Part of a nutritionally complete daily diet",
+      "mechanism": "Provides protein, healthy fats, fibre and minerals as part of a plant-based diet",
+      "study_ref": "Author's calculated sample diet",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Six-month RCT showed eating cholesterol-lowering foods including almonds led to 15% reduction in blood cholesterol",
+      "mechanism": "Rich in vitamin E (antioxidant), monounsaturated fats, soluble fibre that reduces intestinal cholesterol absorption",
+      "study_ref": "Ref 175 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32540410/",
+      "finding": "Meta-analysis (Lee-Bravatti et al., 2019) of 15 RCTs found almond consumption significantly reduced total cholesterol and LDL cholesterol while preserving HDL, with effects strongest at doses of 45g/day or more.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34232920/",
+      "finding": "RCT (Dikariyanto et al., 2021) found replacing typical snacks with 56g almonds/day for 6 weeks improved endothelial function and reduced LDL cholesterol in adults with above-average cardiovascular risk.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33293382/",
+      "finding": "Systematic review found almond consumption improved gut microbiome composition, increasing Bifidobacterium and Lactobacillus populations while the prebiotic fibre and polyphenols in almond skins serve as substrates for beneficial bacteria.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mildly sweet", "nutty", "slightly bitter (skin)", "buttery"],
+    "aroma": ["sweet", "toasty when roasted", "marzipan-like"],
+    "texture": ["crunchy", "firm", "smooth when ground", "creamy (almond milk/butter)"],
+    "culinary_category": "tree nut"
+  },
+  "culinary_pairings": [
+    {"ingredient": "dark chocolate", "tradition": "European", "source": "Complementary polyphenols; classic confectionery pairing"},
+    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional sweet pairing; antioxidant synergy"},
+    {"ingredient": "berries", "tradition": "Global", "source": "Vitamin E + anthocyanins for combined antioxidant protection"},
+    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Almond + oat porridge; complementary fibres and fats"},
+    {"ingredient": "citrus fruits", "tradition": "Mediterranean", "source": "Vitamin C enhances vitamin E regeneration; Sicilian almond-citrus tradition"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin E (alpha-tocopherol)",
+      "amount_per_100g": "25.6 mg (171% DV)",
+      "bioavailability_notes": "Almonds are the richest common nut source of alpha-tocopherol. 30g serving provides 37% RDA. Fat-soluble; absorbed with the almond's own monounsaturated fats."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "270 mg (64% DV)",
+      "bioavailability_notes": "30g provides 20% RDA. Soaking reduces phytic acid and improves absorption. Critical for 300+ enzyme reactions including energy metabolism."
+    },
+    {
+      "compound": "Monounsaturated fat (oleic acid)",
+      "amount_per_100g": "31 g",
+      "bioavailability_notes": "Same heart-protective oleic acid as olive oil. Reduces LDL without lowering HDL cholesterol."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7, 9]
+}

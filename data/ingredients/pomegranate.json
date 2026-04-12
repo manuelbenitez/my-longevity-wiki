@@ -1,0 +1,90 @@
+{
+  "name": "Pomegranate",
+  "slug": "pomegranate",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Can potentially lower inflammation, blood pressure and artery plaque build-up. Small trials suggest may inhibit prostate tumour growth.",
+      "mechanism": "Very rich in polyphenols, especially punicalagin (responsible for ~50% of juice's antioxidant activity). May lower PSA levels.",
+      "study_ref": "Refs 210, 211, 212, 213, 214 in book. Not confirmed in larger trials (ref 215).",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28606851/",
+      "finding": "Meta-analysis (Sahebkar et al., 2017) of 8 RCTs found pomegranate juice significantly reduced systolic and diastolic blood pressure, with effects consistent regardless of dose or duration.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28067030/",
+      "finding": "Aviram et al. (2004, updated review 2017) found that pomegranate juice consumption for 1-3 years reduced carotid artery intima-media thickness (a measure of atherosclerosis) by up to 30% and reduced oxidized LDL by 90%.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31234948/",
+      "finding": "Urolithin A, a gut microbial metabolite of pomegranate ellagitannins, induced mitophagy and improved mitochondrial function in aged mice and in a Phase 1 human trial (Ryu et al., 2016; Andreux et al., 2019).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet-tart", "astringent", "bright", "wine-like"],
+    "aroma": ["fruity", "floral", "slightly musty", "berry-like"],
+    "texture": ["crunchy seeds (arils)", "juicy", "bursting"],
+    "culinary_category": "seeded fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "walnuts", "tradition": "Persian / Georgian", "source": "Fesenjan (Persian walnut-pomegranate stew); complementary urolithin production"},
+    {"ingredient": "yogurt / labneh", "tradition": "Middle Eastern / Mediterranean", "source": "Classic garnish; probiotics may enhance urolithin conversion"},
+    {"ingredient": "lamb", "tradition": "Persian / Turkish / Moroccan", "source": "Pomegranate molasses with roasted meats; traditional pairing"},
+    {"ingredient": "mint", "tradition": "Middle Eastern / Mediterranean", "source": "Fresh herb brightness with pomegranate in salads and drinks"},
+    {"ingredient": "olive oil", "tradition": "Mediterranean / Middle Eastern", "source": "Pomegranate vinaigrette; combined polyphenol profiles"},
+    {"ingredient": "dark leafy greens", "tradition": "Mediterranean", "source": "Pomegranate arils in salads; vitamin C aids iron absorption from greens"},
+    {"ingredient": "dark chocolate", "tradition": "Global", "source": "Both rich in polyphenols; complementary antioxidant activity"}
+  ],
+  "seasonality": "Northern Hemisphere harvest September-February. Southern Hemisphere March-May. Peak flavour October-January. Arils freeze well. Juice and molasses available year-round.",
+  "nutrient_highlights": [
+    {
+      "compound": "Punicalagins (ellagitannins)",
+      "amount_per_100g": "~100-400 mg in juice",
+      "bioavailability_notes": "Responsible for ~50% of juice antioxidant activity. Hydrolysed in gut to ellagic acid, then converted by gut bacteria to urolithins."
+    },
+    {
+      "compound": "Urolithin A (metabolite)",
+      "amount_per_100g": "Produced by gut bacteria from punicalagins",
+      "bioavailability_notes": "Not present in the fruit itself. Requires specific gut bacteria for conversion. Induces mitophagy and improves mitochondrial function. Individual variation in production capacity."
+    },
+    {
+      "compound": "Anthocyanins (delphinidin, cyanidin)",
+      "amount_per_100g": "~30-60 mg in arils",
+      "bioavailability_notes": "Contribute to red colour and antioxidant activity. Lower than berries per 100g but complementary to punicalagins."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "10.2 mg",
+      "bioavailability_notes": "Moderate amount; contributes to total antioxidant capacity alongside polyphenols."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "236 mg",
+      "bioavailability_notes": "Meaningful contribution; supports blood pressure benefits seen in clinical trials."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "walnuts",
+      "mechanism": "Both contain ellagitannins converted to urolithins by gut bacteria; combined intake may enhance urolithin production"
+    },
+    {
+      "ingredient": "probiotics / fermented foods",
+      "mechanism": "Urolithin production depends on gut microbiome composition; probiotics may support the conversion pathway"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

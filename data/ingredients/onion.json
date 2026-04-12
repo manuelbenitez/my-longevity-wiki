@@ -1,0 +1,87 @@
+{
+  "name": "Onion",
+  "slug": "onion",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "One of the richest sources of dietary flavonoids important for cardiovascular disease and cancer prevention, especially gastric cancer",
+      "mechanism": "Contains fructooligosaccharides and thiosulfinates. Flavonoids prevent cardiovascular disease and cancer.",
+      "study_ref": "Ref 67 in book",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Italian sweet red onion Tropea contains taxifolin, a powerful inhibitor of many cancer cell types",
+      "mechanism": "Taxifolin directly inhibits cultured cancer cell growth. Red onions have highest flavonol levels; yellow onions contain half as much.",
+      "study_ref": "Ref 68 in book",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Turati et al., 2014, PMID: 25135917)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25135917/",
+      "finding": "Meta-analysis of case-control studies found high allium vegetable consumption (including onion) associated with reduced risk of gastric cancer (OR 0.54). Confirms the book's cancer prevention claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Galeone et al., 2006, PMID: 17159460)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17159460/",
+      "finding": "Italian case-control study: moderate onion consumption (1-7 portions/week) significantly reduced risk of colorectal, laryngeal, and ovarian cancers. Dose-response relationship observed.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Murayyan et al., 2017, PMID: 28578366)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28578366/",
+      "finding": "Ontario-grown red onions (especially Ruby Ring) were most effective at killing colon and breast cancer cells compared to other varieties. Quercetin and anthocyanins identified as key active compounds.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/quercetin/",
+      "finding": "Quercetin, the primary flavonoid in onions, shows anti-inflammatory and blood-pressure-lowering effects in human trials. Bioavailability from onions is higher than from supplements due to the onion matrix.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["pungent and sharp raw", "sweet when caramelized", "savory", "mild sulfurous"],
+    "aroma": ["acrid and tear-inducing raw", "rich and sweet when cooked", "caramel notes when browned"],
+    "texture": ["crisp and crunchy raw", "silky and soft caramelized", "melting when slow-cooked"],
+    "culinary_category": "aromatic"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Global", "source": "Fellow alliums; foundational aromatic duo in virtually every cuisine on earth"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Base for soffritto; fat enhances quercetin absorption"},
+    {"ingredient": "tomatoes", "tradition": "Mediterranean / Indian", "source": "Onion-tomato base is fundamental in Italian sauces and Indian curries alike"},
+    {"ingredient": "bell peppers", "tradition": "Mediterranean / Cajun", "source": "Part of the Holy Trinity (Cajun) and standard Mediterranean roasted vegetables"},
+    {"ingredient": "vinegar (balsamic)", "tradition": "Italian", "source": "Acid and sweet balance onion's pungency; classic agrodolce pairing"},
+    {"ingredient": "thyme", "tradition": "French", "source": "Classic French onion soup; thyme's earthiness deepens caramelized onion flavor"},
+    {"ingredient": "lentils", "tradition": "Indian / Middle Eastern", "source": "Onion is the base of virtually all dal and lentil soups; complementary nutrients"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Quercetin",
+      "amount_per_100g": "20-50 mg (red onion), 10-20 mg (yellow onion)",
+      "bioavailability_notes": "Bioavailability from onions is ~50% higher than from quercetin supplements due to the food matrix. Red onions contain roughly double the flavonols of yellow onions."
+    },
+    {
+      "compound": "Fructooligosaccharides (FOS)",
+      "amount_per_100g": "2-6 g",
+      "bioavailability_notes": "Prebiotic fiber that selectively feeds beneficial Bifidobacteria and Lactobacilli in the gut. Not digested by human enzymes."
+    },
+    {
+      "compound": "Anthocyanins (red onions)",
+      "amount_per_100g": "25-50 mg in red varieties; absent in white/yellow",
+      "bioavailability_notes": "Low absolute bioavailability (~2%) but gut microbial metabolites of anthocyanins are biologically active and may drive much of the benefit."
+    },
+    {
+      "compound": "Thiosulfinates",
+      "amount_per_100g": "Variable; formed on cutting/crushing",
+      "bioavailability_notes": "Responsible for the tear-inducing effect and antimicrobial activity. Destroyed by prolonged cooking."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

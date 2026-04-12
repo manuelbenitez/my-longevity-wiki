@@ -1,0 +1,68 @@
+{
+  "name": "Sesame Seeds",
+  "slug": "sesame-seeds",
+  "category": "seed",
+  "book_claims": [
+    {
+      "claim": "Sesamin (a lignan in sesame) associated with reduced serum cholesterol in rodents and humans",
+      "mechanism": "Sesamin modulates hepatic cholesterol metabolism",
+      "study_ref": "Ref 187 in book",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29141571/",
+      "finding": "Meta-analysis (Khosravi-Boroujeni et al., 2017) of 8 RCTs found sesame consumption significantly reduced systolic and diastolic blood pressure and improved antioxidant status, with effects attributed to sesamin and sesamol lignans.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31476420/",
+      "finding": "RCT (Sankar et al., 2005; replicated Haidari et al., 2016) found replacing cooking oils with sesame oil for 45 days reduced blood pressure, lipid peroxidation, and increased vitamin E and C levels in hypertensive patients.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30340893/",
+      "finding": "Review (Pathak et al., 2014; updated 2019) found sesame lignans (sesamin, sesamolin, sesamol) demonstrate anti-inflammatory, antioxidant, anticancer, and neuroprotective activities in cell and animal models, with sesamin showing the strongest cholesterol-lowering effect.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "sweet", "toasty (when roasted)", "rich"],
+    "aroma": ["warm", "toasty", "smoky (black sesame)"],
+    "texture": ["tiny and crunchy", "creamy when ground (tahini)", "oily"],
+    "culinary_category": "seed"
+  },
+  "culinary_pairings": [
+    {"ingredient": "chickpeas", "tradition": "Middle Eastern", "source": "Hummus: tahini + chickpeas for complete protein and complementary minerals"},
+    {"ingredient": "honey", "tradition": "Middle Eastern / Mediterranean", "source": "Halvah; traditional sesame-honey confection"},
+    {"ingredient": "ginger", "tradition": "East Asian", "source": "Classic sesame-ginger dressing and stir-fry combination"},
+    {"ingredient": "dark green leafy vegetables", "tradition": "East Asian / Middle Eastern", "source": "Sesame on spinach (goma-ae); calcium-rich pairing"},
+    {"ingredient": "whole grains", "tradition": "Middle Eastern / East Asian", "source": "Sesame on bread (simit), rice, or noodles"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Sesamin and sesamolin (lignans)",
+      "amount_per_100g": "300-600 mg combined",
+      "bioavailability_notes": "Sesamin is metabolized by CYP450 enzymes in the liver to bioactive catechol metabolites. Toasting slightly reduces lignan content but improves overall flavor and palatability."
+    },
+    {
+      "compound": "Calcium",
+      "amount_per_100g": "975 mg (unhulled); 60 mg (hulled)",
+      "bioavailability_notes": "Unhulled sesame seeds contain more calcium than milk per gram. Hull removal drastically reduces calcium. Tahini made from unhulled seeds retains calcium."
+    },
+    {
+      "compound": "Copper and manganese",
+      "amount_per_100g": "4.1 mg Cu (456% DV); 2.5 mg Mn (109% DV)",
+      "bioavailability_notes": "Copper is cofactor for superoxide dismutase (SOD). Manganese supports bone health and antioxidant enzyme function."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

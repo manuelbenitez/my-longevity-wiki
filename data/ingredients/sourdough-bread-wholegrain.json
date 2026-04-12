@@ -1,0 +1,119 @@
+{
+  "name": "Sourdough Bread (Wholegrain)",
+  "slug": "sourdough-bread-wholegrain",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Slow-fermented sourdough has superior nutritional qualities compared to white bread made with refined flour and baker's yeast",
+      "mechanism": "Lactobacillus bacteria in sourdough starter ferment in symbiosis with yeasts, breaking down phytic acid and improving mineral bioavailability; wholegrain flour retains wheat germ and bran providing fibre and micronutrients",
+      "study_ref": "book-assertion",
+      "confidence": "medium",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "High-fibre whole grains contribute to cholesterol lowering",
+      "mechanism": "Dietary fibre blocks reabsorption of cholesterol and bile acids in small intestine; low-glycaemic foods rich in fibre reduce circulating insulin and increase short-chain fatty acid production",
+      "study_ref": "refs-20,21",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Contains ferulic acid which inhibits inflammation",
+      "mechanism": "Ferulic acid phytochemical found in whole grains inhibits inflammatory pathways",
+      "study_ref": "ref-30",
+      "confidence": "medium",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+      "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
+      "study_ref": "Ref 105 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28592612/",
+      "finding": "A 2017 RCT in Cell Metabolism (PMID 28592612) found that glycemic responses to sourdough vs white bread varied dramatically between individuals but on average sourdough produced lower glycemic responses, with the gut microbiome composition predicting individual responses.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25440375/",
+      "finding": "A 2014 review (Crit Rev Food Sci Nutr, PMID 25440375) confirmed that sourdough fermentation significantly degrades phytic acid (up to 50-60% reduction), increases mineral bioavailability, produces bioactive peptides, and reduces FODMAP content.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18184396/",
+      "finding": "A 2008 RCT (Br J Nutr, PMID 18184396) found that long-fermented whole grain sourdough bread produced significantly lower glucose and insulin responses compared to conventional whole wheat bread, attributed to organic acid production and starch-gluten interactions.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30176038/",
+      "finding": "A 2019 review (Nutrients, PMID 30176038) found that sourdough fermentation improves bread nutritional quality through phytate degradation, production of bioactive compounds, increased folate synthesis, and modulation of starch digestibility.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["tangy", "complex", "slightly sour", "wheaty", "deep"],
+    "aroma": ["fermented", "yeasty", "lactic", "nutty crust"],
+    "texture": ["chewy crumb", "crisp crust", "open crumb structure", "moist"],
+    "culinary_category": "fermented whole grain bread"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Traditional bread-dipping; fat slows carbohydrate absorption"},
+    {"ingredient": "hummus", "tradition": "Middle Eastern", "source": "Complete protein when grain meets chickpea; classic combination"},
+    {"ingredient": "avocado", "tradition": "Modern global", "source": "Healthy monounsaturated fats on whole grain base"},
+    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Bruschetta tradition; lycopene with whole grain fiber"},
+    {"ingredient": "aged cheese", "tradition": "European", "source": "Tangy sourdough complements fermented dairy flavors"},
+    {"ingredient": "legume soups", "tradition": "Mediterranean / European", "source": "Bread for dipping in bean or lentil soup; complete protein combination"}
+  ],
+  "seasonality": "Year-round. Best made fresh weekly. True sourdough uses only flour, water, salt, and sourdough starter -- no added yeast. Check labels: many commercial 'sourdough' breads use yeast with added acid, missing the fermentation benefits.",
+  "nutrient_highlights": [
+    {
+      "compound": "Ferulic acid",
+      "amount_per_100g": "50-100 mg (whole grain bread)",
+      "bioavailability_notes": "Bound phenolic acid with anti-inflammatory properties. Sourdough fermentation partially releases bound ferulic acid, improving bioavailability compared to yeast bread."
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "6-8 g (wholegrain sourdough)",
+      "bioavailability_notes": "Mix of arabinoxylan, cellulose, and beta-glucan from whole grain flour. Fermentation partially breaks down some fiber fractions, potentially improving prebiotic effects."
+    },
+    {
+      "compound": "Minerals (iron, zinc, magnesium)",
+      "amount_per_100g": "Fe: 3.5 mg, Zn: 2.5 mg, Mg: 75 mg",
+      "bioavailability_notes": "Sourdough fermentation degrades 50-60% of phytic acid, significantly improving mineral absorption compared to conventional bread."
+    },
+    {
+      "compound": "Folate (B9)",
+      "amount_per_100g": "30-50 mcg",
+      "bioavailability_notes": "Sourdough lactic acid bacteria synthesize additional folate during fermentation, increasing content by 2-3x compared to yeast-leavened bread."
+    },
+    {
+      "compound": "Organic acids (lactic, acetic)",
+      "amount_per_100g": "Variable (0.5-1.5% of bread weight)",
+      "bioavailability_notes": "Lactic and acetic acids lower glycemic index by slowing gastric emptying and inhibiting amylase activity. Also improve mineral solubility."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "legumes",
+      "type": "complement",
+      "description": "Together provide complementary amino acids and combined soluble/insoluble fibre for gut microbiome diversity"
+    },
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "synergy",
+      "description": "Traditional pairing; bread with EVOO provides slow-release carbohydrates with healthy fats"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7, 8]
+}

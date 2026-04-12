@@ -1,0 +1,68 @@
+{
+  "name": "Flaxseeds",
+  "slug": "flaxseeds",
+  "category": "seed",
+  "book_claims": [
+    {
+      "claim": "Consuming whole flaxseed results in significant reduction in total and LDL-cholesterol",
+      "mechanism": "Richest plant source of antioxidant lignans (up to 13mg/g) and omega-3 alpha-linolenic acid. Takes <2 weeks for omega-3 to incorporate into cell membranes. Enterolignans (produced by gut bacteria from lignans) associated with lower heart disease and cancer risk.",
+      "study_ref": "Refs 188, 189, 190 in book (several RCTs)",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25740909/",
+      "finding": "Meta-analysis (Pan et al., 2009; updated Khalesi et al., 2015) of 28 RCTs found ground flaxseed consumption significantly reduced total cholesterol (by 0.10 mmol/L), LDL cholesterol (by 0.08 mmol/L), and blood pressure, with strongest effects in whole/ground flaxseed versus flaxseed oil.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25045396/",
+      "finding": "FlaxPAD trial (Rodriguez-Leyva et al., 2013) -- a double-blind RCT -- found 30g ground flaxseed daily for 6 months reduced systolic BP by 10 mmHg and diastolic by 7 mmHg in hypertensive patients, one of the strongest dietary BP-lowering effects ever measured.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31637406/",
+      "finding": "Systematic review (DeLuca et al., 2018) found flaxseed lignan metabolites (enterolactone, enterodiol) inversely associated with breast cancer risk, with highest enterolignan producers showing 20-30% lower risk in prospective studies.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "earthy", "mildly sweet", "slightly bitter"],
+    "aroma": ["grassy", "warm", "oily"],
+    "texture": ["crunchy (whole)", "gritty when ground", "mucilaginous when soaked"],
+    "culinary_category": "seed"
+  },
+  "culinary_pairings": [
+    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Classic porridge addition; complementary soluble fibres"},
+    {"ingredient": "yogurt", "tradition": "Global", "source": "Probiotic + lignan-prebiotic synergy; texture complement"},
+    {"ingredient": "berries", "tradition": "Global", "source": "Lignans + anthocyanins for combined antioxidant and anticancer pathways"},
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid preserves ALA from oxidation; brightens earthy flavor"},
+    {"ingredient": "dark green leafy vegetables", "tradition": "Global", "source": "Combined plant omega-3 sources; salad topping"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Alpha-linolenic acid (ALA, omega-3)",
+      "amount_per_100g": "22.8 g",
+      "bioavailability_notes": "Richest common food source of plant omega-3. Must GRIND before eating -- whole seeds pass through undigested. ALA incorporates into cell membranes within 2 weeks. Conversion to EPA ~5-8%, DHA ~0.5-5%."
+    },
+    {
+      "compound": "Lignans (secoisolariciresinol diglucoside / SDG)",
+      "amount_per_100g": "294-700 mg (up to 13 mg/g)",
+      "bioavailability_notes": "Richest food source of lignans by 100x over most other foods. Gut bacteria convert SDG to enterolactone and enterodiol, which have anti-estrogenic and anticancer properties."
+    },
+    {
+      "compound": "Soluble fibre (mucilage)",
+      "amount_per_100g": "5-8 g soluble; 27 g total fibre",
+      "bioavailability_notes": "Mucilage forms gel in water, slowing glucose absorption and feeding beneficial gut bacteria. Also contributes to the laxative effect."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

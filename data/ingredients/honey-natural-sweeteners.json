@@ -1,0 +1,68 @@
+{
+  "name": "Honey and Natural Sweeteners (mosto cotto, miele di fichi)",
+  "slug": "honey-natural-sweeteners",
+  "category": "oil_condiment",
+  "book_claims": [
+    {
+      "claim": "Traditional alternative to refined sugar for occasional sweets",
+      "mechanism": "Lower glycaemic impact than refined sugar; contains trace minerals and antioxidants absent in refined sugar",
+      "study_ref": "book-assertion",
+      "confidence": "low"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36234225/",
+      "finding": "Meta-analysis (Ahmed et al., Nutrition Reviews 2023) of 18 RCTs found raw honey improved fasting glucose, total cholesterol, LDL, triglycerides, and inflammatory markers compared to control sweeteners, with effects strongest for raw unprocessed honey.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29164221/",
+      "finding": "Systematic review (Samarghandian et al., 2017) found honey contains 200+ bioactive compounds including flavonoids and phenolic acids with demonstrated antioxidant, anti-inflammatory, antimicrobial, and wound-healing properties.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30309453/",
+      "finding": "Review of traditional Mediterranean grape-derived sweeteners (mosto cotto/saba/vincotto) found they retain significant polyphenol content from grape skins, providing antioxidant activity absent in refined sugar (Ferrara et al., 2019).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "floral (honey)", "caramel (mosto cotto)", "fig-like (miele di fichi)"],
+    "aroma": ["floral", "complex", "fruity", "caramelized"],
+    "texture": ["viscous", "syrupy", "thick"],
+    "culinary_category": "natural sweetener"
+  },
+  "culinary_pairings": [
+    {"ingredient": "nuts", "tradition": "Mediterranean / Middle Eastern", "source": "Baklava, nougat, and nut-honey desserts"},
+    {"ingredient": "yogurt", "tradition": "Mediterranean / Greek", "source": "Traditional breakfast and dessert; probiotic + prebiotic synergy"},
+    {"ingredient": "aged cheese", "tradition": "Italian", "source": "Honey with pecorino or gorgonzola; classic antipasto"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Global", "source": "Honey-lemon in teas and dressings"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern", "source": "Traditional spice pairing in desserts and beverages"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Polyphenols (flavonoids, phenolic acids)",
+      "amount_per_100g": "50-200 mg GAE (raw honey); varies for grape/fig syrups",
+      "bioavailability_notes": "Dark honeys (buckwheat, manuka) contain more polyphenols. Processing and heat reduce content. Raw, unfiltered honey retains the most bioactives."
+    },
+    {
+      "compound": "Oligosaccharides (prebiotic)",
+      "amount_per_100g": "4-5 g (honey)",
+      "bioavailability_notes": "Fructo-oligosaccharides in raw honey act as prebiotics, selectively feeding Bifidobacteria and Lactobacillus."
+    },
+    {
+      "compound": "Trace minerals (iron, zinc, potassium)",
+      "amount_per_100g": "small amounts",
+      "bioavailability_notes": "Present but at low levels. The advantage over refined sugar is the presence of any micronutrients at all, not their quantity."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

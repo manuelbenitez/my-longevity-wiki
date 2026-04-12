@@ -1,0 +1,86 @@
+{
+  "name": "Sweet Potatoes",
+  "slug": "sweet-potatoes",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Contain the highest concentration of beta-carotene among common vegetables",
+      "mechanism": "31mg beta-carotene per 100g cooked, converted to vitamin A for eye health and immune function",
+      "study_ref": "book-assertion",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (van Jaarsveld et al., 2005, PMID: 16251640)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16251640/",
+      "finding": "Orange-fleshed sweet potato consumption significantly improved vitamin A status in children in sub-Saharan Africa. A food-based approach that confirms the book's claim about beta-carotene to vitamin A conversion.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Willcox et al., 2009, PMID: 19678781)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19678781/",
+      "finding": "Sweet potato is a dietary staple in Okinawa, one of the world's Blue Zones. The traditional Okinawan diet derived ~67% of calories from sweet potato and is associated with exceptional longevity and low rates of cancer and heart disease.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Ludvik et al., 2004, PMID: 14747225)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14747225/",
+      "finding": "White-skinned sweet potato extract (Caiapo) improved insulin sensitivity and glycemic control in type 2 diabetes patients in a randomized controlled trial.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/foods/sweet-potato/",
+      "finding": "Sweet potatoes have a moderate glycemic index (~63) but their glycemic load depends heavily on preparation. Boiling produces a lower GI than baking. High in fiber, beta-carotene, and potassium.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "earthy", "nutty", "caramel notes when roasted"],
+    "aroma": ["warm", "sweet", "starchy", "honey-like when baked"],
+    "texture": ["dense and creamy when baked", "fluffy when steamed", "crispy when roasted at high heat"],
+    "culinary_category": "starchy root vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean / Modern", "source": "Fat essential for beta-carotene absorption; roasted sweet potato wedges with EVOO"},
+    {"ingredient": "black beans", "tradition": "Latin American", "source": "Complementary amino acids and flavors; sweet potato and black bean tacos/bowls"},
+    {"ingredient": "ginger", "tradition": "Asian / African", "source": "Ginger cuts sweetness and adds anti-inflammatory synergy; sweet potato-ginger curry"},
+    {"ingredient": "cumin", "tradition": "North African / Middle Eastern", "source": "Warm spice complements natural sweetness in Moroccan-style sweet potato dishes"},
+    {"ingredient": "lime", "tradition": "Thai / Mexican", "source": "Acid balances sweetness; classic in Thai sweet potato curry and Mexican preparations"},
+    {"ingredient": "tahini", "tradition": "Middle Eastern / Modern", "source": "Creamy fat source aids carotenoid absorption; roasted sweet potato with tahini drizzle"},
+    {"ingredient": "kale", "tradition": "Modern health cuisine", "source": "Complementary nutrients: sweet potato provides beta-carotene, kale provides vitamin K and sulforaphane"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Beta-carotene",
+      "amount_per_100g": "8509 mcg (raw), up to 31,000 mcg (cooked, concentrated)",
+      "bioavailability_notes": "Highest of any common vegetable. Cooking breaks cell walls and increases bioavailability 3-6x. Fat co-ingestion is essential. Orange-fleshed varieties have the most."
+    },
+    {
+      "compound": "Vitamin A (as RAE)",
+      "amount_per_100g": "709 mcg RAE (raw)",
+      "bioavailability_notes": "A single medium sweet potato provides >100% RDA. Conversion from beta-carotene is regulated, preventing toxicity."
+    },
+    {
+      "compound": "Fiber",
+      "amount_per_100g": "3.0 g",
+      "bioavailability_notes": "Mix of soluble and resistant starch (increases when cooked and cooled). Resistant starch feeds beneficial gut bacteria."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "337 mg",
+      "bioavailability_notes": "Important for blood pressure regulation. Sweet potatoes provide more potassium than bananas per serving."
+    },
+    {
+      "compound": "Anthocyanins (purple varieties)",
+      "amount_per_100g": "Variable; significant in purple-fleshed varieties",
+      "bioavailability_notes": "Purple sweet potatoes contain anthocyanins with anti-inflammatory and neuroprotective properties distinct from orange varieties' carotenoids."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

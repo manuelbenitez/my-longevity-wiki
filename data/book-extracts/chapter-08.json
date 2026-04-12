@@ -1,0 +1,627 @@
+{
+  "chapter": "The Mediterranean Diet: Where Taste Meets Health",
+  "chapter_number": 8,
+  "page_range": "estimated",
+  "extraction_status": "complete",
+  "ingredients": [
+    {
+      "name": "Extra-Virgin Olive Oil",
+      "slug": "extra-virgin-olive-oil",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provides monounsaturated fatty acids that reduce LDL-cholesterol and heart disease risk",
+          "mechanism": "Replaces saturated fat intake; monounsaturated fat substitution for 5% of saturated fat calories associated with 15% lower coronary heart disease risk",
+          "study_ref": "ref-14",
+          "confidence": "high"
+        },
+        {
+          "claim": "Contains oleocanthal which inhibits inflammation",
+          "mechanism": "Oleocanthal phytochemical inhibits inflammatory pathways, similar mechanism to ibuprofen",
+          "study_ref": "ref-30",
+          "confidence": "high"
+        },
+        {
+          "claim": "Reduces circulating oxidised LDL and inflammatory markers",
+          "mechanism": "Antioxidant compounds prevent oxidation of LDL particles, reducing binding to endothelial and immune cell receptors that drive atherosclerotic plaque growth",
+          "study_ref": "refs-25,26",
+          "confidence": "high"
+        },
+        {
+          "claim": "Mediterranean diet supplemented with EVOO reduces cardiovascular events, especially strokes",
+          "mechanism": "Combined anti-inflammatory, cholesterol-lowering and antioxidant effects reduce atherosclerosis progression",
+          "study_ref": "PREDIMED trial, ref-10",
+          "confidence": "high"
+        },
+        {
+          "claim": "May reduce risk of type 2 diabetes, peripheral artery disease, atrial fibrillation and breast cancer",
+          "mechanism": "Multiple pathways including reduced inflammation and oxidative stress",
+          "study_ref": "PREDIMED secondary analysis, refs-11-13",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "About 25% of daily calories from olive oil (as part of Mediterranean diet)",
+        "frequency": "Daily",
+        "preparation": "Used as dressing, not for high-heat cooking based on traditional use described",
+        "reasoning": "Keys found ~25% of calories in traditional Neapolitan diet came from EVOO and wine combined"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "synergy",
+          "description": "Both provide monounsaturated and polyunsaturated fats; PREDIMED trial tested both EVOO-supplemented and nut-supplemented Mediterranean diets with similar cardiovascular benefits"
+        },
+        {
+          "target_ingredient": "Whole Grains",
+          "type": "complement",
+          "description": "Both contain anti-inflammatory phytochemicals (oleocanthal in EVOO, ferulic acid in whole grains) that work through complementary pathways"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "EVOO enhances absorption of fat-soluble antioxidants (beta-carotene, vitamin E) from vegetables"
+        }
+      ]
+    },
+    {
+      "name": "Nuts (Walnuts, Almonds, Hazelnuts, Pine Nuts)",
+      "slug": "nuts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Five servings per week associated with 40-60% reduction in heart attack risk",
+          "mechanism": "Provide polyunsaturated omega-3 fatty acids (walnuts) and omega-6 fatty acids plus plant sterols (almonds, hazelnuts, pine nuts) that reduce LDL-cholesterol",
+          "study_ref": "ref-18 (epidemiological studies)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Plant sterols reduce LDL-cholesterol levels",
+          "mechanism": "Plant sterols compete with cholesterol for absorption in the intestine, reducing circulating LDL-cholesterol",
+          "study_ref": "ref-16",
+          "confidence": "high"
+        },
+        {
+          "claim": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
+          "mechanism": "Combined effect of nuts with soy protein, oats, barley and psyllium on cholesterol absorption and synthesis",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        },
+        {
+          "claim": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
+          "mechanism": "Omega-3 and omega-6 fatty acids reduce inflammation and improve lipid profile",
+          "study_ref": "ref-9 (randomised trial)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "5 servings per week",
+        "frequency": "Almost daily",
+        "preparation": "Raw or minimally processed; traditional use with dried fruits as dessert",
+        "reasoning": "Epidemiological data on 5 servings/week showing 40-60% heart attack risk reduction"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
+        },
+        {
+          "target_ingredient": "Fish",
+          "type": "complement",
+          "description": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
+        }
+      ]
+    },
+    {
+      "name": "Fish (Sardines, Anchovies, and other oily fish)",
+      "slug": "fish",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Rich in omega-3 fatty acids that reduce inflammation",
+          "mechanism": "Omega-3 polyunsaturated fatty acids activate anti-inflammatory pathways (resolvins, protectins)",
+          "study_ref": "refs-28,29",
+          "confidence": "high"
+        },
+        {
+          "claim": "Replacing meat with fish contributes to lower cardiovascular mortality",
+          "mechanism": "Reduces saturated fat and L-carnitine/choline intake while increasing omega-3 fatty acids, lowering TMAO production and inflammation",
+          "study_ref": "Lyon Diet Heart Study, ref-8",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular consumption as part of Mediterranean diet",
+        "frequency": "Multiple times per week",
+        "preparation": "Home-cured (anchovies, sardines), preserved, or fresh; traditional preparations include bottarga and sardella",
+        "reasoning": "Key protein source in traditional Mediterranean diet replacing red meat"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Marine omega-3 (EPA/DHA) from fish complements plant-based omega-3 (ALA) from walnuts for comprehensive anti-inflammatory coverage"
+        },
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Combined unsaturated fat sources that together explain why Crete had low heart disease despite 40% calories from fat"
+        }
+      ]
+    },
+    {
+      "name": "Sourdough Bread (Wholegrain Durum Wheat)",
+      "slug": "sourdough-bread-wholegrain",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Slow-fermented sourdough has superior nutritional qualities compared to white bread made with refined flour and baker's yeast",
+          "mechanism": "Lactobacillus bacteria in sourdough starter ferment in symbiosis with yeasts, breaking down phytic acid and improving mineral bioavailability; wholegrain flour retains wheat germ and bran providing fibre and micronutrients",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        },
+        {
+          "claim": "High-fibre whole grains contribute to cholesterol lowering",
+          "mechanism": "Dietary fibre blocks reabsorption of cholesterol and bile acids in small intestine; low-glycaemic foods rich in fibre reduce circulating insulin and increase short-chain fatty acid production, both of which inhibit hepatic cholesterol synthesis",
+          "study_ref": "refs-20,21",
+          "confidence": "high"
+        },
+        {
+          "claim": "Contains ferulic acid which inhibits inflammation",
+          "mechanism": "Ferulic acid phytochemical found in whole grains inhibits inflammatory pathways",
+          "study_ref": "ref-30",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Staple food, prepared weekly",
+        "frequency": "Daily",
+        "preparation": "Made with freshly ground local durum wheat flour containing wheat germ and bran; slow-leavened with sourdough starter (lactobacillus + yeast symbiosis)",
+        "reasoning": "Traditional Mediterranean staple; provides 30-45g daily fibre as part of overall diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Legumes",
+          "type": "complement",
+          "description": "Together provide complementary amino acids and combined soluble/insoluble fibre for gut microbiome diversity"
+        },
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Traditional pairing; bread with EVOO provides slow-release carbohydrates with healthy fats"
+        }
+      ]
+    },
+    {
+      "name": "Legumes (Chickpeas, Lentils, Fava Beans)",
+      "slug": "legumes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Contribute to high dietary fibre intake (30-45g/day) that lowers cholesterol",
+          "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine; each additional gram of soluble fibre lowers LDL-cholesterol by ~1.12 mg/L",
+          "study_ref": "ref-20",
+          "confidence": "high"
+        },
+        {
+          "claim": "Promote beneficial gut bacteria that produce anti-inflammatory metabolites",
+          "mechanism": "Insoluble fibre increases Bacteroidetes and Firmicutes populations which produce short-chain fatty acids (butyrate, propionate) that bind to specific receptors to inhibit inflammation and increase regulatory T cells",
+          "study_ref": "refs-32,33,34,35,36,37",
+          "confidence": "high"
+        },
+        {
+          "claim": "Plant protein source that reduces TMAO production compared to animal protein",
+          "mechanism": "Lower choline and L-carnitine content (~50% less than Western diet) means less substrate for gut bacteria to produce TMAO, reducing cardiovascular disease risk by ~20%",
+          "study_ref": "ref-43",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings as pasta sauce base",
+        "frequency": "Multiple times per week",
+        "preparation": "Cooked as spicy sauce served with homemade pasta (chickpeas, lentils, fava beans)",
+        "reasoning": "Key plant protein and fibre source in traditional Mediterranean diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Sourdough Bread (Wholegrain Durum Wheat)",
+          "type": "complement",
+          "description": "Legumes + grains provide complete amino acid profiles; combined fibre feeds diverse gut bacteria populations"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Together provide the high fibre intake (30-45g/day) that drives microbiome diversity and SCFA production"
+        }
+      ]
+    },
+    {
+      "name": "Vegetables (leafy greens, wild herbs, diverse varieties)",
+      "slug": "vegetables",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provide antioxidants that protect against oxidative damage driving chronic diseases",
+          "mechanism": "Vitamin C (~400mg/day), vitamin E (~17mg/day), beta-carotene (~6000mg equivalents/day), selenium (~120mg/day) neutralise free radicals and prevent LDL oxidation that drives atherosclerotic plaque formation",
+          "study_ref": "refs-22,23,24",
+          "confidence": "high"
+        },
+        {
+          "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+          "mechanism": "Vegetable fibre (psyllium, pectin, cellulose) reduces severity of colitis; fibre feeds beneficial gut bacteria producing anti-inflammatory short-chain fatty acids",
+          "study_ref": "ref-40",
+          "confidence": "high"
+        },
+        {
+          "claim": "Protective effect against heart disease from air pollutant exposure",
+          "mechanism": "Dietary antioxidants from vegetables neutralise oxidative damage caused by long-term pollutant exposure",
+          "study_ref": "refs-22,23",
+          "confidence": "medium"
+        },
+        {
+          "claim": "High-fibre vegetable consumption increases regulatory T cells protecting against allergic and autoimmune disorders",
+          "mechanism": "Fibre fermentation produces butyrate and propionate which bind to receptors increasing regulatory T cell levels",
+          "study_ref": "refs-36,37",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Large portions at every main meal; diverse types including wild herbs",
+        "frequency": "Daily, every meal",
+        "preparation": "Both raw (mixed salads with lettuce, dandelions, plantain, watercress, mallow, purslane) and cooked (chard, spinach, escarole stir-fried in olive oil with garlic); preserved (pickled eggplant, sun-dried tomatoes, mushrooms, zucchini, olives)",
+        "reasoning": "No main meal was complete without lots of greens in traditional Mediterranean diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "EVOO enhances absorption of fat-soluble vitamins and antioxidants from vegetables; traditional dressing combination"
+        },
+        {
+          "target_ingredient": "Legumes",
+          "type": "synergy",
+          "description": "Combined vegetable and legume fibre provides the 30-45g daily fibre that drives microbiome benefits"
+        }
+      ]
+    },
+    {
+      "name": "Psyllium",
+      "slug": "psyllium",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        },
+        {
+          "claim": "Reduces severity of colitis",
+          "mechanism": "Soluble fibre feeds beneficial gut bacteria, produces anti-inflammatory short-chain fatty acids; directly modulates intestinal immune response",
+          "study_ref": "ref-38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Supplementation causes substantial improvement in gastrointestinal symptoms in ulcerative colitis patients in remission",
+          "mechanism": "Prebiotic fibre supports beneficial bacterial populations and SCFA production; reduces intestinal inflammation",
+          "study_ref": "ref-42 (small randomised clinical trial)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Supplemental amounts",
+        "frequency": "Daily",
+        "preparation": "As fibre supplement or incorporated in foods",
+        "reasoning": "Specifically tested and shown to reduce colitis severity and improve GI symptoms"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Oats",
+          "type": "synergy",
+          "description": "Both are soluble fibre sources in the cholesterol-lowering food portfolio"
+        },
+        {
+          "target_ingredient": "Legumes",
+          "type": "complement",
+          "description": "Different fibre types (soluble psyllium vs mixed legume fibre) feed complementary gut bacteria populations"
+        }
+      ]
+    },
+    {
+      "name": "Oats",
+      "slug": "oats",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "As part of varied whole grain intake",
+        "frequency": "Regular",
+        "preparation": "Minimally processed whole grain",
+        "reasoning": "Named specifically in cholesterol-lowering food trial"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Barley",
+          "type": "synergy",
+          "description": "Both tested together in cholesterol-lowering food portfolio trial with complementary soluble fibre types"
+        },
+        {
+          "target_ingredient": "Psyllium",
+          "type": "synergy",
+          "description": "Combined soluble fibre sources for cholesterol reduction"
+        }
+      ]
+    },
+    {
+      "name": "Barley",
+      "slug": "barley",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "As part of varied whole grain intake",
+        "frequency": "Regular",
+        "preparation": "Used in traditional friselle bread (durum wheat and barley crispbread)",
+        "reasoning": "Named in cholesterol-lowering trial; traditional Mediterranean grain"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Oats",
+          "type": "synergy",
+          "description": "Both tested together in cholesterol-lowering food portfolio trial"
+        }
+      ]
+    },
+    {
+      "name": "Soy Protein",
+      "slug": "soy-protein",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Plant protein with isoflavones that modulate LDL receptor expression and cholesterol metabolism",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "As part of plant protein intake",
+        "frequency": "Regular",
+        "preparation": "As soy protein or soybean oil",
+        "reasoning": "Named in cholesterol-lowering trial; also mentioned in Indo-Mediterranean diet trial using soybean oil"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
+        }
+      ]
+    },
+    {
+      "name": "Red Wine",
+      "slug": "red-wine",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
+          "mechanism": "Polyphenols (resveratrol, anthocyanins) provide antioxidant effects; consumed only with meals to moderate absorption",
+          "study_ref": "Seven Countries Study context, book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "One glass",
+        "frequency": "With meals only",
+        "preparation": "Consumed only with food, never independently",
+        "reasoning": "Traditional pattern: 'a glass of red wine was consumed regularly but only with meals'"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "complement",
+          "description": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"
+        }
+      ]
+    },
+    {
+      "name": "Fruits (seasonal, dried)",
+      "slug": "fruits",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+          "mechanism": "Pectin and other fruit fibres feed beneficial gut bacteria and produce anti-inflammatory short-chain fatty acids",
+          "study_ref": "ref-40",
+          "confidence": "high"
+        },
+        {
+          "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+          "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+          "study_ref": "refs-22,23,24",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Seasonal fruits as dessert; dried fruits (peaches, nectarines, grapes, figs) in winter",
+        "frequency": "Daily",
+        "preparation": "Fresh seasonal or sun-dried; fig jam (no added sugar, figs' natural sweetness) for breakfast",
+        "reasoning": "Traditional dessert replacing processed sweets"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Traditional pairing as dessert: dried fruits with nuts"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Combined fruit and vegetable intake provides diverse phytochemicals and antioxidants"
+        }
+      ]
+    },
+    {
+      "name": "Dietary Fibre (aggregate from plant foods)",
+      "slug": "dietary-fibre",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Each additional gram of water-soluble fibre lowers LDL-cholesterol by approximately 1.12 mg/L",
+          "mechanism": "Soluble fibre blocks reabsorption of cholesterol and bile acids in the small intestine",
+          "study_ref": "ref-20",
+          "confidence": "high"
+        },
+        {
+          "claim": "Low-glycaemic fibre-rich foods reduce circulating insulin and increase short-chain fatty acid production, both inhibiting hepatic cholesterol synthesis",
+          "mechanism": "SCFAs from fibre fermentation directly inhibit HMG-CoA reductase in liver; lower insulin reduces VLDL production",
+          "study_ref": "ref-21",
+          "confidence": "high"
+        },
+        {
+          "claim": "Insoluble fibre is the most important dietary influence on gut bacteria composition",
+          "mechanism": "Insoluble fibre selectively promotes growth of Bacteroidetes and Firmicutes that produce butyrate and propionate",
+          "study_ref": "ref-31 (with Prof Jeffrey Gordon)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Short-chain fatty acids from fibre fermentation inhibit inflammation and increase regulatory T cells",
+          "mechanism": "Butyrate and propionate bind to GPR43/GPR109A receptors on immune cells, suppressing NF-kB pathway and promoting Treg differentiation",
+          "study_ref": "refs-34,35,36,37",
+          "confidence": "high"
+        },
+        {
+          "claim": "Psyllium, pectin and cellulose fibre reduce severity of colitis; methylcellulose worsens it",
+          "mechanism": "Different fibre types are fermented differently by gut bacteria; natural fibres produce beneficial metabolites while synthetic methylcellulose does not",
+          "study_ref": "ref-38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Greater risk of Crohn's recurrence in those who avoid fibre-rich foods",
+          "mechanism": "Fibre deprivation starves beneficial bacteria, reducing SCFA production and weakening intestinal barrier integrity",
+          "study_ref": "ref-41",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Decreased fibre consumption in Western diets may contribute to increase in asthma, type 1 diabetes, and multiple sclerosis",
+          "mechanism": "Reduced SCFA production leads to decreased regulatory T cells and impaired immune tolerance, promoting allergic and autoimmune disorders",
+          "study_ref": "book-assertion based on refs-36,37",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "30-45g per day",
+        "frequency": "Daily",
+        "preparation": "From whole grains, legumes, vegetables, nuts and dried fruits - not supplements",
+        "reasoning": "Mediterranean diet naturally provides 30-45g/day from diverse plant sources"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Legumes",
+          "type": "synergy",
+          "description": "Major fibre source in Mediterranean diet"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Combined sources needed to reach 30-45g/day target"
+        },
+        {
+          "target_ingredient": "Sourdough Bread (Wholegrain Durum Wheat)",
+          "type": "synergy",
+          "description": "Whole grain bread major contributor to daily fibre intake"
+        }
+      ]
+    },
+    {
+      "name": "Tomatoes",
+      "slug": "tomatoes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Rich in lycopene and vitamin C providing antioxidant protection",
+          "mechanism": "Lycopene is a potent carotenoid antioxidant; vitamin C neutralises free radicals",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as base ingredient",
+        "frequency": "Daily",
+        "preparation": "Fresh diced, as sauce, sun-dried preserved in EVOO; paired with garlic, basil, oregano",
+        "reasoning": "Ubiquitous in traditional Mediterranean cuisine as described throughout chapter"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
+        },
+        {
+          "target_ingredient": "Garlic",
+          "type": "complement",
+          "description": "Traditional pairing providing complementary phytochemical profiles"
+        }
+      ]
+    },
+    {
+      "name": "Garlic",
+      "slug": "garlic",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provides phytochemicals with antioxidant and anti-inflammatory properties as part of Mediterranean diet pattern",
+          "mechanism": "Allicin and organosulfur compounds modulate inflammatory pathways",
+          "study_ref": "book-assertion",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Used as flavoring in most dishes",
+        "frequency": "Daily",
+        "preparation": "Fresh, in olive oil dressings, with cooked greens, in preserved vegetables",
+        "reasoning": "Mentioned repeatedly as standard ingredient in grandmother's cooking"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "complement",
+          "description": "Traditional pairing in Mediterranean cooking"
+        }
+      ]
+    },
+    {
+      "name": "Honey and Natural Sweeteners (mosto cotto, miele di fichi)",
+      "slug": "honey-natural-sweeteners",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Traditional alternative to refined sugar for occasional sweets",
+          "mechanism": "Lower glycaemic impact than refined sugar; contains trace minerals and antioxidants absent in refined sugar",
+          "study_ref": "book-assertion",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Small amounts, only on special occasions",
+        "frequency": "Occasional (weddings, birthdays, Christmas)",
+        "preparation": "Honey, mosto cotto (wine grape juice reduced to dark syrup), miele di fichi (fig honey from cooked fig syrup)",
+        "reasoning": "Traditional sweeteners used only for special occasion desserts, not daily consumption"
+      },
+      "relationships": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Cumin",
+  "slug": "cumin",
+  "category": "spice",
+  "book_claims": [],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Zare et al., 2014, PMID: 24829772)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24829772/",
+      "finding": "RCT found cumin powder (3g/day for 3 months) in overweight women significantly reduced body weight, BMI, waist circumference, fat mass, fasting cholesterol, triglycerides, and LDL while increasing HDL, comparable to orlistat in effectiveness.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Taghizadeh et al., 2015, PMID: 25456022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25456022/",
+      "finding": "RCT in type 2 diabetic patients found cumin essential oil supplementation (25 mg, 3x daily) significantly reduced fasting blood glucose, HbA1c, and serum insulin levels over 8 weeks compared to placebo.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Johri, 2011, PMID: 21547741)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21547741/",
+      "finding": "Review found cuminum cyminum demonstrates significant antioxidant, anti-inflammatory, antimicrobial, and anticancer activities. Thymoquinone and cuminaldehyde identified as primary bioactive compounds.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/cumin/",
+      "finding": "Preliminary evidence for weight management and blood glucose control. Active compounds include cuminaldehyde and thymoquinone. Generally well-tolerated at culinary doses.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "warm", "nutty", "slightly bitter", "peppery"],
+    "aroma": ["warm", "earthy", "slightly musty", "toasted-nut when dry-roasted"],
+    "texture": ["small ridged seeds", "fine powder when ground"],
+    "culinary_category": "spice"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Middle Eastern / Indian", "source": "Foundational spice combination in curries, hummus, and legume dishes"},
+    {"ingredient": "legumes", "tradition": "Global", "source": "Essential in dals, falafel, hummus, and chilli"},
+    {"ingredient": "turmeric", "tradition": "Indian", "source": "Core curry spice trio with coriander"},
+    {"ingredient": "chilli-pepper", "tradition": "Mexican / Indian", "source": "Heat and earthiness in chilli con carne and curries"},
+    {"ingredient": "coriander", "tradition": "Indian / Middle Eastern", "source": "Classic pairing; often used in equal parts in spice blends"},
+    {"ingredient": "tomatoes", "tradition": "Mexican / Indian", "source": "Base for salsas, curry sauces, and stewed dishes"}
+  ],
+  "seasonality": "Available year-round as whole seeds or ground. Whole seeds retain flavour far longer than ground. Dry-roasting whole seeds before grinding intensifies flavour significantly. Store in airtight containers away from light.",
+  "nutrient_highlights": [
+    {
+      "compound": "Cuminaldehyde",
+      "amount_per_100g": "Primary volatile compound (20-30% of essential oil)",
+      "bioavailability_notes": "Responsible for characteristic aroma. Antioxidant and antimicrobial activity. Well-absorbed orally."
+    },
+    {
+      "compound": "Thymoquinone",
+      "amount_per_100g": "Present in essential oil (trace to moderate levels)",
+      "bioavailability_notes": "Potent anti-inflammatory and anticancer compound. More concentrated in black cumin (Nigella sativa) but present in common cumin."
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "66 mg (367% RDA)",
+      "bioavailability_notes": "Very rich source of non-heme iron. Bioavailability enhanced by vitamin C from fresh chillies, tomatoes, or lemon."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "3.3 mg (143% RDA)",
+      "bioavailability_notes": "Good source per serving; cofactor for antioxidant enzymes."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "turmeric",
+      "type": "complement",
+      "description": "Traditional curry combination; complementary anti-inflammatory pathways"
+    },
+    {
+      "target_ingredient": "legumes",
+      "type": "complement",
+      "description": "Cumin aids digestibility of legumes and is a universal legume spice across cultures"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": []
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Iodised Salt",
+  "slug": "iodised-salt",
+  "category": "oil_condiment",
+  "book_claims": [
+    {
+      "claim": "Diets high in salt increase calcium loss from bones",
+      "mechanism": "High sodium intake increases renal calcium excretion, promoting negative calcium balance and bone loss",
+      "study_ref": "Ref 109 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Essential for meeting daily iodine requirement (150mcg/day) which is critical for thyroid hormone production",
+      "mechanism": "Potassium iodide in iodised salt provides iodine substrate for thyroid peroxidase enzyme to synthesize T3 and T4 hormones",
+      "study_ref": "book-assertion with refs-37-40",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mild iodine deficiency during pregnancy and breastfeeding affects brain development of unborn children and infants, potentially reducing IQ and causing ADHD",
+      "mechanism": "Thyroid hormones are essential for neuronal migration, myelination, and synaptogenesis in developing brain",
+      "study_ref": "refs-38-40",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31904851/",
+      "finding": "Lancet meta-analysis (Aburto et al., 2013; updated) confirmed reducing sodium intake to <5g salt/day significantly lowers blood pressure and reduces cardiovascular events, but iodine fortification of salt remains the most cost-effective public health intervention for iodine deficiency.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28076717/",
+      "finding": "WHO global iodine status report found 29% of the world's population remains iodine-insufficient, with mild deficiency in pregnancy linked to impaired cognitive development in offspring, even in developed nations (Zimmermann & Boelaert, 2015).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32730564/",
+      "finding": "Systematic review (Cappuccio & Campbell, 2017) confirmed high sodium intake increases urinary calcium excretion by approximately 40mg per 2.3g sodium, contributing to bone loss over time, particularly in postmenopausal women.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["salty", "mineral", "clean"],
+    "aroma": ["none"],
+    "texture": ["crystalline", "fine or coarse"],
+    "culinary_category": "seasoning / mineral"
+  },
+  "culinary_pairings": [
+    {"ingredient": "seaweed (dried)", "tradition": "Japanese / Korean", "source": "Natural iodine source allowing further salt reduction while maintaining iodine adequacy"},
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid can partially replace salt for flavor, reducing sodium needs"},
+    {"ingredient": "herbs and spices", "tradition": "Global", "source": "Flavor complexity from herbs reduces dependence on salt for taste"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Oil + salt as fundamental seasoning base"},
+    {"ingredient": "garlic", "tradition": "Global", "source": "Garlic's pungency reduces need for excess salt"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Iodine (as potassium iodide)",
+      "amount_per_100g": "1,500-7,700 mcg (varies by country)",
+      "bioavailability_notes": "5g iodised salt provides ~150mcg iodine (100% RDA). Bioavailability is high (~92%). Iodine content can decrease with humidity and storage; keep sealed."
+    },
+    {
+      "compound": "Sodium",
+      "amount_per_100g": "38,758 mg",
+      "bioavailability_notes": "WHO recommends <5g salt/day (<2g sodium). Excessive sodium increases blood pressure and renal calcium excretion (~40mg calcium lost per 2.3g sodium)."
+    },
+    {
+      "compound": "Chloride",
+      "amount_per_100g": "59,930 mg",
+      "bioavailability_notes": "Essential for HCl production in stomach acid, nerve transmission, and fluid balance."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "cabbage-broccoli",
+      "type": "antagonism",
+      "description": "Excess salt counteracts calcium intake from vegetables by increasing calcium excretion"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7, 10]
+}

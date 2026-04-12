@@ -1,0 +1,100 @@
+{
+  "name": "Cinnamon",
+  "slug": "cinnamon",
+  "category": "spice",
+  "book_claims": [
+    {
+      "claim": "Has potential anti-diabetic effects: may lower blood glucose and reverse fructose-induced insulin resistance",
+      "mechanism": "Hydroxycinnamaldehyde has antioxidant and anti-inflammatory properties. Improves metabolic syndrome symptoms in rodents and humans.",
+      "study_ref": "Refs 90, 91, 92, 93, 94, 95 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Mild blood cholesterol-lowering effect in animals and humans",
+      "mechanism": "Not fully specified; likely related to hydroxycinnamaldehyde and other extracts",
+      "study_ref": "Ref 95 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Allen et al., 2013, PMID: 24019277)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24019277/",
+      "finding": "Meta-analysis of 10 RCTs found cinnamon supplementation (120 mg - 6g/day) significantly reduced fasting blood glucose (mean -24.6 mg/dL), total cholesterol, LDL, and triglycerides, while increasing HDL. Consistent with the book's anti-diabetic and cholesterol claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Costello et al., 2016, PMID: 27756683)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27756683/",
+      "finding": "Systematic review and meta-analysis of 11 RCTs confirmed cinnamon supplementation reduces fasting glucose and HbA1c in type 2 diabetes patients. Effect sizes were clinically meaningful (HbA1c reduction of ~0.8%).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Ranasinghe et al., 2013, PMID: 24019249)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24019249/",
+      "finding": "Review identified multiple mechanisms for cinnamon's anti-diabetic effects: mimics insulin signalling, enhances glucose uptake, improves glycogen synthesis, and inhibits gluconeogenesis. Ceylon cinnamon preferred over cassia due to lower coumarin content.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/cinnamon/",
+      "finding": "Moderate evidence for blood glucose and HbA1c reduction. Most effective in diabetic populations. Important distinction between Ceylon (Cinnamomum verum) and Cassia cinnamon -- cassia contains coumarin which can be hepatotoxic at high doses.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["warm", "sweet", "woody", "slightly spicy", "aromatic"],
+    "aroma": ["sweet", "warm", "complex", "slightly citrusy (Ceylon)", "sharp (cassia)"],
+    "texture": ["brittle sticks", "fine powder when ground", "papery bark (Ceylon)"],
+    "culinary_category": "spice"
+  },
+  "culinary_pairings": [
+    {"ingredient": "honey-natural-sweeteners", "tradition": "Global", "source": "Classic combination in teas, desserts, and Middle Eastern dishes"},
+    {"ingredient": "turmeric", "tradition": "Indian / Middle Eastern", "source": "Combined in golden milk and many curry blends"},
+    {"ingredient": "ginger", "tradition": "Global", "source": "Warming spice pairing in chai, baking, and stir-fries"},
+    {"ingredient": "legumes", "tradition": "Middle Eastern / Moroccan", "source": "Essential in Moroccan tagines and Middle Eastern lentil soups"},
+    {"ingredient": "oat-porridge", "tradition": "Western", "source": "Classic breakfast combination; both lower blood glucose"},
+    {"ingredient": "dark-chocolate", "tradition": "Mexican / European", "source": "Traditional in Mexican hot chocolate and European baking"}
+  ],
+  "seasonality": "Available year-round as sticks or ground powder. Sticks retain flavour for up to 3 years. Ground cinnamon loses fragrance quickly -- buy fresh or grind from sticks. Ceylon cinnamon preferred for regular consumption due to lower coumarin levels.",
+  "nutrient_highlights": [
+    {
+      "compound": "Cinnamaldehyde",
+      "amount_per_100g": "1-4 g (primary active compound)",
+      "bioavailability_notes": "Responsible for most anti-diabetic and antimicrobial activity. Well-absorbed orally."
+    },
+    {
+      "compound": "Proanthocyanidins (Type A)",
+      "amount_per_100g": "8-12 g",
+      "bioavailability_notes": "Insulin-mimetic polyphenols that enhance glucose uptake. Type A proanthocyanidins are more bioavailable than Type B (found in most other foods)."
+    },
+    {
+      "compound": "Coumarin",
+      "amount_per_100g": "0.3-1.2 g (cassia); trace amounts (Ceylon)",
+      "bioavailability_notes": "Potential hepatotoxin at high doses. EU tolerable daily intake is 0.1 mg/kg body weight. Ceylon cinnamon contains 250x less coumarin than cassia -- strongly prefer Ceylon for daily use."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "17.5 mg (760% RDA)",
+      "bioavailability_notes": "Very rich source, though typical serving sizes are small."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "turmeric",
+      "type": "complement",
+      "description": "Both have anti-inflammatory and blood glucose-lowering properties; combined in golden milk"
+    },
+    {
+      "target_ingredient": "oats",
+      "type": "synergy",
+      "description": "Both independently lower blood glucose; combined effect may be additive"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Chilli Pepper",
+  "slug": "chilli-pepper",
+  "category": "spice",
+  "book_claims": [
+    {
+      "claim": "May play a role in prevention of obesity by activating TRPV1 and AMPK pathways",
+      "mechanism": "Capsaicin and capsaicinoids activate TRPV1 and AMPK molecular pathways. Inhibits inflammation in fat and liver cells, improves glucose control in animal studies.",
+      "study_ref": "Refs 75, 76, 77 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Capsinoid supplementation associated with abdominal fat loss and increased energy expenditure",
+      "mechanism": "Capsinoids enhance heat-producing activity of brown adipose tissue, increasing energy expenditure over 6 weeks",
+      "study_ref": "Refs 78, 79 in book (small RCTs)",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Lv et al., 2015, PMID: 26169551)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26169551/",
+      "finding": "Large prospective cohort study (>485,000 Chinese adults, 7-year follow-up) found regular spicy food consumption (chilli peppers) associated with 14% reduced all-cause mortality compared to eating spicy food less than once per week.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Whiting et al., 2014, PMID: 24246368)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24246368/",
+      "finding": "Meta-analysis found capsaicin consumption increased energy expenditure by approximately 50 kcal/day and reduced appetite. Effects were modest but consistent across studies, supporting the book's obesity prevention claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Yoneshiro et al., 2012, PMID: 23185014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23185014/",
+      "finding": "Capsinoid supplementation (6 mg/day for 6 weeks) increased cold-induced thermogenesis and brown adipose tissue activity in humans, confirming the book's claims about brown fat activation and energy expenditure.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/capsaicin/",
+      "finding": "Moderate evidence for modest increases in metabolic rate and fat oxidation. Strong evidence for pain relief (topical). Capsaicin desensitises TRPV1 pain receptors with repeated use.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["hot", "pungent", "fruity (when fresh)", "smoky (when dried)", "sweet undertones"],
+    "aroma": ["sharp", "warm", "fruity", "smoky (dried varieties)"],
+    "texture": ["crisp when fresh", "leathery when dried", "flaky when ground"],
+    "culinary_category": "spice"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Global", "source": "Universal pairing across Sichuan, Thai, Italian, and Mexican cuisines"},
+    {"ingredient": "ginger", "tradition": "East Asian / Indian", "source": "Complementary heat compounds in curries and stir-fries"},
+    {"ingredient": "tomatoes", "tradition": "Mexican / Italian", "source": "Salsa, arrabiata, and Thai-style sauces"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Aglio, olio e peperoncino -- the ultimate minimalist pasta"},
+    {"ingredient": "dark-chocolate", "tradition": "Mexican / Aztec", "source": "Ancient Mesoamerican combination; mole sauces"},
+    {"ingredient": "cumin", "tradition": "Mexican / Indian", "source": "Foundational heat-spice pairing in chili con carne and curries"}
+  ],
+  "seasonality": "Fresh chillies peak in summer and early autumn. Dried chillies available year-round with excellent shelf life. Hundreds of varieties from mild (Anaheim) to extreme (Carolina Reaper). Sweet peppers contain similar but non-pungent compounds (capsinoids).",
+  "nutrient_highlights": [
+    {
+      "compound": "Capsaicin",
+      "amount_per_100g": "0.1-6 mg (varies enormously by variety; habanero ~16 mg)",
+      "bioavailability_notes": "Rapidly absorbed. Activates TRPV1 receptors. Repeated exposure causes receptor desensitisation (tolerance). Lipophilic -- pair with fats."
+    },
+    {
+      "compound": "Capsinoids (non-pungent relatives)",
+      "amount_per_100g": "Present in sweet peppers (CH-19 Sweet variety)",
+      "bioavailability_notes": "Same metabolic effects as capsaicin without the burn. Activate brown adipose tissue at 6 mg/day."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "144 mg (160% RDA, fresh red chilli)",
+      "bioavailability_notes": "Fresh chillies are among the richest sources of vitamin C. Degrades significantly with drying."
+    },
+    {
+      "compound": "Beta-carotene / Vitamin A",
+      "amount_per_100g": "534 mcg RAE (59% RDA, fresh red chilli)",
+      "bioavailability_notes": "Red and orange varieties are particularly rich. Fat-soluble; enhanced by cooking in oil."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "garlic",
+      "type": "complement",
+      "description": "Heat and pungency amplify each other across many cuisines"
+    },
+    {
+      "target_ingredient": "turmeric",
+      "type": "complement",
+      "description": "Both activate anti-inflammatory pathways; combined in many curry blends"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

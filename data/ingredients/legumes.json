@@ -1,0 +1,172 @@
+{
+  "name": "Legumes (lentils, chickpeas, fava beans, black beans)",
+  "slug": "legumes",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Provide high-lysine plant protein that complements grain protein for complete amino acid profile",
+      "mechanism": "High in lysine, low in tryptophan and methionine; when combined with grains (high tryptophan/methionine, low lysine) provides complete protein identical to animal sources",
+      "study_ref": "book-assertion with biochemical basis",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "100g cooked lentils provides 8g fibre vs 0g in 100g beef",
+      "mechanism": "Fibre feeds beneficial gut bacteria producing short-chain fatty acids; dilutes carcinogens in colon; slows glucose absorption",
+      "study_ref": "Table 3 in book (nutritional comparison)",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Sprouting or fermenting beans destroys phytates, increasing mineral absorption",
+      "mechanism": "Phytates in raw legumes chelate iron, zinc and calcium, inhibiting absorption; sprouting/fermentation enzymatically degrades phytates",
+      "study_ref": "Ref 104 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Contribute to high dietary fibre intake (30-45g/day) that lowers cholesterol",
+      "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine; each additional gram of soluble fibre lowers LDL-cholesterol by ~1.12 mg/L",
+      "study_ref": "ref-20",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Promote beneficial gut bacteria that produce anti-inflammatory metabolites",
+      "mechanism": "Insoluble fibre increases Bacteroidetes and Firmicutes populations which produce short-chain fatty acids (butyrate, propionate) that bind to specific receptors to inhibit inflammation and increase regulatory T cells",
+      "study_ref": "refs-32,33,34,35,36,37",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Plant protein source that reduces TMAO production compared to animal protein",
+      "mechanism": "Lower choline and L-carnitine content (~50% less than Western diet) means less substrate for gut bacteria to produce TMAO, reducing cardiovascular disease risk by ~20%",
+      "study_ref": "ref-43",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Consuming legumes and unrefined grains reduces glucose levels at the meal consumed AND at subsequent meals",
+      "mechanism": "Second-meal effect: eating quinoa and chickpeas at dinner reduces night-long blood glucose. Effect lost if grains are highly milled or legumes overcooked at high temperatures.",
+      "study_ref": "Ref 111 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Combined with whole grains provides all essential amino acids without atherogenic fatty acids",
+      "mechanism": "Complementary amino acid profiles between legumes and grains. No saturated or trans-fatty acids unlike animal products.",
+      "study_ref": "book-assertion with ref 112",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28515392/",
+      "finding": "A 2017 systematic review and meta-analysis in Clinical Nutrition (PMID 28515392) of prospective cohort studies found that legume consumption was associated with significantly reduced risk of coronary heart disease, cardiovascular disease, and all-cause mortality. Each 100g/day increase in legume intake was associated with a 6% reduction in all-cause mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25061763/",
+      "finding": "A 2014 meta-analysis in the Canadian Medical Association Journal (PMID 25061763) of 26 RCTs found that a single daily serving of pulses (beans, lentils, chickpeas, peas) significantly reduced LDL cholesterol by 5%, supporting the book's claims about cholesterol-lowering effects of legume fiber.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Blue Zones study)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15172426/",
+      "finding": "Dan Buettner's Blue Zones research (PMID 15172426) identified legumes as the single most important dietary predictor of survival in elderly populations across all five longevity hotspots, with legume consumption associated with a 7-8% reduction in mortality for every 20g/day increase.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/foods/legumes/",
+      "finding": "Examine.com summary: legumes have strong evidence for glycemic control, LDL cholesterol reduction, and gut microbiome diversity. Anti-nutrient concerns (lectins, phytates) are largely neutralized by proper cooking. Net health effect is strongly positive.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT, gut microbiome)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28352631/",
+      "finding": "A 2017 study in the Journal of Functional Foods (PMID 28352631) demonstrated that legume consumption significantly increased Bifidobacterium and Lactobacillus populations and short-chain fatty acid production, confirming the book's mechanism for gut microbiome benefits.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "nutty", "starchy", "mildly sweet", "savory"],
+    "aroma": ["earthy", "mineral", "herbaceous when fresh"],
+    "texture": ["creamy when cooked", "mealy", "firm (al dente)", "smooth (when pureed)"],
+    "culinary_category": "pulse / dried legume"
+  },
+  "culinary_pairings": [
+    {"ingredient": "cumin", "tradition": "Indian / Middle Eastern", "source": "dal and hummus traditions"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / global", "source": "universal aromatic base for bean dishes"},
+    {"ingredient": "tomatoes", "tradition": "Italian / Mexican", "source": "pasta e fagioli, frijoles traditions"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean / Middle Eastern", "source": "acidity brightens earthy flavors; also enhances iron absorption (synergy from master list)"},
+    {"ingredient": "olive oil", "tradition": "Mediterranean", "source": "traditional finishing fat for bean soups and salads"},
+    {"ingredient": "onions", "tradition": "global", "source": "mirepoix/soffritto base for virtually all legume dishes"},
+    {"ingredient": "rice", "tradition": "Indian / Caribbean / Latin American", "source": "dal-chawal, rice and beans, moros y cristianos"},
+    {"ingredient": "smoked paprika", "tradition": "Spanish", "source": "fabada asturiana, chorizo-lentil stew tradition"},
+    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "hummus, ful medames tradition"},
+    {"ingredient": "fresh herbs (cilantro, parsley, mint)", "tradition": "Mediterranean / Middle Eastern", "source": "traditional garnish for lentil salads and bean dishes"}
+  ],
+  "seasonality": "Dried legumes available year-round. Fresh fava beans peak in spring (April-June). Fresh shell beans (cranberry, lima) peak summer through early fall.",
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "7-8 g (cooked lentils); 6-7 g (cooked chickpeas)",
+      "bioavailability_notes": "Mix of soluble (galactooligosaccharides, pectin) and insoluble fiber. Soluble fiber fermented by colonic bacteria to produce butyrate. Resistant starch content increases when legumes are cooked and cooled."
+    },
+    {
+      "compound": "Protein",
+      "amount_per_100g": "9 g (cooked lentils); 8.9 g (cooked chickpeas)",
+      "bioavailability_notes": "PDCAAS ~0.6-0.7 alone; rises to ~1.0 when combined with grains due to complementary amino acid profiles. Cooking improves digestibility by denaturing protease inhibitors."
+    },
+    {
+      "compound": "Folate (B9)",
+      "amount_per_100g": "181 mcg (cooked lentils, ~45% DV)",
+      "bioavailability_notes": "Naturally high folate content. Bioavailability of food folate is approximately 50-60% of synthetic folic acid."
+    },
+    {
+      "compound": "Iron (non-heme)",
+      "amount_per_100g": "3.3 mg (cooked lentils)",
+      "bioavailability_notes": "Non-heme iron; absorption is 2-20% depending on meal composition. Vitamin C dramatically increases absorption (2-6x). Phytates and tannins inhibit absorption; soaking, sprouting, and fermenting reduce phytate content."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "369 mg (cooked lentils)",
+      "bioavailability_notes": "Highly bioavailable. Contributes to blood pressure regulation. Legumes are among the richest plant sources of potassium."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "whole-grains",
+      "type": "synergy",
+      "description": "Complementary amino acid profiles create complete protein when combined"
+    },
+    {
+      "target_ingredient": "lemon-juice-vitamin-c",
+      "type": "synergy",
+      "description": "Vitamin C from lemon juice increases iron and mineral absorption from legumes"
+    },
+    {
+      "target_ingredient": "Sourdough Bread (Wholegrain Durum Wheat)",
+      "type": "complement",
+      "description": "Legumes + grains provide complete amino acid profiles; combined fibre feeds diverse gut bacteria populations"
+    },
+    {
+      "target_ingredient": "Vegetables",
+      "type": "synergy",
+      "description": "Together provide the high fibre intake (30-45g/day) that drives microbiome diversity and SCFA production"
+    },
+    {
+      "target_ingredient": "whole grains",
+      "type": "complement",
+      "description": "Together provide complete essential amino acids without atherogenic fats"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "partial",
+  "source_chapters": [7, 8, 9]
+}

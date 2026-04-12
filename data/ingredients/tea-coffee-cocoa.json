@@ -1,0 +1,72 @@
+{
+  "name": "Tea, Coffee and Cocoa (Meal Timing)",
+  "slug": "tea-coffee-cocoa",
+  "category": "beverage",
+  "overview_page": true,
+  "related_entries": ["green-tea", "coffee", "dark-chocolate"],
+  "book_claims": [
+    {
+      "claim": "Consuming during meals reduces absorption of iron, zinc and other minerals",
+      "mechanism": "Polyphenols (tannins) in tea, coffee and cocoa chelate iron and other minerals, reducing their bioavailability",
+      "study_ref": "Ref 106 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Hurrell et al., 1999, PMID: 10479216)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10479216/",
+      "finding": "Polyphenol-containing beverages inhibited iron absorption by 20-73% in human studies. Black tea reduced absorption by 79-94%. Even herbal teas and cocoa showed significant inhibition. Effect was dose-dependent on polyphenol content.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Thankachan et al., 2008, PMID: 18400713)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18400713/",
+      "finding": "Study in Indian women found tea consumption with meals reduced non-heme iron absorption by 62%. Waiting 1 hour after a meal before drinking tea largely eliminated the inhibitory effect, supporting the book's recommendation to avoid these beverages during meals.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Ma et al., 2016, PMID: 27498872)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27498872/",
+      "finding": "Comprehensive review confirmed that polyphenols from tea, coffee, and cocoa chelate non-heme iron in the gut lumen. Vitamin C can partially counteract this inhibition. Heme iron (from animal foods) is not significantly affected.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["varies by beverage"],
+    "aroma": ["varies by beverage"],
+    "texture": ["liquid"],
+    "culinary_category": "beverage"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lemon-juice-vitamin-c", "tradition": "Functional pairing", "source": "Vitamin C counteracts iron chelation -- add lemon to tea or consume vitamin C-rich foods at meals"},
+    {"ingredient": "honey-natural-sweeteners", "tradition": "Global", "source": "Traditional sweetener for tea and coffee across all cultures"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Indian", "source": "Classic spice addition to all three beverages"},
+    {"ingredient": "ginger", "tradition": "East Asian / Indian", "source": "Fresh ginger in tea; ginger-chocolate combinations"},
+    {"ingredient": "cardamom", "tradition": "Middle Eastern / Indian", "source": "Arabic coffee and chai tea spice"}
+  ],
+  "seasonality": "All three beverages available year-round.",
+  "nutrient_highlights": [
+    {
+      "compound": "Tannins (polyphenols)",
+      "amount_per_100g": "Varies: black tea ~4.4%, green tea ~3%, coffee ~1-2%, cocoa ~6%",
+      "bioavailability_notes": "Bind non-heme iron in the gut lumen forming insoluble complexes. Effect is on iron consumed at the same meal, not on iron stores generally. Does not affect heme iron from meat/fish."
+    }
+  ],
+  "synergies": [],
+  "warnings": [
+    "Consume between meals (at least 1 hour after eating), not during meals containing iron or zinc",
+    "This is especially important for plant-based diets where all iron is non-heme and more vulnerable to chelation",
+    "Vitamin C (from lemon, fresh chillies, or bell peppers) partially counteracts the inhibitory effect"
+  ],
+  "see_also": {
+    "green-tea": "Deep dive on EGCG, catechins, and cancer prevention",
+    "coffee": "Deep dive on chlorogenic acids, caffeine, and cardiovascular benefits",
+    "dark-chocolate": "Deep dive on epicatechin, flavanols, and the dairy interference effect"
+  },
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

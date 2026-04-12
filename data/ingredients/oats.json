@@ -1,0 +1,99 @@
+{
+  "name": "Oats",
+  "slug": "oats",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+      "study_ref": "Canadian trial, ref-17",
+      "confidence": "high",
+      "_from_chapter": 8
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26690472/",
+      "finding": "A 2016 systematic review (Nutr Rev, PMID 26690472) of 58 RCTs confirmed that oat beta-glucan at 3g or more per day significantly reduces LDL and total cholesterol, with a mean LDL reduction of 0.25 mmol/L.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27724985/",
+      "finding": "A 2016 meta-analysis (Br J Nutr, PMID 27724985) found oat consumption significantly increased satiety and reduced subsequent energy intake, supporting the weight management benefits of oat fiber.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (systematic review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25267243/",
+      "finding": "A 2015 systematic review (Nutr J, PMID 25267243) found oat beta-glucan intake was associated with reduced postprandial glycemic and insulinemic responses, with effects proportional to beta-glucan dose and molecular weight.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31010505/",
+      "finding": "A 2019 RCT (Nutrients, PMID 31010505) found that whole oat consumption improved gut microbiota composition and increased short-chain fatty acid production, particularly butyrate, supporting anti-inflammatory effects.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mild", "slightly sweet", "nutty", "clean"],
+    "aroma": ["warm", "toasty", "grain-forward"],
+    "texture": ["variable: chewy (steel-cut) to creamy (rolled)", "absorbent"],
+    "culinary_category": "whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "blueberries", "tradition": "Northern European / American", "source": "Classic porridge and granola pairing"},
+    {"ingredient": "honey", "tradition": "Global", "source": "Traditional sweetener for oat preparations"},
+    {"ingredient": "almonds", "tradition": "European / American", "source": "Granola and muesli tradition; healthy fats complement fiber"},
+    {"ingredient": "apple", "tradition": "Swiss / Northern European", "source": "Bircher muesli original recipe (Dr. Bircher-Benner)"},
+    {"ingredient": "cinnamon", "tradition": "Scandinavian / American", "source": "Warming spice with complementary blood sugar benefits"},
+    {"ingredient": "banana", "tradition": "Global", "source": "Natural binder in oat pancakes and smoothie bowls"},
+    {"ingredient": "dark chocolate", "tradition": "European", "source": "Complementary flavonoid profiles in granola and energy bites"}
+  ],
+  "seasonality": "Year-round pantry staple. Steel-cut (Irish), rolled (old-fashioned), and quick oats differ in processing level and GI. Whole oat groats are least processed.",
+  "nutrient_highlights": [
+    {
+      "compound": "Beta-glucan",
+      "amount_per_100g": "2.3-8.5 g (dry; varies by variety)",
+      "bioavailability_notes": "Soluble fiber forms viscous gel in gut. FDA health claim at 3g/day for cholesterol reduction. Molecular weight and viscosity determine efficacy -- minimally processed oats retain higher MW beta-glucan."
+    },
+    {
+      "compound": "Avenanthramides",
+      "amount_per_100g": "15-30 mg",
+      "bioavailability_notes": "Unique oat polyphenols with anti-inflammatory, anti-itch, and vasodilatory properties. Not found in any other grain."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "4.9 mg (191% RDA)",
+      "bioavailability_notes": "Cofactor for MnSOD antioxidant enzyme and bone metabolism."
+    },
+    {
+      "compound": "Phosphorus",
+      "amount_per_100g": "523 mg (75% RDA)",
+      "bioavailability_notes": "Partially bound by phytic acid. Soaking or fermenting oats improves mineral bioavailability."
+    },
+    {
+      "compound": "Thiamine (B1)",
+      "amount_per_100g": "0.76 mg (63% RDA)",
+      "bioavailability_notes": "Essential for energy metabolism. Well-preserved in minimally processed oats."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "barley",
+      "type": "synergy",
+      "description": "Both tested together in cholesterol-lowering food portfolio trial with complementary soluble fibre types"
+    },
+    {
+      "target_ingredient": "psyllium",
+      "type": "synergy",
+      "description": "Combined soluble fibre sources for enhanced cholesterol reduction"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8]
+}

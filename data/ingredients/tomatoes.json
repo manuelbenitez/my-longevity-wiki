@@ -1,0 +1,100 @@
+{
+  "name": "Tomatoes",
+  "slug": "tomatoes",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Rich in lycopene and vitamin C providing antioxidant protection",
+      "mechanism": "Lycopene is a potent carotenoid antioxidant; vitamin C neutralises free radicals",
+      "study_ref": "book-assertion",
+      "confidence": "medium",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Contain lycopene important in prevention of prostate, digestive tract and cervical cancers",
+      "mechanism": "Lycopene reduces IGF-I bioavailability, which may mediate anti-cancer effect. RCT showed reduction in prostate cancer growth with lycopene supplementation before surgery.",
+      "study_ref": "Refs 56, 57, 58 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Giovannucci et al., 2002, PMID: 11880478)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11880478/",
+      "finding": "Prospective study of 47,365 men: higher tomato sauce consumption associated with 35% reduced risk of prostate cancer, with lycopene identified as the likely active compound. Two or more servings per week showed the strongest effect.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Burton-Freeman & Sesso, 2014, PMID: 25008788)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25008788/",
+      "finding": "Review of tomato and lycopene research: processed tomato products (sauce, paste) provide more bioavailable lycopene than raw tomatoes. Strong evidence for cardiovascular and prostate cancer risk reduction.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Kucuk et al., 2001, PMID: 11396441)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11396441/",
+      "finding": "RCT of lycopene supplementation (30mg/day) in prostate cancer patients before surgery reduced tumor size, PSA levels, and markers of cell proliferation. Directly supports the book's cancer prevention claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/lycopene/",
+      "finding": "Lycopene reliably reduces LDL oxidation and blood pressure. Prostate cancer risk reduction is consistently observed in epidemiological studies. Cooked tomatoes with fat maximize absorption.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["acidic", "sweet", "savory", "umami-rich when cooked", "bright when fresh"],
+    "aroma": ["green and vine-like (fresh)", "rich and concentrated (cooked)", "sweet-sour"],
+    "texture": ["juicy and soft (ripe)", "thick and velvety (sauce)", "chewy (sun-dried)"],
+    "culinary_category": "fruit-vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances lycopene absorption 2-3x; foundational combination in Italian cuisine"},
+    {"ingredient": "garlic", "tradition": "Italian / Mediterranean", "source": "Synergistic anti-cancer effect: S-allylcysteine + lycopene inhibit stomach cancer at lower doses than either alone"},
+    {"ingredient": "basil", "tradition": "Italian", "source": "Insalata caprese; basil's eugenol complements tomato's acidity and adds anti-inflammatory properties"},
+    {"ingredient": "onion", "tradition": "Global", "source": "Base of virtually every tomato sauce worldwide; complementary flavonoids"},
+    {"ingredient": "oregano", "tradition": "Italian / Greek", "source": "One of the highest-antioxidant herbs; traditional pairing in pizza sauce and Greek salads"},
+    {"ingredient": "mozzarella", "tradition": "Italian", "source": "Fat from cheese enhances lycopene bioavailability; caprese is a classic combination"},
+    {"ingredient": "chili peppers", "tradition": "Mexican / Italian", "source": "Capsaicin and lycopene are both fat-soluble and complementary antioxidants; salsa fresca, arrabbiata"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Lycopene",
+      "amount_per_100g": "2573 mcg (raw), 5000-15,000 mcg (cooked/processed)",
+      "bioavailability_notes": "Cooking and processing dramatically increase bioavailability by breaking cell walls. Fat co-ingestion essential. Tomato paste has 10x the lycopene of fresh tomatoes by weight."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "14 mg (raw)",
+      "bioavailability_notes": "Destroyed by prolonged cooking. Raw tomatoes and brief-cook sauces retain the most. Works synergistically with lycopene as antioxidant."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "237 mg",
+      "bioavailability_notes": "Tomato paste and sun-dried tomatoes are concentrated sources (~1000 mg/100g). Important for blood pressure regulation."
+    },
+    {
+      "compound": "Naringenin (flavanone)",
+      "amount_per_100g": "0.5-2 mg",
+      "bioavailability_notes": "Anti-inflammatory flavonoid also found in citrus. May contribute to cardiovascular benefits beyond lycopene alone."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "Extra-Virgin Olive Oil",
+      "type": "synergy",
+      "description": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
+    },
+    {
+      "target_ingredient": "Garlic",
+      "type": "complement",
+      "description": "Traditional pairing providing complementary phytochemical profiles"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [8, 9]
+}

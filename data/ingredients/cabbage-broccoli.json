@@ -1,0 +1,97 @@
+{
+  "name": "Cabbage & Broccoli",
+  "slug": "cabbage-broccoli",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "40-60% of calcium is absorbed (higher bioavailability than cow's milk at 31-32%)",
+      "mechanism": "Low oxalate content allows high calcium bioavailability; oxalates in other vegetables (spinach, chard, beets) chelate calcium and block absorption",
+      "study_ref": "Ref 107 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Weaver et al., 1999, PMID: 10465528)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10465528/",
+      "finding": "Calcium bioavailability from low-oxalate Brassica vegetables (broccoli, bok choy, kale) ranges from 49-61%, exceeding milk's 32%. Confirms the book's claim about superior calcium absorption.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Liu et al., 2013, PMID: 23679237)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23679237/",
+      "finding": "Cruciferous vegetable intake inversely associated with all-cause mortality in a large Chinese cohort. Each additional daily serving linked to 10% reduction in total mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Manchali et al., 2012, PMID: 22744944)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22744944/",
+      "finding": "Broccoli is among the top 20 foods by aggregate nutrient density index (ANDI). Steaming preserves 80-90% of sulforaphane content while boiling loses over 50%.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/sulforaphane/",
+      "finding": "Sulforaphane from broccoli family vegetables is the most potent natural Nrf2 activator known, with human trials supporting anti-cancer, anti-diabetic, and neuroprotective effects.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mild cruciferous", "slightly sweet (cabbage)", "earthy-green (broccoli)", "nutty when roasted"],
+    "aroma": ["sulfurous when overcooked", "mild and fresh when raw", "nutty when roasted"],
+    "texture": ["crunchy raw", "tender-crisp steamed", "soft when braised", "florets hold sauce well"],
+    "culinary_category": "cruciferous vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "mustard", "tradition": "European", "source": "Myrosinase in mustard seeds restores sulforaphane conversion after cooking"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances absorption of fat-soluble sulforaphane and vitamin K"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / Asian", "source": "Complementary organosulfur compounds; classic sauteed greens base"},
+    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Acid brightens brassica flavors and adds vitamin C"},
+    {"ingredient": "chili flakes", "tradition": "Italian / Asian", "source": "Heat cuts through brassica sweetness; broccoli with garlic and chili is a staple"},
+    {"ingredient": "sesame oil", "tradition": "East Asian", "source": "Toasted sesame complements nutty roasted brassica flavors"},
+    {"ingredient": "white beans", "tradition": "Italian", "source": "Classic Tuscan combination; complementary amino acid profiles"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Calcium",
+      "amount_per_100g": "47 mg (broccoli), 40 mg (cabbage)",
+      "bioavailability_notes": "49-61% bioavailability due to low oxalate content. Gram-for-gram, more calcium reaches the bloodstream than from milk (32% bioavailability)."
+    },
+    {
+      "compound": "Sulforaphane (via glucoraphanin)",
+      "amount_per_100g": "1-10 mg glucoraphanin in mature heads",
+      "bioavailability_notes": "Requires myrosinase activation. Steam max 3 minutes. Adding mustard powder after cooking restores conversion."
+    },
+    {
+      "compound": "Vitamin K",
+      "amount_per_100g": "101 mcg (broccoli), 76 mcg (cabbage)",
+      "bioavailability_notes": "Fat-soluble. Essential for calcium metabolism and bone health. Pair with olive oil."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "89 mg (broccoli), 37 mg (cabbage)",
+      "bioavailability_notes": "High bioavailability. Rapidly destroyed by prolonged cooking."
+    },
+    {
+      "compound": "Indole-3-carbinol",
+      "amount_per_100g": "Variable (produced from glucobrassicin on cutting/chewing)",
+      "bioavailability_notes": "Potent inhibitor of WWP1, freeing tumor suppressor PTEN. Formed on mechanical disruption of plant cells."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "spinach-chard-beets",
+      "type": "antagonism",
+      "description": "Unlike spinach/chard/beets which are high in oxalates, cabbage/broccoli have low oxalates allowing better calcium absorption"
+    },
+    {
+      "target_ingredient": "vitamin-d",
+      "type": "synergy",
+      "description": "Vitamin D facilitates calcium absorption"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

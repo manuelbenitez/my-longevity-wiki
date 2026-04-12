@@ -1,0 +1,755 @@
+[
+  {
+    "name": "Clams / Shellfish",
+    "slug": "clams-shellfish",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Exceptionally rich source of vitamin B12 (100g clams = up to 49 mcg B12)",
+        "mechanism": "Marine organisms accumulate B12 from bacteria in aquatic environments",
+        "study_ref": "book-assertion with specific nutritional data",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "100g provides up to 49 mcg B12",
+      "frequency": "Occasional",
+      "preparation": "Cooked",
+      "reasoning": "Richest natural B12 source for non-vegans"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "vitamin-b12",
+        "type": "complement",
+        "description": "One of the richest natural food sources of B12"
+      }
+    ],
+    "source_chapters": [
+      7
+    ],
+    "category": "fish_seafood"
+  },
+  {
+    "name": "Fish (Sardines, Anchovies, and other oily fish)",
+    "slug": "fish",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Acceptable animal protein source in a longevity-focused diet when consumed moderately",
+        "mechanism": "Provides essential amino acids and omega-3 fatty acids without the same negative metabolic profile as red meat",
+        "study_ref": "Author's metabolic kitchen study protocol",
+        "confidence": "medium",
+        "_from_chapter": 5
+      },
+      {
+        "claim": "Rich in omega-3 fatty acids that reduce inflammation",
+        "mechanism": "Omega-3 polyunsaturated fatty acids activate anti-inflammatory pathways (resolvins, protectins)",
+        "study_ref": "refs-28,29",
+        "confidence": "high",
+        "_from_chapter": 8
+      },
+      {
+        "claim": "Replacing meat with fish contributes to lower cardiovascular mortality",
+        "mechanism": "Reduces saturated fat and L-carnitine/choline intake while increasing omega-3 fatty acids, lowering TMAO production and inflammation",
+        "study_ref": "Lyon Diet Heart Study, ref-8",
+        "confidence": "high",
+        "_from_chapter": 8
+      }
+    ],
+    "consumption": {
+      "amount": "Regular consumption as part of Mediterranean diet",
+      "frequency": "Multiple times per week",
+      "preparation": "Home-cured (anchovies, sardines), preserved, or fresh; traditional preparations include bottarga and sardella",
+      "reasoning": "Key protein source in traditional Mediterranean diet replacing red meat"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "poultry",
+        "type": "complement",
+        "description": "Fish consumed 3x/week vs poultry only 1x/week in the study protocol"
+      },
+      {
+        "target_ingredient": "Nuts",
+        "type": "complement",
+        "description": "Marine omega-3 (EPA/DHA) from fish complements plant-based omega-3 (ALA) from walnuts for comprehensive anti-inflammatory coverage"
+      },
+      {
+        "target_ingredient": "Extra-Virgin Olive Oil",
+        "type": "synergy",
+        "description": "Combined unsaturated fat sources that together explain why Crete had low heart disease despite 40% calories from fat"
+      }
+    ],
+    "source_chapters": [
+      5,
+      8
+    ],
+    "category": "fish_seafood"
+  },
+  {
+    "name": "Oily fish",
+    "slug": "oily-fish",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "4+ servings per week of omega-3 rich fish lowers heart attack risk by 22%. Even 1-4 servings per month has significant cardioprotective effect.",
+        "mechanism": "EPA and DHA omega-3 fatty acids block impulses causing irregular heart rhythm (antiarrhythmic), lower triglycerides, decrease blood pressure and inflammation, decrease platelet aggregation, improve vascular function.",
+        "study_ref": "Refs 216, 217, 218, 219, 223, 224, 225 in book (large observational studies + RCTs)",
+        "confidence": "high"
+      },
+      {
+        "claim": "Broiled/baked fish 3+ times/week: 49% lower heart attack death risk and 58% lower sudden cardiac death risk. Fried fish provides NO protection and may increase risk.",
+        "mechanism": "Commercially fried seafood cooked in partially hydrogenated oils containing trans-fat negates benefits",
+        "study_ref": "Ref 220 in book (Cardiovascular Health Study)",
+        "confidence": "high"
+      },
+      {
+        "claim": "Fish exceeds meat in vitamin B12 bioavailability and unlike red meat, consumption associated with lower colon cancer risk",
+        "mechanism": "High B12 bioavailability without the carcinogenic compounds in red meat",
+        "study_ref": "Ref 226 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "2-3 servings per week",
+      "frequency": "2-3 times per week",
+      "preparation": "Broiled or baked, NEVER deep-fried. Cold-water species preferred.",
+      "reasoning": "Fried fish in hydrogenated oils eliminates all cardiovascular benefit"
+    },
+    "relationships": [],
+    "specific_varieties": [
+      "salmon (1200-2400mg EPA+DHA/115g)",
+      "anchovies (2300-2400mg)",
+      "herring",
+      "mackerel (1350-2100mg)",
+      "sardines (1100-1600mg)",
+      "tuna"
+    ],
+    "source_chapters": [
+      9
+    ],
+    "category": "fish_seafood"
+  },
+  {
+    "name": "Fruits (seasonal, dried)",
+    "slug": "fruits",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+        "mechanism": "Pectin and other fruit fibres feed beneficial gut bacteria and produce anti-inflammatory short-chain fatty acids",
+        "study_ref": "ref-40",
+        "confidence": "high"
+      },
+      {
+        "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+        "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+        "study_ref": "refs-22,23,24",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Seasonal fruits as dessert; dried fruits (peaches, nectarines, grapes, figs) in winter",
+      "frequency": "Daily",
+      "preparation": "Fresh seasonal or sun-dried; fig jam (no added sugar, figs' natural sweetness) for breakfast",
+      "reasoning": "Traditional dessert replacing processed sweets"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "Nuts",
+        "type": "complement",
+        "description": "Traditional pairing as dessert: dried fruits with nuts"
+      },
+      {
+        "target_ingredient": "Vegetables",
+        "type": "synergy",
+        "description": "Combined fruit and vegetable intake provides diverse phytochemicals and antioxidants"
+      }
+    ],
+    "source_chapters": [
+      8
+    ],
+    "category": "fruit"
+  },
+  {
+    "name": "Sourdough Bread",
+    "slug": "sourdough-bread",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+        "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
+        "study_ref": "Ref 105 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Not specified",
+      "frequency": "As bread choice",
+      "preparation": "Slow-fermented with sourdough starter (not commercial yeast)",
+      "reasoning": "Phytate degradation makes minerals more bioavailable; preferable to regular bread"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "refined-grains",
+        "type": "antagonism",
+        "description": "Sourdough whole grain bread far superior to white bread"
+      }
+    ],
+    "source_chapters": [
+      7
+    ],
+    "category": "grain"
+  },
+  {
+    "name": "Whole Grains (barley, farro, oats, brown rice)",
+    "slug": "whole-grains",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Regular consumption prevents chronic disease and supports longevity",
+        "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+        "study_ref": "Ref 5 in book",
+        "confidence": "medium",
+        "_from_chapter": 4
+      },
+      {
+        "claim": "Part of a high-quality diet that substituting for refined foods causes weight loss even without calorie counting",
+        "mechanism": "High fibre content induces early satiety via slower gastric emptying and small bowel transit; requires overfeeding by 200-300 cal/day to prevent unintended weight loss",
+        "study_ref": "Author's metabolic kitchen study; Ref 41 in book (Mediterranean diet study)",
+        "confidence": "high",
+        "_from_chapter": 5
+      },
+      {
+        "claim": "Regular consumption reduces cardiovascular disease risk by 20-40% and diabetes risk by 20-30%",
+        "mechanism": "Fibre-rich cell wall restricts rate of starch/sugar digestion and absorption; slow glucose release reduces insulin spikes; low glycaemic index induces satiety",
+        "study_ref": "Refs 78, 79, 80 in book",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Highest intake of wholegrain fibre associated with 19% lower all-cause mortality and 15-34% lower disease-specific mortality",
+        "mechanism": "Fibre increases stool bulk (diluting carcinogens), increases bile acid excretion, alters colonic flora, and generates short-chain fatty acids that nourish colon cells and immune cells",
+        "study_ref": "Ref 90 in book (NIH-AARP Diet and Health Study, 367,442 participants, 14-year follow-up)",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Part of healthy plant-based diet pattern with 25% lower coronary heart disease risk",
+        "mechanism": "Complex carbohydrate source that avoids insulin spikes while providing fibre, vitamins and minerals",
+        "study_ref": "Ref 111 in book",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Eating whole grains has protective effect against obesity, type 2 diabetes, cardiovascular disease and cancer",
+        "mechanism": "Bran contains phyto-protectants (ferulic acid, alkylresorcinols, apigenin, lignans, phytic acid) with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models by removing damaged cells and reducing inflammation.",
+        "study_ref": "Refs 113-127 in book (multiple large epidemiological studies)",
+        "confidence": "high",
+        "_from_chapter": 9
+      },
+      {
+        "claim": "Highest whole grain intake associated with 17% lower all-cause mortality (NIH-AARP study)",
+        "mechanism": "Multiple pathways: fibre, phytochemicals, minerals, spermidine",
+        "study_ref": "Ref 121 in book (NIH-AARP Diet and Health Study)",
+        "confidence": "high",
+        "_from_chapter": 9
+      },
+      {
+        "claim": "Two servings per day associated with 21% reduction in type 2 diabetes risk",
+        "mechanism": "Beta-glucan fibre lowers glucose, insulin and cholesterol by reducing intestinal absorption",
+        "study_ref": "Ref 122 in book (286,125 participants)",
+        "confidence": "high",
+        "_from_chapter": 9
+      },
+      {
+        "claim": "Three to five servings daily associated with 21% lower cardiovascular disease risk",
+        "mechanism": "Multiple pathways including cholesterol reduction and anti-inflammatory effects",
+        "study_ref": "Ref 123 in book (meta-analysis)",
+        "confidence": "high",
+        "_from_chapter": 9
+      }
+    ],
+    "consumption": {
+      "amount": "2-5 servings daily (40-80g)",
+      "frequency": "daily",
+      "preparation": "Always buy unrefined. Combine with legumes for complete amino acid profile. Store flours in fridge to prevent rancidity. Germinating grains increases bioavailability of folate, tocopherols and tocotrienols.",
+      "reasoning": "Refining removes 80% of thiamine, B vitamins, minerals, spermidine and essential fatty acids"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "beans-legumes",
+        "type": "complement",
+        "description": "Complementary fibre-rich food group"
+      },
+      {
+        "target_ingredient": "legumes",
+        "type": "synergy",
+        "description": "Complementary amino acid profiles; combined provide complete protein"
+      },
+      {
+        "target_ingredient": "extra-virgin-olive-oil",
+        "type": "synergy",
+        "description": "Olive oil slows carbohydrate absorption from grains"
+      },
+      {
+        "target_ingredient": "refined-grains",
+        "type": "antagonism",
+        "description": "Whole grains must replace refined grains (white bread, white rice) which behave like simple sugar"
+      }
+    ],
+    "specific_varieties": [
+      "barley (hulled, not pearled)",
+      "brown rice (long-grain, short-grain, basmati)",
+      "corn",
+      "millet",
+      "oats",
+      "quinoa",
+      "rye",
+      "wheat (durum, spelt/farro)"
+    ],
+    "source_chapters": [
+      4,
+      5,
+      7,
+      9
+    ],
+    "category": "grain"
+  },
+  {
+    "name": "Soy Protein",
+    "slug": "soy-protein",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+        "mechanism": "Plant protein with isoflavones that modulate LDL receptor expression and cholesterol metabolism",
+        "study_ref": "Canadian trial, ref-17",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "As part of plant protein intake",
+      "frequency": "Regular",
+      "preparation": "As soy protein or soybean oil",
+      "reasoning": "Named in cholesterol-lowering trial; also mentioned in Indo-Mediterranean diet trial using soybean oil"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "Nuts",
+        "type": "complement",
+        "description": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
+      }
+    ],
+    "source_chapters": [
+      8
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Soybeans",
+    "slug": "soybeans",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Soy consumption modestly lowers blood pressure and improves arterial health. Isoflavones reduce osteoporosis, cancer risk and hot flush severity.",
+        "mechanism": "Soy isoflavones (genistein, daidzein) mimic oestrogen, binding to oestrogen receptors and blocking cancer cell proliferation. Soy protein replaces animal fats to reduce LDL cholesterol.",
+        "study_ref": "Refs 155, 156, 157, 158, 159 in book",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular servings of tofu, edamame, miso, tempeh",
+      "frequency": "several times per week",
+      "preparation": "Tofu: grill thin slices or add cubes to soups last 10-15 min. Edamame: boil pods in salted water. Miso: dissolve in soup.",
+      "reasoning": "Soy protein quality similar to animal protein. 100g tofu: 10g protein, 91 cal. 1 cup edamame: 18g protein, 121% RDA folate."
+    },
+    "relationships": [
+      {
+        "target_ingredient": "capers",
+        "type": "synergy",
+        "description": "Soybeans (genistein) + quercetin-rich foods (capers, apples) block prostate and ovarian cancer cell growth at lower doses than either alone"
+      }
+    ],
+    "source_chapters": [
+      9
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Tofu (calcium sulphate set)",
+    "slug": "tofu",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Good source of dietary calcium for vegans when made with calcium sulphate",
+        "mechanism": "Calcium sulphate coagulant provides bioavailable calcium during tofu production",
+        "study_ref": "Ref 108 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Not specified",
+      "frequency": "Regular for vegans",
+      "preparation": "Made with calcium sulphate (check label)",
+      "reasoning": "Important calcium source for those avoiding dairy"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "cabbage-broccoli",
+        "type": "complement",
+        "description": "Both provide calcium for plant-based diets"
+      }
+    ],
+    "source_chapters": [
+      7
+    ],
+    "category": "legume"
+  },
+  {
+    "name": "Almonds",
+    "slug": "almonds",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Part of a nutritionally complete daily diet",
+        "mechanism": "Provides protein, healthy fats, fibre and minerals as part of a plant-based diet",
+        "study_ref": "Author's calculated sample diet",
+        "confidence": "medium",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Six-month RCT showed eating cholesterol-lowering foods including almonds led to 15% reduction in blood cholesterol",
+        "mechanism": "Rich in vitamin E (antioxidant), monounsaturated fats, soluble fibre that reduces intestinal cholesterol absorption",
+        "study_ref": "Ref 175 in book",
+        "confidence": "high",
+        "_from_chapter": 9
+      }
+    ],
+    "consumption": {
+      "amount": "30g serving (~20 almonds)",
+      "frequency": "daily",
+      "preparation": "Raw preferred. Soak overnight to reduce phytic acid and improve digestion. Use chopped in salads or as almond milk.",
+      "reasoning": "30g provides 37% RDA vitamin E, 20% RDA magnesium"
+    },
+    "relationships": [],
+    "source_chapters": [
+      7,
+      9
+    ],
+    "category": "nut"
+  },
+  {
+    "name": "Brazil nuts",
+    "slug": "brazil-nuts",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Richest food source of selenium, a powerful antioxidant mineral preventing free radical tissue damage",
+        "mechanism": "6 nuts supply ~780% RDA selenium. Selenium is cofactor for glutathione peroxidase, a key antioxidant enzyme.",
+        "study_ref": "book-assertion",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "2-3 nuts, 2-3 times per week",
+      "frequency": "2-3 times per week",
+      "preparation": "Raw, added to morning smoothies with dark cocoa powder",
+      "reasoning": "Very high selenium concentration means small amounts suffice"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "nut"
+  },
+  {
+    "name": "Nuts (Walnuts, Almonds, Hazelnuts, Pine Nuts)",
+    "slug": "nuts",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Regular consumption supports disease prevention and longevity",
+        "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+        "study_ref": "Ref 5 in book",
+        "confidence": "medium",
+        "_from_chapter": 4
+      },
+      {
+        "claim": "Contain monounsaturated and polyunsaturated fatty acids that protect the heart and do not increase cholesterol",
+        "mechanism": "Monounsaturated fats reduce LDL without affecting HDL; polyunsaturated fats provide essential fatty acids",
+        "study_ref": "Refs 66, 67 in book",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Part of healthy plant-based diet associated with 25% lower risk of coronary heart disease",
+        "mechanism": "Component of healthier plant food pattern that collectively reduces cardiovascular risk",
+        "study_ref": "Ref 111 in book",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Five servings per week associated with 40-60% reduction in heart attack risk",
+        "mechanism": "Provide polyunsaturated omega-3 fatty acids (walnuts) and omega-6 fatty acids plus plant sterols (almonds, hazelnuts, pine nuts) that reduce LDL-cholesterol",
+        "study_ref": "ref-18 (epidemiological studies)",
+        "confidence": "high",
+        "_from_chapter": 8
+      },
+      {
+        "claim": "Plant sterols reduce LDL-cholesterol levels",
+        "mechanism": "Plant sterols compete with cholesterol for absorption in the intestine, reducing circulating LDL-cholesterol",
+        "study_ref": "ref-16",
+        "confidence": "high",
+        "_from_chapter": 8
+      },
+      {
+        "claim": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
+        "mechanism": "Combined effect of nuts with soy protein, oats, barley and psyllium on cholesterol absorption and synthesis",
+        "study_ref": "Canadian trial, ref-17",
+        "confidence": "high",
+        "_from_chapter": 8
+      },
+      {
+        "claim": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
+        "mechanism": "Omega-3 and omega-6 fatty acids reduce inflammation and improve lipid profile",
+        "study_ref": "ref-9 (randomised trial)",
+        "confidence": "high",
+        "_from_chapter": 8
+      }
+    ],
+    "consumption": {
+      "amount": "5 servings per week",
+      "frequency": "Almost daily",
+      "preparation": "Raw or minimally processed; traditional use with dried fruits as dessert",
+      "reasoning": "Epidemiological data on 5 servings/week showing 40-60% heart attack risk reduction"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "extra-virgin-olive-oil",
+        "type": "complement",
+        "description": "Both provide healthy plant-origin fats"
+      },
+      {
+        "target_ingredient": "Extra-Virgin Olive Oil",
+        "type": "synergy",
+        "description": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
+      },
+      {
+        "target_ingredient": "Fish",
+        "type": "complement",
+        "description": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
+      }
+    ],
+    "source_chapters": [
+      4,
+      7,
+      8
+    ],
+    "category": "nut"
+  },
+  {
+    "name": "Honey and Natural Sweeteners (mosto cotto, miele di fichi)",
+    "slug": "honey-natural-sweeteners",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Traditional alternative to refined sugar for occasional sweets",
+        "mechanism": "Lower glycaemic impact than refined sugar; contains trace minerals and antioxidants absent in refined sugar",
+        "study_ref": "book-assertion",
+        "confidence": "low"
+      }
+    ],
+    "consumption": {
+      "amount": "Small amounts, only on special occasions",
+      "frequency": "Occasional (weddings, birthdays, Christmas)",
+      "preparation": "Honey, mosto cotto (wine grape juice reduced to dark syrup), miele di fichi (fig honey from cooked fig syrup)",
+      "reasoning": "Traditional sweeteners used only for special occasion desserts, not daily consumption"
+    },
+    "relationships": [],
+    "source_chapters": [
+      8
+    ],
+    "category": "oil_condiment"
+  },
+  {
+    "name": "Iodised Salt",
+    "slug": "iodised-salt",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Diets high in salt increase calcium loss from bones",
+        "mechanism": "High sodium intake increases renal calcium excretion, promoting negative calcium balance and bone loss",
+        "study_ref": "Ref 109 in book",
+        "confidence": "high",
+        "_from_chapter": 7
+      },
+      {
+        "claim": "Essential for meeting daily iodine requirement (150mcg/day) which is critical for thyroid hormone production",
+        "mechanism": "Potassium iodide in iodised salt provides iodine substrate for thyroid peroxidase enzyme to synthesize T3 and T4 hormones",
+        "study_ref": "book-assertion with refs-37-40",
+        "confidence": "high",
+        "_from_chapter": 10
+      },
+      {
+        "claim": "Mild iodine deficiency during pregnancy and breastfeeding affects brain development of unborn children and infants, potentially reducing IQ and causing ADHD",
+        "mechanism": "Thyroid hormones are essential for neuronal migration, myelination, and synaptogenesis in developing brain; deficiency impairs these processes",
+        "study_ref": "refs-38-40",
+        "confidence": "high",
+        "_from_chapter": 10
+      }
+    ],
+    "consumption": {
+      "amount": "~5g iodised salt per day meets 150mcg iodine requirement; supplement with iodine-rich foods if reducing salt below this",
+      "frequency": "Daily",
+      "preparation": "Use as sole salt source at home; supplement with dried seaweeds (65-680mcg/100mg), marine seafood (50-100mcg/100mg), small amounts of cheese/milk (80-170mcg/250ml)",
+      "reasoning": "Should not eliminate salt entirely; iodine deficiency has serious consequences especially in pregnancy"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "cabbage-broccoli",
+        "type": "antagonism",
+        "description": "Excess salt counteracts calcium intake from vegetables by increasing calcium excretion"
+      },
+      {
+        "target_ingredient": "Sodium/Salt (Excessive)",
+        "type": "complement",
+        "description": "Must balance salt reduction for cardiovascular health with maintaining adequate iodine intake"
+      },
+      {
+        "target_ingredient": "Seaweed (dried)",
+        "type": "complement",
+        "description": "Seaweed provides natural iodine allowing further salt reduction while maintaining iodine adequacy"
+      }
+    ],
+    "source_chapters": [
+      7,
+      10
+    ],
+    "category": "oil_condiment"
+  },
+  {
+    "name": "Flaxseeds",
+    "slug": "flaxseeds",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Consuming whole flaxseed results in significant reduction in total and LDL-cholesterol",
+        "mechanism": "Richest plant source of antioxidant lignans (up to 13mg/g) and omega-3 alpha-linolenic acid. Takes <2 weeks for omega-3 to incorporate into cell membranes. Enterolignans (produced by gut bacteria from lignans) associated with lower heart disease and cancer risk.",
+        "study_ref": "Refs 188, 189, 190 in book (several RCTs)",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "1-2 tablespoons daily",
+      "frequency": "daily",
+      "preparation": "GRIND before eating (improves omega-3 and enterolignan bioavailability). Keep refrigerated to prevent oxidation of polyunsaturated fats.",
+      "reasoning": "After oily fish, the main dietary source of omega-3. Grinding is essential for absorption."
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "seed"
+  },
+  {
+    "name": "Sesame seeds",
+    "slug": "sesame-seeds",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Sesamin (a lignan in sesame) associated with reduced serum cholesterol in rodents and humans",
+        "mechanism": "Sesamin modulates hepatic cholesterol metabolism",
+        "study_ref": "Ref 187 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Regular use as tahini or whole seeds",
+      "frequency": "several times per week",
+      "preparation": "Whole in salads, ground as tahini for hummus and dips. Unhulled more nutrient-rich. Black seeds have toasty smoky flavour. Lightly toast for snacks.",
+      "reasoning": "Called 'seeds of longevity', oldest known oilseed crop"
+    },
+    "relationships": [],
+    "source_chapters": [
+      9
+    ],
+    "category": "seed"
+  },
+  {
+    "name": "Seeds",
+    "slug": "seeds",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Regular consumption supports disease prevention and longevity",
+        "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+        "study_ref": "Ref 5 in book",
+        "confidence": "medium"
+      }
+    ],
+    "consumption": {
+      "amount": "Not specified",
+      "frequency": "Regular",
+      "preparation": "Minimally processed",
+      "reasoning": "Listed among recommended fibre-rich foods"
+    },
+    "relationships": [],
+    "source_chapters": [
+      4
+    ],
+    "category": "seed"
+  },
+  {
+    "name": "Vegetables (leafy greens, wild herbs, diverse varieties)",
+    "slug": "vegetables",
+    "page_refs": [],
+    "claims": [
+      {
+        "claim": "Provide antioxidants that protect against oxidative damage driving chronic diseases",
+        "mechanism": "Vitamin C (~400mg/day), vitamin E (~17mg/day), beta-carotene (~6000mg equivalents/day), selenium (~120mg/day) neutralise free radicals and prevent LDL oxidation that drives atherosclerotic plaque formation",
+        "study_ref": "refs-22,23,24",
+        "confidence": "high"
+      },
+      {
+        "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+        "mechanism": "Vegetable fibre (psyllium, pectin, cellulose) reduces severity of colitis; fibre feeds beneficial gut bacteria producing anti-inflammatory short-chain fatty acids",
+        "study_ref": "ref-40",
+        "confidence": "high"
+      },
+      {
+        "claim": "Protective effect against heart disease from air pollutant exposure",
+        "mechanism": "Dietary antioxidants from vegetables neutralise oxidative damage caused by long-term pollutant exposure",
+        "study_ref": "refs-22,23",
+        "confidence": "medium"
+      },
+      {
+        "claim": "High-fibre vegetable consumption increases regulatory T cells protecting against allergic and autoimmune disorders",
+        "mechanism": "Fibre fermentation produces butyrate and propionate which bind to receptors increasing regulatory T cell levels",
+        "study_ref": "refs-36,37",
+        "confidence": "high"
+      }
+    ],
+    "consumption": {
+      "amount": "Large portions at every main meal; diverse types including wild herbs",
+      "frequency": "Daily, every meal",
+      "preparation": "Both raw (mixed salads with lettuce, dandelions, plantain, watercress, mallow, purslane) and cooked (chard, spinach, escarole stir-fried in olive oil with garlic); preserved (pickled eggplant, sun-dried tomatoes, mushrooms, zucchini, olives)",
+      "reasoning": "No main meal was complete without lots of greens in traditional Mediterranean diet"
+    },
+    "relationships": [
+      {
+        "target_ingredient": "Extra-Virgin Olive Oil",
+        "type": "synergy",
+        "description": "EVOO enhances absorption of fat-soluble vitamins and antioxidants from vegetables; traditional dressing combination"
+      },
+      {
+        "target_ingredient": "Legumes",
+        "type": "synergy",
+        "description": "Combined vegetable and legume fibre provides the 30-45g daily fibre that drives microbiome benefits"
+      }
+    ],
+    "source_chapters": [
+      8
+    ],
+    "category": "vegetable"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "name": "Capers",
+  "slug": "capers",
+  "category": "herb",
+  "book_claims": [
+    {
+      "claim": "One of the richest sources of the flavonoid quercetin with antioxidant, anti-inflammatory and anticancer properties",
+      "mechanism": "Quercetin has shown to lower blood pressure and other metabolic syndrome factors in animal models. Quercetin and fisetin may kill abnormal senescent cells.",
+      "study_ref": "Refs 42, 43, 44, 7 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Nabavi et al., 2015, PMID: 26091904)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26091904/",
+      "finding": "Comprehensive review found quercetin demonstrates significant anti-inflammatory, antioxidant, and anticancer activities in both in vitro and in vivo models, supporting the book's claims about caper-derived quercetin.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Xu et al., 2019, PMID: 30859848)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30859848/",
+      "finding": "Quercetin and fisetin identified as potent senolytics that selectively clear senescent cells in human adipose tissue explants and in mice, reducing senescent cell burden and extending healthspan.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Tlili et al., 2011, PMID: 20564381)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20564381/",
+      "finding": "Capers (Capparis spinosa) confirmed to contain the highest quercetin content of any common food, ranging from 180-328 mg per 100g, substantially exceeding onions, apples, and other quercetin-rich foods.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/quercetin/",
+      "finding": "Quercetin supplementation shows reliable reductions in blood pressure (systolic -3 to -7 mmHg) and inflammatory markers (CRP) in hypertensive individuals. Senolytic effects confirmed at higher doses.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["briny", "tangy", "piquant", "slightly floral", "lemony"],
+    "aroma": ["sharp", "vinegarish", "herbaceous"],
+    "texture": ["firm", "slightly crunchy when small", "soft and buttery when large"],
+    "culinary_category": "condiment"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Classic piccata and Mediterranean salad dressings"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Foundation of puttanesca and most caper-based sauces"},
+    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Puttanesca, caponata, and Sicilian-style dishes"},
+    {"ingredient": "anchovies", "tradition": "Italian", "source": "Classic umami pairing in bagna cauda and pasta sauces"},
+    {"ingredient": "parsley", "tradition": "Mediterranean", "source": "Salsa verde, tabbouleh variations, and garnishes"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Foundational aromatic in nearly all caper-based preparations"},
+    {"ingredient": "fish", "tradition": "Mediterranean", "source": "Traditional garnish for grilled and baked fish across Mediterranean cuisines"}
+  ],
+  "seasonality": "Caper bushes flower in summer (May-September in the Mediterranean). Fresh capers are pickled in brine or packed in salt for year-round use. Salt-packed capers generally considered superior in flavour.",
+  "nutrient_highlights": [
+    {
+      "compound": "Quercetin",
+      "amount_per_100g": "180-328 mg (highest of any common food)",
+      "bioavailability_notes": "Fat-soluble flavonoid. Bioavailability enhanced by consuming with olive oil or other fats. Half-life of ~11-25 hours allows accumulation with regular intake."
+    },
+    {
+      "compound": "Rutin (quercetin-3-rutinoside)",
+      "amount_per_100g": "Up to 332 mg",
+      "bioavailability_notes": "Converted to quercetin by gut bacteria. Slower absorption but more sustained plasma levels than free quercetin."
+    },
+    {
+      "compound": "Kaempferol",
+      "amount_per_100g": "Up to 131 mg",
+      "bioavailability_notes": "Another flavonol with anti-inflammatory and anticancer properties. Complementary to quercetin."
+    },
+    {
+      "compound": "Total polyphenols",
+      "amount_per_100g": "654 mg",
+      "bioavailability_notes": "One of the highest polyphenol densities of any food. Includes diverse flavonoids, hydroxycinnamic acids, and tannins."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "soybeans",
+      "type": "synergy",
+      "description": "Combining quercetin-rich foods (capers, apples) with genistein-rich soybeans blocks prostate and ovarian cancer cell growth at lower doses than either alone"
+    },
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "complement",
+      "description": "Fat from olive oil enhances absorption of quercetin and other fat-soluble flavonoids"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

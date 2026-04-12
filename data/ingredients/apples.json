@@ -1,0 +1,81 @@
+{
+  "name": "Apples",
+  "slug": "apples",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Lower glycaemic impact; should be eaten whole not juiced",
+      "mechanism": "Whole fruit food matrix and fibre slow sugar digestion; juicing destroys matrix and releases free sugars for rapid absorption",
+      "study_ref": "Ref 76 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27170217/",
+      "finding": "Meta-analysis (Aune et al., 2017, BMJ) found that each daily serving of fruit (including apples) was associated with reduced risk of cardiovascular disease, cancer, and all-cause mortality, with up to 10% reduction per serving.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23076616/",
+      "finding": "Flavonoid-rich apple consumption improved endothelial function and reduced LDL oxidation in hypercholesterolemic adults (Bondonno et al., 2012).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32234961/",
+      "finding": "An apple a day was associated with up to 40% reduced risk of cardiovascular mortality in a meta-analysis of prospective cohort studies (Dreher, 2020).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "tart", "mildly tannic", "crisp"],
+    "aroma": ["floral", "fruity", "honey-like (when ripe)"],
+    "texture": ["crunchy", "juicy", "firm"],
+    "culinary_category": "pome fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "cinnamon", "tradition": "European / American", "source": "Classic apple pie and baked apple pairing"},
+    {"ingredient": "walnuts", "tradition": "European", "source": "Waldorf salad; autumn fruit-nut combinations"},
+    {"ingredient": "oats", "tradition": "Northern European", "source": "Bircher muesli; apple crumbles"},
+    {"ingredient": "ginger", "tradition": "British / Asian", "source": "Apple-ginger chutneys and compotes"},
+    {"ingredient": "celery", "tradition": "American", "source": "Waldorf salad; classic flavour bridge"},
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Prevents oxidation; brightens apple flavour in salads and sauces"},
+    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Baked apples with honey; Rosh Hashanah tradition"}
+  ],
+  "seasonality": "Peak harvest August-November in Northern Hemisphere. Many varieties store well through winter. Available year-round but flavour peaks in autumn.",
+  "nutrient_highlights": [
+    {
+      "compound": "Quercetin",
+      "amount_per_100g": "~4.4 mg (concentrated in skin)",
+      "bioavailability_notes": "Fat-soluble; absorption improved when eaten with healthy fats. Apple skin contains 2-6x more quercetin than flesh."
+    },
+    {
+      "compound": "Pectin (soluble fibre)",
+      "amount_per_100g": "~1.5 g",
+      "bioavailability_notes": "Fermented by gut bacteria into short-chain fatty acids (butyrate, propionate) that feed colonocytes and reduce inflammation."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "4.6 mg",
+      "bioavailability_notes": "Modest amounts; varies by variety. Contributes to total daily intake when eaten regularly."
+    },
+    {
+      "compound": "Polyphenols (chlorogenic acid, catechins)",
+      "amount_per_100g": "~200-300 mg total polyphenols",
+      "bioavailability_notes": "Chlorogenic acid well-absorbed in small intestine; catechins partially absorbed. Most concentrated in skin."
+    },
+    {
+      "compound": "Dietary fibre (total)",
+      "amount_per_100g": "2.4 g",
+      "bioavailability_notes": "Mix of soluble (pectin) and insoluble fibre. Whole apple provides intact food matrix that slows glucose absorption."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

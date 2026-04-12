@@ -1,0 +1,198 @@
+{
+  "chapter": "The Science of Healthy Nutrition",
+  "chapter_number": 4,
+  "page_range": "estimated",
+  "extraction_status": "complete",
+  "ingredients": [
+    {
+      "name": "Vegetables (general)",
+      "slug": "vegetables-general",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming vegetables at each meal prevents chronic disease and maximises health",
+          "mechanism": "Provides unique mixture of vegetable fibres, vitamins, oligo-elements and phytochemicals which after gut microbe processing release metabolites that protect from common diseases",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "At each meal",
+        "frequency": "Daily",
+        "preparation": "Minimally processed",
+        "reasoning": "Historical recommendation from Sun Simiao (Tang dynasty) supported by modern evidence on fibre-rich foods and gut microbiome metabolites"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "beans",
+          "type": "complement",
+          "description": "Part of the recommended fibre-rich food group alongside beans, whole grains, nuts, seeds and fruit"
+        }
+      ]
+    },
+    {
+      "name": "Beans / Legumes",
+      "slug": "beans-legumes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
+          "mechanism": "Fibre-rich food that after gut microbe processing releases protective metabolites; low in empty calories compared to processed foods",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed",
+        "reasoning": "Listed as one of the key fibre-rich foods recommended for longevity"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "complement",
+          "description": "Part of the core fibre-rich food group"
+        }
+      ]
+    },
+    {
+      "name": "Whole Grains",
+      "slug": "whole-grains",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption prevents chronic disease and supports longevity",
+          "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed",
+        "reasoning": "Listed as key fibre-rich food alongside vegetables, beans, nuts, seeds and fruit"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "beans-legumes",
+          "type": "complement",
+          "description": "Complementary fibre-rich food group"
+        }
+      ]
+    },
+    {
+      "name": "Nuts",
+      "slug": "nuts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed",
+        "reasoning": "Listed among recommended fibre-rich foods"
+      },
+      "relationships": []
+    },
+    {
+      "name": "Seeds",
+      "slug": "seeds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed",
+        "reasoning": "Listed among recommended fibre-rich foods"
+      },
+      "relationships": []
+    },
+    {
+      "name": "Fruit",
+      "slug": "fruit",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed, whole (not juiced)",
+        "reasoning": "Listed among recommended fibre-rich foods"
+      },
+      "relationships": []
+    },
+    {
+      "name": "Animal Proteins (red meat, processed meat)",
+      "slug": "animal-proteins",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High intake promotes belly fat accumulation, accelerated ageing and chronic disease",
+          "mechanism": "Rich in sulphur amino acids and branched-chain amino acids (BCAAs) which activate pro-ageing pathways; high in empty calories and fat contributing to visceral fat accumulation and inflammatory cytokine/adipokine production",
+          "study_ref": "Ref 4 in book; Ref 8 in book (adipokines/cytokines from fat cells)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Reduce to minimum necessary",
+        "frequency": "Limited",
+        "preparation": "N/A",
+        "reasoning": "Both ancient (Sun Simiao) and modern evidence indicate limiting meat, fatty foods and refined flours"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "vegetables-general",
+          "type": "antagonism",
+          "description": "Should be replaced by vegetables and other fibre-rich plant foods to reduce disease risk"
+        }
+      ]
+    },
+    {
+      "name": "Refined and Processed Foods",
+      "slug": "refined-processed-foods",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High intake promotes obesity, type 2 diabetes, cardiovascular disease, stroke, cancer, and potentially dementia",
+          "mechanism": "High in empty calories and low in nutrients; calorie surplus leads to engorged fat cells that produce inflammatory cytokines and adipokines",
+          "study_ref": "Ref 8 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate or drastically reduce",
+        "frequency": "Avoid",
+        "preparation": "N/A",
+        "reasoning": "Primary driver of obesity epidemic and related chronic diseases"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Should be substituted with minimally processed fibre-rich whole foods"
+        }
+      ]
+    }
+  ]
+}

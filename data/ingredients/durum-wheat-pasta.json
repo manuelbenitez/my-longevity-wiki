@@ -1,0 +1,99 @@
+{
+  "name": "Durum Wheat Pasta (al dente)",
+  "slug": "durum-wheat-pasta",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Al dente spaghetti produces much lower glycaemic spike than white rice",
+      "mechanism": "Dense food matrix of durum wheat flour is digested more slowly than disrupted starch granules in overcooked rice; restricts rate of starch access by pancreatic amylases",
+      "study_ref": "Refs 82, 83 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (systematic review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27475232/",
+      "finding": "A 2016 systematic review (BMJ Open, PMID 27475232) of 32 RCTs found that pasta consumption did not contribute to weight gain or adiposity, and was associated with lower body weight in the context of low-GI dietary patterns.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (GI study)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26634086/",
+      "finding": "Pasta cooked al dente has a GI of 45-50 compared to 70+ for overcooked pasta and white rice. The compact gluten network in durum wheat physically entraps starch granules, slowing enzymatic access (Nutr Metab Cardiovasc Dis, PMID 26634086).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28927884/",
+      "finding": "The Moli-sani study (PMID 28927884) of 23,000 Italians found that regular pasta consumption was associated with better adherence to the Mediterranean diet, lower BMI, and reduced waist circumference.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29547687/",
+      "finding": "A 2018 meta-analysis (BMJ Open, PMID 29547687) of 30 RCTs confirmed pasta in the context of a low-GI diet does not adversely affect body weight and may reduce body weight and BMI compared to higher-GI diets.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["wheaty", "mild", "slightly nutty", "clean"],
+    "aroma": ["flour-forward", "toasty when cooked", "neutral"],
+    "texture": ["firm al dente bite", "smooth", "starchy coating from cooking water"],
+    "culinary_category": "whole grain / pasta"
+  },
+  "culinary_pairings": [
+    {"ingredient": "chickpeas", "tradition": "Southern Italian", "source": "Pasta e ceci -- complete protein with all essential amino acids"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Foundation of aglio e olio; fat slows carbohydrate absorption"},
+    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Classic combination; lycopene from tomatoes adds antioxidant benefit"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Aromatic base for most pasta sauces"},
+    {"ingredient": "broccoli", "tradition": "Southern Italian", "source": "Orecchiette con cime di rapa; sulforaphane from cruciferous vegetables"},
+    {"ingredient": "lentils", "tradition": "Italian / Middle Eastern", "source": "Pasta e lenticchie for New Year's tradition and complete protein"},
+    {"ingredient": "basil", "tradition": "Italian", "source": "Classic herb pairing from pesto to marinara"}
+  ],
+  "seasonality": "Dried pasta available year-round as a pantry staple. Fresh pasta is higher GI than dried due to different starch structure.",
+  "nutrient_highlights": [
+    {
+      "compound": "Resistant starch (al dente)",
+      "amount_per_100g": "2-4 g when cooked al dente; decreases with overcooking",
+      "bioavailability_notes": "Al dente cooking preserves the compact gluten-starch matrix. Resistant starch acts as prebiotic fiber, feeding beneficial gut bacteria. Cooling and reheating further increases resistant starch."
+    },
+    {
+      "compound": "Protein (gluten)",
+      "amount_per_100g": "12-14 g (dry weight)",
+      "bioavailability_notes": "Durum wheat has higher protein than common wheat. The gluten network physically slows starch digestion, creating the low-GI effect."
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "63.2 mcg (115% RDA, dry)",
+      "bioavailability_notes": "Durum wheat grown in selenium-rich soils is an excellent source. Cofactor for glutathione peroxidase."
+    },
+    {
+      "compound": "Lutein",
+      "amount_per_100g": "1.5-2.0 mg (durum wheat is richest cereal source)",
+      "bioavailability_notes": "Carotenoid that gives durum its yellow color. Supports eye health and has antioxidant activity."
+    },
+    {
+      "compound": "B vitamins (B1, folate)",
+      "amount_per_100g": "B1: 0.2 mg; Folate: 18 mcg (cooked)",
+      "bioavailability_notes": "Enriched pasta has higher folate; whole wheat pasta retains natural B vitamins from bran."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "chickpeas",
+      "type": "synergy",
+      "description": "Durum wheat pasta + chickpeas provides complete protein with all essential amino acids"
+    },
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "synergy",
+      "description": "Adding olive oil further slows carbohydrate absorption from pasta"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

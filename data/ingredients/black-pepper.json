@@ -1,0 +1,82 @@
+{
+  "name": "Black Pepper",
+  "slug": "black-pepper",
+  "category": "spice",
+  "book_claims": [
+    {
+      "claim": "Contains piperine which doubles blood curcumin levels when combined with turmeric",
+      "mechanism": "Piperine inhibits metabolic clearance of curcumin, improving bioavailability",
+      "study_ref": "Ref 88 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Shoba et al., 1998, PMID: 9619120)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/",
+      "finding": "Landmark study showing piperine (20 mg) increased curcumin bioavailability by 2000% in humans. Piperine inhibits hepatic and intestinal glucuronidation, the primary pathway for curcumin elimination.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Butt et al., 2013, PMID: 22929066)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22929066/",
+      "finding": "Comprehensive review found piperine demonstrates anti-inflammatory, antioxidant, and anticancer properties independent of its bioavailability-enhancing role. Also improves absorption of selenium, vitamin B6, and beta-carotene.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Kesarwani & Gupta, 2013, PMID: 23768180)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23768180/",
+      "finding": "Piperine acts as a general bioenhancer by inhibiting drug metabolism enzymes (CYP3A4, CYP1A2) and P-glycoprotein efflux pumps. This mechanism enhances bioavailability of multiple compounds beyond curcumin, including resveratrol and EGCG from green tea.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sharp", "pungent", "warm", "slightly woody", "mildly floral"],
+    "aroma": ["piney", "citrusy", "warm", "penetrating"],
+    "texture": ["coarsely ground provides crunch", "finely ground is powdery"],
+    "culinary_category": "spice"
+  },
+  "culinary_pairings": [
+    {"ingredient": "turmeric", "tradition": "Indian / Global", "source": "Piperine doubles curcumin bioavailability; foundational in curry blends"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Cacio e pepe; fat carrier for piperine and enhanced compound absorption"},
+    {"ingredient": "lemon", "tradition": "Global", "source": "Acid and heat create flavour contrast in dressings and marinades"},
+    {"ingredient": "garlic", "tradition": "Global", "source": "Universal aromatic pairing across virtually all savoury cuisines"},
+    {"ingredient": "ginger", "tradition": "Indian / East Asian", "source": "Both warming spices; combined in chai, curries, and stir-fries"},
+    {"ingredient": "green-tea", "tradition": "Functional pairing", "source": "Piperine enhances EGCG bioavailability from green tea"}
+  ],
+  "seasonality": "Available year-round as dried peppercorns. Freshly ground black pepper retains volatile oils and piperine far better than pre-ground. Whole peppercorns have a shelf life of 3-4 years; ground pepper degrades within months.",
+  "nutrient_highlights": [
+    {
+      "compound": "Piperine",
+      "amount_per_100g": "5-9 g (5-9% of black pepper by weight)",
+      "bioavailability_notes": "Rapidly absorbed. Inhibits CYP3A4, CYP1A2, and P-glycoprotein. This is a double-edged sword: also enhances absorption of medications, so caution with pharmaceutical drugs."
+    },
+    {
+      "compound": "Beta-caryophyllene",
+      "amount_per_100g": "Major terpene in pepper essential oil",
+      "bioavailability_notes": "Dietary cannabinoid that activates CB2 receptors. Anti-inflammatory without psychoactive effects."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "12.8 mg (556% RDA)",
+      "bioavailability_notes": "One of the richest food sources of manganese, though typical serving sizes are small."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "turmeric",
+      "type": "synergy",
+      "description": "Piperine doubles blood curcumin levels by inhibiting glucuronidation"
+    },
+    {
+      "target_ingredient": "green-tea",
+      "type": "synergy",
+      "description": "Piperine enhances bioavailability of EGCG from green tea"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

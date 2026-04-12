@@ -1,0 +1,92 @@
+{
+  "name": "Oat Porridge",
+  "slug": "oat-porridge",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Suitable whole grain breakfast food in a longevity diet",
+      "mechanism": "Provides slow-releasing carbohydrates and soluble fibre for sustained energy and satiety",
+      "study_ref": "Author's metabolic kitchen study protocol",
+      "confidence": "low",
+      "_from_chapter": 5
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27724985/",
+      "finding": "A 2016 meta-analysis (Br J Nutr, PMID 27724985) of 28 RCTs found that oat-based breakfasts significantly increased satiety and reduced energy intake at subsequent meals compared to other breakfast cereals, mediated by beta-glucan viscosity.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25411276/",
+      "finding": "A 2015 RCT (J Am Coll Nutr, PMID 25411276) found that oatmeal porridge produced greater satiety, reduced hunger, and lower desire to eat compared to ready-to-eat oat-based cereal, despite equal calories, attributed to beta-glucan's viscosity.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (systematic review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26690472/",
+      "finding": "A 2016 systematic review (Nutr Rev, PMID 26690472) confirmed that oat beta-glucan at doses of 3g or more per day reduces LDL cholesterol by 5-10%, with porridge being the most studied delivery format.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mild", "creamy", "slightly sweet", "oaty"],
+    "aroma": ["warm", "comforting", "grain-forward", "milky"],
+    "texture": ["creamy", "thick", "warming", "variable from smooth to chunky"],
+    "culinary_category": "prepared whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "blueberries", "tradition": "Northern European / American", "source": "Classic porridge topping; anthocyanin-rich fruit adds antioxidant benefit"},
+    {"ingredient": "walnuts", "tradition": "European / American", "source": "Omega-3 rich nuts add healthy fats and protein to grain base"},
+    {"ingredient": "cinnamon", "tradition": "Scandinavian / American", "source": "Warming spice with blood sugar-stabilizing properties"},
+    {"ingredient": "banana", "tradition": "Global", "source": "Natural sweetener with potassium; creamy texture complement"},
+    {"ingredient": "flax seeds", "tradition": "Northern European", "source": "Omega-3 and lignans add anti-inflammatory benefit"},
+    {"ingredient": "yogurt", "tradition": "Scandinavian / Global", "source": "Probiotics complement prebiotic beta-glucan fiber"}
+  ],
+  "seasonality": "Year-round pantry staple. Steel-cut oats take longest to cook (20-30 min) but retain most texture and lowest GI. Rolled oats cook in 5 minutes. Instant oats have highest GI.",
+  "nutrient_highlights": [
+    {
+      "compound": "Beta-glucan",
+      "amount_per_100g": "2.3-8.5 g (dry oats); a typical 40g serving provides 1.5-3.4g",
+      "bioavailability_notes": "Soluble fiber that forms viscous gel in the gut. Cooking increases viscosity and effectiveness. Steel-cut and rolled oats retain more beta-glucan structure than instant."
+    },
+    {
+      "compound": "Avenanthramides",
+      "amount_per_100g": "15-30 mg",
+      "bioavailability_notes": "Unique polyphenols found only in oats. Anti-inflammatory and antioxidant; may reduce blood pressure via increased nitric oxide production."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "4.9 mg (191% RDA, dry)",
+      "bioavailability_notes": "Exceptionally high content. Cofactor for superoxide dismutase antioxidant enzyme."
+    },
+    {
+      "compound": "Phosphorus",
+      "amount_per_100g": "523 mg (75% RDA, dry)",
+      "bioavailability_notes": "Important for bone health. Partially bound by phytic acid; soaking overnight improves bioavailability."
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "4.7 mg (26% RDA, dry)",
+      "bioavailability_notes": "Non-heme iron; absorption enhanced by adding vitamin C-rich fruits like berries."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "nuts",
+      "type": "complement",
+      "description": "Combined at breakfast with yogurt, nuts and fruit for sustained energy and complete nutrition"
+    },
+    {
+      "target_ingredient": "berries",
+      "type": "synergy",
+      "description": "Vitamin C from berries enhances iron absorption from oats; antioxidants complement beta-glucan's cardiovascular benefits"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5]
+}

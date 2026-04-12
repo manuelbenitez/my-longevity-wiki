@@ -1,0 +1,98 @@
+{
+  "name": "Dark Chocolate",
+  "slug": "dark-chocolate",
+  "category": "beverage",
+  "book_claims": [
+    {
+      "claim": "Plain dark chocolate (rich in epicatechin) increases plasma antioxidant capacity. Effect markedly reduced when consumed with milk.",
+      "mechanism": "Epicatechin is a potent antioxidant flavonoid. Milk proteins bind to epicatechin preventing absorption.",
+      "study_ref": "Ref 183 in book (published in Nature)",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Hooper et al., 2012, PMID: 22729452)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22729452/",
+      "finding": "Cochrane meta-analysis of 20 RCTs found chocolate/cocoa consumption significantly reduced blood pressure (systolic -2.8 mmHg, diastolic -2.2 mmHg) and improved flow-mediated dilation. Effects attributed to flavanols, particularly epicatechin.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Schroeter et al., 2006, PMID: 16794460)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16794460/",
+      "finding": "Pure epicatechin from cocoa increased plasma nitric oxide levels and improved endothelial function in humans. Adding milk to cocoa abolished these effects by binding epicatechin, directly confirming the book's claim about dairy interference.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Grassi et al., 2008, PMID: 18339739)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18339739/",
+      "finding": "Dark chocolate (100g/day, >70% cocoa) improved insulin sensitivity, reduced blood pressure, and improved flow-mediated dilation in hypertensive patients with impaired glucose tolerance over 15 days.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/cocoa-extract/",
+      "finding": "Strong evidence for blood pressure reduction and improved blood flow. Moderate evidence for LDL reduction and insulin sensitivity improvement. Epicatechin and other flavanols are the primary active compounds. Minimum 200 mg cocoa flavanols/day for cardiovascular benefit.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["bitter", "rich", "slightly sweet", "fruity (high-quality)", "earthy"],
+    "aroma": ["roasted", "complex", "slightly smoky", "fruity notes", "wine-like"],
+    "texture": ["smooth and melting", "snappy when tempered", "creamy"],
+    "culinary_category": "flavouring / treat"
+  },
+  "culinary_pairings": [
+    {"ingredient": "coffee", "tradition": "Global", "source": "Mocha; shared flavanol and chlorogenic acid compounds"},
+    {"ingredient": "chilli-pepper", "tradition": "Mexican / Aztec", "source": "Mole sauces; ancient Mesoamerican tradition"},
+    {"ingredient": "cinnamon", "tradition": "Mexican / European", "source": "Mexican hot chocolate; European baking"},
+    {"ingredient": "brazil-nuts", "tradition": "Modern health food", "source": "Author combines cocoa powder with brazil nuts in morning smoothies"},
+    {"ingredient": "red-wine", "tradition": "European", "source": "Shared polyphenol profiles; classic flavour affinity"},
+    {"ingredient": "blueberries", "tradition": "Modern", "source": "Complementary flavanol and anthocyanin profiles"}
+  ],
+  "seasonality": "Available year-round. Cocoa beans harvested twice yearly in tropical regions. Choose dark chocolate with >70% cocoa solids for maximum flavanol content. Minimally processed (non-Dutch-process) cocoa powder retains more flavanols.",
+  "nutrient_highlights": [
+    {
+      "compound": "Epicatechin",
+      "amount_per_100g": "70-160 mg (dark chocolate >70% cocoa)",
+      "bioavailability_notes": "Well absorbed in absence of dairy proteins. Milk proteins bind epicatechin and prevent absorption -- consume dark chocolate without milk. Peak plasma levels at 2 hours post-ingestion."
+    },
+    {
+      "compound": "Theobromine",
+      "amount_per_100g": "460-790 mg (dark chocolate)",
+      "bioavailability_notes": "Mild stimulant (weaker than caffeine). Vasodilator. Half-life ~7 hours. Responsible for mood-elevating effects."
+    },
+    {
+      "compound": "Total flavanols",
+      "amount_per_100g": "170-560 mg (dark chocolate; varies enormously by processing)",
+      "bioavailability_notes": "Dutch processing (alkalisation) destroys up to 90% of flavanols. Choose non-alkalised cocoa and minimally processed dark chocolate."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "228 mg (54% RDA, dark chocolate >70%)",
+      "bioavailability_notes": "Meaningful dietary source. Important for cardiovascular function and insulin sensitivity."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "brazil-nuts",
+      "type": "complement",
+      "description": "Author combines dark cocoa powder with brazil nuts in morning smoothies"
+    },
+    {
+      "target_ingredient": "coffee",
+      "type": "complement",
+      "description": "Shared chlorogenic acid family; complementary flavanol profiles"
+    }
+  ],
+  "warnings": [
+    "Never consume with milk or dairy -- milk proteins bind epicatechin and abolish antioxidant effects (Nature study)",
+    "Dutch-processed (alkalised) cocoa loses up to 90% of flavanols -- choose natural/non-alkalised",
+    "Small amounts only; dark chocolate is calorie-dense (~550 kcal/100g)"
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

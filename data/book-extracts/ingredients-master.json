@@ -1,0 +1,4107 @@
+{
+  "title": "Longevity Ingredients Master List",
+  "source_book": "The Path to Longevity by Luigi Fontana",
+  "extraction_date": "2026-04-12",
+  "total_ingredients": 101,
+  "categories_summary": {
+    "animal_product": 4,
+    "beverage": 5,
+    "fish_seafood": 3,
+    "fruit": 10,
+    "grain": 8,
+    "harmful": 23,
+    "herb": 5,
+    "legume": 7,
+    "nut": 4,
+    "nutrient": 4,
+    "oil_condiment": 3,
+    "seed": 4,
+    "spice": 5,
+    "vegetable": 16
+  },
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "slug": "eggs",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Substituting plant protein for egg protein reduces all-cause mortality by 19%",
+          "mechanism": "Eggs contain choline (converted to TMAO by gut bacteria), branched-chain amino acids that activate IGF/mTOR pathway, and cholesterol",
+          "study_ref": "Ref 60 in book (Harvard Physician and Nurse Health Studies)",
+          "confidence": "high"
+        },
+        {
+          "claim": "High consumption of eggs prevents expected glucose metabolism improvements during weight loss",
+          "mechanism": "Part of animal protein group (chicken, fish, eggs, low-fat milk, cheeses) that blocked insulin sensitivity improvements in type 2 diabetes patients during 2-month weight loss",
+          "study_ref": "Ref 52 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Limit; lacto-ovo vegetarians can use for B12",
+        "frequency": "Minimise",
+        "preparation": "N/A",
+        "reasoning": "19% mortality reduction when replaced with plant protein"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "vitamin-b12",
+          "type": "complement",
+          "description": "Eggs are a source of B12 for lacto-ovo vegetarians"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "animal_product"
+    },
+    {
+      "name": "Low-Fat Yogurt",
+      "slug": "low-fat-yogurt",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable breakfast component in a high-quality longevity diet",
+          "mechanism": "Provides protein and probiotics without excessive saturated fat",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Daily at breakfast",
+        "preparation": "Low-fat, unsweetened",
+        "reasoning": "Included in the breakfast protocol of the author's clinical study"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "oat-porridge",
+          "type": "complement",
+          "description": "Combined at breakfast with oat porridge, nuts and fruit"
+        }
+      ],
+      "source_chapters": [
+        5
+      ],
+      "category": "animal_product"
+    },
+    {
+      "name": "Parmesan Cheese",
+      "slug": "parmesan-cheese",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Very high calorie density with zero fibre makes it a poor choice for weight management",
+          "mechanism": "100g contains 384 calories, 28g fat, 0g carbohydrates, 0g fibre; no fibre means no satiety signalling from gut",
+          "study_ref": "Nutritional comparison cited in text",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Limit",
+        "frequency": "Avoid or minimise",
+        "preparation": "N/A",
+        "reasoning": "Used as negative example of calorie-dense, fibre-free food"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "chickpeas",
+          "type": "antagonism",
+          "description": "Cheese shown as inferior to chickpeas for longevity diet"
+        }
+      ],
+      "source_chapters": [
+        5
+      ],
+      "category": "animal_product"
+    },
+    {
+      "name": "Poultry (pastured/organic)",
+      "slug": "poultry",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Acceptable animal protein when consumed sparingly in a longevity diet",
+          "mechanism": "Lower in harmful saturated fat and metabolic disruptors than red meat, but still activates insulin/IGF-1 pathway so must be limited",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Small portions",
+        "frequency": "Once per week only",
+        "preparation": "Pastured raised organic preferred",
+        "reasoning": "Severely limited in study protocol; calorie-restricted practitioners occasionally consume pastured raised organic poultry"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "fish",
+          "type": "complement",
+          "description": "Fish preferred over poultry (3x vs 1x per week)"
+        }
+      ],
+      "source_chapters": [
+        5
+      ],
+      "category": "animal_product"
+    },
+    {
+      "name": "Coffee",
+      "slug": "coffee",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "3-4 cups per day achieves largest risk reduction for cardiovascular and cancer outcomes",
+          "mechanism": "Not fully specified in this chapter; epidemiological association",
+          "study_ref": "Ref 236 in book (epidemiological studies)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "3-4 cups per day",
+        "frequency": "daily",
+        "preparation": "Filter coffee",
+        "reasoning": "Optimal dose from epidemiological data"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "beverage"
+    },
+    {
+      "name": "Dark chocolate",
+      "slug": "dark-chocolate",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Plain dark chocolate (rich in epicatechin) increases plasma antioxidant capacity. Effect markedly reduced when consumed with milk.",
+          "mechanism": "Epicatechin is a potent antioxidant flavonoid. Milk proteins bind to epicatechin preventing absorption.",
+          "study_ref": "Ref 183 in book (published in Nature)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Small amounts",
+        "frequency": "occasionally",
+        "preparation": "Plain dark chocolate only, NOT milk chocolate. Consume without dairy.",
+        "reasoning": "Milk blocks the antioxidant absorption (Nature study)"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "brazil-nuts",
+          "type": "complement",
+          "description": "Author combines dark cocoa powder with brazil nuts in morning smoothies"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "beverage"
+    },
+    {
+      "name": "Green tea",
+      "slug": "green-tea",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Both green and black tea prevent cancer in variety of animal models (skin, lung, mouth, oesophagus, stomach, colon, pancreas, bladder, prostate). Small RCT suggests green tea catechins prevent precancerous prostate lesions turning cancerous.",
+          "mechanism": "EGCG (epigallocatechin gallate, 60% of catechin content) promotes self-destruction of tumour cells while sparing healthy cells. Reverses endothelial dysfunction in smokers and coronary artery disease patients.",
+          "study_ref": "Refs 237-246 in book (animal models, small clinical trial)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular cups",
+        "frequency": "daily, year-round staple",
+        "preparation": "Brew with hot water. Alternate with sage or rosemary infusions.",
+        "reasoning": "Powerful antioxidant and anti-cancer phytochemicals in every cup"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "beverage"
+    },
+    {
+      "name": "Red Wine",
+      "slug": "red-wine",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
+          "mechanism": "Polyphenols (resveratrol, anthocyanins) provide antioxidant effects; consumed only with meals to moderate absorption",
+          "study_ref": "Seven Countries Study context, book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "One glass",
+        "frequency": "With meals only",
+        "preparation": "Consumed only with food, never independently",
+        "reasoning": "Traditional pattern: 'a glass of red wine was consumed regularly but only with meals'"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "complement",
+          "description": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "beverage"
+    },
+    {
+      "name": "Tea / Coffee / Cocoa (during meals)",
+      "slug": "tea-coffee-cocoa",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming during meals reduces absorption of iron, zinc and other minerals",
+          "mechanism": "Polyphenols (tannins) in tea, coffee and cocoa chelate iron and other minerals, reducing their bioavailability",
+          "study_ref": "Ref 106 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Avoid during meals",
+        "frequency": "Consume between meals, not with food",
+        "preparation": "N/A",
+        "reasoning": "Reduces mineral absorption when consumed alongside iron/zinc-containing plant foods"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "lemon-juice-vitamin-c",
+          "type": "antagonism",
+          "description": "Opposes the mineral absorption-enhancing effect of vitamin C"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "beverage"
+    },
+    {
+      "name": "Clams / Shellfish",
+      "slug": "clams-shellfish",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Exceptionally rich source of vitamin B12 (100g clams = up to 49 mcg B12)",
+          "mechanism": "Marine organisms accumulate B12 from bacteria in aquatic environments",
+          "study_ref": "book-assertion with specific nutritional data",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "100g provides up to 49 mcg B12",
+        "frequency": "Occasional",
+        "preparation": "Cooked",
+        "reasoning": "Richest natural B12 source for non-vegans"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "vitamin-b12",
+          "type": "complement",
+          "description": "One of the richest natural food sources of B12"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "fish_seafood"
+    },
+    {
+      "name": "Fish (Sardines, Anchovies, and other oily fish)",
+      "slug": "fish",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Acceptable animal protein source in a longevity-focused diet when consumed moderately",
+          "mechanism": "Provides essential amino acids and omega-3 fatty acids without the same negative metabolic profile as red meat",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "medium",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Rich in omega-3 fatty acids that reduce inflammation",
+          "mechanism": "Omega-3 polyunsaturated fatty acids activate anti-inflammatory pathways (resolvins, protectins)",
+          "study_ref": "refs-28,29",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Replacing meat with fish contributes to lower cardiovascular mortality",
+          "mechanism": "Reduces saturated fat and L-carnitine/choline intake while increasing omega-3 fatty acids, lowering TMAO production and inflammation",
+          "study_ref": "Lyon Diet Heart Study, ref-8",
+          "confidence": "high",
+          "_from_chapter": 8
+        }
+      ],
+      "consumption": {
+        "amount": "Regular consumption as part of Mediterranean diet",
+        "frequency": "Multiple times per week",
+        "preparation": "Home-cured (anchovies, sardines), preserved, or fresh; traditional preparations include bottarga and sardella",
+        "reasoning": "Key protein source in traditional Mediterranean diet replacing red meat"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "poultry",
+          "type": "complement",
+          "description": "Fish consumed 3x/week vs poultry only 1x/week in the study protocol"
+        },
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Marine omega-3 (EPA/DHA) from fish complements plant-based omega-3 (ALA) from walnuts for comprehensive anti-inflammatory coverage"
+        },
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Combined unsaturated fat sources that together explain why Crete had low heart disease despite 40% calories from fat"
+        }
+      ],
+      "source_chapters": [
+        5,
+        8
+      ],
+      "category": "fish_seafood"
+    },
+    {
+      "name": "Oily fish",
+      "slug": "oily-fish",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "4+ servings per week of omega-3 rich fish lowers heart attack risk by 22%. Even 1-4 servings per month has significant cardioprotective effect.",
+          "mechanism": "EPA and DHA omega-3 fatty acids block impulses causing irregular heart rhythm (antiarrhythmic), lower triglycerides, decrease blood pressure and inflammation, decrease platelet aggregation, improve vascular function.",
+          "study_ref": "Refs 216, 217, 218, 219, 223, 224, 225 in book (large observational studies + RCTs)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Broiled/baked fish 3+ times/week: 49% lower heart attack death risk and 58% lower sudden cardiac death risk. Fried fish provides NO protection and may increase risk.",
+          "mechanism": "Commercially fried seafood cooked in partially hydrogenated oils containing trans-fat negates benefits",
+          "study_ref": "Ref 220 in book (Cardiovascular Health Study)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Fish exceeds meat in vitamin B12 bioavailability and unlike red meat, consumption associated with lower colon cancer risk",
+          "mechanism": "High B12 bioavailability without the carcinogenic compounds in red meat",
+          "study_ref": "Ref 226 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "2-3 servings per week",
+        "frequency": "2-3 times per week",
+        "preparation": "Broiled or baked, NEVER deep-fried. Cold-water species preferred.",
+        "reasoning": "Fried fish in hydrogenated oils eliminates all cardiovascular benefit"
+      },
+      "relationships": [],
+      "specific_varieties": [
+        "salmon (1200-2400mg EPA+DHA/115g)",
+        "anchovies (2300-2400mg)",
+        "herring",
+        "mackerel (1350-2100mg)",
+        "sardines (1100-1600mg)",
+        "tuna"
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "fish_seafood"
+    },
+    {
+      "name": "Apples",
+      "slug": "apples",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Lower glycaemic impact; should be eaten whole not juiced",
+          "mechanism": "Whole fruit food matrix and fibre slow sugar digestion; juicing destroys matrix and releases free sugars for rapid absorption",
+          "study_ref": "Ref 76 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "1 per day (in sample diet)",
+        "frequency": "Regular",
+        "preparation": "Whole, not juiced",
+        "reasoning": "Juicing removes structural food matrix properties"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Avocado",
+      "slug": "avocado",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Plant-origin monounsaturated fat associated with lower cardiovascular and cancer death rate",
+          "mechanism": "Contains monounsaturated fatty acids that do not increase cholesterol and protect the heart; plant-origin MUFA specifically associated with lower mortality vs animal-origin MUFA",
+          "study_ref": "Ref 69 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Fresh",
+        "reasoning": "Listed alongside olive oil and nuts as healthy monounsaturated fat source"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "complement",
+          "description": "Both provide plant-origin monounsaturated fats"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Berries",
+      "slug": "berries",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Low glycaemic impact among fruits",
+          "mechanism": "Smaller effect on blood glucose due to lower sugar content and higher fibre relative to other fruits",
+          "study_ref": "book-assertion (glycaemic index classification)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Whole, fresh",
+        "reasoning": "Listed among lower glycaemic index fruits alongside apples and prunes"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Blueberries",
+      "slug": "blueberries",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Wild blueberries and blackberries contain highest phenolic phytochemical content among fruits, contributing to lower inflammation",
+          "mechanism": "Anthocyanins and proanthocyanidins with potent antioxidant and anti-inflammatory activity",
+          "study_ref": "Refs 208, 209 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings as dessert or in smoothies",
+        "frequency": "daily or several times per week",
+        "preparation": "Fresh or frozen. Low-glycaemic fruit rich in vitamins with skin-protecting properties.",
+        "reasoning": "Highest polyphenol content: 836mg per 100g (lowbush) or 560mg (highbush)"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Dates",
+      "slug": "dates",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Traditional frugal food consumed at dusk during Ramadan fasting",
+          "mechanism": "Provides quick glucose replenishment after extended fast without large caloric load",
+          "study_ref": "book-assertion (cultural reference)",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "A few",
+        "frequency": "During time-restricted fasting protocols (at dusk)",
+        "preparation": "Whole dried dates",
+        "reasoning": "Referenced as traditional Ramadan practice of extreme time-restricted fasting"
+      },
+      "relationships": [],
+      "source_chapters": [
+        5
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Figs",
+      "slug": "figs",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provide dietary calcium for vegans",
+          "mechanism": "Naturally contain calcium in bioavailable form",
+          "study_ref": "Ref 108 in book",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Fresh or dried",
+        "reasoning": "Listed among plant foods providing dietary calcium"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Fruit",
+      "slug": "fruit",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed, whole (not juiced)",
+        "reasoning": "Listed among recommended fibre-rich foods"
+      },
+      "relationships": [],
+      "source_chapters": [
+        4
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Fruits (seasonal, dried)",
+      "slug": "fruits",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+          "mechanism": "Pectin and other fruit fibres feed beneficial gut bacteria and produce anti-inflammatory short-chain fatty acids",
+          "study_ref": "ref-40",
+          "confidence": "high"
+        },
+        {
+          "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+          "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+          "study_ref": "refs-22,23,24",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Seasonal fruits as dessert; dried fruits (peaches, nectarines, grapes, figs) in winter",
+        "frequency": "Daily",
+        "preparation": "Fresh seasonal or sun-dried; fig jam (no added sugar, figs' natural sweetness) for breakfast",
+        "reasoning": "Traditional dessert replacing processed sweets"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Traditional pairing as dessert: dried fruits with nuts"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Combined fruit and vegetable intake provides diverse phytochemicals and antioxidants"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Lemon Juice / Vitamin C",
+      "slug": "lemon-juice-vitamin-c",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Increases iron and zinc absorption from plant foods",
+          "mechanism": "Vitamin C reduces ferric iron (Fe3+) to ferrous iron (Fe2+) which is more readily absorbed; also chelates minerals making them more bioavailable",
+          "study_ref": "Refs 101, 102 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Juice of 1 lemon per day (in sample diet)",
+        "frequency": "With meals containing legumes, grains and vegetables",
+        "preparation": "Fresh squeezed; used to cook and season vegetables, legumes and grains",
+        "reasoning": "Especially important for vegetarians/vegans whose iron and zinc from plant sources is less bioavailable due to phytates and fibre"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "legumes",
+          "type": "synergy",
+          "description": "Vitamin C dramatically increases iron absorption from legumes"
+        },
+        {
+          "target_ingredient": "whole-grains",
+          "type": "synergy",
+          "description": "Increases mineral absorption from grains"
+        },
+        {
+          "target_ingredient": "tea-coffee-cocoa",
+          "type": "antagonism",
+          "description": "Tea, coffee and cocoa reduce mineral absorption during meals - opposite effect to vitamin C"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Pomegranate",
+      "slug": "pomegranate",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Can potentially lower inflammation, blood pressure and artery plaque build-up. Small trials suggest may inhibit prostate tumour growth.",
+          "mechanism": "Very rich in polyphenols, especially punicalagin (responsible for ~50% of juice's antioxidant activity). May lower PSA levels.",
+          "study_ref": "Refs 210, 211, 212, 213, 214 in book. Not confirmed in larger trials (ref 215).",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "several times per week",
+        "preparation": "Fresh seeds or juice",
+        "reasoning": "Extremely high polyphenol content with unique punicalagin"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "fruit"
+    },
+    {
+      "name": "Barley",
+      "slug": "barley",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Beta-glucan fibre in barley lowers glucose, insulin and cholesterol levels",
+          "mechanism": "Beta-glucan (found in appreciable amounts only in barley and oats) reduces intestinal absorption of cholesterol and glucose",
+          "study_ref": "Refs 129, 130, 131 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings as grain substitute",
+        "frequency": "several times per week",
+        "preparation": "Use hulled barley (not pearled, which has bran and germ removed). Toast before cooking for nutty flavour. Use in soups, breads, risotto, paella, pilaf. Can be made into barley tea or coffee-like drink.",
+        "reasoning": "Hulled barley retains all nutrients. Rich in fibre, riboflavin, thiamine, iron, copper, zinc. Some cultivars have 10x more chromium than brewer's yeast."
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Oats",
+          "type": "synergy",
+          "description": "Both tested together in cholesterol-lowering food portfolio trial"
+        }
+      ],
+      "source_chapters": [
+        8,
+        9
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Brown Rice",
+      "slug": "brown-rice",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Induces greater satiety than white rice, making overeating difficult",
+          "mechanism": "Fibre-rich cell wall slows gastric emptying and small bowel transit, triggering early satiety signals",
+          "study_ref": "book-assertion",
+          "confidence": "medium",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Contains 3x more fibre than white rice (3g vs 1g per cup)",
+          "mechanism": "Fibre-rich cell wall restricts rate of starch digestion and absorption; slow glucose release reduces insulin spikes",
+          "study_ref": "Table 3 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Part of a sample daily diet providing 73g fibre in only 1886 kcal with complete nutrition",
+          "mechanism": "2 cups brown rice + 1 cup lentils + 20 almonds + vegetables + fruit + olive oil + flax seeds = 73g fibre, 76g protein, 64g fat (4% saturated), >100% RDI all nutrients except D and B12",
+          "study_ref": "Author's calculated example diet",
+          "confidence": "high",
+          "_from_chapter": 7
+        }
+      ],
+      "consumption": {
+        "amount": "2 cups per day (in sample diet)",
+        "frequency": "Daily",
+        "preparation": "Cooked but not overcooked; overcooking gelatinises starch causing rapid glucose absorption",
+        "reasoning": "Overcooked rice disrupts starch granules making them easily available to pancreatic amylases"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "white-rice",
+          "type": "antagonism",
+          "description": "Brown rice recommended as replacement for white rice"
+        },
+        {
+          "target_ingredient": "legumes",
+          "type": "synergy",
+          "description": "Brown rice + lentils = complete protein with all essential amino acids"
+        }
+      ],
+      "source_chapters": [
+        5,
+        7
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Durum Wheat Pasta (al dente)",
+      "slug": "durum-wheat-pasta",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Al dente spaghetti produces much lower glycaemic spike than white rice",
+          "mechanism": "Dense food matrix of durum wheat flour is digested more slowly than disrupted starch granules in overcooked rice; restricts rate of starch access by pancreatic amylases",
+          "study_ref": "Refs 82, 83 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Cooked al dente (not overcooked); combined with chickpeas for complete protein",
+        "reasoning": "Dense food matrix of durum wheat makes it a slow-releasing carbohydrate"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "chickpeas",
+          "type": "synergy",
+          "description": "Durum wheat pasta + chickpeas provides complete protein with all essential amino acids"
+        },
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "synergy",
+          "description": "Adding olive oil further slows carbohydrate absorption"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Oat Porridge",
+      "slug": "oat-porridge",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable whole grain breakfast food in a longevity diet",
+          "mechanism": "Provides slow-releasing carbohydrates and soluble fibre for sustained energy and satiety",
+          "study_ref": "Author's metabolic kitchen study protocol",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Daily at breakfast",
+        "preparation": "Porridge (cooked oats)",
+        "reasoning": "Included in breakfast protocol of clinical study"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "nuts",
+          "type": "complement",
+          "description": "Combined at breakfast with yogurt, nuts and fruit"
+        }
+      ],
+      "source_chapters": [
+        5
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Oats",
+      "slug": "oats",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "As part of varied whole grain intake",
+        "frequency": "Regular",
+        "preparation": "Minimally processed whole grain",
+        "reasoning": "Named specifically in cholesterol-lowering food trial"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Barley",
+          "type": "synergy",
+          "description": "Both tested together in cholesterol-lowering food portfolio trial with complementary soluble fibre types"
+        },
+        {
+          "target_ingredient": "Psyllium",
+          "type": "synergy",
+          "description": "Combined soluble fibre sources for cholesterol reduction"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Sourdough Bread",
+      "slug": "sourdough-bread",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+          "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
+          "study_ref": "Ref 105 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "As bread choice",
+        "preparation": "Slow-fermented with sourdough starter (not commercial yeast)",
+        "reasoning": "Phytate degradation makes minerals more bioavailable; preferable to regular bread"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "refined-grains",
+          "type": "antagonism",
+          "description": "Sourdough whole grain bread far superior to white bread"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Sourdough Bread (Wholegrain Durum Wheat)",
+      "slug": "sourdough-bread-wholegrain",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Slow-fermented sourdough has superior nutritional qualities compared to white bread made with refined flour and baker's yeast",
+          "mechanism": "Lactobacillus bacteria in sourdough starter ferment in symbiosis with yeasts, breaking down phytic acid and improving mineral bioavailability; wholegrain flour retains wheat germ and bran providing fibre and micronutrients",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        },
+        {
+          "claim": "High-fibre whole grains contribute to cholesterol lowering",
+          "mechanism": "Dietary fibre blocks reabsorption of cholesterol and bile acids in small intestine; low-glycaemic foods rich in fibre reduce circulating insulin and increase short-chain fatty acid production, both of which inhibit hepatic cholesterol synthesis",
+          "study_ref": "refs-20,21",
+          "confidence": "high"
+        },
+        {
+          "claim": "Contains ferulic acid which inhibits inflammation",
+          "mechanism": "Ferulic acid phytochemical found in whole grains inhibits inflammatory pathways",
+          "study_ref": "ref-30",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Staple food, prepared weekly",
+        "frequency": "Daily",
+        "preparation": "Made with freshly ground local durum wheat flour containing wheat germ and bran; slow-leavened with sourdough starter (lactobacillus + yeast symbiosis)",
+        "reasoning": "Traditional Mediterranean staple; provides 30-45g daily fibre as part of overall diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Legumes",
+          "type": "complement",
+          "description": "Together provide complementary amino acids and combined soluble/insoluble fibre for gut microbiome diversity"
+        },
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Traditional pairing; bread with EVOO provides slow-release carbohydrates with healthy fats"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Whole Grains (barley, farro, oats, brown rice)",
+      "slug": "whole-grains",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption prevents chronic disease and supports longevity",
+          "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium",
+          "_from_chapter": 4
+        },
+        {
+          "claim": "Part of a high-quality diet that substituting for refined foods causes weight loss even without calorie counting",
+          "mechanism": "High fibre content induces early satiety via slower gastric emptying and small bowel transit; requires overfeeding by 200-300 cal/day to prevent unintended weight loss",
+          "study_ref": "Author's metabolic kitchen study; Ref 41 in book (Mediterranean diet study)",
+          "confidence": "high",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Regular consumption reduces cardiovascular disease risk by 20-40% and diabetes risk by 20-30%",
+          "mechanism": "Fibre-rich cell wall restricts rate of starch/sugar digestion and absorption; slow glucose release reduces insulin spikes; low glycaemic index induces satiety",
+          "study_ref": "Refs 78, 79, 80 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Highest intake of wholegrain fibre associated with 19% lower all-cause mortality and 15-34% lower disease-specific mortality",
+          "mechanism": "Fibre increases stool bulk (diluting carcinogens), increases bile acid excretion, alters colonic flora, and generates short-chain fatty acids that nourish colon cells and immune cells",
+          "study_ref": "Ref 90 in book (NIH-AARP Diet and Health Study, 367,442 participants, 14-year follow-up)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Part of healthy plant-based diet pattern with 25% lower coronary heart disease risk",
+          "mechanism": "Complex carbohydrate source that avoids insulin spikes while providing fibre, vitamins and minerals",
+          "study_ref": "Ref 111 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Eating whole grains has protective effect against obesity, type 2 diabetes, cardiovascular disease and cancer",
+          "mechanism": "Bran contains phyto-protectants (ferulic acid, alkylresorcinols, apigenin, lignans, phytic acid) with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models by removing damaged cells and reducing inflammation.",
+          "study_ref": "Refs 113-127 in book (multiple large epidemiological studies)",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Highest whole grain intake associated with 17% lower all-cause mortality (NIH-AARP study)",
+          "mechanism": "Multiple pathways: fibre, phytochemicals, minerals, spermidine",
+          "study_ref": "Ref 121 in book (NIH-AARP Diet and Health Study)",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Two servings per day associated with 21% reduction in type 2 diabetes risk",
+          "mechanism": "Beta-glucan fibre lowers glucose, insulin and cholesterol by reducing intestinal absorption",
+          "study_ref": "Ref 122 in book (286,125 participants)",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Three to five servings daily associated with 21% lower cardiovascular disease risk",
+          "mechanism": "Multiple pathways including cholesterol reduction and anti-inflammatory effects",
+          "study_ref": "Ref 123 in book (meta-analysis)",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "2-5 servings daily (40-80g)",
+        "frequency": "daily",
+        "preparation": "Always buy unrefined. Combine with legumes for complete amino acid profile. Store flours in fridge to prevent rancidity. Germinating grains increases bioavailability of folate, tocopherols and tocotrienols.",
+        "reasoning": "Refining removes 80% of thiamine, B vitamins, minerals, spermidine and essential fatty acids"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "beans-legumes",
+          "type": "complement",
+          "description": "Complementary fibre-rich food group"
+        },
+        {
+          "target_ingredient": "legumes",
+          "type": "synergy",
+          "description": "Complementary amino acid profiles; combined provide complete protein"
+        },
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "synergy",
+          "description": "Olive oil slows carbohydrate absorption from grains"
+        },
+        {
+          "target_ingredient": "refined-grains",
+          "type": "antagonism",
+          "description": "Whole grains must replace refined grains (white bread, white rice) which behave like simple sugar"
+        }
+      ],
+      "specific_varieties": [
+        "barley (hulled, not pearled)",
+        "brown rice (long-grain, short-grain, basmati)",
+        "corn",
+        "millet",
+        "oats",
+        "quinoa",
+        "rye",
+        "wheat (durum, spelt/farro)"
+      ],
+      "source_chapters": [
+        4,
+        5,
+        7,
+        9
+      ],
+      "category": "grain"
+    },
+    {
+      "name": "Added Sugars (general)",
+      "slug": "added-sugars",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Increase probability of developing obesity, diabetes, cardiovascular disease, certain cancers, and dental caries",
+          "mechanism": "Increase calorie intake without contributing essential nutrients; drive insulin resistance; promote chronic inflammation; displace nutrient-dense foods making it impossible to meet vitamin/mineral needs within calorie limits",
+          "study_ref": "book-assertion with multiple implied refs",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Maximum 25g (6 teaspoons) per day for children; none for toddlers under 24 months",
+        "frequency": "Minimize as much as possible",
+        "preparation": "N/A - check labels for: corn syrup, HFCS, malt syrup, corn sweetener, white/brown sugar, glucose, fructose, dextrose, lactose, maltose, invert sugar, molasses, sucrose, trehalose, turbinado sugar",
+        "reasoning": "American Heart Association guideline (ref-8); author recommends no sweets in the home at all"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "High-Fructose Corn Syrup",
+          "type": "synergy",
+          "description": "HFCS is the most common and harmful form of added sugar in processed foods"
+        },
+        {
+          "target_ingredient": "Ultra-Processed Foods",
+          "type": "synergy",
+          "description": "Added sugars are a defining ingredient of ultra-processed foods"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Animal Protein (meat, eggs, cheese, dairy)",
+      "slug": "animal-protein",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High animal protein intake increases risk of type 2 diabetes by 20-40% for every 10g consumed above 64g/day",
+          "mechanism": "Activates insulin/IGF-1/mTOR pathway promoting insulin resistance; branched-chain amino acids (leucine, isoleucine, valine) and sulphur amino acids (methionine) directly stimulate mTOR signalling",
+          "study_ref": "Refs 35-37 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "High animal protein intake associated with 75% increase in overall mortality and 4-fold increase in cancer and diabetes mortality in ages 50-65",
+          "mechanism": "Activation of IGF-1/mTOR pro-ageing and pro-cancer pathway; excessive methionine and branched-chain amino acids accelerate ageing",
+          "study_ref": "Ref 43 in book (NHANES study of 6381 adults, 18-year follow-up)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Animal protein consumption drives hypercholesterolemia via saturated fat content",
+          "mechanism": "Saturated fat in meat and dairy raises blood LDL-cholesterol; for every 1% increase in calories from saturated fat, LDL rises by 2%",
+          "study_ref": "Refs 46, 64 in book (including Seven Countries study)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Choline and L-carnitine in animal products accelerate coronary atherosclerosis",
+          "mechanism": "Gut bacteria ferment choline and L-carnitine into TMAO (trimethylamine N-oxide), which accelerates formation of coronary atherosclerotic plaques",
+          "study_ref": "Ref 47 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Excess iron from animal products drives oxidation and colon cancer",
+          "mechanism": "Heme iron promotes oxidative stress and is specifically linked to colon cancer development",
+          "study_ref": "Ref 48 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "High protein intake prevents the expected improvement in insulin sensitivity from weight loss",
+          "mechanism": "1.3g protein/kg body weight blocked insulin sensitivity improvement despite 10% weight loss and visceral fat reduction in obese women; insulin resistance maintained via insulin/IGF pathway activation",
+          "study_ref": "Ref 42 in book (Bettina Mittendorfer, Washington University clinical trial)",
+          "confidence": "high"
+        },
+        {
+          "claim": "High-protein diets from dairy/meat cause drastic reduction in insulin sensitivity",
+          "mechanism": "Dairy, meat products and whey protein supplements activate pathways that reduce insulin sensitivity and increase blood insulin levels",
+          "study_ref": "Refs 50, 51 in book (randomised controlled trials)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Limit to 0.8g protein/kg body weight/day total (about 58g for a 70kg person); no more than 30g protein per meal",
+        "frequency": "Minimise animal sources; favour plant protein",
+        "preparation": "N/A",
+        "reasoning": "Protein synthesis plateaus at ~30g per meal (Refs 27,28); excess activates pro-ageing IGF/mTOR pathway (Ref 29); Okinawan centenarians consumed only 9% protein diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "plant-protein",
+          "type": "antagonism",
+          "description": "Substituting plant protein for animal protein lowers mortality 12-34% depending on the animal protein replaced (Ref 60)"
+        },
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Optimal longevity diet has protein-to-carb ratio of ~1:10 with protein under 10% of calories (Ref 44)"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Animal Proteins (red meat, processed meat)",
+      "slug": "animal-proteins",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High intake promotes belly fat accumulation, accelerated ageing and chronic disease",
+          "mechanism": "Rich in sulphur amino acids and branched-chain amino acids (BCAAs) which activate pro-ageing pathways; high in empty calories and fat contributing to visceral fat accumulation and inflammatory cytokine/adipokine production",
+          "study_ref": "Ref 4 in book; Ref 8 in book (adipokines/cytokines from fat cells)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Reduce to minimum necessary",
+        "frequency": "Limited",
+        "preparation": "N/A",
+        "reasoning": "Both ancient (Sun Simiao) and modern evidence indicate limiting meat, fatty foods and refined flours"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "vegetables-general",
+          "type": "antagonism",
+          "description": "Should be replaced by vegetables and other fibre-rich plant foods to reduce disease risk"
+        }
+      ],
+      "source_chapters": [
+        4
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Baked Potatoes / French Fries",
+      "slug": "baked-potatoes-french-fries",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Very high glycaemic index AND very high glucose load - should be eliminated or drastically reduced",
+          "mechanism": "Starchy vegetables with minimal fibre resistance to digestion; rapid glucose absorption triggers insulin spikes",
+          "study_ref": "book-assertion based on glycaemic index data",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate or drastically reduce",
+        "frequency": "Avoid",
+        "preparation": "N/A",
+        "reasoning": "Listed alongside white bread and white rice as foods with both high GI and high glucose load"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Diet Soft Drinks (Artificial Sweeteners)",
+      "slug": "diet-soft-drinks",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Associated with increased risk of obesity and metabolic syndrome despite containing no calories",
+          "mechanism": "Brain detects discrepancy between sweetness perception and energy intake, triggering a fasting-like state that stimulates hunger and increases food consumption",
+          "study_ref": "ref-24 (Cell Metabolism)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Sustained sucralose intake stimulates hunger and increases food consumption leading to obesity",
+          "mechanism": "Specific brain areas detect sweetness-energy mismatch, activating sensory and behavioural responses that force increased calorie consumption",
+          "study_ref": "ref-24 (Cell Metabolism)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate",
+        "frequency": "Never",
+        "preparation": "N/A - high-intensity sweeteners include aspartame, saccharin, sucralose, acesulfame potassium (Ace-K), Stevia (200-13,000 times sweeter than sugar)",
+        "reasoning": "Despite zero calories, evidence suggests metabolic harm comparable to sugar-sweetened versions"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Soft Drinks and Sodas",
+          "type": "complement",
+          "description": "Diet versions marketed as healthy alternative but carry similar metabolic risks through different mechanisms"
+        },
+        {
+          "target_ingredient": "Added Sugars (general)",
+          "type": "complement",
+          "description": "Artificial sweeteners paradoxically increase total calorie consumption by disrupting satiety signaling"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Excessive Animal Protein",
+      "slug": "excessive-animal-protein",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Protein restriction or substitution of plant for animal protein markedly inhibits prostate and breast cancer growth",
+          "mechanism": "Animal protein (rich in sulphur and branched-chain amino acids) activates mTOR and IGF-1 signaling pathways that trigger cancer cell proliferation; also inhibits immune cell capacity to recognise and destroy malignant cells",
+          "study_ref": "refs-77,78",
+          "confidence": "high"
+        },
+        {
+          "claim": "Moderate protein restriction enhances immune system's capacity to recognise and kill tumour cells and powerfully decreases tumour growth",
+          "mechanism": "Reduced amino acid supply downregulates mTOR pathway in tumour cells while enhancing T-cell mediated anti-tumour immunity",
+          "study_ref": "refs-79-81",
+          "confidence": "high"
+        },
+        {
+          "claim": "Excessive animal protein increases rate of ulcerative colitis relapses",
+          "mechanism": "Gut bacteria digest animal protein producing pro-inflammatory metabolites; casein from milk specifically worsens colitis",
+          "study_ref": "ref-39 (epidemiological data)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "L-carnitine and choline from animal protein metabolised to TMAO, increasing cardiovascular disease risk by 20%",
+          "mechanism": "Gut bacteria convert L-carnitine and choline to trimethylamine; hepatic conversion to TMAO induces inflammation and platelet aggregation independent of traditional risk factors",
+          "study_ref": "ref-61",
+          "confidence": "high"
+        },
+        {
+          "claim": "Casein from milk specifically worsens colitis",
+          "mechanism": "Casein protein increases intestinal inflammation through pro-inflammatory bacterial metabolite production, contrasting with protective effect of vegetable fibres",
+          "study_ref": "ref-38",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Average American man consumes 90g/day (60%+ animal protein) which is at least 40% higher than needed; reduce substantially",
+        "frequency": "Reduce animal protein; substitute plant protein",
+        "preparation": "Replace animal protein with legumes, nuts, and other plant sources",
+        "reasoning": "Western diet protein intake is ~40% above requirements; high animal protein activates multiple cancer and cardiovascular pathways"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Red Meat",
+          "type": "synergy",
+          "description": "Red meat is the primary source of excessive animal protein, L-carnitine, and choline"
+        },
+        {
+          "target_ingredient": "Processed Meat",
+          "type": "synergy",
+          "description": "Processed meat adds carcinogenic processing to the already harmful excess protein load"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Factory-Farmed Animal Products",
+      "slug": "factory-farmed-animal-products",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Unnatural overcrowded conditions, poor food quality and extensive antibiotic use have consequences on quality of meat, milk and eggs",
+          "mechanism": "Stressed animals produce meat with altered fatty acid profiles; antibiotic growth promoters drive antibiotic-resistant bacteria; contaminated feed concentrates dioxins and pollutants in animal fat",
+          "study_ref": "refs-55-59",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Extensive antibiotic use as growth promoters and infection prevention in factory farming",
+          "mechanism": "Antibiotics alter animal microbiome and select for antibiotic-resistant bacteria that transfer to humans through meat consumption",
+          "study_ref": "refs-55-59",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Avoid; choose ethically sourced, pasture-raised animal products in small quantities",
+        "frequency": "Rare if at all",
+        "preparation": "When consuming animal products, source from farms with natural conditions, no antibiotic growth promoters",
+        "reasoning": "Two-thirds of domestic animals raised in factory farms; quality of products is compromised"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Red Meat",
+          "type": "synergy",
+          "description": "Factory farming amplifies the inherent health risks of red meat through contamination and quality degradation"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Fibre Supplements (ispaghula husk)",
+      "slug": "fibre-supplements",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "3.5g/day fibre supplements significantly increase risk of small and large tumour recurrence",
+          "mechanism": "Complex interactions among nutritional factors; supplements lack the structural food matrix properties of whole foods; risk especially elevated with high calcium intake",
+          "study_ref": "Ref 96 in book (3-year randomised clinical trial)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Avoid",
+        "frequency": "Do not use",
+        "preparation": "N/A",
+        "reasoning": "Clinical trial evidence of harm; whole food fibre is the only safe and effective approach"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "calcium",
+          "type": "antagonism",
+          "description": "High calcium intake combined with fibre supplements especially increases tumour recurrence risk"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "High-Fructose Corn Syrup (HFCS)",
+      "slug": "high-fructose-corn-syrup",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Heavily implicated in epidemics of obesity, metabolic syndrome and type 2 diabetes",
+          "mechanism": "Concentrated fructose causes insulin resistance; fructose is preferentially metabolised in liver leading to de novo lipogenesis and fatty liver; bypasses normal appetite regulation",
+          "study_ref": "refs-10,11,12",
+          "confidence": "high"
+        },
+        {
+          "claim": "Fructose causes insulin resistance and fatty liver",
+          "mechanism": "Fructose is metabolised almost exclusively in the liver via fructokinase pathway, producing acetyl-CoA that drives de novo lipogenesis independent of insulin signaling; chronic exposure causes hepatic insulin resistance",
+          "study_ref": "refs-16-18",
+          "confidence": "high"
+        },
+        {
+          "claim": "Fructose intake alters intestinal flora, increases gut permeability and causes liver inflammation",
+          "mechanism": "Disrupts tight junctions in intestinal epithelium increasing permeability; altered microbiome composition; bacterial endotoxins translocate to liver triggering inflammatory cascade",
+          "study_ref": "ref-19 (animal studies)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Even moderate consumption of HFCS-containing soft drinks contributes directly to colon cancer development",
+          "mechanism": "HFCS provides fructose that directly fuels tumour growth in intestinal cells, bypassing normal metabolic regulation",
+          "study_ref": "ref-23 (Science)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate entirely",
+        "frequency": "Never",
+        "preparation": "N/A - check labels for corn syrup, high-fructose corn syrup, malt syrup, corn sweetener",
+        "reasoning": "Cheaper and sweeter than table sugar, hidden in many processed foods and drinks"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Soft Drinks and Sodas",
+          "type": "synergy",
+          "description": "HFCS is the primary sweetener in most soft drinks; liquid form accelerates absorption and metabolic harm"
+        },
+        {
+          "target_ingredient": "Added Sugars (general)",
+          "type": "synergy",
+          "description": "HFCS is the most harmful form of added sugar due to concentrated fructose content"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Margarine / Trans Fats",
+      "slug": "margarine-trans-fats",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Worse than butter and cream in increasing blood cholesterol, inflammation and heart attack risk",
+          "mechanism": "Trans fatty acids increase LDL-cholesterol, lower HDL-cholesterol, promote inflammation and accelerate atherosclerotic plaque formation",
+          "study_ref": "Ref 65 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Zero",
+        "frequency": "Eliminate completely",
+        "preparation": "N/A",
+        "reasoning": "Worse than even saturated animal fat for cardiovascular risk"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "antagonism",
+          "description": "Olive oil should replace margarine as primary fat"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Omega-6 Rich Vegetable Oils (corn oil, sunflower oil)",
+      "slug": "omega-6-vegetable-oils",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High intake promotes inflammation, coronary thrombosis and cancer in animal studies",
+          "mechanism": "Omega-6 polyunsaturated fatty acids are precursors to pro-inflammatory eicosanoids; promote inflammatory cascades",
+          "study_ref": "Refs 70, 71 in book (multiple animal studies)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Quickly become rancid at room temperature and often extracted with chemical solvents",
+          "mechanism": "Polyunsaturated bonds are chemically unstable and oxidise readily; solvent extraction introduces chemical residues",
+          "study_ref": "Ref 72 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Limit consumption",
+        "frequency": "Minimise",
+        "preparation": "If used, keep refrigerated; prefer cold-pressed",
+        "reasoning": "Animal studies show harm; not yet confirmed in humans but author recommends limiting in favour of olive oil"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "antagonism",
+          "description": "Should be replaced with cold-pressed extra-virgin olive oil"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Processed Meat",
+      "slug": "processed-meat",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "WHO Group 1 carcinogen: strong evidence of causing cancer (especially colon, rectum and gastric cancer)",
+          "mechanism": "Sodium nitrite curing produces carcinogenic nitrosamines (most broadly acting and potent group of carcinogens in animal experiments); smoking adds PAHs; combined with heme iron, sialic acid and TMAO pathways from the meat itself",
+          "study_ref": "WHO classification ref-43; nitrosamine refs-72,73",
+          "confidence": "high"
+        },
+        {
+          "claim": "18% increased colon cancer risk per 50g consumed per day",
+          "mechanism": "Nitrosamine formation from nitrite preservatives; heme iron-driven N-nitroso compound formation; PAHs from smoking process",
+          "study_ref": "ref-47",
+          "confidence": "high"
+        },
+        {
+          "claim": "May increase risk of stomach cancer",
+          "mechanism": "Nitrosamine formation in stomach from nitrite preservatives; direct mutagenic effect on gastric epithelium",
+          "study_ref": "refs-48,49",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Associated with 10-13% higher risk of death",
+          "mechanism": "Combined carcinogenic (nitrosamines, PAHs), cardiovascular (saturated fat, TMAO, salt), and metabolic pathways",
+          "study_ref": "ref-54 (BMJ)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate or near-zero consumption",
+        "frequency": "Very little if any",
+        "preparation": "N/A - includes bacon, salami, sausages, hot dogs, processed deli/luncheon meats",
+        "reasoning": "WHO Group 1 carcinogen; author recommends very little if any"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Red Meat",
+          "type": "synergy",
+          "description": "All harms of red meat plus additional carcinogenic processing; risk is additive"
+        },
+        {
+          "target_ingredient": "Sodium/Salt (Excessive)",
+          "type": "synergy",
+          "description": "Processed meats are typically very high in salt"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Processed Red Meat",
+      "slug": "processed-red-meat",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Substituting 3% of energy from processed red meat with plant protein reduces all-cause mortality by 34%",
+          "mechanism": "Eliminates TMAO production from choline/L-carnitine, reduces heme iron-driven oxidation, lowers methionine and BCAA intake that drive IGF/mTOR pathway",
+          "study_ref": "Ref 60 in book (Harvard Physician and Nurse Health Studies)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate",
+        "frequency": "Avoid",
+        "preparation": "N/A",
+        "reasoning": "Highest mortality association of all animal protein sources"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "plant-protein",
+          "type": "antagonism",
+          "description": "Plant protein substitution provides the largest mortality reduction (34%) when replacing processed red meat"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Red Meat",
+      "slug": "red-meat",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "WHO Group 2A carcinogen: probable cause of cancer",
+          "mechanism": "Multiple mechanisms: (1) heme iron promotes N-nitroso compound formation and DNA-damaging oxidative stress; (2) sialic acid incorporation triggers immune/inflammatory reaction with 5-fold increase in carcinoma incidence; (3) high-temperature cooking produces carcinogenic HCAs and PAHs; (4) high protein/branched-chain amino acids trigger cancer-promoting pathways and inhibit immune tumour surveillance",
+          "study_ref": "WHO classification ref-43; mechanisms refs-62,63,70,74-76",
+          "confidence": "high"
+        },
+        {
+          "claim": "17% increased colon cancer risk per 100g consumed per day",
+          "mechanism": "Heme iron promotes carcinogenic N-nitroso compound formation in intestine; oxidative DNA damage from heme iron; sialic acid triggers inflammatory cascade",
+          "study_ref": "refs-44-46",
+          "confidence": "high"
+        },
+        {
+          "claim": "May increase risk of pancreatic and prostate cancer",
+          "mechanism": "High protein and branched-chain amino acids activate mTOR and IGF-1 cancer-promoting pathways; inhibit immune cell tumour recognition",
+          "study_ref": "refs-48,49",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Implicated in cardiovascular disease, obesity and type 2 diabetes",
+          "mechanism": "High saturated fat raises LDL-cholesterol driving atherosclerosis; L-carnitine and choline metabolised by gut bacteria to TMAO which induces inflammation and platelet aggregation",
+          "study_ref": "refs-50-53,61",
+          "confidence": "high"
+        },
+        {
+          "claim": "10-13% higher risk of death associated with increased red meat consumption",
+          "mechanism": "Combined cardiovascular, cancer, and metabolic disease pathways",
+          "study_ref": "ref-54 (BMJ epidemiological study)",
+          "confidence": "high"
+        },
+        {
+          "claim": "L-carnitine and choline in red meat are converted to TMAO by gut bacteria, increasing cardiovascular disease risk by 20%",
+          "mechanism": "Gut bacteria digest dietary L-carnitine and choline producing trimethylamine, which liver converts to TMAO; TMAO induces inflammation and increases platelet aggregation leading to heart attacks and strokes",
+          "study_ref": "ref-61",
+          "confidence": "high"
+        },
+        {
+          "claim": "Over 95% of human dioxin exposure occurs via meat, eggs, dairy and fatty fish ingestion",
+          "mechanism": "Dioxins are fat-soluble and bioaccumulate in animal fatty tissue; ingestion transfers these carcinogenic, immunotoxic, endocrine-disrupting compounds to humans",
+          "study_ref": "refs-64-69",
+          "confidence": "high"
+        },
+        {
+          "claim": "Sialic acid in red meat triggers 5-fold increase in carcinoma incidence",
+          "mechanism": "Non-human sialic acid (Neu5Gc) incorporates into human tissues, eliciting chronic immune and inflammatory reaction that promotes tumour development",
+          "study_ref": "ref-63",
+          "confidence": "high"
+        },
+        {
+          "claim": "High-temperature cooking (barbecue, charring) produces potent carcinogenic HCAs and PAHs",
+          "mechanism": "Heterocyclic amines and polycyclic aromatic hydrocarbons form during high-heat cooking; these mutagenic molecules are rapidly absorbed and diffused throughout body (detectable in hair)",
+          "study_ref": "refs-70,71",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Maximum 350-500g (11-18oz) per week total; ideally small portions a few times per month",
+        "frequency": "Drastically reduce; a few times per month maximum",
+        "preparation": "Avoid high-temperature cooking/charring; choose ethically sourced, high-quality meat from pasture-raised animals",
+        "reasoning": "Ref-42 recommends 350-500g/week max; author suggests even less frequent consumption"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Processed Meat",
+          "type": "synergy",
+          "description": "Processed red meat combines the harms of red meat with additional carcinogenic processing (nitrites, smoking); even higher cancer risk"
+        },
+        {
+          "target_ingredient": "Sodium/Salt (Excessive)",
+          "type": "synergy",
+          "description": "Processed meat forms are very high in salt, compounding cardiovascular risk"
+        },
+        {
+          "target_ingredient": "Saturated Fat (from animal sources)",
+          "type": "synergy",
+          "description": "Red meat is a primary source of saturated fat; combined cholesterol-raising and inflammatory effects"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Refined Grains (white bread, white rice, cornflakes)",
+      "slug": "refined-grains",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Behave like simple sugar causing steep blood glucose spikes and insulin surges",
+          "mechanism": "Milling removes fibre-rich cell wall that restricts starch digestion rate; stripped starch is rapidly digested by pancreatic amylases causing glucose spikes that trigger insulin overshoot, subsequent hypoglycaemia, hunger and fat deposition",
+          "study_ref": "Refs 74, 75 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Adding fibre supplements to refined grains does not restore lost structural food matrix properties",
+          "mechanism": "The physical food matrix structure found in whole grains cannot be replicated by adding isolated fibre back",
+          "study_ref": "book-assertion supported by Refs 74, 75",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate or drastically reduce",
+        "frequency": "Avoid",
+        "preparation": "N/A",
+        "reasoning": "Possess both very high glycaemic index and very high glucose load"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Must be replaced with whole grain equivalents"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Refined/Processed Foods (sweets, sugary drinks, white bread, white rice, canned/pre-packaged foods)",
+      "slug": "refined-processed-foods",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High intake promotes obesity, type 2 diabetes, cardiovascular disease, stroke, cancer, and potentially dementia",
+          "mechanism": "High in empty calories and low in nutrients; calorie surplus leads to engorged fat cells that produce inflammatory cytokines and adipokines",
+          "study_ref": "Ref 8 in book",
+          "confidence": "high",
+          "_from_chapter": 4
+        },
+        {
+          "claim": "Consumption on non-fasting days negatively influences metabolic response to fasting-induced weight loss",
+          "mechanism": "Disrupts gut microbiome composition and metabolite production, affecting metabolic health and increasing risk of cancer, inflammatory and autoimmune disorders",
+          "study_ref": "Author's preliminary data from ongoing experiment",
+          "confidence": "medium",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Consuming refined foods during 16:8 time-restricted feeding causes huge increase in blood cholesterol",
+          "mechanism": "Refined foods (hamburgers, French fries) spike insulin and deliver trans fats and refined carbs that raise cholesterol even within a restricted feeding window",
+          "study_ref": "Author's ongoing experiment",
+          "confidence": "medium",
+          "_from_chapter": 5
+        }
+      ],
+      "consumption": {
+        "amount": "Zero",
+        "frequency": "Eliminated entirely",
+        "preparation": "N/A",
+        "reasoning": "All calorie-restricted practitioners in the author's studies have completely eliminated refined/processed foods; quality of food is paramount even during fasting protocols"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Should be substituted with minimally processed fibre-rich whole foods"
+        }
+      ],
+      "source_chapters": [
+        4,
+        5
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Saturated Fat (from animal sources)",
+      "slug": "saturated-fat-animal",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Primary dietary determinant of blood cholesterol levels, driving atherosclerosis",
+          "mechanism": "Saturated fatty acids downregulate hepatic LDL receptors, reducing clearance of LDL-cholesterol from blood; elevated LDL drives plaque formation in arteries causing ~90% of heart attacks, ~60% of strokes, heart failure, peripheral arterial disease and vascular dementia",
+          "study_ref": "ref-60 (epidemiological and clinical trials)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Naturally occurring trans-fatty acids in milk and red meat have similar adverse effects on blood lipids",
+          "mechanism": "Trans-fatty acids from ruminant animals affect LDL/HDL ratio similarly to industrial trans-fats",
+          "study_ref": "ref-19",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Drastically reduce; sources include butter, cream, whole milk, cheese, fatty cuts of beef/pork/lamb, lard, chicken skin",
+        "frequency": "Minimize",
+        "preparation": "Replace with monounsaturated (olive oil) and polyunsaturated (nuts, fish) fats",
+        "reasoning": "Atherosclerosis is the underlying cause of most cardiovascular death"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Red Meat",
+          "type": "synergy",
+          "description": "Red meat is a primary source; saturated fat and TMAO pathways compound cardiovascular risk"
+        },
+        {
+          "target_ingredient": "Ultra-Processed Foods",
+          "type": "synergy",
+          "description": "Processed foods often contain high levels of saturated fat from palm oil and other cheap fats"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Sodium/Salt (Excessive)",
+      "slug": "sodium-salt-excessive",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Excessive salt increases blood pressure in people with or without hypertension",
+          "mechanism": "Sodium causes water retention increasing blood volume; stiffens arterial walls; impairs endothelial function; activates sympathetic nervous system",
+          "study_ref": "ref-26, INTERSALT study ref-27",
+          "confidence": "high"
+        },
+        {
+          "claim": "Modest salt reduction lowers systolic/diastolic BP by 5.4/2.8 mmHg in hypertensives and 2.4/1.0 mmHg in normotensives",
+          "mechanism": "Reduced sodium decreases plasma volume, reduces arterial stiffness, improves endothelial function",
+          "study_ref": "refs-29,30",
+          "confidence": "high"
+        },
+        {
+          "claim": "Direct relationship between sodium intake and total mortality over 23-26 years, even at lowest intake levels",
+          "mechanism": "Chronic hypertension from sodium drives atherosclerosis, left ventricular hypertrophy, kidney damage, and stroke",
+          "study_ref": "refs-32,33 (two large randomised clinical trials)",
+          "confidence": "high"
+        },
+        {
+          "claim": "High salt intake promotes inflammation",
+          "mechanism": "Sodium activates pro-inflammatory Th17 immune cell pathways",
+          "study_ref": "ref-31 (human study)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Risk of developing hypertension over three decades tightly related to dietary sodium excretion",
+          "mechanism": "Cumulative sodium-induced vascular damage and remodeling over decades",
+          "study_ref": "INTERSALT study, ref-27",
+          "confidence": "high"
+        },
+        {
+          "claim": "DASH-Sodium trial confirmed direct relationship between salt intake and blood pressure",
+          "mechanism": "Dose-response relationship: progressive sodium reduction progressively lowers blood pressure",
+          "study_ref": "DASH-Sodium trial, ref-28",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Maximum 6g salt (2300mg sodium) per day; adequate intake is 2.3g salt (920mg sodium) per day",
+        "frequency": "Daily limit",
+        "preparation": "Use only iodised salt; replace salt with spices and herbs for flavoring; avoid adding salt as condiment (one pinch = ~400mg sodium); 5g iodised salt meets 150mcg daily iodine requirement",
+        "reasoning": "WHO and IOM guidelines; 70-80% of salt consumed comes from processed foods, so eliminating processed food is the primary strategy"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Ultra-Processed Foods",
+          "type": "synergy",
+          "description": "70-80% of dietary salt is hidden in processed foods (bread, cheese, processed meats, chips, sauces, cereals); eliminating processed foods is the most effective sodium reduction strategy"
+        },
+        {
+          "target_ingredient": "Processed Meat",
+          "type": "synergy",
+          "description": "Processed meats are very high in salt, compounding cardiovascular risk from saturated fat and carcinogens"
+        },
+        {
+          "target_ingredient": "Iodised Salt",
+          "type": "complement",
+          "description": "Must use iodised salt specifically to meet iodine requirements (150mcg/day) when reducing overall salt intake"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Soft Drinks and Sodas",
+      "slug": "soft-drinks-sodas",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Each can consumed by children increases obesity risk by 60%",
+          "mechanism": "Liquid calories from HFCS bypass satiety mechanisms; rapid fructose absorption drives insulin resistance and de novo lipogenesis",
+          "study_ref": "ref-13 (large epidemiological study)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Reducing consumption associated with lower body weight",
+          "mechanism": "Elimination of liquid empty calories allows normal satiety signaling to regulate intake",
+          "study_ref": "refs-14,15",
+          "confidence": "high"
+        },
+        {
+          "claim": "Long-term consumption associated with increased risk of cardiovascular disease, stroke, and cancer (especially pancreatic and colon cancer)",
+          "mechanism": "Chronic fructose exposure promotes metabolic syndrome, insulin resistance, and direct tumour-promoting effects in intestinal tissue",
+          "study_ref": "refs-20-22",
+          "confidence": "high"
+        },
+        {
+          "claim": "Even moderate HFCS soft drink consumption contributes directly to colon cancer",
+          "mechanism": "Fructose from HFCS directly fuels tumour growth in intestinal cells",
+          "study_ref": "ref-23 (published in Science)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate entirely",
+        "frequency": "Never",
+        "preparation": "N/A - should not be kept in the home",
+        "reasoning": "Author: 'soft drinks, candies, and other sweets have no place in our homes'"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "High-Fructose Corn Syrup",
+          "type": "synergy",
+          "description": "HFCS is the primary sweetener; soft drink format maximises speed of absorption and metabolic harm"
+        },
+        {
+          "target_ingredient": "Diet Soft Drinks",
+          "type": "complement",
+          "description": "People switching to diet versions still face metabolic risks from artificial sweeteners"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Sugar / High-Fructose Corn Syrup / Sweetened Beverages",
+      "slug": "sugar-hfcs-sweetened-beverages",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Cause rapid blood glucose spikes triggering insulin overshoot, hunger and fat deposition",
+          "mechanism": "Free sugars are rapidly absorbed causing steep glucose spikes; pancreas releases excess insulin overshooting the mark; subsequent hypoglycaemia triggers appetite creating vicious circle of hunger and obesity",
+          "study_ref": "book-assertion based on glycaemic index physiology",
+          "confidence": "high"
+        },
+        {
+          "claim": "Plant-based diets emphasising sweetened beverages, juices and sweets increase coronary heart disease risk by 32%",
+          "mechanism": "High glycaemic load drives insulin resistance, inflammation and metabolic syndrome despite being nominally 'plant-based'",
+          "study_ref": "Ref 111 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate",
+        "frequency": "Avoid completely",
+        "preparation": "N/A",
+        "reasoning": "Core driver of obesity epidemic; even in plant-based diets, sugary foods negate health benefits"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "antagonism",
+          "description": "Must be replaced with slow-releasing whole grain carbohydrates"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Ultra-Processed Foods",
+      "slug": "ultra-processed-foods",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "18% increase in mortality for each additional serving consumed",
+          "mechanism": "Multiple pathways: high empty calories (saturated/trans-fat, sugar, salt), low fibre/vitamins/phytochemicals, carcinogenic molecules (acrylamide, heterocyclic amines, PAHs), controversial additives, and endocrine-disrupting packaging",
+          "study_ref": "refs-1-3 (two large epidemiological studies, British Medical Journal)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Increased risk of heart disease, stroke, and cancer (especially breast and colon cancer)",
+          "mechanism": "Trans-fats and saturated fats raise LDL-cholesterol promoting atherosclerosis; carcinogenic molecules damage DNA; low antioxidant content fails to counteract oxidative stress",
+          "study_ref": "refs-1-3 (BMJ epidemiological studies)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Drive overconsumption: people eating ultra-processed diet consumed 510 kcal/day more and gained ~1 kg in 14 days",
+          "mechanism": "Hyper-palatable formulation bypasses satiety signals; despite matched macronutrients, fibre, sugar and sodium, the ultra-processed form drove greater caloric intake",
+          "study_ref": "ref-7 (NIH randomised clinical trial, 20 participants, crossover design)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Major contributor to pandemic of obesity, type 2 diabetes, and cardiovascular disease",
+          "mechanism": "Chronic overconsumption leads to weight gain, insulin resistance, dyslipidemia, and systemic inflammation",
+          "study_ref": "refs-1-3",
+          "confidence": "high"
+        },
+        {
+          "claim": "Contain potentially carcinogenic food additives including sodium nitrite, titanium dioxide, talc, and carbon black",
+          "mechanism": "Sodium nitrite forms carcinogenic nitrosamines; titanium dioxide and others may have direct carcinogenic or endocrine-disrupting effects",
+          "study_ref": "ref-5",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Packaging releases carcinogenic and endocrine disruptors such as bisphenol A (BPA)",
+          "mechanism": "BPA leaches from packaging into food, mimics estrogen, disrupts endocrine signaling, and may promote hormone-sensitive cancers",
+          "study_ref": "ref-6",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Eliminate entirely",
+        "frequency": "Never",
+        "preparation": "N/A - these should be avoided",
+        "reasoning": "60% of calories in average Western diet; even small consumption associated with increased mortality"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "High-Fructose Corn Syrup",
+          "type": "synergy",
+          "description": "HFCS is a primary ingredient in ultra-processed foods; combined harm of processing methods plus HFCS amplifies metabolic damage"
+        },
+        {
+          "target_ingredient": "Sodium/Salt (Excessive)",
+          "type": "synergy",
+          "description": "70-80% of dietary salt comes from processed foods; ultra-processing and excess sodium compound cardiovascular harm"
+        },
+        {
+          "target_ingredient": "Processed Meat",
+          "type": "synergy",
+          "description": "Processed meat products are a category of ultra-processed food with compounded carcinogenic risk from nitrites, smoking, and processing"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Unprocessed Red Meat",
+      "slug": "unprocessed-red-meat",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Substituting 3% of energy from unprocessed red meat with plant protein reduces all-cause mortality by 12%",
+          "mechanism": "Same mechanisms as processed red meat but somewhat less harmful; still drives TMAO, heme iron oxidation and mTOR activation",
+          "study_ref": "Ref 60 in book (Harvard Physician and Nurse Health Studies)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Minimise",
+        "frequency": "Rarely if at all",
+        "preparation": "N/A",
+        "reasoning": "12% mortality reduction when replaced with plant protein"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Vitamin/Mineral Supplements (high-dose)",
+      "slug": "high-dose-supplements",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Large randomised clinical trials found no protection against chronic diseases from vitamin C, vitamin E and beta-carotene supplementation",
+          "mechanism": "Isolated high-dose antioxidants lack the synergistic context of whole food matrices; may disrupt redox signaling that the body uses for beneficial purposes (e.g., immune function, apoptosis)",
+          "study_ref": "ref-82 (multiple large double-blinded RCTs)",
+          "confidence": "high"
+        },
+        {
+          "claim": "High doses of beta-carotene and vitamin E cause detrimental effects including increased mortality, cancer and haemorrhagic stroke",
+          "mechanism": "Supraphysiological doses may act as pro-oxidants; high-dose beta-carotene inhibits other carotenoid absorption; high-dose vitamin E may interfere with vitamin K-dependent clotting factors increasing haemorrhagic stroke risk",
+          "study_ref": "refs-83-84",
+          "confidence": "high"
+        },
+        {
+          "claim": "Supplements cannot replicate the complex balanced array of vitamins, phytochemicals, minerals and oligo-elements in whole foods",
+          "mechanism": "Synergistic action of nutrients depends on context, concentration ratios found in natural foods, and likely on gut microbiota composition; isolated supplements bypass these interactions",
+          "study_ref": "refs-85,86",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Avoid unless prescribed by doctor for specific health condition",
+        "frequency": "Only as medically directed",
+        "preparation": "N/A - obtain vitamins and minerals from whole foods instead",
+        "reasoning": "Cell and animal studies showed promise but human RCTs consistently showed no benefit or harm from supplementation"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Ultra-Processed Foods",
+          "type": "complement",
+          "description": "People eating poor diets often turn to supplements as a shortcut, but supplements cannot compensate for ultra-processed food consumption"
+        }
+      ],
+      "source_chapters": [
+        10
+      ],
+      "category": "harmful"
+    },
+    {
+      "name": "Capers",
+      "slug": "capers",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "One of the richest sources of the flavonoid quercetin with antioxidant, anti-inflammatory and anticancer properties",
+          "mechanism": "Quercetin has shown to lower blood pressure and other metabolic syndrome factors in animal models. Quercetin and fisetin may kill abnormal senescent cells.",
+          "study_ref": "Refs 42, 43, 44, 7 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Add to salads regularly",
+        "frequency": "several times per week",
+        "preparation": "Raw, added to salads and dishes",
+        "reasoning": "Extremely high polyphenol content: 654mg polyphenols and 3600mg antioxidants per 100g"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "soybeans",
+          "type": "synergy",
+          "description": "Combining quercetin-rich foods (capers, apples) with genistein-rich soybeans blocks prostate and ovarian cancer cell growth at lower doses than either alone"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "herb"
+    },
+    {
+      "name": "Parsley",
+      "slug": "parsley",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Contains high levels of apigenin which inhibits proliferation of tumour cells in cell culture",
+          "mechanism": "Flavone apigenin directly inhibits tumour cell proliferation",
+          "study_ref": "Ref 104 in book (cell culture studies)",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as herb",
+        "frequency": "daily",
+        "preparation": "Finely chopped leaves, used in tomato sauce, salsa verde, tabouli, falafel, and as garnish",
+        "reasoning": "Fresh peppery grassy flavour complements most ingredients"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "herb"
+    },
+    {
+      "name": "Psyllium",
+      "slug": "psyllium",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        },
+        {
+          "claim": "Reduces severity of colitis",
+          "mechanism": "Soluble fibre feeds beneficial gut bacteria, produces anti-inflammatory short-chain fatty acids; directly modulates intestinal immune response",
+          "study_ref": "ref-38",
+          "confidence": "high"
+        },
+        {
+          "claim": "Supplementation causes substantial improvement in gastrointestinal symptoms in ulcerative colitis patients in remission",
+          "mechanism": "Prebiotic fibre supports beneficial bacterial populations and SCFA production; reduces intestinal inflammation",
+          "study_ref": "ref-42 (small randomised clinical trial)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Supplemental amounts",
+        "frequency": "Daily",
+        "preparation": "As fibre supplement or incorporated in foods",
+        "reasoning": "Specifically tested and shown to reduce colitis severity and improve GI symptoms"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Oats",
+          "type": "synergy",
+          "description": "Both are soluble fibre sources in the cholesterol-lowering food portfolio"
+        },
+        {
+          "target_ingredient": "Legumes",
+          "type": "complement",
+          "description": "Different fibre types (soluble psyllium vs mixed legume fibre) feed complementary gut bacteria populations"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "herb"
+    },
+    {
+      "name": "Rosemary",
+      "slug": "rosemary",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Contains rosmarinic acid and carnosic acid with potential antioxidant, CNS-protective and liver-protective properties",
+          "mechanism": "Rosmarinic acid and carnosic acid are potent antioxidant compounds with neuroprotective and hepatoprotective activity",
+          "study_ref": "Refs 106, 107 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use in cooking and as herbal tea",
+        "frequency": "several times per week",
+        "preparation": "Fresh or dried. Good as herbal tea. Grows well in pots near windows.",
+        "reasoning": "Member of Lamiaceae family with high hydroxycinnamic acid content"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "herb"
+    },
+    {
+      "name": "Sage",
+      "slug": "sage",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "One of the richest sources of potent antioxidants with potential cognitive-enhancing and protective effects",
+          "mechanism": "Contains an impressive range of biologically active compounds. Medieval School of Medicine considered it essential for health.",
+          "study_ref": "Ref 108 in book (animal studies + preliminary human trials)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as herbal tea and cooking herb",
+        "frequency": "several times per week",
+        "preparation": "As tea or cooking herb. Grows well at home in pots.",
+        "reasoning": "Extremely high polyphenol content: 12073mg per 100g dried"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "herb"
+    },
+    {
+      "name": "Beans / Legumes",
+      "slug": "beans-legumes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
+          "mechanism": "Fibre-rich food that after gut microbe processing releases protective metabolites; low in empty calories compared to processed foods",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium",
+          "_from_chapter": 4
+        },
+        {
+          "claim": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
+          "mechanism": "High fibre induces early satiety; source of plant protein, vitamins, phytocompounds and minerals",
+          "study_ref": "Author's metabolic kitchen study",
+          "confidence": "high",
+          "_from_chapter": 5
+        }
+      ],
+      "consumption": {
+        "amount": "Regular inclusion in meals",
+        "frequency": "Daily (on non-fasting days)",
+        "preparation": "Cooked",
+        "reasoning": "Key component of the Mediterranean-style study diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "complement",
+          "description": "Part of the core fibre-rich food group"
+        }
+      ],
+      "source_chapters": [
+        4,
+        5
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Chickpeas",
+      "slug": "chickpeas",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Far lower calorie density than cheese while providing fibre and protein",
+          "mechanism": "100g cooked chickpeas = 164 cal (2.6g fat, 27g carbs incl 7g fibre, 9g protein) vs 100g Parmesan = 384 cal (28g fat, 0g fibre, 33g protein); fibre induces early satiety",
+          "study_ref": "Nutritional comparison cited in text",
+          "confidence": "high",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Concentrated source of protein, fibre, vitamins, minerals and low-glycaemic starches",
+          "mechanism": "Complex carbohydrates with high amylose content slowly digested, low glycaemic index",
+          "study_ref": "book-assertion",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "several times per week",
+        "preparation": "Soak 24 hours, cook 1 hour. Use in salads, soups, hummus, falafel, farinata.",
+        "reasoning": "1 cup boiled: 270 cal, 12g fibre, 15g protein, 64% RDA copper, 73% RDA manganese, 40% RDA folate"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "parmesan-cheese",
+          "type": "antagonism",
+          "description": "Chickpeas presented as healthier alternative to calorie-dense, fibreless Parmesan cheese"
+        },
+        {
+          "target_ingredient": "tahini",
+          "type": "complement",
+          "description": "Combined in hummus for complete amino acid profile and healthy fats"
+        }
+      ],
+      "source_chapters": [
+        5,
+        9
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Legumes (lentils, chickpeas, fava beans, black beans)",
+      "slug": "legumes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provide high-lysine plant protein that complements grain protein for complete amino acid profile",
+          "mechanism": "High in lysine, low in tryptophan and methionine; when combined with grains (high tryptophan/methionine, low lysine) provides complete protein identical to animal sources",
+          "study_ref": "book-assertion with biochemical basis",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "100g cooked lentils provides 8g fibre vs 0g in 100g beef",
+          "mechanism": "Fibre feeds beneficial gut bacteria producing short-chain fatty acids; dilutes carcinogens in colon; slows glucose absorption",
+          "study_ref": "Table 3 in book (nutritional comparison)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Sprouting or fermenting beans destroys phytates, increasing mineral absorption",
+          "mechanism": "Phytates in raw legumes chelate iron, zinc and calcium, inhibiting absorption; sprouting/fermentation enzymatically degrades phytates",
+          "study_ref": "Ref 104 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Contribute to high dietary fibre intake (30-45g/day) that lowers cholesterol",
+          "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine; each additional gram of soluble fibre lowers LDL-cholesterol by ~1.12 mg/L",
+          "study_ref": "ref-20",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Promote beneficial gut bacteria that produce anti-inflammatory metabolites",
+          "mechanism": "Insoluble fibre increases Bacteroidetes and Firmicutes populations which produce short-chain fatty acids (butyrate, propionate) that bind to specific receptors to inhibit inflammation and increase regulatory T cells",
+          "study_ref": "refs-32,33,34,35,36,37",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Plant protein source that reduces TMAO production compared to animal protein",
+          "mechanism": "Lower choline and L-carnitine content (~50% less than Western diet) means less substrate for gut bacteria to produce TMAO, reducing cardiovascular disease risk by ~20%",
+          "study_ref": "ref-43",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Consuming legumes and unrefined grains reduces glucose levels at the meal consumed AND at subsequent meals",
+          "mechanism": "Second-meal effect: eating quinoa and chickpeas at dinner reduces night-long blood glucose. Effect lost if grains are highly milled or legumes overcooked at high temperatures.",
+          "study_ref": "Ref 111 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Combined with whole grains provides all essential amino acids without atherogenic fatty acids",
+          "mechanism": "Complementary amino acid profiles between legumes and grains. No saturated or trans-fatty acids unlike animal products.",
+          "study_ref": "book-assertion with ref 112",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Daily, combined with whole grains",
+        "frequency": "daily",
+        "preparation": "Simmer dried beans, lentils or chickpeas 1-2 hours. Cook ahead and store in fridge. Use as side dish, in soups, or as salad base with fresh vegetables.",
+        "reasoning": "Staple food of gladiators in Ancient Rome and of populations with healthy centenarians"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "whole-grains",
+          "type": "synergy",
+          "description": "Complementary amino acid profiles create complete protein when combined"
+        },
+        {
+          "target_ingredient": "lemon-juice-vitamin-c",
+          "type": "synergy",
+          "description": "Vitamin C from lemon juice increases iron and mineral absorption from legumes"
+        },
+        {
+          "target_ingredient": "Sourdough Bread (Wholegrain Durum Wheat)",
+          "type": "complement",
+          "description": "Legumes + grains provide complete amino acid profiles; combined fibre feeds diverse gut bacteria populations"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Together provide the high fibre intake (30-45g/day) that drives microbiome diversity and SCFA production"
+        },
+        {
+          "target_ingredient": "whole grains",
+          "type": "complement",
+          "description": "Together provide complete essential amino acids without atherogenic fats"
+        }
+      ],
+      "specific_varieties": [
+        "beans",
+        "chickpeas",
+        "lentils"
+      ],
+      "source_chapters": [
+        7,
+        8,
+        9
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Lentils",
+      "slug": "lentils",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consumption associated with lower risk of developing cancer and cardiovascular disease",
+          "mechanism": "Second highest protein content of legumes (27%). One of highest concentrations of phenolic compounds and antioxidants among legumes.",
+          "study_ref": "Refs 151, 152, 153 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings, combined with grains",
+        "frequency": "several times per week",
+        "preparation": "Cook 15-20 min (red) or 10 min in pressure cooker. Sprout for salads. Use in soups, dahl, pasta sauces, masala dosa.",
+        "reasoning": "1 cup boiled green lentils: 230 cal, 16g fibre, 82% RDA iron, 90% RDA folate"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Soy Protein",
+      "slug": "soy-protein",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+          "mechanism": "Plant protein with isoflavones that modulate LDL receptor expression and cholesterol metabolism",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "As part of plant protein intake",
+        "frequency": "Regular",
+        "preparation": "As soy protein or soybean oil",
+        "reasoning": "Named in cholesterol-lowering trial; also mentioned in Indo-Mediterranean diet trial using soybean oil"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Nuts",
+          "type": "complement",
+          "description": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Soybeans",
+      "slug": "soybeans",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Soy consumption modestly lowers blood pressure and improves arterial health. Isoflavones reduce osteoporosis, cancer risk and hot flush severity.",
+          "mechanism": "Soy isoflavones (genistein, daidzein) mimic oestrogen, binding to oestrogen receptors and blocking cancer cell proliferation. Soy protein replaces animal fats to reduce LDL cholesterol.",
+          "study_ref": "Refs 155, 156, 157, 158, 159 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings of tofu, edamame, miso, tempeh",
+        "frequency": "several times per week",
+        "preparation": "Tofu: grill thin slices or add cubes to soups last 10-15 min. Edamame: boil pods in salted water. Miso: dissolve in soup.",
+        "reasoning": "Soy protein quality similar to animal protein. 100g tofu: 10g protein, 91 cal. 1 cup edamame: 18g protein, 121% RDA folate."
+      },
+      "relationships": [
+        {
+          "target_ingredient": "capers",
+          "type": "synergy",
+          "description": "Soybeans (genistein) + quercetin-rich foods (capers, apples) block prostate and ovarian cancer cell growth at lower doses than either alone"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Tofu (calcium sulphate set)",
+      "slug": "tofu",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Good source of dietary calcium for vegans when made with calcium sulphate",
+          "mechanism": "Calcium sulphate coagulant provides bioavailable calcium during tofu production",
+          "study_ref": "Ref 108 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular for vegans",
+        "preparation": "Made with calcium sulphate (check label)",
+        "reasoning": "Important calcium source for those avoiding dairy"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "cabbage-broccoli",
+          "type": "complement",
+          "description": "Both provide calcium for plant-based diets"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "legume"
+    },
+    {
+      "name": "Almonds",
+      "slug": "almonds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of a nutritionally complete daily diet",
+          "mechanism": "Provides protein, healthy fats, fibre and minerals as part of a plant-based diet",
+          "study_ref": "Author's calculated sample diet",
+          "confidence": "medium",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Six-month RCT showed eating cholesterol-lowering foods including almonds led to 15% reduction in blood cholesterol",
+          "mechanism": "Rich in vitamin E (antioxidant), monounsaturated fats, soluble fibre that reduces intestinal cholesterol absorption",
+          "study_ref": "Ref 175 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "30g serving (~20 almonds)",
+        "frequency": "daily",
+        "preparation": "Raw preferred. Soak overnight to reduce phytic acid and improve digestion. Use chopped in salads or as almond milk.",
+        "reasoning": "30g provides 37% RDA vitamin E, 20% RDA magnesium"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7,
+        9
+      ],
+      "category": "nut"
+    },
+    {
+      "name": "Brazil nuts",
+      "slug": "brazil-nuts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Richest food source of selenium, a powerful antioxidant mineral preventing free radical tissue damage",
+          "mechanism": "6 nuts supply ~780% RDA selenium. Selenium is cofactor for glutathione peroxidase, a key antioxidant enzyme.",
+          "study_ref": "book-assertion",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "2-3 nuts, 2-3 times per week",
+        "frequency": "2-3 times per week",
+        "preparation": "Raw, added to morning smoothies with dark cocoa powder",
+        "reasoning": "Very high selenium concentration means small amounts suffice"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "nut"
+    },
+    {
+      "name": "Nuts (Walnuts, Almonds, Hazelnuts, Pine Nuts)",
+      "slug": "nuts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium",
+          "_from_chapter": 4
+        },
+        {
+          "claim": "Contain monounsaturated and polyunsaturated fatty acids that protect the heart and do not increase cholesterol",
+          "mechanism": "Monounsaturated fats reduce LDL without affecting HDL; polyunsaturated fats provide essential fatty acids",
+          "study_ref": "Refs 66, 67 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Part of healthy plant-based diet associated with 25% lower risk of coronary heart disease",
+          "mechanism": "Component of healthier plant food pattern that collectively reduces cardiovascular risk",
+          "study_ref": "Ref 111 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Five servings per week associated with 40-60% reduction in heart attack risk",
+          "mechanism": "Provide polyunsaturated omega-3 fatty acids (walnuts) and omega-6 fatty acids plus plant sterols (almonds, hazelnuts, pine nuts) that reduce LDL-cholesterol",
+          "study_ref": "ref-18 (epidemiological studies)",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Plant sterols reduce LDL-cholesterol levels",
+          "mechanism": "Plant sterols compete with cholesterol for absorption in the intestine, reducing circulating LDL-cholesterol",
+          "study_ref": "ref-16",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
+          "mechanism": "Combined effect of nuts with soy protein, oats, barley and psyllium on cholesterol absorption and synthesis",
+          "study_ref": "Canadian trial, ref-17",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
+          "mechanism": "Omega-3 and omega-6 fatty acids reduce inflammation and improve lipid profile",
+          "study_ref": "ref-9 (randomised trial)",
+          "confidence": "high",
+          "_from_chapter": 8
+        }
+      ],
+      "consumption": {
+        "amount": "5 servings per week",
+        "frequency": "Almost daily",
+        "preparation": "Raw or minimally processed; traditional use with dried fruits as dessert",
+        "reasoning": "Epidemiological data on 5 servings/week showing 40-60% heart attack risk reduction"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "complement",
+          "description": "Both provide healthy plant-origin fats"
+        },
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
+        },
+        {
+          "target_ingredient": "Fish",
+          "type": "complement",
+          "description": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
+        }
+      ],
+      "source_chapters": [
+        4,
+        7,
+        8
+      ],
+      "category": "nut"
+    },
+    {
+      "name": "Walnuts",
+      "slug": "walnuts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Excellent source of omega-3 alpha-linolenic acid with cardioprotective properties",
+          "mechanism": "100g provides 9g alpha-linolenic acid, converted to DHA and EPA. These omega-3 reduce inflammation, platelet aggregation, triglycerides. Rich in vitamin E and polyphenols preventing LDL oxidation.",
+          "study_ref": "Refs 177, 178, 179, 180 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "30g serving (~9 walnuts)",
+        "frequency": "daily or several times per week",
+        "preparation": "Raw, added to salads or smoothies",
+        "reasoning": "Main plant source of cardioprotective omega-3 fatty acids"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "nut"
+    },
+    {
+      "name": "Dietary Fibre (aggregate from plant foods)",
+      "slug": "dietary-fibre",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming 14g/day fibre vs 30g+ increases mortality risk by 30%",
+          "mechanism": "Multiple protective mechanisms: increases stool bulk diluting carcinogens, faster colon transit, reduces gut pH, increases bile acid excretion, alters colonic flora, generates short-chain fatty acids for colon cells",
+          "study_ref": "Ref 85 in book (large European epidemiological study)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Each 10g/day increase in fibre reduces mortality risk by 10%",
+          "mechanism": "Dose-dependent protection via multiple gut and systemic mechanisms",
+          "study_ref": "Ref 87 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "35g fibre/day reduces colon cancer risk by 40% vs 15g/day",
+          "mechanism": "Larger stools dilute carcinogens and speed transit; fibre reduces pH; short-chain fatty acid production nourishes colon mucosa and immune cells",
+          "study_ref": "Ref 88 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "25-29g/day fibre reduces risk of death from diabetes, heart attack, colorectal and breast cancer",
+          "mechanism": "Fibre slows glucose absorption (reduces diabetes risk), feeds beneficial gut bacteria, produces anti-inflammatory short-chain fatty acids",
+          "study_ref": "Ref 86 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Higher fibre intake significantly lowers body weight, systolic blood pressure and total cholesterol",
+          "mechanism": "Fibre induces satiety via slower gastric emptying; reduces calorie absorption; binds bile acids reducing cholesterol",
+          "study_ref": "Ref 89 in book (clinical trials)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Insoluble fibre generates short-chain fatty acids that are preferred fuel for colon mucosa and local immune cells",
+          "mechanism": "Gut bacteria ferment insoluble fibre into short-chain fatty acids (butyrate, propionate, acetate) which nourish colonocytes and regulate immune function",
+          "study_ref": "Refs 94, 95 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Each additional gram of water-soluble fibre lowers LDL-cholesterol by approximately 1.12 mg/L",
+          "mechanism": "Soluble fibre blocks reabsorption of cholesterol and bile acids in the small intestine",
+          "study_ref": "ref-20",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Low-glycaemic fibre-rich foods reduce circulating insulin and increase short-chain fatty acid production, both inhibiting hepatic cholesterol synthesis",
+          "mechanism": "SCFAs from fibre fermentation directly inhibit HMG-CoA reductase in liver; lower insulin reduces VLDL production",
+          "study_ref": "ref-21",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Insoluble fibre is the most important dietary influence on gut bacteria composition",
+          "mechanism": "Insoluble fibre selectively promotes growth of Bacteroidetes and Firmicutes that produce butyrate and propionate",
+          "study_ref": "ref-31 (with Prof Jeffrey Gordon)",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Short-chain fatty acids from fibre fermentation inhibit inflammation and increase regulatory T cells",
+          "mechanism": "Butyrate and propionate bind to GPR43/GPR109A receptors on immune cells, suppressing NF-kB pathway and promoting Treg differentiation",
+          "study_ref": "refs-34,35,36,37",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Psyllium, pectin and cellulose fibre reduce severity of colitis; methylcellulose worsens it",
+          "mechanism": "Different fibre types are fermented differently by gut bacteria; natural fibres produce beneficial metabolites while synthetic methylcellulose does not",
+          "study_ref": "ref-38",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Greater risk of Crohn's recurrence in those who avoid fibre-rich foods",
+          "mechanism": "Fibre deprivation starves beneficial bacteria, reducing SCFA production and weakening intestinal barrier integrity",
+          "study_ref": "ref-41",
+          "confidence": "medium",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Decreased fibre consumption in Western diets may contribute to increase in asthma, type 1 diabetes, and multiple sclerosis",
+          "mechanism": "Reduced SCFA production leads to decreased regulatory T cells and impaired immune tolerance, promoting allergic and autoimmune disorders",
+          "study_ref": "book-assertion based on refs-36,37",
+          "confidence": "medium",
+          "_from_chapter": 8
+        }
+      ],
+      "consumption": {
+        "amount": "Minimum 25-29g/day; ideally 45g+ (Mediterranean level); sample diet achieves 73g in 1886 kcal",
+        "frequency": "Daily",
+        "preparation": "From whole foods only; NOT from fibre supplements (supplements may increase tumour recurrence risk per Ref 96)",
+        "reasoning": "Fibre supplements (ispaghula husk) showed increased tumour recurrence in 3-year RCT (Ref 96); whole food matrix is essential for benefits"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "fibre-supplements",
+          "type": "antagonism",
+          "description": "Fibre supplements do not replicate whole food benefits and may increase tumour recurrence (Ref 96, 3-year RCT with ispaghula husk)"
+        },
+        {
+          "target_ingredient": "Legumes",
+          "type": "synergy",
+          "description": "Major fibre source in Mediterranean diet"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "Combined sources needed to reach 30-45g/day target"
+        },
+        {
+          "target_ingredient": "Sourdough Bread (Wholegrain Durum Wheat)",
+          "type": "synergy",
+          "description": "Whole grain bread major contributor to daily fibre intake"
+        }
+      ],
+      "source_chapters": [
+        7,
+        8
+      ],
+      "category": "nutrient"
+    },
+    {
+      "name": "Plant Protein (legumes, whole grains)",
+      "slug": "plant-protein",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "No association or inverse association between plant protein consumption and type 2 diabetes",
+          "mechanism": "Lower in branched-chain amino acids and methionine than animal protein; does not activate IGF/mTOR pathway as strongly; associated with beneficial bioactive substances",
+          "study_ref": "Refs 53, 54 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Substituting plant for animal protein markedly inhibits prostate and breast cancer growth",
+          "mechanism": "Lower branched-chain amino acids reduce mTOR-driven cancer cell proliferation; reduced methionine limits cancer cell metabolism",
+          "study_ref": "Ref 58 in book (human xenograft animal models)",
+          "confidence": "high"
+        },
+        {
+          "claim": "Reduced branched-chain amino acid diet (characteristic of plant protein) reduces body weight, fat and blood glucose",
+          "mechanism": "Specifically reducing leucine, isoleucine and valine intake is sufficient to lower body weight and blood glucose in mice",
+          "study_ref": "Ref 55 in book (author's study with mice)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Plant protein associated with lower all-cause mortality vs animal protein",
+          "mechanism": "Lower methionine content; methionine restriction extends average and maximal lifespan by up to 30% in rodents and reduces glucose, IGF-1 and insulin levels",
+          "study_ref": "Refs 59, 61, 62 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Moderate protein reduction (7-9% of calories from protein) causes weight loss and doubles FGF21 longevity hormone",
+          "mechanism": "Low protein intake triggers FGF21 (fibroblast growth factor 21) production, a pro-longevity hormone; subjects lost 2.6kg in 4 weeks and had significantly lower fasting blood glucose",
+          "study_ref": "Refs 39, 40 in book (author's clinical trial + Dudley Lamming collaboration)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Should comprise majority of protein intake; aim for ~0.8g total protein/kg body weight/day with most from plants",
+        "frequency": "Daily",
+        "preparation": "Combine legumes with whole grains during the day to get complete amino acid profile",
+        "reasoning": "Legumes high in lysine but low in tryptophan/methionine; grains are the reverse; combined they provide complete protein equivalent to eggs or meat"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "brown-rice",
+          "type": "synergy",
+          "description": "Brown rice + lentils provides complete protein with all essential amino acids"
+        },
+        {
+          "target_ingredient": "durum-wheat-pasta",
+          "type": "synergy",
+          "description": "Durum wheat pasta + chickpeas provides complete protein"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "nutrient"
+    },
+    {
+      "name": "Vitamin B12",
+      "slug": "vitamin-b12",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Essential for vegans to supplement; deficiency may accelerate cognitive decline",
+          "mechanism": "B12 is produced by soil bacteria and incorporated into animal products; humans cannot produce it; essential for proper cell function; chronic deficiency linked to cognitive decline",
+          "study_ref": "Refs 97, 98, 99 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "B12 in spirulina and algae is NOT bioavailable and may inhibit B12 metabolism",
+          "mechanism": "Spirulina contains B12 analogues that are not biologically active and may competitively inhibit real B12 absorption/metabolism",
+          "study_ref": "Ref 98 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vegan diets rich in folic acid can mask B12 deficiency anaemia for long periods",
+          "mechanism": "Folic acid corrects the megaloblastic anaemia of B12 deficiency but does not prevent neurological damage, allowing silent progression",
+          "study_ref": "Ref 99 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Sufficient to maintain blood levels (check regularly if vegan)",
+        "frequency": "Daily for vegans",
+        "preparation": "B12-fortified nutritional yeast, B12-fortified foods, or B12 tablets; NOT spirulina/algae",
+        "reasoning": "Vegans have no dietary source; must supplement or consume fortified foods"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "spirulina",
+          "type": "antagonism",
+          "description": "Spirulina B12 is not bioavailable and may inhibit real B12 metabolism"
+        },
+        {
+          "target_ingredient": "folic-acid",
+          "type": "antagonism",
+          "description": "High folic acid can mask B12 deficiency anaemia, delaying diagnosis"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "nutrient"
+    },
+    {
+      "name": "Vitamin D",
+      "slug": "vitamin-d",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Facilitates calcium absorption; one of only two nutrients not fully covered by the author's sample plant diet",
+          "mechanism": "Vitamin D increases intestinal calcium absorption by inducing expression of calcium transport proteins",
+          "study_ref": "Ref 109 in book; author's sample diet analysis",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Supplementation likely needed",
+        "frequency": "Daily",
+        "preparation": "Supplement or sun exposure",
+        "reasoning": "Author's complete sample daily diet (1886 kcal) provides >100% RDI for all nutrients EXCEPT vitamin D and B12"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "cabbage-broccoli",
+          "type": "synergy",
+          "description": "Vitamin D enhances calcium absorption from high-bioavailability vegetables"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "nutrient"
+    },
+    {
+      "name": "Extra-Virgin Olive Oil",
+      "slug": "extra-virgin-olive-oil",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Suitable fat source during fasting days that does not disrupt fasting metabolic benefits",
+          "mechanism": "Provides essential fatty acids without activating insulin/IGF-1/mTOR pathway as animal proteins would",
+          "study_ref": "Author's clinical fasting protocol",
+          "confidence": "medium",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Slows absorption of carbohydrates when added to meals",
+          "mechanism": "Fat delays gastric emptying and carbohydrate absorption in the intestine",
+          "study_ref": "book-assertion (detailed in Chapter 7)",
+          "confidence": "medium",
+          "_from_chapter": 5
+        },
+        {
+          "claim": "Monounsaturated fat from plant origins associated with lower cardiovascular and cancer death rate",
+          "mechanism": "Contains primarily monounsaturated fatty acids that do not increase cholesterol; reduces LDL without affecting HDL; reduces blood sugar and triglycerides in diabetes",
+          "study_ref": "Refs 66, 67, 68, 69 in book (Nurses' Health Study and others)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Excellent source of vitamin E and precious phytochemicals",
+          "mechanism": "Cold-pressed extraction preserves vitamin E (antioxidant) and polyphenols with anti-inflammatory properties",
+          "study_ref": "Ref 73 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Plant-origin monounsaturated fats reduce coronary heart disease risk",
+          "mechanism": "Substituting monounsaturated fat for saturated fat reduces LDL-cholesterol without reducing HDL-cholesterol",
+          "study_ref": "Refs 66, 67 in book (Nurses' Health Study)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Provides monounsaturated fatty acids that reduce LDL-cholesterol and heart disease risk",
+          "mechanism": "Replaces saturated fat intake; monounsaturated fat substitution for 5% of saturated fat calories associated with 15% lower coronary heart disease risk",
+          "study_ref": "ref-14",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Contains oleocanthal which inhibits inflammation",
+          "mechanism": "Oleocanthal phytochemical inhibits inflammatory pathways, similar mechanism to ibuprofen",
+          "study_ref": "ref-30",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Reduces circulating oxidised LDL and inflammatory markers",
+          "mechanism": "Antioxidant compounds prevent oxidation of LDL particles, reducing binding to endothelial and immune cell receptors that drive atherosclerotic plaque growth",
+          "study_ref": "refs-25,26",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Mediterranean diet supplemented with EVOO reduces cardiovascular events, especially strokes",
+          "mechanism": "Combined anti-inflammatory, cholesterol-lowering and antioxidant effects reduce atherosclerosis progression",
+          "study_ref": "PREDIMED trial, ref-10",
+          "confidence": "high",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "May reduce risk of type 2 diabetes, peripheral artery disease, atrial fibrillation and breast cancer",
+          "mechanism": "Multiple pathways including reduced inflammation and oxidative stress",
+          "study_ref": "PREDIMED secondary analysis, refs-11-13",
+          "confidence": "medium",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Reduces plasma triglycerides, oxidative stress markers, and increases HDL-cholesterol. Phenolics inhibit inflammation and thrombosis.",
+          "mechanism": "Contains 30+ phytocompounds including oleuropein, tyrosol, hydroxytyrosol. 100g provides up to 25mg alpha-tocopherol, 20-500mg oleuropein, 98-185mg phytosterols.",
+          "study_ref": "Refs 227, 228, 229, 230 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Contains oleocanthal that prevents blood clots. 50g daily equivalent to a baby aspirin for heart disease prevention.",
+          "mechanism": "Oleocanthal has structural profile similar to ibuprofen. Anti-inflammatory and anti-platelet aggregation. The pungent, peppery throat sensation indicates oleocanthal presence.",
+          "study_ref": "Refs 231, 232, 233, 234, 235 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Use as primary condiment. 1 tablespoon = ~120 calories, balance with activity.",
+        "frequency": "daily",
+        "preparation": "MUST be first cold-pressed extra-virgin. Look for harvest date, consume within 12-14 months. Use for dressing salads, vegetables, legumes, pasta. Do not overheat.",
+        "reasoning": "Fresher oil = higher phytocompound concentration. 'Olive oil' (refined) lacks the bioactive compounds."
+      },
+      "relationships": [
+        {
+          "target_ingredient": "non-starchy-vegetables-fasting",
+          "type": "complement",
+          "description": "Used to dress vegetables on fasting days"
+        },
+        {
+          "target_ingredient": "whole-grains",
+          "type": "synergy",
+          "description": "Adding olive oil to carbohydrate meals slows glucose absorption"
+        },
+        {
+          "target_ingredient": "corn-sunflower-oil",
+          "type": "antagonism",
+          "description": "Olive oil recommended over omega-6-rich vegetable oils which promote inflammation"
+        },
+        {
+          "target_ingredient": "butter-margarine",
+          "type": "antagonism",
+          "description": "Olive oil should replace butter (saturated fat) and margarine (trans fats)"
+        },
+        {
+          "target_ingredient": "Nuts",
+          "type": "synergy",
+          "description": "Both provide monounsaturated and polyunsaturated fats; PREDIMED trial tested both EVOO-supplemented and nut-supplemented Mediterranean diets with similar cardiovascular benefits"
+        },
+        {
+          "target_ingredient": "Whole Grains",
+          "type": "complement",
+          "description": "Both contain anti-inflammatory phytochemicals (oleocanthal in EVOO, ferulic acid in whole grains) that work through complementary pathways"
+        },
+        {
+          "target_ingredient": "Vegetables",
+          "type": "synergy",
+          "description": "EVOO enhances absorption of fat-soluble antioxidants (beta-carotene, vitamin E) from vegetables"
+        },
+        {
+          "target_ingredient": "carrots",
+          "type": "synergy",
+          "description": "Fat enables absorption of fat-soluble carotenoids"
+        },
+        {
+          "target_ingredient": "dark-green-leafy-vegetables",
+          "type": "synergy",
+          "description": "Fat enables absorption of fat-soluble vitamins K, A, E"
+        },
+        {
+          "target_ingredient": "turmeric",
+          "type": "synergy",
+          "description": "Fat-soluble curcuminoids require dietary fat for absorption"
+        }
+      ],
+      "source_chapters": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "category": "oil_condiment"
+    },
+    {
+      "name": "Honey and Natural Sweeteners (mosto cotto, miele di fichi)",
+      "slug": "honey-natural-sweeteners",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Traditional alternative to refined sugar for occasional sweets",
+          "mechanism": "Lower glycaemic impact than refined sugar; contains trace minerals and antioxidants absent in refined sugar",
+          "study_ref": "book-assertion",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Small amounts, only on special occasions",
+        "frequency": "Occasional (weddings, birthdays, Christmas)",
+        "preparation": "Honey, mosto cotto (wine grape juice reduced to dark syrup), miele di fichi (fig honey from cooked fig syrup)",
+        "reasoning": "Traditional sweeteners used only for special occasion desserts, not daily consumption"
+      },
+      "relationships": [],
+      "source_chapters": [
+        8
+      ],
+      "category": "oil_condiment"
+    },
+    {
+      "name": "Iodised Salt",
+      "slug": "iodised-salt",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Diets high in salt increase calcium loss from bones",
+          "mechanism": "High sodium intake increases renal calcium excretion, promoting negative calcium balance and bone loss",
+          "study_ref": "Ref 109 in book",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Essential for meeting daily iodine requirement (150mcg/day) which is critical for thyroid hormone production",
+          "mechanism": "Potassium iodide in iodised salt provides iodine substrate for thyroid peroxidase enzyme to synthesize T3 and T4 hormones",
+          "study_ref": "book-assertion with refs-37-40",
+          "confidence": "high",
+          "_from_chapter": 10
+        },
+        {
+          "claim": "Mild iodine deficiency during pregnancy and breastfeeding affects brain development of unborn children and infants, potentially reducing IQ and causing ADHD",
+          "mechanism": "Thyroid hormones are essential for neuronal migration, myelination, and synaptogenesis in developing brain; deficiency impairs these processes",
+          "study_ref": "refs-38-40",
+          "confidence": "high",
+          "_from_chapter": 10
+        }
+      ],
+      "consumption": {
+        "amount": "~5g iodised salt per day meets 150mcg iodine requirement; supplement with iodine-rich foods if reducing salt below this",
+        "frequency": "Daily",
+        "preparation": "Use as sole salt source at home; supplement with dried seaweeds (65-680mcg/100mg), marine seafood (50-100mcg/100mg), small amounts of cheese/milk (80-170mcg/250ml)",
+        "reasoning": "Should not eliminate salt entirely; iodine deficiency has serious consequences especially in pregnancy"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "cabbage-broccoli",
+          "type": "antagonism",
+          "description": "Excess salt counteracts calcium intake from vegetables by increasing calcium excretion"
+        },
+        {
+          "target_ingredient": "Sodium/Salt (Excessive)",
+          "type": "complement",
+          "description": "Must balance salt reduction for cardiovascular health with maintaining adequate iodine intake"
+        },
+        {
+          "target_ingredient": "Seaweed (dried)",
+          "type": "complement",
+          "description": "Seaweed provides natural iodine allowing further salt reduction while maintaining iodine adequacy"
+        }
+      ],
+      "source_chapters": [
+        7,
+        10
+      ],
+      "category": "oil_condiment"
+    },
+    {
+      "name": "Flax Seeds",
+      "slug": "flax-seeds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Part of a nutritionally complete daily diet providing >100% RDI of most nutrients",
+          "mechanism": "Provides omega-3 fatty acids (ALA), fibre and lignans",
+          "study_ref": "Author's calculated sample diet",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "1 tablespoon per day",
+        "frequency": "Daily",
+        "preparation": "Ground or whole",
+        "reasoning": "Specific quantity cited in author's sample daily diet"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Flaxseeds",
+      "slug": "flaxseeds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming whole flaxseed results in significant reduction in total and LDL-cholesterol",
+          "mechanism": "Richest plant source of antioxidant lignans (up to 13mg/g) and omega-3 alpha-linolenic acid. Takes <2 weeks for omega-3 to incorporate into cell membranes. Enterolignans (produced by gut bacteria from lignans) associated with lower heart disease and cancer risk.",
+          "study_ref": "Refs 188, 189, 190 in book (several RCTs)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "1-2 tablespoons daily",
+        "frequency": "daily",
+        "preparation": "GRIND before eating (improves omega-3 and enterolignan bioavailability). Keep refrigerated to prevent oxidation of polyunsaturated fats.",
+        "reasoning": "After oily fish, the main dietary source of omega-3. Grinding is essential for absorption."
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Seeds",
+      "slug": "seeds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Regular consumption supports disease prevention and longevity",
+          "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Not specified",
+        "frequency": "Regular",
+        "preparation": "Minimally processed",
+        "reasoning": "Listed among recommended fibre-rich foods"
+      },
+      "relationships": [],
+      "source_chapters": [
+        4
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Sesame seeds",
+      "slug": "sesame-seeds",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Sesamin (a lignan in sesame) associated with reduced serum cholesterol in rodents and humans",
+          "mechanism": "Sesamin modulates hepatic cholesterol metabolism",
+          "study_ref": "Ref 187 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as tahini or whole seeds",
+        "frequency": "several times per week",
+        "preparation": "Whole in salads, ground as tahini for hummus and dips. Unhulled more nutrient-rich. Black seeds have toasty smoky flavour. Lightly toast for snacks.",
+        "reasoning": "Called 'seeds of longevity', oldest known oilseed crop"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "seed"
+    },
+    {
+      "name": "Black pepper",
+      "slug": "black-pepper",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Contains piperine which doubles blood curcumin levels when combined with turmeric",
+          "mechanism": "Piperine inhibits metabolic clearance of curcumin, improving bioavailability",
+          "study_ref": "Ref 88 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Small amounts with turmeric-containing dishes",
+        "frequency": "daily with turmeric",
+        "preparation": "Freshly ground for maximum piperine content",
+        "reasoning": "Primary value is as a bioavailability enhancer for curcumin"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "turmeric",
+          "type": "synergy",
+          "description": "Piperine doubles blood curcumin levels"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "spice"
+    },
+    {
+      "name": "Chilli pepper",
+      "slug": "chilli-pepper",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "May play a role in prevention of obesity by activating TRPV1 and AMPK pathways",
+          "mechanism": "Capsaicin and capsaicinoids activate TRPV1 and AMPK molecular pathways. Inhibits inflammation in fat and liver cells, improves glucose control in animal studies.",
+          "study_ref": "Refs 75, 76, 77 in book",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Capsinoid supplementation associated with abdominal fat loss and increased energy expenditure",
+          "mechanism": "Capsinoids enhance heat-producing activity of brown adipose tissue, increasing energy expenditure over 6 weeks",
+          "study_ref": "Refs 78, 79 in book (small RCTs)",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use to taste",
+        "frequency": "several times per week",
+        "preparation": "Fresh or dried, added to dishes. Sweet peppers contain similar but less pungent compounds (capsinoids).",
+        "reasoning": "Analgesic and metabolic benefits from capsaicin"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "spice"
+    },
+    {
+      "name": "Cinnamon",
+      "slug": "cinnamon",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Has potential anti-diabetic effects: may lower blood glucose and reverse fructose-induced insulin resistance",
+          "mechanism": "Hydroxycinnamaldehyde has antioxidant and anti-inflammatory properties. Improves metabolic syndrome symptoms in rodents and humans.",
+          "study_ref": "Refs 90, 91, 92, 93, 94, 95 in book",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Mild blood cholesterol-lowering effect in animals and humans",
+          "mechanism": "Not fully specified; likely related to hydroxycinnamaldehyde and other extracts",
+          "study_ref": "Ref 95 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use in cooking and teas",
+        "frequency": "several times per week",
+        "preparation": "Ground cinnamon loses fragrance quickly. Buy fresh or grind sticks (shelf life up to 3 years). Add to teas, poached fruit, lentil soup.",
+        "reasoning": "Multiple metabolic benefits from regular consumption"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "spice"
+    },
+    {
+      "name": "Ginger",
+      "slug": "ginger",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Speeds up gastric emptying, promotes satiety and increases thermic effect of food, helping prevent obesity",
+          "mechanism": "Active molecule gingerol (converted to zingerone when cooked). Studies in healthy men and women showed these effects.",
+          "study_ref": "Refs 98, 99 in book",
+          "confidence": "medium"
+        },
+        {
+          "claim": "May reduce nausea and vomiting during chemotherapy",
+          "mechanism": "Gingerol's effect on digestive tract motility and nausea receptors",
+          "study_ref": "Ref 100 in book (clinical trials)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Thumb-sized piece fresh, or dried powder",
+        "frequency": "daily or several times per week",
+        "preparation": "Finely chopped in hot dishes, thinly sliced and pickled, or raw in smoothies. Use with caution before surgery (blood-thinning effect, ref 101).",
+        "reasoning": "Versatile flavour profile, complements both savoury and sweet dishes"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "turmeric",
+          "type": "complement",
+          "description": "Both are rhizomes. Ginger's COX-2 pathway complements turmeric's NF-kB pathway for broader anti-inflammatory coverage."
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "spice"
+    },
+    {
+      "name": "Turmeric",
+      "slug": "turmeric",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Curcumin has anti-inflammatory, antioxidant and anti-cancer effects, particularly relevant to colon cancer prevention",
+          "mechanism": "Curcumin affects gene activity and induces apoptosis (programmed death) of cancer cells. Inhibitory effects against colon, skin and oral cancer in rodents.",
+          "study_ref": "Refs 81, 82, 83 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Six months of curcumin + quercetin treatment resulted in significant reduction of colon polyp number and size",
+          "mechanism": "Synergistic effect of curcumin and quercetin on colon polyp regression",
+          "study_ref": "Refs 84, 85 in book (pilot study)",
+          "confidence": "medium"
+        },
+        {
+          "claim": "May play a role in dementia prevention by inhibiting amyloid plaque formation",
+          "mechanism": "Curcumin inhibits formation of amyloid plaques associated with Alzheimer's disease",
+          "study_ref": "Ref 86 in book",
+          "confidence": "low"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as kitchen staple",
+        "frequency": "daily",
+        "preparation": "Fresh grated or dried powder. Combine with black pepper (piperine doubles curcumin blood levels) for absorption.",
+        "reasoning": "Curcumin poorly absorbed alone (ref 87). Black pepper's piperine doubles blood levels (ref 88)."
+      },
+      "relationships": [
+        {
+          "target_ingredient": "black pepper",
+          "type": "synergy",
+          "description": "Piperine in black pepper doubles blood curcumin levels by improving absorption"
+        },
+        {
+          "target_ingredient": "capers",
+          "type": "synergy",
+          "description": "Quercetin (in capers) + curcumin resulted in significant colon polyp reduction in pilot study"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "spice"
+    },
+    {
+      "name": "Broccoli sprouts",
+      "slug": "broccoli-sprouts",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "3-day-old broccoli sprouts contain 10-100x higher glucoraphanin levels than mature plants, highly effective in reducing breast cancer incidence in animals",
+          "mechanism": "Glucoraphanin is converted to sulforaphane, a potent activator of phase 2 detoxification enzymes via Nrf2 pathway",
+          "study_ref": "Refs 193, 194, 195 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Add to salads and dishes",
+        "frequency": "several times per week",
+        "preparation": "Sprout at home: soak 8-24 hours, spread on tray with damp towel, harvest when tiny sprouts appear. Consume within 3-4 days, keep refrigerated. Buy only seeds suitable for home sprouting.",
+        "reasoning": "Extreme concentration of cancer-fighting compounds vs mature broccoli"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "cruciferous vegetables",
+          "type": "synergy",
+          "description": "Same sulforaphane pathway but 10-100x more concentrated"
+        }
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Cabbage / Broccoli / Broccoli Sprouts",
+      "slug": "cabbage-broccoli",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "40-60% of calcium is absorbed (higher bioavailability than cow's milk at 31-32%)",
+          "mechanism": "Low oxalate content allows high calcium bioavailability; oxalates in other vegetables (spinach, chard, beets) chelate calcium and block absorption",
+          "study_ref": "Ref 107 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular inclusion for calcium",
+        "frequency": "Daily",
+        "preparation": "Raw or cooked",
+        "reasoning": "Superior calcium source to dairy for bioavailability; important for vegans"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "spinach-chard-beets",
+          "type": "antagonism",
+          "description": "Unlike spinach/chard/beets which are high in oxalates, cabbage/broccoli have low oxalates allowing better calcium absorption"
+        },
+        {
+          "target_ingredient": "vitamin-d",
+          "type": "synergy",
+          "description": "Vitamin D facilitates calcium absorption"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Carrots",
+      "slug": "carrots",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Despite high glycaemic index, very low carbohydrate load makes them healthy",
+          "mechanism": "High GI but very low total carbohydrate content means negligible actual glucose load; provides vitamins and phytochemicals",
+          "study_ref": "book-assertion (glycaemic index vs glucose load distinction)",
+          "confidence": "high",
+          "_from_chapter": 7
+        },
+        {
+          "claim": "Loaded with carotenoids essential for vitamin A production, eye health, immune function and prenatal development",
+          "mechanism": "Beta-carotene is converted to vitamin A which plays key role in eye and immune function",
+          "study_ref": "Ref 53 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Contains polyacetylene with preventative effects against thrombosis and cancer",
+          "mechanism": "Polyacetylene compound found in Apiaceae family (carrots, celery, parsley) displays anti-thrombotic and anti-cancer activity",
+          "study_ref": "Ref 54 in book",
+          "confidence": "medium",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "several times per week",
+        "preparation": "Steamed and pureed for 3x higher beta-carotene absorption than raw. Eat with fat (olive oil) for carotenoid absorption.",
+        "reasoning": "Steaming and pureeing breaks cell walls, fat enables absorption of fat-soluble carotenoids"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin olive oil",
+          "type": "synergy",
+          "description": "Fat needed at same meal to optimize carotenoid absorption and conversion to vitamin A"
+        }
+      ],
+      "source_chapters": [
+        7,
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Cruciferous vegetables",
+      "slug": "cruciferous-vegetables",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Linked with reduced risk of several cancers including prostate, bladder and lung",
+          "mechanism": "Contain isothiocyanates, indol-3-carbinol and sulforaphane which trigger detoxifying enzymes",
+          "study_ref": "Ref 45 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Sulforaphane triggers detoxifying enzymes protecting against colon and skin cancer, and in prevention of type 2 diabetes and autism",
+          "mechanism": "Sulforaphane activates phase 2 detoxification enzymes via Nrf2 pathway",
+          "study_ref": "Refs 46, 47, 48 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Indole-3-carbinol is a powerful inhibitor of cancer-promoting enzyme WWP1, freeing tumour suppressor PTEN",
+          "mechanism": "Indole-3-carbinol inhibits WWP1 which normally blocks PTEN. PTEN prevents tumour growth. Mice with surplus PTEN live longer.",
+          "study_ref": "Published in Science journal. Refs 51, 52 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "daily or several times per week",
+        "preparation": "Raw or steamed 2-3 minutes only. Heat destroys active compounds rapidly. Combine with mustard (contains myrosinase enzyme) to convert glucoraphanin into isothiocyanate.",
+        "reasoning": "Myrosinase in mustard activates the cancer-suppressor pathway"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "mustard",
+          "type": "synergy",
+          "description": "Mustard contains myrosinase enzyme which converts glucoraphanin into the cancer-suppressor isothiocyanate"
+        }
+      ],
+      "specific_varieties": [
+        "broccoli",
+        "cabbage",
+        "cauliflower",
+        "Brussels sprouts",
+        "kale",
+        "savoy cabbage",
+        "collard greens",
+        "watercress",
+        "arugula",
+        "bok choy",
+        "turnip greens",
+        "kohlrabi",
+        "gai lan"
+      ],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Dark green leafy vegetables",
+      "slug": "dark-green-leafy-vegetables",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Rich in chlorophyll, folic acid, carotenoids and vitamin K, essential to neutralise excess acidity caused by Western diet",
+          "mechanism": "Folic acid supplementation caused a three-fold reduction in recurrence of precancerous colon lesions (adenomas) in a small RCT",
+          "study_ref": "Ref 37 in book",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Contain lutein and zeaxanthin important for protecting eye tissues and reducing cancer/cataract risk",
+          "mechanism": "Carotenoids lutein and zeaxanthin protect retinal tissue from oxidative damage",
+          "study_ref": "Refs 26, 38 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Include in every meal",
+        "frequency": "daily, multiple servings",
+        "preparation": "Raw or lightly steamed. Avoid overcooking by boiling which strips vitamins and minerals.",
+        "reasoning": "Lowest calorie density and glycaemic load with highest concentration of vitamins, minerals and oligo-elements"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin olive oil",
+          "type": "synergy",
+          "description": "Fat aids absorption of fat-soluble vitamins and carotenoids"
+        }
+      ],
+      "specific_varieties": [
+        "silver beet",
+        "spinach",
+        "beet greens",
+        "mustard greens",
+        "lettuce",
+        "endive",
+        "chicory",
+        "garden cress",
+        "dandelion greens"
+      ],
+      "notable_nutrients": "100g cooked silver beet: 312% RDA vitamin K, 38% RDA vitamin A, 22% RDA vitamin C",
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Garlic",
+      "slug": "garlic",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provides phytochemicals with antioxidant and anti-inflammatory properties as part of Mediterranean diet pattern",
+          "mechanism": "Allicin and organosulfur compounds modulate inflammatory pathways",
+          "study_ref": "book-assertion",
+          "confidence": "low",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Regular garlic-powder intake has protective effect against hypertension and age-dependent arterial stiffening",
+          "mechanism": "When crushed, alliin is exposed to alliinase producing allicin, which lowers blood pressure and cholesterol. Diallyl sulphide inhibits bowel cancer incidence by 74% in mice.",
+          "study_ref": "Refs 62, 63, 64, 65, 66 in book",
+          "confidence": "high",
+          "_from_chapter": 9
+        },
+        {
+          "claim": "Associated with reduced risk of gastric, colon, prostate and endometrial cancers",
+          "mechanism": "Multiple bioactive organosulphur compounds including allicin and diallyl sulphide",
+          "study_ref": "Refs 65, 66 in book (case-controlled studies)",
+          "confidence": "medium",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use in cooking",
+        "frequency": "daily",
+        "preparation": "Cut or crush to activate allicin. Heating destroys active allyl sulphur compound formation, so add raw garlic when possible or crush and let sit before cooking.",
+        "reasoning": "Mechanical disruption (cutting/crushing) is required to produce the active compound allicin"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "complement",
+          "description": "Traditional pairing in Mediterranean cooking"
+        },
+        {
+          "target_ingredient": "tomatoes",
+          "type": "synergy",
+          "description": "Garlic (S-allylcysteine) + tomatoes (lycopene) inhibit stomach cancer at lower doses than either alone"
+        }
+      ],
+      "source_chapters": [
+        8,
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Green Vegetables (lettuce, cabbage, broccoli, spinach, arugula, chard, kale)",
+      "slug": "green-vegetables",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Almost undetectable effect on blood glucose",
+          "mechanism": "Very low carbohydrate content and high fibre means virtually no glucose load",
+          "study_ref": "book-assertion (glycaemic index data)",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Abundant; 1 cup cabbage + 1 cup spinach in sample diet",
+        "frequency": "Daily",
+        "preparation": "Raw or cooked",
+        "reasoning": "Essentially zero glycaemic impact while providing vitamins, minerals and fibre"
+      },
+      "relationships": [],
+      "source_chapters": [
+        7
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Non-Starchy Vegetables (for fasting days)",
+      "slug": "non-starchy-vegetables-fasting",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
+          "mechanism": "Absence of animal protein, grains and fruit combined with very low calorie content (~500 cal/day) inhibits the insulin/IGF-1/mTOR pathway that modulates ageing and cancer development",
+          "study_ref": "Refs 46, 47 in book; author's own clinical studies",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
+          "mechanism": "Very low calorie density of non-starchy vegetables keeps intake below 500 cal/day, achieving ~20-23% weekly calorie restriction",
+          "study_ref": "Author's clinical randomised studies",
+          "confidence": "high"
+        },
+        {
+          "claim": "Vegetable fasting activates longevity pathways via hormesis",
+          "mechanism": "Fasting acts as chronic mild stressor (hormetic agent) that activates cellular protective and anti-ageing pathways, increases stress resistance, elevates cortisol moderately, and enhances removal of damaged proteins",
+          "study_ref": "Refs 48, 49, 50 in book",
+          "confidence": "high"
+        },
+        {
+          "claim": "Fasting increases brain-derived neurotrophic factor (BDNF)",
+          "mechanism": "BDNF promotes growth and survival of nerve cells, strengthening brain function",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Unrestricted non-starchy vegetables, raw or cooked, keeping total daily intake under ~500 calories",
+        "frequency": "2-3 times per week (depending on baseline weight and metabolic profile)",
+        "preparation": "Raw or cooked, dressed with 1 tablespoon extra-virgin olive oil, lemon juice or vinegar at lunch and dinner. No more than 2 tablespoons oil total per fasting day",
+        "reasoning": "Author's clinical protocol for intermittent vegetable fasting; superior to 5:2 diet because excluding animal protein, grains and fruit maximises mTOR pathway suppression"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "extra-virgin-olive-oil",
+          "type": "complement",
+          "description": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
+        },
+        {
+          "target_ingredient": "lemon-juice",
+          "type": "complement",
+          "description": "Used as dressing alongside olive oil on fasting day vegetables"
+        }
+      ],
+      "source_chapters": [
+        5
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Onion",
+      "slug": "onion",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "One of the richest sources of dietary flavonoids important for cardiovascular disease and cancer prevention, especially gastric cancer",
+          "mechanism": "Contains fructooligosaccharides and thiosulfinates. Flavonoids prevent cardiovascular disease and cancer.",
+          "study_ref": "Ref 67 in book",
+          "confidence": "medium"
+        },
+        {
+          "claim": "Italian sweet red onion Tropea contains taxifolin, a powerful inhibitor of many cancer cell types",
+          "mechanism": "Taxifolin directly inhibits cultured cancer cell growth. Red onions have highest flavonol levels; yellow onions contain half as much.",
+          "study_ref": "Ref 68 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use in cooking",
+        "frequency": "daily",
+        "preparation": "Red onions preferred for highest flavonol content. Raw or cooked.",
+        "reasoning": "Red varieties contain double the flavonols of yellow onions"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Pumpkin",
+      "slug": "pumpkin",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Superior source of antioxidants due to generous amounts of alpha-carotene, zeaxanthin and lutein",
+          "mechanism": "Multiple carotenoid types provide broader antioxidant coverage than beta-carotene alone",
+          "study_ref": "book-assertion",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "several times per week",
+        "preparation": "Can eat thin slices raw, roast, bake, use in soups, or puree with chickpeas for hummus. Add to morning smoothies.",
+        "reasoning": "Versatile, sweet flavour makes it easy to incorporate"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Purslane",
+      "slug": "purslane",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Relatively high concentration of vegetable omega-3 fatty acids",
+          "mechanism": "50g fresh purslane contains approximately 200mg alpha-linolenic acid",
+          "study_ref": "Ref 39 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Add to salads from time to time",
+        "frequency": "occasionally",
+        "preparation": "Raw stems and leaves in salads. Slightly sour and salty taste.",
+        "reasoning": "Wild edible weed with unusually high omega-3 for a plant"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Spinach / Chard / Beets",
+      "slug": "spinach-chard-beets",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "High oxalate content hinders calcium absorption",
+          "mechanism": "Oxalates chelate calcium forming insoluble calcium oxalate that cannot be absorbed in the intestine",
+          "study_ref": "Ref 107 in book",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Can eat for other nutrients but not as calcium source",
+        "frequency": "Regular (for other benefits)",
+        "preparation": "Cooked or raw",
+        "reasoning": "Still nutritious but unreliable calcium sources due to oxalate content"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "cabbage-broccoli",
+          "type": "complement",
+          "description": "Complement with low-oxalate vegetables for calcium needs"
+        }
+      ],
+      "source_chapters": [
+        7
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Sweet potatoes",
+      "slug": "sweet-potatoes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Contain the highest concentration of beta-carotene among common vegetables",
+          "mechanism": "31mg beta-carotene per 100g cooked, converted to vitamin A for eye health and immune function",
+          "study_ref": "book-assertion",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Regular servings",
+        "frequency": "several times per week",
+        "preparation": "Cooked, paired with fat for absorption",
+        "reasoning": "Highest beta-carotene concentration of common vegetables"
+      },
+      "relationships": [],
+      "source_chapters": [
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Tomatoes",
+      "slug": "tomatoes",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Rich in lycopene and vitamin C providing antioxidant protection",
+          "mechanism": "Lycopene is a potent carotenoid antioxidant; vitamin C neutralises free radicals",
+          "study_ref": "book-assertion",
+          "confidence": "medium",
+          "_from_chapter": 8
+        },
+        {
+          "claim": "Contain lycopene important in prevention of prostate, digestive tract and cervical cancers",
+          "mechanism": "Lycopene reduces IGF-I bioavailability, which may mediate anti-cancer effect. RCT showed reduction in prostate cancer growth with lycopene supplementation before surgery.",
+          "study_ref": "Refs 56, 57, 58 in book",
+          "confidence": "medium",
+          "_from_chapter": 9
+        }
+      ],
+      "consumption": {
+        "amount": "Regular use as base ingredient",
+        "frequency": "Daily",
+        "preparation": "Fresh diced, as sauce, sun-dried preserved in EVOO; paired with garlic, basil, oregano",
+        "reasoning": "Ubiquitous in traditional Mediterranean cuisine as described throughout chapter"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
+        },
+        {
+          "target_ingredient": "Garlic",
+          "type": "complement",
+          "description": "Traditional pairing providing complementary phytochemical profiles"
+        }
+      ],
+      "source_chapters": [
+        8,
+        9
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Vegetables (general)",
+      "slug": "vegetables-general",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Consuming vegetables at each meal prevents chronic disease and maximises health",
+          "mechanism": "Provides unique mixture of vegetable fibres, vitamins, oligo-elements and phytochemicals which after gut microbe processing release metabolites that protect from common diseases",
+          "study_ref": "Ref 5 in book",
+          "confidence": "medium"
+        }
+      ],
+      "consumption": {
+        "amount": "At each meal",
+        "frequency": "Daily",
+        "preparation": "Minimally processed",
+        "reasoning": "Historical recommendation from Sun Simiao (Tang dynasty) supported by modern evidence on fibre-rich foods and gut microbiome metabolites"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "beans",
+          "type": "complement",
+          "description": "Part of the recommended fibre-rich food group alongside beans, whole grains, nuts, seeds and fruit"
+        }
+      ],
+      "source_chapters": [
+        4
+      ],
+      "category": "vegetable"
+    },
+    {
+      "name": "Vegetables (leafy greens, wild herbs, diverse varieties)",
+      "slug": "vegetables",
+      "page_refs": [],
+      "claims": [
+        {
+          "claim": "Provide antioxidants that protect against oxidative damage driving chronic diseases",
+          "mechanism": "Vitamin C (~400mg/day), vitamin E (~17mg/day), beta-carotene (~6000mg equivalents/day), selenium (~120mg/day) neutralise free radicals and prevent LDL oxidation that drives atherosclerotic plaque formation",
+          "study_ref": "refs-22,23,24",
+          "confidence": "high"
+        },
+        {
+          "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+          "mechanism": "Vegetable fibre (psyllium, pectin, cellulose) reduces severity of colitis; fibre feeds beneficial gut bacteria producing anti-inflammatory short-chain fatty acids",
+          "study_ref": "ref-40",
+          "confidence": "high"
+        },
+        {
+          "claim": "Protective effect against heart disease from air pollutant exposure",
+          "mechanism": "Dietary antioxidants from vegetables neutralise oxidative damage caused by long-term pollutant exposure",
+          "study_ref": "refs-22,23",
+          "confidence": "medium"
+        },
+        {
+          "claim": "High-fibre vegetable consumption increases regulatory T cells protecting against allergic and autoimmune disorders",
+          "mechanism": "Fibre fermentation produces butyrate and propionate which bind to receptors increasing regulatory T cell levels",
+          "study_ref": "refs-36,37",
+          "confidence": "high"
+        }
+      ],
+      "consumption": {
+        "amount": "Large portions at every main meal; diverse types including wild herbs",
+        "frequency": "Daily, every meal",
+        "preparation": "Both raw (mixed salads with lettuce, dandelions, plantain, watercress, mallow, purslane) and cooked (chard, spinach, escarole stir-fried in olive oil with garlic); preserved (pickled eggplant, sun-dried tomatoes, mushrooms, zucchini, olives)",
+        "reasoning": "No main meal was complete without lots of greens in traditional Mediterranean diet"
+      },
+      "relationships": [
+        {
+          "target_ingredient": "Extra-Virgin Olive Oil",
+          "type": "synergy",
+          "description": "EVOO enhances absorption of fat-soluble vitamins and antioxidants from vegetables; traditional dressing combination"
+        },
+        {
+          "target_ingredient": "Legumes",
+          "type": "synergy",
+          "description": "Combined vegetable and legume fibre provides the 30-45g daily fibre that drives microbiome benefits"
+        }
+      ],
+      "source_chapters": [
+        8
+      ],
+      "category": "vegetable"
+    }
+  ]
+}

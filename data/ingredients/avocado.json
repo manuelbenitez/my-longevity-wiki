@@ -1,0 +1,90 @@
+{
+  "name": "Avocado",
+  "slug": "avocado",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Plant-origin monounsaturated fat associated with lower cardiovascular and cancer death rate",
+      "mechanism": "Contains monounsaturated fatty acids that do not increase cholesterol and protect the heart; plant-origin MUFA specifically associated with lower mortality vs animal-origin MUFA",
+      "study_ref": "Ref 69 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35213147/",
+      "finding": "Prospective study of 110,000+ participants (Pacheco et al., JAHA 2022) found consuming 2+ servings of avocado per week associated with 16% lower risk of cardiovascular disease and 21% lower risk of coronary heart disease compared to non-consumers.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25567051/",
+      "finding": "RCT (Wang et al., 2015, JAHA) showed a moderate-fat diet with one avocado per day significantly reduced LDL cholesterol, small dense LDL, and oxidized LDL compared to matched low-fat or moderate-fat diets without avocado.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23638933/",
+      "finding": "NHANES analysis (Fulgoni et al., 2013) found avocado consumers had significantly higher nutrient intakes, lower body weight, lower BMI, and reduced metabolic syndrome risk compared to non-consumers.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["buttery", "mildly nutty", "creamy", "subtly grassy"],
+    "aroma": ["green", "fresh", "slightly herbaceous"],
+    "texture": ["silky", "creamy", "dense", "smooth"],
+    "culinary_category": "fatty fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lime / lemon juice", "tradition": "Mexican / Latin American", "source": "Guacamole; acidity balances richness and prevents oxidation"},
+    {"ingredient": "tomato", "tradition": "Mexican", "source": "Guacamole, salads; lycopene absorption enhanced by avocado fat"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Both provide complementary plant-origin MUFA profiles"},
+    {"ingredient": "chilli / jalapeño", "tradition": "Mexican / Latin American", "source": "Classic guacamole pairing; capsaicin complementary benefits"},
+    {"ingredient": "eggs", "tradition": "American / Global", "source": "Avocado toast pairing; fat aids absorption of fat-soluble vitamins"},
+    {"ingredient": "black beans", "tradition": "Mexican / Central American", "source": "Complete protein when combined; traditional bowl pairing"},
+    {"ingredient": "cilantro / coriander", "tradition": "Mexican / Southeast Asian", "source": "Classic herb pairing in guacamole and salads"}
+  ],
+  "seasonality": "Hass variety available year-round due to global sourcing. Peak flavour varies by region: California spring-summer, Mexico year-round, Peru winter. Best consumed when slightly soft to gentle pressure.",
+  "nutrient_highlights": [
+    {
+      "compound": "Oleic acid (monounsaturated fat)",
+      "amount_per_100g": "~9.8 g",
+      "bioavailability_notes": "Highly bioavailable; same predominant fatty acid as olive oil. Reduces LDL without lowering HDL."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "485 mg (10% DV)",
+      "bioavailability_notes": "More potassium per serving than a banana. Well-absorbed; supports blood pressure regulation."
+    },
+    {
+      "compound": "Dietary fibre",
+      "amount_per_100g": "6.7 g",
+      "bioavailability_notes": "Mix of soluble and insoluble fibre. Among the highest fibre content of any fruit."
+    },
+    {
+      "compound": "Lutein + zeaxanthin",
+      "amount_per_100g": "~271 mcg",
+      "bioavailability_notes": "Fat-soluble carotenoids highly bioavailable due to avocado's own fat content. Protect against macular degeneration."
+    },
+    {
+      "compound": "Glutathione",
+      "amount_per_100g": "~17.7 mg",
+      "bioavailability_notes": "Among the richest food sources. Master antioxidant; oral bioavailability debated but food-matrix form may be better absorbed than supplements."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "tomato",
+      "mechanism": "Avocado fat increases lycopene absorption from tomatoes by 2-4x"
+    },
+    {
+      "ingredient": "leafy greens",
+      "mechanism": "Fat from avocado increases absorption of fat-soluble carotenoids (beta-carotene, lutein) from greens by 3-5x"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

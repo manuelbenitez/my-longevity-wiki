@@ -1,0 +1,88 @@
+{
+  "name": "Parsley",
+  "slug": "parsley",
+  "category": "herb",
+  "book_claims": [
+    {
+      "claim": "Contains high levels of apigenin which inhibits proliferation of tumour cells in cell culture",
+      "mechanism": "Flavone apigenin directly inhibits tumour cell proliferation",
+      "study_ref": "Ref 104 in book (cell culture studies)",
+      "confidence": "low",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Shukla & Gupta, 2010, PMID: 20104515)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20104515/",
+      "finding": "Apigenin suppresses cancer cell proliferation through multiple mechanisms: cell cycle arrest, induction of apoptosis, and inhibition of angiogenesis. Effective against prostate, breast, lung, and colon cancer cell lines at physiologically achievable concentrations.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Shankar et al., 2017, PMID: 28610754)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28610754/",
+      "finding": "Apigenin exhibits anti-inflammatory activity by inhibiting NF-kB and COX-2 pathways. Also shows neuroprotective effects in animal models of Alzheimer's disease through reduction of oxidative stress and neuroinflammation.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Tang et al., 2017, PMID: 28578553)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28578553/",
+      "finding": "Systematic review found parsley is one of the richest dietary sources of apigenin. Also contains myristicin, which shows chemoprotective activity in animal models by inducing glutathione S-transferase activity in the liver.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["fresh", "grassy", "peppery", "slightly bitter", "clean"],
+    "aroma": ["bright", "herbaceous", "green", "slightly anise-like (flat-leaf)"],
+    "texture": ["crisp stems", "delicate leaves", "light and feathery (curly variety)"],
+    "culinary_category": "herb"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "French", "source": "Persillade (garlic + parsley) is the classic French finishing condiment"},
+    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Gremolata, tabbouleh, and fresh dressings"},
+    {"ingredient": "tomatoes", "tradition": "Italian / Middle Eastern", "source": "Foundation of tabbouleh; classic in Italian tomato sauces"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Salsa verde, chimichurri, and herb-oil dressings"},
+    {"ingredient": "bulgur wheat", "tradition": "Lebanese / Middle Eastern", "source": "Tabbouleh: parsley is the main ingredient, not a garnish"},
+    {"ingredient": "fish", "tradition": "French / Mediterranean", "source": "Classic herb for court-bouillon and fish en papillote"},
+    {"ingredient": "legumes", "tradition": "Middle Eastern", "source": "Essential in falafel, hummus garnish, and bean salads"}
+  ],
+  "seasonality": "Available year-round. Peak freshness in spring and autumn. Grows easily in pots or garden beds. Flat-leaf (Italian) parsley has more flavour than curly varieties.",
+  "nutrient_highlights": [
+    {
+      "compound": "Apigenin",
+      "amount_per_100g": "215-300 mg (dried); 30-45 mg (fresh)",
+      "bioavailability_notes": "Relatively low oral bioavailability but regular dietary intake achieves meaningful tissue concentrations. Enhanced by fat co-consumption."
+    },
+    {
+      "compound": "Vitamin K",
+      "amount_per_100g": "1640 mcg (1367% RDA, fresh)",
+      "bioavailability_notes": "One of the richest food sources. Fat-soluble; pair with olive oil for best absorption."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "133 mg (148% RDA, fresh)",
+      "bioavailability_notes": "Higher than oranges per gram. Degrades with heat; add fresh at end of cooking."
+    },
+    {
+      "compound": "Myristicin",
+      "amount_per_100g": "Variable (concentrated in seeds and essential oil)",
+      "bioavailability_notes": "Chemoprotective compound that induces liver detoxification enzymes (glutathione S-transferase)."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "garlic",
+      "type": "complement",
+      "description": "Persillade tradition; parsley's vitamin C enhances iron absorption from garlic-containing dishes"
+    },
+    {
+      "target_ingredient": "lemon-juice-vitamin-c",
+      "type": "synergy",
+      "description": "Both enhance non-heme iron absorption; combined in gremolata and Middle Eastern salads"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Turmeric",
+  "slug": "turmeric",
+  "category": "spice",
+  "book_claims": [
+    {
+      "claim": "Curcumin has anti-inflammatory, antioxidant and anti-cancer effects, particularly relevant to colon cancer prevention",
+      "mechanism": "Curcumin affects gene activity and induces apoptosis (programmed death) of cancer cells. Inhibitory effects against colon, skin and oral cancer in rodents.",
+      "study_ref": "Refs 81, 82, 83 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Six months of curcumin + quercetin treatment resulted in significant reduction of colon polyp number and size",
+      "mechanism": "Synergistic effect of curcumin and quercetin on colon polyp regression",
+      "study_ref": "Refs 84, 85 in book (pilot study)",
+      "confidence": "medium"
+    },
+    {
+      "claim": "May play a role in dementia prevention by inhibiting amyloid plaque formation",
+      "mechanism": "Curcumin inhibits formation of amyloid plaques associated with Alzheimer's disease",
+      "study_ref": "Ref 86 in book",
+      "confidence": "low"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27213821/",
+      "finding": "Hewlings & Kalman (2017) review in Foods: curcumin at doses of 1000mg/day significantly reduced CRP and other inflammatory biomarkers in multiple RCTs. Anti-inflammatory mechanism operates through inhibition of NF-kB, COX-2, and LOX pathways. Most benefits require enhanced bioavailability formulations (piperine, lipid nanoparticles, or phytosomal forms).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31249528/",
+      "finding": "Sahebkar et al. (2019) meta-analysis of 8 RCTs: curcumin supplementation significantly reduced serum CRP (WMD: -1.55 mg/L), TNF-alpha, and IL-6 levels. Effects were most pronounced in participants with elevated baseline inflammation, supporting the book's anti-inflammatory claims.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/curcumin/",
+      "finding": "Examine's analysis of 282+ studies confirms curcumin reliably reduces inflammatory markers (IL-6, CRP, TNF-alpha) and may modestly improve depression symptoms (comparable to fluoxetine in one RCT). Notes that bioavailability is the key limitation -- standard curcumin has less than 1% oral bioavailability; piperine co-administration increases absorption by 2000%. Cancer prevention evidence is strong in vitro but limited in human trials.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30716389/",
+      "finding": "Small et al. (2018) double-blind RCT in the American Journal of Geriatric Psychiatry (PMID: 29246725): 90mg bioavailable curcumin (Theracurmin) twice daily for 18 months significantly improved memory performance and reduced amyloid/tau accumulation in non-demented adults, measured by FDDNP-PET scans. Supports the book's claim about dementia prevention potential.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31025986/",
+      "finding": "Shoba et al. (1998, classic study PMID 9619120) demonstrated piperine increases curcumin bioavailability by 2000% in humans. Confirmed by multiple subsequent studies. Di Silvestro et al. (2012) showed that even low-dose lipidated curcumin (80mg/day) reduced plasma beta-amyloid, salivary amylase, and plasma sGP-E selectin.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "slightly bitter", "warm", "mildly peppery", "mustard-like"],
+    "aroma": ["earthy", "warm", "ginger-like", "slightly musky", "peppery"],
+    "texture": ["fine powder (dried)", "fibrous and dense (fresh rhizome)"],
+    "culinary_category": "spice / coloring agent"
+  },
+  "culinary_pairings": [
+    {"ingredient": "black pepper", "tradition": "Indian (Ayurvedic)", "source": "Traditional Ayurvedic medicine and Indian cuisine; piperine synergy for curcumin absorption"},
+    {"ingredient": "ginger", "tradition": "Indian / Southeast Asian", "source": "Classic curry base; both rhizomes with complementary anti-inflammatory pathways"},
+    {"ingredient": "coconut milk", "tradition": "Thai / Indonesian", "source": "Thai yellow curry, Indonesian jamu (turmeric tonic)"},
+    {"ingredient": "cumin", "tradition": "Indian / Middle Eastern", "source": "Core Indian spice blend; foundational curry powder combination"},
+    {"ingredient": "lentils and chickpeas", "tradition": "Indian", "source": "Dal and chana masala; turmeric is essential in nearly all Indian legume dishes"},
+    {"ingredient": "rice", "tradition": "Persian / Indian / Southeast Asian", "source": "Turmeric rice (tahdig, biryani, nasi kuning)"},
+    {"ingredient": "cauliflower", "tradition": "Indian", "source": "Aloo gobi; cauliflower readily absorbs turmeric color and flavor"},
+    {"ingredient": "cinnamon and cardamom", "tradition": "Indian / Middle Eastern", "source": "Golden milk (haldi doodh); warming spice blends"}
+  ],
+  "seasonality": "Year-round as dried powder. Fresh turmeric rhizomes peak availability in late autumn to winter harvest (October-March). Store dried powder away from light to preserve curcuminoid content.",
+  "nutrient_highlights": [
+    {
+      "compound": "Curcumin (diferuloylmethane)",
+      "amount_per_100g": "3,000-5,000mg (3-5% of dried turmeric powder by weight)",
+      "bioavailability_notes": "Extremely poor bioavailability (<1%) without enhancers. Piperine (black pepper) increases absorption ~2000%. Fat co-ingestion also improves absorption. Lipid-based and nanoparticle formulations under study."
+    },
+    {
+      "compound": "Demethoxycurcumin",
+      "amount_per_100g": "~1,000-2,000mg",
+      "bioavailability_notes": "Second most abundant curcuminoid; similar bioavailability limitations as curcumin"
+    },
+    {
+      "compound": "Bisdemethoxycurcumin",
+      "amount_per_100g": "~500-1,000mg",
+      "bioavailability_notes": "Third curcuminoid; may have distinct anti-cancer properties"
+    },
+    {
+      "compound": "Turmerone (ar-turmerone)",
+      "amount_per_100g": "Present in turmeric essential oil (2-5% of rhizome)",
+      "bioavailability_notes": "Volatile compound in essential oil fraction; may enhance curcumin absorption and has independent neuroprotective activity in preclinical models"
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "41.4mg",
+      "bioavailability_notes": "Non-heme iron; absorption enhanced by vitamin C co-ingestion"
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "19.8mg",
+      "bioavailability_notes": "High content but consumed in small quantities as a spice; contributes modestly to daily intake"
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "black pepper",
+      "type": "synergy",
+      "description": "Piperine in black pepper doubles blood curcumin levels by improving absorption"
+    },
+    {
+      "target_ingredient": "capers",
+      "type": "synergy",
+      "description": "Quercetin (in capers) + curcumin resulted in significant colon polyp reduction in pilot study"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

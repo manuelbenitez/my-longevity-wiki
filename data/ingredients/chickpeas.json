@@ -1,0 +1,111 @@
+{
+  "name": "Chickpeas",
+  "slug": "chickpeas",
+  "category": "legume",
+  "book_claims": [
+    {
+      "claim": "Far lower calorie density than cheese while providing fibre and protein",
+      "mechanism": "100g cooked chickpeas = 164 cal (2.6g fat, 27g carbs incl 7g fibre, 9g protein) vs 100g Parmesan = 384 cal (28g fat, 0g fibre, 33g protein); fibre induces early satiety",
+      "study_ref": "Nutritional comparison cited in text",
+      "confidence": "high",
+      "_from_chapter": 5
+    },
+    {
+      "claim": "Concentrated source of protein, fibre, vitamins, minerals and low-glycaemic starches",
+      "mechanism": "Complex carbohydrates with high amylose content slowly digested, low glycaemic index",
+      "study_ref": "book-assertion",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20226994/",
+      "finding": "A 2010 RCT (Appetite, PMID 20226994) found that participants consuming chickpeas reported greater satiety, reduced overall food intake, and lower desire to eat processed snacks compared to white bread controls.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (systematic review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27012573/",
+      "finding": "A 2016 systematic review (Nutrients, PMID 27012573) found chickpea consumption was associated with improved glycemic control, reduced serum cholesterol, improved weight management, and beneficial effects on gut microbiota.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22916806/",
+      "finding": "A 2012 RCT (J Food Sci Technol, PMID 22916806) found that adding chickpeas to the diet significantly increased dietary fiber intake and improved lipid profiles within 12 weeks, with reduced total and LDL cholesterol.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (meta-analysis)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24871476/",
+      "finding": "A 2014 CMAJ meta-analysis (PMID 24871476) of 21 RCTs found that one daily serving of pulses including chickpeas reduced LDL cholesterol by 5%, contributing to cardiovascular risk reduction.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "earthy", "mild", "buttery"],
+    "aroma": ["subtle", "earthy", "slightly grassy when fresh"],
+    "texture": ["creamy interior", "firm skin", "mealy when well-cooked", "fluffy in hummus"],
+    "culinary_category": "legume / pulse"
+  },
+  "culinary_pairings": [
+    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Hummus -- sesame adds methionine complementing chickpea's lysine for complete protein"},
+    {"ingredient": "durum wheat pasta", "tradition": "Southern Italian", "source": "Pasta e ceci -- complete protein; traditional Neapolitan comfort food"},
+    {"ingredient": "cumin", "tradition": "Middle Eastern / Indian", "source": "Essential spice in falafel, chana masala, and hummus"},
+    {"ingredient": "lemon juice", "tradition": "Middle Eastern", "source": "Acid brightens earthy flavors; vitamin C improves iron absorption"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Finishing fat for hummus and roasted chickpeas"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Aromatic foundation of hummus, chana, and stews"},
+    {"ingredient": "spinach", "tradition": "Indian / Mediterranean", "source": "Chana palak; iron from both sources enhanced by combined vitamin C"}
+  ],
+  "seasonality": "Dried chickpeas available year-round. Canned are convenient and nutritionally similar. Fresh green chickpeas available briefly in spring in Mediterranean climates. Soak dried chickpeas 24 hours before cooking for best results.",
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "7.6 g (cooked)",
+      "bioavailability_notes": "High in both soluble and insoluble fiber plus resistant starch. One cup provides 12g fiber -- 40% of daily needs."
+    },
+    {
+      "compound": "Plant protein",
+      "amount_per_100g": "8.9 g (cooked)",
+      "bioavailability_notes": "High in lysine; combine with grains or sesame for complete amino acid profile. One cup provides 15g protein."
+    },
+    {
+      "compound": "Folate (B9)",
+      "amount_per_100g": "172 mcg (cooked) -- 43% RDA",
+      "bioavailability_notes": "Excellent source for DNA methylation and cardiovascular health. One cup provides 71% RDA."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "1.03 mg (cooked) -- 45% RDA per cup",
+      "bioavailability_notes": "Cofactor for antioxidant enzymes. Partially bound by phytic acid; soaking and cooking reduce phytate levels."
+    },
+    {
+      "compound": "Copper",
+      "amount_per_100g": "0.35 mg (cooked) -- 64% RDA per cup",
+      "bioavailability_notes": "Important for iron metabolism and connective tissue formation."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "durum-wheat-pasta",
+      "type": "synergy",
+      "description": "Complete protein with all essential amino acids; traditional Italian combination"
+    },
+    {
+      "target_ingredient": "tahini",
+      "type": "complement",
+      "description": "Combined in hummus for complete amino acid profile and healthy fats"
+    },
+    {
+      "target_ingredient": "lemon-juice",
+      "type": "synergy",
+      "description": "Vitamin C from lemon improves non-heme iron absorption"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5, 9]
+}

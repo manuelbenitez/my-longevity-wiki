@@ -1,0 +1,74 @@
+{
+  "name": "Sourdough Bread",
+  "slug": "sourdough-bread",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+      "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
+      "study_ref": "Ref 105 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31540630/",
+      "finding": "Randomized crossover trial (Scazzina et al., 2019) found sourdough bread produced significantly lower glycemic and insulinemic responses compared to bread made with baker's yeast, confirming metabolic advantages of slow fermentation.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33920217/",
+      "finding": "Systematic review (Dimidi et al., 2019) found sourdough fermentation reduced phytic acid by 24-70%, significantly improving mineral bioavailability of iron, zinc, and magnesium compared to conventional yeast bread.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31060901/",
+      "finding": "Review (Gobbetti et al., 2019) found that sourdough lactobacilli partially degrade gluten during fermentation and produce exopolysaccharides that improve gut microbiome composition, suggesting benefits beyond mineral bioavailability.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["tangy", "sour", "complex", "mildly sweet (crust)"],
+    "aroma": ["yeasty", "lactic", "nutty (crust)", "wheaty"],
+    "texture": ["chewy crumb", "crisp crust", "open irregular crumb structure", "dense"],
+    "culinary_category": "fermented grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Classic bread dipping; fat slows carbohydrate absorption"},
+    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Bruschetta and panzanella; traditional pairing"},
+    {"ingredient": "legumes", "tradition": "Mediterranean / Middle Eastern", "source": "Bread + bean soups for complete protein"},
+    {"ingredient": "cheese (aged)", "tradition": "European", "source": "Fermented + fermented pairing; calcium and protein complement"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Garlic rubbed on toasted bread (fettunta); allicin + mineral-rich bread"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Iron (bioavailable)",
+      "amount_per_100g": "2.5-3.5 mg",
+      "bioavailability_notes": "Sourdough fermentation degrades 24-70% of phytic acid, making iron 2-3x more absorbable than in conventional bread."
+    },
+    {
+      "compound": "Zinc",
+      "amount_per_100g": "1.5-2.5 mg",
+      "bioavailability_notes": "Phytate reduction during fermentation significantly improves zinc bioavailability compared to yeast-leavened bread."
+    },
+    {
+      "compound": "B vitamins (thiamine, folate)",
+      "amount_per_100g": "varies by flour",
+      "bioavailability_notes": "Sourdough fermentation increases folate content by 2-3x compared to conventional bread through microbial synthesis."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "refined-grains",
+      "type": "antagonism",
+      "description": "Sourdough whole grain bread far superior to white bread"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

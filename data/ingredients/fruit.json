@@ -1,0 +1,101 @@
+{
+  "name": "Fruit (Overview)",
+  "slug": "fruit",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Regular consumption supports disease prevention and longevity",
+      "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium"
+    },
+    {
+      "claim": "53% reduced risk of Crohn's disease with higher consumption of vegetables and fruit",
+      "mechanism": "Pectin and other fruit fibres feed beneficial gut bacteria and produce anti-inflammatory short-chain fatty acids",
+      "study_ref": "Ref 40 in book",
+      "confidence": "high"
+    },
+    {
+      "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+      "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+      "study_ref": "Refs 22, 23, 24 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27170217/",
+      "finding": "Aune et al. (2017, BMJ): meta-analysis of 95 prospective studies found fruit consumption associated with dose-dependent reductions in cardiovascular disease, cancer, and all-cause mortality. Optimal intake appeared to be around 800g/day of combined fruit and vegetables.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24898223/",
+      "finding": "China Kadoorie Biobank (Du et al., 2016): 500,000-person study found daily fresh fruit consumption associated with 40% lower cardiovascular mortality, 34% lower ischaemic heart disease, and 25% lower stroke compared to non-consumers.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "finding": "GBD 2017 analysis identified low fruit intake as a leading dietary risk factor globally, responsible for approximately 3.4 million deaths annually, primarily from cardiovascular disease and cancer.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "tart", "complex", "varies widely by type"],
+    "aroma": ["fruity", "floral", "bright", "seasonal"],
+    "texture": ["juicy", "firm to soft", "varied"],
+    "culinary_category": "fruit (general)"
+  },
+  "culinary_pairings": [
+    {"ingredient": "nuts", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional pairing as dessert; fat + fibre combination"},
+    {"ingredient": "yogurt", "tradition": "Mediterranean / European", "source": "Breakfast staple; probiotics + fruit polyphenols"},
+    {"ingredient": "oats / whole grains", "tradition": "Northern European", "source": "Porridge and muesli; dual fibre sources"},
+    {"ingredient": "dark chocolate", "tradition": "European / Global", "source": "Polyphenol-rich dessert combination"},
+    {"ingredient": "honey", "tradition": "Mediterranean", "source": "Traditional sweetener pairing for baked and fresh fruit"},
+    {"ingredient": "cinnamon / spices", "tradition": "Global", "source": "Warming spices complement fruit sweetness in compotes and bakes"}
+  ],
+  "seasonality": "Eat seasonally when possible: stone fruits and berries in summer, apples and pears in autumn, citrus in winter, dried fruits year-round. Frozen fruit retains most nutrients. Fontana's protocol includes seasonal fresh fruit as dessert and dried fruit in winter.",
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "Varies: 4-90 mg depending on fruit",
+      "bioavailability_notes": "Highly bioavailable from whole fruit. Degrades with cooking and prolonged storage."
+    },
+    {
+      "compound": "Dietary fibre",
+      "amount_per_100g": "Varies: 1-10 g depending on fruit",
+      "bioavailability_notes": "Mix of soluble (pectin) and insoluble fibre. Whole fruit food matrix critical for glycaemic control."
+    },
+    {
+      "compound": "Polyphenols (diverse classes)",
+      "amount_per_100g": "Varies: 50-1500+ mg depending on fruit",
+      "bioavailability_notes": "Anthocyanins, flavanones, ellagitannins, chlorogenic acid etc. Gut microbial metabolism produces bioactive metabolites."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "Varies: 100-700 mg depending on fruit",
+      "bioavailability_notes": "Well-absorbed. Fruit is a major dietary potassium source supporting blood pressure regulation."
+    },
+    {
+      "compound": "Carotenoids (beta-carotene, lycopene, lutein)",
+      "amount_per_100g": "Varies by colour; orange/red fruits highest",
+      "bioavailability_notes": "Fat-soluble; absorption improved when eaten with healthy fats (nuts, olive oil, avocado)."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "vegetables",
+      "mechanism": "Combined fruit and vegetable intake provides diverse phytochemicals; 800g/day combined shows optimal mortality reduction"
+    },
+    {
+      "ingredient": "nuts",
+      "mechanism": "Fat from nuts improves absorption of fat-soluble vitamins and carotenoids from fruit"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4, 7, 8]
+}

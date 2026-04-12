@@ -1,0 +1,80 @@
+{
+  "name": "Pumpkin",
+  "slug": "pumpkin",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Superior source of antioxidants due to generous amounts of alpha-carotene, zeaxanthin and lutein",
+      "mechanism": "Multiple carotenoid types provide broader antioxidant coverage than beta-carotene alone",
+      "study_ref": "book-assertion",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Li et al., 2011, PMID: 21067421)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21067421/",
+      "finding": "Higher serum alpha-carotene concentrations inversely associated with risk of death from all causes, cardiovascular disease, and cancer in a large NHANES study (n=15,318). Pumpkin is one of the richest dietary sources of alpha-carotene.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Murkovic et al., 2002, PMID: 12358448)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12358448/",
+      "finding": "Pumpkin seed oil contains high concentrations of delta-7-sterols which may inhibit DHT production. Pumpkin flesh carotenoid content varies 2-10x by cultivar, with deep orange varieties having the most.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Nishimura et al., 2014, PMID: 24655226)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24655226/",
+      "finding": "Pumpkin polysaccharides demonstrate immunomodulatory, anti-tumor, and hypoglycemic effects in animal models. The multi-carotenoid profile provides broader protection than any single carotenoid.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mildly sweet", "earthy", "nutty", "buttery when roasted"],
+    "aroma": ["warm", "sweet", "earthy", "autumnal"],
+    "texture": ["dense and smooth when cooked", "creamy when pureed", "tender when roasted"],
+    "culinary_category": "squash / gourd"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat essential for carotenoid absorption; roasted pumpkin with EVOO is a staple"},
+    {"ingredient": "sage", "tradition": "Italian", "source": "Classic Italian pairing: pumpkin ravioli with brown butter and sage"},
+    {"ingredient": "chickpeas", "tradition": "Middle Eastern / North African", "source": "Pumpkin hummus; complementary textures and nutrients in tagines"},
+    {"ingredient": "cinnamon", "tradition": "Global", "source": "Warm spice amplifies pumpkin's natural sweetness; anti-inflammatory synergy"},
+    {"ingredient": "ginger", "tradition": "Asian / Modern", "source": "Pumpkin-ginger soup; both are anti-inflammatory"},
+    {"ingredient": "coconut milk", "tradition": "Thai / Southeast Asian", "source": "Pumpkin curry with coconut milk; fat carrier for carotenoid absorption"},
+    {"ingredient": "nutmeg", "tradition": "European / American", "source": "Classic warm spice pairing in pumpkin soups and baked goods"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Alpha-carotene",
+      "amount_per_100g": "4016 mcg",
+      "bioavailability_notes": "One of the richest sources. Associated with reduced all-cause mortality. Fat co-ingestion increases absorption significantly."
+    },
+    {
+      "compound": "Beta-carotene",
+      "amount_per_100g": "3100 mcg",
+      "bioavailability_notes": "Converted to vitamin A as needed. Cooking increases bioavailability by breaking cell walls."
+    },
+    {
+      "compound": "Lutein + Zeaxanthin",
+      "amount_per_100g": "1500 mcg",
+      "bioavailability_notes": "Protect retinal macula from oxidative damage. Fat-soluble; pair with olive oil."
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "340 mg",
+      "bioavailability_notes": "Highly bioavailable. Important for blood pressure regulation."
+    },
+    {
+      "compound": "Fiber",
+      "amount_per_100g": "0.5 g (flesh) but pumpkin seeds contain 18 g",
+      "bioavailability_notes": "Flesh is low-fiber but very nutrient-dense. Seeds are the fiber powerhouse."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Walnuts",
+  "slug": "walnuts",
+  "category": "nut",
+  "book_claims": [
+    {
+      "claim": "Excellent source of omega-3 alpha-linolenic acid with cardioprotective properties",
+      "mechanism": "100g provides 9g alpha-linolenic acid, converted to DHA and EPA. These omega-3 reduce inflammation, platelet aggregation, triglycerides. Rich in vitamin E and polyphenols preventing LDL oxidation.",
+      "study_ref": "Refs 177, 178, 179, 180 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31504084/",
+      "finding": "The WAHA trial (Rajaram et al., 2021; Barcelona cohort) found daily walnut consumption (~30-60g) for 2 years significantly reduced LDL cholesterol and total cholesterol in healthy elderly adults versus control diet.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33190147/",
+      "finding": "Prospective analysis from the Nurses' Health Study (Liu et al., JAHA 2020) found consuming 5+ servings of walnuts per week associated with 14% lower mortality risk and ~1.3 years greater life expectancy compared to non-consumers.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/foods/walnuts/",
+      "finding": "Examine rates walnuts as having strong evidence for LDL cholesterol reduction, moderate evidence for improved vascular function and blood pressure, and notable evidence for improved gut microbiome composition and cognitive function.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28646088/",
+      "finding": "Meta-analysis (Guasch-Ferre et al., 2017) of 26 clinical trials found walnut-enriched diets significantly decreased total cholesterol, LDL cholesterol, triglycerides, and ApoB compared to control diets.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34687086/",
+      "finding": "Meta-analysis of prospective studies (Aune et al., BMC Medicine 2016; updated pooling) found nut consumption (especially walnuts) associated with reduced risk of coronary heart disease, stroke, cardiovascular disease, and all-cause mortality in a dose-response manner.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["bitter (skin)", "mildly sweet", "earthy", "tannic", "creamy"],
+    "aroma": ["woody", "slightly musty", "warm", "buttery when toasted"],
+    "texture": ["crunchy", "meaty", "crumbly", "oily"],
+    "culinary_category": "tree nut"
+  },
+  "culinary_pairings": [
+    {"ingredient": "blue cheese / gorgonzola", "tradition": "Italian / French", "source": "Classic European salad and pasta combination"},
+    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional pairing in baklava and cheese plates"},
+    {"ingredient": "pomegranate", "tradition": "Persian / Georgian", "source": "Fesenjan (Persian walnut-pomegranate stew)"},
+    {"ingredient": "apple / pear", "tradition": "European", "source": "Classic Waldorf salad; autumn fruit-nut pairings"},
+    {"ingredient": "olive oil", "tradition": "Italian", "source": "Pesto alla genovese variation; Ligurian walnut sauce"},
+    {"ingredient": "dark chocolate", "tradition": "French / Global", "source": "Confectionery tradition; complementary polyphenol profiles"},
+    {"ingredient": "banana", "tradition": "American / Global", "source": "Banana walnut bread; breakfast combinations"},
+    {"ingredient": "beets", "tradition": "Eastern European / Mediterranean", "source": "Roasted beet and walnut salad"},
+    {"ingredient": "basil", "tradition": "Italian (Ligurian)", "source": "Salsa di noci (Ligurian walnut sauce for pasta)"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Balkan", "source": "Baklava and pastry spice pairings"}
+  ],
+  "seasonality": "Harvested September-November in Northern Hemisphere. Best fresh (in-shell) in autumn/winter. Available year-round shelled. Store refrigerated or frozen to prevent rancidity of omega-3 oils.",
+  "nutrient_highlights": [
+    {
+      "compound": "Alpha-linolenic acid (ALA, omega-3)",
+      "amount_per_100g": "9.08 g",
+      "bioavailability_notes": "Conversion to EPA is ~5-10%, to DHA ~2-5%. Better absorbed with food. Walnuts are the richest common nut source of ALA."
+    },
+    {
+      "compound": "Polyphenols (ellagitannins, pedunculagin)",
+      "amount_per_100g": "~1,556 mg gallic acid equivalents (among highest of all nuts)",
+      "bioavailability_notes": "Ellagitannins are hydrolyzed to ellagic acid in the gut, then converted by microbiota to urolithins which have anti-inflammatory and anti-aging properties."
+    },
+    {
+      "compound": "Vitamin E (gamma-tocopherol)",
+      "amount_per_100g": "20.8 mg gamma-tocopherol",
+      "bioavailability_notes": "Gamma-tocopherol is the predominant form (vs alpha in supplements); has unique anti-inflammatory properties not shared by alpha-tocopherol."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "158 mg (38% DV)",
+      "bioavailability_notes": "Good bioavailability; partially offset by phytate content which can be reduced by soaking."
+    },
+    {
+      "compound": "Copper",
+      "amount_per_100g": "1.59 mg (177% DV)",
+      "bioavailability_notes": "Essential for superoxide dismutase (SOD) antioxidant enzyme function"
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

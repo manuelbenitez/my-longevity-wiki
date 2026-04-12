@@ -1,0 +1,102 @@
+{
+  "name": "Carrots",
+  "slug": "carrots",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Despite high glycaemic index, very low carbohydrate load makes them healthy",
+      "mechanism": "High GI but very low total carbohydrate content means negligible actual glucose load; provides vitamins and phytochemicals",
+      "study_ref": "book-assertion (glycaemic index vs glucose load distinction)",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Loaded with carotenoids essential for vitamin A production, eye health, immune function and prenatal development",
+      "mechanism": "Beta-carotene is converted to vitamin A which plays key role in eye and immune function",
+      "study_ref": "Ref 53 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Contains polyacetylene with preventative effects against thrombosis and cancer",
+      "mechanism": "Polyacetylene compound found in Apiaceae family (carrots, celery, parsley) displays anti-thrombotic and anti-cancer activity",
+      "study_ref": "Ref 54 in book",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Xu et al., 2014, PMID: 24816726)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24816726/",
+      "finding": "Meta-analysis found dietary carrot intake associated with a 26% reduction in gastric cancer risk. Dose-response analysis showed each 100g/day increase reduced risk by 5%.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Kobaek-Larsen et al., 2005, PMID: 16203841)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16203841/",
+      "finding": "Falcarinol (a polyacetylene from carrots) reduced precancerous colon lesions by one-third in rats, directly supporting the book's polyacetylene anti-cancer claim.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Rock et al., 2012, PMID: 22648725)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22648725/",
+      "finding": "Beta-carotene from cooked, pureed carrots is 3x more bioavailable than from raw carrots, confirming the book's preparation advice. Adding fat further increased absorption by 50%.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/vitamin-a/",
+      "finding": "Beta-carotene conversion to vitamin A is tightly regulated by the body, preventing toxicity unlike preformed retinol. Cooking and fat co-ingestion reliably increase carotenoid absorption.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet", "earthy", "slightly bitter when raw", "intensely sweet when roasted"],
+    "aroma": ["earthy", "sweet", "woody", "warm when cooked"],
+    "texture": ["crunchy and firm raw", "tender and creamy when pureed", "caramelized edges when roasted"],
+    "culinary_category": "root vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat required for carotenoid absorption; book specifically recommends pairing"},
+    {"ingredient": "ginger", "tradition": "East Asian / Modern", "source": "Carrot-ginger soup is a classic; both provide anti-inflammatory compounds"},
+    {"ingredient": "cumin", "tradition": "North African / Middle Eastern", "source": "Warm spice complements carrot's sweetness in Moroccan salads and soups"},
+    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid balances sweetness; vitamin C enhances iron absorption from carrot greens"},
+    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Fat from sesame aids carotenoid absorption; complementary flavors in roasted carrot dishes"},
+    {"ingredient": "celery", "tradition": "French (mirepoix)", "source": "Same Apiaceae family; foundation of French and Italian cooking bases"},
+    {"ingredient": "turmeric", "tradition": "Indian", "source": "Both provide complementary carotenoids and anti-inflammatory compounds"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Beta-carotene",
+      "amount_per_100g": "8285 mcg (raw), up to 10,000 mcg (cooked)",
+      "bioavailability_notes": "3x more bioavailable cooked and pureed vs raw. Fat co-ingestion essential. Body regulates conversion to vitamin A, preventing toxicity."
+    },
+    {
+      "compound": "Falcarinol (polyacetylene)",
+      "amount_per_100g": "1-7 mg depending on variety and growing conditions",
+      "bioavailability_notes": "Fat-soluble. Reduced precancerous colon lesions by 33% in animal studies. Concentrated in carrot peel -- do not peel if organic."
+    },
+    {
+      "compound": "Alpha-carotene",
+      "amount_per_100g": "3477 mcg",
+      "bioavailability_notes": "Converted to vitamin A at roughly half the rate of beta-carotene. Inversely associated with all-cause mortality in NHANES data."
+    },
+    {
+      "compound": "Fiber",
+      "amount_per_100g": "2.8 g (mostly soluble pectin)",
+      "bioavailability_notes": "Soluble fiber feeds beneficial gut bacteria. Contributes to the very low glycemic load despite moderate GI."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "extra-virgin olive oil",
+      "type": "synergy",
+      "description": "Fat needed at same meal to optimize carotenoid absorption and conversion to vitamin A"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7, 9]
+}

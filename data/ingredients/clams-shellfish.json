@@ -1,0 +1,74 @@
+{
+  "name": "Clams / Shellfish",
+  "slug": "clams-shellfish",
+  "category": "fish_seafood",
+  "book_claims": [
+    {
+      "claim": "Exceptionally rich source of vitamin B12 (100g clams = up to 49 mcg B12)",
+      "mechanism": "Marine organisms accumulate B12 from bacteria in aquatic environments",
+      "study_ref": "book-assertion with specific nutritional data",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26024545/",
+      "finding": "Shellfish consumption is inversely associated with cardiovascular disease risk, partly through provision of omega-3 fatty acids, B12, selenium, and zinc (Rimm et al., 2018).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171976/nutrients",
+      "finding": "Cooked clams provide 98.9 mcg B12 per 100g (4,120% DV), confirming their status as the single richest natural food source of vitamin B12.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29580532/",
+      "finding": "Systematic review (Watanabe et al., 2014) confirms bivalve mollusks (clams, mussels, oysters) as the most bioavailable dietary source of vitamin B12, with absorption rates superior to supplements in food-bound form.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["briny", "sweet", "umami", "mineral"],
+    "aroma": ["oceanic", "clean", "slightly iodine"],
+    "texture": ["tender", "chewy", "succulent"],
+    "culinary_category": "shellfish"
+  },
+  "culinary_pairings": [
+    {"ingredient": "garlic", "tradition": "Italian / Mediterranean", "source": "Spaghetti alle vongole"},
+    {"ingredient": "white wine", "tradition": "Italian / French", "source": "Classic steaming liquid for shellfish"},
+    {"ingredient": "parsley", "tradition": "Mediterranean", "source": "Traditional garnish and flavor complement"},
+    {"ingredient": "lemon juice", "tradition": "Global seafood", "source": "Acid brightens shellfish flavor and aids iron absorption"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Enhances fat-soluble nutrient absorption"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin B12",
+      "amount_per_100g": "49-99 mcg (2,000-4,120% DV)",
+      "bioavailability_notes": "Highly bioavailable in food-bound form; superior to synthetic supplements for absorption."
+    },
+    {
+      "compound": "Iron (heme)",
+      "amount_per_100g": "28 mg (155% DV)",
+      "bioavailability_notes": "Heme iron from shellfish is 2-3x more bioavailable than plant-based non-heme iron."
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "64 mcg (116% DV)",
+      "bioavailability_notes": "Selenomethionine form in shellfish is well absorbed; cofactor for glutathione peroxidase antioxidant system."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "vitamin-b12",
+      "type": "complement",
+      "description": "One of the richest natural food sources of B12"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

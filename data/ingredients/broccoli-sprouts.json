@@ -1,0 +1,87 @@
+{
+  "name": "Broccoli Sprouts",
+  "slug": "broccoli-sprouts",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "3-day-old broccoli sprouts contain 10-100x higher glucoraphanin levels than mature plants, highly effective in reducing breast cancer incidence in animals",
+      "mechanism": "Glucoraphanin is converted to sulforaphane, a potent activator of phase 2 detoxification enzymes via Nrf2 pathway",
+      "study_ref": "Refs 193, 194, 195 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Fahey et al., 1997, PMID: 9294217)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9294217/",
+      "finding": "Broccoli sprouts contain 20-50x the concentration of chemoprotective glucosinolates found in mature broccoli heads, confirming the book's 10-100x claim for glucoraphanin specifically.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Shapiro et al., 2006, PMID: 16569436)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16569436/",
+      "finding": "Broccoli sprout extracts significantly induced phase 2 detoxification enzymes (NQO1, GST) in human clinical trials, validating the Nrf2 activation mechanism described in the book.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Egner et al., 2014, PMID: 24913818)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24913818/",
+      "finding": "Broccoli sprout beverage enhanced detoxification of airborne pollutants (benzene by 61%, acrolein by 23%) in a randomized trial in Qidong, China. Demonstrates real-world chemoprotective effect.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/sulforaphane/",
+      "finding": "Sulforaphane from broccoli sprouts is the most potent naturally occurring inducer of Nrf2, with evidence for anti-cancer, neuroprotective, and anti-diabetic effects. Myrosinase-active preparations are far superior to glucoraphanin-only supplements.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mildly bitter", "peppery", "slightly sweet", "green"],
+    "aroma": ["fresh", "mildly sulfurous", "grassy"],
+    "texture": ["crunchy", "delicate", "tender stems"],
+    "culinary_category": "garnish / salad green"
+  },
+  "culinary_pairings": [
+    {"ingredient": "avocado", "tradition": "Californian / modern health", "source": "Fat from avocado enhances sulforaphane absorption; mild flavor balances bitterness"},
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid brightens sprouts and may help stabilize sulforaphane"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Healthy fat carrier for fat-soluble isothiocyanates"},
+    {"ingredient": "mustard seeds", "tradition": "European", "source": "Mustard provides exogenous myrosinase to boost sulforaphane conversion when sprouts are cooked"},
+    {"ingredient": "smoked salmon", "tradition": "Scandinavian", "source": "Classic open-sandwich topping; omega-3 complements sprout antioxidants"},
+    {"ingredient": "rice bowls", "tradition": "Japanese", "source": "Kaiware daikon sprouts are traditional; broccoli sprouts serve the same role"},
+    {"ingredient": "eggs", "tradition": "Western brunch", "source": "Sprouts added to scrambled eggs or omelettes as finishing garnish"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Glucoraphanin",
+      "amount_per_100g": "70-100 mg (vs 1-10 mg in mature broccoli)",
+      "bioavailability_notes": "Converted to sulforaphane by myrosinase enzyme. Chewing raw sprouts activates myrosinase. Cooking destroys myrosinase but gut bacteria can partially convert glucoraphanin. Adding mustard restores conversion."
+    },
+    {
+      "compound": "Sulforaphane (from glucoraphanin)",
+      "amount_per_100g": "Up to 40 mg from raw sprouts after chewing",
+      "bioavailability_notes": "Bioavailability ~80% from raw sprouts with active myrosinase. Drops to ~10-15% from cooked sprouts without exogenous myrosinase. Peak plasma levels at 1-3 hours post-ingestion."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "60-100 mg",
+      "bioavailability_notes": "High bioavailability. Complements sulforaphane's antioxidant action."
+    },
+    {
+      "compound": "Vitamin K",
+      "amount_per_100g": "~100 mcg",
+      "bioavailability_notes": "Fat-soluble; pair with olive oil or avocado for absorption."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "cruciferous vegetables",
+      "type": "synergy",
+      "description": "Same sulforaphane pathway but 10-100x more concentrated"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

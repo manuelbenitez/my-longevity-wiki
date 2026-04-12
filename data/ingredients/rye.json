@@ -1,0 +1,105 @@
+{
+  "name": "Rye",
+  "slug": "rye",
+  "category": "grain",
+  "book_claims": [
+    {
+      "claim": "Listed as one of the key whole grains for longevity diet alongside barley, oats, and brown rice",
+      "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium",
+      "_from_chapter": 4
+    },
+    {
+      "claim": "Whole grains including rye associated with 17-19% lower all-cause mortality",
+      "mechanism": "Multiple pathways: fiber, phytochemicals, minerals, spermidine. Bran contains ferulic acid, alkylresorcinols, apigenin, and lignans with antioxidative and anticarcinogenic activities.",
+      "study_ref": "Refs 121, 90 in book (NIH-AARP Diet and Health Study)",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24787713/",
+      "finding": "A 2014 RCT (PMID 24787713) found that whole grain rye bread significantly reduced postprandial insulin response compared to refined wheat bread, with effects persisting to the next meal (second-meal effect).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (RCT)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20303177/",
+      "finding": "A 2010 RCT (J Nutr, PMID 20303177) found that whole grain rye consumption led to greater satiety, lower hunger, and reduced desire to eat compared to refined wheat, attributed to higher fiber content and intact kernel structure.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (prospective cohort)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25477716/",
+      "finding": "A 2015 Scandinavian study (Am J Clin Nutr, PMID 25477716) found that higher whole grain rye intake was associated with lower risk of type 2 diabetes in a Nordic population, independent of other dietary factors.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24684371/",
+      "finding": "A 2014 review (Food Nutr Res, PMID 24684371) found rye is the richest cereal source of alkylresorcinols, phenolic lipids with anti-cancer and anti-inflammatory properties that serve as biomarkers for whole grain intake.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy", "slightly sour", "malty", "robust"],
+    "aroma": ["deep", "tangy", "grain-forward", "complex"],
+    "texture": ["dense", "moist", "chewy"],
+    "culinary_category": "whole grain"
+  },
+  "culinary_pairings": [
+    {"ingredient": "caraway seeds", "tradition": "Northern / Eastern European", "source": "Classic rye bread flavoring; both share earthy aromatic compounds"},
+    {"ingredient": "smoked fish", "tradition": "Scandinavian", "source": "Open-faced sandwiches (smorrebrod); dense rye supports rich toppings"},
+    {"ingredient": "sauerkraut", "tradition": "German / Eastern European", "source": "Fermented pairing; both provide gut-beneficial bacteria and fiber"},
+    {"ingredient": "dark honey", "tradition": "Northern European", "source": "Sweetens rye's tangy bitterness in baking tradition"},
+    {"ingredient": "dill", "tradition": "Scandinavian / Eastern European", "source": "Fresh herb complements rye's earthy depth"},
+    {"ingredient": "beetroot", "tradition": "Nordic / Eastern European", "source": "Earthy root vegetable on rye bread; complementary flavors"}
+  ],
+  "seasonality": "Rye grain and flour available year-round. Harvested in late summer. Rye flour should be stored in fridge or freezer to prevent rancidity from its higher fat content.",
+  "nutrient_highlights": [
+    {
+      "compound": "Alkylresorcinols",
+      "amount_per_100g": "36-320 mg (richest cereal source)",
+      "bioavailability_notes": "Phenolic lipids with anti-cancer properties. Used as biomarkers for whole grain rye intake in epidemiological studies. Concentrated in bran layer."
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "15.1 g (whole grain flour)",
+      "bioavailability_notes": "Mix of arabinoxylan (predominant), beta-glucan, cellulose, and fructans. Rye arabinoxylan is more water-soluble than wheat's, contributing to greater viscosity and satiety."
+    },
+    {
+      "compound": "Lignans",
+      "amount_per_100g": "0.3-1.0 mg",
+      "bioavailability_notes": "Phytoestrogens converted to enterolactone and enterodiol by gut bacteria. Associated with reduced breast and prostate cancer risk."
+    },
+    {
+      "compound": "Ferulic acid",
+      "amount_per_100g": "100-150 mg",
+      "bioavailability_notes": "Bound phenolic acid with antioxidant and anti-inflammatory activity. Released during digestion and by gut bacteria in the colon."
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "2.6 mg (113% RDA)",
+      "bioavailability_notes": "High content; cofactor for antioxidant and metabolic enzymes."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "legumes",
+      "type": "synergy",
+      "description": "Complementary amino acid profiles create complete protein when combined"
+    },
+    {
+      "target_ingredient": "sourdough-bread-wholegrain",
+      "type": "complement",
+      "description": "Sourdough fermentation of rye reduces phytic acid and improves mineral bioavailability"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4, 9]
+}

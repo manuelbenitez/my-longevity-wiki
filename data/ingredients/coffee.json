@@ -1,0 +1,92 @@
+{
+  "name": "Coffee",
+  "slug": "coffee",
+  "category": "beverage",
+  "book_claims": [
+    {
+      "claim": "3-4 cups per day achieves largest risk reduction for cardiovascular and cancer outcomes",
+      "mechanism": "Not fully specified in this chapter; epidemiological association",
+      "study_ref": "Ref 236 in book (epidemiological studies)",
+      "confidence": "medium",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Poole et al., 2017, PMID: 29167102)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29167102/",
+      "finding": "Umbrella review of 201 meta-analyses found coffee consumption consistently associated with reduced risk of all-cause mortality, cardiovascular disease, type 2 diabetes, and several cancers. Largest benefit at 3-4 cups/day with 17% lower all-cause mortality compared to non-drinkers.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Ding et al., 2014, PMID: 24459154)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24459154/",
+      "finding": "Meta-analysis of 36 studies with over 1.2 million participants found a J-shaped relationship between coffee and cardiovascular mortality, with maximum benefit at 3-5 cups/day (significant 15% risk reduction). Both caffeinated and decaf showed benefits.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Loftfield et al., 2022, PMID: 35854551)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35854551/",
+      "finding": "UK Biobank study (>170,000 participants, median 7-year follow-up) found 2-3 cups of ground, instant, or decaffeinated coffee per day associated with significant reductions in cardiovascular disease incidence and mortality. Ground coffee showed strongest association.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/coffee/",
+      "finding": "Strong evidence for reduced all-cause mortality, type 2 diabetes risk, and liver disease risk. Chlorogenic acids and caffeic acid identified as key bioactive compounds beyond caffeine. Filter coffee preferred over unfiltered (boiled/French press) due to diterpene removal.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["bitter", "complex", "acidic (light roast)", "chocolatey (dark roast)", "nutty"],
+    "aroma": ["roasted", "caramel", "fruity (light roast)", "smoky (dark roast)", "earthy"],
+    "texture": ["liquid", "full-bodied (French press)", "clean (filter)"],
+    "culinary_category": "beverage"
+  },
+  "culinary_pairings": [
+    {"ingredient": "dark-chocolate", "tradition": "Global", "source": "Mocha; shared chlorogenic acid and flavanol compounds"},
+    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Turkish", "source": "Traditional Middle Eastern coffee spicing; complementary blood glucose effects"},
+    {"ingredient": "walnuts", "tradition": "European", "source": "Classic accompaniment; shared polyphenol benefits"},
+    {"ingredient": "oat-porridge", "tradition": "Western", "source": "Breakfast pairing; but consume coffee between meals for iron absorption"},
+    {"ingredient": "cardamom", "tradition": "Middle Eastern", "source": "Arabic/Turkish coffee tradition; adds complexity and digestive benefits"}
+  ],
+  "seasonality": "Available year-round. Beans from different origins have seasonal harvests (October-March for Central America, April-August for East Africa). Freshly roasted and ground beans retain volatile compounds and chlorogenic acids better than pre-ground.",
+  "nutrient_highlights": [
+    {
+      "compound": "Chlorogenic acids",
+      "amount_per_100g": "35-175 mg per cup (varies by roast and brewing method)",
+      "bioavailability_notes": "Primary bioactive polyphenol. Light roasts retain more than dark roasts. Hydrolysed in the gut to caffeic acid, which is well absorbed."
+    },
+    {
+      "compound": "Caffeine",
+      "amount_per_100g": "80-100 mg per cup (filter coffee)",
+      "bioavailability_notes": "Rapidly and nearly completely absorbed. Half-life 3-7 hours, varies by CYP1A2 genotype. Fast metabolisers may benefit more from coffee consumption."
+    },
+    {
+      "compound": "Trigonelline",
+      "amount_per_100g": "40-110 mg per cup",
+      "bioavailability_notes": "Contributes to coffee's flavour and aroma. Demonstrates anti-diabetic and neuroprotective effects in animal models."
+    },
+    {
+      "compound": "Diterpenes (cafestol, kahweol)",
+      "amount_per_100g": "Varies by preparation (high in unfiltered; removed by paper filter)",
+      "bioavailability_notes": "Raise LDL cholesterol. Paper-filtered coffee removes 80-90% of diterpenes. This is why the book specifies filter coffee."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "dark-chocolate",
+      "type": "complement",
+      "description": "Shared chlorogenic acid family compounds; complementary flavanol profiles"
+    }
+  ],
+  "warnings": [
+    "Consume between meals, not with iron-rich foods -- polyphenols chelate iron and reduce absorption (see tea-coffee-cocoa entry)",
+    "Filter coffee preferred over French press/boiled to remove cholesterol-raising diterpenes",
+    "Avoid in late afternoon/evening due to caffeine half-life; can disrupt sleep quality"
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

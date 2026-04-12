@@ -1,0 +1,96 @@
+{
+  "name": "Citrus Fruits",
+  "slug": "citrus-fruits",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Vitamin C from citrus increases iron and zinc absorption from plant foods",
+      "mechanism": "Vitamin C reduces ferric iron (Fe3+) to ferrous iron (Fe2+) which is more readily absorbed; also chelates minerals making them more bioavailable",
+      "study_ref": "Refs 101, 102 in book (via lemon juice entry)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Provide antioxidant vitamins (especially vitamin C) that protect against oxidative damage",
+      "mechanism": "Vitamin C neutralises free radicals, prevents LDL oxidation",
+      "study_ref": "Refs 22, 23, 24 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27170217/",
+      "finding": "Aune et al. (2017, BMJ) meta-analysis of 95 prospective studies: citrus fruit consumption associated with reduced risk of cardiovascular disease, stroke, and total cancer in a dose-dependent manner.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28159772/",
+      "finding": "Systematic review (Lv et al., 2015) of 14 prospective studies found citrus fruit consumption inversely associated with stroke risk, with a 10% risk reduction per 200g/day increment.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28573172/",
+      "finding": "Hesperidin and naringenin (citrus flavanones) improve endothelial function, reduce blood pressure, and decrease inflammatory markers in human trials (Testai & Calderone, 2017).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sour", "sweet (varies)", "bright", "zesty", "bitter (pith/peel)"],
+    "aroma": ["sharp", "fresh", "floral", "essential-oil-rich"],
+    "texture": ["juicy", "segmented", "pulpy", "vesicle-bursting"],
+    "culinary_category": "acidic fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "leafy greens / salads", "tradition": "Mediterranean / Global", "source": "Citrus dressings; vitamin C enhances iron absorption from greens"},
+    {"ingredient": "fish / seafood", "tradition": "Mediterranean / Latin American", "source": "Classic pairing; acidity brightens and denatures proteins (ceviche)"},
+    {"ingredient": "olive oil", "tradition": "Mediterranean", "source": "Citrus vinaigrettes; fat improves flavanone absorption"},
+    {"ingredient": "legumes", "tradition": "Global", "source": "Lemon on lentils/beans dramatically increases iron absorption"},
+    {"ingredient": "ginger", "tradition": "Asian / Global", "source": "Ginger-citrus combinations in drinks and marinades"},
+    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Hot lemon-honey drinks; citrus marmalades"},
+    {"ingredient": "avocado", "tradition": "Latin American", "source": "Lime-avocado pairing in guacamole; acidity balances fat"}
+  ],
+  "seasonality": "Northern Hemisphere citrus peaks November-April. Lemons and limes available year-round. Blood oranges January-March. Grapefruit November-June. Southern Hemisphere offsets the season by six months.",
+  "nutrient_highlights": [
+    {
+      "compound": "Vitamin C (ascorbic acid)",
+      "amount_per_100g": "~30-90 mg (oranges ~53 mg, lemons ~53 mg, grapefruit ~31 mg)",
+      "bioavailability_notes": "Nearly 100% bioavailable at typical dietary doses. Absorption decreases above ~200mg single dose."
+    },
+    {
+      "compound": "Hesperidin (flavanone)",
+      "amount_per_100g": "~20-43 mg in oranges",
+      "bioavailability_notes": "Gut bacteria cleave to hesperetin for absorption. Improves endothelial function and reduces blood pressure."
+    },
+    {
+      "compound": "Naringenin (grapefruit flavanone)",
+      "amount_per_100g": "~10-30 mg in grapefruit",
+      "bioavailability_notes": "Inhibits CYP3A4 enzyme -- caution with medications (statins, calcium channel blockers). Anti-inflammatory and insulin-sensitising."
+    },
+    {
+      "compound": "Limonene (peel)",
+      "amount_per_100g": "~2-5% of peel weight",
+      "bioavailability_notes": "Concentrated in zest/peel. Demonstrated anti-cancer properties in animal models; promotes phase II detoxification enzymes."
+    },
+    {
+      "compound": "Dietary fibre (pectin)",
+      "amount_per_100g": "~1.8-2.4 g",
+      "bioavailability_notes": "Pectin fermented to SCFAs by gut bacteria. Concentrated in pith and membranes -- eating whole segments preferred over juicing."
+    }
+  ],
+  "synergies": [
+    {
+      "ingredient": "iron-rich plant foods (legumes, greens)",
+      "mechanism": "Vitamin C increases non-heme iron absorption by 2-6x by reducing Fe3+ to Fe2+"
+    },
+    {
+      "ingredient": "green tea",
+      "mechanism": "Vitamin C stabilizes catechins in alkaline gut environment, improving absorption of EGCG by up to 6x"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7, 9]
+}

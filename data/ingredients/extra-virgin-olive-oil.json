@@ -1,0 +1,228 @@
+{
+  "name": "Extra-Virgin Olive Oil",
+  "slug": "extra-virgin-olive-oil",
+  "category": "oil_condiment",
+  "book_claims": [
+    {
+      "claim": "Suitable fat source during fasting days that does not disrupt fasting metabolic benefits",
+      "mechanism": "Provides essential fatty acids without activating insulin/IGF-1/mTOR pathway as animal proteins would",
+      "study_ref": "Author's clinical fasting protocol",
+      "confidence": "medium",
+      "_from_chapter": 5
+    },
+    {
+      "claim": "Slows absorption of carbohydrates when added to meals",
+      "mechanism": "Fat delays gastric emptying and carbohydrate absorption in the intestine",
+      "study_ref": "book-assertion (detailed in Chapter 7)",
+      "confidence": "medium",
+      "_from_chapter": 5
+    },
+    {
+      "claim": "Monounsaturated fat from plant origins associated with lower cardiovascular and cancer death rate",
+      "mechanism": "Contains primarily monounsaturated fatty acids that do not increase cholesterol; reduces LDL without affecting HDL; reduces blood sugar and triglycerides in diabetes",
+      "study_ref": "Refs 66, 67, 68, 69 in book (Nurses' Health Study and others)",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Excellent source of vitamin E and precious phytochemicals",
+      "mechanism": "Cold-pressed extraction preserves vitamin E (antioxidant) and polyphenols with anti-inflammatory properties",
+      "study_ref": "Ref 73 in book",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Plant-origin monounsaturated fats reduce coronary heart disease risk",
+      "mechanism": "Substituting monounsaturated fat for saturated fat reduces LDL-cholesterol without reducing HDL-cholesterol",
+      "study_ref": "Refs 66, 67 in book (Nurses' Health Study)",
+      "confidence": "high",
+      "_from_chapter": 7
+    },
+    {
+      "claim": "Provides monounsaturated fatty acids that reduce LDL-cholesterol and heart disease risk",
+      "mechanism": "Replaces saturated fat intake; monounsaturated fat substitution for 5% of saturated fat calories associated with 15% lower coronary heart disease risk",
+      "study_ref": "ref-14",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Contains oleocanthal which inhibits inflammation",
+      "mechanism": "Oleocanthal phytochemical inhibits inflammatory pathways, similar mechanism to ibuprofen",
+      "study_ref": "ref-30",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Reduces circulating oxidised LDL and inflammatory markers",
+      "mechanism": "Antioxidant compounds prevent oxidation of LDL particles, reducing binding to endothelial and immune cell receptors that drive atherosclerotic plaque growth",
+      "study_ref": "refs-25,26",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Mediterranean diet supplemented with EVOO reduces cardiovascular events, especially strokes",
+      "mechanism": "Combined anti-inflammatory, cholesterol-lowering and antioxidant effects reduce atherosclerosis progression",
+      "study_ref": "PREDIMED trial, ref-10",
+      "confidence": "high",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "May reduce risk of type 2 diabetes, peripheral artery disease, atrial fibrillation and breast cancer",
+      "mechanism": "Multiple pathways including reduced inflammation and oxidative stress",
+      "study_ref": "PREDIMED secondary analysis, refs-11-13",
+      "confidence": "medium",
+      "_from_chapter": 8
+    },
+    {
+      "claim": "Reduces plasma triglycerides, oxidative stress markers, and increases HDL-cholesterol. Phenolics inhibit inflammation and thrombosis.",
+      "mechanism": "Contains 30+ phytocompounds including oleuropein, tyrosol, hydroxytyrosol. 100g provides up to 25mg alpha-tocopherol, 20-500mg oleuropein, 98-185mg phytosterols.",
+      "study_ref": "Refs 227, 228, 229, 230 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    },
+    {
+      "claim": "Contains oleocanthal that prevents blood clots. 50g daily equivalent to a baby aspirin for heart disease prevention.",
+      "mechanism": "Oleocanthal has structural profile similar to ibuprofen. Anti-inflammatory and anti-platelet aggregation. The pungent, peppery throat sensation indicates oleocanthal presence.",
+      "study_ref": "Refs 231, 232, 233, 234, 235 in book",
+      "confidence": "high",
+      "_from_chapter": 9
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35001112/",
+      "finding": "Guasch-Ferre et al. (2022) in the Journal of the American College of Cardiology: prospective cohort study of 92,383 participants over 28 years found that consuming more than 0.5 tablespoon/day of olive oil was associated with 19% lower cardiovascular disease mortality, 17% lower cancer mortality, 29% lower neurodegenerative disease mortality, and 18% lower respiratory disease mortality compared with those who rarely consumed olive oil.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (PREDIMED trial)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/",
+      "finding": "Estruch et al. (2018) republished PREDIMED results in NEJM: Mediterranean diet supplemented with EVOO reduced major cardiovascular events by approximately 30% compared with a reduced-fat control diet in a primary prevention trial of 7,447 participants at high cardiovascular risk.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/olive-oil/",
+      "finding": "Examine's systematic review of olive oil research confirms strong evidence for reduced LDL oxidation, anti-inflammatory effects via oleocanthal (COX-1 and COX-2 inhibition), improved endothelial function, and blood pressure reduction. Notes that benefits are dose-dependent and specific to high-polyphenol EVOO, not refined olive oil.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32207773/",
+      "finding": "Schwingshackl et al. (2020) meta-analysis in Advances in Nutrition: dose-response analysis of olive oil intake and risk of CVD, cancer, and all-cause mortality. Each 25g/day increase in olive oil consumption was associated with 13% lower risk of all-cause mortality and 16% lower cardiovascular mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25961184/",
+      "finding": "Beauchamp et al. reported in Nature (2005, PMID 16136122) that oleocanthal is a natural anti-inflammatory agent inhibiting both COX-1 and COX-2 with potency comparable to ibuprofen. Confirmed by Scotece et al. (2015) showing oleocanthal suppresses MIP-1alpha and IL-6 in macrophages.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["peppery", "bitter", "fruity", "grassy", "slightly astringent"],
+    "aroma": ["herbaceous", "green apple", "artichoke", "fresh-cut grass", "tomato leaf"],
+    "texture": ["smooth", "viscous", "coating"],
+    "culinary_category": "finishing oil and cooking fat"
+  },
+  "culinary_pairings": [
+    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Traditional Italian cuisine"},
+    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Foundational soffritto base across Southern European cuisines"},
+    {"ingredient": "lemon juice", "tradition": "Greek / Lebanese", "source": "Classic vinaigrette and ladolemono dressing"},
+    {"ingredient": "fresh basil", "tradition": "Italian", "source": "Caprese salad, pesto Genovese"},
+    {"ingredient": "crusty bread", "tradition": "Italian / Spanish", "source": "Bruschetta, pan con tomate"},
+    {"ingredient": "legumes (chickpeas, lentils, white beans)", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional hummus, pasta e fagioli, ribollita"},
+    {"ingredient": "balsamic vinegar", "tradition": "Italian (Emilia-Romagna)", "source": "Classic Italian salad dressing and drizzle"},
+    {"ingredient": "dark leafy greens (kale, spinach, chard)", "tradition": "Italian / Greek", "source": "Horta vrasta, sauteed greens"}
+  ],
+  "seasonality": "Year-round availability. Freshest oil from November-February harvest in Northern Hemisphere (October-January in Southern Hemisphere). Best consumed within 12-14 months of harvest date.",
+  "nutrient_highlights": [
+    {
+      "compound": "Oleic acid (monounsaturated fat)",
+      "amount_per_100g": "55-83g",
+      "bioavailability_notes": "Highly bioavailable; primary fatty acid responsible for cardiovascular benefits"
+    },
+    {
+      "compound": "Vitamin E (alpha-tocopherol)",
+      "amount_per_100g": "14-25mg",
+      "bioavailability_notes": "Fat-soluble, well absorbed in its native lipid matrix"
+    },
+    {
+      "compound": "Oleocanthal",
+      "amount_per_100g": "Up to 284mg/kg in high-quality EVOO (variable)",
+      "bioavailability_notes": "Absorbed in the gastrointestinal tract; peppery throat sensation indicates presence and concentration"
+    },
+    {
+      "compound": "Hydroxytyrosol",
+      "amount_per_100g": "1-20mg (highly variable by cultivar and freshness)",
+      "bioavailability_notes": "Rapidly absorbed with ~40-80% bioavailability; one of the most potent natural antioxidants (ORAC value)"
+    },
+    {
+      "compound": "Oleuropein",
+      "amount_per_100g": "20-500mg (highly variable)",
+      "bioavailability_notes": "Partially hydrolyzed to hydroxytyrosol in GI tract; bitter taste correlates with concentration"
+    },
+    {
+      "compound": "Phytosterols (beta-sitosterol)",
+      "amount_per_100g": "98-185mg",
+      "bioavailability_notes": "Compete with cholesterol for intestinal absorption, contributing to LDL-lowering effect"
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "non-starchy-vegetables-fasting",
+      "type": "complement",
+      "description": "Used to dress vegetables on fasting days"
+    },
+    {
+      "target_ingredient": "whole-grains",
+      "type": "synergy",
+      "description": "Adding olive oil to carbohydrate meals slows glucose absorption"
+    },
+    {
+      "target_ingredient": "corn-sunflower-oil",
+      "type": "antagonism",
+      "description": "Olive oil recommended over omega-6-rich vegetable oils which promote inflammation"
+    },
+    {
+      "target_ingredient": "butter-margarine",
+      "type": "antagonism",
+      "description": "Olive oil should replace butter (saturated fat) and margarine (trans fats)"
+    },
+    {
+      "target_ingredient": "Nuts",
+      "type": "synergy",
+      "description": "Both provide monounsaturated and polyunsaturated fats; PREDIMED trial tested both EVOO-supplemented and nut-supplemented Mediterranean diets with similar cardiovascular benefits"
+    },
+    {
+      "target_ingredient": "Whole Grains",
+      "type": "complement",
+      "description": "Both contain anti-inflammatory phytochemicals (oleocanthal in EVOO, ferulic acid in whole grains) that work through complementary pathways"
+    },
+    {
+      "target_ingredient": "Vegetables",
+      "type": "synergy",
+      "description": "EVOO enhances absorption of fat-soluble antioxidants (beta-carotene, vitamin E) from vegetables"
+    },
+    {
+      "target_ingredient": "carrots",
+      "type": "synergy",
+      "description": "Fat enables absorption of fat-soluble carotenoids"
+    },
+    {
+      "target_ingredient": "dark-green-leafy-vegetables",
+      "type": "synergy",
+      "description": "Fat enables absorption of fat-soluble vitamins K, A, E"
+    },
+    {
+      "target_ingredient": "turmeric",
+      "type": "synergy",
+      "description": "Fat-soluble curcuminoids require dietary fat for absorption"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [5, 7, 8, 9]
+}

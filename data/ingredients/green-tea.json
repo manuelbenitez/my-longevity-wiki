@@ -1,0 +1,89 @@
+{
+  "name": "Green tea",
+  "slug": "green-tea",
+  "category": "beverage",
+  "book_claims": [
+    {
+      "claim": "Both green and black tea prevent cancer in variety of animal models (skin, lung, mouth, oesophagus, stomach, colon, pancreas, bladder, prostate). Small RCT suggests green tea catechins prevent precancerous prostate lesions turning cancerous.",
+      "mechanism": "EGCG (epigallocatechin gallate, 60% of catechin content) promotes self-destruction of tumour cells while sparing healthy cells. Reverses endothelial dysfunction in smokers and coronary artery disease patients.",
+      "study_ref": "Refs 237-246 in book (animal models, small clinical trial)",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31243491/",
+      "finding": "Large meta-analysis (Yi et al., 2019) of 18 prospective studies found green tea consumption associated with significantly reduced all-cause mortality (RR 0.92 per 3 cups/day), with strongest effects for cardiovascular mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32065790/",
+      "finding": "Chinese cohort study (Xinyan Wang et al., EJPC 2020, >100,000 participants, 7-year follow-up) found habitual green tea drinking associated with 1.26 years longer life expectancy at age 50, reduced cardiovascular and all-cause mortality.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/green-tea-catechins/",
+      "finding": "Examine rates green tea catechins as having strong evidence for fat oxidation, moderate evidence for cardiovascular risk reduction and cancer risk reduction, and notable evidence for cognitive function improvement. EGCG identified as primary active compound.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26318390/",
+      "finding": "Meta-analysis (Shen et al., 2015) of 11 RCTs found green tea catechins significantly reduced LDL cholesterol and total cholesterol, supporting cardiovascular protection mechanism described in the book.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28864169/",
+      "finding": "Systematic review (Guo et al., 2017) of green tea and cancer risk found significant inverse associations for oral, liver, breast, and prostate cancers, consistent with the book's claims about cancer prevention in multiple organ sites.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["vegetal", "astringent", "umami", "slightly sweet", "grassy", "marine (gyokuro)"],
+    "aroma": ["fresh-cut grass", "toasted rice (genmaicha)", "floral", "oceanic"],
+    "texture": ["light body", "smooth (high-grade)", "slightly drying (astringent tannins)"],
+    "culinary_category": "infusion / beverage base"
+  },
+  "culinary_pairings": [
+    {"ingredient": "lemon", "tradition": "Western / Global", "source": "Classic tea pairing; vitamin C enhances catechin stability"},
+    {"ingredient": "honey", "tradition": "Global", "source": "Traditional sweetener for tea"},
+    {"ingredient": "mint", "tradition": "Moroccan", "source": "Moroccan mint tea (gunpowder green + spearmint)"},
+    {"ingredient": "jasmine", "tradition": "Chinese", "source": "Jasmine-scented green tea tradition from Fujian province"},
+    {"ingredient": "rice", "tradition": "Japanese", "source": "Genmaicha (green tea + toasted brown rice); ochazuke (tea over rice)"},
+    {"ingredient": "matcha in baking", "tradition": "Japanese / Western fusion", "source": "Modern pastry tradition"},
+    {"ingredient": "white fish", "tradition": "Japanese", "source": "Green tea as palate cleanser with sushi and sashimi"},
+    {"ingredient": "ginger", "tradition": "Japanese / Chinese", "source": "Common combination in health tonics and teas"}
+  ],
+  "seasonality": "First flush (shincha/spring harvest) in April-May is most prized. Available year-round as dried leaf. Quality peaks with spring and early summer harvests.",
+  "nutrient_highlights": [
+    {
+      "compound": "EGCG (epigallocatechin gallate)",
+      "amount_per_100g": "~30-80 mg per cup (240ml) brewed; varies by grade and steeping",
+      "bioavailability_notes": "Low oral bioavailability (~2-5%); enhanced by vitamin C, piperine, and consumption on empty stomach. Degraded at high pH."
+    },
+    {
+      "compound": "L-theanine",
+      "amount_per_100g": "~20-60 mg per cup; higher in shade-grown varieties (gyokuro, matcha)",
+      "bioavailability_notes": "Crosses blood-brain barrier readily; promotes alpha brain waves and calm alertness"
+    },
+    {
+      "compound": "Caffeine",
+      "amount_per_100g": "~25-50 mg per cup (about half of coffee)",
+      "bioavailability_notes": "Nearly 100% bioavailable; modulated by L-theanine for smoother effect than coffee"
+    },
+    {
+      "compound": "Catechins (total)",
+      "amount_per_100g": "~100-200 mg per cup brewed",
+      "bioavailability_notes": "Includes EGCG, ECG, EGC, EC. Collectively responsible for antioxidant and anti-cancer properties."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

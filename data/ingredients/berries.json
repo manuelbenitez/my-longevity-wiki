@@ -1,0 +1,81 @@
+{
+  "name": "Berries",
+  "slug": "berries",
+  "category": "fruit",
+  "book_claims": [
+    {
+      "claim": "Low glycaemic impact among fruits",
+      "mechanism": "Smaller effect on blood glucose due to lower sugar content and higher fibre relative to other fruits",
+      "study_ref": "book-assertion (glycaemic index classification)",
+      "confidence": "medium"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30670574/",
+      "finding": "Systematic review and meta-analysis (Huang et al., 2019) of 27 RCTs found berry consumption significantly reduced LDL cholesterol, systolic blood pressure, fasting glucose, and TNF-alpha inflammatory marker.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23319811/",
+      "finding": "Nurses' Health Study (Cassidy et al., 2013) found women consuming 3+ servings of blueberries and strawberries per week had 34% lower risk of heart attack compared to those eating berries once a month or less.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31329250/",
+      "finding": "Meta-analysis (Silva et al., 2020) found berry anthocyanin intake associated with 12% lower risk of all-cause mortality in pooled prospective studies.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["sweet-tart", "tangy", "bright", "varied by type"],
+    "aroma": ["fruity", "floral", "jammy", "wine-like (dark berries)"],
+    "texture": ["juicy", "delicate", "seedy (some types)", "bursting"],
+    "culinary_category": "soft fruit"
+  },
+  "culinary_pairings": [
+    {"ingredient": "yogurt", "tradition": "European / Global", "source": "Classic breakfast pairing; probiotics plus polyphenols"},
+    {"ingredient": "oats / granola", "tradition": "Northern European / American", "source": "Traditional porridge and muesli topping"},
+    {"ingredient": "dark chocolate", "tradition": "European / Global", "source": "Complementary polyphenol profiles; chocolate-covered berries"},
+    {"ingredient": "mint", "tradition": "European", "source": "Classic flavour brightener in berry desserts and salads"},
+    {"ingredient": "lemon juice", "tradition": "Global", "source": "Citric acid enhances berry flavour and preserves colour"},
+    {"ingredient": "nuts (almonds, walnuts)", "tradition": "European / American", "source": "Fat aids carotenoid absorption; textural contrast"},
+    {"ingredient": "balsamic vinegar", "tradition": "Italian", "source": "Aged balsamic with strawberries; acidity amplifies berry sweetness"}
+  ],
+  "seasonality": "Peak season varies by type: strawberries May-July, blueberries June-August, raspberries June-October, blackberries July-September (Northern Hemisphere). Frozen berries retain most nutrients and are available year-round.",
+  "nutrient_highlights": [
+    {
+      "compound": "Anthocyanins",
+      "amount_per_100g": "~25-500 mg (varies: blackberries highest, strawberries lowest)",
+      "bioavailability_notes": "Low absorption (~1-2%) but gut microbial metabolites (protocatechuic acid, hippuric acid) are well absorbed and bioactive."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "~10-60 mg (strawberries highest at ~59 mg)",
+      "bioavailability_notes": "Highly bioavailable from whole fruit. Strawberries provide more vitamin C per 100g than oranges."
+    },
+    {
+      "compound": "Dietary fibre",
+      "amount_per_100g": "~2-7 g (raspberries highest at ~6.5 g)",
+      "bioavailability_notes": "Seeds contribute insoluble fibre. Pectin provides soluble fibre fermented to beneficial SCFAs."
+    },
+    {
+      "compound": "Ellagic acid (raspberries, strawberries)",
+      "amount_per_100g": "~10-50 mg",
+      "bioavailability_notes": "Converted by gut bacteria to urolithins with anti-inflammatory and mitophagy-promoting properties."
+    },
+    {
+      "compound": "Pterostilbene (blueberries)",
+      "amount_per_100g": "~0.03 mg",
+      "bioavailability_notes": "Better absorbed than resveratrol (80% vs 20% oral bioavailability). Activates SIRT1 and AMPK pathways."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

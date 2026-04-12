@@ -1,0 +1,97 @@
+{
+  "name": "Nuts (Walnuts, Almonds, Hazelnuts, Pine Nuts)",
+  "slug": "nuts",
+  "category": "nut",
+  "book_claims": [
+    {
+      "claim": "Regular consumption supports disease prevention and longevity",
+      "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
+      "study_ref": "Ref 5 in book",
+      "confidence": "medium"
+    },
+    {
+      "claim": "Five servings per week associated with 40-60% reduction in heart attack risk",
+      "mechanism": "Provide polyunsaturated omega-3 fatty acids (walnuts) and omega-6 fatty acids plus plant sterols (almonds, hazelnuts, pine nuts) that reduce LDL-cholesterol",
+      "study_ref": "ref-18 (epidemiological studies)",
+      "confidence": "high"
+    },
+    {
+      "claim": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
+      "mechanism": "Combined effect of nuts with soy protein, oats, barley and psyllium on cholesterol absorption and synthesis",
+      "study_ref": "Canadian trial, ref-17",
+      "confidence": "high"
+    },
+    {
+      "claim": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
+      "mechanism": "Omega-3 and omega-6 fatty acids reduce inflammation and improve lipid profile",
+      "study_ref": "ref-9 (randomised trial)",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27916000/",
+      "finding": "Meta-analysis (Aune et al., BMC Medicine 2016) of 20 prospective studies found 28g/day of nuts associated with 22% lower all-cause mortality, 21% lower CVD risk, and 15% lower cancer risk in a dose-response relationship.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29931130/",
+      "finding": "PREDIMED trial analysis confirmed that participants randomized to Mediterranean diet supplemented with 30g mixed nuts/day had 28% lower CVD events, 46% lower peripheral artery disease, and improved cognitive function versus control (Estruch et al., 2018).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34687086/",
+      "finding": "Nurses' Health Study and Health Professionals Follow-Up Study found nut consumption 5+ times/week associated with significant reduction in total mortality and cause-specific mortality for CVD, cancer, and respiratory disease (Bao et al., NEJM 2013).",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["nutty", "sweet to bitter (varies by type)", "earthy", "rich"],
+    "aroma": ["toasty", "buttery", "woody"],
+    "texture": ["crunchy", "creamy when ground", "oily"],
+    "culinary_category": "tree nut"
+  },
+  "culinary_pairings": [
+    {"ingredient": "dried fruits", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional dessert pairing; fat + fibre moderate glycemic response"},
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Complementary unsaturated fatty acid profiles; PREDIMED tested both"},
+    {"ingredient": "dark chocolate", "tradition": "European / Global", "source": "Combined polyphenol profiles for additive cardiovascular benefit"},
+    {"ingredient": "oats / whole grains", "tradition": "Global", "source": "Cholesterol-lowering food portfolio combining nuts, oats, and barley"},
+    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional sweetener with nuts; baklava, nougat, nut bars"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Unsaturated fatty acids (MUFA + PUFA)",
+      "amount_per_100g": "40-65 g total fat (varies by nut)",
+      "bioavailability_notes": "Walnuts: rich in ALA omega-3. Almonds/hazelnuts: rich in oleic acid (MUFA). Pine nuts: rich in pinolenic acid. All reduce LDL without lowering HDL."
+    },
+    {
+      "compound": "Plant sterols (beta-sitosterol)",
+      "amount_per_100g": "72-220 mg",
+      "bioavailability_notes": "Compete with cholesterol for intestinal absorption, reducing circulating LDL-cholesterol. Pistachios and almonds are richest nut sources."
+    },
+    {
+      "compound": "Vitamin E + polyphenols",
+      "amount_per_100g": "varies by type",
+      "bioavailability_notes": "Almonds: alpha-tocopherol. Walnuts: gamma-tocopherol + ellagitannins. Hazelnuts: proanthocyanidins. Diverse antioxidant profiles across nut types."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "extra-virgin-olive-oil",
+      "type": "synergy",
+      "description": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
+    },
+    {
+      "target_ingredient": "fish",
+      "type": "complement",
+      "description": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [4, 7, 8]
+}

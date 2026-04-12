@@ -1,0 +1,68 @@
+{
+  "name": "Brazil Nuts",
+  "slug": "brazil-nuts",
+  "category": "nut",
+  "book_claims": [
+    {
+      "claim": "Richest food source of selenium, a powerful antioxidant mineral preventing free radical tissue damage",
+      "mechanism": "6 nuts supply ~780% RDA selenium. Selenium is cofactor for glutathione peroxidase, a key antioxidant enzyme.",
+      "study_ref": "book-assertion",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24053459/",
+      "finding": "RCT (Thomson et al., 2008) found that a single serving of Brazil nuts (2 nuts) raised plasma selenium levels as effectively as 100mcg selenomethionine supplement, with effects lasting at least 12 weeks and also improving glutathione peroxidase activity.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26518227/",
+      "finding": "Clinical trial found that just one Brazil nut daily for 3 months significantly improved selenium status, reduced inflammatory markers (IL-6, TNF-alpha), and improved lipid profile (LDL reduction) in obese women (Cominetti et al., 2012).",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30862790/",
+      "finding": "Meta-analysis (Rayman, 2012; updated) found optimal selenium status associated with reduced risk of thyroid disease, certain cancers (prostate, lung, colorectal), and cognitive decline, though excessive intake (>400mcg/day) may increase type 2 diabetes risk.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["rich", "creamy", "mildly sweet", "earthy"],
+    "aroma": ["nutty", "slightly coconut-like", "buttery"],
+    "texture": ["dense", "waxy", "crunchy", "creamy when chewed"],
+    "culinary_category": "tree nut"
+  },
+  "culinary_pairings": [
+    {"ingredient": "dark chocolate", "tradition": "Brazilian / Global", "source": "Selenium + flavanols for combined antioxidant protection"},
+    {"ingredient": "berries", "tradition": "Global", "source": "Selenium + anthocyanins complement antioxidant defense systems"},
+    {"ingredient": "oats", "tradition": "Global", "source": "Morning smoothie or porridge topping for daily selenium"},
+    {"ingredient": "cocoa powder", "tradition": "South American / Global", "source": "Traditional pairing; both high in minerals"},
+    {"ingredient": "banana", "tradition": "Brazilian", "source": "Smoothie base; potassium + selenium for combined mineral benefit"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "1,917 mcg (~3,500% DV)",
+      "bioavailability_notes": "Predominantly as selenomethionine, the most bioavailable form. Just 2 nuts provide ~100% RDA. Excess is excreted but chronic overconsumption (>400mcg/day) risks selenosis."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "376 mg (90% DV)",
+      "bioavailability_notes": "Among the highest of any nut. Supports hundreds of enzymatic reactions including energy metabolism and muscle function."
+    },
+    {
+      "compound": "Ellagic acid",
+      "amount_per_100g": "~112 mcg",
+      "bioavailability_notes": "Polyphenol with demonstrated anticarcinogenic and anti-inflammatory properties; converted to urolithins by gut bacteria."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [9]
+}

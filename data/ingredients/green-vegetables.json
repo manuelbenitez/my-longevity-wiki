@@ -1,0 +1,75 @@
+{
+  "name": "Green Vegetables",
+  "slug": "green-vegetables",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "Almost undetectable effect on blood glucose",
+      "mechanism": "Very low carbohydrate content and high fibre means virtually no glucose load",
+      "study_ref": "book-assertion (glycaemic index data)",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Carter et al., 2010, PMID: 20724400)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20724400/",
+      "finding": "Increased green vegetable intake associated with 14% reduced risk of type 2 diabetes per 1.15 servings/day. Attributed to low glycemic load, high fiber, and magnesium content.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Aune et al., 2017, PMID: 28338764)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28338764/",
+      "finding": "Meta-analysis of 95 studies: 10 servings/day of fruits and vegetables associated with 31% reduction in premature death. Green vegetables showed the strongest dose-response relationship.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Blekkenhorst et al., 2018, PMID: 29263778)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29263778/",
+      "finding": "Higher cruciferous and green leafy vegetable intake specifically associated with reduced subclinical atherosclerosis (carotid intima-media thickness) in older women. Effect not seen with other vegetable types.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["mild to bitter", "grassy", "fresh", "mineral"],
+    "aroma": ["green", "fresh", "vegetal"],
+    "texture": ["varies: crunchy (raw), tender (cooked)", "leafy", "fibrous"],
+    "culinary_category": "leafy and cruciferous vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Standard dressing for all green vegetables; enhances fat-soluble nutrient absorption"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / Asian", "source": "Universal aromatic for sauteed greens across all cuisines"},
+    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Brightens flavors and enhances non-heme iron absorption"},
+    {"ingredient": "tofu", "tradition": "East Asian", "source": "Classic pairing in stir-fries; complementary plant protein"},
+    {"ingredient": "ginger", "tradition": "East Asian", "source": "Aromatics cut green bitterness; anti-inflammatory synergy"},
+    {"ingredient": "walnuts", "tradition": "Mediterranean / Modern", "source": "Omega-3 fats enhance carotenoid absorption; textural contrast"},
+    {"ingredient": "nutritional yeast", "tradition": "Modern plant-based", "source": "Adds umami and B-vitamins to greens"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Fiber",
+      "amount_per_100g": "1.5-3.5 g depending on variety",
+      "bioavailability_notes": "Mix of soluble and insoluble fiber. Feeds beneficial gut bacteria producing short-chain fatty acids."
+    },
+    {
+      "compound": "Magnesium",
+      "amount_per_100g": "20-80 mg (highest in spinach at 79 mg)",
+      "bioavailability_notes": "Chlorophyll contains magnesium at its center. Bioavailability moderate; cooking may release more from plant matrix."
+    },
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "28-120 mg depending on variety",
+      "bioavailability_notes": "Rapidly destroyed by heat and prolonged storage. Eat raw or lightly cooked for maximum retention."
+    },
+    {
+      "compound": "Chlorophyll",
+      "amount_per_100g": "Variable (gives green color)",
+      "bioavailability_notes": "Chlorophyll and its derivatives may have anti-mutagenic and antioxidant properties. Research is preliminary."
+    }
+  ],
+  "synergies": [],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}

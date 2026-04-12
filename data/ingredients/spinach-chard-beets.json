@@ -1,0 +1,92 @@
+{
+  "name": "Spinach, Chard & Beets",
+  "slug": "spinach-chard-beets",
+  "category": "vegetable",
+  "book_claims": [
+    {
+      "claim": "High oxalate content hinders calcium absorption",
+      "mechanism": "Oxalates chelate calcium forming insoluble calcium oxalate that cannot be absorbed in the intestine",
+      "study_ref": "Ref 107 in book",
+      "confidence": "high"
+    }
+  ],
+  "supplementary_research": [
+    {
+      "source": "PubMed (Noonan & Savage, 1999, PMID: 10552840)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10552840/",
+      "finding": "Oxalate content of spinach (750-800 mg/100g) reduces calcium bioavailability to only 5%, compared to 27% from milk and 49-61% from kale/broccoli. Boiling reduces oxalate by 30-87% depending on method.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Siervo et al., 2013, PMID: 23596162)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23596162/",
+      "finding": "Dietary nitrate from beetroot juice and spinach significantly lowers blood pressure (4-5 mmHg systolic) via nitric oxide pathway. These vegetables are among the richest dietary nitrate sources.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "PubMed (Clifford et al., 2015, PMID: 26325292)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26325292/",
+      "finding": "Beetroot supplementation improves exercise performance by 1-3% and reduces oxygen cost of exercise by 5%. Mechanism is nitric oxide-mediated improvement in mitochondrial efficiency.",
+      "agrees_with_book": true
+    },
+    {
+      "source": "Examine.com",
+      "url": "https://examine.com/supplements/nitrate/",
+      "finding": "Dietary nitrate from beets and leafy greens reliably improves blood flow, lowers blood pressure, and enhances exercise efficiency. The oxalate concern is real for calcium but does not negate other nutritional benefits.",
+      "agrees_with_book": true
+    }
+  ],
+  "flavor_profile": {
+    "taste": ["earthy (beets)", "mineral and iron-rich (spinach)", "slightly bitter (chard)", "sweet undertones (beets)"],
+    "aroma": ["earthy and petrichor-like (beets)", "green and metallic (spinach)", "mild (chard)"],
+    "texture": ["tender leaves (spinach)", "sturdy stems (chard)", "firm-dense (beets)", "silky when cooked"],
+    "culinary_category": "leafy green / root vegetable"
+  },
+  "culinary_pairings": [
+    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances absorption of carotenoids and vitamin K from greens"},
+    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Sauteed spinach or chard with garlic is universal; complementary anti-inflammatory compounds"},
+    {"ingredient": "lemon juice", "tradition": "Mediterranean", "source": "Acid brightens earthy flavors; vitamin C enhances iron absorption from these iron-rich greens"},
+    {"ingredient": "goat cheese", "tradition": "French / Mediterranean", "source": "Classic beet-goat cheese salad; tangy cheese balances beet sweetness"},
+    {"ingredient": "walnuts", "tradition": "Mediterranean", "source": "Omega-3 fats pair with nitrate-rich greens; textural contrast in salads"},
+    {"ingredient": "nutmeg", "tradition": "French / Italian", "source": "Classic seasoning for creamed spinach and chard gratins; masks bitterness"},
+    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Sesame calcium complements these vegetables for calcium-conscious eaters; tahini beet dips"}
+  ],
+  "nutrient_highlights": [
+    {
+      "compound": "Dietary nitrate",
+      "amount_per_100g": "~250 mg (beets), ~200 mg (spinach), ~180 mg (chard)",
+      "bioavailability_notes": "Converted to nitric oxide via oral bacteria. Antiseptic mouthwash blocks this conversion. Peak blood levels 2-3 hours post-ingestion."
+    },
+    {
+      "compound": "Oxalates",
+      "amount_per_100g": "750-800 mg (spinach), 600-700 mg (chard), 60-100 mg (beet root)",
+      "bioavailability_notes": "Bind calcium and may contribute to kidney stones in susceptible individuals. Boiling and discarding water reduces oxalates by 30-87%."
+    },
+    {
+      "compound": "Betalains (beets only)",
+      "amount_per_100g": "50-200 mg",
+      "bioavailability_notes": "Unique pigment antioxidants not found in other vegetables. Give beets their red color. Anti-inflammatory and may protect LDL from oxidation."
+    },
+    {
+      "compound": "Iron (non-heme)",
+      "amount_per_100g": "2.7 mg (spinach), 1.8 mg (chard), 0.8 mg (beets)",
+      "bioavailability_notes": "Non-heme iron has 5-12% absorption. Vitamin C (from lemon juice) increases absorption 3-6x. Oxalates partially inhibit iron absorption too."
+    },
+    {
+      "compound": "Folate",
+      "amount_per_100g": "194 mcg (spinach), 14 mcg (chard), 109 mcg (beets)",
+      "bioavailability_notes": "Spinach is one of the richest food sources. ~50% bioavailability vs synthetic folic acid."
+    }
+  ],
+  "synergies": [
+    {
+      "target_ingredient": "cabbage-broccoli",
+      "type": "complement",
+      "description": "Complement with low-oxalate vegetables for calcium needs"
+    }
+  ],
+  "last_updated": "2026-04-12T00:00:00Z",
+  "last_researched": "2026-04-12T00:00:00Z",
+  "research_status": "complete",
+  "source_chapters": [7]
+}
