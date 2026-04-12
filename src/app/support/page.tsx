@@ -126,7 +126,7 @@ export default function SupportPage() {
             href={BUY_ME_COFFEE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-accent text-white px-6 py-3 rounded-sm text-sm font-semibold hover:bg-accent-hover transition-colors !no-underline !border-none"
+            className="inline-flex items-center gap-2 border border-accent text-accent px-6 py-3 rounded-sm text-sm font-semibold hover:bg-accent hover:text-white transition-all duration-200 !no-underline !border-b-accent"
           >
             Support the Wiki
             <svg
