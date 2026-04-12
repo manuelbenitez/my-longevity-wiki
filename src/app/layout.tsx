@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Instrument_Sans } from "next/font/google";
 import { BackToTop } from "@/components/back-to-top";
+import { Nav } from "@/components/nav";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -32,6 +33,7 @@ export default function RootLayout({
       className={`${fraunces.variable} ${instrumentSans.variable}`}
     >
       <body>
+        <Nav />
         {children}
         <BackToTop />
       </body>
