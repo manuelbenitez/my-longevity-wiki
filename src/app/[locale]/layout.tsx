@@ -5,7 +5,6 @@ import { routing } from "@/i18n/routing";
 import { BackToTop } from "@/components/back-to-top";
 import { Nav } from "@/components/nav";
 import { SmoothScroll } from "@/components/smooth-scroll";
-import { ScrollToTop } from "@/components/scroll-to-top";
 import { Footer } from "@/components/footer";
 import "./globals.css";
 
@@ -32,7 +31,6 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <SmoothScroll />
-      <ScrollToTop />
       <Nav />
       {children}
       <Footer />
