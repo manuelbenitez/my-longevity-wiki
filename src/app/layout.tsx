@@ -68,13 +68,11 @@ const jsonLd = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${fraunces.variable} ${instrumentSans.variable}`}>
-      <head>
+      <body>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body>
         {children}
       </body>
       <GoogleAnalytics gaId="G-TEEYF701CL" />
