@@ -55,9 +55,9 @@ export default async function Home({
 
       {/* Filterable Ingredient Grid */}
       <section id="ingredients" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
-        <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
+        <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
           {t("section_ingredients")}
-        </p>
+        </h2>
         <IngredientGrid ingredients={ingredientCards} />
       </section>
 
@@ -66,9 +66,9 @@ export default async function Home({
       {/* Recipes */}
       {recipes.length > 0 && (
         <section id="recipes" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
-          <p className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
+          <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
             {t("section_recipes")}
-          </p>
+          </h2>
           <RecipeGrid
             recipes={recipes.map((r) => ({
               slug: r.slug,
