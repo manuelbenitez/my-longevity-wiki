@@ -4,7 +4,7 @@
 
 ## Site
 Longevity Wiki
-https://longevity.wiki
+https://longevity.mbdev.to
 
 ## About
 This site is a free encyclopedia of foods, ingredients, and recipes studied for their
@@ -36,4 +36,4 @@ English (en) — primary
 Spanish (es) — full translation
 
 ## Last updated
-2026-04-14
+2026-04-17
