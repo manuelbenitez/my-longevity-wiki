@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 import { AlphaGroupedGrid } from "@/components/alpha-grouped-grid";
@@ -54,6 +54,28 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)
     );
   }, [filtered, sortBy]);
+
+  const [activeLetter, setActiveLetter] = useState("");
+
+  useEffect(() => {
+    if (sortBy !== "asc") return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length > 0) {
+          setActiveLetter(visible[0].target.id.replace("letter-", ""));
+        }
+      },
+      { rootMargin: "-200px 0px -55% 0px", threshold: 0 }
+    );
+    letters.forEach((letter) => {
+      const el = document.getElementById(`letter-${letter}`);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, [letters, sortBy]);
 
   const scrollToLetter = (letter: string) => {
     const el = document.getElementById(`letter-${letter}`);
@@ -135,7 +157,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
         <aside className="hidden lg:flex flex-col gap-6 w-32 shrink-0">
           <div className="sticky top-[200px]">
             {/* Sort */}
-            <div className="flex flex-col gap-1 mb-6">
+            <div className="flex flex-col gap-1 mb-10">
               <button
                 onClick={() => setSortBy("asc")}
                 className={`text-sm text-left px-0 py-1 transition-colors ${
@@ -161,7 +183,11 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
                   <button
                     key={letter}
                     onClick={() => scrollToLetter(letter)}
-                    className="text-sm text-left px-0 py-0.5 text-muted hover:text-accent transition-colors font-mono"
+                    className={`text-sm text-left px-0 py-0.5 transition-colors font-mono ${
+                      activeLetter === letter
+                        ? "text-accent font-semibold"
+                        : "text-muted hover:text-accent"
+                    }`}
                   >
                     {letter}
                   </button>
