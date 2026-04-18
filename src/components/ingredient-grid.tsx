@@ -106,12 +106,12 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
             {search && ` ${t("matching", { query: search })}`}
           </span>
         </div>
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 overflow-x-auto flex-nowrap lg:flex-wrap pb-3 lg:pb-0 pr-8 lg:pr-0 scrollbar-none">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setActive(cat)}
-              className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize ${
+              className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize shrink-0 ${
                 active === cat
                   ? "bg-accent text-white border-accent"
                   : "bg-transparent text-muted border-border hover:border-accent hover:text-accent"
@@ -129,15 +129,15 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
       </div>
 
       {/* Main layout: sidebar + content */}
-      <div className="flex gap-10">
-        {/* Left sidebar — desktop only */}
-        <aside className="hidden lg:flex flex-col gap-6 w-32 shrink-0">
-          <div className="sticky top-[224px]">
+      <div className="flex gap-3 lg:gap-10">
+        {/* Left sidebar */}
+        <aside className="flex flex-col gap-6 w-10 lg:w-32 shrink-0">
+          <div className="sticky top-50 lg:top-[224px]">
             {/* Sort */}
-            <div className="flex flex-col gap-1 mb-10">
+            <div className="flex flex-col gap-1 mb-6 lg:mb-10">
               <button
                 onClick={() => setSortBy("asc")}
-                className={`text-sm text-left px-0 py-1 transition-colors ${
+                className={`text-xs lg:text-sm text-left px-0 py-1 transition-colors ${
                   sortBy === "asc" ? "text-text font-semibold" : "text-muted hover:text-text"
                 }`}
               >
@@ -145,7 +145,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
               </button>
               <button
                 onClick={() => setSortBy("desc")}
-                className={`text-sm text-left px-0 py-1 transition-colors ${
+                className={`text-xs lg:text-sm text-left px-0 py-1 transition-colors ${
                   sortBy === "desc" ? "text-text font-semibold" : "text-muted hover:text-text"
                 }`}
               >
@@ -160,7 +160,7 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
                   <button
                     key={letter}
                     onClick={() => scrollToLetter(letter)}
-                    className={`text-base text-left px-0 py-0.5 transition-colors font-mono ${
+                    className={`text-sm lg:text-base text-left px-0 py-0.5 transition-colors font-mono ${
                       activeLetter === letter
                         ? "text-accent font-semibold"
                         : "text-muted hover:text-accent"
@@ -176,84 +176,64 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
 
         {/* Main content */}
         <div className="flex-1 min-w-0">
-          {/* Mobile sort buttons */}
-          <div className="flex gap-2 mb-4 lg:hidden">
-            <button
-              onClick={() => setSortBy("asc")}
-              className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
-                sortBy === "asc"
-                  ? "bg-text text-bg border-text"
-                  : "bg-transparent text-muted border-border hover:border-text hover:text-text"
-              }`}
-            >
-              {t("sort_asc")}
-            </button>
-            <button
-              onClick={() => setSortBy("desc")}
-              className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
-                sortBy === "desc"
-                  ? "bg-text text-bg border-text"
-                  : "bg-transparent text-muted border-border hover:border-text hover:text-text"
-              }`}
-            >
-              {t("sort_desc")}
-            </button>
-          </div>
-
-
 
           {/* Grid */}
           {sortBy === "asc" ? (
             <AlphaGroupedGrid
               items={filtered}
+              gridClassName="flex flex-col divide-y divide-border sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-6 sm:divide-y-0"
               renderCard={(entry) => (
                 <Link
                   key={entry.slug}
                   href={`/${locale}/ingredients/${entry.slug}/`}
-                  className="group flex flex-col items-center bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5 h-full"
+                  className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
                 >
-                  <div className="w-12 h-12 mb-4 flex items-center justify-center">
+                  <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
                     <Image
                       src={`/icons/${entry.slug}.svg`}
                       alt=""
                       width={48}
                       height={48}
-                      className="opacity-70 group-hover:opacity-100 transition-opacity"
+                      className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
                       onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                     />
                   </div>
-                  <h3 className="font-display text-lg font-normal mb-1 text-text">
-                    {entry.title}
-                  </h3>
-                  <div className="text-xs text-muted uppercase tracking-wide mt-auto">
-                    {CATEGORY_LABELS[entry.category] || entry.category}
+                  <div className="flex-1 min-w-0 sm:contents">
+                    <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
+                      {entry.title}
+                    </h3>
+                    <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
+                      {CATEGORY_LABELS[entry.category] || entry.category}
+                    </div>
                   </div>
                 </Link>
               )}
             />
           ) : (
-            <StaggerGrid className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <StaggerGrid className="flex flex-col divide-y divide-border sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-6 sm:divide-y-0">
               {filtered.map((entry) => (
                 <StaggerItem key={entry.slug}>
                   <Link
                     href={`/${locale}/ingredients/${entry.slug}/`}
-                    className="group flex flex-col items-center bg-surface border border-border rounded-lg p-6 text-center hover:border-accent transition-all duration-200 !no-underline overflow-hidden relative hover:-translate-y-0.5 h-full"
+                    className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
                   >
-                    <div className="w-12 h-12 mb-4 flex items-center justify-center">
+                    <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
                       <Image
                         src={`/icons/${entry.slug}.svg`}
                         alt=""
                         width={48}
                         height={48}
-                        className="opacity-70 group-hover:opacity-100 transition-opacity"
+                        className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
                         onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                       />
                     </div>
-                    <h3 className="font-display text-lg font-normal mb-1 text-text">
-                      {entry.title}
-                    </h3>
-                    <div className="text-xs text-muted uppercase tracking-wide mt-auto">
-                      {CATEGORY_LABELS[entry.category] || entry.category}
+                    <div className="flex-1 min-w-0 sm:contents">
+                      <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
+                        {entry.title}
+                      </h3>
+                      <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
+                        {CATEGORY_LABELS[entry.category] || entry.category}
+                      </div>
                     </div>
                   </Link>
                 </StaggerItem>

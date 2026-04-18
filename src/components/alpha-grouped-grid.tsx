@@ -6,12 +6,14 @@ interface Props<T extends { title: string; slug: string }> {
   items: T[];
   renderCard: (item: T) => React.ReactNode;
   scrollMargin?: string;
+  gridClassName?: string;
 }
 
 export function AlphaGroupedGrid<T extends { title: string; slug: string }>({
   items,
   renderCard,
   scrollMargin = "scroll-mt-52",
+  gridClassName = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6",
 }: Props<T>) {
   const grouped = groupByFirstLetter(items);
   const letters = Array.from(grouped.keys()).sort((a, b) =>
@@ -31,7 +33,7 @@ export function AlphaGroupedGrid<T extends { title: string; slug: string }>({
           <h2 className="font-display text-3xl font-light text-muted/40 mb-6">
             {letter}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className={gridClassName}>
             {grouped.get(letter)!.map((item) => renderCard(item))}
           </div>
         </section>

@@ -133,12 +133,12 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
             {search && ` matching "${search}"`}
           </span>
         </div>
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 overflow-x-auto flex-nowrap lg:flex-wrap pb-1 lg:pb-0 -mx-4 px-4 lg:mx-0 lg:px-0 scrollbar-none">
           {difficulties.map((d) => (
             <button
               key={d || "all"}
               onClick={() => setDifficulty(d || "all")}
-              className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize ${
+              className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize shrink-0 ${
                 difficulty === d
                   ? "bg-accent text-white border-accent"
                   : "bg-transparent text-muted border-border hover:border-accent hover:text-accent"
