@@ -29,7 +29,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
   const t = useTranslations("recipes");
   const [search, setSearch] = useState("");
   const [difficulty, setDifficulty] = useState("all");
-  const [sortBy, setSortBy] = useState<SortBy>("default");
+  const [sortBy, setSortBy] = useState<SortBy>("asc");
 
   const difficulties = ["all", ...new Set(recipes.map((r) => r.difficulty).filter(Boolean))];
 
@@ -46,11 +46,6 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       );
     return sortItems(base, sortBy);
   }, [recipes, difficulty, search, sortBy]);
-
-  const SORT_OPTIONS: { value: SortBy; label: string }[] = [
-    { value: "default", label: t("sort_default") },
-    { value: "alpha", label: t("sort_alpha") },
-  ];
 
   return (
     <div>
@@ -88,20 +83,27 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       </div>
 
       {/* Sort buttons */}
-      <div className="flex gap-2 flex-wrap mb-8">
-        {SORT_OPTIONS.map((opt) => (
-          <button
-            key={opt.value}
-            onClick={() => setSortBy(opt.value)}
-            className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
-              sortBy === opt.value
-                ? "bg-text text-bg border-text"
-                : "bg-transparent text-muted border-border hover:border-text hover:text-text"
-            }`}
-          >
-            {opt.label}
-          </button>
-        ))}
+      <div className="flex gap-2 mb-8">
+        <button
+          onClick={() => setSortBy("asc")}
+          className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
+            sortBy === "asc"
+              ? "bg-text text-bg border-text"
+              : "bg-transparent text-muted border-border hover:border-text hover:text-text"
+          }`}
+        >
+          {t("sort_asc")}
+        </button>
+        <button
+          onClick={() => setSortBy("desc")}
+          className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
+            sortBy === "desc"
+              ? "bg-text text-bg border-text"
+              : "bg-transparent text-muted border-border hover:border-text hover:text-text"
+          }`}
+        >
+          {t("sort_desc")}
+        </button>
       </div>
 
       {/* Count */}
@@ -111,7 +113,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       </p>
 
       {/* Grid */}
-      {sortBy === "alpha" ? (
+      {sortBy === "asc" ? (
         <AlphaGroupedGrid
           items={filtered}
           renderCard={(recipe) => (
@@ -149,9 +151,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
           )}
         />
       ) : (
-        <StaggerGrid
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
+        <StaggerGrid className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filtered.map((recipe) => (
             <StaggerItem key={recipe.slug}>
               <Link

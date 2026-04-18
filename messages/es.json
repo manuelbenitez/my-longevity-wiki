@@ -26,11 +26,10 @@
     "no_results": "No se encontraron ingredientes. Prueba con otro filtro o termino de busqueda.",
     "back": "Volver al wiki",
     "recipes_with": "Recetas con {name}",
-    "sort_default": "Por defecto",
-    "sort_alpha": "A–Z",
-    "sort_score": "Puntuacion",
+    "sort_asc": "A–Z",
+    "sort_desc": "Z–A",
     "page_title": "Ingredientes",
-    "page_description": "{count} ingredientes estudiados por su efecto en el envejecimiento saludable. Filtra por categoria, ordena A–Z o por puntuacion de longevidad."
+    "page_description": "Ingredientes estudiados por su efecto en el envejecimiento saludable. Filtra por categoria u ordena A–Z."
   },
   "recipes": {
     "search": "Buscar recetas o ingredientes...",
@@ -41,8 +40,8 @@
     "prep": "Prep: {time}",
     "cook": "Coccion: {time}",
     "servings": "{count} porciones",
-    "sort_default": "Por defecto",
-    "sort_alpha": "A–Z",
+    "sort_asc": "A–Z",
+    "sort_desc": "Z–A",
     "page_title": "Recetas",
     "page_description": "Cocina mediterranea y de longevidad. Cada receta esta construida alrededor de ingredientes con beneficios probados para la salud."
   },

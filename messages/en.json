@@ -26,11 +26,10 @@
     "no_results": "No ingredients found. Try a different filter or search term.",
     "back": "Back to wiki",
     "recipes_with": "Recipes with {name}",
-    "sort_default": "Default",
-    "sort_alpha": "A–Z",
-    "sort_score": "Score",
+    "sort_asc": "A–Z",
+    "sort_desc": "Z–A",
     "page_title": "Ingredients",
-    "page_description": "{count} ingredients studied for their effect on healthy aging. Filter by category, sort A–Z, or browse by longevity score."
+    "page_description": "Ingredients studied for their effect on healthy aging. Filter by category or sort A–Z."
   },
   "recipes": {
     "search": "Search recipes or ingredients...",
@@ -41,8 +40,8 @@
     "prep": "Prep: {time}",
     "cook": "Cook: {time}",
     "servings": "{count} servings",
-    "sort_default": "Default",
-    "sort_alpha": "A–Z",
+    "sort_asc": "A–Z",
+    "sort_desc": "Z–A",
     "page_title": "Recipes",
     "page_description": "Mediterranean and longevity cuisine. Every recipe is built around ingredients with proven health benefits."
   },

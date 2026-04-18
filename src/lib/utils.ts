@@ -1,4 +1,4 @@
-export type SortBy = "default" | "alpha" | "score";
+export type SortBy = "asc" | "desc";
 
 function normalizeFirstChar(title: string): string {
   const first = title
@@ -22,17 +22,12 @@ export function groupByFirstLetter<T extends { title: string }>(
   return map;
 }
 
-export function sortItems<T extends { title: string; longevity_score?: number }>(
+export function sortItems<T extends { title: string }>(
   items: T[],
   sortBy: SortBy
 ): T[] {
-  if (sortBy === "alpha") {
+  if (sortBy === "asc") {
     return [...items].sort((a, b) => a.title.localeCompare(b.title));
   }
-  if (sortBy === "score") {
-    return [...items].sort(
-      (a, b) => (b.longevity_score ?? 0) - (a.longevity_score ?? 0)
-    );
-  }
-  return items;
+  return [...items].sort((a, b) => b.title.localeCompare(a.title));
 }

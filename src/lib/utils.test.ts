@@ -26,34 +26,19 @@ describe("groupByFirstLetter", () => {
 });
 
 describe("sortItems", () => {
-  it("alpha sort produces A→Z order", () => {
-    const sorted = sortItems(items(["Zucchini", "Apple", "Miso"]), "alpha");
+  it("asc sort produces A→Z order", () => {
+    const sorted = sortItems(items(["Zucchini", "Apple", "Miso"]), "asc");
     expect(sorted.map((i) => i.title)).toEqual(["Apple", "Miso", "Zucchini"]);
   });
 
-  it("score sort produces descending order", () => {
-    const scored = [
-      { title: "A", longevity_score: 5 },
-      { title: "B", longevity_score: 9 },
-      { title: "C", longevity_score: 2 },
-    ];
-    const sorted = sortItems(scored, "score");
-    expect(sorted.map((i) => i.longevity_score)).toEqual([9, 5, 2]);
+  it("desc sort produces Z→A order", () => {
+    const sorted = sortItems(items(["Apple", "Miso", "Zucchini"]), "desc");
+    expect(sorted.map((i) => i.title)).toEqual(["Zucchini", "Miso", "Apple"]);
   });
 
-  it("default sort preserves original order", () => {
-    const original = items(["Zucchini", "Apple", "Miso"]);
-    expect(sortItems(original, "default")).toBe(original);
-  });
-
-  it("handles items without longevity_score in score sort", () => {
-    const mixed = [
-      { title: "A", longevity_score: 7 },
-      { title: "B" },
-      { title: "C", longevity_score: 3 },
-    ];
-    const sorted = sortItems(mixed, "score");
-    expect(sorted[0].title).toBe("A");
-    expect(sorted[2].title).toBe("B");
+  it("does not mutate the original array", () => {
+    const original = items(["Zucchini", "Apple"]);
+    sortItems(original, "asc");
+    expect(original[0].title).toBe("Zucchini");
   });
 });

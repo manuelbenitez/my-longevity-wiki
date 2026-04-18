@@ -45,3 +45,4 @@ data/book-raw/
 data/book-extracts/_raw-chapter-*.txt
 .gstack/
 .env.local
+.claude/
