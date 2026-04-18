@@ -54,16 +54,12 @@ export default async function MealPlannerPage({
     longevity_ingredients: r.frontmatter.longevity_ingredients ?? [],
   }));
 
-  const totalLongevityIngredients = new Set(
-    allRecipes.flatMap((r) => r.frontmatter.longevity_ingredients ?? [])
-  ).size;
-
   return (
     <main className="min-h-screen">
       <MealPlannerClient
         recipes={recipes}
         wikiCategories={wikiCategories}
-        totalLongevityIngredients={totalLongevityIngredients}
+        totalRecipes={recipes.length}
         locale={locale}
       />
     </main>

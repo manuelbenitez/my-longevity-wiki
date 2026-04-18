@@ -1,32 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo, useState, useCallback } from "react";
+import { useTranslations } from "next-intl";
 import type { RecipeForPlanner } from "@/lib/meal-planner-reducer";
 import { parseShoppingLine } from "@/lib/parse-ingredients";
-
-const CATEGORY_LABELS: Record<string, string> = {
-  vegetable: "Vegetables",
-  fruit: "Fruits",
-  herb: "Herbs",
-  mushroom: "Mushrooms",
-  fish: "Fish",
-  shellfish: "Shellfish",
-  legume: "Legumes",
-  nut: "Nuts",
-  seed: "Seeds",
-  egg: "Eggs",
-  meat: "Meat",
-  dairy: "Dairy",
-  oil: "Oils",
-  oil_condiment: "Oils & Condiments",
-  grain: "Grains",
-  spice: "Spices",
-  beverage: "Beverages",
-  nutrient: "Nutrients",
-  supplement: "Supplements",
-  other: "Other",
-};
 
 interface ShoppingItem {
   name: string;
@@ -130,9 +107,7 @@ function findBestSlug(line: string, slugs: string[]): string | null {
 interface Props {
   recipes: RecipeForPlanner[];
   wikiCategories: Record<string, string>;
-  locale: string;
   servings: number;
-  totalLongevityIngredients: number;
   onCopyText: (text: string) => void;
   copyStatus: "idle" | "copied" | "failed";
 }
@@ -140,13 +115,21 @@ interface Props {
 export function ShoppingList({
   recipes,
   wikiCategories,
-  locale,
-  servings,
-  totalLongevityIngredients,
+  servings: _servings,
   onCopyText,
   copyStatus,
 }: Props) {
+  const t = useTranslations("meal_planner");
+  const tCat = useTranslations("categories");
   const [checked, setChecked] = useState<Set<string>>(new Set());
+
+  const getCategoryLabel = useCallback((key: string): string => {
+    try {
+      return tCat(key as Parameters<typeof tCat>[0]);
+    } catch {
+      return key;
+    }
+  }, [tCat]);
 
   const toggle = useCallback((key: string) => {
     setChecked((prev) => {
@@ -196,26 +179,17 @@ export function ShoppingList({
     const sortedKeys = [...grouped.keys()].sort((a, b) => {
       if (a === "other") return 1;
       if (b === "other") return -1;
-      return (CATEGORY_LABELS[a] ?? a).localeCompare(CATEGORY_LABELS[b] ?? b);
+      return getCategoryLabel(a).localeCompare(getCategoryLabel(b));
     });
 
     const result = new Map<string, GroupedItem[]>();
     for (const key of sortedKeys) result.set(key, grouped.get(key)!);
     return result;
-  }, [recipes, wikiCategories]);
-
-  const covered = useMemo(
-    () => new Set(recipes.flatMap((r) => r.longevity_ingredients)).size,
-    [recipes]
-  );
-
-  const coveragePercent = totalLongevityIngredients > 0
-    ? Math.round((covered / totalLongevityIngredients) * 100)
-    : 0;
+  }, [recipes, wikiCategories, getCategoryLabel]);
 
   const copyText = [...sections.entries()].flatMap(([category, items]) => {
     if (items.length === 0) return [];
-    const header = (CATEGORY_LABELS[category] ?? category).toUpperCase();
+    const header = getCategoryLabel(category).toUpperCase();
     const lines = items.map((item) => {
       const qty = sumQuantities(item.quantities);
       return qty ? `- ${item.name} (${qty})` : `- ${item.name}`;
@@ -230,7 +204,7 @@ export function ShoppingList({
   return (
     <div className="mt-10 print:mt-4">
       <h2 className="font-display text-2xl font-light mb-6 print:text-xl">
-        Shopping List
+        {t("shopping_list_title")}
       </h2>
 
       <div className="space-y-8 print:space-y-4">
@@ -239,7 +213,7 @@ export function ShoppingList({
           return (
             <div key={category}>
               <h3 className="text-xs font-semibold text-muted uppercase tracking-widest mb-3">
-                {CATEGORY_LABELS[category] ?? category}
+                {getCategoryLabel(category)}
               </h3>
               <ul className="space-y-1">
                 {items.map((item) => {
@@ -266,17 +240,7 @@ export function ShoppingList({
 
                       <span className="flex-1">
                         <span className={done ? "line-through" : ""}>
-                          {item.matchedSlug ? (
-                            <Link
-                              href={`/${locale}/ingredients/${item.matchedSlug}/`}
-                              onClick={(e) => e.stopPropagation()}
-                              className="text-text border-b border-border hover:border-accent hover:text-accent transition-colors"
-                            >
-                              {item.name}
-                            </Link>
-                          ) : (
-                            <span>{item.name}</span>
-                          )}
+                          <span>{item.name}</span>
                           {item.quantities.length > 0 && (
                             <span className="text-muted"> ({sumQuantities(item.quantities)})</span>
                           )}
@@ -291,27 +255,6 @@ export function ShoppingList({
         })}
       </div>
 
-      {/* Coverage bar */}
-      <div className="mt-8 print:mt-4">
-        <div className="flex items-center justify-between mb-2">
-          <span className="text-sm text-muted">
-            {covered} of {totalLongevityIngredients} longevity ingredients
-            {coveragePercent === 100 && (
-              <span className="ml-2 text-accent font-medium">— full coverage!</span>
-            )}
-          </span>
-          <span className="text-xs text-muted">{coveragePercent}%</span>
-        </div>
-        <div className="h-2 bg-border rounded-full overflow-hidden">
-          <div
-            className={`h-full rounded-full transition-all duration-500 ${
-              coveragePercent === 100 ? "bg-accent" : "bg-accent/70"
-            }`}
-            style={{ width: `${coveragePercent}%` }}
-          />
-        </div>
-      </div>
-
       {/* Action buttons */}
       <div className="mt-6 flex gap-3 print:hidden">
         <button
@@ -319,16 +262,10 @@ export function ShoppingList({
           className="px-4 py-2 text-sm font-medium bg-accent text-white rounded hover:bg-accent-hover transition-colors"
         >
           {copyStatus === "copied"
-            ? "Copied!"
+            ? t("copied")
             : copyStatus === "failed"
-            ? "Copy failed"
-            : "Copy shopping list"}
-        </button>
-        <button
-          onClick={() => window.print()}
-          className="px-4 py-2 text-sm font-medium border border-border text-muted rounded hover:border-accent hover:text-accent transition-colors"
-        >
-          Print
+            ? t("copy_failed")
+            : t("copy_button")}
         </button>
       </div>
     </div>

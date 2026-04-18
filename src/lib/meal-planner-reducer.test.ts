@@ -17,7 +17,6 @@ const makeRecipe = (slug: string): RecipeForPlanner => ({
 });
 
 const RECIPES = Array.from({ length: 8 }, (_, i) => makeRecipe(`recipe-${i}`));
-const NO_TRIED = new Set<string>();
 
 describe("SET_SERVINGS", () => {
   it("sets servings within range", () => {
@@ -52,7 +51,7 @@ describe("SET_RECIPE_COUNT", () => {
 describe("SUGGEST", () => {
   it("selects recipeCount distinct recipes", () => {
     const state: MealPlannerState = { ...DEFAULT_STATE, recipeCount: 3 };
-    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: RECIPES, triedSlugs: NO_TRIED });
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: RECIPES });
     expect(s.selectedRecipes).toHaveLength(3);
     const slugs = s.selectedRecipes.map((r) => r.slug);
     expect(new Set(slugs).size).toBe(3);
@@ -61,23 +60,15 @@ describe("SUGGEST", () => {
   it("selects no more than available recipes", () => {
     const state: MealPlannerState = { ...DEFAULT_STATE, recipeCount: 5 };
     const smallPool = RECIPES.slice(0, 2);
-    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: smallPool, triedSlugs: NO_TRIED });
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: smallPool });
     expect(s.selectedRecipes).toHaveLength(2);
   });
 
-  it("in surprise mode prefers untried recipes", () => {
-    const state: MealPlannerState = { ...DEFAULT_STATE, recipeCount: 2, surpriseMode: true };
-    const tried = new Set(["recipe-0", "recipe-1", "recipe-2", "recipe-3", "recipe-4", "recipe-5"]);
-    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: RECIPES, triedSlugs: tried });
+  it("does not pick duplicate slugs", () => {
+    const state: MealPlannerState = { ...DEFAULT_STATE, recipeCount: 7 };
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: RECIPES });
     const slugs = s.selectedRecipes.map((r) => r.slug);
-    expect(slugs.every((slug) => !tried.has(slug))).toBe(true);
-  });
-
-  it("in surprise mode falls back to full pool when all tried", () => {
-    const state: MealPlannerState = { ...DEFAULT_STATE, recipeCount: 2, surpriseMode: true };
-    const tried = new Set(RECIPES.map((r) => r.slug));
-    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: RECIPES, triedSlugs: tried });
-    expect(s.selectedRecipes).toHaveLength(2);
+    expect(new Set(slugs).size).toBe(slugs.length);
   });
 });
 
@@ -92,7 +83,6 @@ describe("SWAP_RECIPE", () => {
       type: "SWAP_RECIPE",
       index: 1,
       allRecipes: RECIPES,
-      triedSlugs: NO_TRIED,
     });
     expect(s.selectedRecipes[0]).toBe(RECIPES[0]);
     expect(s.selectedRecipes[2]).toBe(RECIPES[2]);
@@ -105,7 +95,6 @@ describe("SWAP_RECIPE", () => {
         type: "SWAP_RECIPE",
         index: 0,
         allRecipes: RECIPES,
-        triedSlugs: NO_TRIED,
       });
       const selectedSlugs = s.selectedRecipes.map((r) => r.slug);
       expect(new Set(selectedSlugs).size).toBe(3);
@@ -121,20 +110,60 @@ describe("SWAP_RECIPE", () => {
       type: "SWAP_RECIPE",
       index: 0,
       allRecipes: [RECIPES[0], RECIPES[1]],
-      triedSlugs: NO_TRIED,
     });
     expect(s.selectedRecipes[0]).toBe(RECIPES[0]);
   });
 });
 
-describe("TOGGLE_SURPRISE_MODE", () => {
-  it("toggles from false to true", () => {
-    const s = mealPlannerReducer(DEFAULT_STATE, { type: "TOGGLE_SURPRISE_MODE" });
-    expect(s.surpriseMode).toBe(true);
+describe("REMOVE_RECIPE", () => {
+  it("removes recipe and decrements recipeCount", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 3,
+      selectedRecipes: [RECIPES[0], RECIPES[1], RECIPES[2]],
+    };
+    const s = mealPlannerReducer(state, { type: "REMOVE_RECIPE", index: 1 });
+    expect(s.selectedRecipes).toHaveLength(2);
+    expect(s.selectedRecipes.find((r) => r.slug === RECIPES[1].slug)).toBeUndefined();
+    expect(s.recipeCount).toBe(2);
   });
-  it("toggles from true to false", () => {
-    const state = { ...DEFAULT_STATE, surpriseMode: true };
-    const s = mealPlannerReducer(state, { type: "TOGGLE_SURPRISE_MODE" });
-    expect(s.surpriseMode).toBe(false);
+});
+
+describe("MARK_AS_TRIED / UNMARK_TRIED", () => {
+  it("moves recipe from selected to tried", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 2,
+      selectedRecipes: [RECIPES[0], RECIPES[1]],
+    };
+    const s = mealPlannerReducer(state, { type: "MARK_AS_TRIED", index: 0 });
+    expect(s.selectedRecipes).toHaveLength(1);
+    expect(s.triedRecipes).toHaveLength(1);
+    expect(s.triedRecipes[0].slug).toBe(RECIPES[0].slug);
+    expect(s.recipeCount).toBe(1);
+  });
+
+  it("does not duplicate in tried list", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 1,
+      selectedRecipes: [RECIPES[0]],
+      triedRecipes: [RECIPES[0]],
+    };
+    const s = mealPlannerReducer(state, { type: "MARK_AS_TRIED", index: 0 });
+    expect(s.triedRecipes).toHaveLength(1);
+  });
+
+  it("moves recipe from tried back to selected", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 1,
+      selectedRecipes: [RECIPES[1]],
+      triedRecipes: [RECIPES[0]],
+    };
+    const s = mealPlannerReducer(state, { type: "UNMARK_TRIED", slug: RECIPES[0].slug });
+    expect(s.triedRecipes).toHaveLength(0);
+    expect(s.selectedRecipes).toHaveLength(2);
+    expect(s.recipeCount).toBe(2);
   });
 });

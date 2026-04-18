@@ -89,7 +89,32 @@
   },
   "meal_planner": {
     "page_title": "Planificador de comidas",
-    "page_description": "Planifica tu semana con recetas de longevidad basadas en evidencia. Obtén una lista de compras y sigue la cobertura de ingredientes."
+    "page_description": "Planifica tu semana con recetas de longevidad basadas en evidencia. Obtén una lista de compras y sigue la cobertura de ingredientes.",
+    "title": "Planificador de comidas",
+    "subtitle": "{count} recetas basadas en evidencia. Elige cuántas personas y recetas, obtén una lista de compras.",
+    "progress": "{selected} de {total} recetas planificadas",
+    "full_menu": "¡menú completo!",
+    "people_label": "Personas a alimentar",
+    "recipes_label": "Recetas",
+    "suggest_button": "Sugerir recetas",
+    "suggested_section": "Recetas sugeridas",
+    "empty_state": "Elige cuántas personas y recetas, luego haz clic en Sugerir recetas.",
+    "shopping_section": "Lista de compras",
+    "tried_section": "Recetas probadas",
+    "time_total": "{minutes} min en total",
+    "time_see_recipe": "Ver receta",
+    "serves": "sirve para {count}",
+    "cooking_for": "cocinando para {count}",
+    "swap_button": "cambiar",
+    "tried_button": "probado",
+    "undo_button": "deshacer",
+    "swap_aria": "Cambiar {title}",
+    "tried_aria": "Marcar {title} como probado",
+    "remove_aria": "Eliminar {title}",
+    "shopping_list_title": "Lista de compras",
+    "copy_button": "Copiar lista de compras",
+    "copied": "¡Copiado!",
+    "copy_failed": "Error al copiar"
   },
   "footer": {
     "description": "Enciclopedia de alimentos de codigo abierto basada en investigacion cientifica sobre longevidad."
@@ -103,8 +128,18 @@
     "seed": "Semillas",
     "spice": "Especias",
     "herb": "Hierbas",
-    "oil_condiment": "Aceites",
+    "mushroom": "Hongos",
+    "fish": "Pescado",
     "fish_seafood": "Pescados",
-    "beverage": "Bebidas"
+    "shellfish": "Marisco",
+    "egg": "Huevos",
+    "meat": "Carne",
+    "dairy": "Lácteos",
+    "oil": "Aceites",
+    "oil_condiment": "Aceites y condimentos",
+    "beverage": "Bebidas",
+    "nutrient": "Nutrientes",
+    "supplement": "Suplementos",
+    "other": "Otros"
   }
 }

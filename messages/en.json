@@ -89,7 +89,32 @@
   },
   "meal_planner": {
     "page_title": "Meal Planner",
-    "page_description": "Plan your week with evidence-based longevity recipes. Get a shopping list, track ingredient coverage."
+    "page_description": "Plan your week with evidence-based longevity recipes. Get a shopping list, track ingredient coverage.",
+    "title": "Meal Planner",
+    "subtitle": "{count} evidence-based recipes. Pick how many people and recipes, get a shopping list.",
+    "progress": "{selected} of {total} recipes planned",
+    "full_menu": "full menu!",
+    "people_label": "People to feed",
+    "recipes_label": "Recipes",
+    "suggest_button": "Suggest recipes",
+    "suggested_section": "Suggested Recipes",
+    "empty_state": "Set how many people and recipes, then click Suggest recipes.",
+    "shopping_section": "Shopping List",
+    "tried_section": "Tried Recipes",
+    "time_total": "{minutes} min total",
+    "time_see_recipe": "See recipe",
+    "serves": "serves {count}",
+    "cooking_for": "cooking for {count}",
+    "swap_button": "swap",
+    "tried_button": "tried",
+    "undo_button": "undo",
+    "swap_aria": "Swap {title}",
+    "tried_aria": "Mark {title} as tried",
+    "remove_aria": "Remove {title}",
+    "shopping_list_title": "Shopping List",
+    "copy_button": "Copy shopping list",
+    "copied": "Copied!",
+    "copy_failed": "Copy failed"
   },
   "footer": {
     "description": "Open source food encyclopedia grounded in peer-reviewed longevity research."
@@ -103,8 +128,18 @@
     "seed": "Seeds",
     "spice": "Spices",
     "herb": "Herbs",
-    "oil_condiment": "Oils",
+    "mushroom": "Mushrooms",
+    "fish": "Fish",
     "fish_seafood": "Fish",
-    "beverage": "Beverages"
+    "shellfish": "Shellfish",
+    "egg": "Eggs",
+    "meat": "Meat",
+    "dairy": "Dairy",
+    "oil": "Oils",
+    "oil_condiment": "Oils & Condiments",
+    "beverage": "Beverages",
+    "nutrient": "Nutrients",
+    "supplement": "Supplements",
+    "other": "Other"
   }
 }
