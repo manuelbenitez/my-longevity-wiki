@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 0 min
 difficulty: easy
-longevity_ingredients: [walnuts, extra-virgin-olive-oil, dark-green-leafy-vegetables]
+longevity_ingredients: [walnuts, extra-virgin-olive-oil, kale]
 tags: [salad, raw, no-cook, mediterranean, antioxidant, heart-health, quick]
 ---
 

@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 35 min
 difficulty: easy
-longevity_ingredients: [turmeric, cruciferous-vegetables, legumes, extra-virgin-olive-oil]
+longevity_ingredients: [turmeric, cauliflower, chickpeas, extra-virgin-olive-oil]
 tags: [bowl, anti-inflammatory, sulforaphane, Middle-Eastern, vegan, high-fiber]
 ---
 

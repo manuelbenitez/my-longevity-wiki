@@ -76,6 +76,21 @@ export default async function Home({
               {recipes.length} {t("recipes_label")} &rarr;
             </span>
           </Link>
+
+          <Link
+            href={`/${locale}/meal-planner/`}
+            className="group flex flex-col bg-surface border border-border rounded-lg p-8 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5 sm:col-span-2"
+          >
+            <h2 className="font-display text-2xl font-normal mb-2 text-text group-hover:text-accent transition-colors">
+              {t("cta_meal_planner")}
+            </h2>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              {t("cta_meal_planner_description")}
+            </p>
+            <span className="text-xs font-semibold text-accent mt-auto">
+              {t("cta_meal_planner_cta")} &rarr;
+            </span>
+          </Link>
         </div>
       </section>
     </main>

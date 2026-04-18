@@ -1,11 +1,11 @@
 ---
 title: Sardine Spaghetti with Lemon and Olive Oil
-slug: sardine-olive-oil-lemon-pasta
+slug: sardine-extra-virgin-olive-oil-lemon-pasta
 servings: 4
 prep_time: 10 min
 cook_time: 15 min
 difficulty: easy
-longevity_ingredients: [extra-virgin-olive-oil, garlic, legumes, parsley]
+longevity_ingredients: [extra-virgin-olive-oil, garlic, parsley]
 tags: [pasta, omega-3, anti-inflammatory, mediterranean, quick, high-protein]
 ---
 

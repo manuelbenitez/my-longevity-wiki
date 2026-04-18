@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 30 min
 difficulty: easy
-longevity_ingredients: [legumes, avocado, extra-virgin-olive-oil]
+longevity_ingredients: [black-beans, avocado, extra-virgin-olive-oil]
 tags: [bowl, vegan, high-fiber, mexican-inspired, meal-prep, gut-health]
 ---
 
@@ -56,7 +56,7 @@ Sweet potatoes are loaded with beta-carotene, a precursor to vitamin A -- but be
 
 ## Science Notes
 
-This bowl reflects a core principle from longevity nutrition: nutrient density means nothing without bioavailability. Sweet potatoes rank among the highest food sources of beta-carotene on the planet, but a low-fat sweet potato meal wastes most of it. The deliberate pairing with monounsaturated fats (avocado and olive oil) turns a nutritious ingredient into a bioavailable one. The fiber load in this meal -- upward of 18g per serving from combined beans and sweet potatoes -- substantially exceeds the amount shown in studies to shift gut microbiome composition toward anti-inflammatory species. The second-meal effect of legumes also means that eating this bowl at lunch measurably reduces the glucose spike from whatever you eat for dinner.
+This bowl reflects a core principle from longevity nutrition: nutrient density means nothing without bioavailability. Sweet potatoes rank among the highest food sources of beta-carotene on the planet, but a low-fat sweet potato meal wastes most of it. The deliberate pairing with monounsaturated fats (avocado and olive oil) turns a nutritious ingredient into a bioavailable one. The fiber load in this meal -- upward of 18g per serving from combined beans and sweet potatoes -- substantially exceeds the amount shown in studies to shift gut microbiome composition toward anti-inflammatory species. The second-meal effect of black-beans also means that eating this bowl at lunch measurably reduces the glucose spike from whatever you eat for dinner.
 
 ## Nutrition Highlights
 

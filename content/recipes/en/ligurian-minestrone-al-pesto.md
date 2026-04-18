@@ -5,7 +5,7 @@ servings: 6
 prep_time: 20 min
 cook_time: 45 min
 difficulty: easy
-longevity_ingredients: [borlotti-beans, zucchini, basil, garlic, extra-virgin-olive-oil, pesto]
+longevity_ingredients: [beans, zucchini, basil, garlic, extra-virgin-olive-oil, pesto]
 tags: [soup, vegan, high-fiber, mediterranean, longevity-diet, one-pot]
 source_book: The Longevity Diet
 ---

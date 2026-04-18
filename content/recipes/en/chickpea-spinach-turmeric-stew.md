@@ -5,7 +5,7 @@ servings: 4
 prep_time: 10 min
 cook_time: 25 min
 difficulty: easy
-longevity_ingredients: [turmeric, legumes, extra-virgin-olive-oil, garlic]
+longevity_ingredients: [turmeric, chickpeas, extra-virgin-olive-oil, garlic]
 tags: [stew, anti-inflammatory, vegan, high-fiber, one-pot, moroccan, meal-prep]
 ---
 

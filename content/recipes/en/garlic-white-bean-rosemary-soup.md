@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 40 min
 difficulty: easy
-longevity_ingredients: [garlic, legumes, rosemary, extra-virgin-olive-oil]
+longevity_ingredients: [garlic, beans, rosemary, extra-virgin-olive-oil]
 tags: [soup, Mediterranean, cardiovascular, high-fiber, vegan, one-pot]
 ---
 

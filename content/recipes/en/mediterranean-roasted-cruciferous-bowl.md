@@ -5,7 +5,7 @@ servings: 4
 prep_time: 20 min
 cook_time: 25 min
 difficulty: medium
-longevity_ingredients: [cruciferous-vegetables, garlic, extra-virgin-olive-oil, walnuts]
+longevity_ingredients: [broccoli, cauliflower, kale, garlic, extra-virgin-olive-oil, walnuts]
 tags: [grain-bowl, sulforaphane, mediterranean, high-fiber, cancer-prevention, vegetarian]
 ---
 

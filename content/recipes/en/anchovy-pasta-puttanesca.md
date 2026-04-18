@@ -5,7 +5,7 @@ servings: 4
 prep_time: 10 min
 cook_time: 25 min
 difficulty: easy
-longevity_ingredients: [anchovies, olive-oil, garlic, tomatoes, olives]
+longevity_ingredients: [anchovies, extra-virgin-olive-oil, garlic, tomatoes, olives]
 tags: [pasta, fish, mediterranean, italian, longevity-diet, quick]
 source_book: The Longevity Diet
 ---

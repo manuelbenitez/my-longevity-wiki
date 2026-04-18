@@ -2,6 +2,7 @@
   "nav": {
     "ingredients": "Ingredientes",
     "recipes": "Recetas",
+    "meal_planner": "Planificador",
     "sources": "Fuentes",
     "support": "Apoyar"
   },
@@ -15,7 +16,10 @@
     "cta_ingredients": "Ingredientes",
     "cta_ingredients_description": "Explora todos los ingredientes por categoria, ordena A–Z o por puntuacion de longevidad.",
     "cta_recipes": "Recetas",
-    "cta_recipes_description": "Cocina mediterranea y de longevidad basada en investigacion cientifica."
+    "cta_recipes_description": "Cocina mediterranea y de longevidad basada en investigacion cientifica.",
+    "cta_meal_planner": "Planificador de comidas",
+    "cta_meal_planner_description": "Elige cuantas personas y recetas. Obtén una lista de compras combinada con enlaces a la entrada wiki de cada ingrediente.",
+    "cta_meal_planner_cta": "Planificar las comidas de esta semana"
   },
   "ingredients": {
     "search": "Buscar ingredientes...",
@@ -82,6 +86,10 @@
     "wiki_repo_description": "El sitio web, articulos y recetas. Agrega ingredientes, corrige contenido, mejora el diseno.",
     "skills_repo": "Longevity Skills",
     "skills_repo_description": "Las habilidades de Claude Code que extraen, investigan y generan contenido. Mejora el pipeline, agrega nuevos analizadores de libros."
+  },
+  "meal_planner": {
+    "page_title": "Planificador de comidas",
+    "page_description": "Planifica tu semana con recetas de longevidad basadas en evidencia. Obtén una lista de compras y sigue la cobertura de ingredientes."
   },
   "footer": {
     "description": "Enciclopedia de alimentos de codigo abierto basada en investigacion cientifica sobre longevidad."

@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 45 min
 difficulty: easy
-longevity_ingredients: [legumes, walnuts, garlic, extra-virgin-olive-oil, rosemary]
+longevity_ingredients: [lentils, walnuts, garlic, extra-virgin-olive-oil, rosemary]
 tags: [pasta, plant-protein, cardiovascular, Italian, meal-prep, vegan]
 ---
 

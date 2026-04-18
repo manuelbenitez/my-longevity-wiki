@@ -5,7 +5,7 @@ servings: 4
 prep_time: 15 min
 cook_time: 40 min
 difficulty: easy
-longevity_ingredients: [turmeric, legumes, garlic, ginger, extra-virgin-olive-oil]
+longevity_ingredients: [turmeric, lentils, garlic, ginger, extra-virgin-olive-oil]
 tags: [soup, anti-inflammatory, high-fiber, vegan, one-pot, meal-prep]
 ---
 
