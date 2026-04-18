@@ -51,7 +51,6 @@ export default async function Home({
             href={`/${locale}/ingredients/`}
             className="group flex flex-col bg-surface border border-border rounded-lg p-8 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
           >
-            <div className="text-3xl mb-4">🥬</div>
             <h2 className="font-display text-2xl font-normal mb-2 text-text group-hover:text-accent transition-colors">
               {t("cta_ingredients")}
             </h2>
@@ -67,7 +66,6 @@ export default async function Home({
             href={`/${locale}/recipes/`}
             className="group flex flex-col bg-surface border border-border rounded-lg p-8 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
           >
-            <div className="text-3xl mb-4">🍲</div>
             <h2 className="font-display text-2xl font-normal mb-2 text-text group-hover:text-accent transition-colors">
               {t("cta_recipes")}
             </h2>
