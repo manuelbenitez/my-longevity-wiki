@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 import { AlphaGroupedGrid } from "@/components/alpha-grouped-grid";
 import { sortItems, groupByFirstLetter, type SortBy } from "@/lib/utils";
 
@@ -48,17 +47,15 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
   }, [recipes, difficulty, search, sortBy]);
 
   const letters = useMemo(() => {
-    if (sortBy !== "asc") return [];
     const grouped = groupByFirstLetter(filtered);
     return Array.from(grouped.keys()).sort((a, b) =>
-      a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)
+      a === "#" ? 1 : b === "#" ? -1 : sortBy === "desc" ? b.localeCompare(a) : a.localeCompare(b)
     );
   }, [filtered, sortBy]);
 
   const [activeLetter, setActiveLetter] = useState("");
 
   useEffect(() => {
-    if (sortBy !== "asc") return;
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
@@ -161,27 +158,23 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
         <aside className="hidden lg:flex flex-col gap-6 w-32 shrink-0">
           <div className="sticky top-[224px]">
             {/* Sort */}
-            <div className="flex flex-col gap-1 mb-10">
+            <div className="mb-10">
               <button
-                onClick={() => setSortBy("asc")}
-                className={`text-sm text-left px-0 py-1 transition-colors ${
-                  sortBy === "asc" ? "text-text font-semibold" : "text-muted hover:text-text"
-                }`}
+                onClick={() => setSortBy(sortBy === "asc" ? "desc" : "asc")}
+                className="flex items-center gap-1 text-sm text-left px-0 py-1 text-muted hover:text-text transition-colors"
               >
-                {t("sort_asc")}
-              </button>
-              <button
-                onClick={() => setSortBy("desc")}
-                className={`text-sm text-left px-0 py-1 transition-colors ${
-                  sortBy === "desc" ? "text-text font-semibold" : "text-muted hover:text-text"
-                }`}
-              >
-                {t("sort_desc")}
+                {sortBy === "asc" ? t("sort_asc") : t("sort_desc")}
+                <svg
+                  width="10" height="10" viewBox="0 0 10 10" fill="none"
+                  className={`transition-transform duration-200 ${sortBy === "desc" ? "rotate-180" : ""}`}
+                >
+                  <path d="M5 2L5 8M5 8L2 5M5 8L8 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </button>
             </div>
 
-            {/* Letter jump nav — only in A-Z mode */}
-            {sortBy === "asc" && letters.length > 0 && (
+            {/* Letter jump nav */}
+            {letters.length > 0 && (
               <div className="flex flex-col gap-0.5">
                 {letters.map((letter) => (
                   <button
@@ -203,46 +196,29 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
 
         {/* Main content */}
         <div className="flex-1 min-w-0">
-          {/* Mobile sort buttons */}
-          <div className="flex gap-2 mb-4 lg:hidden">
+          {/* Mobile sort toggle */}
+          <div className="flex mb-4 lg:hidden">
             <button
-              onClick={() => setSortBy("asc")}
-              className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
-                sortBy === "asc"
-                  ? "bg-text text-bg border-text"
-                  : "bg-transparent text-muted border-border hover:border-text hover:text-text"
-              }`}
+              onClick={() => setSortBy(sortBy === "asc" ? "desc" : "asc")}
+              className="flex items-center gap-1 text-xs font-medium px-3 py-1.5 rounded-sm border border-border text-muted hover:border-text hover:text-text transition-colors duration-150"
             >
-              {t("sort_asc")}
-            </button>
-            <button
-              onClick={() => setSortBy("desc")}
-              className={`text-xs font-medium px-3 py-1.5 rounded-sm border transition-colors duration-150 ${
-                sortBy === "desc"
-                  ? "bg-text text-bg border-text"
-                  : "bg-transparent text-muted border-border hover:border-text hover:text-text"
-              }`}
-            >
-              {t("sort_desc")}
+              {sortBy === "asc" ? t("sort_asc") : t("sort_desc")}
+              <svg
+                width="10" height="10" viewBox="0 0 10 10" fill="none"
+                className={`transition-transform duration-200 ${sortBy === "desc" ? "rotate-180" : ""}`}
+              >
+                <path d="M5 2L5 8M5 8L2 5M5 8L8 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </button>
           </div>
 
 
           {/* Grid */}
-          {sortBy === "asc" ? (
-            <AlphaGroupedGrid
-              items={filtered}
-              renderCard={recipeCard}
-            />
-          ) : (
-            <StaggerGrid className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filtered.map((recipe) => (
-                <StaggerItem key={recipe.slug}>
-                  {recipeCard(recipe)}
-                </StaggerItem>
-              ))}
-            </StaggerGrid>
-          )}
+          <AlphaGroupedGrid
+            items={filtered}
+            reverse={sortBy === "desc"}
+            renderCard={recipeCard}
+          />
 
           {filtered.length === 0 && (
             <p className="text-muted text-center py-12">

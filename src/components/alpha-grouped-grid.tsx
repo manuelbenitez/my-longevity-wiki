@@ -7,6 +7,7 @@ interface Props<T extends { title: string; slug: string }> {
   renderCard: (item: T) => React.ReactNode;
   scrollMargin?: string;
   gridClassName?: string;
+  reverse?: boolean;
 }
 
 export function AlphaGroupedGrid<T extends { title: string; slug: string }>({
@@ -14,10 +15,11 @@ export function AlphaGroupedGrid<T extends { title: string; slug: string }>({
   renderCard,
   scrollMargin = "scroll-mt-52",
   gridClassName = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6",
+  reverse = false,
 }: Props<T>) {
   const grouped = groupByFirstLetter(items);
   const letters = Array.from(grouped.keys()).sort((a, b) =>
-    a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)
+    a === "#" ? 1 : b === "#" ? -1 : reverse ? b.localeCompare(a) : a.localeCompare(b)
   );
 
   if (items.length === 0) return null;

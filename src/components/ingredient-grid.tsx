@@ -4,7 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { StaggerGrid, StaggerItem } from "@/components/animate-in";
 import { AlphaGroupedGrid } from "@/components/alpha-grouped-grid";
 import { sortItems, groupByFirstLetter, type SortBy } from "@/lib/utils";
 
@@ -54,17 +53,15 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
   }, [ingredients, active, search, sortBy]);
 
   const letters = useMemo(() => {
-    if (sortBy !== "asc") return [];
     const grouped = groupByFirstLetter(filtered);
     return Array.from(grouped.keys()).sort((a, b) =>
-      a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)
+      a === "#" ? 1 : b === "#" ? -1 : sortBy === "desc" ? b.localeCompare(a) : a.localeCompare(b)
     );
   }, [filtered, sortBy]);
 
   const [activeLetter, setActiveLetter] = useState("");
 
   useEffect(() => {
-    if (sortBy !== "asc") return;
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries
@@ -134,27 +131,23 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
         <aside className="flex flex-col gap-6 w-10 lg:w-32 shrink-0">
           <div className="sticky top-50 lg:top-[224px]">
             {/* Sort */}
-            <div className="flex flex-col gap-1 mb-6 lg:mb-10">
+            <div className="mb-6 lg:mb-10">
               <button
-                onClick={() => setSortBy("asc")}
-                className={`text-xs lg:text-sm text-left px-0 py-1 transition-colors ${
-                  sortBy === "asc" ? "text-text font-semibold" : "text-muted hover:text-text"
-                }`}
+                onClick={() => setSortBy(sortBy === "asc" ? "desc" : "asc")}
+                className="flex items-center gap-1 text-xs lg:text-sm text-left px-0 py-1 text-muted hover:text-text transition-colors"
               >
-                {t("sort_asc")}
-              </button>
-              <button
-                onClick={() => setSortBy("desc")}
-                className={`text-xs lg:text-sm text-left px-0 py-1 transition-colors ${
-                  sortBy === "desc" ? "text-text font-semibold" : "text-muted hover:text-text"
-                }`}
-              >
-                {t("sort_desc")}
+                {sortBy === "asc" ? t("sort_asc") : t("sort_desc")}
+                <svg
+                  width="10" height="10" viewBox="0 0 10 10" fill="none"
+                  className={`transition-transform duration-200 ${sortBy === "desc" ? "rotate-180" : ""}`}
+                >
+                  <path d="M5 2L5 8M5 8L2 5M5 8L8 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </button>
             </div>
 
-            {/* Letter jump nav — only in A-Z mode */}
-            {sortBy === "asc" && letters.length > 0 && (
+            {/* Letter jump nav */}
+            {letters.length > 0 && (
               <div className="flex flex-col gap-0.5">
                 {letters.map((letter) => (
                   <button
@@ -178,68 +171,37 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
         <div className="flex-1 min-w-0">
 
           {/* Grid */}
-          {sortBy === "asc" ? (
-            <AlphaGroupedGrid
-              items={filtered}
-              gridClassName="flex flex-col divide-y divide-border sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-6 sm:divide-y-0"
-              renderCard={(entry) => (
-                <Link
-                  key={entry.slug}
-                  href={`/${locale}/ingredients/${entry.slug}/`}
-                  className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
-                >
-                  <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
-                    <Image
-                      src={`/icons/${entry.slug}.svg`}
-                      alt=""
-                      width={48}
-                      height={48}
-                      className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
-                      onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-                    />
+          <AlphaGroupedGrid
+            items={filtered}
+            reverse={sortBy === "desc"}
+            gridClassName="flex flex-col divide-y divide-border sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-6 sm:divide-y-0"
+            renderCard={(entry) => (
+              <Link
+                key={entry.slug}
+                href={`/${locale}/ingredients/${entry.slug}/`}
+                className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
+              >
+                <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
+                  <Image
+                    src={`/icons/${entry.slug}.svg`}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
+                    onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                  />
+                </div>
+                <div className="flex-1 min-w-0 sm:contents">
+                  <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
+                    {entry.title}
+                  </h3>
+                  <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
+                    {CATEGORY_LABELS[entry.category] || entry.category}
                   </div>
-                  <div className="flex-1 min-w-0 sm:contents">
-                    <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
-                      {entry.title}
-                    </h3>
-                    <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
-                      {CATEGORY_LABELS[entry.category] || entry.category}
-                    </div>
-                  </div>
-                </Link>
-              )}
-            />
-          ) : (
-            <StaggerGrid className="flex flex-col divide-y divide-border sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-6 sm:divide-y-0">
-              {filtered.map((entry) => (
-                <StaggerItem key={entry.slug}>
-                  <Link
-                    href={`/${locale}/ingredients/${entry.slug}/`}
-                    className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
-                  >
-                    <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
-                      <Image
-                        src={`/icons/${entry.slug}.svg`}
-                        alt=""
-                        width={48}
-                        height={48}
-                        className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
-                        onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-                      />
-                    </div>
-                    <div className="flex-1 min-w-0 sm:contents">
-                      <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
-                        {entry.title}
-                      </h3>
-                      <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
-                        {CATEGORY_LABELS[entry.category] || entry.category}
-                      </div>
-                    </div>
-                  </Link>
-                </StaggerItem>
-              ))}
-            </StaggerGrid>
-          )}
+                </div>
+              </Link>
+            )}
+          />
 
           {filtered.length === 0 && (
             <p className="text-muted text-center py-12">
