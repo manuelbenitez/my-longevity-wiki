@@ -5,10 +5,31 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Sources — Peer-Reviewed Research Behind the Wiki",
   description:
-    "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Currently featuring Professor Luigi Fontana's longevity research.",
+    "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Featuring Luigi Fontana and Valter Longo's longevity research.",
 };
 
 const SOURCES = [
+  {
+    title: "The Longevity Diet",
+    subtitle: "Discover the New Science Behind Stem Cell Activation and Regeneration",
+    author: "Dr. Valter Longo",
+    year: 2018,
+    publisher: "Avery / Penguin Random House",
+    isbn: "978-0525534075",
+    description:
+      "Dr. Longo's evidence-based Longevity Diet program, developed from decades of research on fasting, stem cell activation, and the eating patterns of the world's longest-lived populations. Covers the five longevity pillars, the Fasting Mimicking Diet, and practical meal plans grounded in Mediterranean and Okinawan traditions.",
+    chapters_used: [
+      "Ch. 2: The Five Pillars of Longevity",
+      "Ch. 3: Eating for Longevity — Fundamentals",
+      "Ch. 4: What to Eat and Drink",
+      "Ch. 5: When to Eat — Time-Restricted Feeding",
+      "Ch. 6: The Fasting Mimicking Diet",
+      "Ch. 7: Longevity Diet Meal Plans and Recipes",
+    ],
+    ingredients_extracted: 224,
+    claims_extracted: 380,
+    status: "active",
+  },
   {
     title: "The Path to Longevity",
     subtitle: "How to Reach 100 with the Health and Stamina of a 40-Year-Old",
@@ -146,7 +167,7 @@ export default async function SourcesPage({
           </p>
           <p className="text-sm text-muted">
             We are actively parsing additional longevity research including works
-            by Valter Longo, Peter Attia, and Dan Buettner.
+            by Peter Attia and Dan Buettner.
           </p>
         </div>
       </article>
