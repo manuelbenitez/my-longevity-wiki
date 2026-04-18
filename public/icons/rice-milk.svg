@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- rice-milk -->
+  <path d="M20 14h24l4 40H16L20 14z" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 14c4 2 6 4 12 4s8-2 12-4" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 28h28" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="28" cy="22" rx="3" ry="4" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <ellipse cx="36" cy="22" rx="3" ry="4" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+</svg>

@@ -120,7 +120,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
     <div>
       {/* Sticky filter bar */}
       <div className="sticky top-14 z-20 bg-bg/95 backdrop-blur-sm border-b border-border py-4 mb-6 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-        <div className="mb-3">
+        <div className="flex items-center gap-4 mb-3">
           <input
             type="text"
             placeholder={t("search")}
@@ -128,6 +128,10 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
             onChange={(e) => setSearch(e.target.value)}
             className="w-full max-w-xs px-4 py-2 text-sm bg-surface border border-border rounded-md text-text placeholder:text-muted/60 focus:outline-none focus:border-accent transition-colors"
           />
+          <span className="text-sm text-muted shrink-0">
+            {t("count", { count: filtered.length })}
+            {search && ` matching "${search}"`}
+          </span>
         </div>
         <div className="flex gap-2 flex-wrap">
           {difficulties.map((d) => (
@@ -155,7 +159,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       <div className="flex gap-10">
         {/* Left sidebar — desktop only */}
         <aside className="hidden lg:flex flex-col gap-6 w-32 shrink-0">
-          <div className="sticky top-[200px] pt-6">
+          <div className="sticky top-[224px]">
             {/* Sort */}
             <div className="flex flex-col gap-1 mb-10">
               <button
@@ -223,11 +227,6 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
             </button>
           </div>
 
-          {/* Count */}
-          <p className="text-sm text-muted mb-6">
-            {t("count", { count: filtered.length })}
-            {search && ` matching "${search}"`}
-          </p>
 
           {/* Grid */}
           {sortBy === "asc" ? (

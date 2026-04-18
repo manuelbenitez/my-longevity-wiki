@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- chicory -->
+  <path d="M32 56V30" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 30c-8-2-14-10-12-18 4 4 10 14 12 18" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 30c8-2 14-10 12-18-4 4-10 14-12 18" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 40c-6 0-12-4-12-10 4 2 8 6 12 10" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 40c6 0 12-4 12-10-4 2-8 6-12 10" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 48c-4 0-8-2-8-6 4 1 6 4 8 6" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 48c4 0 8-2 8-6-4 1-6 4-8 6" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

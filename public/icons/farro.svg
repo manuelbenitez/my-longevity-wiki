@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- farro -->
+  <ellipse cx="22" cy="24" rx="8" ry="12" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <path d="M22 12v24" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="42" cy="32" rx="8" ry="12" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <path d="M42 20v24" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 12c4-4 6-4 8 0" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 20c4-4 6-4 8 0" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- celery -->
+  <path d="M24 56V24c0-8 4-14 8-16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 56V22c0-6 4-12 8-14" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 56V26c0-6 3-12 6-14" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 56h24" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 38c-4 2-8 0-10-4" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 34c4-2 8 0 10-4" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

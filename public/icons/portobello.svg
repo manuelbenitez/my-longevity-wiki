@@ -1,0 +1,10 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- portobello -->
+  <path d="M10 32c0-14 8-22 22-22s22 8 22 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 32h52" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 32v22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 32v22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 54h16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M20 22c2 2 4 4 4 8" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 16c0 4 0 8 0 14" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

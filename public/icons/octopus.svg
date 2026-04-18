@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- octopus -->
+  <circle cx="32" cy="22" r="12" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <path d="M20 30c-2 8-4 16-8 20" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 32c-2 8-2 16-6 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 34c0 8 0 16-2 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 34c0 8 0 18 0 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 34c0 8 2 16 2 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 32c2 8 2 16 6 22" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 30c2 8 4 16 8 20" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="27" cy="20" r="3" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+  <circle cx="37" cy="20" r="3" stroke="#2C2418" stroke-width="1.5" fill="none"/>
+</svg>
