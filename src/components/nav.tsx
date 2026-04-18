@@ -12,8 +12,8 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: `/${locale}/#ingredients`, label: t("ingredients"), accent: false },
-    { href: `/${locale}/#recipes`, label: t("recipes"), accent: false },
+    { href: `/${locale}/ingredients/`, label: t("ingredients"), accent: false },
+    { href: `/${locale}/recipes/`, label: t("recipes"), accent: false },
     { href: `/${locale}/sources/`, label: t("sources"), accent: false },
     { href: `/${locale}/support/`, label: t("support"), accent: true },
   ];

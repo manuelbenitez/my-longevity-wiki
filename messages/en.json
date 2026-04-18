@@ -11,7 +11,11 @@
     "ingredients_label": "Ingredients",
     "recipes_label": "Recipes",
     "section_ingredients": "Ingredients",
-    "section_recipes": "Recipes"
+    "section_recipes": "Recipes",
+    "cta_ingredients": "Ingredients",
+    "cta_ingredients_description": "Browse all ingredients by category, sort A–Z or by longevity score.",
+    "cta_recipes": "Recipes",
+    "cta_recipes_description": "Mediterranean and longevity cuisine grounded in peer-reviewed research."
   },
   "ingredients": {
     "search": "Search ingredients...",
@@ -21,7 +25,12 @@
     "matching": "matching \"{query}\"",
     "no_results": "No ingredients found. Try a different filter or search term.",
     "back": "Back to wiki",
-    "recipes_with": "Recipes with {name}"
+    "recipes_with": "Recipes with {name}",
+    "sort_default": "Default",
+    "sort_alpha": "A–Z",
+    "sort_score": "Score",
+    "page_title": "Ingredients",
+    "page_description": "{count} ingredients studied for their effect on healthy aging. Filter by category, sort A–Z, or browse by longevity score."
   },
   "recipes": {
     "search": "Search recipes or ingredients...",
@@ -31,7 +40,11 @@
     "back": "Back to wiki",
     "prep": "Prep: {time}",
     "cook": "Cook: {time}",
-    "servings": "{count} servings"
+    "servings": "{count} servings",
+    "sort_default": "Default",
+    "sort_alpha": "A–Z",
+    "page_title": "Recipes",
+    "page_description": "Mediterranean and longevity cuisine. Every recipe is built around ingredients with proven health benefits."
   },
   "sources": {
     "title": "Sources",

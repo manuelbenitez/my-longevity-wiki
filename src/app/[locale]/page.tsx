@@ -1,8 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import Link from "next/link";
 import { getIndividualIngredients, getAllRecipes } from "@/lib/data";
-import { IngredientGrid } from "@/components/ingredient-grid";
-import { RecipeGrid } from "@/components/recipe-grid";
 
 export default async function Home({
   params,
@@ -14,14 +13,6 @@ export default async function Home({
   const t = await getTranslations("home");
   const wikiEntries = getIndividualIngredients(locale);
   const recipes = getAllRecipes(locale);
-
-  const ingredientCards = wikiEntries.map((e) => ({
-    slug: e.slug,
-    title: e.frontmatter.title,
-    category: e.frontmatter.category || "other",
-    longevity_score: e.frontmatter.longevity_score || 0,
-    tags: e.frontmatter.tags || [],
-  }));
 
   return (
     <main className="min-h-screen">
@@ -53,35 +44,42 @@ export default async function Home({
 
       <div className="border-t border-border" />
 
-      {/* Filterable Ingredient Grid */}
-      <section id="ingredients" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
-        <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
-          {t("section_ingredients")}
-        </h2>
-        <IngredientGrid ingredients={ingredientCards} />
+      {/* CTA cards */}
+      <section className="max-w-[680px] mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <Link
+            href={`/${locale}/ingredients/`}
+            className="group flex flex-col bg-surface border border-border rounded-lg p-8 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
+          >
+            <div className="text-3xl mb-4">🥬</div>
+            <h2 className="font-display text-2xl font-normal mb-2 text-text group-hover:text-accent transition-colors">
+              {t("cta_ingredients")}
+            </h2>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              {t("cta_ingredients_description")}
+            </p>
+            <span className="text-xs font-semibold text-accent mt-auto">
+              {wikiEntries.length} {t("ingredients_label")} &rarr;
+            </span>
+          </Link>
+
+          <Link
+            href={`/${locale}/recipes/`}
+            className="group flex flex-col bg-surface border border-border rounded-lg p-8 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
+          >
+            <div className="text-3xl mb-4">🍲</div>
+            <h2 className="font-display text-2xl font-normal mb-2 text-text group-hover:text-accent transition-colors">
+              {t("cta_recipes")}
+            </h2>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              {t("cta_recipes_description")}
+            </p>
+            <span className="text-xs font-semibold text-accent mt-auto">
+              {recipes.length} {t("recipes_label")} &rarr;
+            </span>
+          </Link>
+        </div>
       </section>
-
-      <div className="border-t border-border" />
-
-      {/* Recipes */}
-      {recipes.length > 0 && (
-        <section id="recipes" className="max-w-[1200px] mx-auto px-6 py-16 scroll-mt-16">
-          <h2 className="text-xs font-medium tracking-[0.15em] uppercase text-muted mb-8">
-            {t("section_recipes")}
-          </h2>
-          <RecipeGrid
-            recipes={recipes.map((r) => ({
-              slug: r.slug,
-              title: r.frontmatter.title,
-              prep_time: r.frontmatter.prep_time,
-              cook_time: r.frontmatter.cook_time,
-              difficulty: r.frontmatter.difficulty,
-              longevity_ingredients: r.frontmatter.longevity_ingredients,
-              tags: r.frontmatter.tags,
-            }))}
-          />
-        </section>
-      )}
     </main>
   );
 }

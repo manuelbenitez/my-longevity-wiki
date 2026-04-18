@@ -11,7 +11,11 @@
     "ingredients_label": "Ingredientes",
     "recipes_label": "Recetas",
     "section_ingredients": "Ingredientes",
-    "section_recipes": "Recetas"
+    "section_recipes": "Recetas",
+    "cta_ingredients": "Ingredientes",
+    "cta_ingredients_description": "Explora todos los ingredientes por categoria, ordena A–Z o por puntuacion de longevidad.",
+    "cta_recipes": "Recetas",
+    "cta_recipes_description": "Cocina mediterranea y de longevidad basada en investigacion cientifica."
   },
   "ingredients": {
     "search": "Buscar ingredientes...",
@@ -21,7 +25,12 @@
     "matching": "que coinciden con \"{query}\"",
     "no_results": "No se encontraron ingredientes. Prueba con otro filtro o termino de busqueda.",
     "back": "Volver al wiki",
-    "recipes_with": "Recetas con {name}"
+    "recipes_with": "Recetas con {name}",
+    "sort_default": "Por defecto",
+    "sort_alpha": "A–Z",
+    "sort_score": "Puntuacion",
+    "page_title": "Ingredientes",
+    "page_description": "{count} ingredientes estudiados por su efecto en el envejecimiento saludable. Filtra por categoria, ordena A–Z o por puntuacion de longevidad."
   },
   "recipes": {
     "search": "Buscar recetas o ingredientes...",
@@ -31,7 +40,11 @@
     "back": "Volver al wiki",
     "prep": "Prep: {time}",
     "cook": "Coccion: {time}",
-    "servings": "{count} porciones"
+    "servings": "{count} porciones",
+    "sort_default": "Por defecto",
+    "sort_alpha": "A–Z",
+    "page_title": "Recetas",
+    "page_description": "Cocina mediterranea y de longevidad. Cada receta esta construida alrededor de ingredientes con beneficios probados para la salud."
   },
   "sources": {
     "title": "Fuentes",
