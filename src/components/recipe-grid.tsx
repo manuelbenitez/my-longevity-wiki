@@ -155,7 +155,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
       <div className="flex gap-10">
         {/* Left sidebar — desktop only */}
         <aside className="hidden lg:flex flex-col gap-6 w-32 shrink-0">
-          <div className="sticky top-[200px]">
+          <div className="sticky top-[200px] pt-6">
             {/* Sort */}
             <div className="flex flex-col gap-1 mb-10">
               <button
@@ -183,7 +183,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
                   <button
                     key={letter}
                     onClick={() => scrollToLetter(letter)}
-                    className={`text-sm text-left px-0 py-0.5 transition-colors font-mono ${
+                    className={`text-base text-left px-0 py-0.5 transition-colors font-mono ${
                       activeLetter === letter
                         ? "text-accent font-semibold"
                         : "text-muted hover:text-accent"
