@@ -48,7 +48,7 @@ describe("recipe frontmatter meal_type integrity", () => {
     expect(Array.isArray(data.meal_type)).toBe(true);
     expect((data.meal_type as string[]).length).toBeGreaterThan(0);
     for (const value of data.meal_type as string[]) {
-      expect(allowedValues.has(value as (typeof MEAL_TYPE_OPTIONS)[number])).toBe(true);
+      expect((allowedValues as Set<string>).has(value)).toBe(true);
     }
   });
 });

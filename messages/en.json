@@ -103,6 +103,7 @@
     "subtitle": "{count} evidence-based recipes. Pick how many people and recipes, get a shopping list.",
     "progress": "{selected} of {total} recipes planned",
     "full_menu": "full menu!",
+    "meal_type_label": "Meal type",
     "people_label": "People to feed",
     "recipes_label": "Recipes",
     "suggest_button": "Suggest recipes",

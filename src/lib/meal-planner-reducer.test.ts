@@ -6,7 +6,7 @@ import {
   type MealPlannerState,
 } from "./meal-planner-reducer";
 
-const makeRecipe = (slug: string): RecipeForPlanner => ({
+const makeRecipe = (slug: string, meal_type: string[] = []): RecipeForPlanner => ({
   slug,
   title: slug,
   servings: 4,
@@ -14,6 +14,7 @@ const makeRecipe = (slug: string): RecipeForPlanner => ({
   cookTime: "20 min",
   ingredientLines: ["item"],
   longevity_ingredients: [slug],
+  meal_type,
 });
 
 const RECIPES = Array.from({ length: 8 }, (_, i) => makeRecipe(`recipe-${i}`));
@@ -126,6 +127,117 @@ describe("REMOVE_RECIPE", () => {
     expect(s.selectedRecipes).toHaveLength(2);
     expect(s.selectedRecipes.find((r) => r.slug === RECIPES[1].slug)).toBeUndefined();
     expect(s.recipeCount).toBe(2);
+  });
+});
+
+describe("SET_MEAL_TYPE", () => {
+  it("sets meal type", () => {
+    const s = mealPlannerReducer(DEFAULT_STATE, { type: "SET_MEAL_TYPE", value: "breakfast" });
+    expect(s.mealType).toBe("breakfast");
+  });
+
+  it("does not clear selected recipes", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      selectedRecipes: [RECIPES[0], RECIPES[1]],
+    };
+    const s = mealPlannerReducer(state, { type: "SET_MEAL_TYPE", value: "lunch" });
+    expect(s.selectedRecipes).toHaveLength(2);
+  });
+});
+
+describe("SUGGEST with meal type filter", () => {
+  const mealTypedPool: RecipeForPlanner[] = [
+    makeRecipe("breakfast-1", ["breakfast"]),
+    makeRecipe("breakfast-2", ["breakfast"]),
+    makeRecipe("breakfast-3", ["breakfast"]),
+    makeRecipe("lunch-1", ["lunch"]),
+    makeRecipe("lunch-2", ["lunch", "dinner"]),
+    makeRecipe("dinner-1", ["dinner"]),
+    makeRecipe("snack-drink", ["snack", "drink"]),
+  ];
+
+  it("picks only recipes matching the active meal type", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 3,
+      mealType: "breakfast",
+    };
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: mealTypedPool });
+    expect(s.selectedRecipes).toHaveLength(3);
+    expect(s.selectedRecipes.every((r) => r.meal_type.includes("breakfast"))).toBe(true);
+  });
+
+  it("returns full pool when meal type is all", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 5,
+      mealType: "all",
+    };
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: mealTypedPool });
+    expect(s.selectedRecipes).toHaveLength(5);
+  });
+
+  it("caps at pool size when filter leaves too few recipes", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 7,
+      mealType: "drink",
+    };
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: mealTypedPool });
+    expect(s.selectedRecipes).toHaveLength(1);
+    expect(s.selectedRecipes[0].slug).toBe("snack-drink");
+  });
+
+  it("includes multi-meal recipes under each applicable filter", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      recipeCount: 7,
+      mealType: "dinner",
+    };
+    const s = mealPlannerReducer(state, { type: "SUGGEST", allRecipes: mealTypedPool });
+    const slugs = s.selectedRecipes.map((r) => r.slug).sort();
+    expect(slugs).toEqual(["dinner-1", "lunch-2"]);
+  });
+});
+
+describe("SWAP_RECIPE with meal type filter", () => {
+  const mealTypedPool: RecipeForPlanner[] = [
+    makeRecipe("b1", ["breakfast"]),
+    makeRecipe("b2", ["breakfast"]),
+    makeRecipe("b3", ["breakfast"]),
+    makeRecipe("l1", ["lunch"]),
+    makeRecipe("l2", ["lunch"]),
+  ];
+
+  it("swap replacement respects active meal type", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      mealType: "breakfast",
+      selectedRecipes: [mealTypedPool[0]],
+    };
+    for (let i = 0; i < 20; i++) {
+      const s = mealPlannerReducer(state, {
+        type: "SWAP_RECIPE",
+        index: 0,
+        allRecipes: mealTypedPool,
+      });
+      expect(s.selectedRecipes[0].meal_type).toContain("breakfast");
+    }
+  });
+
+  it("swap no-ops when filtered pool has no replacement", () => {
+    const state: MealPlannerState = {
+      ...DEFAULT_STATE,
+      mealType: "breakfast",
+      selectedRecipes: [mealTypedPool[0], mealTypedPool[1], mealTypedPool[2]],
+    };
+    const s = mealPlannerReducer(state, {
+      type: "SWAP_RECIPE",
+      index: 0,
+      allRecipes: mealTypedPool,
+    });
+    expect(s.selectedRecipes[0].slug).toBe("b1");
   });
 });
 

@@ -37,9 +37,13 @@ export default async function MealPlannerPage({
 
   // Build wikiCategories: slug → category (from wiki frontmatter)
   const wikiCategories: Record<string, string> = {};
+  const wikiTitles: Record<string, string> = {};
   for (const entry of allWikiEntries) {
     if (entry.frontmatter.category) {
       wikiCategories[entry.slug] = entry.frontmatter.category;
+    }
+    if (entry.frontmatter.title) {
+      wikiTitles[entry.slug] = entry.frontmatter.title;
     }
   }
 
@@ -52,6 +56,7 @@ export default async function MealPlannerPage({
     cookTime: r.frontmatter.cook_time,
     ingredientLines: parseIngredientLines(r.content),
     longevity_ingredients: r.frontmatter.longevity_ingredients ?? [],
+    meal_type: r.frontmatter.meal_type ?? [],
   }));
 
   return (
@@ -59,6 +64,7 @@ export default async function MealPlannerPage({
       <MealPlannerClient
         recipes={recipes}
         wikiCategories={wikiCategories}
+        wikiTitles={wikiTitles}
         totalRecipes={recipes.length}
         locale={locale}
       />

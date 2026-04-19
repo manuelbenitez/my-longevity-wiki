@@ -103,6 +103,7 @@
     "subtitle": "{count} recetas basadas en evidencia. Elige cuántas personas y recetas, obtén una lista de compras.",
     "progress": "{selected} de {total} recetas planificadas",
     "full_menu": "¡menú completo!",
+    "meal_type_label": "Tipo de comida",
     "people_label": "Personas a alimentar",
     "recipes_label": "Recetas",
     "suggest_button": "Sugerir recetas",
