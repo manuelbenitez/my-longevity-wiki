@@ -1,3 +1,5 @@
+import { filterByMealType } from "./utils";
+
 export interface RecipeForPlanner {
   slug: string;
   title: string;
@@ -6,11 +8,13 @@ export interface RecipeForPlanner {
   cookTime: string;
   ingredientLines: string[];
   longevity_ingredients: string[];
+  meal_type: string[];
 }
 
 export interface MealPlannerState {
   servings: number;
   recipeCount: number;
+  mealType: string;
   selectedRecipes: RecipeForPlanner[];
   triedRecipes: RecipeForPlanner[];
 }
@@ -18,15 +22,18 @@ export interface MealPlannerState {
 export type MealPlannerAction =
   | { type: "SET_SERVINGS"; value: number }
   | { type: "SET_RECIPE_COUNT"; value: number }
+  | { type: "SET_MEAL_TYPE"; value: string }
   | { type: "SUGGEST"; allRecipes: RecipeForPlanner[] }
   | { type: "SWAP_RECIPE"; index: number; allRecipes: RecipeForPlanner[] }
   | { type: "REMOVE_RECIPE"; index: number }
   | { type: "MARK_AS_TRIED"; index: number }
-  | { type: "UNMARK_TRIED"; slug: string };
+  | { type: "UNMARK_TRIED"; slug: string }
+  | { type: "SET_TRIED"; recipes: RecipeForPlanner[] };
 
 export const DEFAULT_STATE: MealPlannerState = {
   servings: 1,
   recipeCount: 1,
+  mealType: "all",
   selectedRecipes: [],
   triedRecipes: [],
 };
@@ -59,11 +66,15 @@ export function mealPlannerReducer(
     case "SET_RECIPE_COUNT":
       return { ...state, recipeCount: clampRecipeCount(action.value) };
 
+    case "SET_MEAL_TYPE":
+      return { ...state, mealType: action.value };
+
     case "SUGGEST": {
+      const filtered = filterByMealType(action.allRecipes, state.mealType);
       const selected: RecipeForPlanner[] = [];
       const pickedSlugs: string[] = [];
       for (let i = 0; i < state.recipeCount; i++) {
-        const pool = buildPool(action.allRecipes, pickedSlugs);
+        const pool = buildPool(filtered, pickedSlugs);
         if (pool.length === 0) break;
         const pick = pickRandom(pool);
         selected.push(pick);
@@ -74,7 +85,8 @@ export function mealPlannerReducer(
 
     case "SWAP_RECIPE": {
       const currentSlugs = state.selectedRecipes.map((r) => r.slug);
-      const pool = buildPool(action.allRecipes, currentSlugs);
+      const filtered = filterByMealType(action.allRecipes, state.mealType);
+      const pool = buildPool(filtered, currentSlugs);
       if (pool.length === 0) return state;
       const replacement = pickRandom(pool);
       const updated = state.selectedRecipes.map((r, i) =>
@@ -100,6 +112,9 @@ export function mealPlannerReducer(
         triedRecipes: alreadyTried ? state.triedRecipes : [...state.triedRecipes, recipe],
       };
     }
+
+    case "SET_TRIED":
+      return { ...state, triedRecipes: action.recipes };
 
     case "UNMARK_TRIED": {
       const recipe = state.triedRecipes.find((r) => r.slug === action.slug);
