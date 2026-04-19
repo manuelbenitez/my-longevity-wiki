@@ -78,6 +78,21 @@ describe("filterByMealType", () => {
     const dinner = filterByMealType(recipes, "dinner");
     expect(dinner.map((r) => r.title)).toEqual(["Chickpea Stew"]);
   });
+
+  it("returns empty array for empty input", () => {
+    expect(filterByMealType([], "breakfast")).toEqual([]);
+    expect(filterByMealType([], "all")).toEqual([]);
+  });
+
+  it("returns empty array for unknown meal type", () => {
+    expect(filterByMealType(recipes, "brunch")).toEqual([]);
+  });
+
+  it("treats an empty meal_type array as non-matching for specific filters", () => {
+    const empty = [{ title: "Mystery", meal_type: [] as string[] }];
+    expect(filterByMealType(empty, "lunch")).toEqual([]);
+    expect(filterByMealType(empty, "all")).toHaveLength(1);
+  });
 });
 
 describe("meal_type i18n keys", () => {
