@@ -39,12 +39,35 @@ const UNIT_NORM: Record<string, string> = {
   head: "head", heads: "head",
   stalk: "stalk", stalks: "stalk",
   sprig: "sprig", sprigs: "sprig",
+  cucharada: "cucharada", cucharadas: "cucharada",
+  cucharadita: "cucharadita", cucharaditas: "cucharadita",
+  taza: "taza", tazas: "taza",
+  diente: "diente", dientes: "diente",
+  lata: "lata", latas: "lata",
+  filete: "filete", filetes: "filete",
+  pieza: "pieza", piezas: "pieza",
+  rodaja: "rodaja", rodajas: "rodaja",
+  ramita: "ramita", ramitas: "ramita",
+  trozo: "trozo", trozos: "trozo",
+  puñado: "puñado", puñados: "puñado",
+  punado: "puñado", punados: "puñado",
+  hoja: "hoja", hojas: "hoja",
+  pizca: "pizca", pizcas: "pizca",
+  manojo: "manojo", manojos: "manojo",
+  cabeza: "cabeza", cabezas: "cabeza",
+  tallo: "tallo", tallos: "tallo",
+  gajo: "gajo", gajos: "gajo",
 };
 
 const UNIT_PLURAL: Record<string, string> = {
   tablespoon: "tablespoons", teaspoon: "teaspoons", cup: "cups",
   clove: "cloves", fillet: "fillets", can: "cans", piece: "pieces",
   bunch: "bunches", head: "heads", stalk: "stalks", sprig: "sprigs",
+  cucharada: "cucharadas", cucharadita: "cucharaditas", taza: "tazas",
+  diente: "dientes", lata: "latas", filete: "filetes", pieza: "piezas",
+  rodaja: "rodajas", ramita: "ramitas", trozo: "trozos", puñado: "puñados",
+  hoja: "hojas", pizca: "pizcas", manojo: "manojos", cabeza: "cabezas",
+  tallo: "tallos", gajo: "gajos",
 };
 
 function normalizeUnit(u: string): string {
@@ -57,13 +80,13 @@ function displayUnit(norm: string, total: number): string {
 }
 
 function parseQty(qty: string): { amount: number; unit: string } | null {
-  const clean = qty.replace(/\([^)]*\)/g, "").trim();
+  const clean = qty.replace(/\([^)]*\)/g, "").replace(/^(?:about|aproximadamente|unos|unas)\s+/i, "").trim();
   if (/^\d+\s*-\s*\d+/.test(clean)) return null; // ranges not summable
-  let m = clean.match(/^(?:about\s+)?(\d+)\s+(\d+)\/(\d+)\s*(.*)/);
+  let m = clean.match(/^(\d+)\s+(\d+)\/(\d+)\s*(.*)/);
   if (m) return { amount: parseInt(m[1]) + parseInt(m[2]) / parseInt(m[3]), unit: m[4].trim().toLowerCase() };
-  m = clean.match(/^(?:about\s+)?(\d+)\/(\d+)\s*(.*)/);
+  m = clean.match(/^(\d+)\/(\d+)\s*(.*)/);
   if (m) return { amount: parseInt(m[1]) / parseInt(m[2]), unit: m[3].trim().toLowerCase() };
-  m = clean.match(/^(?:about\s+)?(\d+(?:\.\d+)?)\s*(.*)/);
+  m = clean.match(/^(\d+(?:\.\d+)?)\s*(.*)/);
   if (m) return { amount: parseFloat(m[1]), unit: m[2].trim().toLowerCase() };
   return null;
 }
@@ -91,22 +114,33 @@ function sumQuantities(quantities: string[]): string {
   return unit ? `${formatAmt(total)} ${unit}` : formatAmt(total);
 }
 
-function findBestSlug(line: string, slugs: string[]): string | null {
-  let best: string | null = null;
+function findBestSlug(
+  line: string,
+  slugs: string[],
+  wikiTitles: Record<string, string>
+): string | null {
+  const lower = line.toLowerCase();
+  let best: { slug: string; len: number } | null = null;
   for (const slug of slugs) {
-    const term = slug.replace(/-/g, " ");
-    if (line.toLowerCase().includes(term.toLowerCase())) {
-      if (!best || term.length > best.replace(/-/g, " ").length) {
-        best = slug;
+    const terms: string[] = [slug.replace(/-/g, " ")];
+    const title = wikiTitles[slug];
+    if (title) terms.push(title);
+    for (const term of terms) {
+      if (!term) continue;
+      if (lower.includes(term.toLowerCase())) {
+        if (!best || term.length > best.len) {
+          best = { slug, len: term.length };
+        }
       }
     }
   }
-  return best;
+  return best?.slug ?? null;
 }
 
 interface Props {
   recipes: RecipeForPlanner[];
   wikiCategories: Record<string, string>;
+  wikiTitles: Record<string, string>;
   servings: number;
   onCopyText: (text: string) => void;
   copyStatus: "idle" | "copied" | "failed";
@@ -115,6 +149,7 @@ interface Props {
 export function ShoppingList({
   recipes,
   wikiCategories,
+  wikiTitles,
   servings: _servings,
   onCopyText,
   copyStatus,
@@ -144,10 +179,11 @@ export function ShoppingList({
 
     for (const recipe of recipes) {
       for (const line of recipe.ingredientLines) {
-        const matchedSlug = findBestSlug(line, recipe.longevity_ingredients);
+        const matchedSlug = findBestSlug(line, recipe.longevity_ingredients, wikiTitles);
         const category = (matchedSlug ? wikiCategories[matchedSlug] : null) ?? "other";
         if (!flat.has(category)) flat.set(category, []);
-        const { name, quantity } = parseShoppingLine(line, matchedSlug);
+        const localizedName = matchedSlug ? wikiTitles[matchedSlug] ?? null : null;
+        const { name, quantity } = parseShoppingLine(line, matchedSlug, localizedName);
         flat.get(category)!.push({ name, quantity, line, matchedSlug, recipeTitle: recipe.title, recipeSlug: recipe.slug });
       }
     }
@@ -185,7 +221,7 @@ export function ShoppingList({
     const result = new Map<string, GroupedItem[]>();
     for (const key of sortedKeys) result.set(key, grouped.get(key)!);
     return result;
-  }, [recipes, wikiCategories, getCategoryLabel]);
+  }, [recipes, wikiCategories, wikiTitles, getCategoryLabel]);
 
   const copyText = [...sections.entries()].flatMap(([category, items]) => {
     if (items.length === 0) return [];
