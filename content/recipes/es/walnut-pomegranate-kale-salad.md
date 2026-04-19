@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [walnuts, extra-virgin-olive-oil, dark-green-leafy-vegetables]
 tags: [ensalada, crudo, sin-cocción, mediterráneo, antioxidante, salud-cardíaca, rápido]
+meal_type: [lunch]
 ---
 
 # Ensalada de Kale con Nueces, Granada y Aceite de Oliva

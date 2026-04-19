@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: easy
 longevity_ingredients: [turmeric, legumes, extra-virgin-olive-oil, garlic]
 tags: [guiso, antiinflamatorio, vegano, alto-en-fibra, una-olla, marroquí, meal-prep]
+meal_type: [lunch, dinner]
 ---
 
 # Guiso de Garbanzos y Espinacas con Especias

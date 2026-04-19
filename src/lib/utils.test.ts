@@ -1,5 +1,12 @@
 import { describe, it, expect } from "vitest";
-import { groupByFirstLetter, sortItems } from "./utils";
+import {
+  groupByFirstLetter,
+  sortItems,
+  filterByMealType,
+  MEAL_TYPE_OPTIONS,
+} from "./utils";
+import enMessages from "../../messages/en.json";
+import esMessages from "../../messages/es.json";
 
 const items = (titles: string[]) => titles.map((t) => ({ title: t }));
 
@@ -40,5 +47,48 @@ describe("sortItems", () => {
     const original = items(["Zucchini", "Apple"]);
     sortItems(original, "asc");
     expect(original[0].title).toBe("Zucchini");
+  });
+});
+
+describe("filterByMealType", () => {
+  const recipes = [
+    { title: "Oatmeal", meal_type: ["breakfast"] },
+    { title: "Smoothie", meal_type: ["breakfast", "drink"] },
+    { title: "Chickpea Stew", meal_type: ["lunch", "dinner"] },
+    { title: "Legacy Recipe" },
+  ];
+
+  it("returns all items when mealType is 'all'", () => {
+    expect(filterByMealType(recipes, "all")).toHaveLength(4);
+  });
+
+  it("filters to single-meal match", () => {
+    const lunch = filterByMealType(recipes, "lunch");
+    expect(lunch.map((r) => r.title)).toEqual(["Chickpea Stew"]);
+  });
+
+  it("multi-meal recipe appears under every applicable filter", () => {
+    const breakfast = filterByMealType(recipes, "breakfast");
+    const drink = filterByMealType(recipes, "drink");
+    expect(breakfast.map((r) => r.title)).toEqual(["Oatmeal", "Smoothie"]);
+    expect(drink.map((r) => r.title)).toEqual(["Smoothie"]);
+  });
+
+  it("skips items without meal_type for non-all filters", () => {
+    const dinner = filterByMealType(recipes, "dinner");
+    expect(dinner.map((r) => r.title)).toEqual(["Chickpea Stew"]);
+  });
+});
+
+describe("meal_type i18n keys", () => {
+  const mealTypeKeys = MEAL_TYPE_OPTIONS;
+
+  it.each(["en", "es"] as const)("%s locale exports all meal_type keys", (locale) => {
+    const messages = locale === "en" ? enMessages : esMessages;
+    for (const key of mealTypeKeys) {
+      expect(messages.recipes.meal_type).toHaveProperty(key);
+      expect(typeof messages.recipes.meal_type[key]).toBe("string");
+      expect(messages.recipes.meal_type[key].length).toBeGreaterThan(0);
+    }
   });
 });

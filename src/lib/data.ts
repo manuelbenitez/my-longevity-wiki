@@ -81,6 +81,7 @@ export interface Recipe {
     difficulty: string;
     longevity_ingredients: string[];
     tags: string[];
+    meal_type?: string[];
   };
   content: string;
 }
@@ -152,8 +153,12 @@ export function getAllRecipeSlugs(): string[] {
 }
 
 export function getAllRecipes(locale: string = "en"): Recipe[] {
-  return getAllRecipeSlugs()
-    .map((slug) => getRecipe(slug, locale))
+  const dir = path.join(CONTENT_DIR, "recipes", locale);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => getRecipe(f.replace(".md", ""), locale))
     .filter((r): r is Recipe => r !== null);
 }
 

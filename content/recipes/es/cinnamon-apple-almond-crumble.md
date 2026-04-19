@@ -7,6 +7,7 @@ cook_time: 35 min
 difficulty: easy
 longevity_ingredients: [apples, oats]
 tags: [postre, antidiabético, alto-en-fibra, vegetariano, otoño]
+meal_type: [snack]
 ---
 
 # Crumble Tibio de Manzana y Almendras con Canela

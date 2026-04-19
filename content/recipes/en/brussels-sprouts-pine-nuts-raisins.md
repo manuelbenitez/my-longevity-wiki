@@ -7,6 +7,7 @@ cook_time: 20 min
 difficulty: easy
 longevity_ingredients: [brussels-sprouts, garlic, extra-virgin-olive-oil, raisins]
 tags: [vegetable, side-dish, longevity-diet, mediterranean, vegan, cruciferous]
+meal_type: [dinner]
 source_book: The Longevity Diet
 ---
 

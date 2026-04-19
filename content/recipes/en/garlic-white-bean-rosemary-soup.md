@@ -7,6 +7,7 @@ cook_time: 40 min
 difficulty: easy
 longevity_ingredients: [garlic, beans, rosemary, extra-virgin-olive-oil]
 tags: [soup, Mediterranean, cardiovascular, high-fiber, vegan, one-pot]
+meal_type: [lunch, dinner]
 ---
 
 # Roasted Garlic and White Bean Soup with Rosemary

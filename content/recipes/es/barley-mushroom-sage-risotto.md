@@ -7,6 +7,7 @@ cook_time: 50 min
 difficulty: medium
 longevity_ingredients: [barley, sage, garlic, extra-virgin-olive-oil]
 tags: [risotto, italiana, alta-fibra, reductor-colesterol, una-olla, reconfortante]
+meal_type: [dinner]
 ---
 
 # Risotto de Cebada con Hongos y Salvia

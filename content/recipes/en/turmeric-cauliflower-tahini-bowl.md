@@ -7,6 +7,7 @@ cook_time: 35 min
 difficulty: easy
 longevity_ingredients: [turmeric, cauliflower, chickpeas, extra-virgin-olive-oil]
 tags: [bowl, anti-inflammatory, sulforaphane, Middle-Eastern, vegan, high-fiber]
+meal_type: [lunch, dinner]
 ---
 
 # Roasted Cauliflower with Turmeric-Tahini Drizzle

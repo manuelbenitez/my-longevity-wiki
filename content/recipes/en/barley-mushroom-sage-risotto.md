@@ -7,6 +7,7 @@ cook_time: 50 min
 difficulty: medium
 longevity_ingredients: [barley, sage, garlic, extra-virgin-olive-oil]
 tags: [risotto, italian, high-fiber, cholesterol-lowering, one-pot, comfort-food]
+meal_type: [dinner]
 ---
 
 # Hulled Barley Risotto with Mushrooms and Sage

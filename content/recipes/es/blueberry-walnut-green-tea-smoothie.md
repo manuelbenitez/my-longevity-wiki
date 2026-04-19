@@ -7,6 +7,7 @@ cook_time: 5 min
 difficulty: easy
 longevity_ingredients: [blueberries, walnuts, green-tea, ginger]
 tags: [smoothie, desayuno, antioxidante, omega-3, salud-cerebral, rápido]
+meal_type: [breakfast, drink]
 ---
 
 # Smoothie de Arándanos, Nueces y Té Verde

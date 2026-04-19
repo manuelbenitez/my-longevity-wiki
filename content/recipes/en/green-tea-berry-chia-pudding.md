@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [green-tea, berries, blueberries]
 tags: [breakfast, dessert, no-cook, overnight, antioxidant, omega-3, gut-health, vegan]
+meal_type: [breakfast]
 ---
 
 # Matcha Green Tea Chia Pudding with Mixed Berries

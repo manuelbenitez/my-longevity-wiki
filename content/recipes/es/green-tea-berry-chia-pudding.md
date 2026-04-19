@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [green-tea, berries, blueberries]
 tags: [desayuno, postre, sin-cocción, overnight, antioxidante, omega-3, salud-intestinal, vegano]
+meal_type: [breakfast]
 ---
 
 # Pudín de Chía con Matcha y Frutos Rojos

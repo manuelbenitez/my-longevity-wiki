@@ -7,6 +7,7 @@ cook_time: 15 min
 difficulty: easy
 longevity_ingredients: [extra-virgin-olive-oil, capers, parsley]
 tags: [pescado, mediterranea, omega-3, antiinflamatorio, rapida, senolitico]
+meal_type: [dinner]
 ---
 
 # Salmon al Horno con Tapenade de Aceitunas Verdes y Alcaparras

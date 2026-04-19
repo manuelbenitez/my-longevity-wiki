@@ -7,6 +7,7 @@ cook_time: 15 min
 difficulty: easy
 longevity_ingredients: [extra-virgin-olive-oil, garlic, legumes, parsley]
 tags: [pasta, omega-3, antiinflamatorio, mediterráneo, rápido, alto-en-proteína]
+meal_type: [lunch, dinner]
 ---
 
 # Spaghetti de Sardinas con Limón y Aceite de Oliva

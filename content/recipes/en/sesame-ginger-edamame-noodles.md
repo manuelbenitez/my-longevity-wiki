@@ -7,6 +7,7 @@ cook_time: 10 min
 difficulty: easy
 longevity_ingredients: [ginger, garlic]
 tags: [noodles, Japanese, anti-inflammatory, quick, vegan, weeknight]
+meal_type: [lunch, dinner]
 ---
 
 # Sesame-Ginger Soba Noodles with Edamame

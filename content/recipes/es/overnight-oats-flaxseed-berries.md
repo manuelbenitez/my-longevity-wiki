@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [oats, walnuts, berries, blueberries]
 tags: [desayuno, reductor-de-colesterol, sin-cocción, alto-en-fibra, preparar-con-anticipación, vegetariano]
+meal_type: [breakfast]
 ---
 
 # Avena Overnight con Linaza Molida y Frutos Rojos

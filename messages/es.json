@@ -47,7 +47,15 @@
     "sort_asc": "A–Z",
     "sort_desc": "Z–A",
     "page_title": "Recetas",
-    "page_description": "Cocina mediterranea y de longevidad. Cada receta esta construida alrededor de ingredientes con beneficios probados para la salud."
+    "page_description": "Cocina mediterranea y de longevidad. Cada receta esta construida alrededor de ingredientes con beneficios probados para la salud.",
+    "meal_type": {
+      "all": "Todas",
+      "breakfast": "Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena",
+      "snack": "Snack",
+      "drink": "Bebida"
+    }
   },
   "sources": {
     "title": "Fuentes",
@@ -91,6 +99,7 @@
     "page_title": "Planificador de comidas",
     "page_description": "Planifica tu semana con recetas de longevidad basadas en evidencia. Obtén una lista de compras y sigue la cobertura de ingredientes.",
     "title": "Planificador de comidas",
+    "back": "Volver al wiki",
     "subtitle": "{count} recetas basadas en evidencia. Elige cuántas personas y recetas, obtén una lista de compras.",
     "progress": "{selected} de {total} recetas planificadas",
     "full_menu": "¡menú completo!",

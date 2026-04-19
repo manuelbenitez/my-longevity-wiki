@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: medium
 longevity_ingredients: [ginger, brown-rice, extra-virgin-olive-oil]
 tags: [japanese, omega-3, anti-inflammatory, fermented, high-protein]
+meal_type: [lunch, dinner]
 ---
 
 # Miso-Glazed Salmon with Ginger and Brown Rice

@@ -7,6 +7,7 @@ cook_time: 5 min
 difficulty: easy
 longevity_ingredients: [blueberries, walnuts, green-tea, ginger]
 tags: [smoothie, breakfast, antioxidant, omega-3, brain-health, quick]
+meal_type: [breakfast, drink]
 ---
 
 # Blueberry Walnut Green Tea Smoothie

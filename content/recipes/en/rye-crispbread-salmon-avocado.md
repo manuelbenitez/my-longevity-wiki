@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [rye-crackers, salmon, extra-virgin-olive-oil, lemon]
 tags: [snack, no-cook, nordic, longevity-diet, omega-3, quick]
+meal_type: [snack, lunch]
 source_book: The Longevity Diet
 ---
 
