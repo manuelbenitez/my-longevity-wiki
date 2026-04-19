@@ -7,6 +7,7 @@ cook_time: 45 min
 difficulty: easy
 longevity_ingredients: [legumes, walnuts, garlic, extra-virgin-olive-oil, rosemary]
 tags: [pasta, proteína-vegetal, cardiovascular, italiano, meal-prep, vegano]
+meal_type: [lunch, dinner]
 ---
 
 # Boloñesa de Lentejas y Nueces

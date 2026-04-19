@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: medium
 longevity_ingredients: [ginger, brown-rice, extra-virgin-olive-oil]
 tags: [japonés, omega-3, antiinflamatorio, fermentado, alto-en-proteína]
+meal_type: [lunch, dinner]
 ---
 
 # Salmón Glaseado con Miso, Jengibre y Arroz Integral

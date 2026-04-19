@@ -7,6 +7,7 @@ cook_time: 40 min
 difficulty: easy
 longevity_ingredients: [garlic, legumes, rosemary, extra-virgin-olive-oil]
 tags: [sopa, mediterráneo, cardiovascular, alto-en-fibra, vegano, una-olla]
+meal_type: [lunch, dinner]
 ---
 
 # Sopa de Ajo Asado y Frijoles Blancos con Romero

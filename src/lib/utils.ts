@@ -31,3 +31,22 @@ export function sortItems<T extends { title: string }>(
   }
   return [...items].sort((a, b) => b.title.localeCompare(a.title));
 }
+
+export const MEAL_TYPE_OPTIONS = [
+  "all",
+  "breakfast",
+  "lunch",
+  "dinner",
+  "snack",
+  "drink",
+] as const;
+
+export type MealType = (typeof MEAL_TYPE_OPTIONS)[number];
+
+export function filterByMealType<T extends { meal_type?: string[] }>(
+  items: T[],
+  mealType: string
+): T[] {
+  if (mealType === "all") return items;
+  return items.filter((r) => r.meal_type?.includes(mealType));
+}

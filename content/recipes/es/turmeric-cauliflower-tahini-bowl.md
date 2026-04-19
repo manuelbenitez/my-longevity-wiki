@@ -7,6 +7,7 @@ cook_time: 35 min
 difficulty: easy
 longevity_ingredients: [turmeric, cruciferous-vegetables, legumes, extra-virgin-olive-oil]
 tags: [bowl, antiinflamatorio, sulforaphane, medio-oriente, vegano, alto-en-fibra]
+meal_type: [lunch, dinner]
 ---
 
 # Coliflor Asada con Aderezo de Cúrcuma y Tahini

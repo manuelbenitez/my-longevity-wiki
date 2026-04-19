@@ -60,6 +60,7 @@ export default async function RecipesPage({
             difficulty: r.frontmatter.difficulty,
             longevity_ingredients: r.frontmatter.longevity_ingredients,
             tags: r.frontmatter.tags,
+            meal_type: r.frontmatter.meal_type,
           }))}
         />
       </section>

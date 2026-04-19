@@ -47,7 +47,15 @@
     "sort_asc": "A–Z",
     "sort_desc": "Z–A",
     "page_title": "Recipes",
-    "page_description": "Mediterranean and longevity cuisine. Every recipe is built around ingredients with proven health benefits."
+    "page_description": "Mediterranean and longevity cuisine. Every recipe is built around ingredients with proven health benefits.",
+    "meal_type": {
+      "all": "All",
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack",
+      "drink": "Drink"
+    }
   },
   "sources": {
     "title": "Sources",
@@ -91,6 +99,7 @@
     "page_title": "Meal Planner",
     "page_description": "Plan your week with evidence-based longevity recipes. Get a shopping list, track ingredient coverage.",
     "title": "Meal Planner",
+    "back": "Back to wiki",
     "subtitle": "{count} evidence-based recipes. Pick how many people and recipes, get a shopping list.",
     "progress": "{selected} of {total} recipes planned",
     "full_menu": "full menu!",

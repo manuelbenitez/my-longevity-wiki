@@ -7,6 +7,7 @@ cook_time: 35 min
 difficulty: easy
 longevity_ingredients: [apples, oats]
 tags: [dessert, anti-diabetic, high-fiber, vegetarian, autumn]
+meal_type: [snack]
 ---
 
 # Warm Apple and Almond Crumble with Cinnamon

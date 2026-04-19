@@ -7,6 +7,7 @@ cook_time: 45 min
 difficulty: easy
 longevity_ingredients: [lentils, walnuts, garlic, extra-virgin-olive-oil, rosemary]
 tags: [pasta, plant-protein, cardiovascular, Italian, meal-prep, vegan]
+meal_type: [lunch, dinner]
 ---
 
 # Lentil and Walnut Bolognese

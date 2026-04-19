@@ -7,6 +7,7 @@ cook_time: 0 min
 difficulty: easy
 longevity_ingredients: [oats, walnuts, berries, blueberries]
 tags: [breakfast, cholesterol-lowering, no-cook, high-fiber, make-ahead, vegetarian]
+meal_type: [breakfast]
 ---
 
 # Overnight Oats with Ground Flaxseed and Berries

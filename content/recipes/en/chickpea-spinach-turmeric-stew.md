@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: easy
 longevity_ingredients: [turmeric, chickpeas, extra-virgin-olive-oil, garlic]
 tags: [stew, anti-inflammatory, vegan, high-fiber, one-pot, moroccan, meal-prep]
+meal_type: [lunch, dinner]
 ---
 
 # Spiced Chickpea and Spinach Stew

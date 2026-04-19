@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: medium
 longevity_ingredients: [cruciferous-vegetables, garlic, extra-virgin-olive-oil, walnuts]
 tags: [bowl-de-granos, sulforaphane, mediterráneo, alto-en-fibra, prevención-de-cáncer, vegetariano]
+meal_type: [lunch, dinner]
 ---
 
 # Bowl Mediterráneo de Crucíferas Asadas

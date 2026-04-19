@@ -7,6 +7,7 @@ cook_time: 25 min
 difficulty: medium
 longevity_ingredients: [broccoli, cauliflower, kale, garlic, extra-virgin-olive-oil, walnuts]
 tags: [grain-bowl, sulforaphane, mediterranean, high-fiber, cancer-prevention, vegetarian]
+meal_type: [lunch, dinner]
 ---
 
 # Mediterranean Roasted Cruciferous Bowl

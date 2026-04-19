@@ -7,6 +7,7 @@ cook_time: 40 min
 difficulty: easy
 longevity_ingredients: [turmeric, lentils, garlic, ginger, extra-virgin-olive-oil]
 tags: [soup, anti-inflammatory, high-fiber, vegan, one-pot, meal-prep]
+meal_type: [lunch, dinner]
 ---
 
 # Golden Turmeric Lentil Soup

@@ -7,6 +7,7 @@ cook_time: 10 min
 difficulty: easy
 longevity_ingredients: [ginger, garlic]
 tags: [fideos, japonés, antiinflamatorio, rápido, vegano, entre-semana]
+meal_type: [lunch, dinner]
 ---
 
 # Fideos Soba con Sésamo, Jengibre y Edamame

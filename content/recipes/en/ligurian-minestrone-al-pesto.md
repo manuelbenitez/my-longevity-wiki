@@ -7,6 +7,7 @@ cook_time: 45 min
 difficulty: easy
 longevity_ingredients: [beans, zucchini, basil, garlic, extra-virgin-olive-oil, pesto]
 tags: [soup, vegan, high-fiber, mediterranean, longevity-diet, one-pot]
+meal_type: [lunch, dinner]
 source_book: The Longevity Diet
 ---
 

@@ -7,6 +7,7 @@ cook_time: 15 min
 difficulty: easy
 longevity_ingredients: [cabbage-broccoli, garlic, extra-virgin-olive-oil]
 tags: [pasta, italiano, pugliese, rápido, sulforaphane, anticáncer, vegano]
+meal_type: [lunch, dinner]
 ---
 
 # Orecchiette con Brócoli, Ajo y Chile

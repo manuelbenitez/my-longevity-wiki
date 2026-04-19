@@ -7,6 +7,7 @@ cook_time: 30 min
 difficulty: easy
 longevity_ingredients: [legumes, avocado, extra-virgin-olive-oil]
 tags: [bowl, vegano, alto-en-fibra, inspiración-mexicana, meal-prep, salud-intestinal]
+meal_type: [lunch, dinner]
 ---
 
 # Bowl de Camote Asado y Frijoles Negros con Aguacate

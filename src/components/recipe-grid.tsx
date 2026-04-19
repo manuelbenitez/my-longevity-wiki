@@ -4,7 +4,13 @@ import Link from "next/link";
 import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { AlphaGroupedGrid } from "@/components/alpha-grouped-grid";
-import { sortItems, groupByFirstLetter, type SortBy } from "@/lib/utils";
+import {
+  sortItems,
+  groupByFirstLetter,
+  filterByMealType,
+  MEAL_TYPE_OPTIONS,
+  type SortBy,
+} from "@/lib/utils";
 
 interface RecipeCard {
   slug: string;
@@ -14,6 +20,7 @@ interface RecipeCard {
   difficulty?: string;
   longevity_ingredients?: string[];
   tags?: string[];
+  meal_type?: string[];
 }
 
 function slugToLabel(slug: string): string {
@@ -28,12 +35,13 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
   const t = useTranslations("recipes");
   const [search, setSearch] = useState("");
   const [difficulty, setDifficulty] = useState("all");
+  const [mealType, setMealType] = useState<string>("all");
   const [sortBy, setSortBy] = useState<SortBy>("asc");
 
   const difficulties = ["all", ...new Set(recipes.map((r) => r.difficulty).filter(Boolean))];
 
   const filtered = useMemo(() => {
-    const base = recipes
+    const base = filterByMealType(recipes, mealType)
       .filter((r) => difficulty === "all" || r.difficulty === difficulty)
       .filter(
         (r) =>
@@ -44,7 +52,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
           )
       );
     return sortItems(base, sortBy);
-  }, [recipes, difficulty, search, sortBy]);
+  }, [recipes, difficulty, mealType, search, sortBy]);
 
   const letters = useMemo(() => {
     const grouped = groupByFirstLetter(filtered);
@@ -149,6 +157,28 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
               )}
             </button>
           ))}
+        </div>
+        <div className="flex gap-2 overflow-x-auto flex-nowrap lg:flex-wrap pb-1 lg:pb-0 -mx-4 px-4 lg:mx-0 lg:px-0 mt-2 scrollbar-none">
+          {MEAL_TYPE_OPTIONS.map((m) => {
+            const count =
+              m === "all"
+                ? recipes.length
+                : recipes.filter((r) => r.meal_type?.includes(m)).length;
+            return (
+              <button
+                key={m}
+                onClick={() => setMealType(m)}
+                className={`text-xs font-semibold px-3 py-1.5 rounded-sm border transition-colors duration-150 capitalize shrink-0 ${
+                  mealType === m
+                    ? "bg-accent text-white border-accent"
+                    : "bg-transparent text-muted border-border hover:border-accent hover:text-accent"
+                }`}
+              >
+                {t(`meal_type.${m}`)}
+                <span className="ml-1 opacity-60">{count}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 

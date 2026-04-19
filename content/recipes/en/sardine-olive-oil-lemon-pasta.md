@@ -7,6 +7,7 @@ cook_time: 15 min
 difficulty: easy
 longevity_ingredients: [extra-virgin-olive-oil, garlic, parsley]
 tags: [pasta, omega-3, anti-inflammatory, mediterranean, quick, high-protein]
+meal_type: [lunch, dinner]
 ---
 
 # Sardine Spaghetti with Lemon and Olive Oil

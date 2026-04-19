@@ -7,6 +7,7 @@ cook_time: 15 min
 difficulty: easy
 longevity_ingredients: [extra-virgin-olive-oil, capers, parsley]
 tags: [fish, Mediterranean, omega-3, anti-inflammatory, quick, senolytic]
+meal_type: [dinner]
 ---
 
 # Baked Salmon with Green Olive and Caper Tapenade

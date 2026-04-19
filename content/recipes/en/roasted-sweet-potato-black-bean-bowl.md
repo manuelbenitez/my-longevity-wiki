@@ -7,6 +7,7 @@ cook_time: 30 min
 difficulty: easy
 longevity_ingredients: [black-beans, avocado, extra-virgin-olive-oil]
 tags: [bowl, vegan, high-fiber, mexican-inspired, meal-prep, gut-health]
+meal_type: [lunch, dinner]
 ---
 
 # Roasted Sweet Potato and Black Bean Bowl with Avocado

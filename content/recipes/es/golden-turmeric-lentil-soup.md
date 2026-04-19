@@ -7,6 +7,7 @@ cook_time: 40 min
 difficulty: easy
 longevity_ingredients: [turmeric, legumes, garlic, ginger, extra-virgin-olive-oil]
 tags: [sopa, antiinflamatorio, alto-en-fibra, vegano, una-olla, meal-prep]
+meal_type: [lunch, dinner]
 ---
 
 # Sopa Dorada de Lentejas con Cúrcuma

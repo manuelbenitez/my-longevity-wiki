@@ -7,6 +7,7 @@ cook_time: 20 min
 difficulty: easy
 longevity_ingredients: [garbanzo-bean-flour, extra-virgin-olive-oil, rosemary]
 tags: [gluten-free, vegan, snack, italian, longevity-diet, high-protein]
+meal_type: [snack, lunch]
 source_book: The Longevity Diet
 ---
 

@@ -7,6 +7,7 @@ cook_time: 10 min
 difficulty: easy
 longevity_ingredients: [mussels, garlic, extra-virgin-olive-oil, white-cooking-wine, parsley]
 tags: [shellfish, seafood, quick, mediterranean, longevity-diet, omega-3]
+meal_type: [dinner]
 source_book: The Longevity Diet
 ---
 
