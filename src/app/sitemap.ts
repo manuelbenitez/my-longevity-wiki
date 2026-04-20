@@ -4,7 +4,7 @@ import path from "path";
 
 export const dynamic = "force-static";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.wiki";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.mbdev.to";
 const LOCALES = ["en", "es"];
 const CONTENT_DIR = path.join(process.cwd(), "content");
 

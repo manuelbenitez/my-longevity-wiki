@@ -1,5 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
-import { getAllRecipeSlugs, getRecipe } from "@/lib/data";
+import { getAllRecipeSlugs, getRecipe, recipeLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -21,6 +21,11 @@ export async function generateMetadata({
   const ingredients = longevity_ingredients
     ?.map((s) => s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "))
     .join(", ");
+  const path = `/${locale}/recipes/${slug}/`;
+  const languages: Record<string, string> = {};
+  for (const loc of recipeLocales(slug)) {
+    languages[loc] = `/${loc}/recipes/${slug}/`;
+  }
   return {
     title: `${title} — Healthy Longevity Recipe`,
     description: `${title}: a ${difficulty || "easy"} recipe with ${ingredients}. Science-backed ingredient synergies for anti-aging and healthy longevity.`,
@@ -32,12 +37,29 @@ export async function generateMetadata({
       ...(longevity_ingredients || []),
       ...(tags || []),
     ],
+    alternates: {
+      canonical: path,
+      languages,
+    },
     openGraph: {
       title: `${title} — Longevity Wiki Recipe`,
       description: `Science-backed recipe with ${ingredients}. Every ingredient chosen for its longevity benefits.`,
       type: "article",
+      url: path,
+      images: ["/og-image.png"],
     },
   };
+}
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.mbdev.to";
+
+function parseDuration(t?: string): string | undefined {
+  if (!t) return undefined;
+  const m = t.match(/(\d+)\s*(min|hour|hr|h|m)/i);
+  if (!m) return undefined;
+  const n = parseInt(m[1], 10);
+  const unit = m[2].toLowerCase();
+  return unit.startsWith("h") ? `PT${n}H` : `PT${n}M`;
 }
 
 export default async function RecipePage({
@@ -53,8 +75,36 @@ export default async function RecipePage({
   const { frontmatter, content } = recipe;
   const html = await markdownToHtml(content);
 
+  const recipeIngredientList = frontmatter.longevity_ingredients?.map((s) =>
+    s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
+  );
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: frontmatter.title,
+    url: `${SITE_URL}/${locale}/recipes/${slug}/`,
+    image: `${SITE_URL}/og-image.png`,
+    inLanguage: locale,
+    recipeCategory: frontmatter.meal_type?.[0],
+    recipeCuisine: frontmatter.tags?.includes("Mediterranean") ? "Mediterranean" : undefined,
+    recipeYield: frontmatter.servings ? `${frontmatter.servings} servings` : undefined,
+    prepTime: parseDuration(frontmatter.prep_time),
+    cookTime: parseDuration(frontmatter.cook_time),
+    keywords: frontmatter.tags?.join(", "),
+    recipeIngredient: recipeIngredientList,
+    suitableForDiet: frontmatter.tags?.includes("vegan")
+      ? "https://schema.org/VeganDiet"
+      : frontmatter.tags?.includes("vegetarian")
+        ? "https://schema.org/VegetarianDiet"
+        : undefined,
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link
           href={`/${locale}/recipes/`}

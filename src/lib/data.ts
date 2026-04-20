@@ -152,6 +152,18 @@ export function getAllRecipeSlugs(): string[] {
     .map((f) => f.replace(".md", ""));
 }
 
+export function recipeLocales(slug: string): string[] {
+  return ["en", "es"].filter((loc) =>
+    fs.existsSync(path.join(CONTENT_DIR, "recipes", loc, `${slug}.md`))
+  );
+}
+
+export function wikiLocales(slug: string): string[] {
+  return ["en", "es"].filter((loc) =>
+    fs.existsSync(path.join(CONTENT_DIR, "wiki", loc, `${slug}.md`))
+  );
+}
+
 export function getAllRecipes(locale: string = "en"): Recipe[] {
   const dir = path.join(CONTENT_DIR, "recipes", locale);
   if (!fs.existsSync(dir)) return [];

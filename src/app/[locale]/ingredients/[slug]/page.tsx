@@ -1,5 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
-import { getAllWikiSlugs, getWikiEntry, getAllRecipes } from "@/lib/data";
+import { getAllWikiSlugs, getWikiEntry, getAllRecipes, wikiLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -14,10 +14,15 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
-  const { slug } = await params;
-  const entry = getWikiEntry(slug);
+  const { locale, slug } = await params;
+  const entry = getWikiEntry(slug, locale);
   if (!entry) return {};
   const { title, category, tags } = entry.frontmatter;
+  const path = `/${locale}/ingredients/${slug}/`;
+  const languages: Record<string, string> = {};
+  for (const loc of wikiLocales(slug)) {
+    languages[loc] = `/${loc}/ingredients/${slug}/`;
+  }
   return {
     title: `${title} — Longevity Benefits, How to Use, Recipes`,
     description: `${title}: science-backed health benefits for longevity and healthy aging. Learn the best ways to eat ${title.toLowerCase()}, what to pair it with, and the research behind it.`,
@@ -30,13 +35,21 @@ export async function generateMetadata({
       category,
       ...(tags || []),
     ],
+    alternates: {
+      canonical: path,
+      languages,
+    },
     openGraph: {
       title: `${title} — Longevity Wiki`,
       description: `Science-backed guide to ${title.toLowerCase()} for healthy aging. Evidence-based nutrition, preparation tips, and synergies.`,
       type: "article",
+      url: path,
+      images: ["/og-image.png"],
     },
   };
 }
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.mbdev.to";
 
 export default async function IngredientPage({
   params,
@@ -63,8 +76,30 @@ export default async function IngredientPage({
     )
   );
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: frontmatter.title,
+    url: `${SITE_URL}/${locale}/ingredients/${slug}/`,
+    image: `${SITE_URL}/og-image.png`,
+    inLanguage: locale,
+    articleSection: frontmatter.category,
+    keywords: frontmatter.tags?.join(", "),
+    dateModified: frontmatter.last_updated,
+    author: { "@type": "Organization", name: "Longevity Wiki" },
+    publisher: {
+      "@type": "Organization",
+      name: "Longevity Wiki",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo-large.svg` },
+    },
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link
           href={`/${locale}/ingredients/`}
