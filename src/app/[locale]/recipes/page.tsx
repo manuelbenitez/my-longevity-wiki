@@ -17,9 +17,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "recipes" });
+  const path = `/${locale}/recipes/`;
+  const languages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    languages[loc] = `/${loc}/recipes/`;
+  }
   return {
     title: t("page_title"),
     description: t("page_description"),
+    alternates: { canonical: path, languages },
+    openGraph: { url: path },
   };
 }
 

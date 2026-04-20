@@ -1,7 +1,26 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { routing } from "@/i18n/routing";
 import { getIndividualIngredients, getAllRecipes } from "@/lib/data";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const path = `/${locale}/`;
+  const languages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    languages[loc] = `/${loc}/`;
+  }
+  return {
+    alternates: { canonical: path, languages },
+    openGraph: { url: path },
+  };
+}
 
 export default async function Home({
   params,

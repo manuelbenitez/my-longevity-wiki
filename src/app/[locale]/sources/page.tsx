@@ -1,12 +1,27 @@
 import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { routing } from "@/i18n/routing";
 
-export const metadata: Metadata = {
-  title: "Sources — Peer-Reviewed Research Behind the Wiki",
-  description:
-    "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Featuring Luigi Fontana and Valter Longo's longevity research.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const path = `/${locale}/sources/`;
+  const languages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    languages[loc] = `/${loc}/sources/`;
+  }
+  return {
+    title: "Sources — Peer-Reviewed Research Behind the Wiki",
+    description:
+      "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Featuring Luigi Fontana and Valter Longo's longevity research.",
+    alternates: { canonical: path, languages },
+    openGraph: { url: path },
+  };
+}
 
 const SOURCES = [
   {

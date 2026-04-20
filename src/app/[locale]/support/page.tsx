@@ -1,13 +1,28 @@
 import { setRequestLocale } from "next-intl/server";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { routing } from "@/i18n/routing";
 import { DonationFeed } from "@/components/donation-feed";
 
-export const metadata: Metadata = {
-  title: "Support the Wiki",
-  description:
-    "Help keep Longevity Wiki free, ad-free, and growing. Donations buy longevity research books that become new ingredient articles and recipes for everyone.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const path = `/${locale}/support/`;
+  const languages: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    languages[loc] = `/${loc}/support/`;
+  }
+  return {
+    title: "Support the Wiki",
+    description:
+      "Help keep Longevity Wiki free, ad-free, and growing. Donations buy longevity research books that become new ingredient articles and recipes for everyone.",
+    alternates: { canonical: path, languages },
+    openGraph: { url: path },
+  };
+}
 
 const CRYPTO_ADDRESS = "0x8b930D725e7D4CE7442b9BdCe4c470cf7beDda72";
 
