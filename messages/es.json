@@ -93,7 +93,21 @@
     "wiki_repo": "Longevity Wiki",
     "wiki_repo_description": "El sitio web, articulos y recetas. Agrega ingredientes, corrige contenido, mejora el diseno.",
     "skills_repo": "Longevity Skills",
-    "skills_repo_description": "Las habilidades de Claude Code que extraen, investigan y generan contenido. Mejora el pipeline, agrega nuevos analizadores de libros."
+    "skills_repo_description": "Las habilidades de Claude Code que extraen, investigan y generan contenido. Mejora el pipeline, agrega nuevos analizadores de libros.",
+    "roadmap_title": "Que sigue",
+    "roadmap_sub": "A donde llevan tus donaciones.",
+    "roadmap_illustrations_title": "Ilustraciones dibujadas a mano para cada ingrediente",
+    "roadmap_illustrations_body": "Cada articulo de ingrediente recibe un SVG a pluma y tinta al estilo guia de campo. Nunca fotografias de stock.",
+    "roadmap_books_title": "Mas libros en el estante",
+    "roadmap_books_count": "libros hasta ahora",
+    "roadmap_books_body": "Cada libro de longevidad que analizamos se convierte en mas de 50 articulos de ingredientes y docenas de recetas respaldadas por la ciencia. Proximos en el estante: \"The Longevity Diet\" de Valter Longo, \"Outlive\" de Peter Attia, \"The Blue Zones Kitchen\" de Dan Buettner.",
+    "roadmap_symptoms_title": "De sintoma a alimento",
+    "roadmap_symptoms_body": "Elige como te sientes — poca energia, mal sueno, hinchazon — y recibe sugerencias de ingredientes basadas en ciencia revisada por pares.",
+    "roadmap_devices_title": "Recetas guardadas en todos tus dispositivos",
+    "roadmap_devices_body": "Inicia sesion y manten tus planes de comidas e ingredientes probados en cualquier dispositivo, sin anuncios ni seguimiento de datos.",
+    "roadmap_status_planned": "Planeado",
+    "roadmap_status_in_progress": "En progreso",
+    "roadmap_status_shipped": "Lanzado"
   },
   "meal_planner": {
     "page_title": "Planificador de comidas",

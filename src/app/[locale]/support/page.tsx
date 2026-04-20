@@ -133,6 +133,129 @@ export default async function SupportPage({
           </div>
         </div>
 
+        {/* What's next — Roadmap */}
+        <h2 className="font-display text-2xl font-normal mb-6">
+          What&apos;s next
+        </h2>
+        <p className="text-muted leading-relaxed mb-8">
+          Where your donations take us next.
+        </p>
+
+        <div className="space-y-6 mb-12">
+          {/* In Progress — more books (sage callout, always on top) */}
+          <div className="border border-accent/20 bg-accent/5 rounded-lg p-8">
+            <div className="flex gap-4">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 20h18"/>
+                  <rect x="5" y="10" width="3" height="10"/>
+                  <rect x="9" y="13" width="3" height="7"/>
+                  <rect x="13" y="8" width="3" height="12"/>
+                  <path d="M17.5 20l1-10 2.5 0.3L19.5 20z"/>
+                </svg>
+              </div>
+              <div>
+                <div className="flex items-center gap-3 mb-1 flex-wrap">
+                  <h3 className="font-display text-lg font-normal">
+                    More books on the shelf
+                  </h3>
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] bg-[#C4963A] text-[#FDFBF8] border border-[#C4963A]">
+                    In Progress
+                  </span>
+                </div>
+                <p className="inline-flex items-baseline gap-1.5 text-muted mb-2">
+                  <span className="font-display text-lg font-normal leading-none">2</span>
+                  <span className="text-[11px] font-medium uppercase tracking-[0.08em]">books so far</span>
+                </p>
+                <p className="text-sm leading-relaxed">
+                  Each longevity book we parse becomes 50+ new ingredient
+                  articles and dozens of science-backed recipes. Next on
+                  the shelf: Valter Longo&apos;s &quot;The Longevity
+                  Diet,&quot; Peter Attia&apos;s &quot;Outlive,&quot; Dan
+                  Buettner&apos;s &quot;The Blue Zones Kitchen.&quot;
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Planned — symptom to food */}
+          <div className="flex gap-4">
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="6" r="2.5"/>
+                <path d="M6 20v-5a6 6 0 0 1 12 0v5"/>
+                <path d="M8 15h2l1.5-2 1 3 1.5-1h2"/>
+              </svg>
+            </div>
+            <div>
+              <div className="flex items-center gap-3 mb-1 flex-wrap">
+                <h3 className="font-display text-lg font-normal">
+                  Symptom to food
+                </h3>
+                <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
+                  Planned
+                </span>
+              </div>
+              <p className="text-sm leading-relaxed">
+                Pick how you feel &mdash; low energy, poor sleep, bloating
+                &mdash; and get ingredient suggestions grounded in
+                peer-reviewed science.
+              </p>
+            </div>
+          </div>
+
+          {/* Planned — saved recipes across devices */}
+          <div className="flex gap-4">
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="3" y="5" width="12" height="9" rx="1"/>
+                <path d="M2 15h14"/>
+                <rect x="13" y="9" width="7" height="11" rx="1"/>
+                <path d="M15 18h3"/>
+              </svg>
+            </div>
+            <div>
+              <div className="flex items-center gap-3 mb-1 flex-wrap">
+                <h3 className="font-display text-lg font-normal">
+                  Saved recipes across devices
+                </h3>
+                <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
+                  Planned
+                </span>
+              </div>
+              <p className="text-sm leading-relaxed">
+                Sign in and keep your meal plans and tried ingredients on
+                any device, with no ads and no data tracking.
+              </p>
+            </div>
+          </div>
+
+          {/* Planned — hand-drawn illustrations (last) */}
+          <div className="flex gap-4">
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 5l4 4L8 20l-5 1 1-5z"/>
+                <path d="M13 7l4 4"/>
+                <circle cx="3" cy="21" r="0.8" fill="#2C2418"/>
+              </svg>
+            </div>
+            <div>
+              <div className="flex items-center gap-3 mb-1 flex-wrap">
+                <h3 className="font-display text-lg font-normal">
+                  Hand-drawn illustrations for every ingredient
+                </h3>
+                <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
+                  Planned
+                </span>
+              </div>
+              <p className="text-sm leading-relaxed">
+                Every ingredient article gets a pen-and-ink SVG in the
+                field-guide style. No stock photography, ever.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Donate */}
         <h2 className="font-display text-2xl font-normal mb-6">
           How to support
