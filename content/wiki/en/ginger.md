@@ -13,9 +13,9 @@ A knobby rhizome that has been settling stomachs and fighting inflammation for t
 
 ## Why It Matters for Longevity
 
-Ginger's main bioactive compound is gingerol, which transforms into the more potent shogaol when dried or cooked and into zingerone when heated. These molecules target multiple inflammatory pathways, most notably COX-2 inhibition. A meta-analysis of 12 randomized controlled trials (Mazidi et al., 2016) found that ginger supplementation significantly reduced C-reactive protein and TNF-alpha -- two systemic inflammation markers tightly linked to cardiovascular disease and accelerated aging.
+Ginger's main bioactive compound is gingerol, which transforms into the more potent shogaol when dried or cooked and into zingerone when heated. These molecules target multiple inflammatory pathways, most notably COX-2 inhibition. A systematic review and meta-analysis ([Morvaridzadeh et al., 2020, *Cytokine*](https://pubmed.ncbi.nlm.nih.gov/32763761/)) found that ginger supplementation significantly reduced C-reactive protein and TNF-alpha -- two systemic inflammation markers tightly linked to cardiovascular disease and accelerated aging.
 
-On the metabolic side, ginger has shown real promise. A 2019 meta-analysis of 14 RCTs (Saneei et al.) demonstrated significant reductions in fasting blood glucose and HbA1c in type 2 diabetes patients. Separately, a meta-analysis of 6 RCTs (Maharlouei et al., 2019) found meaningful reductions in body weight and waist-to-hip ratio in overweight subjects. The mechanism appears to involve faster gastric emptying, increased satiety signaling, and a bump in the thermic effect of food.
+On the metabolic side, ginger has shown real promise. A systematic review and meta-analysis ([Huang et al., 2019, *Medicine*](https://pubmed.ncbi.nlm.nih.gov/30921234/)) confirmed significant reductions in fasting blood glucose and HbA1c in type 2 diabetes patients across multiple trials. Separately, a meta-analysis of 6 RCTs ([Maharlouei et al., 2019, *Crit Rev Food Sci Nutr*](https://pubmed.ncbi.nlm.nih.gov/29393665/)) found meaningful reductions in body weight and waist-to-hip ratio in overweight subjects. The mechanism appears to involve faster gastric emptying, increased satiety signalling, and a bump in the thermic effect of food.
 
 Ginger's anti-nausea properties are among its best-documented effects. A Cochrane review confirmed its efficacy for pregnancy-related nausea with no significant side effects, and clinical trials support its use during chemotherapy. This isn't a longevity mechanism per se, but anything that keeps people eating well during illness contributes to better outcomes.
 
@@ -39,11 +39,16 @@ Pungent and warm with a peppery bite that carries citrusy, almost lemony high no
 
 ## The Science
 
-- Meta-analysis of 14 RCTs: ginger significantly reduced fasting blood glucose and HbA1c in T2D patients (Saneei et al., 2019)
-- Meta-analysis of 12 RCTs: significant reductions in CRP and TNF-alpha (Mazidi et al., 2016)
-- Meta-analysis of 6 RCTs: reduced body weight and waist-to-hip ratio in overweight subjects (Maharlouei et al., 2019)
-- Cochrane review: effective for pregnancy nausea with no significant side effects (Viljoen et al., updated)
-- Examine.com: strong evidence for anti-nausea; moderate for pain reduction and inflammatory marker reduction
+- [Morvaridzadeh et al., 2020, *Cytokine*](https://pubmed.ncbi.nlm.nih.gov/32763761/): Systematic review and meta-analysis — ginger supplementation significantly reduces CRP and TNF-alpha, two key inflammatory markers.
+- [Huang et al., 2019, *Medicine*](https://pubmed.ncbi.nlm.nih.gov/30921234/): Systematic review and meta-analysis — dietary ginger as traditional therapy significantly improved fasting blood glucose and HbA1c in type 2 diabetes patients.
+- [Maharlouei et al., 2019, *Crit Rev Food Sci Nutr*](https://pubmed.ncbi.nlm.nih.gov/29393665/): Meta-analysis of 6 RCTs — ginger intake associated with significant reductions in body weight and waist-to-hip ratio in overweight adults.
+- Examine.com: strong evidence for anti-nausea; moderate for pain reduction and inflammatory marker reduction.
+
+## References
+
+1. Morvaridzadeh M, Fazelian S, Agah S, et al. **Effect of ginger (Zingiber officinale) on inflammatory markers: A systematic review and meta-analysis of randomized controlled trials.** *Cytokine*. 2020;135:155224. PMID: [32763761](https://pubmed.ncbi.nlm.nih.gov/32763761/). doi:[10.1016/j.cyto.2020.155224](https://doi.org/10.1016/j.cyto.2020.155224)
+2. Huang FY, Deng T, Meng LX, Ma XL. **Dietary ginger as a traditional therapy for blood sugar control in patients with type 2 diabetes mellitus: A systematic review and meta-analysis.** *Medicine (Baltimore)*. 2019;98(13):e15054. PMID: [30921234](https://pubmed.ncbi.nlm.nih.gov/30921234/). doi:[10.1097/MD.0000000000015054](https://doi.org/10.1097/MD.0000000000015054)
+3. Maharlouei N, Tabrizi R, Lankarani KB, et al. **The effects of ginger intake on weight loss and metabolic profiles among overweight and obese subjects: A systematic review and meta-analysis of randomized controlled trials.** *Crit Rev Food Sci Nutr*. 2019;59(11):1753-1766. PMID: [29393665](https://pubmed.ncbi.nlm.nih.gov/29393665/). doi:[10.1080/10408398.2018.1427044](https://doi.org/10.1080/10408398.2018.1427044)
 
 ## Key Nutrients
 

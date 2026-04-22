@@ -13,9 +13,9 @@ The FlaxPAD trial found 30g of ground flaxseed daily reduced systolic blood pres
 
 ## Why It Matters for Longevity
 
-Flaxseeds are the richest common food source of two distinct longevity compounds: alpha-linolenic acid (ALA, 22.8g per 100g -- more than double walnuts) and lignans (up to 13mg/g, roughly 100x more than any other food). These work through independent mechanisms. ALA incorporates into cell membranes within two weeks, providing the substrate for anti-inflammatory eicosanoid production. Lignans are converted by gut bacteria into enterolactone and enterodiol, compounds with anti-estrogenic activity associated with 20-30% lower breast cancer risk in the highest producers (DeLuca et al., 2018).
+Flaxseeds are the richest common food source of two distinct longevity compounds: alpha-linolenic acid (ALA, 22.8g per 100g -- more than double walnuts) and lignans (up to 13mg/g, roughly 100x more than any other food). These work through independent mechanisms. ALA incorporates into cell membranes within two weeks, providing the substrate for anti-inflammatory eicosanoid production. Lignans are converted by gut bacteria into enterolactone and enterodiol, compounds with anti-estrogenic activity. A prospective study ([Xie et al., 2013, *Breast Cancer Res Treat*](https://pubmed.ncbi.nlm.nih.gov/23760859/)) found higher plasma enterolactone concentrations associated with significantly lower breast cancer risk in the Nurses' Health Study II.
 
-A meta-analysis of 28 RCTs (Khalesi et al., 2015) confirmed ground flaxseed significantly reduces total and LDL cholesterol, with whole/ground flaxseed outperforming flaxseed oil. The FlaxPAD trial (Rodriguez-Leyva et al., 2013) -- a properly blinded RCT -- showed 30g ground flaxseed daily for 6 months lowered systolic BP by 10 mmHg and diastolic by 7 mmHg in hypertensive patients. For context, this rivals the effect of many antihypertensive drugs.
+A meta-analysis ([Pan et al., 2009, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/19515737/)) confirmed flaxseed supplementation significantly reduces total and LDL cholesterol, with whole/ground flaxseed outperforming flaxseed oil. The FlaxPAD trial ([Rodriguez-Leyva et al., 2013, *Hypertension*](https://pubmed.ncbi.nlm.nih.gov/24126178/)) -- a properly blinded RCT -- showed 30g ground flaxseed daily for 6 months lowered systolic BP by 10 mmHg and diastolic by 7 mmHg in hypertensive patients. For context, this rivals the effect of many antihypertensive drugs.
 
 The critical preparation detail: grinding is non-negotiable. Whole flaxseeds pass through the GI tract undigested. Ground flaxseed exposes the ALA and lignans for absorption. Keep ground flaxseed refrigerated -- the high polyunsaturated fat content oxidizes rapidly at room temperature.
 
@@ -39,11 +39,16 @@ Nutty and earthy with a mild sweetness and slight bitterness. Ground flaxseed ha
 
 ## The Science
 
-- FlaxPAD trial: 30g/day = -10 mmHg systolic, -7 mmHg diastolic in 6 months (Rodriguez-Leyva et al., 2013)
-- Meta-analysis of 28 RCTs: ground flaxseed reduces total and LDL cholesterol (Khalesi et al., 2015)
-- Highest enterolignan producers show 20-30% lower breast cancer risk (DeLuca et al., 2018)
-- ALA incorporates into cell membranes within 2 weeks
-- Grinding is essential -- whole seeds pass through undigested
+- [Rodriguez-Leyva et al., 2013, *Hypertension*](https://pubmed.ncbi.nlm.nih.gov/24126178/): FlaxPAD trial — 30g ground flaxseed/day for 6 months reduced systolic BP by 10 mmHg and diastolic by 7 mmHg in hypertensive patients.
+- [Pan et al., 2009, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/19515737/): Meta-analysis of flaxseed interventions — ground and whole flaxseed significantly reduced total and LDL cholesterol.
+- [Xie et al., 2013, *Breast Cancer Res Treat*](https://pubmed.ncbi.nlm.nih.gov/23760859/): Prospective cohort — higher plasma enterolactone associated with significantly lower breast cancer risk in Nurses' Health Study II.
+- ALA from ground flaxseed incorporates into cell membranes within 2 weeks. Grinding is essential -- whole seeds pass through the GI tract undigested.
+
+## References
+
+1. Rodriguez-Leyva D, Weighell W, Edel AL, et al. **Potent antihypertensive action of dietary flaxseed in hypertensive patients.** *Hypertension*. 2013;62(6):1081-1089. PMID: [24126178](https://pubmed.ncbi.nlm.nih.gov/24126178/). doi:[10.1161/HYPERTENSIONAHA.113.02094](https://doi.org/10.1161/HYPERTENSIONAHA.113.02094)
+2. Pan A, Yu D, Demark-Wahnefried W, Franco OH, Lin X. **Meta-analysis of the effects of flaxseed interventions on blood lipids.** *Am J Clin Nutr*. 2009;90(2):288-297. PMID: [19515737](https://pubmed.ncbi.nlm.nih.gov/19515737/). doi:[10.3945/ajcn.2009.27469](https://doi.org/10.3945/ajcn.2009.27469)
+3. Xie J, Yun JP, Yang YN, et al. **Plasma enterolactone and breast cancer risk in the Nurses' Health Study II.** *Breast Cancer Res Treat*. 2013;139(3):883-891. PMID: [23760859](https://pubmed.ncbi.nlm.nih.gov/23760859/). doi:[10.1007/s10549-013-2586-y](https://doi.org/10.1007/s10549-013-2586-y)
 
 ## Key Nutrients
 

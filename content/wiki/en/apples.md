@@ -17,9 +17,9 @@ The longevity case for apples rests on two pillars: their intact food matrix and
 
 When you eat a whole apple, the cell walls, pectin gel, and fibre physically slow sugar absorption. Fontana's book emphasises this point -- juicing destroys the food matrix and releases free sugars for rapid absorption, spiking blood glucose in a way whole fruit simply does not. This is not a trivial difference. The glycaemic response to whole apple versus apple juice diverges dramatically, and chronically elevated post-meal glucose is a core driver of metabolic aging.
 
-Beyond glycaemic control, apples deliver a meaningful polyphenol profile. Quercetin, concentrated in the skin, is a flavonoid with demonstrated anti-inflammatory and senolytic properties -- it selectively clears damaged senescent cells in animal models (Xu et al., 2018). Chlorogenic acid and catechins round out the package, collectively reducing LDL oxidation and improving endothelial function. A study in hypercholesterolemic adults (Bondonno et al., 2012) found flavonoid-rich apple consumption measurably improved vascular health.
+Beyond glycaemic control, apples deliver a meaningful polyphenol profile. Quercetin, concentrated in the skin, is a flavonoid with demonstrated anti-inflammatory properties. Chlorogenic acid and catechins reduce LDL oxidation and improve endothelial function. A study in hypercholesterolaemic adults ([Bondonno et al., 2012, *Free Radic Biol Med*](https://pubmed.ncbi.nlm.nih.gov/22019438/)) found that flavonoid-rich apples augmented nitric oxide status and improved endothelial function -- a direct cardiovascular benefit.
 
-Pectin, the soluble fibre that gives apple sauce its gel, feeds gut bacteria that produce butyrate and propionate -- short-chain fatty acids that nourish the colon lining and tamp down systemic inflammation. A meta-analysis (Dreher, 2020) linked regular apple consumption to up to 40% reduced risk of cardiovascular mortality. The broad fruit meta-analysis by Aune et al. (2017) in the BMJ confirmed dose-dependent benefits: each additional daily serving of fruit reduced all-cause mortality risk by roughly 6%.
+Pectin, the soluble fibre that gives apple sauce its gel, feeds gut bacteria that produce butyrate and propionate -- short-chain fatty acids that nourish the colon lining and tamp down systemic inflammation. The broad fruit meta-analysis by [Aune et al. (2017, *Int J Epidemiol*)](https://pubmed.ncbi.nlm.nih.gov/28338764/) confirmed dose-dependent benefits: each additional daily serving of fruit reduced all-cause mortality risk by roughly 6%.
 
 The catch? You need to eat the whole fruit. Skin on. Not juiced, not stripped into a supplement. The food matrix is the mechanism.
 
@@ -43,10 +43,14 @@ Crisp and juicy with a balance of sweetness and tartness that varies by variety 
 
 ## The Science
 
-- Aune et al. (2017, BMJ): meta-analysis found dose-dependent mortality reduction with each daily fruit serving, including apples
-- Bondonno et al. (2012): flavonoid-rich apple improved endothelial function and reduced LDL oxidation
-- Dreher (2020): meta-analysis linked apple consumption to ~40% reduced cardiovascular mortality risk
-- Fontana: whole fruit food matrix critical -- juicing destroys glycaemic benefit (Ref 76)
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies — each additional daily fruit serving associated with ~6% lower all-cause mortality risk in dose-response pattern.
+- [Bondonno et al., 2012, *Free Radic Biol Med*](https://pubmed.ncbi.nlm.nih.gov/22019438/): Flavonoid-rich apples significantly augmented nitric oxide status and improved endothelial function in hypercholesterolaemic adults.
+- Whole fruit food matrix critical — juicing destroys glycaemic benefit by releasing free sugars and removing fibre.
+
+## References
+
+1. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
+2. Bondonno CP, Yang X, Croft KD, et al. **Flavonoid-rich apples and nitrate-rich spinach augment nitric oxide status and improve endothelial function and blood pressure in healthy adults.** *Free Radic Biol Med*. 2012;52(1):95-102. PMID: [22019438](https://pubmed.ncbi.nlm.nih.gov/22019438/). doi:[10.1016/j.freeradbiomed.2011.09.028](https://doi.org/10.1016/j.freeradbiomed.2011.09.028)
 
 ## Key Nutrients
 

@@ -15,9 +15,9 @@ Swapping just 50 grams of white rice for brown rice daily was associated with a 
 
 Brown rice is white rice before the refining. That bran layer contains three times the fiber (3g vs 1g per cup cooked), most of the B vitamins, nearly all the magnesium, and a compound called gamma-oryzanol that is unique to rice bran and has its own cholesterol-lowering properties.
 
-The glycemic argument is straightforward. The intact bran forms a physical barrier around starch granules, slowing the rate at which pancreatic amylases can break them down. This translates to lower glucose spikes, lower insulin demand, and more sustained energy. A 2014 RCT in the British Journal of Nutrition (PMID 24158434) confirmed that swapping brown for white rice significantly reduced postprandial glucose and insulin in overweight adults.
+The glycemic argument is straightforward. The intact bran forms a physical barrier around starch granules, slowing the rate at which pancreatic amylases can break them down. This translates to lower glucose spikes, lower insulin demand, and more sustained energy. A 2014 RCT ([Mohan et al., 2014, *Diabetes Technol Ther*](https://pubmed.ncbi.nlm.nih.gov/24447043/)) confirmed that swapping white rice for brown rice significantly reduced postprandial blood glucose and insulin responses in overweight Asian adults.
 
-At scale, the evidence is compelling. A 2010 Archives of Internal Medicine study (PMID 20548009) following nearly 200,000 adults found that replacing 50g/day of white rice with brown rice reduced type 2 diabetes risk by 16%. A 2019 systematic review (PMID 31619630) reinforced these findings across multiple trials, showing improvements in glycemic control, lipid profiles, and body weight.
+At scale, the evidence is compelling. A 2010 Archives of Internal Medicine study (PMID 20548009) following nearly 200,000 adults found that replacing 50g/day of white rice with brown rice reduced type 2 diabetes risk by 16%. A systematic review ([Boers et al., 2015, *Br J Nutr*](https://pubmed.ncbi.nlm.nih.gov/26310311/)) reinforced these findings across multiple trials, showing that rice processing and bran content significantly influence postprandial glycaemic and insulinaemic responses.
 
 The book features brown rice as a cornerstone of a sample daily diet: 2 cups brown rice, 1 cup lentils, 20 almonds, vegetables, fruit, olive oil, and flax seeds. This combination delivers 73g of fiber and 76g of complete protein in only 1886 calories -- exceeding 100% of the RDA for nearly all nutrients except vitamin D and B12.
 
@@ -43,10 +43,17 @@ Nutty and mildly sweet with a chewy, firm texture that holds its shape in bowls 
 
 ## The Science
 
-- Sun et al. (2010): Replacing white with brown rice associated with 16% lower T2D risk (PMID 20548009)
-- Shobana et al. (2014): Brown rice reduced postprandial glucose and insulin vs white rice in overweight adults (PMID 24158434)
-- Sanlier et al. (2019): Systematic review confirming improved glycemic control, lipids, and body weight (PMID 31619630)
-- Aune et al. (2016): Whole grain intake linked to dose-dependent mortality reduction (PMID 27301975)
+- [Sun et al., 2010, *Arch Intern Med*](https://pubmed.ncbi.nlm.nih.gov/20548009/): Prospective cohort of ~197,000 US adults — replacing 50g/day white rice with brown rice associated with 16% lower type 2 diabetes risk.
+- [Mohan et al., 2014, *Diabetes Technol Ther*](https://pubmed.ncbi.nlm.nih.gov/24447043/): RCT in overweight Asian Indians — brown rice significantly reduced postprandial blood glucose and insulin vs white rice.
+- [Boers et al., 2015, *Br J Nutr*](https://pubmed.ncbi.nlm.nih.gov/26310311/): Systematic review — bran layer in brown rice consistently lowers postprandial glycaemic and insulinaemic responses across studies.
+- [Aune et al., 2016, *BMJ*](https://pubmed.ncbi.nlm.nih.gov/27301975/): Whole grain consumption associated with dose-dependent reductions in CVD, cancer, and all-cause mortality.
+
+## References
+
+1. Sun Q, Spiegelman D, van Dam RM, et al. **White rice, brown rice, and risk of type 2 diabetes in US men and women.** *Arch Intern Med*. 2010;170(11):961-969. PMID: [20548009](https://pubmed.ncbi.nlm.nih.gov/20548009/). doi:[10.1001/archinternmed.2010.109](https://doi.org/10.1001/archinternmed.2010.109)
+2. Mohan V, Spiegelman D, Sudha V, et al. **Effect of brown rice, white rice, and brown rice with legumes on blood glucose and insulin responses in overweight Asian Indians: a randomized controlled trial.** *Diabetes Technol Ther*. 2014;16(5):317-325. PMID: [24447043](https://pubmed.ncbi.nlm.nih.gov/24447043/). doi:[10.1089/dia.2013.0259](https://doi.org/10.1089/dia.2013.0259)
+3. Boers HM, Seijen Ten Hoorn J, Mela DJ. **A systematic review of the influence of rice characteristics and processing methods on postprandial glycaemic and insulinaemic responses.** *Br J Nutr*. 2015;114(7):1035-1045. PMID: [26310311](https://pubmed.ncbi.nlm.nih.gov/26310311/). doi:[10.1017/S0007114515001841](https://doi.org/10.1017/S0007114515001841)
+4. Aune D, Keum N, Giovannucci E, et al. **Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies.** *BMJ*. 2016;353:i2716. PMID: [27301975](https://pubmed.ncbi.nlm.nih.gov/27301975/). doi:[10.1136/bmj.i2716](https://doi.org/10.1136/bmj.i2716)
 
 ## Key Nutrients
 

@@ -13,7 +13,11 @@ Cauliflower is listed as a source of vitamin C (26 mg per 1/2 cup raw, ~43% DV).
 
 ## Why It Matters for Longevity
 
-Cauliflower is listed as a source of vitamin C (26 mg per 1/2 cup raw, ~43% DV). Vitamin C is the primary water-soluble antioxidant in plasma; required for collagen biosynthesis, immune cell function, and regeneration of vitamin E; protects against oxidative stress associated with aging..  Frequent consumption of cruciferous vegetables including cauliflower was associated with a statistically significant reduction in lung cancer risk (OR 0.72), attributed to isothiocyanate-mediated induction of phase II detoxification enzymes and inhibition of carcinogen activation. (Lam et al., JNCI (2010) — PMID 20651274)  Cauliflower contains glucosinolates (principally glucobrassicin and glucoraphanin) that generate isothiocyanates and indole-3-carbinol upon hydrolysis; these compounds inhibit phase I activating enzymes and induce phase II detoxifying enzymes, supporting chemoprevention and cellular longevity. (Manchali et al., Food Chemistry (2012) — PMID 22397945)
+Cauliflower is a cruciferous vegetable providing meaningful quantities of vitamin C (48 mg per 100g raw), folate, choline, and a group of compounds -- glucosinolates -- that set cruciferous vegetables apart from all other plant families. Vitamin C is the primary water-soluble antioxidant in plasma, required for collagen biosynthesis, immune cell function, and regeneration of vitamin E.
+
+Glucosinolates in cauliflower (principally glucobrassicin and glucoraphanin) are converted by the enzyme myrosinase into bioactive isothiocyanates and indole-3-carbinol when the vegetable is chopped or chewed. A comprehensive review ([Barrera et al., 2012, *Proc Nutr Soc*](https://pubmed.ncbi.nlm.nih.gov/22391025/)) documented that these isothiocyanates inhibit phase I activating enzymes and induce phase II detoxifying enzymes -- effectively both suppressing carcinogen activation and accelerating carcinogen elimination. This dual mechanism underlies the consistent epidemiological associations between cruciferous vegetable intake and cancer risk reduction.
+
+A meta-analysis ([Liu & Lv, 2013, *Breast*](https://pubmed.ncbi.nlm.nih.gov/22877795/)) of prospective cohort studies found cruciferous vegetable intake inversely associated with breast cancer risk, with each additional serving per week associated with a 3% reduction in risk. The practical implication: light cooking preserves isothiocyanate bioavailability better than boiling (which leaches glucosinolates into cooking water), while thorough chewing of raw cauliflower activates the full myrosinase pathway.
 
 ## How to Use It
 
@@ -39,7 +43,15 @@ Taste: mild, slightly nutty when roasted, subtly sweet. Aroma: mild sulfurous (r
 
 ## The Science
 
-- Lam et al., JNCI (2010) — PMID 20651274: Frequent consumption of cruciferous vegetables including cauliflower was associated with a statistically significant reduction in lung cancer risk (OR 0.72), attributed to isothiocyanate-mediated induction of phase II detoxification enzymes and inhibition of carcinogen activation.  - Manchali et al., Food Chemistry (2012) — PMID 22397945: Cauliflower contains glucosinolates (principally glucobrassicin and glucoraphanin) that generate isothiocyanates and indole-3-carbinol upon hydrolysis; these compounds inhibit phase I activating enzymes and induce phase II detoxifying enzymes, supporting chemoprevention and cellular longevity.  - Kaulmann & Bohn, Nutrition Research Reviews (2014) — PMID 24965336: Carotenoids and vitamin C from cruciferous vegetables including cauliflower work synergistically to reduce oxidative damage to DNA and lipids, with epidemiological evidence linking regular consumption to reduced incidence of cardiovascular disease and cancers — core longevity endpoints.  - Book claim (medium confidence): Cauliflower is listed as a source of vitamin C (26 mg per 1/2 cup raw, ~43% DV).
+- [Barrera et al., 2012, *Proc Nutr Soc*](https://pubmed.ncbi.nlm.nih.gov/22391025/): Review of isothiocyanates from cruciferous vegetables — dual mechanism of inhibiting phase I carcinogen-activating enzymes and inducing phase II detoxifying enzymes; epigenetic and antioxidant effects relevant to cancer prevention.
+- [Liu & Lv, 2013, *Breast*](https://pubmed.ncbi.nlm.nih.gov/22877795/): Meta-analysis of prospective cohort studies — cruciferous vegetable intake inversely associated with breast cancer risk; ~3% risk reduction per weekly serving.
+- Vitamin C: 48 mg per 100g raw cauliflower; highly bioavailable when raw or lightly steamed; degrades rapidly with prolonged boiling.
+- Glucosinolate → isothiocyanate conversion requires myrosinase activation; activated by chopping, chewing, or fermentation; inactivated by prolonged cooking.
+
+## References
+
+1. Barrera LN, Cassidy A, Johnson IT, Bao Y, Belshaw NJ. **Epigenetic and antioxidant effects of dietary isothiocyanates and selenium: potential implications for cancer chemoprevention.** *Proc Nutr Soc*. 2012;71(2):237-245. PMID: [22391025](https://pubmed.ncbi.nlm.nih.gov/22391025/). doi:[10.1017/S002966511200016X](https://doi.org/10.1017/S002966511200016X)
+2. Liu X, Lv K. **Cruciferous vegetables intake is inversely associated with risk of breast cancer: a meta-analysis.** *Breast*. 2013;22(3):309-313. PMID: [22877795](https://pubmed.ncbi.nlm.nih.gov/22877795/). doi:[10.1016/j.breast.2012.07.013](https://doi.org/10.1016/j.breast.2012.07.013)
 
 ## Key Nutrients
 
