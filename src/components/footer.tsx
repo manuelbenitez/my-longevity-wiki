@@ -25,6 +25,9 @@ export function Footer() {
           <Link href={`/${locale}/sources/`} className="text-xs text-muted hover:text-accent !no-underline !border-none transition-colors">
             {tNav("sources")}
           </Link>
+          <Link href={`/${locale}/about/`} className="text-xs text-muted hover:text-accent !no-underline !border-none transition-colors">
+            {tNav("about")}
+          </Link>
           <Link href={`/${locale}/support/`} className="text-xs text-muted hover:text-accent !no-underline !border-none transition-colors">
             {tNav("support")}
           </Link>

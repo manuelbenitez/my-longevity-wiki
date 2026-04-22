@@ -4,7 +4,8 @@
     "recipes": "Recipes",
     "meal_planner": "Meal Planner",
     "sources": "Sources",
-    "support": "Support"
+    "support": "Support",
+    "about": "About"
   },
   "home": {
     "tagline": "The science of eating well, living longer.",

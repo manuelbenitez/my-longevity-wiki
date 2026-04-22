@@ -52,6 +52,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     });
     entries.push({
+      url: `${SITE_URL}/${locale}/about`,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    });
+    entries.push({
       url: `${SITE_URL}/${locale}/sources`,
       changeFrequency: "monthly",
       priority: 0.5,
