@@ -10,7 +10,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const path = `/${locale}/sources/`;
-  const languages: Record<string, string> = {};
+  const languages: Record<string, string> = { "x-default": `/en/sources/` };
   for (const loc of routing.locales) {
     languages[loc] = `/${loc}/sources/`;
   }

@@ -19,8 +19,10 @@ export async function generateMetadata({
   if (!entry) return {};
   const { title, category, tags } = entry.frontmatter;
   const path = `/${locale}/ingredients/${slug}/`;
+  const locales = wikiLocales(slug);
   const languages: Record<string, string> = {};
-  for (const loc of wikiLocales(slug)) {
+  if (locales.includes("en")) languages["x-default"] = `/en/ingredients/${slug}/`;
+  for (const loc of locales) {
     languages[loc] = `/${loc}/ingredients/${slug}/`;
   }
   return {

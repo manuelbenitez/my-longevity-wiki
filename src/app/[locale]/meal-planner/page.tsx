@@ -19,7 +19,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meal_planner" });
   const path = `/${locale}/meal-planner/`;
-  const languages: Record<string, string> = {};
+  const languages: Record<string, string> = { "x-default": `/en/meal-planner/` };
   for (const loc of routing.locales) {
     languages[loc] = `/${loc}/meal-planner/`;
   }

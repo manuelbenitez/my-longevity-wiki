@@ -18,7 +18,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "ingredients" });
   const path = `/${locale}/ingredients/`;
-  const languages: Record<string, string> = {};
+  const languages: Record<string, string> = { "x-default": `/en/ingredients/` };
   for (const loc of routing.locales) {
     languages[loc] = `/${loc}/ingredients/`;
   }

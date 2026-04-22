@@ -22,8 +22,10 @@ export async function generateMetadata({
     ?.map((s) => s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "))
     .join(", ");
   const path = `/${locale}/recipes/${slug}/`;
+  const locales = recipeLocales(slug);
   const languages: Record<string, string> = {};
-  for (const loc of recipeLocales(slug)) {
+  if (locales.includes("en")) languages["x-default"] = `/en/recipes/${slug}/`;
+  for (const loc of locales) {
     languages[loc] = `/${loc}/recipes/${slug}/`;
   }
   return {
