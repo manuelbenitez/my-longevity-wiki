@@ -13,11 +13,11 @@ Black pepper's longevity value is not about what it does alone -- it is about wh
 
 ## Why It Matters for Longevity
 
-The landmark study is Shoba et al. (1998, PMID 9619120), which demonstrated that 20 mg of piperine -- roughly a quarter teaspoon of black pepper -- increased curcumin bioavailability by twenty-fold in human subjects. The mechanism is well understood: piperine inhibits hepatic and intestinal glucuronidation, the enzyme process that normally tags curcumin for rapid elimination. Block that process, and curcumin stays in the bloodstream long enough to exert its anti-inflammatory effects.
+The landmark study is [Shoba et al. (1998, *Planta Medica*)](https://pubmed.ncbi.nlm.nih.gov/9619120/), which demonstrated that 20 mg of piperine -- roughly a quarter teaspoon of black pepper -- increased curcumin bioavailability by twenty-fold in human subjects. The mechanism is well understood: piperine inhibits hepatic and intestinal glucuronidation, the enzyme process that normally tags curcumin for rapid elimination. Block that process, and curcumin stays in the bloodstream long enough to exert its anti-inflammatory effects.
 
-But piperine is not a one-trick molecule. Kesarwani and Gupta (2013, PMID 23768180) showed it acts as a general bioenhancer by inhibiting CYP3A4 and CYP1A2 enzymes plus P-glycoprotein efflux pumps. This means it also enhances the absorption of resveratrol from red wine, EGCG from green tea, selenium, vitamin B6, and beta-carotene. Every time you grind pepper onto a meal containing these compounds, you are amplifying their bioavailability.
+But piperine is not a one-trick molecule. A [comprehensive review (Butt et al., 2013, *Crit Rev Food Sci Nutr*)](https://pubmed.ncbi.nlm.nih.gov/23768180/) documented piperine's role as a general bioenhancer by inhibiting CYP3A4 and CYP1A2 enzymes plus P-glycoprotein efflux pumps -- enhancing absorption of resveratrol, EGCG, selenium, vitamin B6, and beta-carotene. Every time you grind pepper onto a meal containing these compounds, you are amplifying their bioavailability.
 
-Piperine also has independent anti-inflammatory and antioxidant properties. Butt et al. (2013, PMID 22929066) reviewed the evidence and found it demonstrates anticancer activity in cell culture and anti-inflammatory effects through COX and LOX pathway inhibition. Black pepper also contains beta-caryophyllene, a dietary cannabinoid that activates CB2 receptors -- providing anti-inflammatory effects without any psychoactive component.
+Piperine also has independent anti-inflammatory and antioxidant properties, including anticancer activity in cell culture and anti-inflammatory effects through COX and LOX pathway inhibition. Black pepper also contains beta-caryophyllene, a dietary cannabinoid that activates CB2 receptors -- providing anti-inflammatory effects without any psychoactive component.
 
 One important caveat: the same enzyme inhibition that enhances nutrient absorption also affects pharmaceutical drugs. If you take medications metabolised by CYP3A4 (a long list including statins, blood thinners, and some antidepressants), be aware that heavy pepper consumption could alter drug levels. This is worth discussing with a pharmacist.
 
@@ -42,9 +42,13 @@ Black pepper is sharp, warm, and pungent with subtle piney and citrusy notes. Fr
 
 ## The Science
 
-- Shoba et al. (1998): Piperine increases curcumin bioavailability by 2000% in humans (PMID 9619120)
-- Butt et al. (2013): Piperine demonstrates independent anti-inflammatory and anticancer properties (PMID 22929066)
-- Kesarwani & Gupta (2013): Piperine as general bioenhancer via CYP and P-glycoprotein inhibition (PMID 23768180)
+- [Shoba et al., 1998, *Planta Medica*](https://pubmed.ncbi.nlm.nih.gov/9619120/): Piperine (20 mg) increases curcumin bioavailability by ~20-fold in humans.
+- [Butt et al., 2013, *Crit Rev Food Sci Nutr*](https://pubmed.ncbi.nlm.nih.gov/23768180/): Comprehensive review — black pepper and piperine as bioenhancer (CYP inhibition), anti-inflammatory, and anticancer agent.
+
+## References
+
+1. Shoba G, Joy D, Joseph T, Majeed M, Rajendran R, Srinivas PS. **Influence of piperine on the pharmacokinetics of curcumin in animals and human volunteers.** *Planta Med*. 1998;64(4):353-356. PMID: [9619120](https://pubmed.ncbi.nlm.nih.gov/9619120/). doi:[10.1055/s-2006-957450](https://doi.org/10.1055/s-2006-957450)
+2. Butt MS, Pasha I, Sultan MT, Randhawa MA, Saeed F, Ahmed W. **Black pepper and health claims: a comprehensive treatise.** *Crit Rev Food Sci Nutr*. 2013;53(9):875-886. PMID: [23768180](https://pubmed.ncbi.nlm.nih.gov/23768180/). doi:[10.1080/10408398.2011.571799](https://doi.org/10.1080/10408398.2011.571799)
 
 ## Key Nutrients
 

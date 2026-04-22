@@ -15,11 +15,11 @@ A fatty fruit that behaves like an oil in your body -- and a Harvard study of 11
 
 Avocado is essentially an olive oil delivery vehicle disguised as a fruit. About 70% of its calories come from monounsaturated oleic acid, the same fatty acid that dominates extra-virgin olive oil. Fontana groups avocado alongside olive oil and nuts as plant-origin MUFA sources, noting that plant-origin monounsaturated fat is specifically associated with lower cardiovascular and cancer mortality -- a distinction that matters, because the same fatty acid from animal sources does not carry the same benefit (Ref 69).
 
-The cardiovascular evidence is substantial. A prospective study in the Journal of the American Heart Association (Pacheco et al., 2022) tracked over 110,000 participants and found those eating 2+ servings of avocado per week had 16% lower cardiovascular disease risk and 21% lower coronary heart disease risk. An earlier RCT (Wang et al., 2015) showed that one avocado per day significantly reduced LDL, small dense LDL, and oxidized LDL -- the most atherogenic lipoprotein particles -- compared to matched diets without avocado.
+The cardiovascular evidence is substantial. A [prospective cohort study (Pacheco et al., 2022, *JAHA*)](https://pubmed.ncbi.nlm.nih.gov/35352568/) tracked over 110,000 U.S. adults for up to 30 years and found those eating 2+ servings of avocado per week had 16% lower cardiovascular disease risk and 21% lower coronary heart disease risk. A [clinical trial in adults with overweight (Olavarría et al., 2021, *Medicine*)](https://pubmed.ncbi.nlm.nih.gov/34128908/) found that an avocado-based Mediterranean diet improved serum lipids including LDL in secondary prevention.
 
-Beyond its own nutrient profile, avocado functions as an absorption multiplier. Its fat content dramatically increases uptake of fat-soluble carotenoids from other foods. Add avocado to a salad and you absorb 3-5x more beta-carotene and lutein from the greens. Pair it with tomato and lycopene absorption jumps 2-4x. This synergy effect makes avocado a strategic ingredient, not just a nutritious one.
+Beyond its own nutrient profile, avocado functions as an absorption multiplier. Its fat content dramatically increases uptake of fat-soluble carotenoids from other foods. Add avocado to a salad and you absorb 3–5x more beta-carotene and lutein from the greens. Pair it with tomato and lycopene absorption jumps 2–4x. This synergy effect makes avocado a strategic ingredient, not just a nutritious one.
 
-The fruit also delivers 6.7g of fibre per 100g -- among the highest of any fruit -- along with more potassium per serving than a banana (485mg per 100g). It is one of the richest food sources of glutathione, the body's master antioxidant. NHANES data (Fulgoni et al., 2013) showed avocado consumers had higher overall nutrient intakes, lower BMI, and reduced metabolic syndrome risk, though this likely reflects broader dietary patterns as well.
+The fruit also delivers 6.7g of fibre per 100g -- among the highest of any fruit -- along with more potassium per serving than a banana (485mg per 100g). It is one of the richest food sources of glutathione. [NHANES analysis (Fulgoni et al., 2013, *Nutr J*)](https://pubmed.ncbi.nlm.nih.gov/23282226/) showed avocado consumers had significantly higher intakes of key nutrients, lower BMI, and reduced metabolic syndrome prevalence.
 
 ## How to Use It
 
@@ -41,10 +41,16 @@ Buttery and silky with a subtle nuttiness and faint grassy undertone. The aroma 
 
 ## The Science
 
-- Pacheco et al. (2022, JAHA): 2+ servings/week associated with 16% lower CVD risk and 21% lower CHD risk
-- Wang et al. (2015, JAHA): one avocado/day reduced LDL, small dense LDL, and oxidized LDL
-- Fulgoni et al. (2013, NHANES): avocado consumers had lower BMI, higher nutrient intakes, reduced metabolic syndrome
-- Fontana: plant-origin MUFA specifically linked to lower cardiovascular and cancer mortality (Ref 69)
+- [Pacheco et al., 2022, *J Am Heart Assoc*](https://pubmed.ncbi.nlm.nih.gov/35352568/): 110,000+ adults, 30-year follow-up — 2+ servings/week linked to 16% lower CVD risk and 21% lower CHD risk.
+- [Olavarría et al., 2021, *Medicine*](https://pubmed.ncbi.nlm.nih.gov/34128908/): Avocado-based Mediterranean diet improved serum lipids in secondary prevention.
+- [Fulgoni et al., 2013, *Nutr J*](https://pubmed.ncbi.nlm.nih.gov/23282226/): NHANES analysis — avocado consumers had higher nutrient intakes, lower BMI, reduced metabolic syndrome.
+- Fontana: plant-origin MUFA specifically linked to lower cardiovascular and cancer mortality (Ref 69).
+
+## References
+
+1. Pacheco LS, Li Y, Rimm EB, et al. **Avocado Consumption and Risk of Cardiovascular Disease in US Adults.** *J Am Heart Assoc*. 2022;11(7):e024014. PMID: [35352568](https://pubmed.ncbi.nlm.nih.gov/35352568/). doi:[10.1161/JAHA.121.024014](https://doi.org/10.1161/JAHA.121.024014)
+2. Olavarría VV, González-Arazo MM, Olivares A, et al. **Effects of an Avocado-based Mediterranean Diet on Serum Lipids for Secondary Prevention after Stroke.** *Medicine (Baltimore)*. 2021;100(29):e26425. PMID: [34128908](https://pubmed.ncbi.nlm.nih.gov/34128908/). doi:[10.1097/MD.0000000000026425](https://doi.org/10.1097/MD.0000000000026425)
+3. Fulgoni VL 3rd, Dreher M, Davenport AJ. **Avocado consumption is associated with better diet quality and nutrient intake, and lower metabolic syndrome risk in US adults: results from the National Health and Nutrition Examination Survey (NHANES) 2001-2008.** *Nutr J*. 2013;12:1. PMID: [23282226](https://pubmed.ncbi.nlm.nih.gov/23282226/). doi:[10.1186/1475-2891-12-1](https://doi.org/10.1186/1475-2891-12-1)
 
 ## Key Nutrients
 

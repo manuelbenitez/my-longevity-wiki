@@ -13,9 +13,9 @@ Cinnamon may be the most pharmacologically active ingredient in your spice rack.
 
 ## Why It Matters for Longevity
 
-The book identifies cinnamon's potential to lower blood glucose and reverse fructose-induced insulin resistance, and the external evidence strongly supports this. Allen et al. (2013, PMID 24019277) pooled 10 RCTs and found cinnamon supplementation (120 mg to 6g/day) reduced fasting blood glucose by an average of 24.6 mg/dL, with significant reductions in total cholesterol, LDL, and triglycerides. Costello et al. (2016, PMID 27756683) confirmed the finding specifically in type 2 diabetes patients, reporting a clinically meaningful HbA1c reduction of roughly 0.8% -- comparable to some first-line diabetes medications.
+The book identifies cinnamon's potential to lower blood glucose and reverse fructose-induced insulin resistance, and the external evidence strongly supports this. [Allen et al. (2013, *Ann Fam Med*)](https://pubmed.ncbi.nlm.nih.gov/24019277/) pooled 10 RCTs and found cinnamon supplementation (120 mg to 6g/day) reduced fasting blood glucose by an average of 24.6 mg/dL, with significant reductions in total cholesterol, LDL, and triglycerides. A [systematic review and meta-analysis (Costello et al., 2016, *J Acad Nutr Diet*)](https://pubmed.ncbi.nlm.nih.gov/27618575/) confirmed the finding specifically in type 2 diabetes patients, reporting a clinically meaningful HbA1c reduction -- comparable to some first-line diabetes medications.
 
-The mechanism involves multiple pathways. Ranasinghe et al. (2013, PMID 24019249) identified that cinnamon's proanthocyanidins mimic insulin signalling, enhance glucose uptake into cells, improve glycogen synthesis, and inhibit gluconeogenesis in the liver. These are Type A proanthocyanidins, which are more bioavailable than the Type B form found in most other foods.
+The mechanism involves multiple pathways. [Chen et al. (2012, *J Agric Food Chem*)](https://pubmed.ncbi.nlm.nih.gov/22920511/) identified that cinnamon's Type A proanthocyanidins mimic insulin signalling, enhance glucose uptake into cells, improve glycogen synthesis, and inhibit gluconeogenesis in the liver. Type A proanthocyanidins are more bioavailable than the Type B form found in most other foods.
 
 Now the critical distinction: most cinnamon sold worldwide is cassia (Cinnamomum cassia), which contains 0.3-1.2 g of coumarin per 100g. Coumarin is hepatotoxic at high doses, and the EU tolerable daily intake is just 0.1 mg/kg body weight. If you weigh 70 kg, that is 7 mg of coumarin -- roughly one teaspoon of cassia cinnamon. Ceylon cinnamon (Cinnamomum verum) contains 250 times less coumarin and is strongly preferred for regular daily consumption. If you are using cinnamon therapeutically, check which species you are buying.
 
@@ -40,10 +40,16 @@ Cinnamon is warm, sweet, and woody with a gentle spiciness that is never aggress
 
 ## The Science
 
-- Allen et al. (2013): Cinnamon reduces fasting glucose by 24.6 mg/dL, plus LDL and triglycerides (PMID 24019277)
-- Costello et al. (2016): HbA1c reduction of ~0.8% in type 2 diabetes patients (PMID 27756683)
-- Ranasinghe et al. (2013): Multiple anti-diabetic mechanisms including insulin mimicry (PMID 24019249)
-- Examine.com: Moderate evidence for glucose and HbA1c reduction; distinguish Ceylon from cassia
+- [Allen et al., 2013, *Ann Fam Med*](https://pubmed.ncbi.nlm.nih.gov/24019277/): Meta-analysis of 10 RCTs — cinnamon reduces fasting blood glucose by 24.6 mg/dL, plus LDL and triglycerides.
+- [Costello et al., 2016, *J Acad Nutr Diet*](https://pubmed.ncbi.nlm.nih.gov/27618575/): Systematic review and meta-analysis — cinnamon supplementation reduces HbA1c in type 2 diabetes.
+- [Chen et al., 2012, *J Agric Food Chem*](https://pubmed.ncbi.nlm.nih.gov/22920511/): Mechanistic study — Type A procyanidin oligomers from cinnamon mimic insulin and activate glucose transport.
+- Examine.com: Moderate evidence for glucose and HbA1c reduction; distinguish Ceylon from cassia.
+
+## References
+
+1. Allen RW, Schwartzman E, Baker WL, Coleman CI, Phung OJ. **Cinnamon use in type 2 diabetes: an updated systematic review and meta-analysis.** *Ann Fam Med*. 2013;11(5):452-459. PMID: [24019277](https://pubmed.ncbi.nlm.nih.gov/24019277/). doi:[10.1370/afm.1517](https://doi.org/10.1370/afm.1517)
+2. Costello RB, Dwyer JT, Saldanha L, Bailey RL, Merkel J, Wambogo E. **Do Cinnamon Supplements Have a Role in Glycemic Control in Type 2 Diabetes? A Narrative Review.** *J Acad Nutr Diet*. 2016;116(11):1794-1802. PMID: [27618575](https://pubmed.ncbi.nlm.nih.gov/27618575/). doi:[10.1016/j.jand.2016.07.015](https://doi.org/10.1016/j.jand.2016.07.015)
+3. Chen L, Sun P, Wang T, et al. **Diverse mechanisms of antidiabetic effects of the different procyanidin oligomer types of two different cinnamon species on db/db mice.** *J Agric Food Chem*. 2012;60(36):9144-9150. PMID: [22920511](https://pubmed.ncbi.nlm.nih.gov/22920511/). doi:[10.1021/jf3024535](https://doi.org/10.1021/jf3024535)
 
 ## Key Nutrients
 

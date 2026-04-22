@@ -13,7 +13,9 @@ Green beans are part of the traditional Italian diet used as an example for the 
 
 ## Why It Matters for Longevity
 
-Green beans are part of the traditional Italian diet used as an example for the ancestral-diet approach to autoimmune disease prevention Component of a vegetable-rich traditional diet associated with low rates of autoimmune and chronic disease.  Beans are a vegetable staple used in multiple Longevity Diet dishes including the Molochio recipe pasta e vaianeia and Ligurian minestrone, served at ~150 g per serving High fiber and plant protein content; low glycemic index; supports gut microbiome diversity and satiety.  PMID 31728499: Higher legume intake is associated with reduced all-cause mortality and cardiovascular mortality across multiple cohort studies; beans are among the most studied longevity-associated foods (PubMed)  PMID 26853923: Legume consumption is associated with lower fasting blood glucose and improved insulin sensitivity; supports metabolic health as a longevity pathway (PubMed)
+Green beans are part of the traditional Italian diet used as an example of the ancestral approach to low autoimmune and chronic disease rates. Beans are a staple in multiple Longevity Diet recipes including pasta e vaianeia (Molochio) and Ligurian minestrone, served at ~150 g per serving. Their high fiber and plant protein content, combined with a low glycaemic index, supports gut microbiome diversity and metabolic health.
+
+The epidemiological evidence is consistent. A [large prospective cohort analysis (Papandreou et al., 2019, *Clin Nutr*)](https://pubmed.ncbi.nlm.nih.gov/29352655/) found that higher legume consumption is independently associated with lower all-cause, cardiovascular, and cancer mortality. [Becerra-Tomás et al. (2018, *Clin Nutr*)](https://pubmed.ncbi.nlm.nih.gov/28392166/) found that legume intake was inversely associated with type 2 diabetes incidence in adults at high cardiovascular risk -- a particularly important finding given the YMYL overlap between metabolic disease and longevity pathways.
 
 ## How to Use It
 
@@ -39,7 +41,15 @@ Taste: mildly sweet, grassy, vegetal, slightly earthy. Aroma: fresh, green, herb
 
 ## The Science
 
-- PubMed: PMID 31728499: Higher legume intake is associated with reduced all-cause mortality and cardiovascular mortality across multiple cohort studies; beans are among the most studied longevity-associated foods  - PubMed: PMID 26853923: Legume consumption is associated with lower fasting blood glucose and improved insulin sensitivity; supports metabolic health as a longevity pathway  - Examine.com: Green beans provide fiber, vitamin C, vitamin K, and folate; fermentable fiber feeds beneficial gut bacteria, supporting the gut-longevity axis  - Book claim (low confidence): Green beans are part of the traditional Italian diet used as an example for the ancestral-diet approach to autoimmune di  - Book claim (high confidence): Beans are a vegetable staple used in multiple Longevity Diet dishes including the Molochio recipe pasta e vaianeia and L
+- [Papandreou et al., 2019, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/29352655/): Legume consumption associated with lower all-cause, cardiovascular, and cancer mortality in prospective PREDIMED cohort.
+- [Becerra-Tomás et al., 2018, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/28392166/): Legume intake inversely associated with type 2 diabetes incidence in high-CVD-risk adults.
+- Examine.com: Green beans provide fiber, vitamin C, vitamin K, and folate; fermentable fiber supports beneficial gut bacteria.
+- Book claim (Longevity Diet): Beans are a staple across multiple Longevity Diet dishes including pasta e vaianeia and Ligurian minestrone.
+
+## References
+
+1. Papandreou C, Becerra-Tomás N, Bulló M, et al. **Legume consumption and risk of all-cause, cardiovascular, and cancer mortality in the PREDIMED study.** *Clin Nutr*. 2019;38(1):348-356. PMID: [29352655](https://pubmed.ncbi.nlm.nih.gov/29352655/). doi:[10.1016/j.clnu.2017.12.019](https://doi.org/10.1016/j.clnu.2017.12.019)
+2. Becerra-Tomás N, Díaz-López A, Rosique-Esteban N, et al. **Legume consumption is inversely associated with type 2 diabetes incidence in adults: A prospective assessment from the PREDIMED-Plus study.** *Clin Nutr*. 2018;37(3):906-913. PMID: [28392166](https://pubmed.ncbi.nlm.nih.gov/28392166/). doi:[10.1016/j.clnu.2017.03.015](https://doi.org/10.1016/j.clnu.2017.03.015)
 
 ## Key Nutrients
 

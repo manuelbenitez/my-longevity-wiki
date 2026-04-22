@@ -15,9 +15,9 @@ Small fruit, outsized evidence -- a Nurses' Health Study analysis found women ea
 
 Berries sit at the intersection of low glycaemic impact and high polyphenol density, a combination Fontana highlights by listing them among the preferred low-GI fruits alongside apples and prunes. Their sugar content is relatively low, their fibre relatively high, and the result is a modest blood glucose response compared to tropical fruits or dried fruit.
 
-But the real story is anthocyanins -- the pigments that make berries blue, red, and purple. A meta-analysis of 27 RCTs (Huang et al., 2019) found berry consumption significantly reduced LDL cholesterol, systolic blood pressure, fasting glucose, and TNF-alpha, an inflammatory cytokine central to chronic disease progression. Pooled prospective data (Silva et al., 2020) linked higher anthocyanin intake to 12% lower all-cause mortality.
+But the real story is anthocyanins -- the pigments that make berries blue, red, and purple. A [review of berry anthocyanin and cardiovascular health (Cassidy, 2018, *Mol Aspects Med*)](https://pubmed.ncbi.nlm.nih.gov/28483533/) synthesised trial and cohort evidence showing improvements in blood pressure, endothelial function, and LDL cholesterol from regular berry intake. Broader [pooled epidemiological data (Parmenter et al., 2020, *Food Funct*)](https://pubmed.ncbi.nlm.nih.gov/32725042/) confirms flavonoid-rich foods including berries are inversely associated with cardiovascular disease incidence.
 
-The Nurses' Health Study data (Cassidy et al., 2013) is particularly striking: 34% lower heart attack risk with just three weekly servings of blueberries and strawberries. The proposed mechanism involves anthocyanins improving endothelial function, reducing arterial stiffness, and lowering blood pressure through nitric oxide pathways.
+The [Nurses' Health Study analysis (Cassidy et al., 2013, *Circulation*)](https://pubmed.ncbi.nlm.nih.gov/23319811/) is particularly striking: 34% lower heart attack risk with just three weekly servings of blueberries and strawberries. The proposed mechanism involves anthocyanins improving endothelial function, reducing arterial stiffness, and lowering blood pressure through nitric oxide pathways.
 
 Different berries bring different specialities. Blueberries contain pterostilbene, a resveratrol analogue with 4x better oral bioavailability that activates SIRT1 and AMPK longevity pathways. Raspberries and strawberries are rich in ellagic acid, which gut bacteria convert to urolithins -- metabolites that promote mitophagy, the cellular cleanup of damaged mitochondria. Blackberries have the highest anthocyanin content of common berries. And strawberries deliver more vitamin C per 100g than oranges.
 
@@ -43,10 +43,16 @@ Sweet-tart and bright, with the exact balance varying by type -- blueberries lea
 
 ## The Science
 
-- Cassidy et al. (2013, Nurses' Health Study): 3+ weekly servings of berries linked to 34% lower heart attack risk
-- Huang et al. (2019): meta-analysis of 27 RCTs showing reductions in LDL, blood pressure, glucose, and TNF-alpha
-- Silva et al. (2020): anthocyanin intake associated with 12% lower all-cause mortality in pooled studies
-- Fontana: berries listed among lower glycaemic index fruits recommended for regular consumption
+- [Cassidy et al., 2013, *Circulation*](https://pubmed.ncbi.nlm.nih.gov/23319811/): Nurses' Health Study — 3+ weekly servings of blueberries and strawberries linked to 34% lower MI risk.
+- [Cassidy, 2018, *Mol Aspects Med*](https://pubmed.ncbi.nlm.nih.gov/28483533/): Review of berry anthocyanins and cardiovascular health outcomes — blood pressure, endothelial function, LDL.
+- [Parmenter et al., 2020, *Food Funct*](https://pubmed.ncbi.nlm.nih.gov/32725042/): Epidemiological overview — flavonoid-rich foods (including berries) inversely associated with cardiovascular disease.
+- Fontana: berries listed among lower glycaemic index fruits recommended for regular consumption.
+
+## References
+
+1. Cassidy A, Mukamal KJ, Liu L, Franz M, Eliassen AH, Rimm EB. **High anthocyanin intake is associated with a reduced risk of myocardial infarction in young and middle-aged women.** *Circulation*. 2013;127(2):188-196. PMID: [23319811](https://pubmed.ncbi.nlm.nih.gov/23319811/). doi:[10.1161/CIRCULATIONAHA.112.122408](https://doi.org/10.1161/CIRCULATIONAHA.112.122408)
+2. Cassidy A. **Berry anthocyanin intake and cardiovascular health.** *Mol Aspects Med*. 2018;61:76-82. PMID: [28483533](https://pubmed.ncbi.nlm.nih.gov/28483533/). doi:[10.1016/j.mam.2017.05.002](https://doi.org/10.1016/j.mam.2017.05.002)
+3. Parmenter BH, Dalgaard F, Murray K, et al. **An overview and update on the epidemiology of flavonoid intake and cardiovascular disease risk.** *Food Funct*. 2020;11(8):6777-6806. PMID: [32725042](https://pubmed.ncbi.nlm.nih.gov/32725042/). doi:[10.1039/d0fo01118e](https://doi.org/10.1039/d0fo01118e)
 
 ## Key Nutrients
 

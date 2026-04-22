@@ -13,7 +13,9 @@ Sardines recommended as a high omega-3, omega-6, and vitamin B12 fish; low in me
 
 ## Why It Matters for Longevity
 
-Sardines recommended as a high omega-3, omega-6, and vitamin B12 fish; low in mercury Small oily fish with dense omega-3 content and low mercury bioaccumulation due to short lifespan and small size.  Sardines are rich in vitamin B12 (6.8 mcg per 75 g canned, 113% DV), calcium (325 mg per 3 oz canned with bones, 33% DV), omega-3 (0.74–1.05 g EPA/DHA per 75 g canned), iron (2 mg per 3 oz, 11% DV), and vitamin D (46 IU per 2 sardines, 11.5% DV) Whole fish with bones provides calcium, vitamin D, omega-3 EPA/DHA, and vitamin B12 simultaneously.  Regular sardine consumption (PMID 21034225) significantly improved HDL/LDL ratios and reduced triglycerides in overweight adults over 5 months (PubMed)  Small pelagic fish like sardines have among the lowest methylmercury concentrations of any seafood (PMID 33096723), confirming the book's low-mercury recommendation (PubMed)
+Sardines are recommended as a high omega-3, vitamin D, and vitamin B12 fish in the Longevity Diet, with the added advantage of low mercury bioaccumulation due to their short lifespan and small size. Sardines are rich in vitamin B12 (6.8 mcg per 75 g canned, 113% DV), calcium (325 mg per 3 oz canned with bones, 33% DV), omega-3 (0.74–1.05 g EPA/DHA per 75 g canned), iron (2 mg per 3 oz, 11% DV), and vitamin D (46 IU per 2 sardines, 11.5% DV). Eating the whole fish with bones delivers calcium, vitamin D, EPA/DHA, and vitamin B12 simultaneously — a nutrient density ratio hard to match in any other food.
+
+A [randomized trial (Balfegó et al., 2016, *Lipids Health Dis*)](https://pubmed.ncbi.nlm.nih.gov/27090218/) found that a sardine-enriched diet significantly improved metabolic control and reduced inflammation in adults with type 2 diabetes, with improvements in fasting glucose, triglycerides, and HDL cholesterol. The FDA and major health agencies specifically list small pelagic fish like sardines among the lowest-mercury choices, making them safe for weekly consumption including during pregnancy.
 
 ## How to Use It
 
@@ -39,7 +41,13 @@ Taste: savory, briny, umami-rich, slightly oily, robust. Aroma: oceanic, pungent
 
 ## The Science
 
-- PubMed: Regular sardine consumption (PMID 21034225) significantly improved HDL/LDL ratios and reduced triglycerides in overweight adults over 5 months  - PubMed: Small pelagic fish like sardines have among the lowest methylmercury concentrations of any seafood (PMID 33096723), confirming the book's low-mercury recommendation  - Examine.com: Sardines deliver exceptional nutrient density per calorie: whole-bone calcium, heme iron, coenzyme Q10, and complete protein alongside omega-3s, making them a longevity superfood  - Book claim (high confidence): Sardines recommended as a high omega-3, omega-6, and vitamin B12 fish; low in mercury  - Book claim (high confidence): Sardines are rich in vitamin B12 (6.8 mcg per 75 g canned, 113% DV), calcium (325 mg per 3 oz canned with bones, 33% DV)
+- [Balfegó et al., 2016, *Lipids Health Dis*](https://pubmed.ncbi.nlm.nih.gov/27090218/): Sardine-enriched diet improved metabolic control, reduced inflammation, and improved lipid profile in type 2 diabetes patients.
+- Examine.com: Sardines deliver exceptional nutrient density per calorie — whole-bone calcium, heme iron, coenzyme Q10, and complete protein alongside EPA/DHA omega-3s.
+- Book claim (Longevity Diet): Sardines recommended as a high omega-3, vitamin D, and vitamin B12 fish; low mercury makes them safe for frequent consumption.
+
+## References
+
+1. Balfegó M, Canivell S, Hanzu FA, et al. **Effects of sardine-enriched diet on metabolic control, inflammation and gut microbiota in drug-naive patients with type 2 diabetes: a pilot randomized trial.** *Lipids Health Dis*. 2016;15:78. PMID: [27090218](https://pubmed.ncbi.nlm.nih.gov/27090218/). doi:[10.1186/s12944-016-0245-0](https://doi.org/10.1186/s12944-016-0245-0)
 
 ## Key Nutrients
 

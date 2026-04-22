@@ -12,7 +12,7 @@ One of the rare cases where processing makes a food more potent. Tomato paste ha
 
 ## Why It Matters for Longevity
 
-A prospective study of 47,365 men (Giovannucci et al., 2002, PMID 11880478) found two or more servings of tomato sauce per week reduced prostate cancer risk by 35%. An RCT of lycopene supplementation (30mg/day) before prostate surgery reduced tumor size, PSA levels, and markers of cell proliferation (Kucuk et al., 2001, PMID 11396441). Lycopene also reliably reduces LDL oxidation and blood pressure.
+A [prospective study of 47,365 men (Giovannucci et al., 2002, *J Natl Cancer Inst*)](https://pubmed.ncbi.nlm.nih.gov/11880478/) found two or more servings of tomato sauce per week reduced prostate cancer risk by 35%. A [comprehensive review of lycopene's anticancer and cardioprotective effects (Friedman, 2013, *J Agric Food Chem*)](https://pubmed.ncbi.nlm.nih.gov/24079774/) documents the mechanisms: lycopene reduces IGF-I bioavailability, inhibits tumor cell proliferation, and cuts LDL oxidation.
 
 The mechanism: lycopene reduces IGF-I bioavailability, which may mediate the anti-cancer effect. Cooking breaks cell walls and dramatically increases bioavailability. Fat co-ingestion is essential -- olive oil and tomato is not just a culinary pairing, it is a pharmacological one.
 
@@ -37,7 +37,13 @@ Acidic, sweet, and savory. Raw tomatoes are bright and juicy with a green vine a
 
 ## The Science
 
-Giovannucci (2002, PMID 11880478) provided the landmark prostate cancer evidence. Burton-Freeman & Sesso (2014, PMID 25008788) reviewed the full evidence base and confirmed processed tomatoes deliver more bioavailable lycopene. Kucuk et al. (2001, PMID 11396441) ran the RCT showing tumor reduction with lycopene supplementation.
+- [Giovannucci et al., 2002, *J Natl Cancer Inst*](https://pubmed.ncbi.nlm.nih.gov/11880478/): Prospective study of 47,365 men — 2+ servings tomato sauce/week linked to 35% lower prostate cancer risk.
+- [Friedman, 2013, *J Agric Food Chem*](https://pubmed.ncbi.nlm.nih.gov/24079774/): Review of lycopene anticancer, cardioprotective, and other health benefits; confirms processed tomatoes deliver more bioavailable lycopene than raw.
+
+## References
+
+1. Giovannucci E, Rimm EB, Liu Y, Stampfer MJ, Willett WC. **A prospective study of tomato products, lycopene, and prostate cancer risk.** *J Natl Cancer Inst*. 2002;94(5):391-398. PMID: [11880478](https://pubmed.ncbi.nlm.nih.gov/11880478/). doi:[10.1093/jnci/94.5.391](https://doi.org/10.1093/jnci/94.5.391)
+2. Friedman M. **Anticarcinogenic, cardioprotective, and other health benefits of tomato compounds lycopene, α-tomatine, and tomatidine in pure form and in fresh and processed tomatoes.** *J Agric Food Chem*. 2013;61(40):9534-9550. PMID: [24079774](https://pubmed.ncbi.nlm.nih.gov/24079774/). doi:[10.1021/jf402654e](https://doi.org/10.1021/jf402654e)
 
 ## Key Nutrients
 
