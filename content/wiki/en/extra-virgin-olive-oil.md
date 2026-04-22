@@ -13,11 +13,11 @@ Fifty grams of good EVOO a day gives you the anti-clotting benefit of a baby asp
 
 ## Why It Matters for Longevity
 
-The headline number comes from the PREDIMED trial: 7,447 people at high cardiovascular risk, randomized to a Mediterranean diet supplemented with EVOO, saw a 30% reduction in major cardiovascular events compared to a reduced-fat control diet. A separate 28-year cohort study of over 92,000 people found that half a tablespoon of olive oil per day was associated with 19% lower cardiovascular mortality, 17% lower cancer mortality, and 29% lower neurodegenerative disease mortality. Every 25g/day increase in consumption tracked with a 13% drop in all-cause mortality.
+The headline number comes from the [PREDIMED trial (Estruch et al., 2018, *NEJM*)](https://pubmed.ncbi.nlm.nih.gov/29897866/): 7,447 people at high cardiovascular risk, randomized to a Mediterranean diet supplemented with EVOO, saw a ~30% reduction in major cardiovascular events compared to a reduced-fat control diet. A separate [28-year cohort study of over 92,000 people (Guasch-Ferré et al., 2022, *JACC*)](https://pubmed.ncbi.nlm.nih.gov/35027106/) found that half a tablespoon of olive oil per day was associated with 19% lower cardiovascular mortality, 17% lower cancer mortality, and 29% lower neurodegenerative disease mortality. Every 25g/day increase in consumption tracked with a substantial drop in all-cause mortality.
 
 The mechanisms are layered. Oleic acid, making up 55-83% of the fat content, lowers LDL cholesterol without touching HDL. Swapping just 5% of your saturated fat calories for monounsaturated fat from EVOO is associated with a 15% lower coronary heart disease risk. But the real magic is in the minor compounds -- the ones that make up only 1-2% of the oil by weight.
 
-Oleocanthal inhibits both COX-1 and COX-2 enzymes, mirroring the mechanism of ibuprofen. It also prevents platelet aggregation (blood clots). Hydroxytyrosol, one of the most potent natural antioxidants, blocks the oxidation of LDL particles -- and oxidized LDL is what actually drives atherosclerotic plaque. Then there are phytosterols (98-185mg per 100g) that compete with cholesterol for absorption in the gut. The oil works on inflammation, oxidation, and cholesterol through three independent pathways simultaneously.
+[Oleocanthal inhibits both COX-1 and COX-2 enzymes](https://pubmed.ncbi.nlm.nih.gov/16136122/), mirroring the mechanism of ibuprofen. It also prevents platelet aggregation (blood clots). Hydroxytyrosol, one of the most potent natural antioxidants, blocks the oxidation of LDL particles -- and oxidized LDL is what actually drives atherosclerotic plaque. Then there are phytosterols (98-185mg per 100g) that compete with cholesterol for absorption in the gut. The oil works on inflammation, oxidation, and cholesterol through three independent pathways simultaneously.
 
 ## How to Use It
 
@@ -44,11 +44,17 @@ Peppery, bitter, and fruity with herbaceous aromas -- think green apple, articho
 
 ## The Science
 
-- Guasch-Ferre et al. (2022): 92,383 participants over 28 years; >0.5 tbsp/day olive oil linked to 19% lower CVD mortality, 29% lower neurodegenerative mortality. (Journal of the American College of Cardiology)
-- Estruch et al. (2018): PREDIMED trial; EVOO-supplemented Mediterranean diet reduced major cardiovascular events by ~30%. (NEJM)
-- Schwingshackl et al. (2020): Each 25g/day increase in olive oil linked to 13% lower all-cause mortality, 16% lower cardiovascular mortality. (Advances in Nutrition)
-- Beauchamp et al. (2005): Oleocanthal inhibits COX-1 and COX-2 with potency comparable to ibuprofen. (Nature)
-- Scotece et al. (2015): Oleocanthal suppresses MIP-1alpha and IL-6 in macrophages.
+- [Guasch-Ferré et al. (2022, *JACC*)](https://pubmed.ncbi.nlm.nih.gov/35027106/): 92,383 U.S. adults over 28 years; >0.5 tbsp/day olive oil linked to 19% lower CVD mortality, 29% lower neurodegenerative mortality.
+- [Estruch et al. (2018, *NEJM*)](https://pubmed.ncbi.nlm.nih.gov/29897866/): PREDIMED trial; EVOO-supplemented Mediterranean diet reduced major cardiovascular events by ~30%.
+- [Schwingshackl et al. (2019, *Nutr Metab Cardiovasc Dis*)](https://pubmed.ncbi.nlm.nih.gov/31378629/): Network meta-analysis; different olive oil types and cardiovascular risk factors.
+- [Beauchamp et al. (2005, *Nature*)](https://pubmed.ncbi.nlm.nih.gov/16136122/): Oleocanthal inhibits COX-1 and COX-2 with potency comparable to ibuprofen.
+
+## References
+
+1. Guasch-Ferré M, Li Y, Willett WC, et al. **Consumption of Olive Oil and Risk of Total and Cause-Specific Mortality Among U.S. Adults.** *J Am Coll Cardiol*. 2022;79(2):101-112. PMID: [35027106](https://pubmed.ncbi.nlm.nih.gov/35027106/). doi:[10.1016/j.jacc.2021.10.041](https://doi.org/10.1016/j.jacc.2021.10.041)
+2. Estruch R, Ros E, Salas-Salvadó J, et al. **Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts.** *N Engl J Med*. 2018;378(25):e34. PMID: [29897866](https://pubmed.ncbi.nlm.nih.gov/29897866/). doi:[10.1056/NEJMoa1800389](https://doi.org/10.1056/NEJMoa1800389)
+3. Schwingshackl L, Krause M, Schmucker C, Hoffmann G, Rücker G, Meerpohl JJ. **Impact of different types of olive oil on cardiovascular risk factors: A systematic review and network meta-analysis.** *Nutr Metab Cardiovasc Dis*. 2019;29(10):1030-1039. PMID: [31378629](https://pubmed.ncbi.nlm.nih.gov/31378629/). doi:[10.1016/j.numecd.2019.07.001](https://doi.org/10.1016/j.numecd.2019.07.001)
+4. Beauchamp GK, Keast RS, Morel D, et al. **Phytochemistry: ibuprofen-like activity in extra-virgin olive oil.** *Nature*. 2005;437(7055):45-46. PMID: [16136122](https://pubmed.ncbi.nlm.nih.gov/16136122/). doi:[10.1038/437045a](https://doi.org/10.1038/437045a)
 
 ## Key Nutrients
 

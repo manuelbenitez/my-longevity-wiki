@@ -9,13 +9,13 @@ last_updated: 2026-04-12
 
 # Green Tea
 
-Few foods have as direct a connection to measured lifespan extension in humans as green tea -- a Chinese cohort of over 100,000 people linked habitual consumption to 1.26 extra years of life expectancy.
+Few foods have as direct a connection to measured lifespan in humans as green tea -- a [Chinese cohort of over 100,000 people (Wang et al., 2020, *Eur J Prev Cardiol*)](https://pubmed.ncbi.nlm.nih.gov/31914807/) linked habitual consumption to lower atherosclerotic cardiovascular disease and all-cause mortality, with an estimated increase in disease-free life expectancy.
 
 ## Why It Matters for Longevity
 
-The star compound is EGCG (epigallocatechin gallate), which makes up roughly 60% of green tea's catechin content. EGCG promotes apoptosis in tumor cells while leaving healthy cells alone -- a selective toxicity that has shown cancer-preventive effects across skin, lung, stomach, colon, prostate, and several other organ sites in animal models. A systematic review (Guo et al., 2017) confirmed significant inverse associations between green tea consumption and oral, liver, breast, and prostate cancers in human populations. A small RCT even found that green tea catechins prevented precancerous prostate lesions from turning malignant.
+The star compound is EGCG (epigallocatechin gallate), which makes up roughly 60% of green tea's catechin content. EGCG promotes apoptosis in tumor cells while leaving healthy cells alone -- a selective toxicity that has shown cancer-preventive effects across skin, lung, stomach, colon, prostate, and several other organ sites in animal models. A [systematic review and meta-analysis (Guo et al., 2017, *Medicine*)](https://pubmed.ncbi.nlm.nih.gov/28353571/) found a significant inverse association between green tea consumption and prostate cancer in human populations, consistent with broader observational evidence across cancer sites.
 
-The cardiovascular evidence is equally strong. A large meta-analysis (Yi et al., 2019) of 18 prospective studies found that each 3 cups per day was associated with an 8% reduction in all-cause mortality, with the strongest signal for cardiovascular death. The mechanism involves multiple fronts: a meta-analysis of 11 RCTs (Shen et al., 2015) showed significant reductions in LDL and total cholesterol, and EGCG has been shown to reverse endothelial dysfunction in both smokers and coronary artery disease patients.
+The cardiovascular evidence is equally strong. A [large dose-response meta-analysis (Chung et al., 2020, *Adv Nutr*)](https://pubmed.ncbi.nlm.nih.gov/32073596/) pooled prospective tea studies and confirmed inverse associations with cardiovascular disease and all-cause mortality. On the lipid side, a [meta-analysis of 14 RCTs (Zheng et al., 2011, *Am J Clin Nutr*)](https://pubmed.ncbi.nlm.nih.gov/21715508/) showed that green tea intake lowers fasting total and LDL cholesterol.
 
 Then there is L-theanine, an amino acid that crosses the blood-brain barrier and promotes alpha brain waves -- the pattern associated with calm focus. Combined with green tea's moderate caffeine (~25-50mg per cup, about half of coffee), it delivers alertness without the jitters. This cognitive dimension matters for long-term brain health, and Examine.com rates green tea's evidence for cognitive function improvement as notable.
 
@@ -39,11 +39,18 @@ Vegetal and grassy with a pleasant astringency from tannins. High-grade teas (gy
 
 ## The Science
 
-- Chinese cohort (>100,000 participants, 7 years): habitual green tea drinking linked to 1.26 years greater life expectancy (Wang et al., 2020)
-- Meta-analysis of 18 prospective studies: RR 0.92 per 3 cups/day for all-cause mortality (Yi et al., 2019)
-- Meta-analysis of 11 RCTs: significant reductions in LDL and total cholesterol (Shen et al., 2015)
-- Systematic review: significant inverse association with oral, liver, breast, and prostate cancers (Guo et al., 2017)
-- Examine.com: strong evidence for fat oxidation; moderate for cardiovascular and cancer risk reduction
+- [Wang et al., 2020, *Eur J Prev Cardiol* (China-PAR)](https://pubmed.ncbi.nlm.nih.gov/31914807/): Habitual tea drinking linked to lower atherosclerotic CVD and all-cause mortality in >100,000 adults.
+- [Chung et al., 2020, *Adv Nutr*](https://pubmed.ncbi.nlm.nih.gov/32073596/): Dose-response meta-analysis — tea intake inversely associated with CVD and all-cause mortality.
+- [Zheng et al., 2011, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/21715508/): Meta-analysis of 14 RCTs — green tea lowers fasting total and LDL cholesterol.
+- [Guo et al., 2017, *Medicine*](https://pubmed.ncbi.nlm.nih.gov/28353571/): Systematic review — green tea consumption inversely associated with prostate cancer risk.
+- Examine.com: strong evidence for fat oxidation; moderate for cardiovascular and cancer risk reduction.
+
+## References
+
+1. Wang X, Liu F, Li J, et al. **Tea consumption and the risk of atherosclerotic cardiovascular disease and all-cause mortality: The China-PAR project.** *Eur J Prev Cardiol*. 2020;27(18):1956-1963. PMID: [31914807](https://pubmed.ncbi.nlm.nih.gov/31914807/). doi:[10.1177/2047487319894685](https://doi.org/10.1177/2047487319894685)
+2. Chung M, Zhao N, Wang D, et al. **Dose-Response Relation between Tea Consumption and Risk of Cardiovascular Disease and All-Cause Mortality: A Systematic Review and Meta-Analysis of Population-Based Studies.** *Adv Nutr*. 2020;11(4):790-814. PMID: [32073596](https://pubmed.ncbi.nlm.nih.gov/32073596/). doi:[10.1093/advances/nmaa010](https://doi.org/10.1093/advances/nmaa010)
+3. Zheng XX, Xu YL, Li SH, Liu XX, Hui R, Huang XH. **Green tea intake lowers fasting serum total and LDL cholesterol in adults: a meta-analysis of 14 randomized controlled trials.** *Am J Clin Nutr*. 2011;94(2):601-610. PMID: [21715508](https://pubmed.ncbi.nlm.nih.gov/21715508/). doi:[10.3945/ajcn.110.010926](https://doi.org/10.3945/ajcn.110.010926)
+4. Guo Y, Zhi F, Chen P, et al. **Green tea and the risk of prostate cancer: A systematic review and meta-analysis.** *Medicine (Baltimore)*. 2017;96(13):e6426. PMID: [28353571](https://pubmed.ncbi.nlm.nih.gov/28353571/). doi:[10.1097/MD.0000000000006426](https://doi.org/10.1097/MD.0000000000006426)
 
 ## Key Nutrients
 

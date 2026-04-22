@@ -13,13 +13,11 @@ Oats are one of only two grains that contain significant amounts of beta-glucan 
 
 ## Why It Matters for Longevity
 
-The cholesterol story is settled science. A 2016 systematic review (PMID 26690472) of 58 RCTs found that oat beta-glucan at 3g or more per day significantly reduces LDL cholesterol, with a mean reduction of 0.25 mmol/L. The mechanism is well understood: beta-glucan forms a viscous gel in the small intestine that binds bile acids, forcing the liver to pull cholesterol from the bloodstream to synthesize replacements. Both the FDA and EFSA have approved health claims for this effect.
+The cholesterol story is settled science. A [meta-analysis of 58 RCTs (Ho et al., 2016, *Br J Nutr*)](https://pubmed.ncbi.nlm.nih.gov/27724985/) found that oat beta-glucan significantly reduces LDL cholesterol, non-HDL cholesterol, and apoB -- the full atherogenic lipid panel. The mechanism is well understood: beta-glucan forms a viscous gel in the small intestine that binds bile acids, forcing the liver to pull cholesterol from the bloodstream to synthesize replacements. Both the FDA and EFSA have approved health claims for this effect.
 
-Oats were specifically named in the Canadian cholesterol-lowering food portfolio trial, which combined oats, barley, plant sterols, soy protein, and almonds to achieve a 13% reduction in LDL cholesterol -- comparable to first-generation statin drugs. The beauty of the portfolio approach is that it works through multiple mechanisms simultaneously.
+Oats were specifically named in the [Canadian cholesterol-lowering food portfolio trial (Jenkins et al., 2011, *JAMA*)](https://pubmed.ncbi.nlm.nih.gov/21862744/), which combined oats, barley, plant sterols, soy protein, and almonds to achieve ~13% LDL reduction with intensive dietary advice -- comparable in magnitude to first-generation statins. The portfolio approach stacks multiple independent mechanisms.
 
-Beyond cholesterol, oats reshape the gut microbiome. A 2019 RCT (PMID 31010505) found that whole oat consumption increased populations of beneficial bacteria and boosted short-chain fatty acid production, particularly butyrate. Butyrate is the preferred fuel of colon cells and has potent anti-inflammatory effects, feeding into the broader mechanism by which fiber-rich diets reduce chronic disease risk.
-
-A 2016 meta-analysis (PMID 27724985) confirmed that oat-based meals significantly increase satiety and reduce subsequent calorie intake, making them a practical tool for weight management -- which in turn drives longevity outcomes.
+Beyond cholesterol, oats reshape the gut microbiome. An [oat-based breakfast intervention (Connolly et al., 2016, *Front Microbiol*)](https://pubmed.ncbi.nlm.nih.gov/27872611/) showed hypocholesterolemic and prebiotic effects, shifting microbial populations toward species associated with short-chain fatty acid production. Butyrate, the preferred fuel of colon cells, has potent anti-inflammatory effects that feed into the broader mechanism by which fiber-rich diets reduce chronic disease risk.
 
 The glycemic response depends heavily on processing. Steel-cut oats have a GI around 42, rolled oats around 55, and instant oats can reach 75. Molecular weight of the beta-glucan decreases with processing, reducing both viscosity and biological activity.
 
@@ -43,10 +41,15 @@ Mild, clean, and slightly sweet with a nutty undertone that deepens when toasted
 
 ## The Science
 
-- Whitehead et al. (2016): 58-trial review confirmed oat beta-glucan reduces LDL cholesterol (PMID 26690472)
-- Rebello et al. (2016): Oat meals increase satiety and reduce subsequent calorie intake (PMID 27724985)
-- Valido et al. (2019): Whole oats improved gut microbiota and increased butyrate production (PMID 31010505)
-- Canadian portfolio trial: Oats + barley + soy + almonds + plant sterols achieved 13% LDL reduction
+- [Ho et al., 2016, *Br J Nutr*](https://pubmed.ncbi.nlm.nih.gov/27724985/): Meta-analysis of 58 RCTs — oat beta-glucan reduces LDL cholesterol, non-HDL cholesterol, and apoB.
+- [Jenkins et al., 2011, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/21862744/): Portfolio diet (oats + barley + soy + almonds + plant sterols) achieved ~13% LDL reduction in 6-month RCT.
+- [Connolly et al., 2016, *Front Microbiol*](https://pubmed.ncbi.nlm.nih.gov/27872611/): Oat-based granola breakfast showed hypocholesterolemic and prebiotic effects on gut microbiota.
+
+## References
+
+1. Ho HV, Sievenpiper JL, Zurbau A, et al. **The effect of oat β-glucan on LDL-cholesterol, non-HDL-cholesterol and apoB for CVD risk reduction: a systematic review and meta-analysis of randomised-controlled trials.** *Br J Nutr*. 2016;116(8):1369-1382. PMID: [27724985](https://pubmed.ncbi.nlm.nih.gov/27724985/). doi:[10.1017/S000711451600341X](https://doi.org/10.1017/S000711451600341X)
+2. Jenkins DJ, Jones PJ, Lamarche B, et al. **Effect of a dietary portfolio of cholesterol-lowering foods given at 2 levels of intensity of dietary advice on serum lipids in hyperlipidemia: a randomized controlled trial.** *JAMA*. 2011;306(8):831-839. PMID: [21862744](https://pubmed.ncbi.nlm.nih.gov/21862744/). doi:[10.1001/jama.2011.1202](https://doi.org/10.1001/jama.2011.1202)
+3. Connolly ML, Tzounis X, Tuohy KM, Lovegrove JA. **Hypocholesterolemic and Prebiotic Effects of a Whole-Grain Oat-Based Granola Breakfast Cereal in a Cardio-Metabolic "At Risk" Population.** *Front Microbiol*. 2016;7:1675. PMID: [27872611](https://pubmed.ncbi.nlm.nih.gov/27872611/). doi:[10.3389/fmicb.2016.01675](https://doi.org/10.3389/fmicb.2016.01675)
 
 ## Key Nutrients
 

@@ -13,7 +13,11 @@ Broccoli is explicitly listed as a recommended vegetable in the Longevity Diet; 
 
 ## Why It Matters for Longevity
 
-Broccoli is explicitly listed as a recommended vegetable in the Longevity Diet; rich in sulforaphane, vitamin C, vitamin K, and fiber with anti-cancer and anti-inflammatory properties Sulforaphane activates Nrf2 pathway, upregulating detoxification enzymes; vitamin C and K support immune and bone health; fiber feeds microbiome.  Broccoli is a frequently used vegetable across the Longevity Diet meal plan; source of folate (52 mcg per ½ cup frozen/cooked, 13% DV), vitamin C (51 mg per ½ cup cooked, 85% DV), vitamin A (60 mcg RAE per ½ cup boiled, 24% DV), calcium (21 mg per ½ cup raw), and iron (1 mg per ½ cup boiled); recommended at 150–200 g boiled or steamed Rich in vitamin C, folate, vitamin A, and vitamin K; supports multiple micronutrient targets on the Longevity Diet.  PMID 28615356: Sulforaphane from broccoli induces Nrf2-mediated cytoprotective gene expression and has demonstrated anti-cancer activity in multiple cell lines and animal models; clinical trials show bioavailability from broccoli sprouts and florets (PubMed)  PMID 29739681: Cruciferous vegetable intake (including broccoli) is inversely associated with all-cause mortality and cancer mortality; each 100 g/day increment associated with ~10% lower cancer mortality risk (PubMed)
+Broccoli is explicitly listed as a recommended vegetable in the Longevity Diet. It is rich in sulforaphane, vitamin C, vitamin K, and fiber, with anti-cancer and anti-inflammatory activity. Sulforaphane activates the Nrf2 pathway, upregulating detoxification and antioxidant enzymes; vitamin C and K support immune and bone health; fiber feeds the microbiome.
+
+Broccoli provides folate (52 mcg per ½ cup cooked, 13% DV), vitamin C (51 mg per ½ cup cooked, 85% DV), vitamin A (60 mcg RAE per ½ cup boiled, 24% DV), calcium (21 mg per ½ cup raw), and iron (1 mg per ½ cup boiled); 150–200 g steamed or lightly cooked is the typical longevity-diet serving.
+
+The clinical literature is consistent. A [review of broccoli sprout clinical trials (Fahey et al., 2021, *Front Nutr*)](https://pubmed.ncbi.nlm.nih.gov/33996874/) summarizes how sulforaphane from glucoraphanin activates Nrf2-mediated cytoprotective gene expression in humans. Population-level data from a [pooled cohort analysis (Aune et al., 2017, *Int J Epidemiol*)](https://pubmed.ncbi.nlm.nih.gov/28338764/) links higher fruit-and-vegetable intake -- including cruciferous vegetables -- to lower all-cause and cardiovascular mortality in a dose-response pattern.
 
 ## How to Use It
 
@@ -39,7 +43,15 @@ Taste: mildly bitter, earthy, slightly sweet when roasted, vegetal. Aroma: sulfu
 
 ## The Science
 
-- PubMed: PMID 28615356: Sulforaphane from broccoli induces Nrf2-mediated cytoprotective gene expression and has demonstrated anti-cancer activity in multiple cell lines and animal models; clinical trials show bioavailability from broccoli sprouts and florets  - PubMed: PMID 29739681: Cruciferous vegetable intake (including broccoli) is inversely associated with all-cause mortality and cancer mortality; each 100 g/day increment associated with ~10% lower cancer mortality risk  - Examine.com: Broccoli's glucosinolates are converted to sulforaphane by myrosinase (enhanced by light chopping and 40-minute rest before cooking); lightly steaming preserves more sulforaphane than boiling  - Book claim (high confidence): Broccoli is explicitly listed as a recommended vegetable in the Longevity Diet; rich in sulforaphane, vitamin C, vitamin  - Book claim (high confidence): Broccoli is a frequently used vegetable across the Longevity Diet meal plan; source of folate (52 mcg per ½ cup frozen/c
+- [Fahey et al., 2021, *Front Nutr*](https://pubmed.ncbi.nlm.nih.gov/33996874/): Review of broccoli-sprout clinical trials — sulforaphane from glucoraphanin activates Nrf2-mediated cytoprotective gene expression in humans.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Pooled cohort analysis — higher fruit and vegetable intake linked to lower all-cause, cardiovascular, and cancer mortality in dose-response pattern.
+- Examine.com: Broccoli's glucosinolates are converted to sulforaphane by myrosinase (enhanced by light chopping + 40-minute rest before cooking); steaming preserves more sulforaphane than boiling.
+- Book claim (Longevity Diet): Broccoli is explicitly listed as a recommended vegetable, rich in sulforaphane, vitamin C, vitamin K, and fiber.
+
+## References
+
+1. Fahey JW, Kensler TW. **The Challenges of Designing and Implementing Clinical Trials With Broccoli Sprouts… and Turning Evidence Into Public Health Action.** *Front Nutr*. 2021;8:648788. PMID: [33996874](https://pubmed.ncbi.nlm.nih.gov/33996874/). doi:[10.3389/fnut.2021.648788](https://doi.org/10.3389/fnut.2021.648788)
+2. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
 
 ## Key Nutrients
 

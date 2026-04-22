@@ -13,9 +13,9 @@ Crush a clove of garlic and you trigger a chemical reaction that produces allici
 
 ## Why It Matters for Longevity
 
-Garlic's longevity story centers on its organosulfur compounds, particularly allicin and diallyl disulfide. When you crush or chop a raw clove, the enzyme alliinase converts alliin into allicin, which then breaks down into a family of sulfur-containing molecules that interfere with inflammation, cholesterol synthesis, and tumor growth. A 2013 meta-analysis (Ried et al., PMID 23590705) found that aged garlic extract reduced systolic blood pressure by 8.4 mmHg and diastolic by 7.3 mmHg in hypertensive patients -- numbers that rival some prescription drugs.
+Garlic's longevity story centers on its organosulfur compounds, particularly allicin and diallyl disulfide. When you crush or chop a raw clove, the enzyme alliinase converts alliin into allicin, which then breaks down into a family of sulfur-containing molecules that interfere with inflammation, cholesterol synthesis, and tumor growth. A [meta-analysis (Ried 2013, *Nutr Rev*)](https://pubmed.ncbi.nlm.nih.gov/23590705/) found that aged garlic extract reduced serum lipids, and an [earlier meta-analysis of 11 RCTs (Ried et al., 2008, *BMC Cardiovasc Disord*)](https://pubmed.ncbi.nlm.nih.gov/18554422/) demonstrated consistent BP-lowering effects from garlic preparations -- numbers that rival some first-line anti-hypertensive drugs in magnitude.
 
-The cardiovascular benefits go beyond blood pressure. Matsumoto et al. (2020) showed that aged garlic extract slowed coronary artery calcification and improved endothelial function, suggesting genuine anti-aging effects on blood vessels. Meanwhile, a large meta-analysis of case-control studies (Turati et al., 2014) found that high garlic and allium consumption cut gastric cancer risk nearly in half (OR 0.54). The mechanism: diallyl sulphide acts as a histone deacetylase inhibitor, a pathway that pharmaceutical companies spend billions trying to target with synthetic drugs.
+The cardiovascular benefits go beyond blood pressure. A [randomized double-blind RCT (Wlosinska et al., 2020, *BMC Complement Med Ther*)](https://pubmed.ncbi.nlm.nih.gov/32349742/) showed that aged garlic extract slowed atherosclerotic progression and improved markers of endothelial function, suggesting genuine anti-aging effects on blood vessels. Meanwhile, a [meta-analysis of case-control studies (Kodali & Eslick, 2015, *Nutr Cancer*)](https://pubmed.ncbi.nlm.nih.gov/25411831/) found that high garlic intake reduced gastric cancer risk. The mechanism: diallyl sulphide acts as a histone deacetylase inhibitor, a pathway that pharmaceutical companies spend billions trying to target with synthetic drugs.
 
 Garlic also contains selenium (26% RDA per 100g) and manganese (73% RDA), both critical cofactors for antioxidant defense enzymes. It is one of the richest vegetable sources of selenium, which your body uses to build glutathione peroxidase -- a cornerstone of cellular protection.
 
@@ -40,11 +40,18 @@ Raw garlic is sharp, pungent, and almost acrid -- it bites back. Roasted, it tra
 
 ## The Science
 
-- Ried et al. (2013): Aged garlic extract lowers systolic BP by 8.4 mmHg in hypertensives (PMID 23590705)
-- Ried et al. (2008): Meta-analysis of 11 RCTs confirming garlic's blood pressure reduction (PMID 18554422)
-- Turati et al. (2014): High allium intake associated with 46% reduced gastric cancer risk (PMID 25135917)
-- Matsumoto et al. (2020): Aged garlic extract slows coronary artery calcification (PMID 31960481)
-- Examine.com: Reliable reductions in total and LDL cholesterol with aged garlic extract
+- [Ried, 2013, *Nutr Rev*](https://pubmed.ncbi.nlm.nih.gov/23590705/): Meta-analysis — garlic reduces serum total cholesterol and LDL.
+- [Ried et al., 2008, *BMC Cardiovasc Disord*](https://pubmed.ncbi.nlm.nih.gov/18554422/): Meta-analysis of 11 RCTs — garlic preparations reduce systolic and diastolic blood pressure.
+- [Kodali & Eslick, 2015, *Nutr Cancer*](https://pubmed.ncbi.nlm.nih.gov/25411831/): Meta-analysis — garlic intake associated with reduced gastric cancer risk.
+- [Wlosinska et al., 2020, *BMC Complement Med Ther*](https://pubmed.ncbi.nlm.nih.gov/32349742/): Randomized double-blind trial — aged garlic extract slowed atherosclerotic progression.
+- Examine.com: Reliable reductions in total and LDL cholesterol with aged garlic extract.
+
+## References
+
+1. Ried K. **Garlic lowers blood pressure in hypertensive individuals, regulates serum cholesterol, and stimulates immunity: an updated meta-analysis and review.** *Nutr Rev*. 2013;71(5):282-299. PMID: [23590705](https://pubmed.ncbi.nlm.nih.gov/23590705/). doi:[10.1111/nure.12012](https://doi.org/10.1111/nure.12012)
+2. Ried K, Frank OR, Stocks NP, Fakler P, Sullivan T. **Effect of garlic on blood pressure: a systematic review and meta-analysis.** *BMC Cardiovasc Disord*. 2008;8:13. PMID: [18554422](https://pubmed.ncbi.nlm.nih.gov/18554422/). doi:[10.1186/1471-2261-8-13](https://doi.org/10.1186/1471-2261-8-13)
+3. Kodali RT, Eslick GD. **Meta-analysis: Does garlic intake reduce risk of gastric cancer?** *Nutr Cancer*. 2015;67(1):1-11. PMID: [25411831](https://pubmed.ncbi.nlm.nih.gov/25411831/). doi:[10.1080/01635581.2015.967873](https://doi.org/10.1080/01635581.2015.967873)
+4. Wlosinska M, Nilsson AC, Hlebowicz J, Hauggaard A, Kjellin M, Fakhro M, Lindstedt S. **The effect of aged garlic extract on the atherosclerotic process -- a randomized double-blind placebo-controlled trial.** *BMC Complement Med Ther*. 2020;20(1):132. PMID: [32349742](https://pubmed.ncbi.nlm.nih.gov/32349742/). doi:[10.1186/s12906-020-02932-5](https://doi.org/10.1186/s12906-020-02932-5)
 
 ## Key Nutrients
 

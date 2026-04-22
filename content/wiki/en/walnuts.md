@@ -13,11 +13,11 @@ The only common tree nut with serious omega-3 content -- and a Nurses' Health St
 
 ## Why It Matters for Longevity
 
-Walnuts pack 9g of alpha-linolenic acid (ALA) per 100g, making them the richest mainstream nut source of plant-based omega-3. While conversion to EPA and DHA is modest (5-10% and 2-5% respectively), the direct anti-inflammatory effects of ALA itself are well-documented. A meta-analysis of 26 clinical trials (Guasch-Ferre et al., 2017) found walnut-enriched diets significantly decreased total cholesterol, LDL cholesterol, triglycerides, and ApoB -- the full panel of atherogenic markers. The WAHA trial (Rajaram et al., 2021) confirmed this in a 2-year intervention with healthy elderly adults consuming 30-60g of walnuts daily.
+Walnuts pack 9g of alpha-linolenic acid (ALA) per 100g, making them the richest mainstream nut source of plant-based omega-3. While conversion to EPA and DHA is modest (5-10% and 2-5% respectively), the direct anti-inflammatory effects of ALA itself are well-documented. A [meta-analysis of 26 clinical trials (Guasch-Ferré et al., 2018, *Am J Clin Nutr*)](https://pubmed.ncbi.nlm.nih.gov/29931130/) found walnut-enriched diets significantly decreased total cholesterol, LDL cholesterol, triglycerides, and ApoB -- the full panel of atherogenic markers. The [WAHA trial (Rajaram et al., 2022)](https://pubmed.ncbi.nlm.nih.gov/35406086/) confirmed this in a 2-year intervention with healthy elderly adults consuming 30-60g of walnuts daily.
 
 Beyond the omega-3 story, walnuts are unusually rich in polyphenols. Their ellagitannin content (~1,556 mg gallic acid equivalents per 100g) is among the highest of any nut. These compounds undergo a fascinating transformation in the gut: bacteria convert them into urolithins, metabolites with demonstrated anti-inflammatory and anti-aging properties. The walnut skin -- that slightly bitter, papery layer people sometimes peel off -- is where most of these polyphenols live. Leave it on.
 
-Walnuts also deliver gamma-tocopherol, the form of vitamin E that dominates in food but is absent from most supplements (which use alpha-tocopherol). Gamma-tocopherol has unique anti-inflammatory properties that its alpha cousin lacks, including the ability to trap reactive nitrogen species. Pooled prospective studies (Aune et al., updated) found nut consumption -- especially walnuts -- associated with dose-dependent reductions in coronary heart disease, stroke, and all-cause mortality.
+Walnuts also deliver gamma-tocopherol, the form of vitamin E that dominates in food but is absent from most supplements (which use alpha-tocopherol). Gamma-tocopherol has unique anti-inflammatory properties that its alpha cousin lacks, including the ability to trap reactive nitrogen species. Pooled prospective studies ([Aune et al., 2016, *BMC Medicine*](https://pubmed.ncbi.nlm.nih.gov/27916000/)) found nut consumption -- especially walnuts -- associated with dose-dependent reductions in coronary heart disease, stroke, and all-cause mortality.
 
 ## How to Use It
 
@@ -39,11 +39,16 @@ Mildly sweet and earthy with a tannic bitterness from the skin that deepens with
 
 ## The Science
 
-- Nurses' Health Study: 5+ servings/week linked to 14% lower mortality and ~1.3 years greater life expectancy (Liu et al., 2020)
-- WAHA trial: 2-year walnut consumption significantly reduced LDL and total cholesterol in elderly adults (Rajaram et al., 2021)
-- Meta-analysis of 26 clinical trials: walnut diets reduced total cholesterol, LDL, triglycerides, and ApoB (Guasch-Ferre et al., 2017)
-- Pooled prospective studies: dose-dependent reduction in CHD, stroke, and all-cause mortality (Aune et al.)
+- WAHA trial: 2-year walnut consumption reduced LDL-cholesterol in healthy elders ([Rajaram et al., 2022, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/35406086/))
+- Meta-analysis of 26 RCTs: walnut diets reduced total cholesterol, LDL, triglycerides, and ApoB ([Guasch-Ferré et al., 2018, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/29931130/))
+- Pooled prospective studies: dose-dependent reduction in CHD, stroke, and all-cause mortality with nut intake ([Aune et al., 2016, *BMC Medicine*](https://pubmed.ncbi.nlm.nih.gov/27916000/))
 - Examine.com: strong evidence for LDL reduction; moderate for vascular function and blood pressure
+
+## References
+
+1. Guasch-Ferré M, Li J, Hu FB, Salas-Salvadó J, Tobias DK. **Effects of walnut consumption on blood lipids and other cardiovascular risk factors: an updated meta-analysis and systematic review of controlled trials.** *Am J Clin Nutr*. 2018;108(1):174-187. PMID: [29931130](https://pubmed.ncbi.nlm.nih.gov/29931130/). doi:[10.1093/ajcn/nqy091](https://doi.org/10.1093/ajcn/nqy091)
+2. Rajaram S, Cofán M, Sala-Vila A, et al. **Effects of Walnut Consumption for 2 Years on Lipoprotein Subclasses Among Healthy Elders: Findings From the WAHA Randomized Controlled Trial.** *Nutrients*. 2022;14(7):1473. PMID: [35406086](https://pubmed.ncbi.nlm.nih.gov/35406086/). doi:[10.3390/nu14071473](https://doi.org/10.3390/nu14071473)
+3. Aune D, Keum N, Giovannucci E, et al. **Nut consumption and risk of cardiovascular disease, total cancer, all-cause and cause-specific mortality: a systematic review and dose-response meta-analysis of prospective studies.** *BMC Med*. 2016;14(1):207. PMID: [27916000](https://pubmed.ncbi.nlm.nih.gov/27916000/). doi:[10.1186/s12916-016-0730-3](https://doi.org/10.1186/s12916-016-0730-3)
 
 ## Key Nutrients
 

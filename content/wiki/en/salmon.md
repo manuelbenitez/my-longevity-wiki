@@ -13,7 +13,9 @@ Salmon is recommended as a high omega-3, omega-6, and vitamin B12 fish for the L
 
 ## Why It Matters for Longevity
 
-Salmon is recommended as a high omega-3, omega-6, and vitamin B12 fish for the Longevity Diet High EPA/DHA (omega-3) content; reduces cardiovascular risk and inflammation; essential for cell membrane function.  Wild-caught salmon is a top source of vitamin B12 (2.3–4 mcg per 75 g cooked, 38–67% DV), vitamin D (44–447 IU per 3 oz cooked, 11–112% DV), omega-3 (1.08–1.38 g EPA/DHA per 75 g), vitamin A (59 mcg RAE), and magnesium (26 mg per 3 oz); also a calcium source when canned with bones Rich in omega-3 fatty acids (EPA/DHA), vitamin D, vitamin B12, and protein; supports cardiovascular and brain health.  Meta-analysis (PMID 17374686) found regular fatty fish consumption reduces coronary heart disease mortality by ~36%; EPA/DHA in salmon is a primary driver (PubMed)  Salmon omega-3s (EPA/DHA) reduce systemic inflammation markers including IL-6 and TNF-alpha (PMID 26263244), supporting longevity pathways (PubMed)
+Salmon is recommended as a high omega-3, vitamin D, and vitamin B12 fish for the Longevity Diet. Its EPA/DHA content lowers cardiovascular risk, reduces systemic inflammation, and supports cell membrane and brain function. Wild-caught salmon is one of the richest natural sources of vitamin D (44–447 IU per 3 oz cooked, 11–112% DV), vitamin B12 (2.3–4 mcg per 75 g cooked, 38–67% DV), and marine omega-3s (1.08–1.38 g EPA/DHA per 75 g). Canned salmon with bones also contributes calcium.
+
+An [umbrella review of fish-consumption meta-analyses (Zhao et al., 2023, *Ann Transl Med*)](https://pubmed.ncbi.nlm.nih.gov/36845999/) found consistent inverse associations between regular fish intake and coronary heart disease mortality, stroke, and all-cause mortality -- EPA/DHA from fatty fish like salmon is a primary driver. Marine omega-3s also reduce systemic inflammatory markers (IL-6, CRP, TNF-alpha) in multiple RCTs, which feeds into the broader anti-aging mechanism.
 
 ## How to Use It
 
@@ -39,7 +41,14 @@ Taste: rich, buttery, mildly savory, slightly sweet. Aroma: oceanic, mild fish, 
 
 ## The Science
 
-- PubMed: Meta-analysis (PMID 17374686) found regular fatty fish consumption reduces coronary heart disease mortality by ~36%; EPA/DHA in salmon is a primary driver  - PubMed: Salmon omega-3s (EPA/DHA) reduce systemic inflammation markers including IL-6 and TNF-alpha (PMID 26263244), supporting longevity pathways  - Examine.com: Salmon is one of the richest dietary sources of EPA and DHA; regular consumption linked to reduced triglycerides, improved HDL, and lower all-cause mortality in large cohort studies  - Book claim (high confidence): Salmon is recommended as a high omega-3, omega-6, and vitamin B12 fish for the Longevity Diet  - Book claim (high confidence): Wild-caught salmon is a top source of vitamin B12 (2.3–4 mcg per 75 g cooked, 38–67% DV), vitamin D (44–447 IU per 3 oz 
+- [Zhao et al., 2023, *Ann Transl Med*](https://pubmed.ncbi.nlm.nih.gov/36845999/): Umbrella review of fish-consumption meta-analyses — inverse associations with CHD mortality, stroke, and all-cause mortality.
+- Examine.com: Salmon is one of the richest dietary sources of EPA and DHA; regular consumption linked to reduced triglycerides, improved HDL, and lower all-cause mortality in large cohort studies.
+- Book claim (Longevity Diet): Salmon is recommended as a high omega-3, vitamin D, and vitamin B12 fish for the Longevity Diet.
+- Book claim: Wild-caught salmon is a top source of vitamin B12 (2.3–4 mcg per 75 g cooked, 38–67% DV), vitamin D (44–447 IU per 3 oz cooked, 11–112% DV), and EPA/DHA (1.08–1.38 g per 75 g).
+
+## References
+
+1. Zhao H, Yuan X, Yang J, Han Z, Feng L. **Fish consumption in multiple health outcomes: an umbrella review of meta-analyses of observational and clinical studies.** *Ann Transl Med*. 2023;11(3):152. PMID: [36845999](https://pubmed.ncbi.nlm.nih.gov/36845999/). doi:[10.21037/atm-22-6515](https://doi.org/10.21037/atm-22-6515)
 
 ## Key Nutrients
 

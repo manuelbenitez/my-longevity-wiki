@@ -12,9 +12,9 @@ A square of dark chocolate is not a guilty pleasure -- it is a concentrated deli
 
 ## Why It Matters for Longevity
 
-A Cochrane meta-analysis of 20 RCTs (Hooper et al., 2012, PMID 22729452) found chocolate consumption reduced blood pressure by 2.8/2.2 mmHg and improved endothelial function. Dark chocolate (>70% cocoa) improves insulin sensitivity and flow-mediated dilation in hypertensive patients. The key compound is epicatechin, which increases plasma nitric oxide and expands blood vessels.
+A [systematic review of chocolate, cocoa and flavan-3-ol RCTs (Hooper et al., 2012, *Am J Clin Nutr*)](https://pubmed.ncbi.nlm.nih.gov/22301923/) found chocolate/cocoa consumption improved flow-mediated dilation and modestly lowered blood pressure. The [Cochrane update (Ried et al., 2017)](https://pubmed.ncbi.nlm.nih.gov/28439881/) confirmed a small but consistent BP-lowering effect of cocoa flavanols. The key compound is epicatechin, which increases plasma nitric oxide and expands blood vessels.
 
-The critical caveat: milk proteins bind epicatechin and abolish these effects. A study published in Nature confirmed that consuming dark chocolate with milk completely blocked the antioxidant benefit. Eat it plain. Dutch-processed (alkalized) cocoa also loses up to 90% of its flavanols -- choose natural cocoa.
+The critical caveat: milk proteins can bind epicatechin and blunt these effects. [Schroeter et al. (2006, *PNAS*)](https://pubmed.ncbi.nlm.nih.gov/16418281/) showed that pure (-)-epicatechin mediates the vascular benefit of flavanol-rich cocoa in humans. Eat it plain. Dutch-processed (alkalized) cocoa also loses up to 90% of its flavanols -- choose natural cocoa.
 
 ## How to Use It
 
@@ -36,7 +36,19 @@ Bitter, rich, with fruity and earthy complexity. High-quality dark chocolate has
 
 ## The Science
 
-Schroeter et al. (2006, PMID 16794460) showed pure epicatechin increased nitric oxide and improved endothelial function -- milk abolished both effects. Grassi et al. (2008, PMID 18339739) demonstrated improvements in insulin sensitivity and blood pressure over 15 days with 100g/day of >70% cocoa chocolate. Minimum effective dose is approximately 200 mg cocoa flavanols per day.
+- [Hooper et al., 2012, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/22301923/): Systematic review and meta-analysis — chocolate, cocoa and flavan-3-ols improve flow-mediated dilation and modestly lower BP.
+- [Ried et al., 2017, *Cochrane Database Syst Rev*](https://pubmed.ncbi.nlm.nih.gov/28439881/): Cochrane review confirming small but consistent BP reduction from cocoa flavanols.
+- [Schroeter et al., 2006, *PNAS*](https://pubmed.ncbi.nlm.nih.gov/16418281/): Pure (-)-epicatechin mediates the vascular benefits of flavanol-rich cocoa in humans.
+- [Grassi et al., 2008, *J Nutr*](https://pubmed.ncbi.nlm.nih.gov/18716168/): 100g/day of >70% cocoa chocolate for 15 days lowered BP and improved insulin sensitivity in hypertensive, glucose-intolerant adults.
+
+Minimum effective dose is approximately 200 mg cocoa flavanols per day.
+
+## References
+
+1. Hooper L, Kay C, Abdelhamid A, et al. **Effects of chocolate, cocoa, and flavan-3-ols on cardiovascular health: a systematic review and meta-analysis of randomized trials.** *Am J Clin Nutr*. 2012;95(3):740-751. PMID: [22301923](https://pubmed.ncbi.nlm.nih.gov/22301923/). doi:[10.3945/ajcn.111.023457](https://doi.org/10.3945/ajcn.111.023457)
+2. Ried K, Fakler P, Stocks NP. **Effect of cocoa on blood pressure.** *Cochrane Database Syst Rev*. 2017;4(4):CD008893. PMID: [28439881](https://pubmed.ncbi.nlm.nih.gov/28439881/). doi:[10.1002/14651858.CD008893.pub3](https://doi.org/10.1002/14651858.CD008893.pub3)
+3. Schroeter H, Heiss C, Balzer J, et al. **(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans.** *Proc Natl Acad Sci USA*. 2006;103(4):1024-1029. PMID: [16418281](https://pubmed.ncbi.nlm.nih.gov/16418281/). doi:[10.1073/pnas.0510168103](https://doi.org/10.1073/pnas.0510168103)
+4. Grassi D, Desideri G, Necozione S, et al. **Blood pressure is reduced and insulin sensitivity increased in glucose-intolerant, hypertensive subjects after 15 days of consuming high-polyphenol dark chocolate.** *J Nutr*. 2008;138(9):1671-1676. PMID: [18716168](https://pubmed.ncbi.nlm.nih.gov/18716168/). doi:[10.1093/jn/138.9.1671](https://doi.org/10.1093/jn/138.9.1671)
 
 ## Key Nutrients
 

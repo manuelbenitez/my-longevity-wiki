@@ -13,11 +13,11 @@ A daily cup of blueberries lowered heart attack risk by 32% in a study tracking 
 
 ## Why It Matters for Longevity
 
-Blueberries pack more phenolic compounds than almost any other common fruit, with wild (lowbush) varieties containing up to 300 mg of anthocyanins per 100g. These pigments are not just antioxidants in a test tube -- they have measurable effects on human cardiovascular and cognitive function. The landmark Nurses' Health Study (PMID 23319811), following over 93,000 women, found that high anthocyanin intake from blueberries and strawberries was associated with a 32% reduction in myocardial infarction risk. That is not a supplement trial with exotic extracts; that is regular people eating regular berries.
+Blueberries pack more phenolic compounds than almost any other common fruit, with wild (lowbush) varieties containing up to 300 mg of anthocyanins per 100g. These pigments are not just antioxidants in a test tube -- they have measurable effects on human cardiovascular and cognitive function. The [Nurses' Health Study analysis (Cassidy et al., 2013, *Circulation*)](https://pubmed.ncbi.nlm.nih.gov/23319811/), following over 93,000 women, found that high anthocyanin intake from blueberries and strawberries was associated with a 32% reduction in myocardial infarction risk. That is not a supplement trial with exotic extracts; that is regular people eating regular berries.
 
-The cardiovascular mechanism is well-mapped. A 2019 RCT published in the American Journal of Clinical Nutrition (PMID 30725213) gave metabolic syndrome participants 150g of blueberries daily for six months. The result: improved endothelial function and reduced systolic blood pressure. A parallel meta-analysis the same year (PMID 31329250) confirmed significant reductions in both systolic blood pressure and LDL cholesterol across multiple trials. The effect appears dose-dependent, with 150-300g of fresh berries daily hitting the sweet spot.
+The cardiovascular mechanism is well-mapped. A [meta-analysis (Zhu et al., 2017, *J Hum Hypertens*)](https://pubmed.ncbi.nlm.nih.gov/27654329/) pooled blueberry RCTs and found meaningful reductions in systolic blood pressure, with strongest effects in interventions of 8+ weeks. Broader fruit-and-vegetable [pooled cohort analyses (Aune et al., 2017, *Int J Epidemiol*)](https://pubmed.ncbi.nlm.nih.gov/28338764/) show dose-dependent reductions in cardiovascular disease and all-cause mortality, with berries among the strongest signals.
 
-Then there is the brain. Blueberries contain pterostilbene, a resveratrol analogue with four times the bioavailability that crosses the blood-brain barrier. A 2019 systematic review (PMID 31383694) found that blueberry supplementation improved memory in older adults with mild cognitive impairment. The anthocyanins themselves have only 1-2% intact absorption, but their gut microbial metabolites -- phenolic acids -- are well absorbed and appear to drive much of the biological activity.
+Then there is the brain. Blueberries contain pterostilbene, a resveratrol analogue with four times the bioavailability that crosses the blood-brain barrier. Emerging evidence suggests blueberry supplementation supports cognitive function in older adults. The anthocyanins themselves have only 1-2% intact absorption, but their gut microbial metabolites -- phenolic acids -- are well absorbed and appear to drive much of the biological activity.
 
 ## How to Use It
 
@@ -40,11 +40,16 @@ Sweet and tart with a mild tannic finish that dries the palate slightly. The aro
 
 ## The Science
 
-- Nurses' Health Study (2013): 32% reduced MI risk with high anthocyanin intake (PMID 23319811)
-- Curtis et al. (2019): 150g/day for 6 months improved vascular function in metabolic syndrome (PMID 30725213)
-- 2019 meta-analysis: Significant reductions in systolic BP and LDL cholesterol (PMID 31329250)
-- 2019 systematic review: Blueberry supplementation improved memory in older adults with MCI (PMID 31383694)
-- Examine.com: Strong evidence for blood pressure, cognitive function, and vascular health
+- [Cassidy et al., 2013, *Circulation*](https://pubmed.ncbi.nlm.nih.gov/23319811/): Nurses' Health Study (93,600 women, 18 years) — high anthocyanin intake associated with 32% reduced MI risk.
+- [Zhu et al., 2017, *J Hum Hypertens*](https://pubmed.ncbi.nlm.nih.gov/27654329/): Meta-analysis of blueberry supplementation RCTs on blood pressure.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Dose-response pooled analysis — fruit (including berries) reduce CVD, cancer, and all-cause mortality.
+- Examine.com: Strong evidence for blood pressure, cognitive function, and vascular health.
+
+## References
+
+1. Cassidy A, Mukamal KJ, Liu L, Franz M, Eliassen AH, Rimm EB. **High anthocyanin intake is associated with a reduced risk of myocardial infarction in young and middle-aged women.** *Circulation*. 2013;127(2):188-196. PMID: [23319811](https://pubmed.ncbi.nlm.nih.gov/23319811/). doi:[10.1161/CIRCULATIONAHA.112.122408](https://doi.org/10.1161/CIRCULATIONAHA.112.122408)
+2. Zhu Y, Sun J, Lu W, et al. **Effects of blueberry supplementation on blood pressure: a systematic review and meta-analysis of randomized clinical trials.** *J Hum Hypertens*. 2017;31(3):165-171. PMID: [27654329](https://pubmed.ncbi.nlm.nih.gov/27654329/). doi:[10.1038/jhh.2016.70](https://doi.org/10.1038/jhh.2016.70)
+3. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
 
 ## Key Nutrients
 
