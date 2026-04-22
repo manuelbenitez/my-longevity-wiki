@@ -22,17 +22,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const entries: MetadataRoute.Sitemap = [];
 
-  // Root (redirects to locale, but still indexable)
-  entries.push({
-    url: SITE_URL,
-    changeFrequency: "weekly",
-    priority: 1.0,
-  });
-
-  // Top-level locale pages
+  // Top-level locale pages. Root `/` is intentionally omitted — it 307-redirects
+  // to `/en/` or `/es/` based on Accept-Language, so indexing it creates a
+  // canonical split with the locale roots.
   for (const locale of LOCALES) {
     entries.push({
       url: `${SITE_URL}/${locale}`,
+      changeFrequency: "weekly",
+      priority: 1.0,
+    });
+    entries.push({
+      url: `${SITE_URL}/${locale}/meal-planner`,
       changeFrequency: "weekly",
       priority: 1.0,
     });
@@ -45,6 +45,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${SITE_URL}/${locale}/recipes`,
       changeFrequency: "weekly",
       priority: 0.9,
+    });
+    entries.push({
+      url: `${SITE_URL}/${locale}/support`,
+      changeFrequency: "monthly",
+      priority: 0.7,
     });
     entries.push({
       url: `${SITE_URL}/${locale}/sources`,
