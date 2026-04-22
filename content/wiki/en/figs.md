@@ -4,54 +4,55 @@ slug: figs
 category: fruit
 tags: [calcium, potassium, fibre, polyphenols, vegan-nutrition, dried-fruit]
 longevity_score: 6
-last_updated: 2026-04-12
+last_updated: 2026-04-22
 ---
 
 # Figs
 
-One of the oldest cultivated fruits and a quiet calcium champion -- dried figs deliver 162mg per 100g with bioavailability comparable to milk, making them essential for anyone building bones without dairy.
+One of the oldest cultivated fruits and a quiet calcium champion -- dried figs deliver 162 mg per 100 g with bioavailability comparable to milk, making them essential for anyone building bones without dairy.
 
 ## Why It Matters for Longevity
 
-Fontana flags figs specifically as a dietary calcium source for vegans (Ref 108), and this is their most underappreciated longevity role. At 162mg calcium per 100g dried, figs outperform most plant foods. The bioavailability is estimated at 30-40%, roughly comparable to milk calcium, because figs are relatively low in oxalates (the compounds that trap calcium in spinach and make it largely unavailable). For anyone following the plant-forward diet Fontana advocates, this matters enormously for long-term bone density.
+Fontana flags figs specifically as a dietary calcium source for vegans (Ref 108), and this is their most underappreciated longevity role. At 162 mg calcium per 100 g dried, figs outperform most plant foods. The bioavailability is estimated at 30–40%, roughly comparable to milk calcium, because figs are relatively low in oxalates.
 
-But figs are more than a calcium delivery system. Their polyphenol profile -- particularly gallic acid and chlorogenic acid -- gives them antioxidant capacity comparable to or exceeding many common fruits (Solomon et al., 2006). A systematic review of fig pharmacology (Mawa et al., 2013) found evidence for anti-diabetic, hypolipidaemic, and hepatoprotective effects in animal and preliminary human studies. The fibre content in dried figs is remarkable: 9.8g per 100g, among the highest of any common dried fruit, supporting gut motility and feeding beneficial bacteria.
+The polyphenol profile of *Ficus carica* -- particularly gallic acid, catechins, chlorogenic acid, and anthocyanins -- provides substantial antioxidant activity. Chemical analysis of dried Ficus carica fruits confirmed meaningful polyphenol content and demonstrated antioxidant, antimicrobial, and enzyme-inhibitory (acetylcholinesterase, tyrosinase) properties relevant to metabolic and neuroprotective health ([Loizzo et al., 2014, *J Sci Food Agric*](https://pubmed.ncbi.nlm.nih.gov/24338976/)).
 
-Dried figs also concentrate potassium (680mg per 100g), rivalling dates and bananas as a fruit source. This combination of calcium, potassium, and magnesium makes dried figs a genuine mineral supplement in food form. The traditional Mediterranean practice of eating dried figs with nuts as a winter dessert -- replacing processed sweets -- is exactly the kind of food swap that compounds into measurable health benefits over decades.
-
-Fresh figs are a different experience: lower in everything on a per-gram basis (they are mostly water) but they offer a brief, luscious eating window in late summer. The seeds contain prebiotic fibre that supports gut microbiome diversity. Whether fresh or dried, figs pair beautifully with citrus, which boosts iron absorption from the fruit's modest but useful iron content (2mg per 100g dried).
+Dried fruits including figs demonstrate excellent in vitro and in vivo antioxidant activity comparable to or exceeding many fresh fruits on a per-serving basis, supporting their use as year-round sources of antioxidant phytonutrients ([Vinson et al., 2005, *J Am Coll Nutr*](https://pubmed.ncbi.nlm.nih.gov/15670984/)).
 
 ## How to Use It
 
-Three to five dried figs (about 40-60g) provide meaningful calcium, potassium, and fibre. Chop into oatmeal or yogurt at breakfast. Pair with walnuts or almonds as a traditional Mediterranean dessert. Use fig jam (no added sugar -- the fruit is sweet enough) on whole-grain toast. Fresh figs are best eaten immediately when ripe, halved and drizzled with a little balsamic vinegar or paired with ricotta. Always pair with a citrus squeeze to enhance iron absorption.
+Three to five dried figs (about 40–60 g) provide meaningful calcium, potassium, and fibre. Chop into oatmeal or yogurt at breakfast. Pair with walnuts or almonds as a traditional Mediterranean dessert. Use fig jam (no added sugar) on whole-grain toast. Fresh figs are best eaten immediately when ripe, halved and drizzled with a little balsamic vinegar or paired with ricotta.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| Walnuts / almonds | Complementary mineral profiles; traditional pairing | Mediterranean / Middle Eastern |
+| Walnuts / almonds | Complementary mineral profiles; traditional Mediterranean dessert | Mediterranean / Middle Eastern |
 | Ricotta / goat cheese | Combined calcium sources; fat aids mineral absorption | Italian |
 | Balsamic vinegar | Acidity balances sweetness; polyphenol-rich vinegar adds complexity | Italian |
-| Lemon juice / citrus | Vitamin C boosts iron absorption from figs 2-6x | Mediterranean |
+| Lemon juice / citrus | Vitamin C boosts non-heme iron absorption from figs 2–6x | Mediterranean |
 | Yogurt | Double calcium source; probiotics complement fig prebiotic fibre | Mediterranean / Middle Eastern |
 
 ## Flavor Profile
 
-Fresh figs are honey-sweet and luscious with a jammy, berry-like flavour and soft, yielding flesh punctuated by tiny crunchy seeds. The aroma is floral and warm with earthy undertones. Dried figs intensify into chewy, caramel-like sweetness with a mildly musky depth. Mission figs are darkest and most intensely flavoured; Kadota and Calimyrna are lighter and nuttier. The skin adds a subtle, pleasant chewiness.
+Fresh figs are honey-sweet and luscious with a jammy, berry-like flavour and soft flesh punctuated by tiny crunchy seeds. The aroma is floral and warm with earthy undertones. Dried figs intensify into chewy, caramel-like sweetness with a mildly musky depth. The skin adds a subtle, pleasant chewiness.
 
 ## The Science
 
-- Vinson et al. (2005): dried figs among richest plant calcium sources (162mg/100g) with meaningful mineral profile
-- Solomon et al. (2006): fig polyphenols (gallic, chlorogenic acid) with antioxidant capacity comparable to berries
-- Mawa et al. (2013): systematic review found anti-diabetic, hypolipidaemic, and hepatoprotective properties
-- Fontana: figs specifically listed as calcium source for vegans (Ref 108)
+- [Loizzo et al., 2014, *J Sci Food Agric*](https://pubmed.ncbi.nlm.nih.gov/24338976/): Chemical analysis of dried *Ficus carica* fruits confirmed polyphenol content including gallic acid, catechins, and chlorogenic acid, with demonstrated antioxidant, antimicrobial, and enzyme-inhibitory activity.
+- [Vinson et al., 2005, *J Am Coll Nutr*](https://pubmed.ncbi.nlm.nih.gov/15670984/): Dried fruits including figs demonstrated excellent in vitro and in vivo antioxidant activity, with polyphenol content comparable to or exceeding many fresh fruits per serving.
+
+## References
+
+1. Loizzo MR, Bonesi M, Pugliese A, et al. **Chemical composition and bioactivity of dried fruits and honey of Ficus carica cultivars Dottato, San Francesco and Citrullara.** *J Sci Food Agric*. 2014;94(11):2179-2189. PMID: [24338976](https://pubmed.ncbi.nlm.nih.gov/24338976/). doi:[10.1002/jsfa.6533](https://doi.org/10.1002/jsfa.6533)
+2. Vinson JA, Zubik L, Bose P, Samman N, Proch J. **Dried fruits: excellent in vitro and in vivo antioxidants.** *J Am Coll Nutr*. 2005;24(1):44-50. PMID: [15670984](https://pubmed.ncbi.nlm.nih.gov/15670984/). doi:[10.1080/07315724.2005.10719442](https://doi.org/10.1080/07315724.2005.10719442)
 
 ## Key Nutrients
 
 | Nutrient | Per 100g (dried) | Notes |
 |----------|----------|-------|
-| Calcium | 162 mg | Bioavailability ~30-40%, comparable to milk; low oxalate interference |
+| Calcium | 162 mg | Bioavailability ~30–40%, comparable to milk; low oxalate interference |
 | Potassium | 680 mg | Rivals dates and bananas; supports blood pressure regulation |
 | Dietary fibre | 9.8 g | Among highest of dried fruits; seeds add prebiotic bulk |
-| Polyphenols | ~200-400 mg GAE | Gallic + chlorogenic acid; antioxidant capacity comparable to berries |
-| Iron | 2.0 mg | Non-heme; pair with citrus for 2-6x absorption boost |
+| Polyphenols | ~200–400 mg GAE | Gallic acid, catechins, chlorogenic acid; antioxidant capacity comparable to berries |
+| Iron | 2.0 mg | Non-heme; pair with citrus for 2–6x absorption boost |
