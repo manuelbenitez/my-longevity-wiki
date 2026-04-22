@@ -7,6 +7,8 @@ import { parseIngredientLines } from "@/lib/parse-ingredients";
 import { MealPlannerClient } from "@/components/meal-planner-client";
 import type { RecipeForPlanner } from "@/lib/meal-planner-reducer";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.mbdev.to";
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -66,8 +68,35 @@ export default async function MealPlannerPage({
     meal_type: r.frontmatter.meal_type ?? [],
   }));
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: locale === "es" ? "Planificador de Comidas Longevity" : "Longevity Meal Planner",
+    url: `${SITE_URL}/${locale}/meal-planner/`,
+    applicationCategory: "HealthApplication",
+    operatingSystem: "Web",
+    browserRequirements: "Requires JavaScript",
+    inLanguage: locale,
+    isAccessibleForFree: true,
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    author: {
+      "@type": "Person",
+      name: "Manuel Benitez",
+      url: `${SITE_URL}/${locale}/about/`,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Longevity Wiki",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo-large.svg` },
+    },
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <MealPlannerClient
         recipes={recipes}
         wikiCategories={wikiCategories}
