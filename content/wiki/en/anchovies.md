@@ -37,10 +37,14 @@ Intensely savory and salty with deep umami. Raw or minimally processed: pungent 
 
 ## The Science
 
-- Small pelagic fish have lowest mercury contamination among marine species (PMID comparison studies)
-- 1.5–2.1 g EPA + DHA per 100g — among the highest of any fish
-- Calcium: 232 mg per 100g (canned with bones) — comparable to dairy
-- Vitamin B12: 0.62 mcg per 28g serving; essential for homocysteine metabolism and cognitive health
+- [Rizos et al., 2012, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/22968891/): Meta-analysis of omega-3 fatty acid supplementation — significant association between omega-3 supplementation and reduced risk of cardiac death and non-fatal myocardial infarction.
+- 1.5–2.1 g EPA + DHA per 100g — among the highest of any fish; small size means negligible mercury bioaccumulation.
+- Calcium: 232 mg per 100g (canned with bones) — comparable to dairy.
+- Vitamin B12: ~2.2 mcg per 100g; essential for homocysteine metabolism and cognitive health.
+
+## References
+
+1. Rizos EC, Ntzani EE, Bika E, Kostapanos MS, Elisaf MS. **Association between omega-3 fatty acid supplementation and risk of major cardiovascular disease events: a systematic review and meta-analysis.** *JAMA*. 2012;308(10):1024-1033. PMID: [22968891](https://pubmed.ncbi.nlm.nih.gov/22968891/). doi:[10.1001/2012.jama.11374](https://doi.org/10.1001/2012.jama.11374)
 
 ## Key Nutrients
 

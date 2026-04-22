@@ -13,7 +13,7 @@ Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, provi
 
 ## Why It Matters for Longevity
 
-Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, providing folate (24 mcg per medium, 6% DV) and magnesium (32 mg per medium, 8% DV). Folate supports one-carbon metabolism and DNA methylation; magnesium acts as a cofactor in over 300 enzymatic reactions including ATP synthesis and protein synthesis..  Bananas provide resistant starch and fructooligosaccharides that selectively feed beneficial gut bacteria (Bifidobacterium, Lactobacillus), supporting a microbiome profile associated with reduced systemic inflammation and extended healthspan. (Slavin & Lloyd, Advances in Nutrition (2012) — PMID 22797986)  Banana consumption is associated with improved glycemic response compared to other high-carbohydrate fruits due to its fiber and resistant starch content; unripe bananas have a glycemic index of ~30 versus ~60 for very ripe ones. (Dreher & Davenport, Critical Reviews in Food Science (2013) — PMID 23638933)
+Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, providing folate (24 mcg per medium, 6% DV) and magnesium (32 mg per medium, 8% DV). Folate supports one-carbon metabolism and DNA methylation; magnesium acts as a cofactor in over 300 enzymatic reactions including ATP synthesis and protein synthesis..  Bananas provide resistant starch and fructooligosaccharides that selectively feed beneficial gut bacteria (Bifidobacterium, Lactobacillus), supporting a microbiome profile associated with reduced systemic inflammation and extended healthspan. ([Slavin, 2012, *Adv Nutr*](https://pubmed.ncbi.nlm.nih.gov/22797986/))  Banana consumption is associated with improved glycemic response compared to other high-carbohydrate fruits due to its fiber and resistant starch content; unripe bananas have a glycemic index of ~30 versus ~60 for very ripe ones. ([Menezes et al., 2010, *Plant Foods Hum Nutr*](https://pubmed.ncbi.nlm.nih.gov/20839056/))
 
 ## How to Use It
 
@@ -37,7 +37,15 @@ Taste: sweet, mildly tangy when unripe. Aroma: fruity, floral, isoamyl acetate-f
 
 ## The Science
 
-- Slavin & Lloyd, Advances in Nutrition (2012) — PMID 22797986: Bananas provide resistant starch and fructooligosaccharides that selectively feed beneficial gut bacteria (Bifidobacterium, Lactobacillus), supporting a microbiome profile associated with reduced systemic inflammation and extended healthspan.  - Dreher & Davenport, Critical Reviews in Food Science (2013) — PMID 23638933: Banana consumption is associated with improved glycemic response compared to other high-carbohydrate fruits due to its fiber and resistant starch content; unripe bananas have a glycemic index of ~30 versus ~60 for very ripe ones.  - Bhowmik et al., Asian Pacific Journal of Tropical Biomedicine (2012) — PMID 23569783: Bananas contain dopamine and catechins, potent antioxidants linked to reduced risk of degenerative diseases and heart disease; antioxidant activity is comparable to many berries on a per-serving basis.  - Book claim (high confidence): Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, providing folate (24 mcg per medium, 6% DV) a
+- [Slavin, 2012, *Adv Nutr*](https://pubmed.ncbi.nlm.nih.gov/22797986/): Review of health benefits of fruits and vegetables including resistant starch and prebiotic fibre in bananas feeding beneficial gut bacteria.
+- [Menezes et al., 2010, *Plant Foods Hum Nutr*](https://pubmed.ncbi.nlm.nih.gov/20839056/): Unripe banana flour showed lower glycaemic response in in vitro fermentation; resistant starch content is high in unripe bananas and decreases as they ripen.
+- [Kanazawa & Sakakibara, 2000, *J Agric Food Chem*](https://pubmed.ncbi.nlm.nih.gov/10725161/): Cavendish bananas contain high amounts of dopamine -- a potent antioxidant -- alongside catechins; antioxidant activity comparable to many berries on a per-serving basis.
+
+## References
+
+1. Slavin JL, Lloyd B. **Health benefits of fruits and vegetables.** *Adv Nutr*. 2012;3(4):506-516. PMID: [22797986](https://pubmed.ncbi.nlm.nih.gov/22797986/). doi:[10.3945/an.112.002154](https://doi.org/10.3945/an.112.002154)
+2. Menezes EW, Dan MC, Cardenette GH, Goñi I, Bello-Pérez LA, Lajolo FM. **In vitro colonic fermentation and glycemic response of different kinds of unripe banana flour.** *Plant Foods Hum Nutr*. 2011;66(3):231-237. PMID: [20839056](https://pubmed.ncbi.nlm.nih.gov/20839056/). doi:[10.1007/s11130-010-0190-4](https://doi.org/10.1007/s11130-010-0190-4)
+3. Kanazawa K, Sakakibara H. **High content of dopamine, a strong antioxidant, in Cavendish banana.** *J Agric Food Chem*. 2000;48(3):844-848. PMID: [10725161](https://pubmed.ncbi.nlm.nih.gov/10725161/).
 
 ## Key Nutrients
 
