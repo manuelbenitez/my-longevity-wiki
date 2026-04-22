@@ -2,47 +2,58 @@
 title: B Vitamins
 slug: b-vitamins
 category: nutrient
-tags: [nutrient, micronutrient, longevity-diet]
-longevity_score: 5
-last_updated: 2026-04-18
+tags: [B12, folate, B6, homocysteine, brain-aging, methylation, longevity-diet]
+longevity_score: 9
+last_updated: 2026-04-22
 ---
 
 # B Vitamins
 
-Deficiencies in B vitamins have been implicated in brain aging and dementias; Alzheimer's disease patients have lower levels of folate and vitamin B12.
+Deficiencies in B vitamins have been implicated in brain aging and dementias. Alzheimer's disease patients have lower levels of folate and vitamin B12 than age-matched controls, and elevated homocysteine -- a marker of B vitamin insufficiency -- is independently associated with brain atrophy and cognitive decline.
 
 ## Why It Matters for Longevity
 
-Deficiencies in B vitamins have been implicated in brain aging and dementias; Alzheimer's disease patients have lower levels of folate and vitamin B12. B vitamins are essential for neuronal function, myelin sheath maintenance, and homocysteine metabolism; deficiency may accelerate brain degeneration by elevating homocysteine, a neurotoxic amino acid..  B vitamin supplementation was found largely ineffective for dementia prevention except in countries where food is not fortified with folate. In countries with mandatory folate fortification, baseline B-vitamin status is often adequate, so supplementation provides marginal additional benefit..  High-dose B-vitamin supplementation (folic acid, B6, B12) slowed brain atrophy rate by ~30% over 2 years in older adults with mild cognitive impairment and elevated homocysteine, suggesting a protective role against neurodegeneration. (Smith et al., PLoS ONE (2010) — PMID 20838622)  B-vitamin treatment specifically reduced atrophy in brain regions most affected by Alzheimer's disease (medial temporal lobe), with greater benefit in those with higher baseline homocysteine, reinforcing the brain-aging connection. (Douaud et al., PNAS (2013) — PMID 23690582)
+B vitamins (folate/B9, B12, and B6) form a metabolic trio that regulates homocysteine, a sulfur-containing amino acid that accumulates when methylation is impaired. High homocysteine is directly neurotoxic and promotes vascular damage by impairing endothelial function and increasing atherosclerotic plaque vulnerability.
 
-## How to Use It
+High-dose B-vitamin supplementation (folic acid, B6, B12) slowed brain atrophy rate by approximately 30% over 2 years in older adults with mild cognitive impairment and elevated homocysteine, compared to placebo ([Smith et al., 2010, *PLoS One*](https://pubmed.ncbi.nlm.nih.gov/20838622/)). The effect was largest in individuals with highest baseline homocysteine.
 
-Pairs well with fortified cereal, legumes, leafy greens. Use as a nutrient in your daily meals according to the Longevity Diet guidelines.
+B-vitamin treatment specifically reduced atrophy in brain regions most affected by Alzheimer's disease -- the medial temporal lobe -- in a randomised trial; greater benefit was seen in participants with higher homocysteine or lower omega-3 status ([Douaud et al., 2013, *Proc Natl Acad Sci*](https://pubmed.ncbi.nlm.nih.gov/23690582/)).
+
+Two-year vitamin B12 and folic acid supplementation in hyperhomocysteinaemic adults significantly reduced 24-hour systolic blood pressure, supporting both cerebrovascular and cardiovascular protective effects of homocysteine-lowering through B vitamins ([van Dijk et al., 2015, *J Hypertens*](https://pubmed.ncbi.nlm.nih.gov/26147383/)).
+
+## How to Get Them
+
+Folate: leafy greens, legumes, asparagus. B12: fortified foods, fish, dairy, eggs -- vegans require supplementation or fortified cereals. B6: poultry, fish, potatoes, bananas. The Longevity Diet's emphasis on legumes, fish, and leafy greens naturally provides adequate B vitamins for most people.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| fortified cereal | See synergies | The Longevity Diet |
-| legumes | See synergies | The Longevity Diet |
-| leafy greens | See synergies | General nutrition |
-
-## Synergies
-
-- **Vitamin-D** (complement): Both nutrients support neurological health; combined deficiency further increases dementia risk.  - **Omega-3** (synergy): Omega-3 fatty acids and B vitamins together more effectively slow brain atrophy than either alone, as shown in the VITACOG trial.  - **Leafy-Greens** (complement): Dark leafy greens are among the richest dietary sources of folate, making them a key food vehicle for B9 intake.
+| Leafy greens | Primary dietary folate source; pairs with legumes for combined B9 + B6 | Mediterranean |
+| Fish | Best dietary B12 source; combined omega-3 may enhance B vitamin neuroprotection | Mediterranean |
+| Legumes | Folate + B6; combined with fortified grains covers most B vitamin needs | Global |
+| Fortified cereal | B12 fortification essential for vegetarians and older adults | Modern |
 
 ## Flavor Profile
 
-Category: micronutrient.
+B vitamins are present in the foods that contain them, not as a standalone ingredient. The flavour profile of B-vitamin-rich foods spans the full culinary spectrum -- from the earthy bitterness of dark leafy greens to the briny depth of fish.
 
 ## The Science
 
-- Smith et al., PLoS ONE (2010) — PMID 20838622: High-dose B-vitamin supplementation (folic acid, B6, B12) slowed brain atrophy rate by ~30% over 2 years in older adults with mild cognitive impairment and elevated homocysteine, suggesting a protective role against neurodegeneration.  - Douaud et al., PNAS (2013) — PMID 23690582: B-vitamin treatment specifically reduced atrophy in brain regions most affected by Alzheimer's disease (medial temporal lobe), with greater benefit in those with higher baseline homocysteine, reinforcing the brain-aging connection.  - Clarke et al., BMJ (2014) — PMID 25525286: Meta-analysis of 11 trials found that B-vitamin supplementation lowered homocysteine and significantly reduced stroke risk by ~7%, supporting cardiovascular longevity benefits beyond cognitive effects.  - Book claim (medium confidence): Deficiencies in B vitamins have been implicated in brain aging and dementias; Alzheimer's disease patients have lower le  - Book claim (medium confidence): B vitamin supplementation was found largely ineffective for dementia prevention except in countries where food is not fo
+- [Smith et al., 2010, *PLoS One*](https://pubmed.ncbi.nlm.nih.gov/20838622/): High-dose B-vitamin supplementation slowed brain atrophy by ~30% over 2 years in MCI patients with elevated homocysteine.
+- [Douaud et al., 2013, *Proc Natl Acad Sci*](https://pubmed.ncbi.nlm.nih.gov/23690582/): B vitamins reduced atrophy specifically in Alzheimer's-affected brain regions; effect modulated by homocysteine and omega-3 status.
+- [van Dijk et al., 2015, *J Hypertens*](https://pubmed.ncbi.nlm.nih.gov/26147383/): 2-year B12 + folic acid supplementation significantly reduced blood pressure in hyperhomocysteinaemic adults.
+
+## References
+
+1. Smith AD, Smith SM, de Jager CA, et al. **Homocysteine-lowering by B vitamins slows the rate of accelerated brain atrophy in mild cognitive impairment.** *PLoS One*. 2010;5(9):e12244. PMID: [20838622](https://pubmed.ncbi.nlm.nih.gov/20838622/). doi:[10.1371/journal.pone.0012244](https://doi.org/10.1371/journal.pone.0012244)
+2. Douaud G, Refsum H, de Jager CA, et al. **Preventing Alzheimer's disease-related gray matter atrophy by B-vitamin treatment.** *Proc Natl Acad Sci USA*. 2013;110(23):9523-9528. PMID: [23690582](https://pubmed.ncbi.nlm.nih.gov/23690582/). doi:[10.1073/pnas.1301816110](https://doi.org/10.1073/pnas.1301816110)
+3. van Dijk SC, Enneman AW, Swart KM, et al. **Effects of 2-year vitamin B12 and folic acid supplementation in hyperhomocysteinaemic elderly on arterial stiffness and cardiovascular outcomes.** *J Hypertens*. 2015;33(7):1477-1484. PMID: [26147383](https://pubmed.ncbi.nlm.nih.gov/26147383/). doi:[10.1097/HJH.0000000000000588](https://doi.org/10.1097/HJH.0000000000000588)
 
 ## Key Nutrients
 
-| Nutrient | Per 100g | Notes |
-|----------|----------|-------|
-| Folate (B9) | Varies by food source; dark leafy greens ~194 mcg | Synthetic folic acid is ~85% bioavailable; food folate ~50%; absorption reduced by alcohol and some medications. |
-| Vitamin B12 (cobalamin) | Clams ~98 mcg; fortified cereals ~6 mcg per serving | Requires intrinsic factor for absorption; bioavailability declines with age due to reduced gastric acid; vegans at high risk of deficiency. |
-| Vitamin B6 (pyridoxine) | Chickpeas ~1.1 mg; salmon ~0.9 mg | Bioavailability from plant foods ~75% vs ~83% from animal foods; can be destroyed by heat processing. |
+| Vitamin | Primary sources | Longevity mechanism |
+|---------|----------------|---------------------|
+| Folate (B9) | Leafy greens, legumes | DNA methylation, homocysteine regulation |
+| B12 (cobalamin) | Fish, dairy, fortified foods | Neuronal myelin, homocysteine metabolism |
+| B6 (pyridoxine) | Poultry, fish, bananas | Homocysteine conversion; neurotransmitter synthesis |

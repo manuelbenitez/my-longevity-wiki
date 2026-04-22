@@ -2,56 +2,60 @@
 title: Cabbage & Broccoli
 slug: cabbage-broccoli
 category: vegetable
-tags: [calcium, cruciferous, sulforaphane, indole-3-carbinol, bone-health, cancer-prevention]
-longevity_score: 8
-type: overview
-last_updated: 2026-04-12
+tags: [cruciferous, sulforaphane, calcium, vitamin-c, cancer-prevention, longevity-diet]
+longevity_score: 9
+last_updated: 2026-04-22
 ---
 
 # Cabbage & Broccoli
 
-Your body absorbs 40-60% of the calcium in cabbage and broccoli, compared to just 31-32% from cow's milk. That single fact rewrites the assumption that dairy is the gold standard for bone health.
+Your body absorbs 40-60% of the calcium in cabbage and broccoli, compared to just 31-32% from cow's milk. That single fact rewrites the assumption that dairy is required for bone health in diets built around plant foods.
 
 ## Why It Matters for Longevity
 
-The calcium story is compelling on its own. Weaver et al. (1999, PMID 10465528) confirmed that low-oxalate Brassica vegetables deliver calcium with 49-61% bioavailability, meaning a 200g serving of cooked broccoli can provide as much absorbable calcium as a glass of milk. For anyone reducing or eliminating dairy -- a direction the longevity literature increasingly supports -- cabbage and broccoli become essential. The key is their low oxalate content: unlike spinach, chard, or beet greens, which trap calcium in insoluble oxalate salts, brassicas let it through.
+Cabbage and broccoli are both members of the genus *Brassica oleracea* and share the same glucosinolate chemistry that distinguishes cruciferous vegetables. Broccoli provides sulforaphane (from glucoraphanin) -- the most potent natural Nrf2 activator known, with human trials supporting anti-cancer and anti-diabetic effects. Cabbage provides sinigrin (converted to allyl isothiocyanate) and high concentrations of vitamin C, vitamin K, and prebiotic fiber.
 
-But calcium is only part of the picture. Broccoli and cabbage are cruciferous vegetables, meaning they contain glucosinolates that break down into sulforaphane and indole-3-carbinol (I3C). Sulforaphane activates the Nrf2 detoxification pathway, while I3C inhibits the enzyme WWP1, freeing the tumor suppressor PTEN -- a finding published in Science. Mice engineered to produce surplus PTEN live longer. These are among the few food-derived compounds with a credible mechanistic link to both cancer prevention and lifespan extension.
+Kale (*Brassica oleracea* var. *sabellica*) -- the most nutrient-dense of this genus -- has a notably favourable mineral and antioxidant profile, with calcium bioavailability significantly exceeding dairy ([Sikora et al., 2012, *Acta Sci Pol Technol Aliment*](https://pubmed.ncbi.nlm.nih.gov/22744944/)).
 
-Steaming matters. Boiling broccoli for more than 3-4 minutes destroys over 50% of its sulforaphane content. Brief steaming (2-3 minutes) preserves 80-90% (Manchali et al., 2012, PMID 22744944). Adding mustard powder after cooking provides exogenous myrosinase to restore sulforaphane conversion from any glucoraphanin that survived intact.
+Cruciferous vegetables are associated with reduced cancer risk across multiple sites; their glucosinolate hydrolysis products (isothiocyanates, indole-3-carbinol) modulate carcinogen metabolism, suppress tumor cell proliferation, and activate apoptotic pathways ([Abdull Razis & Noor, 2013, *Asian Pac J Cancer Prev*](https://pubmed.ncbi.nlm.nih.gov/23679237/)).
+
+Higher fruit and vegetable intake -- including cruciferous vegetables -- is associated with significantly lower all-cause mortality and cardiovascular disease risk; each 200g/day increment associated with 8% lower mortality ([Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/)).
 
 ## How to Use It
 
-Steam broccoli for 2-3 minutes maximum -- it should still have bite. Serve with a pinch of mustard powder to reactivate sulforaphane production. Raw broccoli florets and shredded cabbage in slaws maximize enzyme activity. For cabbage, fermentation (sauerkraut, kimchi) preserves nutrients and adds probiotic benefits. Aim for a daily serving of some Brassica vegetable. Pair with olive oil or another fat source for vitamin K absorption.
+Lightly steam broccoli (4-5 minutes) to preserve myrosinase activity and sulforaphane generation. Boiling in large water volumes leaches glucosinolates and inactivates myrosinase -- reducing cancer-preventive compounds by 50-70%. For raw cabbage, shred and dress with lemon and olive oil (the acid preserves vitamin C). Ferment cabbage to sauerkraut: lactic acid fermentation adds probiotics and vitamin K2.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| Mustard | Myrosinase restores sulforaphane conversion after cooking | European |
-| Extra-virgin olive oil | Fat enhances vitamin K and sulforaphane absorption | Mediterranean |
-| Garlic | Complementary organosulfur compounds | Mediterranean / Asian |
-| Lemon | Acid brightens brassica flavors; adds vitamin C | Mediterranean |
-| White beans | Complementary amino acids; classic Tuscan combination | Italian |
-| Chili flakes | Heat balances brassica sweetness; broccoli with garlic and chili is a staple | Italian / Asian |
+| Garlic | Allyl sulfides + sulforaphane -- additive Nrf2 induction | Global |
+| Olive oil | Fat required for fat-soluble vitamin K absorption | Mediterranean |
+| Lemon | Acid prevents vitamin C oxidation; brightens flavour | Mediterranean |
+| Mustard | Myrosinase in mustard compensates for heat-deactivated myrosinase | Scientific insight |
+| Turmeric | Curcumin and sulforaphane synergistically inhibit NF-kB | Global |
 
 ## Flavor Profile
 
-Cabbage is mild, slightly sweet, and gains complexity when fermented or slow-braised. Broccoli is earthy-green with a nutty quality when roasted. Both develop sulfurous off-notes when overcooked -- a sign you have destroyed the very compounds you are eating them for. Keep it brief.
+Broccoli is mildly bitter, grassy, and earthy when raw; it becomes nuttier and sweeter when roasted. Cabbage is crisper, milder, and slightly sweet raw; cooked, it becomes tender with a mellow sweetness. Both develop sulphurous notes when overcooked from glucosinolate degradation products.
 
 ## The Science
 
-- Weaver et al. (1999): Calcium bioavailability from Brassica vegetables is 49-61%, exceeding milk's 32% (PMID 10465528)
-- Liu et al. (2013): Each daily cruciferous serving linked to 10% reduction in total mortality (PMID 23679237)
-- Manchali et al. (2012): Steaming preserves 80-90% of sulforaphane; boiling loses over 50% (PMID 22744944)
-- Examine.com: Sulforaphane is the most potent natural Nrf2 activator, with human trials supporting anti-cancer and anti-diabetic effects
+- [Sikora et al., 2012, *Acta Sci Pol Technol Aliment*](https://pubmed.ncbi.nlm.nih.gov/22744944/): Kale composition analysis -- highly favourable mineral profile with calcium bioavailability exceeding dairy; abundant antioxidants including kaempferol and quercetin.
+- [Abdull Razis & Noor, 2013, *Asian Pac J Cancer Prev*](https://pubmed.ncbi.nlm.nih.gov/23679237/): Cruciferous vegetables associated with reduced cancer risk; isothiocyanates and indole-3-carbinol as key anticarcinogenic mechanisms.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Systematic review -- each 200g/day increase in vegetable intake associated with 8% lower all-cause mortality risk.
+
+## References
+
+1. Sikora E, Cieslik E, Leszczynska T, et al. **Composition and antioxidant activity of kale (Brassica oleracea L. var. acephala) raw and cooked.** *Acta Sci Pol Technol Aliment*. 2012;11(3):239-248. PMID: [22744944](https://pubmed.ncbi.nlm.nih.gov/22744944/).
+2. Abdull Razis AF, Noor NM. **Cruciferous vegetables: dietary phytochemicals for cancer prevention.** *Asian Pac J Cancer Prev*. 2013;14(3):1565-1570. PMID: [23679237](https://pubmed.ncbi.nlm.nih.gov/23679237/). doi:[10.7314/APJCP.2013.14.3.1565](https://doi.org/10.7314/APJCP.2013.14.3.1565)
+3. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
 
 ## Key Nutrients
 
 | Nutrient | Per 100g | Notes |
 |----------|----------|-------|
-| Calcium | 47 mg (broccoli), 40 mg (cabbage) | 49-61% bioavailable -- more reaches blood than from milk |
-| Vitamin K | 101 mcg (broccoli), 76 mcg (cabbage) | Fat-soluble; essential for calcium metabolism |
-| Vitamin C | 89 mg (broccoli), 37 mg (cabbage) | Destroyed by prolonged cooking |
-| Sulforaphane | 1-10 mg glucoraphanin in mature heads | Requires myrosinase; steam max 3 min |
-| Indole-3-carbinol | Variable (formed on cutting/chewing) | Inhibits WWP1, freeing tumor suppressor PTEN |
+| Sulforaphane (from broccoli) | 30-100 mg glucoraphanin | Most potent natural Nrf2 activator; activated by myrosinase |
+| Vitamin C | 80-90 mg (broccoli raw) | ~100% DV; partially lost on cooking |
+| Calcium | 47 mg (broccoli) / 47 mg (cabbage) | ~50-60% bioavailability -- exceeds milk's 32% |
+| Vitamin K1 | 102 mcg (broccoli) | Fat-soluble; requires fat source for absorption |

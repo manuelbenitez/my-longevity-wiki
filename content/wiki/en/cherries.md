@@ -4,46 +4,56 @@ slug: cherries
 category: fruit
 tags: [fruit, antioxidants, fiber, longevity-diet]
 longevity_score: 6
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Cherries
 
-Fresh and dried cherries are suggested as dessert options in the Longevity Diet, with 100 g fresh or 20 g dried as a serving.
+Fresh and dried cherries are suggested as dessert options in the Longevity Diet, with 100g fresh or 20g dried as a serving. Replacing refined-sugar desserts with whole fruit reduces caloric density while delivering anthocyanins and melatonin.
 
 ## Why It Matters for Longevity
 
-Fresh and dried cherries are suggested as dessert options in the Longevity Diet, with 100 g fresh or 20 g dried as a serving. Whole-fruit dessert replacement reduces refined-sugar intake while delivering antioxidant polyphenols; fits the low-calorie, nutrient-dense dessert pattern associated with longevity-promoting diets..  Daily consumption of tart cherry juice (480 mL) reduced systolic blood pressure and LDL cholesterol in older adults, with improvements attributed to anthocyanins and polyphenolic antioxidants — cardiovascular benefits directly relevant to longevity. (Kelley et al., Nutrients (2018) — PMID 29562604)  Tart cherry juice supplementation significantly reduced markers of exercise-induced inflammation and oxidative stress (IL-6, CRP, TBARS), consistent with the anti-inflammatory longevity mechanisms promoted by the Longevity Diet. (Howatson et al., Scandinavian Journal of Medicine & Science in Sports (2010) — PMID 19957941)
+Cherries -- particularly tart (Montmorency) varieties -- are among the highest food sources of anthocyanins. These polyphenols have demonstrated anti-inflammatory, antioxidant, and cardiovascular-protective effects in clinical trials. Cherries also contain melatonin in measurable quantities (~13.5 ng per gram in tart cherries), supporting circadian rhythm regulation alongside the Longevity Diet's emphasis on sleep quality.
+
+Daily consumption of tart cherry juice (480 mL) significantly reduced systolic blood pressure and LDL cholesterol in older adults, with improvements attributed to anthocyanins and their effects on nitric oxide bioavailability and endothelial function ([Kelley et al., 2018, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/29562604/)).
+
+Tart cherry juice supplementation significantly reduced indices of muscle damage and inflammation including CK, LDH, muscle soreness, and strength loss following marathon running, consistent with the anti-inflammatory properties of cherry anthocyanins ([Howatson et al., 2010, *Scand J Med Sci Sports*](https://pubmed.ncbi.nlm.nih.gov/19883392/)).
+
+In water polo players, tart cherry juice supplementation significantly improved recovery of power output and reduced perceived fatigue between consecutive training sessions, confirming practical performance recovery benefits ([McCormick et al., 2016, *J Int Soc Sports Nutr*](https://pubmed.ncbi.nlm.nih.gov/27895542/)).
 
 ## How to Use It
 
-Pairs well with dark chocolate, almonds, walnut. Use as a fruit in your daily meals according to the Longevity Diet guidelines.
+Eat 100g fresh cherries as a dessert course or mix with yogurt. Use 20g dried tart cherries (no added sugar) as a portable snack. Tart cherry juice (240-480 mL) provides a concentrated anthocyanin dose for active individuals. Pair with dark chocolate or almonds for a complete dessert.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| dark chocolate | See synergies | General culinary |
-| almonds | See synergies | General culinary |
-| walnut | See synergies | General culinary |
-| Greek yogurt | See synergies | General culinary |
-
-## Synergies
-
-- **Dark-Chocolate** (synergy): Cherry anthocyanins and cocoa flavanols share complementary anti-inflammatory mechanisms, acting on overlapping NF-kB and COX-2 pathways.  - **Almonds** (complement): Dietary fat from almonds enhances absorption of fat-soluble cherry polyphenols; classic Mediterranean dessert pairing.
+| Dark chocolate | Cherry anthocyanins and cocoa flavanols share complementary anti-inflammatory mechanisms | Global |
+| Almonds | Fat from almonds enhances absorption of fat-soluble cherry polyphenols | Mediterranean |
+| Greek yogurt | Probiotic bacteria feed on cherry polyphenols; complementary textures | Mediterranean |
+| Walnuts | Combined antioxidant sources; classic dessert pairing | Mediterranean |
 
 ## Flavor Profile
 
-Taste: sweet, mildly tart, fruity. Aroma: floral, almond-like, fresh fruit. Texture: juicy, firm flesh, smooth skin. Category: fresh fruit / dried fruit.
+Sweet, mildly tart, and fruity with a clean finish. Tart varieties are significantly more acidic and have a brighter, sharper flavour. Dried cherries concentrate sweetness and acidity. Aroma is floral and almond-like from the benzaldehyde present naturally in cherry flesh and pits.
 
 ## The Science
 
-- Kelley et al., Nutrients (2018) — PMID 29562604: Daily consumption of tart cherry juice (480 mL) reduced systolic blood pressure and LDL cholesterol in older adults, with improvements attributed to anthocyanins and polyphenolic antioxidants — cardiovascular benefits directly relevant to longevity.  - Howatson et al., Scandinavian Journal of Medicine & Science in Sports (2010) — PMID 19957941: Tart cherry juice supplementation significantly reduced markers of exercise-induced inflammation and oxidative stress (IL-6, CRP, TBARS), consistent with the anti-inflammatory longevity mechanisms promoted by the Longevity Diet.  - Chai et al., Journal of Nutritional Biochemistry (2019) — PMID 31136926: Anthocyanins from cherries activate AMPK and Nrf2 pathways in adipocytes, reducing fat accumulation and oxidative stress — mechanisms associated with metabolic health and extended healthspan.  - Book claim (high confidence): Fresh and dried cherries are suggested as dessert options in the Longevity Diet, with 100 g fresh or 20 g dried as a ser
+- [Kelley et al., 2018, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/29562604/): Tart cherry juice (480 mL/day) reduced systolic blood pressure and LDL cholesterol in older adults with attributable effects to anthocyanins and their impact on endothelial function.
+- [Howatson et al., 2010, *Scand J Med Sci Sports*](https://pubmed.ncbi.nlm.nih.gov/19883392/): Tart cherry juice supplementation significantly reduced muscle damage markers and strength loss following marathon running.
+- [McCormick et al., 2016, *J Int Soc Sports Nutr*](https://pubmed.ncbi.nlm.nih.gov/27895542/): Tart cherry juice improved recovery of power output and reduced perceived fatigue between consecutive training sessions in competitive water polo players.
+
+## References
+
+1. Kelley DS, Adkins Y, Laugero KD. **A review of the health benefits of cherries.** *Nutrients*. 2018;10(3):368. PMID: [29562604](https://pubmed.ncbi.nlm.nih.gov/29562604/). doi:[10.3390/nu10030368](https://doi.org/10.3390/nu10030368)
+2. Howatson G, McHugh MP, Hill JA, et al. **Influence of tart cherry juice on indices of recovery following marathon running.** *Scand J Med Sci Sports*. 2010;20(6):843-852. PMID: [19883392](https://pubmed.ncbi.nlm.nih.gov/19883392/). doi:[10.1111/j.1600-0838.2009.01005.x](https://doi.org/10.1111/j.1600-0838.2009.01005.x)
+3. McCormick R, Peeling P, Binnie M, et al. **Effect of tart cherry juice on recovery and next day performance in well-trained water polo players.** *J Int Soc Sports Nutr*. 2016;13:41. PMID: [27895542](https://pubmed.ncbi.nlm.nih.gov/27895542/). doi:[10.1186/s12970-016-0151-x](https://doi.org/10.1186/s12970-016-0151-x)
 
 ## Key Nutrients
 
 | Nutrient | Per 100g | Notes |
 |----------|----------|-------|
-| Anthocyanins (cyanidin-3-glucoside) | ~82–297 mg (tart cherries) | Rapidly absorbed in small intestine; peak plasma levels at 1–2 hours; bioavailability increased with whole-fruit consumption versus isolated extracts. |
-| Melatonin | ~13.5 ng (tart cherries) | Bioavailable oral melatonin; supports circadian rhythm regulation and sleep quality, a key pillar of the Longevity Diet's lifestyle recommendations. |
-| Vitamin C | ~7 mg (sweet) / ~10 mg (tart) | Water-soluble; absorbed via sodium-dependent transporters; contributes to collagen synthesis and antioxidant defense. |
+| Anthocyanins (cyanidin-3-glucoside) | ~82-297 mg (tart cherries) | Peak plasma levels at 1-2 hours; bioavailability enhanced with whole-fruit consumption |
+| Melatonin | ~13.5 ng (tart cherries) | Bioavailable oral melatonin; supports sleep quality and circadian rhythm regulation |
+| Vitamin C | ~7 mg (sweet) / ~10 mg (tart) | Water-soluble; contributes to collagen synthesis and antioxidant defense |

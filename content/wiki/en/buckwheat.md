@@ -2,58 +2,60 @@
 title: Buckwheat
 slug: buckwheat
 category: grain
-tags: [rutin, complete-protein, blood-sugar, gluten-free, cardiovascular, pseudocereal]
+tags: [pseudocereal, rutin, quercetin, D-chiro-inositol, complete-protein, gluten-free]
 longevity_score: 7
-last_updated: 2026-04-12
+last_updated: 2026-04-22
 ---
 
 # Buckwheat
 
-Despite the name, buckwheat is not wheat at all -- it is a pseudocereal related to rhubarb. It is one of the only plant foods with a complete amino acid profile, and it contains rutin and D-chiro-inositol, two compounds you will not find in any true cereal grain.
+Despite the name, buckwheat is not wheat -- it is a pseudocereal related to rhubarb, with a complete amino acid profile (rare for plants), and the richest dietary source of rutin, a flavonoid with anti-inflammatory and vasculoprotective properties.
 
 ## Why It Matters for Longevity
 
-Buckwheat brings a unique pharmacological profile to the table. It is the richest dietary source of D-chiro-inositol, an insulin-mimetic compound that improves insulin signaling at the cellular level. A 2015 review (PMID 25694675) documented this and noted its promise for both type 2 diabetes and polycystic ovary syndrome management. A 2007 population study (PMID 17093136) in China found that regular buckwheat consumers had lower blood glucose, lower blood pressure, and improved lipid profiles compared to non-consumers.
+Buckwheat's nutritional case is built on two rare properties. First, it provides all nine essential amino acids in adequate proportions -- making it one of only a handful of plant proteins that qualifies as "complete." This makes it particularly valuable in plant-dominant diets where lysine (the limiting amino acid in most cereals) is easily deficient.
 
-Then there is rutin, a flavonoid glycoside present at 12-36 mg per 100g of groats (and much higher in buckwheat greens). Rutin strengthens capillaries, has anti-inflammatory properties, and is converted by gut bacteria into quercetin -- a well-studied polyphenol with broad anti-cancer activity. No true cereal grain contains rutin.
+Second, buckwheat is the richest dietary source of rutin (quercetin-3-rutinoside), a glycosylated flavonoid that reduces capillary fragility, inhibits platelet aggregation, and modulates inflammatory pathways. Gut bacteria convert rutin to quercetin, producing sustained quercetin plasma levels that exceed what quercetin supplements achieve.
 
-A 2018 systematic review (PMID 29544922) confirmed that buckwheat consumption was associated with reduced blood glucose, total cholesterol, and blood pressure, with effects attributed to the combined action of rutin, D-chiro-inositol, and its resistant starch content.
+Eating buckwheat cookies is associated with reductions in serum levels of myeloperoxidase -- a pro-inflammatory enzyme and predictor of cardiovascular events -- suggesting a direct anti-inflammatory effect of buckwheat consumption ([Wieslander et al., 2011, *Tohoku J Exp Med*](https://pubmed.ncbi.nlm.nih.gov/21931228/)).
 
-The protein story is equally notable. Unlike wheat, rice, or corn, buckwheat protein contains all essential amino acids in good proportions, with particularly high lysine content. Its protein digestibility-corrected amino acid score (PDCAAS) of 0.7 approaches that of animal protein. This makes buckwheat especially valuable in plant-based diets where lysine is typically the limiting amino acid.
-
-Buckwheat is also naturally gluten-free, making it accessible to people with celiac disease or gluten sensitivity -- though cross-contamination during processing is common, so certified gluten-free sources matter.
+Buckwheat has a low-to-moderate glycemic index (estimated 40-60 depending on preparation), with its fiber and protein content slowing glucose absorption compared to refined cereal grains. An assessment of groats including buckwheat confirmed a significantly lower glycemic response than wheat-based products ([Rozanska et al., 2020, *Rocz Panstw Zakl Hig*](https://pubmed.ncbi.nlm.nih.gov/32227786/)).
 
 ## How to Use It
 
-Toast raw groats in a dry pan for nutty depth (this is kasha). Cook at a 1:2 ratio with water for about 15 minutes. Use buckwheat flour for soba noodles, Breton galettes, or blinis. Raw groats work in overnight porridge soaked in yogurt. Buckwheat sprouts are nutritional powerhouses with dramatically increased rutin content.
+Cook as kasha (toasted buckwheat groats) as a grain side dish. Use buckwheat flour for crepes or pancakes (100% buckwheat crepes are traditional in Brittany). Soba noodles are traditionally 30-50% buckwheat (check labels -- some are mostly wheat). Buckwheat honey is exceptionally rich in polyphenols.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| Mushrooms | Umami depth complements earthy nuttiness | Eastern European (kasha) |
-| Soba dipping sauce (dashi, soy) | Traditional serving for buckwheat noodles | Japanese |
-| Caramelized onions | Sweet allium balances buckwheat's slight bitterness | Eastern European |
-| Butter or ghee | Fat improves absorption of fat-soluble compounds | Breton / Russian |
-| Honey | Buckwheat honey is traditional; sweetens bitter notes | Russian / Eastern European |
+| Mushrooms | Umami complement; classic kasha and mushroom (buckwheat pilaf) | Eastern European |
+| Onion | Flavour base for kasha; caramelised onion with roasted buckwheat | Eastern European |
+| Goat's milk yogurt | Complete protein + probiotic combination | General |
+| Smoked salmon | Complete amino acid + omega-3 combination | General |
+| Honey (buckwheat) | Highest polyphenol content of any honey variety | Global |
 
 ## Flavor Profile
 
-Earthy and nutty with a slight bitterness, especially when toasted (kasha). Raw buckwheat is milder and more neutral. The texture is tender but distinct -- individual grains hold their shape without becoming mushy. Buckwheat flour has a slightly gritty quality that gives character to crepes and noodles.
+Nutty, earthy, and robust with a slightly bitter finish. Toasted kasha (the most common preparation) develops a deep, roasted grain flavour. Raw buckwheat is milder and more delicate. Buckwheat flour has a distinctive grey-brown colour and a pronounced nuttiness that pairs well with cream, eggs, and smoked foods.
 
 ## The Science
 
-- Li & Zhang (2018): Systematic review -- buckwheat reduces glucose, cholesterol, and blood pressure (PMID 29544922)
-- He et al. (2007): Chinese population study -- regular consumers had better metabolic markers (PMID 17093136)
-- Kawa et al. (2015): Buckwheat is richest dietary source of D-chiro-inositol for insulin sensitivity (PMID 25694675)
-- Tomotake et al. (2006): Buckwheat protein lowers cholesterol comparable to soy protein (PMID 16176615)
+- [Wieslander et al., 2011, *Tohoku J Exp Med*](https://pubmed.ncbi.nlm.nih.gov/21931228/): Eating buckwheat cookies associated with reduced serum myeloperoxidase -- a pro-inflammatory enzyme linked to cardiovascular risk.
+- [Rozanska et al., 2020, *Rocz Panstw Zakl Hig*](https://pubmed.ncbi.nlm.nih.gov/32227786/): Buckwheat groats confirmed to have a significantly lower glycemic index than wheat-based cereal products.
+- [Aune et al., 2016, *BMJ*](https://pubmed.ncbi.nlm.nih.gov/27301975/): Whole grain consumption associated with dose-response reductions in all-cause and cardiovascular mortality.
+
+## References
+
+1. Wieslander G, Fabjan N, Vogrinčič M, et al. **Eating buckwheat cookies is associated with the reduction in serum levels of myeloperoxidase and cholesterol.** *Tohoku J Exp Med*. 2011;225(2):123-130. PMID: [21931228](https://pubmed.ncbi.nlm.nih.gov/21931228/). doi:[10.1620/tjem.225.123](https://doi.org/10.1620/tjem.225.123)
+2. Rozanska D, Regulska-Ilow B. **Assessment of the glycemic index of groats available on the Polish food market.** *Rocz Panstw Zakl Hig*. 2020;71(1):31-40. PMID: [32227786](https://pubmed.ncbi.nlm.nih.gov/32227786/). doi:[10.32394/rpzh.2020.0103](https://doi.org/10.32394/rpzh.2020.0103)
+3. Aune D, Keum N, Giovannucci E, et al. **Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality.** *BMJ*. 2016;353:i2716. PMID: [27301975](https://pubmed.ncbi.nlm.nih.gov/27301975/). doi:[10.1136/bmj.i2716](https://doi.org/10.1136/bmj.i2716)
 
 ## Key Nutrients
 
-| Nutrient | Per 100g | Notes |
+| Nutrient | Per 100g (cooked) | Notes |
 |----------|----------|-------|
-| Rutin | 12-36 mg (groats) | Flavonoid unique among grains; converted to quercetin by gut bacteria |
-| D-chiro-inositol | 2-5 mg | Richest dietary source; insulin-mimetic compound |
-| Complete protein | 13.3 g | High lysine unlike true cereals; PDCAAS 0.7 |
-| Magnesium | 231 mg (55% RDA) | Excellent source; supports insulin sensitivity |
-| Dietary fiber | 10.0 g | Includes resistant starch; supports gut microbiome |
+| Protein | 3.4 g | Complete amino acid profile; high lysine vs cereals |
+| Rutin (quercetin-3-rutinoside) | ~8-30 mg | Richest dietary source; converted to quercetin by gut bacteria |
+| Manganese | 0.5 mg | 22% DV; cofactor for antioxidant enzyme SOD |
+| Magnesium | 51 mg | 12% DV; important for insulin signaling and cardiovascular function |

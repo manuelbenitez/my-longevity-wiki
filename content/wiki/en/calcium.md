@@ -2,46 +2,59 @@
 title: Calcium
 slug: calcium
 category: nutrient
-tags: [nutrient, micronutrient, longevity-diet]
-longevity_score: 5
-last_updated: 2026-04-18
+tags: [calcium, bone-health, vitamin-D, cardiovascular, mineral, longevity-diet]
+longevity_score: 7
+last_updated: 2026-04-22
 ---
 
 # Calcium
 
-50-90% of US adults are deficient in calcium; it is essential for bone mineral density alongside vitamin D.
+50-90% of US adults do not meet recommended calcium intake. Calcium is essential for bone mineral density and reduces fracture risk -- but the form of calcium and its interaction with vitamin D matters enormously for both benefit and safety.
 
 ## Why It Matters for Longevity
 
-50-90% of US adults are deficient in calcium; it is essential for bone mineral density alongside vitamin D. Calcium is the primary structural component of bone and teeth (hydroxyapatite); also required for muscle contraction, nerve signal transmission, and blood clotting cascades..  Calcium should be obtained from vegetables, legumes, and small fish (e.g., canned sardines with bones), with periodic multivitamin use every 2-3 days as a fallback. Whole-food sources provide better bioavailability due to accompanying cofactors; small fish and legumes deliver calcium without the saturated fat of dairy..  Higher vitamin D and calcium intake combined reduced hip fracture risk by up to 26% in adults over 65; calcium alone showed minimal benefit without adequate vitamin D, confirming the critical synergy emphasized in the Longevity Diet. (Bischoff-Ferrari et al., JAMA (2005) — PMID 15870411)  Meta-analysis of 11 RCTs found that calcium supplements (without vitamin D) were associated with a 30% increased risk of myocardial infarction, cautioning against isolated high-dose calcium supplementation and supporting the book's preference for dietary sources. (Bolland et al., BMJ (2010) — PMID 20671013)
+Calcium and vitamin D work together for bone health. However, the evidence distinguishes clearly between dietary calcium (protective) and calcium supplements (potentially harmful). The Longevity Diet achieves calcium through food sources -- green vegetables, fortified plant milks, fish with bones -- not supplements.
 
-## How to Use It
+Vitamin D supplementation reduces fracture risk in post-menopausal women and older adults, with the strongest evidence from a Cochrane meta-analysis of RCTs; combining vitamin D with calcium produced the greatest benefit for hip fracture prevention ([Avenell et al., 2014, *Cochrane Database Syst Rev*](https://pubmed.ncbi.nlm.nih.gov/24729336/)).
 
-Pairs well with vitamin-d, sardines, black-beans. Use as a nutrient in your daily meals according to the Longevity Diet guidelines.
+Calcium supplements (without vitamin D) were associated with a 30% increased risk of myocardial infarction in a meta-analysis of 11 RCTs, without clear benefit on fracture outcomes -- strongly cautioning against calcium supplementation outside of clinical need ([Bolland et al., 2010, *BMJ*](https://pubmed.ncbi.nlm.nih.gov/20671013/)). This finding shapes the Longevity Diet's food-first approach.
+
+Key dietary sources in the Longevity Diet: dark green vegetables (40-60% bioavailability vs ~32% from dairy), sardines and canned fish with soft bones, fortified plant milks, and tofu set with calcium sulfate.
+
+## How to Get It
+
+Prioritise food sources: bok choy, broccoli, kale, sardines with bones, calcium-set tofu, fortified plant milks. Aim for ~1,000 mg/day from food before considering any supplementation. Vitamin D status matters: calcium absorption drops dramatically when vitamin D is deficient. Avoid supplemental calcium in the absence of clinical deficiency.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| vitamin-d | See synergies | The Longevity Diet |
-| sardines | See synergies | The Longevity Diet |
-| black-beans | See synergies | The Longevity Diet |
-| kale | See synergies | General nutrition |
-
-## Synergies
-
-- **Vitamin-D** (synergy): Vitamin D (as calcitriol) directly upregulates intestinal calcium transport proteins (TRPV6, calbindin-D9k), increasing calcium absorption by 30-80%; both are required for bone mineral density maintenance.  - **Magnesium** (synergy): Magnesium is required for parathyroid hormone function; deficiency impairs the body's ability to regulate calcium metabolism and mobilize calcium appropriately.  - **Vitamin-K2** (complement): Vitamin K2 activates osteocalcin and matrix GLA protein, directing calcium to bones rather than arteries, reducing the cardiovascular risk associated with high calcium intake.
+| Leafy greens | High calcium bioavailability from Brassica; plant-based bone support | Mediterranean |
+| Sardines with bones | ~325 mg calcium per 100g with soft, edible bones | Mediterranean |
+| Vitamin D (sunlight/supplement) | Dramatically increases calcium absorption in gut | Universal |
+| Tofu (calcium-set) | ~350 mg per 100g; concentrated plant-calcium source | East Asian |
+| Sesame seeds / tahini | 88 mg calcium per tbsp; traditional Mediterranean calcium source | Mediterranean |
 
 ## Flavor Profile
 
-Category: micronutrient.
+Calcium is a mineral present in foods, not an ingredient with its own flavour. The foods richest in bioavailable calcium span the full flavour spectrum: from the mild sweetness of bok choy to the richness of sardines to the nutty depth of tahini.
 
 ## The Science
 
-- Bischoff-Ferrari et al., JAMA (2005) — PMID 15870411: Higher vitamin D and calcium intake combined reduced hip fracture risk by up to 26% in adults over 65; calcium alone showed minimal benefit without adequate vitamin D, confirming the critical synergy emphasized in the Longevity Diet.  - Bolland et al., BMJ (2010) — PMID 20671013: Meta-analysis of 11 RCTs found that calcium supplements (without vitamin D) were associated with a 30% increased risk of myocardial infarction, cautioning against isolated high-dose calcium supplementation and supporting the book's preference for dietary sources.  - Tai et al., Current Osteoporosis Reports (2015) — PMID 25990339: Dietary calcium from plant sources (legumes, leafy greens, fortified foods) is associated with improved bone mineral density without the cardiovascular risks of high-dose calcium supplements, supporting whole-food calcium strategies for healthy aging.  - Book claim (high confidence): 50-90% of US adults are deficient in calcium; it is essential for bone mineral density alongside vitamin D.  - Book claim (high confidence): Calcium should be obtained from vegetables, legumes, and small fish (e.g., canned sardines with bones), with periodic mu
+- [Avenell et al., 2014, *Cochrane Database Syst Rev*](https://pubmed.ncbi.nlm.nih.gov/24729336/): Cochrane meta-analysis -- vitamin D combined with calcium produces the greatest reduction in hip fracture risk; vitamin D alone reduces risk in institutionalised older adults.
+- [Bolland et al., 2010, *BMJ*](https://pubmed.ncbi.nlm.nih.gov/20671013/): Meta-analysis of 11 RCTs -- calcium supplements (without vitamin D) associated with 30% increased myocardial infarction risk; dietary calcium does not carry this risk.
+
+## References
+
+1. Avenell A, Mak JC, O'Connell D. **Vitamin D and vitamin D analogues for preventing fractures in post-menopausal women and older men.** *Cochrane Database Syst Rev*. 2014;2014(4):CD000227. PMID: [24729336](https://pubmed.ncbi.nlm.nih.gov/24729336/). doi:[10.1002/14651858.CD000227.pub4](https://doi.org/10.1002/14651858.CD000227.pub4)
+2. Bolland MJ, Avenell A, Baron JA, et al. **Effect of calcium supplements on risk of myocardial infarction and cardiovascular events: meta-analysis.** *BMJ*. 2010;341:c3691. PMID: [20671013](https://pubmed.ncbi.nlm.nih.gov/20671013/). doi:[10.1136/bmj.c3691](https://doi.org/10.1136/bmj.c3691)
 
 ## Key Nutrients
 
-| Nutrient | Per 100g | Notes |
-|----------|----------|-------|
-| Calcium (elemental) | Varies by food source; canned sardines with bones ~382 mg, kale ~254 mg, cooked black beans ~27 mg | Bioavailability ranges from ~5% (spinach, high oxalate) to ~32% (milk) to ~60% (kale, low oxalate); fractional absorption increases when intake is low. |
+| Source | Calcium per serving | Bioavailability |
+|--------|--------------------|--------------------|
+| Bok choy (100g) | 105 mg | ~54% |
+| Broccoli (100g) | 47 mg | ~53% |
+| Sardines with bones (100g) | 325 mg | ~30-32% |
+| Cow's milk (240 mL) | 300 mg | ~32% |
+| Calcium-set tofu (100g) | ~350 mg | ~31% |
