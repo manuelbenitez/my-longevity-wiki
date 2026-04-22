@@ -16,6 +16,14 @@
       "source": "/",
       "destination": "/en/",
       "permanent": false
-    }
+    },
+
+    { "source": "/wiki/brown-rice",          "destination": "/en/ingredients/brown-rice/",          "permanent": true },
+    { "source": "/wiki/green-tea",           "destination": "/en/ingredients/green-tea/",           "permanent": true },
+    { "source": "/wiki/walnuts",             "destination": "/en/ingredients/walnuts/",             "permanent": true },
+    { "source": "/wiki/purslane",            "destination": "/en/ingredients/purslane/",            "permanent": true },
+    { "source": "/wiki/spinach-chard-beets", "destination": "/en/ingredients/spinach-chard-beets/", "permanent": true },
+
+    { "source": "/wiki/:slug*", "destination": "/en/ingredients/", "permanent": true }
   ]
 }
