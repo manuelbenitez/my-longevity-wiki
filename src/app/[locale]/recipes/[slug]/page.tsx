@@ -99,6 +99,21 @@ export default async function RecipePage({
       : frontmatter.tags?.includes("vegetarian")
         ? "https://schema.org/VegetarianDiet"
         : undefined,
+    author: {
+      "@type": "Person",
+      name: "Manuel Benitez",
+      url: `${SITE_URL}/${locale}/about/`,
+      jobTitle: "Software Engineer",
+      sameAs: [
+        "https://github.com/manuelbenitez",
+        "mailto:manuel@mbdev.to",
+      ],
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Longevity Wiki",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo-large.svg` },
+    },
   };
 
   return (

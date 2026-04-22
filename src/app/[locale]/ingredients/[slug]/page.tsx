@@ -88,7 +88,16 @@ export default async function IngredientPage({
     articleSection: frontmatter.category,
     keywords: frontmatter.tags?.join(", "),
     dateModified: frontmatter.last_updated,
-    author: { "@type": "Organization", name: "Longevity Wiki" },
+    author: {
+      "@type": "Person",
+      name: "Manuel Benitez",
+      url: `${SITE_URL}/${locale}/about/`,
+      jobTitle: "Software Engineer",
+      sameAs: [
+        "https://github.com/manuelbenitez",
+        "mailto:manuel@mbdev.to",
+      ],
+    },
     publisher: {
       "@type": "Organization",
       name: "Longevity Wiki",
