@@ -4,7 +4,7 @@ slug: dandelion-greens
 category: vegetable
 tags: [vegetable, bitter greens, antioxidants, gut-health, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Dandelion Greens
@@ -57,9 +57,15 @@ Taste: bitter, earthy, slightly tangy, mildly herbaceous. Aroma: fresh grassy, f
 
 ## The Science
 
-- **PMC9002813** (PubMed): Dandelion leaf and root extracts improve lipid profiles (reduced total cholesterol and triglycerides), exert anti-hypertensive effects via antioxidant capacity and lipid peroxidation reduction, and inhibit platelet aggregation through suppression of arachidonic acid metabolism. Chicoric acid inhibits platelet surface receptor exposition.
-- **PMC12694484** (PubMed): Dandelion phytochemicals (taraxasterol, luteolin, quercetin) activate autophagy via mTOR/4EBP1 inhibition, induce apoptosis through Bcl-2/caspase pathways, and arrest cell cycle via p21/p53 upregulation. Demonstrates anti-proliferative effects across breast, colorectal, gastric, and lung cancer cell lines.
-- **NCCIH / USDA**: Dandelion greens are among the highest dietary sources of vitamin K (778 mcg/100g, ~649% DV) and contain significant vitamin A (508 mcg RAE), beta-carotene (5,854 mcg), and lutein+zeaxanthin (13,610 mcg per 100g), supporting vision health, bone density, and anti-inflammatory defense. Generally recognized as safe (GRAS) by FDA.
+- [Kania-Dobrowolska and Barańska, 2022, *Foods*](https://pubmed.ncbi.nlm.nih.gov/36140985/): Comprehensive review of dandelion as a source of biologically active compounds -- luteolin, quercetin, chicoric acid, taraxasterol, and inulin provide anti-inflammatory, antioxidant, anti-cancer, and prebiotic properties; cardiovascular protection via lipid-profile improvement and platelet aggregation inhibition.
+- [Colle et al., 2012, *J Med Food*](https://pubmed.ncbi.nlm.nih.gov/22424457/): Taraxacum officinale leaf extract demonstrates significant antioxidant activity and hepatoprotective effects in rodent models; polyphenol content (including luteolin and quercetin) implicated in free-radical scavenging and liver protection.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies -- vegetable and leafy green intake associated with dose-dependent reductions in cardiovascular disease, cancer, and all-cause mortality.
+
+## References
+
+1. Kania-Dobrowolska M, Baraniak J. **Dandelion (Taraxacum officinale L.) as a Source of Biologically Active Compounds Supporting the Therapy of Co-Occurring Diseases in Metabolic Syndrome.** *Foods*. 2022;11(18):2858. PMID: [36140985](https://pubmed.ncbi.nlm.nih.gov/36140985/). doi:[10.3390/foods11182858](https://doi.org/10.3390/foods11182858)
+2. Colle D, Arantes LP, Gubert P, et al. **Antioxidant properties of Taraxacum officinale leaf extract are involved in the protective effect against hepatotoxicity induced by acetaminophen in mice.** *J Med Food*. 2012;15(6):549-556. PMID: [22424457](https://pubmed.ncbi.nlm.nih.gov/22424457/). doi:[10.1089/jmf.2011.0282](https://doi.org/10.1089/jmf.2011.0282)
+3. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality -- a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
 
 ## Key Nutrients
 

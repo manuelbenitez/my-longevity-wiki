@@ -4,7 +4,7 @@ slug: dates
 category: fruit
 tags: [potassium, fibre, natural-sweetener, glycaemic-index, antioxidant, fasting]
 longevity_score: 5
-last_updated: 2026-04-12
+last_updated: 2026-04-22
 ---
 
 # Dates
@@ -43,10 +43,17 @@ Intensely sweet with layers of caramel, butterscotch, and honey. Medjool dates a
 
 ## The Science
 
-- Alkaabi et al. (2011): dates have GI 42-55 despite ~66g sugar per 100g, moderated by fibre matrix
-- Rock et al. (2009): RCT confirmed no adverse effects on blood glucose or lipids from date consumption
-- Vayalil (2012): comprehensive review found anti-inflammatory and anti-tumour properties from phenolic acids
-- Fontana: dates referenced as traditional fast-breaking food in time-restricted eating protocols
+- [Alkaabi et al., 2011, *Nutr J*](https://pubmed.ncbi.nlm.nih.gov/21619670/): Five varieties of dates had glycaemic indices of 42--55 in both healthy and diabetic subjects -- substantially lower than refined sugar and white bread, driven by the fibre matrix and fructose:glucose ratio.
+- [Vayalil, 2012, *Crit Rev Food Sci Nutr*](https://pubmed.ncbi.nlm.nih.gov/22214443/): Comprehensive review of date fruit phytochemistry -- high polyphenol content (ferulic, caffeic, protocatechuic acid) with antioxidant, anti-inflammatory, and anti-tumour properties; phenolic acids comparable in potency to some berries; dates also provide significant potassium (696 mg/100g) and magnesium (54 mg/100g).
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies -- total fruit intake (including low-GI whole fruits like dates) associated with dose-dependent reductions in cardiovascular disease, cancer, and all-cause mortality.
+
+## References
+
+1. Alkaabi JM, Al-Dabbagh B, Ahmad S, Saadi HF, Gariballa S, Al Ghazali M. **Glycemic indices of five varieties of dates in healthy and diabetic subjects.** *Nutr J*. 2011;10:59. PMID: [21619670](https://pubmed.ncbi.nlm.nih.gov/21619670/). doi:[10.1186/1475-2891-10-59](https://doi.org/10.1186/1475-2891-10-59)
+2. Vayalil PK. **Date fruits (Phoenix dactylifera Linn): an emerging medicinal food.** *Crit Rev Food Sci Nutr*. 2012;52(3):249-271. PMID: [22214443](https://pubmed.ncbi.nlm.nih.gov/22214443/). doi:[10.1080/10408398.2010.529829](https://doi.org/10.1080/10408398.2010.529829)
+3. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality -- a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
+
+
 
 ## Key Nutrients
 

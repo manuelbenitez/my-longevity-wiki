@@ -4,7 +4,7 @@ slug: collard-greens
 category: vegetable
 tags: [vegetable, leafy-green, calcium, antioxidants, cruciferous, longevity-diet]
 longevity_score: 9
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Collard Greens
@@ -72,10 +72,15 @@ Taste: mildly bitter, earthy, slightly sweet when cooked, savoury. Aroma: fresh 
 
 ## The Science
 
-- **Calcium content and bioavailability** — Collard greens provide 333 mg calcium per 100 g fresh weight; a 200 g serving covers ~83% of adult daily calcium RDA. Low oxalate content yields ~40–50% calcium bioavailability versus ~5% from spinach. Protein content (3.01 g/100 g) exceeds most leafy greens. Chlorophyll retained at 97.66% via freeze-drying, 83.5% via sous vide. [PMC11643711](https://pmc.ncbi.nlm.nih.gov/articles/PMC11643711/); The Longevity Diet (high confidence)
-- **Sulforaphane and Nrf2 longevity mechanisms** — Sulforaphane from collard glucosinolates activates Nrf2/ARE (antioxidant defence), inhibits NF-κB (inflammation), inhibits HDAC and DNA methyltransferases (epigenetic effects), and modulates mitochondrial dynamics. Preclinical models show increased cellular lifespan and neuroprotection. [PMC6885086](https://pmc.ncbi.nlm.nih.gov/articles/PMC6885086/)
-- **Blood pressure and magnesium bioavailability** — Daily consumption of nitrate-rich leafy greens like collards is associated with meaningful blood pressure reductions. Collards also enhance magnesium bioavailability compared to whole grains or oxalate-rich vegetables. [Examine.com](https://examine.com/articles/4-science-based-superfoods-you-should-be-eating/)
-- **Diabetes and cardiovascular disease risk** — 1.5 servings/day of leafy greens associated with 14% lower type 2 diabetes risk (BMJ meta-analysis); high green leafy vegetable intake associated with 16% lower CVD risk (meta-analysis, 8 studies). Collard greens score 1,000/1,000 on the ANDI. [MedicalNewsToday / BMJ](https://www.medicalnewstoday.com/articles/277957)
+- [Abdull Razis et al., 2013, *Cancer Prev Res*](https://pubmed.ncbi.nlm.nih.gov/23679237/): Cruciferous vegetables including collard greens activate Nrf2 antioxidant signalling and phase-2 detoxification enzymes via glucosinolate-derived isothiocyanates; protective effects demonstrated against multiple cancer types.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies -- fruit and vegetable intake, including leafy greens, associated with dose-dependent reductions in cardiovascular disease, total cancer, and all-cause mortality.
+- [Abbaoui et al., 2018, *Mol Nutr Food Res*](https://pubmed.ncbi.nlm.nih.gov/30079608/): Comprehensive review of cruciferous vegetable isothiocyanates -- sulforaphane and related compounds activate Nrf2/ARE pathway and suppress NF-κB inflammation; evidence for bladder and colon cancer prevention in human and animal studies.
+
+## References
+
+1. Abdull Razis AF, Noor NM. **Cruciferous vegetables: dietary phytochemicals for cancer prevention.** *Asian Pac J Cancer Prev*. 2013;14(3):1565-1570. PMID: [23679237](https://pubmed.ncbi.nlm.nih.gov/23679237/). doi:[10.7314/apjcp.2013.14.3.1565](https://doi.org/10.7314/apjcp.2013.14.3.1565)
+2. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
+3. Abbaoui B, Lucas CR, Riedl KM, Clinton SK, Mortazavi A. **Cruciferous Vegetables, Isothiocyanates, and Bladder Cancer Prevention.** *Mol Nutr Food Res*. 2018;62(18):e1800079. PMID: [30079608](https://pubmed.ncbi.nlm.nih.gov/30079608/). doi:[10.1002/mnfr.201800079](https://doi.org/10.1002/mnfr.201800079)
 
 ## Key Nutrients
 

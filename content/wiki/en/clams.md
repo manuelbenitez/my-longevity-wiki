@@ -2,52 +2,60 @@
 title: Clams
 slug: clams
 category: shellfish
-tags: [shellfish, omega-3, zinc, longevity-diet]
+tags: [shellfish, omega-3, vitamin-b12, iron, longevity-diet]
 longevity_score: 7
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Clams
 
-Clams are recommended as a high omega-3, omega-6, and vitamin B12 shellfish for the Longevity Diet; included as part of 2–3 seafood servings per week
+Clams deliver over 4,000% of the daily vitamin B12 requirement per 100g cooked -- the highest B12 concentration of any food -- alongside highly bioavailable heme iron, omega-3 EPA and DHA, selenium, and zinc, all in roughly 148 kcal.
 
 ## Why It Matters for Longevity
 
-Clams are recommended as a high omega-3, omega-6, and vitamin B12 shellfish for the Longevity Diet; included as part of 2–3 seafood servings per week Exceptionally high vitamin B12 content prevents deficiency; omega-3 EPA/DHA reduces cardiovascular risk and inflammation; lean protein supports muscle maintenance.  Clams are used in the Longevity Diet (spaghetti with clams and mussels); top food source of vitamin B12 at 74.2 mcg per 75 g cooked (1,237% DV); recommended at ~60 g total shellfish per serving Among the richest dietary sources of vitamin B12; critical for neurological function, DNA synthesis, and prevention of megaloblastic anemia.  PMID 26301386: Shellfish including clams are among the most nutrient-dense animal foods; their vitamin B12 content far exceeds that of meat, fish, or dairy; B12 adequacy is a key longevity-relevant biomarker (PubMed)  PMID 24499268: Clams provide highly bioavailable iron (heme iron) and zinc; regular shellfish consumption is associated with reduced iron deficiency anemia and improved immune function in population studies (PubMed)
+Clams are the centerpiece of spaghetti alle vongole in the Longevity Diet, providing 2--3 shellfish servings per week as part of the recommended seafood pattern.
+
+Vitamin B12 deficiency is common and under-recognised. B12 from animal foods -- especially bivalve mollusks -- is the most bioavailable dietary form, absorbed via intrinsic factor at physiological doses and passively at high doses. Watanabe et al. ([2007, *Exp Biol Med*](https://pubmed.ncbi.nlm.nih.gov/17959839/)) confirmed that animal-sourced B12, particularly from shellfish, has the highest bioavailability of any dietary source, substantially exceeding plant-based pseudocobalamins.
+
+The broader health case for shellfish consumption is supported by a comprehensive review of shellfish nutritional science ([Venugopal et al., 2017, *Compr Rev Food Sci Food Saf*](https://pubmed.ncbi.nlm.nih.gov/33371588/)), which documented clams and mussels as exceptional sources of B12, heme iron, zinc, selenium, and omega-3 EPA/DHA -- with mercury burden well below that of large predatory fish. The cardioprotective benefits of seafood consumption, including shellfish, are well-established: a landmark review by Mozaffarian and Rimm ([2006, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/17047219/)) found that eating fish or shellfish 1--2 times per week reduces coronary heart disease mortality by approximately 36% and all-cause mortality by 17%.
 
 ## How to Use It
 
-Pairs well with pasta, olive oil, garlic. Use as a shellfish in your daily meals according to the Longevity Diet guidelines.
+Steam clams in white wine, garlic, and extra-virgin olive oil -- this is spaghetti alle vongole. The steaming liquid (clam broth) contains water-soluble B vitamins and minerals; use it as part of the sauce. Canned clams retain most B12 and are a practical alternative. Two servings of shellfish per week is sufficient to maintain robust B12 status.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| pasta | See synergies | The Longevity Diet |
-| olive oil | See synergies | culinary tradition |
-| garlic | See synergies | culinary tradition |
-| white wine | See synergies | culinary tradition |
-| parsley | See synergies | culinary tradition |
-| mussels | See synergies | The Longevity Diet |
-
-## Synergies
-
-- **Pasta** (complement): Spaghetti alle vongole is the signature longevity dish; clams add complete protein and B12 to the carbohydrate base, balancing the macronutrient profile  - **Mussels** (complement): Both Longevity Diet shellfish; combining diversifies minerals and trace elements while keeping mercury exposure very low  - **Olive Oil** (synergy): Olive oil's monounsaturated fats improve absorption of fat-soluble vitamins A and E from clams and reduce any pro-inflammatory effects of shellfish cholesterol
+| Pasta | Carbohydrate base for complete meal; spaghetti alle vongole | Italian (The Longevity Diet) |
+| Extra-virgin olive oil | Fat enhances absorption of fat-soluble vitamins A and E; reduces any pro-inflammatory effect | Mediterranean |
+| Garlic | Allicin provides complementary cardiovascular benefit; flavor synergy | Italian |
+| Parsley | Vitamin C enhances non-heme iron absorption from clam broth | Mediterranean |
+| Lemon | Vitamin C enhances iron absorption; brightens the dish | Mediterranean |
+| Mussels | Both Longevity Diet shellfish; diversifies minerals and trace elements | Mediterranean |
 
 ## Flavor Profile
 
-Taste: briny, sweet, oceanic, umami-rich. Aroma: ocean salt, marine, steamed shellfish. Texture: tender, slightly chewy, silky when not overcooked. Category: bivalve shellfish.
+Briny, sweet, and oceanic with a pronounced umami depth. Aroma is clean and marine. Texture is tender and silky when cooked just until the shells open -- rubbery if overcooked. The broth is intensely flavoured and worth consuming.
 
 ## The Science
 
-- PubMed: PMID 26301386: Shellfish including clams are among the most nutrient-dense animal foods; their vitamin B12 content far exceeds that of meat, fish, or dairy; B12 adequacy is a key longevity-relevant biomarker  - PubMed: PMID 24499268: Clams provide highly bioavailable iron (heme iron) and zinc; regular shellfish consumption is associated with reduced iron deficiency anemia and improved immune function in population studies  - Examine.com: Clams are exceptionally rich in heme iron (~14 mg per 100 g cooked, nearly 80% DV), vitamin B12, selenium, and omega-3s; low in mercury relative to larger seafood; sustainable bivalve aquaculture has minimal environmental impact  - Book claim (high confidence): Clams are recommended as a high omega-3, omega-6, and vitamin B12 shellfish for the Longevity Diet; included as part of   - Book claim (high confidence): Clams are used in the Longevity Diet (spaghetti with clams and mussels); top food source of vitamin B12 at 74.2 mcg per 
+- [Watanabe et al., 2007, *Exp Biol Med*](https://pubmed.ncbi.nlm.nih.gov/17959839/): Animal-sourced B12, particularly from bivalve mollusks, has the highest bioavailability of any dietary source; deficiency prevalent in vegetarians and older adults.
+- [Venugopal et al., 2017, *Compr Rev Food Sci Food Saf*](https://pubmed.ncbi.nlm.nih.gov/33371588/): Comprehensive review of shellfish nutritional science -- clams among the richest sources of B12, heme iron, zinc, selenium, and omega-3 EPA/DHA; low mercury relative to large predatory fish.
+- [Mozaffarian and Rimm, 2006, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/17047219/): Fish and shellfish consumption 1--2 times per week associated with ~36% lower coronary heart disease mortality and ~17% lower all-cause mortality.
+
+## References
+
+1. Watanabe F. **Vitamin B12 sources and bioavailability.** *Exp Biol Med (Maywood)*. 2007;232(10):1266-1274. PMID: [17959839](https://pubmed.ncbi.nlm.nih.gov/17959839/). doi:[10.3181/0703-MR-67](https://doi.org/10.3181/0703-MR-67)
+2. Venugopal V, Gopakumar K. **Shellfish: Nutritive Value, Health Benefits, and Consumer Safety.** *Compr Rev Food Sci Food Saf*. 2017;16(6):1219-1242. PMID: [33371588](https://pubmed.ncbi.nlm.nih.gov/33371588/). doi:[10.1111/1541-4337.12312](https://doi.org/10.1111/1541-4337.12312)
+3. Mozaffarian D, Rimm EB. **Fish intake, contaminants, and human health: evaluating the risks and the benefits.** *JAMA*. 2006;296(15):1885-1899. PMID: [17047219](https://pubmed.ncbi.nlm.nih.gov/17047219/). doi:[10.1001/jama.296.15.1885](https://doi.org/10.1001/jama.296.15.1885)
 
 ## Key Nutrients
 
-| Nutrient | Per 100g | Notes |
+| Nutrient | Per 100g (cooked) | Notes |
 |----------|----------|-------|
-| Vitamin B12 | 98.9 mcg (cooked) | Among the highest B12 concentrations of any food; animal-sourced B12 is highly bioavailable (>50%); cooking does not substantially reduce B12 |
-| Iron (heme) | 13.98 mg (cooked) | Heme iron has ~20–30% absorption rate vs. ~5% for non-heme; not inhibited by phytate or calcium |
-| Omega-3 (EPA + DHA) | ~0.4 g (cooked) | Marine-sourced; superior bioavailability compared to plant ALA; supports cardiovascular and neurological health |
-| Selenium | 32 mcg (cooked) | Highly bioavailable selenomethionine and selenocysteine forms; supports glutathione peroxidase antioxidant system |
-| Zinc | 2.1 mg (cooked) | Bioavailability ~30–40% from shellfish; critical for immune function and DNA repair |
+| Vitamin B12 | 98.9 mcg (4,120% DV) | Highest B12 concentration of any food; absorbed via intrinsic factor; highly bioavailable methylcobalamin form |
+| Iron (heme) | 13.98 mg (78% DV) | Heme iron absorbs at 20--30% vs ~5% for plant non-heme iron; not inhibited by phytate |
+| Omega-3 (EPA + DHA) | ~0.4 g | Marine-sourced; superior bioavailability vs plant ALA; cardiovascular and neurological benefits |
+| Selenium | 32 mcg (58% DV) | Selenomethionine form; ~90% bioavailable; glutathione peroxidase cofactor |
+| Zinc | 2.1 mg | ~30--40% bioavailability from shellfish; immune function and DNA repair |
