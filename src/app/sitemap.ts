@@ -63,9 +63,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // Ingredient pages
-  for (const locale of LOCALES) {
-    for (const slug of ingredientSlugs) {
+  // Ingredient pages — only include a locale URL if the content file actually exists.
+  // Without this guard the sitemap would list es URLs for en-only ingredients, causing
+  // Google to crawl 126 duplicate pages (en content served at es URLs via fallback).
+  for (const slug of ingredientSlugs) {
+    for (const locale of LOCALES) {
+      if (!fs.existsSync(path.join(CONTENT_DIR, "wiki", locale, `${slug}.md`))) continue;
       entries.push({
         url: `${SITE_URL}/${locale}/ingredients/${slug}`,
         changeFrequency: "monthly",
@@ -74,9 +77,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // Recipe pages
-  for (const locale of LOCALES) {
-    for (const slug of recipeSlugs) {
+  // Recipe pages — same guard: only include es URLs where an es file exists.
+  for (const slug of recipeSlugs) {
+    for (const locale of LOCALES) {
+      if (!fs.existsSync(path.join(CONTENT_DIR, "recipes", locale, `${slug}.md`))) continue;
       entries.push({
         url: `${SITE_URL}/${locale}/recipes/${slug}`,
         changeFrequency: "monthly",

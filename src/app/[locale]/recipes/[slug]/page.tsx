@@ -2,7 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getAllRecipeSlugs, getRecipe, recipeLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -73,6 +73,12 @@ export default async function RecipePage({
   setRequestLocale(locale);
   const recipe = getRecipe(slug, locale);
   if (!recipe) notFound();
+
+  // Redirect to English if no locale-specific file exists (avoids duplicate content).
+  const availableLocales = recipeLocales(slug);
+  if (!availableLocales.includes(locale)) {
+    redirect(`/en/recipes/${slug}`);
+  }
 
   const { frontmatter, content } = recipe;
   const html = await markdownToHtml(content);

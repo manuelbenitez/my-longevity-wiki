@@ -2,7 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getAllWikiSlugs, getWikiEntry, getAllRecipes, wikiLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -62,6 +62,13 @@ export default async function IngredientPage({
   setRequestLocale(locale);
   const entry = getWikiEntry(slug, locale);
   if (!entry) notFound();
+
+  // If this locale has no dedicated file, getWikiEntry fell back to English.
+  // Redirect to the English page so we never serve duplicate content at es URLs.
+  const availableLocales = wikiLocales(slug);
+  if (!availableLocales.includes(locale)) {
+    redirect(`/en/ingredients/${slug}`);
+  }
 
   const { frontmatter, content } = entry;
   const html = await markdownToHtml(content);
