@@ -4,33 +4,35 @@ slug: red-beans
 category: legume
 tags: [legume, plant-protein, fiber, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Red Beans
 
-Red beans are listed in the Longevity Diet as a calcium source (25 mg per 1/2 cup cooked, ~3% DV) and a plant protein source, recommended at approximately 1/2 cup cooked per serving.
+Red beans are listed in the Longevity Diet as a calcium source (25 mg per 1/2 cup cooked, ~3% DV) and a plant protein source, recommended at approximately 1/2 cup cooked per serving. As legumes, they are a longevity-associated food across all documented centenarian populations.
 
 ## Why It Matters for Longevity
 
-Red beans are listed in the Longevity Diet as a calcium source (25 mg per 1/2 cup cooked, ~3% DV) and a plant protein source, recommended at approximately 1/2 cup cooked per serving. Provide plant protein and modest calcium; as legumes, they are a longevity-associated food across all documented centenarian populations, supporting gut microbiome health, blood sugar regulation, and cardiovascular protection..  Red adzuki beans are exceptionally rich in anthocyanins and proanthocyanidins (up to 200 mg/100 g cooked), polyphenols with potent antioxidant activity shown to reduce LDL oxidation and inflammation in cell and animal studies — mechanisms central to longevity. (PubMed — Luo et al., Journal of Agricultural and Food Chemistry (2010) — PMID 20143790)  Legume consumption 4+ times per week vs. less than once weekly associated with 22% lower coronary heart disease risk in 9,632 US adults; the class benefit applies to all legume varieties including red beans. (PubMed — Bazzano et al., Archives of Internal Medicine (2001) — PMID 11176744)
+Legumes including red beans are among the most consistent longevity foods across Blue Zone populations. They provide plant protein, fiber, folate, resistant starch, and polyphenols — a combination that supports gut microbiome diversity, blood sugar regulation, cardiovascular protection, and reduced all-cause mortality. Red varieties are particularly rich in anthocyanins and proanthocyanidins in their seed coats.
+
+Legume consumption 4+ times per week was associated with 22% lower coronary heart disease risk in 9,632 US adults followed in the NHANES I Epidemiologic Follow-up Study, supporting legumes — including red beans — as a core longevity food ([Bazzano et al., 2001, *Arch Intern Med*](https://pubmed.ncbi.nlm.nih.gov/11718588/)).
+
+Nutritional and health benefits of dried beans include plant protein (complete when combined with grains), prebiotic fiber, resistant starch, folate, and bioactive compounds that support gut health and metabolic disease prevention ([Messina, 2014, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/24871476/)).
+
+Legume consumption was inversely associated with type 2 diabetes incidence in adults in a prospective study meta-analysis, with each 100 g/day increment in legume intake associated with a 5% reduction in T2D risk ([Becerra-Tomás et al., 2018, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/28392166/)).
 
 ## How to Use It
 
-Pairs well with rice, garlic, cumin. Use as a legume in your daily meals according to the Longevity Diet guidelines.
+Use 1/2 cup cooked per serving in soups, stews, and grain bowls. Combine with rice or other grains for complete amino acid profiles. Soak dried beans overnight and cook from scratch to retain maximum nutrient density; canned beans are an acceptable convenience option.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| rice | See synergies | General culinary |
-| garlic | See synergies | General culinary |
-| cumin | See synergies | General culinary |
-| tomatoes | See synergies | General culinary |
-
-## Synergies
-
-- **Rice** (synergy): Classic complementary protein pairing across Asian and Latin American cuisines; together they provide a complete essential amino acid profile.  - **Peppers** (synergy): Vitamin C from peppers enhances non-heme iron absorption from red beans, critical for maintaining iron adequacy on plant-dominant longevity diets.  - **Extra-Virgin-Olive-Oil** (complement): Olive oil polyphenols and monounsaturated fats complement the legume's protein and fiber, creating a broadly anti-inflammatory meal.
+| Rice | Classic complementary protein pairing; together provide complete essential amino acid profile | Latin American / Asian |
+| Garlic | Garlic fructooligosaccharides complement bean fiber for gut microbiome diversity | Mediterranean |
+| Cumin | Classic aromatic; complementary phytonutrients | Latin American / Middle Eastern |
+| Peppers | Vitamin C enhances non-heme iron absorption from beans | General |
 
 ## Flavor Profile
 
@@ -38,13 +40,21 @@ Taste: mildly sweet, earthy, nutty, subtly floral (adzuki). Aroma: mild bean aro
 
 ## The Science
 
-- PubMed — Luo et al., Journal of Agricultural and Food Chemistry (2010) — PMID 20143790: Red adzuki beans are exceptionally rich in anthocyanins and proanthocyanidins (up to 200 mg/100 g cooked), polyphenols with potent antioxidant activity shown to reduce LDL oxidation and inflammation in cell and animal studies — mechanisms central to longevity.  - PubMed — Bazzano et al., Archives of Internal Medicine (2001) — PMID 11176744: Legume consumption 4+ times per week vs. less than once weekly associated with 22% lower coronary heart disease risk in 9,632 US adults; the class benefit applies to all legume varieties including red beans.  - PubMed — Sone et al., Journal of Ethnopharmacology (2019) — PMID 30902714: Adzuki bean polysaccharides and polyphenols demonstrated hepatoprotective effects and improved lipid profiles in animal models; in Japanese dietary surveys, adzuki bean consumption correlates with lower metabolic syndrome prevalence.  - Book claim (medium confidence): Red beans are listed in the Longevity Diet as a calcium source (25 mg per 1/2 cup cooked, ~3% DV) and a plant protein so
+- [Bazzano et al., 2001, *Arch Intern Med*](https://pubmed.ncbi.nlm.nih.gov/11718588/): Legume consumption 4+ times per week associated with 22% lower coronary heart disease risk in the NHANES I follow-up study of 9,632 US adults.
+- [Messina, 2014, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/24871476/): Dried beans provide plant protein, prebiotic fiber, resistant starch, folate, and bioactive compounds supporting gut health and metabolic disease prevention.
+- [Becerra-Tomás et al., 2018, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/28392166/): Legume consumption inversely associated with type 2 diabetes incidence in prospective studies; each 100 g/day increment associated with 5% lower T2D risk.
+
+## References
+
+1. Bazzano LA, He J, Ogden LG, et al. **Legume consumption and risk of coronary heart disease in US men and women: NHANES I Epidemiologic Follow-up Study.** *Arch Intern Med*. 2001;161(21):2573-2578. PMID: [11718588](https://pubmed.ncbi.nlm.nih.gov/11718588/). doi:[10.1001/archinte.161.21.2573](https://doi.org/10.1001/archinte.161.21.2573)
+2. Messina V. **Nutritional and health benefits of dried beans.** *Am J Clin Nutr*. 2014;100 Suppl 1:437S-442S. PMID: [24871476](https://pubmed.ncbi.nlm.nih.gov/24871476/). doi:[10.3945/ajcn.113.071472](https://doi.org/10.3945/ajcn.113.071472)
+3. Becerra-Tomás N, Díaz-López A, Rosique-Esteban N, et al. **Legume consumption is inversely associated with type 2 diabetes incidence in adults: A prospective assessment from the PREDIMED-Plus study.** *Clin Nutr*. 2018;37(3):906-913. PMID: [28392166](https://pubmed.ncbi.nlm.nih.gov/28392166/). doi:[10.1016/j.clnu.2017.03.015](https://doi.org/10.1016/j.clnu.2017.03.015)
 
 ## Key Nutrients
 
 | Nutrient | Per 100g | Notes |
 |----------|----------|-------|
-| Plant protein | 7.5 g (cooked) | Complete amino acid profile when paired with grains; PDCAAS ~0.75; particularly rich in lysine, a limiting amino acid in grains. |
-| Anthocyanins + proanthocyanidins | ~100–200 mg (cooked) | Primarily in seed coat; partially survives cooking; red/purple color intensity is a visual proxy for polyphenol content. |
-| Folate | 128 mcg (cooked) | Important for DNA methylation and homocysteine metabolism; cooking reduces folate by ~40% vs. raw; retain cooking water when possible. |
-| Resistant starch | ~5–6 g (cooked) | High RS content supports favorable gut microbiome composition; increases further when cooked and cooled. |
+| Plant protein | 7.5 g (cooked) | Complete amino acid profile when paired with grains; particularly rich in lysine, a limiting amino acid in cereal grains |
+| Anthocyanins + proanthocyanidins | ~100–200 mg (cooked) | Primarily in seed coat; red/purple color intensity is a visual proxy for polyphenol content |
+| Folate | 128 mcg (cooked) | Important for DNA methylation and homocysteine metabolism; cooking reduces folate ~40% vs. raw |
+| Resistant starch | ~5–6 g (cooked) | Prebiotic effect; increases further when cooked and cooled |

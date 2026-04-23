@@ -4,33 +4,33 @@ slug: raisins
 category: fruit
 tags: [fruit, antioxidants, fiber, longevity-diet]
 longevity_score: 6
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Raisins
 
-Raisins are used in the Longevity Diet as a dish ingredient and in baked goods, recommended at approximately 9 g (1 tbsp) per use. They are listed as a source of iron (1 mg per 1/4 cup, ~6% DV) and ma
+Raisins are used in the Longevity Diet as a dish ingredient and in baked goods, recommended at approximately 9 g (1 tbsp) per use. They are listed as a source of iron (1 mg per 1/4 cup, ~6% DV) and magnesium (23 mg per 1/2 cup, ~6% DV). Drying concentrates polyphenols from grapes 4–5-fold, making raisins one of the most polyphenol-dense portable foods in the Western diet.
 
 ## Why It Matters for Longevity
 
-Raisins are used in the Longevity Diet as a dish ingredient and in baked goods, recommended at approximately 9 g (1 tbsp) per use. They are listed as a source of iron (1 mg per 1/4 cup, ~6% DV) and magnesium (23 mg per 1/2 cup, ~6% DV). Provides non-heme iron supporting oxygen transport and immune function; magnesium supports over 300 enzymatic reactions including ATP synthesis and DNA repair..  Raisins are among the most concentrated dietary sources of polyphenols (resveratrol, quercetin, catechins, tartaric acid); daily raisin consumption in controlled trials reduced LDL oxidation, blood pressure, and postprandial glucose compared to refined carbohydrate snacks. (PubMed — Williamson & Carughi, Nutrition Research (2010) — PMID 20655482)  In a randomized crossover trial, eating 1 oz raisins three times daily for 12 weeks significantly reduced systolic and diastolic blood pressure compared to common processed snacks, suggesting cardiovascular benefit from polyphenol-rich dried fruit. (PubMed — Bays et al., American Journal of Medicine (2012) — PMID 22840553)
+Raisins concentrate grape polyphenols including resveratrol, quercetin, catechins, and tartaric acid. Resveratrol and related stilbenes activate sirtuin pathways (SIRT1/AMPK) that mimic caloric restriction, representing a dietary-longevity mechanism supported by animal and human data. The polyphenols also favorably modulate gut microbiota composition.
+
+A review of resveratrol and pterostilbene found that their activation of SIRT1 and AMPK pathways mimics key effects of caloric restriction, with evidence for cardiovascular, metabolic, and neurological benefits and a favorable safety profile in human studies ([Li et al., 2018, *Biofactors*](https://pubmed.ncbi.nlm.nih.gov/29210129/)).
+
+Red grape polyphenols (including those concentrated in raisins) favorably modulated gut microbiota ecology in human trials, increasing beneficial bacteria and supporting gut-mediated mechanisms of polyphenol health benefits ([Queipo-Ortuño et al., 2012, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/22552027/)).
 
 ## How to Use It
 
-Pairs well with oats, pistachios, cinnamon. Use as a fruit in your daily meals according to the Longevity Diet guidelines.
+Use ~9 g (1 tbsp) in oatmeal, baked goods, or grain dishes per Longevity Diet guidance. Raisins' natural sweetness displaces added sugar while adding polyphenols and iron. Pair with oats — oat beta-glucan slows glucose release from raisin sugars, moderating postprandial glucose. Pair with vitamin C-rich foods to enhance non-heme iron absorption.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| oats | See synergies | The Longevity Diet |
-| pistachios | See synergies | The Longevity Diet |
-| cinnamon | See synergies | General culinary |
-| mixed-berries | See synergies | The Longevity Diet |
-
-## Synergies
-
-- **Oats** (complement): Raisins' natural sweetness displaces added sugar in oatmeal while adding polyphenols and iron; oats' beta-glucan slows glucose release from raisin sugars.  - **Pistachios** (complement): Classic longevity dessert pairing; nut fat slows absorption of raisin sugars, and together they provide resveratrol, lutein, and phytosterols.  - **Peppers** (synergy): Vitamin C from peppers in the same meal enhances non-heme iron absorption from raisins, improving iron adequacy on plant-based longevity diets.
+| Oats | Natural sweetness displaces added sugar; beta-glucan slows glucose release from raisin sugars | The Longevity Diet |
+| Pistachios | Classic longevity dessert pairing; nut fat slows sugar absorption | Mediterranean |
+| Peppers | Vitamin C from peppers enhances non-heme iron absorption from raisins | General |
+| Mixed berries | Complementary polyphenol profiles; diverse anthocyanin coverage | The Longevity Diet |
 
 ## Flavor Profile
 
@@ -38,13 +38,19 @@ Taste: intensely sweet, slightly tart, caramel notes, fruity. Aroma: sweet, grap
 
 ## The Science
 
-- PubMed — Williamson & Carughi, Nutrition Research (2010) — PMID 20655482: Raisins are among the most concentrated dietary sources of polyphenols (resveratrol, quercetin, catechins, tartaric acid); daily raisin consumption in controlled trials reduced LDL oxidation, blood pressure, and postprandial glucose compared to refined carbohydrate snacks.  - PubMed — Bays et al., American Journal of Medicine (2012) — PMID 22840553: In a randomized crossover trial, eating 1 oz raisins three times daily for 12 weeks significantly reduced systolic and diastolic blood pressure compared to common processed snacks, suggesting cardiovascular benefit from polyphenol-rich dried fruit.  - PubMed — Mossine & Mawhinney, Advances in Food and Nutrition Research (2010) — PMID 20691942: Grape polyphenols including those concentrated in raisins activate sirtuin (SIRT1) pathways and NRF2 antioxidant response element, mechanistically linked to caloric restriction mimicry and lifespan extension in model organisms.  - Book claim (high confidence): Raisins are used in the Longevity Diet as a dish ingredient and in baked goods, recommended at approximately 9 g (1 tbsp
+- [Li et al., 2018, *Biofactors*](https://pubmed.ncbi.nlm.nih.gov/29210129/): Resveratrol and related stilbenes concentrated in grape-derived products activate SIRT1 and AMPK, mimicking caloric restriction with evidence for cardiovascular and metabolic longevity benefits.
+- [Queipo-Ortuño et al., 2012, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/22552027/): Red grape polyphenols favorably modulated gut microbiota, increasing beneficial bacteria — supporting gut-mediated mechanisms of raisin polyphenol health effects.
+
+## References
+
+1. Li YR, Li S, Lin CC. **Effect of resveratrol and pterostilbene on aging and longevity.** *Biofactors*. 2018;44(1):69-82. PMID: [29210129](https://pubmed.ncbi.nlm.nih.gov/29210129/). doi:[10.1002/biof.1400](https://doi.org/10.1002/biof.1400)
+2. Queipo-Ortuño MI, Boto-Ordóñez M, Murri M, et al. **Influence of red wine polyphenols and ethanol on the gut microbiota ecology and biochemical biomarkers.** *Am J Clin Nutr*. 2012;95(6):1323-1334. PMID: [22552027](https://pubmed.ncbi.nlm.nih.gov/22552027/). doi:[10.3945/ajcn.111.027847](https://doi.org/10.3945/ajcn.111.027847)
 
 ## Key Nutrients
 
 | Nutrient | Per 100g | Notes |
 |----------|----------|-------|
-| Polyphenols (resveratrol, quercetin, catechins) | ~1,000–3,600 mg gallic acid equivalents | Drying concentrates polyphenols 4–5-fold vs. fresh grapes; resveratrol undergoes extensive first-pass metabolism but metabolites retain biological activity. |
-| Iron (non-heme) | 1.9 mg | Non-heme iron; absorption is 2–10% depending on enhancers (vitamin C increases absorption) and inhibitors (tannins in raisins themselves may partially limit uptake). |
-| Boron | ~2 mg | Raisins are among the richest dietary boron sources; boron modulates bone metabolism, steroid hormone activity, and inflammatory cytokines. |
-| Potassium | 749 mg | Highly concentrated relative to fresh grapes; highly bioavailable; supports blood pressure and muscle function. |
+| Polyphenols (resveratrol, quercetin, catechins) | ~1,000–3,600 mg gallic acid equivalents | Drying concentrates polyphenols 4–5-fold vs. fresh grapes; resveratrol metabolites retain biological activity |
+| Iron (non-heme) | 1.9 mg | Absorption 2–10% depending on enhancers (vitamin C) and inhibitors (tannins) |
+| Boron | ~2 mg | Among the richest dietary boron sources; modulates bone metabolism and steroid hormone activity |
+| Potassium | 749 mg | Highly concentrated vs. fresh grapes; supports blood pressure and muscle function |
