@@ -31,6 +31,8 @@ const SOURCES = [
     year: 2018,
     publisher: "Avery / Penguin Random House",
     isbn: "978-0525534075",
+    amazonUrl: "https://www.amazon.com/dp/0525534075",
+    googleBooksUrl: "https://books.google.com/books?isbn=9780525534075",
     description:
       "Dr. Longo's evidence-based Longevity Diet program, developed from decades of research on fasting, stem cell activation, and the eating patterns of the world's longest-lived populations. Covers the five longevity pillars, the Fasting Mimicking Diet, and practical meal plans grounded in Mediterranean and Okinawan traditions.",
     chapters_used: [
@@ -52,6 +54,8 @@ const SOURCES = [
     year: 2020,
     publisher: "Hardie Grant Publishing",
     isbn: "978-1743795965",
+    amazonUrl: "https://www.amazon.com/dp/1743795963",
+    googleBooksUrl: "https://books.google.com/books?isbn=9781743795965",
     description:
       "A summary of more than 20 years of research and clinical practice on healthy longevity. Covers nutrition, calorie restriction, fasting, the Mediterranean diet, the modern longevity food pyramid, exercise, brain health, and prevention. The primary source for ingredient claims, consumption recommendations, and scientific references in this wiki.",
     chapters_used: [
@@ -160,7 +164,7 @@ export default async function SourcesPage({
                 </div>
               </div>
 
-              <div>
+              <div className="mb-6">
                 <p className="text-xs font-semibold text-muted uppercase tracking-wide mb-3">
                   Chapters Used
                 </p>
@@ -171,6 +175,25 @@ export default async function SourcesPage({
                     </p>
                   ))}
                 </div>
+              </div>
+
+              <div className="flex gap-3">
+                <a
+                  href={source.amazonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold border border-border rounded px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
+                >
+                  Buy on Amazon
+                </a>
+                <a
+                  href={source.googleBooksUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold border border-border rounded px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
+                >
+                  Google Books
+                </a>
               </div>
             </div>
           ))}
