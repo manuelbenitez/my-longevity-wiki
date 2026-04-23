@@ -4,20 +4,24 @@ slug: walnut-oil
 category: oil
 tags: [oil, healthy-fats, polyphenols, longevity-diet]
 longevity_score: 7
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Walnut Oil
 
-Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL).
+Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL) — among the highest plant-based ALA densities of any culinary oil.
 
 ## Why It Matters for Longevity
 
-Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL). Rich in alpha-linolenic acid (ALA), the plant-based omega-3 precursor; ALA can be elongated and desaturated to EPA and DHA, supporting anti-inflammatory eicosanoid production and cardiovascular protection..  PMID 23972731: Walnut consumption (including walnut oil) was associated with significant reductions in LDL cholesterol and improved endothelial function in a meta-analysis of 13 trials, consistent with the book's promotion of nut-derived fats. (PubMed)  PMID 21621283: Walnut oil improved lipid profiles and reduced oxidative stress markers in type 2 diabetic patients, supporting use as a longevity-promoting fat source. (PubMed)
+Walnut oil provides a concentrated source of alpha-linolenic acid (ALA, ~47% of total fat), making it one of the richest plant ALA sources alongside linseed oil. It also delivers gamma-tocopherol, ellagitannin polyphenols, and phytosterols not present in refined olive oil.
+
+The cardiovascular case for walnuts is supported by a 2018 meta-analysis of 26 clinical trials (1,059 participants) showing walnut-enriched diets reduced LDL cholesterol by 5.5 mg/dL and total cholesterol by 7.0 mg/dL, with improvements in endothelial function. The oil form delivers concentrated ALA for use in dressings and cold preparations where whole walnuts aren't practical.
+
+Walnut polyphenols (principally ellagitannins and pedunculagin) provide anti-inflammatory and antioxidant benefits beyond the fatty acid profile. Cold-pressed walnut oil retains these polyphenols; refined versions largely lose them.
 
 ## How to Use It
 
-Pairs well with arugula, beets, endive. Use as a oil in your daily meals according to the Longevity Diet guidelines.
+Pairs well with arugula, beets, endive. Use cold as a finishing oil — not for cooking at high heat (low smoke point). Add to salad dressings, drizzle over grain bowls, or mix into pesto as partial olive oil replacement.
 
 ## What to Pair It With
 
@@ -31,7 +35,9 @@ Pairs well with arugula, beets, endive. Use as a oil in your daily meals accordi
 
 ## Synergies
 
-- **Linseed Oil** (complement): Both are plant ALA sources; linseed oil has a higher ALA concentration (~7 g/tsp), while walnut oil offers superior culinary palatability. Using both diversifies polyphenol and tocopherol intake.  - **Walnuts** (complement): Whole walnuts provide fiber and protein in addition to ALA; walnut oil provides concentrated omega-3 fat without the caloric bulk of the whole nut — useful for adding omega-3 to dressings and light dishes.  - **Leafy Greens** (synergy): Fat-soluble vitamins K, A, and E in dark leafy greens require dietary fat for absorption; using walnut oil as a dressing simultaneously delivers ALA and enhances micronutrient bioavailability.
+- **Linseed Oil** (complement): Both are plant ALA sources; linseed oil has a higher ALA concentration (~7 g/tsp), while walnut oil offers superior culinary palatability. Using both diversifies polyphenol and tocopherol intake.
+- **Walnuts** (complement): Whole walnuts provide fiber and protein in addition to ALA; walnut oil provides concentrated omega-3 fat without the caloric bulk of the whole nut — useful for adding omega-3 to dressings and light dishes.
+- **Leafy Greens** (synergy): Fat-soluble vitamins K, A, and E in dark leafy greens require dietary fat for absorption; using walnut oil as a dressing simultaneously delivers ALA and enhances micronutrient bioavailability.
 
 ## Flavor Profile
 
@@ -39,7 +45,13 @@ Taste: nutty, rich, slightly bitter, earthy. Aroma: toasted walnut, woody, warm.
 
 ## The Science
 
-- PubMed: PMID 23972731: Walnut consumption (including walnut oil) was associated with significant reductions in LDL cholesterol and improved endothelial function in a meta-analysis of 13 trials, consistent with the book's promotion of nut-derived fats.  - PubMed: PMID 21621283: Walnut oil improved lipid profiles and reduced oxidative stress markers in type 2 diabetic patients, supporting use as a longevity-promoting fat source.  - PubMed: PMID 33086688: The WAHA trial found that walnut supplementation reduced LDL cholesterol and inflammatory markers, and was associated with slower brain aging — extending the longevity relevance beyond the book's omega-3 framing.  - Examine.com: Examine confirms walnut oil is among the richest plant sources of ALA (~10 g per tablespoon), with additional polyphenol content (ellagitannins, gamma-tocopherol) not present in refined olive oil, adding antioxidant longevity benefits.  - Book claim (medium confidence): Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL).
+- [Bamberger et al., 2018, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/29931130/): Meta-analysis of 26 walnut clinical trials (1,059 participants): walnut-enriched diets significantly reduced LDL cholesterol and total cholesterol vs control diets.
+- [Sánchez-González et al., 2017, *Crit Rev Food Sci Nutr*](https://pubmed.ncbi.nlm.nih.gov/26713565/): Walnut polyphenols (ellagitannins) contribute anti-inflammatory and cardiovascular benefits beyond ALA content; pedunculagin is the dominant polyphenol, hydrolyzed to bioactive ellagic acid.
+
+## References
+
+1. Bamberger C, Rossmeier A, Lechner K, et al. **Effects of walnut consumption on blood lipids and other cardiovascular risk factors: an updated meta-analysis and systematic review of controlled trials.** *Nutrients*. 2018. PMID: [29931130](https://pubmed.ncbi.nlm.nih.gov/29931130/). doi:[10.1093/ajcn/nqy366](https://doi.org/10.1093/ajcn/nqy366)
+2. Sánchez-González C, Ciudad CJ, Noé V, Izquierdo-Pulido M. **Health benefits of walnut polyphenols: An exploration beyond their lipid profile.** *Crit Rev Food Sci Nutr*. 2017;57(16):3373-3383. PMID: [26713565](https://pubmed.ncbi.nlm.nih.gov/26713565/). doi:[10.1080/10408398.2015.1126218](https://doi.org/10.1080/10408398.2015.1126218)
 
 ## Key Nutrients
 
