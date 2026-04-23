@@ -42,6 +42,8 @@ export function MarkdownContent({ content }: { content: string }) {
         a: ({ href, children }) => (
           <a
             href={href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-accent border-b border-border hover:border-accent transition-colors"
           >
             {children}

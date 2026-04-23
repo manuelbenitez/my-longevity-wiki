@@ -9,9 +9,10 @@ export async function markdownToHtml(content: string): Promise<string> {
     .use(remarkGfm)
     .use(remarkHtml, { sanitize: false })
     .process(stripped);
-  // Wrap tables in scrollable div for mobile
+  // Wrap tables in scrollable div for mobile; open all links in new tab
   return result
     .toString()
     .replace(/<table>/g, '<div class="table-scroll"><table>')
-    .replace(/<\/table>/g, '</table></div>');
+    .replace(/<\/table>/g, '</table></div>')
+    .replace(/<a href=/g, '<a target="_blank" rel="noopener noreferrer" href=');
 }
