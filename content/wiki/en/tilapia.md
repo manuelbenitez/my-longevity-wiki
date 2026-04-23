@@ -4,20 +4,24 @@ slug: tilapia
 category: fish
 tags: [fish, omega-3, EPA, DHA, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Tilapia
 
-Listed as a source of vitamin D (144 IU per fillet raw, 36% DV) and omega-3 (0.1 g EPA/DHA per 75 g cooked)
+Tilapia is a lean white fish providing vitamin D and complete protein with very low mercury, but its omega-6 to omega-3 ratio (~11:1) is unfavorable — it should complement, not replace, oily fish in the weekly rotation.
 
 ## Why It Matters for Longevity
 
-Listed as a source of vitamin D (144 IU per fillet raw, 36% DV) and omega-3 (0.1 g EPA/DHA per 75 g cooked) White fish providing modest vitamin D and omega-3.  Tilapia has a high omega-6 to omega-3 ratio (11:1); consumption without balancing with high omega-3 fish may promote rather than reduce inflammation (PubMed)  Tilapia provides complete lean protein and vitamin D; low mercury makes it safe but low EPA/DHA means it should not replace oily fish as the primary fish source (PubMed)
+Tilapia is the most farmed fish in the world, and its nutritional profile is controversial from a longevity standpoint. The positives: very low mercury, lean complete protein, meaningful vitamin D (170 IU/100g), and safe for frequent consumption. The concern: tilapia has an unusually high omega-6 to omega-3 ratio for a fish (~11:1 in farmed tilapia), driven by the arachidonic acid content.
+
+Weaver et al.'s 2008 review specifically examined tilapia's fatty acid profile and found that compared to other commonly consumed fish, tilapia has an elevated omega-6 content and a deficient omega-3 content — making it more similar nutritionally to hamburger than to salmon. This does not make tilapia harmful, but it does mean it should not be counted toward the EPA/DHA weekly target that motivates fish consumption.
+
+The practical conclusion: tilapia works as a lean protein source in the fish rotation, but oily fish (sardines, salmon, trout) need to appear earlier in the week to supply meaningful EPA/DHA. Tilapia's vitamin D is a genuine benefit.
 
 ## How to Use It
 
-Pairs well with lemon, olive oil, vegetables. Use as a fish in your daily meals according to the Longevity Diet guidelines.
+Pairs well with lemon, olive oil, vegetables. Pan-fry or bake; thin fillets cook in 3–4 minutes per side. Works well in Mediterranean preparations with capers and tomatoes. Available widely and affordable.
 
 ## What to Pair It With
 
@@ -29,7 +33,9 @@ Pairs well with lemon, olive oil, vegetables. Use as a fish in your daily meals 
 
 ## Synergies
 
-- **Sardines** (complement): Tilapia is low in omega-3; pairing weeks with sardines balances omega-3 intake in varied fish rotation  - **Olive Oil** (synergy): Cooking tilapia in olive oil adds MUFA and improves vitamin D absorption  - **Vegetables** (complement): Neutral flavor of tilapia pairs well with bold vegetable preparations; standard Longevity Diet dinner combination
+- **Sardines** (complement): Tilapia is low in omega-3; pairing weeks with sardines balances omega-3 intake in varied fish rotation.
+- **Olive Oil** (synergy): Cooking tilapia in olive oil adds MUFA and improves vitamin D absorption.
+- **Vegetables** (complement): Neutral flavor of tilapia pairs well with bold vegetable preparations; standard Longevity Diet dinner combination.
 
 ## Flavor Profile
 
@@ -37,7 +43,13 @@ Taste: mild, neutral, slightly sweet. Aroma: mild, neutral. Texture: flaky, lean
 
 ## The Science
 
-- PubMed: Tilapia has a high omega-6 to omega-3 ratio (11:1); consumption without balancing with high omega-3 fish may promote rather than reduce inflammation  - PubMed: Tilapia provides complete lean protein and vitamin D; low mercury makes it safe but low EPA/DHA means it should not replace oily fish as the primary fish source  - Book claim (medium confidence): Listed as a source of vitamin D (144 IU per fillet raw, 36% DV) and omega-3 (0.1 g EPA/DHA per 75 g cooked)
+- [Weaver et al., 2008, *J Am Diet Assoc*](https://pubmed.ncbi.nlm.nih.gov/19757249/): Tilapia has an elevated omega-6 to omega-3 ratio (~11:1 farmed), with arachidonic acid levels that may promote inflammation if tilapia displaces high-omega-3 fish; should not be the primary fish source.
+- [Mozaffarian & Rimm, 2006, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/17047219/): Benefits of fish consumption for cardiovascular mortality vary by species; low-mercury lean species like tilapia are safe but do not deliver the EPA/DHA that drives the cardiovascular benefit.
+
+## References
+
+1. Weaver KL, Ivester P, Chilton JA, Wilson MD, Pandey P, Chilton FH. **The content of favorable and unfavorable polyunsaturated fatty acids found in commonly eaten fish.** *J Am Diet Assoc*. 2008;108(7):1178-85. PMID: [19757249](https://pubmed.ncbi.nlm.nih.gov/19757249/). doi:[10.1016/j.jada.2008.04.023](https://doi.org/10.1016/j.jada.2008.04.023)
+2. Mozaffarian D, Rimm EB. **Fish intake, contaminants, and human health: evaluating the risks and the benefits.** *JAMA*. 2006;296(15):1885-99. PMID: [17047219](https://pubmed.ncbi.nlm.nih.gov/17047219/). doi:[10.1001/jama.296.15.1885](https://doi.org/10.1001/jama.296.15.1885)
 
 ## Key Nutrients
 

@@ -4,7 +4,7 @@ slug: bell-peppers
 category: vegetable
 tags: [vegetable, fiber, antioxidants, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Bell Peppers
@@ -39,7 +39,13 @@ Taste: sweet, mildly bitter (green), fruity (red/yellow), crisp. Aroma: fresh, g
 
 ## The Science
 
-- PubMed: Bell peppers are among the richest dietary sources of vitamin C ([Patel et al., 2023, *Curr Drug Res Rev*](https://pubmed.ncbi.nlm.nih.gov/36999721/)); a single red pepper supplies over 150% of daily vitamin C needs, supporting antioxidant defense and collagen synthesis  - PubMed: Carotenoids including beta-carotene and capsanthin in red bell peppers have demonstrated anti-inflammatory and anti-carcinogenic properties in cell and animal studies ([Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/))  - Examine.com: Bell peppers score among the highest of common vegetables for antioxidant capacity; red peppers have significantly more vitamin C, carotenoids, and flavonoids than green, supporting longevity-relevant oxidative stress reduction  - Book claim (high confidence): Eating 2+ servings of vegetables per day associated with longest lifespan among Loma Linda Adventists  - Book claim (high confidence): Vegetables are a core component of all centenarian blue-zone diets and associated with reduced cancer and cardiovascular
+- [Khaw et al., 2001, *Lancet*](https://pubmed.ncbi.nlm.nih.gov/11247548/): Plasma vitamin C (highest from vegetables like bell peppers) inversely associated with all-cause mortality in EPIC-Norfolk (n=19,496); each 20 µmol/L increment reduced mortality risk by ~13%.
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies: higher vegetable intake dose-dependently reduces cardiovascular disease, cancer, and all-cause mortality.
+
+## References
+
+1. Khaw KT, Bingham S, Welch A, et al. **Relation between plasma ascorbic acid and mortality in men and women in EPIC-Norfolk prospective study.** *Lancet*. 2001;357(9257):657-63. PMID: [11247548](https://pubmed.ncbi.nlm.nih.gov/11247548/). doi:[10.1016/S0140-6736(00)04128-3](https://doi.org/10.1016/S0140-6736(00)04128-3)
+2. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
 
 ## Key Nutrients
 
