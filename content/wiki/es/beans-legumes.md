@@ -16,8 +16,8 @@ El consumo de legumbres es el predictor dietetico mas consistente de longevidad 
 Los frijoles previenen la acumulacion de grasa abdominal y las enfermedades cronicas a traves de metabolitos ricos en fibra producidos por las bacterias intestinales. Un metaanalisis de 21 ECA encontro que una porcion diaria reduce el colesterol LDL en un 5%. Otro metaanalisis mostro que las legumbres aumentan la saciedad en un 31% comparado con dietas de control. La fibra y el almidon resistente alimentan bacterias intestinales beneficiosas, produciendo butirato y otros acidos grasos de cadena corta. Enfriar los frijoles cocidos aumenta aun mas su contenido de almidon resistente.
 
 Esta es una pagina de resumen. Para legumbres especificas, ver:
-- [Lentejas](/wiki/lentils) -- coccion mas rapida, mayores polifenoles
-- [Garbanzos](/wiki/chickpeas) -- la legumbre del hummus, excelente saciedad
+- [Lentejas](/en/ingredients/lentils) -- coccion mas rapida, mayores polifenoles
+- [Garbanzos](/en/ingredients/chickpeas) -- la legumbre del hummus, excelente saciedad
 - Soja -- isoflavonas y proteina completa
 
 ## Como usarlos

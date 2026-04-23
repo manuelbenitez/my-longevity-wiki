@@ -10,7 +10,7 @@ last_updated: 2026-04-12
 
 # Granos Enteros
 
-Una pagina de vision general. Para granos especificos, vea: [cebada](/wiki/barley), [avena](/wiki/oats), [arroz integral](/wiki/brown-rice), [centeno](/wiki/rye), [alforfon](/wiki/buckwheat).
+Una pagina de vision general. Para granos especificos, vea: [cebada](/en/ingredients/barley), [avena](/en/ingredients/oats), [arroz integral](/en/ingredients/brown-rice), [centeno](/en/ingredients/rye), [alforfon](/en/ingredients/buckwheat).
 
 El estudio NIH-AARP de 367.442 personas encontro la mayor ingesta de fibra de granos enteros vinculada con 19% menos mortalidad por todas las causas -- y un metaanalisis del BMJ confirmo 17% menos mortalidad por incremento de 90g/dia.
 

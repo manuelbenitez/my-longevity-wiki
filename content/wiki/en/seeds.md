@@ -10,7 +10,7 @@ last_updated: 2026-04-12
 
 # Seeds (Overview)
 
-An overview page. For specific seeds, see: [flaxseeds](/wiki/flaxseeds), [sesame seeds](/wiki/sesame-seeds).
+An overview page. For specific seeds, see: [flaxseeds](/en/ingredients/flaxseeds), [sesame seeds](/en/ingredients/sesame-seeds).
 
 Seeds are among the most nutrient-dense foods per calorie -- providing unique lignan profiles and essential fatty acid ratios not found in any other food group.
 

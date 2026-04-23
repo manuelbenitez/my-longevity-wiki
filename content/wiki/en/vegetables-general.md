@@ -19,13 +19,13 @@ The mechanism is the fiber-microbiome axis: diverse vegetable fibers feed differ
 
 ## Deeper Dives
 
-- [Green Vegetables](/wiki/green-vegetables) -- lowest glycemic impact, strongest cardiovascular association
-- [Non-Starchy Vegetables (Fasting)](/wiki/non-starchy-vegetables-fasting) -- the fasting-day protocol
-- [Spinach, Chard & Beets](/wiki/spinach-chard-beets) -- nitrate powerhouses
-- [Cruciferous Vegetables](/wiki/cruciferous-vegetables) -- sulforaphane and cancer prevention
-- [Tomatoes](/wiki/tomatoes) -- lycopene and prostate health
-- [Sweet Potatoes](/wiki/sweet-potatoes) -- beta-carotene champions
-- [Pumpkin](/wiki/pumpkin) -- multi-carotenoid coverage
+- [Green Vegetables](/en/ingredients/green-vegetables) -- lowest glycemic impact, strongest cardiovascular association
+- [Non-Starchy Vegetables (Fasting)](/en/ingredients/non-starchy-vegetables-fasting) -- the fasting-day protocol
+- [Spinach, Chard & Beets](/en/ingredients/spinach-chard-beets) -- nitrate powerhouses
+- [Cruciferous Vegetables](/en/ingredients/cruciferous-vegetables) -- sulforaphane and cancer prevention
+- [Tomatoes](/en/ingredients/tomatoes) -- lycopene and prostate health
+- [Sweet Potatoes](/en/ingredients/sweet-potatoes) -- beta-carotene champions
+- [Pumpkin](/en/ingredients/pumpkin) -- multi-carotenoid coverage
 
 ## The Science
 

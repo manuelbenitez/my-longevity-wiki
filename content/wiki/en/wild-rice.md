@@ -13,7 +13,7 @@ Wild rice is used in the Longevity Diet as a base for vegetable dishes and is li
 
 ## Why It Matters for Longevity
 
-Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pasta at 40 g dry weight per serving. Whole grain with intact bran providing fiber, resistant starch, and micronutrients; lower glycemic impact than refined white rice, supporting stable blood glucose and insulin signaling..  PMID 30405742: Wild rice is a rich source of antioxidants (particularly flavonoids and phenolic acids) with significantly higher ORAC values than white or brown rice; antioxidant-rich whole grains are associated with reduced inflammatory markers and metabolic disease risk. (PubMed)  PMID 22742587: Wild rice consumption improved HDL cholesterol and reduced LDL oxidation in hypercholesterolemic subjects, supporting cardiovascular longevity benefits beyond basic carbohydrate replacement. (PubMed)
+Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pasta at 40 g dry weight per serving. Whole grain with intact bran providing fiber, resistant starch, and micronutrients; lower glycemic impact than refined white rice, supporting stable blood glucose and insulin signaling. Wild rice is a rich source of phytochemicals (flavonoids, phenolic acids, phytosterols) with substantially higher antioxidant activity than white or brown rice, and has demonstrated anti-atherosclerotic effects in animal models.
 
 ## How to Use It
 
@@ -40,7 +40,17 @@ Taste: nutty, earthy, slightly grassy, rich. Aroma: toasted grain, woodsy, earth
 
 ## The Science
 
-- PubMed: PMID 30405742: Wild rice is a rich source of antioxidants (particularly flavonoids and phenolic acids) with significantly higher ORAC values than white or brown rice; antioxidant-rich whole grains are associated with reduced inflammatory markers and metabolic disease risk.  - PubMed: PMID 22742587: Wild rice consumption improved HDL cholesterol and reduced LDL oxidation in hypercholesterolemic subjects, supporting cardiovascular longevity benefits beyond basic carbohydrate replacement.  - PubMed: PMID 33003574: Whole grain consumption (including wild rice) is inversely associated with all-cause mortality in large prospective cohort studies; each additional 28 g serving associated with ~5% reduction in mortality risk.  - Examine.com: Examine notes that wild rice has a significantly higher protein content (~14 g/100 g dry) than white rice (~7 g/100 g), lower glycemic index (~57 vs ~73), and substantially more zinc, magnesium, and B vitamins, making it a nutritionally superior whole grain choice.  - Book claim (high confidence): Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pas
+- [Yu et al., 2020, *Food Chemistry*](https://pubmed.ncbi.nlm.nih.gov/32554311/): Comprehensive review of wild rice (*Zizania* spp.) nutritional constituents and phytochemicals; phenolic acids, flavonoids, and phytosterols from wild rice have pronounced antioxidant properties associated with prevention of chronic diseases, and health-promoting effects include atherosclerosis prevention and anti-inflammatory activity.
+- [Moghadasian et al., 2013, *Atherosclerosis*](https://pubmed.ncbi.nlm.nih.gov/24075758/): Wild rice (*Zizania palustris* L.) consumption significantly reduced atherosclerotic lesion size by 71% (male) and 61% (female) in LDL receptor knockout mice; cholesterol-lowering effects were identified as the primary mechanism.
+- [Benisi-Kohansal et al., 2016, *Advances in Nutrition*](https://pubmed.ncbi.nlm.nih.gov/28140323/): Dose-response meta-analysis of prospective cohort studies; higher whole grain and cereal fibre intake significantly associated with lower all-cause and CVD mortality.
+- Examine.com: Examine notes that wild rice has a significantly higher protein content (~14 g/100 g dry) than white rice (~7 g/100 g), lower glycemic index (~57 vs ~73), and substantially more zinc, magnesium, and B vitamins, making it a nutritionally superior whole grain choice.
+- Book claim (high confidence): Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pasta at 40 g dry weight per serving.
+
+## References
+
+1. Yu X, Chu M, Chu C, et al. **Wild rice (Zizania spp.): A review of its nutritional constituents, phytochemicals, antioxidant activities, and health-promoting effects.** *Food Chemistry.* 2020;331:127213. PMID: [32554311](https://pubmed.ncbi.nlm.nih.gov/32554311/). doi:[10.1016/j.foodchem.2020.127213](https://doi.org/10.1016/j.foodchem.2020.127213)
+2. Moghadasian MH, Alsaif M, Le K, et al. **Wild rice (Zizania palustris L.) prevents atherogenesis in LDL receptor knockout mice.** *Atherosclerosis.* 2013;231(2):393–395. PMID: [24075758](https://pubmed.ncbi.nlm.nih.gov/24075758/). doi:[10.1016/j.atherosclerosis.2013.09.027](https://doi.org/10.1016/j.atherosclerosis.2013.09.027)
+3. Benisi-Kohansal S, Saneei P, Salehi-Marzijarani M, et al. **Whole-Grain Intake and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.** *Advances in Nutrition.* 2016;7(6):1052–1065. PMID: [28140323](https://pubmed.ncbi.nlm.nih.gov/28140323/). doi:[10.3945/an.116.012567](https://doi.org/10.3945/an.116.012567)
 
 ## Key Nutrients
 

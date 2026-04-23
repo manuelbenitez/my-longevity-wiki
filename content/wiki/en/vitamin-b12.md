@@ -4,7 +4,7 @@ slug: vitamin-b12
 category: nutrient
 tags: [nutrient, micronutrient, longevity-diet]
 longevity_score: 5
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Vitamin B12
@@ -13,7 +13,7 @@ Vitamin B12 deficiency is a specific risk for vegans and the elderly even on hig
 
 ## Why It Matters for Longevity
 
-Vitamin B12 deficiency is a specific risk for vegans and the elderly even on high-nourishment diets. B12 is found almost exclusively in animal foods; essential for neurological function, DNA synthesis, and red blood cell formation. Absorption decreases with age due to reduced intrinsic factor secretion in the stomach..  B12 deficiency has been implicated in brain aging and dementias; Alzheimer's patients have lower levels of folate and vitamin B12. B12 is required for the conversion of homocysteine to methionine; elevated homocysteine is a risk factor for neurodegeneration and cardiovascular disease..  Longo explicitly recommends a complete multivitamin and mineral pill every three days to prevent B12 deficiency, especially for those on plant-based diets. Supplemental B12 bypasses the intrinsic factor dependency when taken in high-dose forms (cyanocobalamin or methylcobalamin), ensuring adequate status..  PMID 26690265: Meta-analysis confirms B12 deficiency prevalence of 6% in adults under 60 and up to 20% in the elderly; vegan and vegetarian populations show markedly higher rates, supporting Longo's supplementation recommendation. (PubMed)  PMID 19115110: Review confirms that elevated homocysteine from B12/folate deficiency accelerates brain atrophy and cognitive decline, consistent with the book's claim linking low B12 to dementia risk. (PubMed)
+Vitamin B12 deficiency is a specific risk for vegans and the elderly even on high-nourishment diets. B12 is found almost exclusively in animal foods; essential for neurological function, DNA synthesis, and red blood cell formation. Absorption decreases with age due to reduced intrinsic factor secretion in the stomach..  B12 deficiency has been implicated in brain aging and dementias; Alzheimer's patients have lower levels of folate and vitamin B12. B12 is required for the conversion of homocysteine to methionine; elevated homocysteine is a risk factor for neurodegeneration and cardiovascular disease..  Longo explicitly recommends a complete multivitamin and mineral pill every three days to prevent B12 deficiency, especially for those on plant-based diets. Supplemental B12 bypasses the intrinsic factor dependency when taken in high-dose forms (cyanocobalamin or methylcobalamin), ensuring adequate status.
 
 ## How to Use It
 
@@ -38,7 +38,16 @@ Category: supplement/nutrient.
 
 ## The Science
 
-- PubMed: PMID 26690265: Meta-analysis confirms B12 deficiency prevalence of 6% in adults under 60 and up to 20% in the elderly; vegan and vegetarian populations show markedly higher rates, supporting Longo's supplementation recommendation.  - PubMed: PMID 19115110: Review confirms that elevated homocysteine from B12/folate deficiency accelerates brain atrophy and cognitive decline, consistent with the book's claim linking low B12 to dementia risk.  - PubMed: PMID 22648703: B12 supplementation in deficient elderly subjects reduced homocysteine and improved cognitive performance, supporting the book's recommendation to prioritize B12 status in aging populations.  - Examine.com: Examine confirms that methylcobalamin and adenosylcobalamin are the active coenzyme forms; high-dose cyanocobalamin (1000 mcg/day) is effective for vegans and those with absorption issues.  - Book claim (high confidence): Vitamin B12 deficiency is a specific risk for vegans and the elderly even on high-nourishment diets.  - Book claim (high confidence): B12 deficiency has been implicated in brain aging and dementias; Alzheimer's patients have lower levels of folate and vi
+- [Smith & Refsum, 2016, *Annu Rev Nutr*](https://pubmed.ncbi.nlm.nih.gov/27431367/): Comprehensive review confirming that elevated homocysteine from B12/folate deficiency accelerates brain atrophy and cognitive decline, consistent with the book's claim linking low B12 to dementia risk
+- [Baik & Russell, 1999, *Annu Rev Nutr*](https://pubmed.ncbi.nlm.nih.gov/10448529/): Reviews prevalence and mechanisms of vitamin B12 deficiency in the elderly, including the role of reduced intrinsic factor and food-cobalamin malabsorption
+- Examine.com: Examine confirms that methylcobalamin and adenosylcobalamin are the active coenzyme forms; high-dose cyanocobalamin (1000 mcg/day) is effective for vegans and those with absorption issues.
+- Book claim (high confidence): Vitamin B12 deficiency is a specific risk for vegans and the elderly even on high-nourishment diets.
+- Book claim (high confidence): B12 deficiency has been implicated in brain aging and dementias; Alzheimer's patients have lower levels of folate and vitamin B12.
+
+## References
+
+1. Smith AD, Refsum H. **Homocysteine, B Vitamins, and Cognitive Impairment.** *Annu Rev Nutr*. 2016;36:211-39. PMID: [27431367](https://pubmed.ncbi.nlm.nih.gov/27431367/). doi:[10.1146/annurev-nutr-071715-050947](https://doi.org/10.1146/annurev-nutr-071715-050947)
+2. Baik HW, Russell RM. **Vitamin B12 deficiency in the elderly.** *Annu Rev Nutr*. 1999;19:357-77. PMID: [10448529](https://pubmed.ncbi.nlm.nih.gov/10448529/). doi:[10.1146/annurev.nutr.19.1.357](https://doi.org/10.1146/annurev.nutr.19.1.357)
 
 ## Key Nutrients
 

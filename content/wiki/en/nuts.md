@@ -10,7 +10,7 @@ last_updated: 2026-04-22
 
 # Nuts (Overview)
 
-An overview page. For specific nuts, see: [walnuts](/wiki/walnuts), [almonds](/wiki/almonds), [brazil nuts](/wiki/brazil-nuts).
+An overview page. For specific nuts, see: [walnuts](/en/ingredients/walnuts), [almonds](/en/ingredients/almonds), [brazil nuts](/en/ingredients/brazil-nuts).
 
 Five servings per week cuts heart attack risk by 40–60% -- and the PREDIMED trial confirmed that 30 g mixed nuts daily reduced cardiovascular events by 28%.
 

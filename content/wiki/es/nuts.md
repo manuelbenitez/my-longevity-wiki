@@ -10,7 +10,7 @@ last_updated: 2026-04-12
 
 # Nueces y Frutos Secos (Vision General)
 
-Una pagina de vision general. Para frutos secos especificos, vea: [nueces](/wiki/walnuts), [almendras](/wiki/almonds), [nueces de Brasil](/wiki/brazil-nuts).
+Una pagina de vision general. Para frutos secos especificos, vea: [nueces](/en/ingredients/walnuts), [almendras](/en/ingredients/almonds), [nueces de Brasil](/en/ingredients/brazil-nuts).
 
 Cinco porciones por semana reduce el riesgo de infarto en un 40-60% -- y el ensayo PREDIMED confirmo que 30g de frutos secos mixtos diarios redujeron los eventos cardiovasculares en un 28%.
 

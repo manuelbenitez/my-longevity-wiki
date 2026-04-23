@@ -10,7 +10,7 @@ last_updated: 2026-04-12
 
 # Whole Grains
 
-An overview page. For specific grains, see: [barley](/wiki/barley), [oats](/wiki/oats), [brown rice](/wiki/brown-rice), [rye](/wiki/rye), [buckwheat](/wiki/buckwheat).
+An overview page. For specific grains, see: [barley](/en/ingredients/barley), [oats](/en/ingredients/oats), [brown rice](/en/ingredients/brown-rice), [rye](/en/ingredients/rye), [buckwheat](/en/ingredients/buckwheat).
 
 The NIH-AARP study of 367,442 people found the highest wholegrain fibre intake linked to 19% lower all-cause mortality -- and a BMJ meta-analysis confirmed 17% lower mortality per 90g/day increment.
 

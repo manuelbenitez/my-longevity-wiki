@@ -18,9 +18,9 @@ Increased green vegetable intake is associated with 14% reduced risk of type 2 d
 
 ## Deeper Dives
 
-- [Spinach, Chard & Beets](/wiki/spinach-chard-beets) -- nitrate and folate powerhouses
-- [Kale](/wiki/kale) -- glucosinolates and sulforaphane
-- [Escarole](/wiki/escarole) -- prebiotic inulin and bitter compounds
+- [Spinach, Chard & Beets](/en/ingredients/spinach-chard-beets) -- nitrate and folate powerhouses
+- [Kale](/en/ingredients/kale) -- glucosinolates and sulforaphane
+- [Escarole](/en/ingredients/escarole) -- prebiotic inulin and bitter compounds
 
 ## How to Use It
 

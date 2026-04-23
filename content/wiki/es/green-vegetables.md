@@ -17,10 +17,10 @@ El aumento del consumo de verduras verdes se asocia con un 14% de reduccion del 
 
 ## Temas Relacionados
 
-- [Espinaca, Acelga y Remolacha](/wiki/spinach-chard-beets) -- potencias de nitrato y folato
-- [Verduras Cruciferas](/wiki/cruciferous-vegetables) -- sulforafano y prevencion del cancer
-- [Verdolaga](/wiki/purslane) -- verde silvestre rica en omega-3
-- [Hierbas Silvestres Comestibles](/wiki/wild-edible-weeds) -- 2-10x los polifenoles de verduras cultivadas
+- [Espinaca, Acelga y Remolacha](/en/ingredients/spinach-chard-beets) -- potencias de nitrato y folato
+- [Verduras Cruciferas](/en/ingredients/cruciferous-vegetables) -- sulforafano y prevencion del cancer
+- [Verdolaga](/en/ingredients/purslane) -- verde silvestre rica en omega-3
+- [Hierbas Silvestres Comestibles](/en/ingredients/wild-edible-weeds) -- 2-10x los polifenoles de verduras cultivadas
 
 ## Como Usarlas
 

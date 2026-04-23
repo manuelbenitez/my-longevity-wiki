@@ -21,9 +21,9 @@ If you must drink tea or coffee with a meal, vitamin C partially counteracts the
 
 ## Deeper Dives
 
-- [Green Tea](/wiki/green-tea) — EGCG, catechins, and cancer prevention
-- [Coffee](/wiki/coffee) — chlorogenic acids, caffeine, and cardiovascular protection
-- [Dark Chocolate](/wiki/dark-chocolate) — epicatechin, flavanols, and the dairy interference effect
+- [Green Tea](/en/ingredients/green-tea) — EGCG, catechins, and cancer prevention
+- [Coffee](/en/ingredients/coffee) — chlorogenic acids, caffeine, and cardiovascular protection
+- [Dark Chocolate](/en/ingredients/dark-chocolate) — epicatechin, flavanols, and the dairy interference effect
 
 ## Key Interaction
 

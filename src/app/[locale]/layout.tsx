@@ -85,14 +85,6 @@ export default async function LocaleLayout({
     inLanguage: locale,
     description:
       "Free encyclopedia of longevity foods, anti-aging ingredients, and healthy aging recipes.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE_URL}/${locale}/ingredients?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (

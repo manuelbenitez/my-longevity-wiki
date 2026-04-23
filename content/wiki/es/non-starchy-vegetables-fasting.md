@@ -17,7 +17,7 @@ El mecanismo es doble. Primero, la densidad calorica extremadamente baja de las 
 
 El ayuno desencadena hormesis: un estres leve que activa la autofagia, mejora la reparacion del ADN y aumenta BDNF para la salud cerebral. Una revision de 2019 del NEJM (PMID 31881139) confirmo que el ayuno intermitente mejora la sensibilidad a la insulina, baja la presion arterial y reduce el estres oxidativo.
 
-Para profundizar en verduras especificas, vea [Verduras (General)](/wiki/vegetables-general) y [Verduras Verdes](/wiki/green-vegetables).
+Para profundizar en verduras especificas, vea [Verduras (General)](/en/ingredients/vegetables-general) y [Verduras Verdes](/en/ingredients/green-vegetables).
 
 ## Como Usarlas
 

@@ -19,13 +19,13 @@ El mecanismo es el eje fibra-microbioma: las fibras vegetales diversas alimentan
 
 ## Temas Relacionados
 
-- [Verduras Verdes](/wiki/green-vegetables) -- menor impacto glucemico, asociacion cardiovascular mas fuerte
-- [Verduras No Almidonadas (Ayuno)](/wiki/non-starchy-vegetables-fasting) -- el protocolo de dia de ayuno
-- [Espinaca, Acelga y Remolacha](/wiki/spinach-chard-beets) -- potencias de nitrato
-- [Verduras Cruciferas](/wiki/cruciferous-vegetables) -- sulforafano y prevencion del cancer
-- [Tomates](/wiki/tomatoes) -- licopeno y salud prostatica
-- [Camote](/wiki/sweet-potatoes) -- campeones del beta-caroteno
-- [Calabaza](/wiki/pumpkin) -- cobertura multicarotenoide
+- [Verduras Verdes](/en/ingredients/green-vegetables) -- menor impacto glucemico, asociacion cardiovascular mas fuerte
+- [Verduras No Almidonadas (Ayuno)](/en/ingredients/non-starchy-vegetables-fasting) -- el protocolo de dia de ayuno
+- [Espinaca, Acelga y Remolacha](/en/ingredients/spinach-chard-beets) -- potencias de nitrato
+- [Verduras Cruciferas](/en/ingredients/cruciferous-vegetables) -- sulforafano y prevencion del cancer
+- [Tomates](/en/ingredients/tomatoes) -- licopeno y salud prostatica
+- [Camote](/en/ingredients/sweet-potatoes) -- campeones del beta-caroteno
+- [Calabaza](/en/ingredients/pumpkin) -- cobertura multicarotenoide
 
 ## Como Usarlas
 

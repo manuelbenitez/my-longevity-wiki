@@ -21,9 +21,9 @@ Si debe beber te o cafe con una comida, la vitamina C contrarresta parcialmente 
 
 ## Temas Relacionados
 
-- [Te Verde](/wiki/green-tea) -- EGCG, catequinas y prevencion del cancer
-- [Cafe](/wiki/coffee) -- acidos clorogenicos, cafeina y proteccion cardiovascular
-- [Chocolate Oscuro](/wiki/dark-chocolate) -- epicatequina, flavanoles y el efecto de interferencia lactea
+- [Te Verde](/en/ingredients/green-tea) -- EGCG, catequinas y prevencion del cancer
+- [Cafe](/en/ingredients/coffee) -- acidos clorogenicos, cafeina y proteccion cardiovascular
+- [Chocolate Oscuro](/en/ingredients/dark-chocolate) -- epicatequina, flavanoles y el efecto de interferencia lactea
 
 ## Interaccion Clave
 

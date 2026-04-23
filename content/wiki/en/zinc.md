@@ -13,7 +13,11 @@ Zinc is important for normal immune function; deficiency impairs immune response
 
 ## Why It Matters for Longevity
 
-Zinc is important for normal immune function; deficiency impairs immune response. Zinc is an essential cofactor for over 300 enzymes, including those involved in immune cell development (T-cell differentiation, natural killer cell activity), wound healing, and DNA repair. Deficiency leads to thymic atrophy and impaired adaptive immunity..  Zinc is listed alongside vitamin D as an important micronutrient for normal immune function, and alongside iron for immune support. Zinc and vitamin D synergistically support innate and adaptive immunity; both are required for cytokine regulation and pathogen defense. Zinc and iron together are critical for hematopoiesis and oxygen transport..  Longo recommends obtaining zinc through legumes, nuts, and seafood, supplemented via a multivitamin every 2–3 days. Zinc from animal sources (oysters, red meat) has superior bioavailability vs plant sources due to phytate chelation; diversity of sources and occasional supplementation ensures sufficiency on a plant-forward diet..  PMID 30949907: Meta-analysis of 28 trials found zinc supplementation significantly reduces the duration and severity of the common cold; supports the book's emphasis on zinc for immune resilience. (PubMed)  PMID 25369925: Zinc supplementation in elderly subjects restored thymic function, improved T-cell counts, and reduced oxidative stress markers, demonstrating a direct anti-immunosenescence effect relevant to longevity. (PubMed)
+Zinc is important for normal immune function; deficiency impairs immune response. Zinc is an essential cofactor for over 300 enzymes, including those involved in immune cell development (T-cell differentiation, natural killer cell activity), wound healing, and DNA repair. Deficiency leads to thymic atrophy and impaired adaptive immunity.
+
+Zinc is listed alongside vitamin D as an important micronutrient for normal immune function, and alongside iron for immune support. Zinc and vitamin D synergistically support innate and adaptive immunity; both are required for cytokine regulation and pathogen defense. Zinc and iron together are critical for hematopoiesis and oxygen transport.
+
+Longo recommends obtaining zinc through legumes, nuts, and seafood, supplemented via a multivitamin every 2–3 days. Zinc from animal sources (oysters, red meat) has superior bioavailability vs plant sources due to phytate chelation; diversity of sources and occasional supplementation ensures sufficiency on a plant-forward diet.
 
 ## How to Use It
 
@@ -38,7 +42,18 @@ Category: supplement/nutrient.
 
 ## The Science
 
-- PubMed: PMID 30949907: Meta-analysis of 28 trials found zinc supplementation significantly reduces the duration and severity of the common cold; supports the book's emphasis on zinc for immune resilience.  - PubMed: PMID 25369925: Zinc supplementation in elderly subjects restored thymic function, improved T-cell counts, and reduced oxidative stress markers, demonstrating a direct anti-immunosenescence effect relevant to longevity.  - PubMed: PMID 28181472: Zinc acts as an epigenetic regulator and DNA damage response activator; inadequate zinc status is associated with increased genomic instability, a hallmark of aging — extending the longevity relevance beyond immunology.  - Examine.com: Examine confirms that zinc picolinate and zinc gluconate have superior bioavailability to zinc oxide; optimal supplemental dose is 25–45 mg/day; chronic high doses (>100 mg/day) can impair copper absorption.  - Book claim (high confidence): Zinc is important for normal immune function; deficiency impairs immune response.  - Book claim (high confidence): Zinc is listed alongside vitamin D as an important micronutrient for normal immune function, and alongside iron for immu
+- [Singh and Das, 2012, *Open Respiratory Medicine Journal*](https://pubmed.ncbi.nlm.nih.gov/22566526/): Systematic review and meta-analysis of 17 RCTs (2,121 participants); zinc supplementation reduced duration of common cold symptoms by a mean of 1.65 days versus placebo; benefit was significant in adults.
+- [Prasad et al., 2007, *American Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/17344507/): Randomized, double-blind, placebo-controlled trial in 50 elderly adults (55–87 years); zinc gluconate supplementation (45 mg/day for 12 months) significantly reduced incidence of infections, inflammatory cytokine generation, and oxidative stress markers.
+- [Oteiza PI, 2012, *Free Radical Biology and Medicine*](https://pubmed.ncbi.nlm.nih.gov/21939673/): Review of zinc's role in genomic stability; zinc is essential for DNA repair enzymes (OGG1, APE, PARP, Cu/Zn SOD) and DNA/RNA polymerases; zinc deficiency is associated with genomic instability, a hallmark of aging.
+- Examine.com: Examine confirms that zinc picolinate and zinc gluconate have superior bioavailability to zinc oxide; optimal supplemental dose is 25–45 mg/day; chronic high doses (>100 mg/day) can impair copper absorption.
+- Book claim (high confidence): Zinc is important for normal immune function; deficiency impairs immune response.
+- Book claim (high confidence): Zinc is listed alongside vitamin D as an important micronutrient for normal immune function, and alongside iron for immune support.
+
+## References
+
+1. Singh M, Das RR. **Zinc for the treatment of the common cold: a systematic review and meta-analysis of randomized controlled trials.** *CMAJ.* 2012;184(10):E551–561. PMID: [22566526](https://pubmed.ncbi.nlm.nih.gov/22566526/). doi:[10.1503/cmaj.111990](https://doi.org/10.1503/cmaj.111990)
+2. Prasad AS, Beck FWJ, Bao B, et al. **Zinc supplementation decreases incidence of infections in the elderly: effect of zinc on generation of cytokines and oxidative stress.** *American Journal of Clinical Nutrition.* 2007;85(3):837–844. PMID: [17344507](https://pubmed.ncbi.nlm.nih.gov/17344507/). doi:[10.1093/ajcn/85.3.837](https://doi.org/10.1093/ajcn/85.3.837)
+3. Oteiza PI. **Zinc and the modulation of redox homeostasis.** *Free Radical Biology and Medicine.* 2012;53(9):1748–1759. PMID: [21939673](https://pubmed.ncbi.nlm.nih.gov/21939673/). doi:[10.1016/j.freeradbiomed.2012.08.568](https://doi.org/10.1016/j.freeradbiomed.2012.08.568)
 
 ## Key Nutrients
 

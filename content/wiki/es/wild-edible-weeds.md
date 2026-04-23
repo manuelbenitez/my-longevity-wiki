@@ -46,5 +46,5 @@ Morales et al. (2014, PMID 25260557) proporciona la comparacion directa entre de
 | Polifenoles (totales) | 200-800 mg | 2-10x hojas cultivadas; metabolizados por bacterias intestinales |
 | Vitamina C | 30-170 mg | Malva hasta 170mg; berro 43mg; diente de leon 35mg |
 | Beta-caroteno | 3000-10.000 mcg | Hojas de diente de leon superan zanahorias |
-| Omega-3 ALA | 300-400 mg (verdolaga) | Vea [Verdolaga](/wiki/purslane) para la fuente mas rica entre hojas |
+| Omega-3 ALA | 300-400 mg (verdolaga) | Vea [Verdolaga](/en/ingredients/purslane) para la fuente mas rica entre hojas |
 | Fructanos tipo inulina | Variable | Altos en raiz de diente de leon y achicoria; prebioticos |

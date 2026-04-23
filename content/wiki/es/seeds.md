@@ -10,7 +10,7 @@ last_updated: 2026-04-12
 
 # Semillas (Vision General)
 
-Una pagina de vision general. Para semillas especificas, vea: [semillas de lino](/wiki/flaxseeds), [semillas de sesamo](/wiki/sesame-seeds).
+Una pagina de vision general. Para semillas especificas, vea: [semillas de lino](/en/ingredients/flaxseeds), [semillas de sesamo](/en/ingredients/sesame-seeds).
 
 Las semillas estan entre los alimentos mas densos en nutrientes por caloria -- proporcionando perfiles de lignanos unicos y proporciones de acidos grasos esenciales que no se encuentran en ningun otro grupo de alimentos.
 

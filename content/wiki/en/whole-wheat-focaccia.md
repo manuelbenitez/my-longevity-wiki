@@ -13,7 +13,7 @@ Whole-grain bread used in the Longevity Diet as a breakfast and side item.
 
 ## Why It Matters for Longevity
 
-Whole-grain bread used in the Longevity Diet as a breakfast and side item.  Whole-wheat bread significantly reduces postprandial glucose and insulin responses compared to refined wheat; associated with lower risk of type 2 diabetes. (Nutrients, 2021 (PMID 33467601))  Whole grain consumption (≥3 servings/day) associated with 22% lower all-cause mortality in meta-analysis of prospective cohort studies. (American Journal of Clinical Nutrition, 2017 (PMID 28077378))
+Whole-grain bread used in the Longevity Diet as a breakfast and side item.  Whole-wheat bread reduces postprandial glucose responses compared to refined wheat, supporting stable blood sugar and lower type 2 diabetes risk. Whole grain consumption (≥3 servings/day) is associated with significantly lower all-cause mortality in meta-analyses of prospective cohort studies.
 
 ## How to Use It
 
@@ -37,7 +37,14 @@ Taste: nutty, slightly sweet, wheaty. Aroma: yeasty, olive oil, toasted grain. T
 
 ## The Science
 
-- Nutrients, 2021 (PMID 33467601): Whole-wheat bread significantly reduces postprandial glucose and insulin responses compared to refined wheat; associated with lower risk of type 2 diabetes.  - American Journal of Clinical Nutrition, 2017 (PMID 28077378): Whole grain consumption (≥3 servings/day) associated with 22% lower all-cause mortality in meta-analysis of prospective cohort studies.  - Book claim (high confidence): Whole-grain bread used in the Longevity Diet as a breakfast and side item.
+- [Hajihashemi et al., 2018, *American Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/30321274/): Systematic review and meta-analysis of RCTs showing whole-grain rice significantly attenuates postprandial blood glucose response compared with refined grain; effects for wheat and rye depend on grain structure and processing.
+- [Benisi-Kohansal et al., 2016, *Advances in Nutrition*](https://pubmed.ncbi.nlm.nih.gov/28140323/): Systematic review and dose-response meta-analysis of prospective cohort studies; higher cereal fibre intake significantly associated with lower all-cause, CVD, and cancer mortality.
+- Book claim (high confidence): Whole-grain bread used in the Longevity Diet as a breakfast and side item.
+
+## References
+
+1. Hajihashemi P, Haghighatdoost F. **The effects of whole-grain compared with refined wheat, rice, and rye on the postprandial blood glucose response: a systematic review and meta-analysis of randomized controlled trials.** *American Journal of Clinical Nutrition.* 2018. PMID: [30321274](https://pubmed.ncbi.nlm.nih.gov/30321274/). doi:[10.1093/ajcn/nqy224](https://doi.org/10.1093/ajcn/nqy224)
+2. Benisi-Kohansal S, Saneei P, Salehi-Marzijarani M, et al. **Whole-Grain Intake and Mortality from All Causes, Cardiovascular Disease, and Cancer: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies.** *Advances in Nutrition.* 2016;7(6):1052–1065. PMID: [28140323](https://pubmed.ncbi.nlm.nih.gov/28140323/). doi:[10.3945/an.116.012567](https://doi.org/10.3945/an.116.012567)
 
 ## Key Nutrients
 
