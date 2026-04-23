@@ -4,20 +4,24 @@ slug: tuna
 category: fish
 tags: [fish, omega-3, EPA, DHA, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Tuna
 
-Tuna should be avoided or minimized due to high mercury content
+Tuna should be avoided or minimized due to high mercury content — a large predatory fish that bioaccumulates methylmercury through the food chain, with neurotoxic effects at sustained exposure levels.
 
 ## Why It Matters for Longevity
 
-Tuna should be avoided or minimized due to high mercury content Large predatory fish bioaccumulates methylmercury through the food chain; methylmercury is a potent neurotoxin that damages the central nervous system.  Bluefin tuna is a top vitamin B12 source (8.2–9.3 mcg per 75 g, 137–155% DV); light canned tuna provides B12 (2.2 mcg, 37% DV), iron (1 mg, 6% DV), omega-3 (0.21 g EPA/DHA per 75 g), and vitamin A (20 mcg RAE) Source of vitamin B12, omega-3, iron, and lean protein; however mercury concerns outweigh benefits for regular consumption.  Methylmercury in large predatory fish like bluefin tuna (PMID 18541606) accumulates with frequent consumption and is associated with cognitive decline; light canned tuna has substantially lower levels (~0.12 ppm vs ~0.35 ppm albacore) (PubMed)  EPA/DHA in canned light tuna (PMID 24886603) is lower than in fatty fish like salmon or sardines, reinforcing the book's preference for smaller oily fish over tuna for omega-3 benefits (PubMed)
+Tuna is nutritionally rich — top B12 source, lean complete protein, some omega-3 — but its mercury burden complicates regular consumption. The mercury problem is real but graduated: light canned tuna (~0.12 ppm) is substantially safer than albacore (~0.35 ppm) or bluefin (~1.0 ppm average).
+
+Mozaffarian & Rimm's (2006) comprehensive analysis found that for some fish species, omega-3 benefits outweigh mercury risks, while the opposite is true for species like swordfish and shark. Tuna sits in the middle — canned light tuna was associated with a small net benefit in most analyses, while canned white (albacore) was associated with small net risk at frequent consumption. The Longevity Diet's preference is to substitute with smaller oily fish (sardines, mackerel, anchovies) which deliver comparable B12 and omega-3 with negligible mercury.
+
+For methylmercury risk specifically: sub-clinical neurobehavioral abnormalities have been documented in adults with elevated mercury exposure from frequent tuna consumption — reaction time, digit symbol processing, and finger tapping speed were all worse in regular tuna consumers compared to matched controls (Carta et al., 2003).
 
 ## How to Use It
 
-Pairs well with pasta, olives, capers. Use as a fish in your daily meals according to the Longevity Diet guidelines.
+Pairs well with pasta, olives, capers. If consuming tuna, prefer light canned tuna (not albacore) and limit to 1–2 servings per week. Use it in pasta al tonno, salads, or niçoise. Consider sardines or mackerel as lower-mercury alternatives with comparable nutrition.
 
 ## What to Pair It With
 
@@ -31,7 +35,9 @@ Pairs well with pasta, olives, capers. Use as a fish in your daily meals accordi
 
 ## Synergies
 
-- **Tomatoes** (complement): Tomato lycopene and tuna protein form a Mediterranean combination; vitamin C in tomatoes aids iron absorption  - **Capers** (complement): Classic Italian pairing; quercetin in capers adds antioxidant activity; flavors balance well  - **Salmon** (antagonism): Salmon is the preferred low-mercury alternative for omega-3 intake; tuna should be used only occasionally per the Longevity Diet
+- **Tomatoes** (complement): Tomato lycopene and tuna protein form a Mediterranean combination; vitamin C in tomatoes aids iron absorption.
+- **Capers** (complement): Classic Italian pairing; quercetin in capers adds antioxidant activity; flavors balance well.
+- **Salmon** (antagonism): Salmon is the preferred low-mercury alternative for omega-3 intake; tuna should be used only occasionally per the Longevity Diet.
 
 ## Flavor Profile
 
@@ -39,7 +45,13 @@ Taste: savory, meaty, mild umami, rich. Aroma: oceanic, mild fish, neutral when 
 
 ## The Science
 
-- PubMed: Methylmercury in large predatory fish like bluefin tuna (PMID 18541606) accumulates with frequent consumption and is associated with cognitive decline; light canned tuna has substantially lower levels (~0.12 ppm vs ~0.35 ppm albacore)  - PubMed: EPA/DHA in canned light tuna (PMID 24886603) is lower than in fatty fish like salmon or sardines, reinforcing the book's preference for smaller oily fish over tuna for omega-3 benefits  - Examine.com: Tuna is high in lean protein and B12 but its mercury content, particularly in albacore and bluefin, makes it a less favorable choice compared to sardines or salmon for longevity-focused diets  - Book claim (high confidence): Tuna should be avoided or minimized due to high mercury content  - Book claim (high confidence): Bluefin tuna is a top vitamin B12 source (8.2–9.3 mcg per 75 g, 137–155% DV); light canned tuna provides B12 (2.2 mcg, 3
+- [Mozaffarian & Rimm, 2006, *JAMA*](https://pubmed.ncbi.nlm.nih.gov/17047219/): Species-specific risk-benefit analysis: light canned tuna associated with small net benefit; albacore with small net risk; benefits clearly favor lower-mercury fish for regular consumption.
+- [Carta et al., 2003, *Occup Environ Med*](https://pubmed.ncbi.nlm.nih.gov/12900074/): Sub-clinical neurobehavioral abnormalities (reaction time, processing speed) in adults with elevated mercury from regular tuna consumption, supporting caution about frequent intake.
+
+## References
+
+1. Mozaffarian D, Rimm EB. **Fish intake, contaminants, and human health: evaluating the risks and the benefits.** *JAMA*. 2006;296(15):1885-99. PMID: [17047219](https://pubmed.ncbi.nlm.nih.gov/17047219/). doi:[10.1001/jama.296.15.1885](https://doi.org/10.1001/jama.296.15.1885)
+2. Carta P, Flore C, Alinovi R, et al. **Sub-clinical neurobehavioral abnormalities associated with low level of mercury exposure through fish consumption.** *Neurotoxicology*. 2003;24(4-5):617-23. PMID: [12900074](https://pubmed.ncbi.nlm.nih.gov/12900074/). doi:[10.1016/S0161-813X(03)00014-2](https://doi.org/10.1016/S0161-813X(03)00014-2)
 
 ## Key Nutrients
 

@@ -5,7 +5,7 @@ category: vegetable
 tags: [fiber, phytochemicals, microbiome, overview]
 longevity_score: 9
 type: overview
-last_updated: 2026-04-12
+last_updated: 2026-04-23
 ---
 # Vegetables
 
@@ -27,6 +27,14 @@ The mechanism is the fiber-microbiome axis: diverse vegetable fibers feed differ
 - [Sweet Potatoes](/wiki/sweet-potatoes) -- beta-carotene champions
 - [Pumpkin](/wiki/pumpkin) -- multi-carotenoid coverage
 
+## The Science
+
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Meta-analysis of 95 prospective studies (142 publications): higher vegetable intake dose-dependently reduces cardiovascular disease, cancer, and all-cause mortality; each 100g/day increment associated with 9% lower all-cause mortality.
+
+## References
+
+1. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality — a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
+
 ## How to Use It
 
-Eat a mix of raw and cooked. Cooking breaks cell walls and increases bioavailability of carotenoids; raw preserves vitamin C. Dress with olive oil to absorb fat-soluble nutrients. Aim for diversity over volume -- different colors mean different phytochemicals.
+Eat a mix of raw and cooked. Cooking breaks cell walls and increases bioavailability of carotenoids; raw preserves vitamin C. Dress with olive oil to absorb fat-soluble nutrients. Aim for diversity over volume — different colors mean different phytochemicals.

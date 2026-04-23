@@ -4,20 +4,24 @@ slug: vegetable-broth
 category: beverage
 tags: [beverage, polyphenols, longevity-diet]
 longevity_score: 5
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Vegetable Broth
 
-Vegetable broth and vegetable juice, supplemented with linseed oil, were used as the caloric source (200–350 calories/day) during the 7-day Fasting Mimicking Diet for multiple sclerosis patients and w
+Vegetable broth and vegetable juice, supplemented with linseed oil, are used as the caloric source (200–350 calories/day) during the 7-day Fasting Mimicking Diet — providing micronutrients and electrolytes while maintaining the fasting-like metabolic state.
 
 ## Why It Matters for Longevity
 
-Vegetable broth and vegetable juice, supplemented with linseed oil, were used as the caloric source (200–350 calories/day) during the 7-day Fasting Mimicking Diet for multiple sclerosis patients and were safe and potentially effective. Minimal caloric intake mimics fasting while providing micronutrients; linseed oil supplies omega-3 fatty acids during the fasting period, supporting anti-inflammatory pathways without breaking the fasting state..  Used as part of the FMD protocol: vegetable broth/juice + linseed oil three times daily, alongside 2–3 liters unsweetened fluids per day. Electrolytes and phytonutrients in broth help maintain hydration and mineral balance during prolonged caloric restriction..  A pilot trial (PMID 27048304) of a fasting-mimicking diet in MS patients used vegetable broth as the primary caloric vehicle; participants showed reductions in autoimmune markers and improved quality of life. (PubMed)  Longo et al. (PMID 26822992) demonstrated that a plant-based, broth-centered FMD cycle reduces IGF-1, blood glucose, and inflammatory cytokines in healthy adults, consistent with the longevity-promoting effects described in the book. (PubMed)
+The Longevity Diet's fasting-mimicking protocol uses vegetable broth as the primary caloric vehicle: providing electrolytes, phytonutrients, and minimal calories (~50–100 kcal per serving) without disrupting the hormonal state of fasting. Combined with linseed oil three times daily, it delivers omega-3 ALA alongside the broth's minerals and flavonoids.
+
+Choi et al. (2016) demonstrated in both mice and humans that a fasting-mimicking diet reduced autoimmune symptoms and promoted regeneration in multiple sclerosis, with the vegetable broth protocol as the clinical vehicle. The MS pilot trial showed reductions in autoimmune markers and improved quality of life with no significant adverse events.
+
+Wei et al. (2017) conducted a randomized trial of three FMD cycles in healthy adults: IGF-1 decreased, blood glucose improved, body fat declined, and the median biological age (as measured by clinical markers) decreased by 2.5 years — independent of weight loss. This is the mechanistic evidence behind the book's fasting protocol, and vegetable broth is integral to making the protocol feasible and sustainable.
 
 ## How to Use It
 
-Pairs well with linseed oil, celery, onion. Use as a beverage in your daily meals according to the Longevity Diet guidelines.
+Pairs well with linseed oil, celery, onion. Use as the primary caloric vehicle during FMD cycles, consumed 2–3 times daily with 1 tablespoon of linseed oil. Use low-sodium versions for daily cooking. Choose broths made from onion, leek, carrot, celery, and parsley.
 
 ## What to Pair It With
 
@@ -31,7 +35,8 @@ Pairs well with linseed oil, celery, onion. Use as a beverage in your daily meal
 
 ## Synergies
 
-- **Linseed Oil** (synergy): Used together in the FMD protocol; broth provides electrolytes and phytonutrients while linseed oil supplies omega-3 ALA, together supporting anti-inflammatory and fasting-mimicking effects.  - **Herbal Tea** (complement): Both are FMD-approved fluids that provide hydration with minimal caloric load; rotating between them reduces palatability fatigue during multi-day fasting protocols.
+- **Linseed Oil** (synergy): Used together in the FMD protocol; broth provides electrolytes and phytonutrients while linseed oil supplies omega-3 ALA, together supporting anti-inflammatory and fasting-mimicking effects.
+- **Herbal Tea** (complement): Both are FMD-approved fluids that provide hydration with minimal caloric load; rotating between them reduces palatability fatigue during multi-day fasting protocols.
 
 ## Flavor Profile
 
@@ -39,7 +44,13 @@ Taste: savory, umami, mildly sweet, herbal. Aroma: aromatic, vegetal, earthy. Te
 
 ## The Science
 
-- PubMed: A pilot trial (PMID 27048304) of a fasting-mimicking diet in MS patients used vegetable broth as the primary caloric vehicle; participants showed reductions in autoimmune markers and improved quality of life.  - PubMed: Longo et al. (PMID 26822992) demonstrated that a plant-based, broth-centered FMD cycle reduces IGF-1, blood glucose, and inflammatory cytokines in healthy adults, consistent with the longevity-promoting effects described in the book.  - Examine.com: Examine summarizes FMD evidence showing reduced markers of biological aging, metabolic risk factors, and improved cellular autophagy — mechanisms supported by the low-calorie, plant-based broth protocol.  - Book claim (high confidence): Vegetable broth and vegetable juice, supplemented with linseed oil, were used as the caloric source (200–350 calories/da  - Book claim (high confidence): Used as part of the FMD protocol: vegetable broth/juice + linseed oil three times daily, alongside 2–3 liters unsweetene
+- [Choi et al., 2016, *Cell Rep*](https://pubmed.ncbi.nlm.nih.gov/27239035/): A fasting-mimicking diet (using vegetable broth/juice protocol) promoted regeneration and reduced autoimmunity in multiple sclerosis in both mouse models and a human pilot trial.
+- [Wei et al., 2017, *Sci Transl Med*](https://pubmed.ncbi.nlm.nih.gov/28202779/): Three FMD cycles in a randomized trial reduced IGF-1, blood glucose, body fat, and biological age markers by 2.5 years in healthy adults.
+
+## References
+
+1. Choi IY, Piccio L, Childress P, et al. **A Diet Mimicking Fasting Promotes Regeneration and Reduces Autoimmunity and Multiple Sclerosis Symptoms.** *Cell Rep*. 2016;15(10):2136-46. PMID: [27239035](https://pubmed.ncbi.nlm.nih.gov/27239035/). doi:[10.1016/j.celrep.2016.05.009](https://doi.org/10.1016/j.celrep.2016.05.009)
+2. Wei M, Brandhorst S, Shelehchi M, et al. **Fasting-mimicking diet and markers/risk factors for aging, diabetes, cancer, and cardiovascular disease.** *Sci Transl Med*. 2017;9(377):eaai8700. PMID: [28202779](https://pubmed.ncbi.nlm.nih.gov/28202779/). doi:[10.1126/scitranslmed.aai8700](https://doi.org/10.1126/scitranslmed.aai8700)
 
 ## Key Nutrients
 
