@@ -28,16 +28,14 @@ function RecipeCard({ recipe, servings, onSwap, onRemove, onMarkTried, locale }:
   const timeLabel = isNaN(sum) ? t("time_see_recipe") : t("time_total", { minutes: sum });
 
   return (
-    <div className="flex items-start justify-between gap-4 p-5 bg-surface border border-border rounded-lg print:p-3">
-      <div className="flex-1 min-w-0">
-        <div className="flex items-center gap-2 flex-wrap">
-          <Link
-            href={`/${locale}/recipes/${recipe.slug}/`}
-            className="font-display text-lg font-normal text-text hover:text-accent transition-colors !no-underline !border-none"
-          >
-            {recipe.title}
-          </Link>
-        </div>
+    <div className="flex flex-col gap-4 p-5 bg-surface border border-border rounded-lg print:p-3">
+      <div>
+        <Link
+          href={`/${locale}/recipes/${recipe.slug}/`}
+          className="font-display text-lg font-normal text-text hover:text-accent transition-colors !no-underline !border-none"
+        >
+          {recipe.title}
+        </Link>
         <div className="flex items-center gap-3 mt-1 text-sm text-muted flex-wrap">
           <span>{timeLabel}</span>
           <span>·</span>
@@ -47,7 +45,7 @@ function RecipeCard({ recipe, servings, onSwap, onRemove, onMarkTried, locale }:
           </span>
         </div>
       </div>
-      <div className="print:hidden flex items-center gap-2 shrink-0">
+      <div className="print:hidden flex items-center gap-2">
         <button
           onClick={onMarkTried}
           className="px-3 py-1.5 text-sm border border-border text-muted rounded hover:border-accent hover:text-accent transition-colors"
