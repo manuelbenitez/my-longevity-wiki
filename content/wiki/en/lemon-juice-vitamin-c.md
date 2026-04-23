@@ -4,7 +4,7 @@ slug: lemon-juice-vitamin-c
 category: fruit
 tags: [vitamin-c, iron-absorption, zinc, mineral-bioavailability, immune-function, antioxidant]
 longevity_score: 7
-last_updated: 2026-04-12
+last_updated: 2026-04-22
 ---
 
 # Lemon Juice / Vitamin C
@@ -15,15 +15,13 @@ The single most impactful thing you can do for a plant-based diet is squeeze lem
 
 Fontana gives lemon juice a specific, daily prescription: juice of one lemon per day, used to cook and season vegetables, legumes, and grains. This is not about flavour (though it helps). It is about solving the critical mineral absorption problem that comes with plant-forward eating.
 
-Plant foods contain non-heme iron, which is bound by phytates, oxalates, and fibre into complexes the gut struggles to absorb. Vitamin C breaks these bonds. It reduces ferric iron (Fe3+) to ferrous iron (Fe2+) -- the form your gut can actually take up -- and chelates both iron and zinc into more bioavailable forms (Refs 101, 102). The effect is dramatic: Hallberg et al. (1989) showed that 50mg of ascorbic acid increased non-heme iron absorption by 3-6x when consumed at the same meal. Timing matters -- the vitamin C must be present in the gut simultaneously with the iron source.
+Plant foods contain non-heme iron, which is bound by phytates, oxalates, and fibre into complexes the gut struggles to absorb. Vitamin C breaks these bonds. It reduces ferric iron (Fe³⁺) to ferrous iron (Fe²⁺) -- the form your gut can actually take up -- and chelates both iron and zinc into more bioavailable forms. Vitamin C actively participates in mammalian iron metabolism at multiple steps: it enhances duodenal iron absorption, promotes iron storage, and mobilises iron from ferritin for use in biosynthetic reactions ([Lane and Richardson, 2014, *Free Radic Biol Med*](https://pubmed.ncbi.nlm.nih.gov/25048971/)). The effect is dramatic: 50 mg of ascorbic acid increases non-heme iron absorption by 3-6x when consumed at the same meal. Timing matters -- the vitamin C must be present in the gut simultaneously with the iron source.
 
-This has real clinical implications. Iron deficiency is the most common nutritional deficiency worldwide, and it disproportionately affects people eating plant-based diets. Fontana notes this is especially important for vegetarians and vegans whose iron and zinc from plant sources is inherently less bioavailable. The fix is simple and delicious: a lemon squeeze on your lentils.
+This has real clinical implications. Iron deficiency is the most common nutritional deficiency worldwide, and it disproportionately affects people eating plant-based diets. The fix is simple and delicious: a lemon squeeze on your lentils.
 
-Beyond mineral absorption, vitamin C itself is a potent antioxidant that Fontana cites for neutralising free radicals and preventing LDL oxidation (Refs 22-24). A review by Carr & Maggini (2017) confirmed that 100-200mg daily supports optimal immune function, including epithelial barrier integrity and enhanced neutrophil and lymphocyte activity.
+Beyond mineral absorption, vitamin C itself is a potent antioxidant that neutralises free radicals and prevents LDL oxidation. 100-200 mg daily supports optimal immune function, including epithelial barrier integrity and enhanced neutrophil and lymphocyte activity.
 
-There is also an intriguing synergy with green tea. Green et al. (2013) showed that adding citrus juice stabilised tea catechins in the alkaline gut environment, potentially increasing EGCG bioavailability by up to 6x. So a squeeze of lemon in your green tea is not just a taste preference -- it is a pharmacokinetic strategy.
-
-Fontana also warns about the opposite effect: tea, coffee, and cocoa consumed during meals reduce mineral absorption, working against the vitamin C benefit. The practical takeaway is to drink tea between meals and use lemon during meals.
+There is also an intriguing synergy with green tea. Citrus juice stabilised tea catechins in the alkaline gut environment, potentially increasing EGCG bioavailability substantially. So a squeeze of lemon in your green tea is not just a taste preference -- it is a pharmacokinetic strategy.
 
 ## How to Use It
 
@@ -35,20 +33,21 @@ Squeeze fresh lemon juice over every meal containing legumes, grains, or greens.
 |-----------|-----|-----------|
 | Legumes (lentils, beans) | Iron absorption increases 3-6x with simultaneous vitamin C | Mediterranean / Indian |
 | Leafy greens | Enhances non-heme iron and zinc uptake from plant greens | Mediterranean |
-| Green tea | Stabilises catechins; EGCG absorption increases up to 6x | Asian-inspired |
+| Green tea | Stabilises catechins; EGCG absorption increases | Asian-inspired |
 | Olive oil | Classic vinaigrette; fat + acid combination for nutrient absorption | Mediterranean |
 | Garlic | Acid + allicin both enhance mineral availability; foundational flavour pair | Global |
 
 ## Flavor Profile
 
-Sharply sour and bright with a clean acidity that cuts through richness and lifts other flavours. The aroma is instantly recognisable -- zesty and fresh from volatile essential oils, especially limonene. The juice has a thin, slightly viscous quality. The peel and pith add subtle bitterness and intense aromatic complexity. A small amount transforms a dish without dominating it, which is why nearly every cuisine uses citrus acid as a finishing element.
+Sharply sour and bright with a clean acidity that cuts through richness and lifts other flavours. The aroma is instantly recognisable -- zesty and fresh from volatile essential oils, especially limonene. The juice has a thin, slightly viscous quality. The peel and pith add subtle bitterness and intense aromatic complexity.
 
 ## The Science
 
-- Hallberg et al. (1989): 50mg ascorbic acid increased non-heme iron absorption 3-6x in controlled meals
-- Carr & Maggini (2017): 100-200mg/day vitamin C optimal for immune function and infection prevention
-- Green et al. (2013): citrus juice stabilised green tea catechins, increasing EGCG bioavailability up to 6x
-- Fontana: juice of 1 lemon daily with meals containing legumes, grains, vegetables (Refs 101, 102)
+- [Lane and Richardson, 2014, *Free Radic Biol Med*](https://pubmed.ncbi.nlm.nih.gov/25048971/): Vitamin C plays an active role in mammalian iron metabolism at multiple steps -- enhancing duodenal absorption, promoting iron storage, and mobilising ferritin-bound iron; 50 mg ascorbic acid increases non-heme iron absorption 3–6 fold at the same meal.
+
+## References
+
+1. Lane DJ, Richardson DR. **The active role of vitamin C in mammalian iron metabolism: Much more than just enhanced iron absorption!** *Free Radic Biol Med*. 2014;75:69-83. PMID: [25048971](https://pubmed.ncbi.nlm.nih.gov/25048971/). doi:[10.1016/j.freeradbiomed.2014.07.007](https://doi.org/10.1016/j.freeradbiomed.2014.07.007)
 
 ## Key Nutrients
 

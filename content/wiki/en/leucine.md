@@ -4,40 +4,48 @@ slug: leucine
 category: nutrient
 tags: [nutrient, micronutrient, longevity-diet]
 longevity_score: 5
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Leucine
 
-Leucine activates TOR-S6K, accelerating aging
+Leucine activates TOR-S6K, accelerating aging.
 
 ## Why It Matters for Longevity
 
-Leucine activates TOR-S6K, accelerating aging Leucine is a potent activator of the mTOR/TOR-S6K signaling complex, which promotes cell growth and accelerates aging when chronically elevated.  Dietary leucine restriction extends lifespan and healthspan in mice by reducing mTORC1 signaling and improving metabolic flexibility. (Cell Metabolism, 2012 (PMID 22560220))  Chronic leucine supplementation accelerates cellular senescence markers via sustained mTOR activation; episodic leucine intake shows less aging impact. (Aging Cell, 2014 (PMID 24341874))
+Leucine is a potent activator of the mTOR/TOR-S6K signaling complex, which promotes cell growth and protein synthesis but also accelerates cellular aging when chronically elevated. This places leucine at the center of a key longevity tradeoff: it is the primary dietary amino acid trigger for muscle protein synthesis (relevant for preventing sarcopenia in aging), while also being the most potent dietary activator of mTORC1, the nutrient-sensing pathway most directly linked to accelerated aging.
+
+Restriction of branched-chain amino acids (BCAAs) including leucine promotes geroprotective metabolic shifts in animal models: reduced mTORC1 activity, improved insulin sensitivity, decreased adiposity, and extended lifespan. A study in mice found that protein restriction and BCAA restriction produced overlapping geroprotective benefits, with leucine identified as a primary driver of the aging-associated mTOR activation ([Trautman et al., 2022, *Aging Cell*](https://pubmed.ncbi.nlm.nih.gov/35526271/)).
+
+Dietary amino acid composition modulates healthspan and lifespan through multiple mechanisms beyond mTOR, including effects on the integrated stress response, NAD⁺ metabolism, and mitochondrial function. The regulation of lifespan by dietary amino acids, including leucine's specific role in mTOR-mediated aging versus muscle protein synthesis, is reviewed with implications for longevity-oriented dietary protein choices ([Babygirija and Lamming, 2021, *Transl Med Aging*](https://pubmed.ncbi.nlm.nih.gov/34263088/)).
+
+The Longevity Diet manages this tradeoff through protein timing and source: plant-based protein from legumes provides episodic, moderate leucine exposure versus the chronic high leucine from animal protein throughout the day. Fish and other animal proteins are restricted to specific meal contexts rather than consumed at every meal.
 
 ## How to Use It
 
-Pairs well with legumes, whole grains, fish. Use as a nutrient in your daily meals according to the Longevity Diet guidelines.
+Obtain leucine primarily from plant sources (legumes, whole grains) for episodic mTOR stimulation. When consuming animal protein (fish, eggs), concentrate intake at specific meals rather than spreading throughout the day. The Longevity Diet's lower-protein protocol minimizes chronic mTOR activation while preserving adequate leucine for muscle protein synthesis.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| legumes | See synergies | nutritional science |
-| whole grains | See synergies | nutritional science |
-| fish | See synergies | traditional |
-
-## Synergies
-
-- **Legumes** (complement): Plant-based leucine from legumes provides episodic mTOR stimulation without chronic excess  - **Olive Oil** (complement): Oleic acid moderates mTOR signaling, partially buffering leucine's pro-aging effects  - **Fish** (synergy): Fish provides leucine alongside omega-3s that modulate inflammatory pathways downstream of mTOR
+| Legumes | Plant-based leucine from legumes provides episodic mTOR stimulation without chronic excess | The Longevity Diet |
+| Whole grains | Leucine from grains; lower leucine density moderates mTOR activation compared to animal protein | The Longevity Diet |
+| Fish | Fish provides leucine alongside omega-3s that modulate inflammatory pathways downstream of mTOR | Traditional |
 
 ## Flavor Profile
 
-Taste: bitter, slightly sweet. Aroma: neutral. Texture: crystalline powder (supplement form). Category: amino acid / nutrient.
+Bitter, slightly sweet (as a pure amino acid). Category: amino acid / nutrient.
 
 ## The Science
 
-- Cell Metabolism, 2012 (PMID 22560220): Dietary leucine restriction extends lifespan and healthspan in mice by reducing mTORC1 signaling and improving metabolic flexibility.  - Aging Cell, 2014 (PMID 24341874): Chronic leucine supplementation accelerates cellular senescence markers via sustained mTOR activation; episodic leucine intake shows less aging impact.  - Book claim (high confidence): Leucine activates TOR-S6K, accelerating aging
+- [Trautman et al., 2022, *Aging Cell*](https://pubmed.ncbi.nlm.nih.gov/35526271/): Protein restriction and BCAA restriction (including leucine) promote geroprotective shifts in mice -- reduced mTORC1 activity, improved insulin sensitivity, decreased adiposity; leucine identified as the primary BCAA driver of aging-associated mTOR activation.
+- [Babygirija and Lamming, 2021, *Transl Med Aging*](https://pubmed.ncbi.nlm.nih.gov/34263088/): Review of amino acid regulation of healthspan and lifespan -- leucine's role in mTOR-mediated aging versus muscle protein synthesis tradeoff; plant-derived amino acids produce different longevity outcomes than animal-derived at equivalent leucine doses.
+
+## References
+
+1. Trautman ME, Richardson NE, Lamming DW. **Protein restriction and branched-chain amino acid restriction promote geroprotective shifts in metabolism.** *Aging Cell*. 2022;21(6):e13626. PMID: [35526271](https://pubmed.ncbi.nlm.nih.gov/35526271/). doi:[10.1111/acel.13626](https://doi.org/10.1111/acel.13626)
+2. Babygirija R, Lamming DW. **The regulation of healthspan and lifespan by dietary amino acids.** *Transl Med Aging*. 2021;5:17-30. PMID: [34263088](https://pubmed.ncbi.nlm.nih.gov/34263088/). doi:[10.1016/j.tma.2021.05.001](https://doi.org/10.1016/j.tma.2021.05.001)
 
 ## Key Nutrients
 

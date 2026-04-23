@@ -4,47 +4,47 @@ slug: hazelnut-milk
 category: beverage
 tags: [beverage, polyphenols, longevity-diet]
 longevity_score: 5
-last_updated: 2026-04-18
+last_updated: 2026-04-23
 ---
 
 # Hazelnut Milk
 
-Recommended unsweetened plant milk for the Longevity Diet, used at breakfast and as a snack beverage. Recommended serving: 1 glass (240 mL), unsweetened.
+Recommended unsweetened plant milk for the Longevity Diet, used at breakfast and as a snack beverage. Recommended serving: 1 glass (240 mL), unsweetened. Provides a plant-based dairy alternative that avoids the IGF-1-stimulating effects associated with cow's milk protein.
 
 ## Why It Matters for Longevity
 
-Recommended unsweetened plant milk for the Longevity Diet, used at breakfast and as a snack beverage. Recommended serving: 1 glass (240 mL), unsweetened. Provides a plant-based dairy alternative that avoids the IGF-1-stimulating effects associated with cow's milk protein while contributing healthy monounsaturated fats from hazelnuts..  Hazelnut consumption is associated with reduced LDL cholesterol and improved endothelial function due to its high monounsaturated fat and vitamin E content; these benefits extend to hazelnut-derived products. (PMID 28760423) (PubMed)  Plant-based milk alternatives, when unsweetened and fortified, provide comparable micronutrient delivery to cow's milk with lower saturated fat and no animal protein-driven IGF-1 elevation. (PMID 30274179) (PubMed)
+Hazelnut milk derives its health benefits from its hazelnut base. Hazelnuts are rich in monounsaturated fatty acids (particularly oleic acid), vitamin E, and polyphenols — all of which contribute to cardiovascular protection and reduced oxidative stress. The plant-based format avoids the animal protein-driven IGF-1 elevation associated with cow's milk.
+
+A systematic review and meta-analysis of hazelnut consumption trials found that regular hazelnut intake significantly reduced LDL cholesterol and total cholesterol while maintaining or improving HDL cholesterol — establishing a cardiovascular benefit profile consistent with other tree nut consumption ([Perna et al., 2016, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/27897978/)).
 
 ## How to Use It
 
-Pairs well with oats, cereal, coffee. Use as a beverage in your daily meals according to the Longevity Diet guidelines.
+Use unsweetened hazelnut milk in oatmeal, coffee, and tea, or drink plain as a snack beverage. Check labels — many commercial hazelnut milks contain added sugar; choose those listing only hazelnuts, water, and possibly salt. Shake or stir before use as hazelnut milk separates.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| oats | See synergies | The Longevity Diet |
-| cereal | See synergies | The Longevity Diet |
-| coffee | See synergies | culinary tradition |
-| cocoa | See synergies | culinary tradition |
-
-## Synergies
-
-- **Oats** (complement): Classic Longevity Diet breakfast pairing; the fat in hazelnut milk aids absorption of fat-soluble vitamins in oats  - **Vitamin D Supplement** (synergy): Fat in hazelnut milk improves absorption of fat-soluble vitamin D when taken together at breakfast  - **Cereal** (complement): Fortified hazelnut milk adds calcium and vitamin D to fortified breakfast cereals, creating a complementary micronutrient-dense breakfast
+| Oats | Classic breakfast pairing; combined fiber for sustained energy | The Longevity Diet |
+| Coffee | Longevity Diet beverage combination | The Longevity Diet |
+| Cacao | Complementary polyphenol profiles; natural pairing | General |
 
 ## Flavor Profile
 
-Taste: mildly nutty, subtly sweet, creamy. Aroma: toasted hazelnut, light roasted. Texture: thin to medium body, slightly silky. Category: plant-based beverage.
+Mildly nutty, subtly sweet even unsweetened, creamy with a light hazelnut aroma. Thinner than oat milk, lighter than almond milk. The hazelnut flavor makes it a natural complement to coffee and chocolate. Unsweetened versions have a delicate, almost neutral taste.
 
 ## The Science
 
-- PubMed: Hazelnut consumption is associated with reduced LDL cholesterol and improved endothelial function due to its high monounsaturated fat and vitamin E content; these benefits extend to hazelnut-derived products. (PMID 28760423)  - PubMed: Plant-based milk alternatives, when unsweetened and fortified, provide comparable micronutrient delivery to cow's milk with lower saturated fat and no animal protein-driven IGF-1 elevation. (PMID 30274179)  - Examine.com: Unsweetened hazelnut milk is low in calories and provides vitamin E and monounsaturated fats; fortified versions can supply calcium and vitamin D comparable to cow's milk.  - Book claim (high confidence): Recommended unsweetened plant milk for the Longevity Diet, used at breakfast and as a snack beverage. Recommended servin
+- [Perna et al., 2016, *Nutrients*](https://pubmed.ncbi.nlm.nih.gov/27897978/): Systematic review and meta-analysis found hazelnut consumption significantly reduced LDL cholesterol and total cholesterol with no adverse effect on HDL, supporting cardiovascular benefit of hazelnut-derived products.
+
+## References
+
+1. Perna S, Giacosa A, Bonitta G, et al. **Effects of Hazelnut Consumption on Blood Lipids and Body Weight: A Systematic Review and Bayesian Meta-Analysis.** *Nutrients*. 2016;8(12):747. PMID: [27897978](https://pubmed.ncbi.nlm.nih.gov/27897978/). doi:[10.3390/nu8120747](https://doi.org/10.3390/nu8120747)
 
 ## Key Nutrients
 
-| Nutrient | Per 100g | Notes |
+| Nutrient | Per 240 mL (commercial, unsweetened) | Notes |
 |----------|----------|-------|
-| Vitamin E (alpha-tocopherol) | ~0.6 mg (unsupplemented) | Fat-soluble antioxidant; absorbed alongside the natural fat in hazelnut milk |
-| Monounsaturated fatty acids | ~0.4 g | Cardioprotective oleic acid from hazelnuts; readily absorbed |
-| Calcium (fortified) | ~120 mg (if fortified) | Bioavailability of fortified calcium carbonate is comparable to dairy calcium |
-| Calories | ~26 kcal (unsweetened) | Low caloric density supports caloric restriction patterns in the Longevity Diet |
+| Oleic acid (MUFA) | ~3–4 g | Primary hazelnut fatty acid; associated with LDL reduction |
+| Vitamin E | ~2–3 mg | Fat-soluble antioxidant from hazelnut base; protects LDL from oxidation |
+| Calcium (if fortified) | 120–300 mg | Added to commercial hazelnut milk; check label |

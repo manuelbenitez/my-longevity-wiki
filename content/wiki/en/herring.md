@@ -4,43 +4,54 @@ slug: herring
 category: fish
 tags: [fish, omega-3, EPA, DHA, longevity-diet]
 longevity_score: 8
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Herring
 
-Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g cooked), vitamin A (Atlantic pickled: 219 mcg RAE per 3 oz, 15% DV), and vitami
+Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g cooked), vitamin A (Atlantic pickled: 219 mcg RAE per 3 oz, 15% DV), and vitamin D (Atlantic cooked dry heat: 306 IU per fillet, 76.5% DV).
 
 ## Why It Matters for Longevity
 
-Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g cooked), vitamin A (Atlantic pickled: 219 mcg RAE per 3 oz, 15% DV), and vitamin D (Atlantic cooked dry heat: 306 IU per fillet, 76.5% DV). Omega-3 fatty acids EPA and DHA reduce inflammation and cardiovascular disease risk; vitamin D supports immune function and bone health; vitamin B12 is essential for neurological function and DNA synthesis..  High dietary intake of EPA and DHA from fatty fish such as herring is associated with a 36% reduction in cardiovascular mortality in prospective cohort studies. (PMID 17490956) (PubMed)  Fatty fish consumption twice weekly associated with significantly reduced all-cause mortality and extended healthy lifespan in the PREDIMED cohort. (PMID 26829184) (PubMed)
+Herring is one of the richest dietary sources of marine omega-3 fatty acids (EPA and DHA), with approximately 2.1 g per 100 g cooked. EPA and DHA reduce systemic inflammation and cardiovascular disease risk through multiple mechanisms — lowering triglycerides, improving endothelial function, and modulating platelet aggregation.
+
+Herring also supplies vitamin D (one of the few reliable dietary sources), vitamin B12 for neurological function and DNA methylation, and selenium as a cofactor for glutathione peroxidase antioxidant defense.
+
+Fish-oil supplementation significantly alters myocardial phospholipid fatty acid composition, increasing EPA and DHA in cardiac tissue — demonstrating that dietary marine omega-3s from herring and similar fatty fish directly reach and modify heart tissue ([Metcalf et al., 2007, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/17490956/)).
+
+A meta-analysis of prospective studies found that fish consumption is inversely associated with risk of heart failure; each additional serving per week of fatty fish was associated with a statistically significant reduction in heart failure risk, with omega-3 fatty acids identified as the likely mechanism ([Djoussé et al., 2012, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/22682084/)).
+
+Among 191,558 participants across 58 countries, fish consumption of 175–350 g/week was associated with significantly lower risk of cardiovascular mortality and myocardial infarction, supporting the inclusion of herring and other fatty fish as a longevity dietary staple ([Mohan et al., 2021, *JAMA Intern Med*](https://pubmed.ncbi.nlm.nih.gov/33683310/)).
 
 ## How to Use It
 
-Pairs well with mustard, onion, rye bread. Use as a fish in your daily meals according to the Longevity Diet guidelines.
+Pairs well with mustard, onion, rye bread, lemon, and fennel. Use as a fish in daily meals according to the Longevity Diet guidelines. Kippered (smoked) herring is a traditional northern European preparation; pickled herring provides fermented probiotic benefit alongside omega-3s.
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| mustard | See synergies | culinary tradition |
-| onion | See synergies | culinary tradition |
-| rye bread | See synergies | culinary tradition |
-| lemon | See synergies | culinary tradition |
-| fennel | See synergies | culinary tradition |
-| olive oil | See synergies | culinary tradition |
-
-## Synergies
-
-- **Olive Oil** (synergy): Monounsaturated fats in olive oil enhance absorption of fat-soluble vitamins D and A in herring  - **Lemon** (complement): Vitamin C in lemon juice enhances non-heme iron absorption and provides contrasting acidity that balances herring's richness  - **Fennel** (complement): Fennel's anti-inflammatory anethole complements herring's EPA/DHA for additive anti-inflammatory effect; classic Italian pairing
+| Rye bread | Traditional northern European pairing; fiber moderates glycemic impact | Scandinavian |
+| Mustard | Enhances palatability; mustard seeds provide sulforaphane precursors | Scandinavian |
+| Lemon | Vitamin C enhances mineral absorption; acidity balances herring's richness | Mediterranean |
+| Fennel | Anti-inflammatory anethole complements EPA/DHA; classic Italian pairing | Italian |
+| Olive oil | Monounsaturated fats enhance absorption of fat-soluble vitamins D and A | Mediterranean |
 
 ## Flavor Profile
 
-Taste: rich, savory, briny, slightly smoky when kippered. Aroma: oceanic, smoky (kippered), tangy (pickled). Texture: tender, flaky, soft. Category: oily fish.
+Rich, savory, briny, slightly smoky when kippered. Aroma is oceanic, smoky (kippered), tangy (pickled). Texture is tender and flaky. Oily fish with pronounced umami character.
 
 ## The Science
 
-- PubMed: High dietary intake of EPA and DHA from fatty fish such as herring is associated with a 36% reduction in cardiovascular mortality in prospective cohort studies. (PMID 17490956)  - PubMed: Fatty fish consumption twice weekly associated with significantly reduced all-cause mortality and extended healthy lifespan in the PREDIMED cohort. (PMID 26829184)  - PubMed: Marine omega-3 fatty acids (EPA/DHA) from herring and similar fish activate anti-inflammatory pathways via resolvins and protectins, reducing chronic low-grade inflammation associated with accelerated aging. (PMID 22682084)  - Examine.com: EPA and DHA from oily fish like herring are the most bioavailable forms of omega-3s; associated with reduced triglycerides, improved endothelial function, and potential telomere preservation.  - Book claim (high confidence): Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g
+- [Metcalf et al., 2007, *Am J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/17490956/): Fish-oil supplementation alters myocardial phospholipid fatty acid composition, increasing EPA and DHA in cardiac tissue — demonstrating direct bioavailability of marine omega-3s from herring to heart tissue.
+- [Djoussé et al., 2012, *Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/22682084/): Meta-analysis — fish consumption inversely associated with heart failure risk; each additional weekly serving of fatty fish significantly reduced heart failure incidence.
+- [Mohan et al., 2021, *JAMA Intern Med*](https://pubmed.ncbi.nlm.nih.gov/33683310/): Among 191,558 participants in 58 countries, fish consumption of 175–350 g/week associated with significantly lower cardiovascular mortality and myocardial infarction.
+
+## References
+
+1. Metcalf RG, James MJ, Gibson RA, et al. **Effects of fish-oil supplementation on myocardial fatty acids in humans.** *Am J Clin Nutr*. 2007;85(5):1222-1228. PMID: [17490956](https://pubmed.ncbi.nlm.nih.gov/17490956/). doi:[10.1093/ajcn/85.5.1222](https://doi.org/10.1093/ajcn/85.5.1222)
+2. Djoussé L, Akinkuolie AO, Wu JH, et al. **Fish consumption, omega-3 fatty acids and risk of heart failure: a meta-analysis.** *Clin Nutr*. 2012;31(6):846-853. PMID: [22682084](https://pubmed.ncbi.nlm.nih.gov/22682084/). doi:[10.1016/j.clnu.2012.03.012](https://doi.org/10.1016/j.clnu.2012.03.012)
+3. Mohan D, Mente A, Dehghan M, et al. **Associations of Fish Consumption With Risk of Cardiovascular Disease and Mortality Among Individuals With or Without Vascular Disease From 58 Countries.** *JAMA Intern Med*. 2021;181(5):631-649. PMID: [33683310](https://pubmed.ncbi.nlm.nih.gov/33683310/). doi:[10.1001/jamainternmed.2021.0036](https://doi.org/10.1001/jamainternmed.2021.0036)
 
 ## Key Nutrients
 
