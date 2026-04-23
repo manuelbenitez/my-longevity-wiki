@@ -4,7 +4,7 @@ slug: magnesium
 category: nutrient
 tags: [nutrient, micronutrient, longevity-diet]
 longevity_score: 5
-last_updated: 2026-04-18
+last_updated: 2026-04-22
 ---
 
 # Magnesium
@@ -13,24 +13,24 @@ last_updated: 2026-04-18
 
 ## Why It Matters for Longevity
 
-50–90% of US adults are deficient in magnesium; important for multiple essential body functions. Ensure adequate intake via multivitamin every 2–3 days; obtain from nuts, legumes, and whole grains. Cofactor for over 300 enzymatic reactions; essential for energy metabolism (ATP synthesis), DNA repair, muscle and nerve function, protein synthesis, and regulation of blood glucose and blood pressure..  Higher dietary magnesium intake is associated with reduced all-cause mortality, cardiovascular disease, and type 2 diabetes risk; each 100 mg/day increase in magnesium associated with a 22% lower risk of cardiovascular death in meta-analysis. (PMID 29093983) (PubMed)  Magnesium is a required cofactor for telomerase activity and DNA double-strand break repair; chronic magnesium insufficiency accelerates genomic instability and cellular aging in animal models. (PMID 27933574) (PubMed)
+Magnesium is a cofactor for over 300 enzymatic reactions, including ATP synthesis, DNA repair, muscle and nerve function, protein synthesis, and regulation of blood glucose and blood pressure. It is one of the most common nutritional insufficiencies in Western populations, yet it plays a central role in virtually every longevity-relevant pathway.
+
+A systematic review and dose-response meta-analysis of prospective studies found that higher dietary magnesium intake is inversely associated with risk of all-cause mortality, cardiovascular disease, and cancer; each 100 mg/day increment in dietary magnesium was associated with significantly reduced risks of all major mortality categories ([Bagheri et al., 2021, *Adv Nutr*](https://pubmed.ncbi.nlm.nih.gov/33684200/)).
+
+Higher dietary magnesium intake is also inversely associated with serum C-reactive protein (CRP) levels — a primary marker of systemic inflammation associated with accelerated aging; meta-analysis confirmed a significant linear inverse dose-response relationship between dietary magnesium and CRP ([Dibaba et al., 2014, *Eur J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/24518747/)).
 
 ## How to Use It
 
-Pairs well with kidney beans, walnuts, oats. Use as a nutrient in your daily meals according to the Longevity Diet guidelines.
+Obtain from nuts (almonds: 268 mg/100g), legumes (black beans: ~70 mg/100g cooked), leafy greens, whole grains, and seeds. Supplement with magnesium glycinate or citrate (70–80% bioavailability) every 2–3 days per the Longevity Diet multivitamin protocol; avoid magnesium oxide (~4% bioavailability).
 
 ## What to Pair It With
 
 | Ingredient | Why | Tradition |
 |-----------|-----|-----------|
-| kidney beans | See synergies | The Longevity Diet |
-| walnuts | See synergies | The Longevity Diet |
-| oats | See synergies | The Longevity Diet |
-| linseed oil | See synergies | research |
-
-## Synergies
-
-- **Calcium** (synergy): Magnesium is required for proper calcium metabolism, bone mineralization, and vascular calcium regulation; both must be adequate for bone longevity  - **Kidney Beans** (complement): Kidney beans are a plant-based magnesium source; combined with other legumes and whole grains they can meet 50–60% of daily magnesium needs  - **Linseed Oil** (synergy): Magnesium and omega-3 fatty acids (ALA from linseed oil) act synergistically to reduce cardiovascular inflammation and arrhythmia risk
+| Kidney beans | Plant-based magnesium source; combined with other legumes meets 50–60% of daily needs | The Longevity Diet |
+| Walnuts | Nut-based magnesium; pairs with legumes for combined adequacy | The Longevity Diet |
+| Oats | Whole grain magnesium source; beta-glucan and magnesium together support metabolic health | The Longevity Diet |
+| Linseed oil | ALA and magnesium act synergistically to reduce cardiovascular inflammation and arrhythmia risk | Research |
 
 ## Flavor Profile
 
@@ -38,7 +38,13 @@ Category: micronutrient.
 
 ## The Science
 
-- PubMed: Higher dietary magnesium intake is associated with reduced all-cause mortality, cardiovascular disease, and type 2 diabetes risk; each 100 mg/day increase in magnesium associated with a 22% lower risk of cardiovascular death in meta-analysis. (PMID 29093983)  - PubMed: Magnesium is a required cofactor for telomerase activity and DNA double-strand break repair; chronic magnesium insufficiency accelerates genomic instability and cellular aging in animal models. (PMID 27933574)  - PubMed: Magnesium supplementation reduces inflammatory markers (CRP, IL-6) and improves insulin sensitivity in people with type 2 diabetes and metabolic syndrome; meta-analysis of 32 trials. (PMID 31136047)  - Examine.com: Magnesium glycinate and magnesium citrate have the highest bioavailability (70–80%) compared to magnesium oxide (~4%); food sources (nuts, legumes, leafy greens, whole grains) provide well-absorbed organic magnesium bound to amino acids and phytates.  - Book claim (high confidence): 50–90% of US adults are deficient in magnesium; important for multiple essential body functions. Ensure adequate intake 
+- [Bagheri et al., 2021, *Adv Nutr*](https://pubmed.ncbi.nlm.nih.gov/33684200/): Dose-response meta-analysis of prospective studies — higher dietary magnesium inversely associated with all-cause mortality, cardiovascular mortality, and cancer mortality; 100 mg/day increment associated with significantly reduced mortality risks.
+- [Dibaba et al., 2014, *Eur J Clin Nutr*](https://pubmed.ncbi.nlm.nih.gov/24518747/): Meta-analysis — dietary magnesium intake inversely associated with serum CRP in a significant linear dose-response relationship, supporting magnesium's role in attenuating chronic systemic inflammation.
+
+## References
+
+1. Bagheri A, Morvaridzadeh M, Agah S, et al. **Total, Dietary, and Supplemental Magnesium Intakes and Risk of All-Cause, Cardiovascular, and Cancer Mortality: A Systematic Review and Dose-Response Meta-Analysis.** *Adv Nutr*. 2021;12(4):1196-1210. PMID: [33684200](https://pubmed.ncbi.nlm.nih.gov/33684200/). doi:[10.1093/advances/nmab006](https://doi.org/10.1093/advances/nmab006)
+2. Dibaba DT, Xun P, He K. **Dietary magnesium intake is inversely associated with serum C-reactive protein levels: meta-analysis and systematic review.** *Eur J Clin Nutr*. 2014;68(4):510-516. PMID: [24518747](https://pubmed.ncbi.nlm.nih.gov/24518747/). doi:[10.1038/ejcn.2014.7](https://doi.org/10.1038/ejcn.2014.7)
 
 ## Key Nutrients
 
