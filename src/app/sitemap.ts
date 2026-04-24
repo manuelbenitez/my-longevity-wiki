@@ -27,37 +27,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // canonical split with the locale roots.
   for (const locale of LOCALES) {
     entries.push({
-      url: `${SITE_URL}/${locale}`,
+      url: `${SITE_URL}/${locale}/`,
       changeFrequency: "weekly",
       priority: 1.0,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/meal-planner`,
+      url: `${SITE_URL}/${locale}/meal-planner/`,
       changeFrequency: "weekly",
       priority: 1.0,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/ingredients`,
+      url: `${SITE_URL}/${locale}/ingredients/`,
       changeFrequency: "weekly",
       priority: 0.9,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/recipes`,
+      url: `${SITE_URL}/${locale}/recipes/`,
       changeFrequency: "weekly",
       priority: 0.9,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/support`,
+      url: `${SITE_URL}/${locale}/support/`,
       changeFrequency: "monthly",
       priority: 0.7,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/about`,
+      url: `${SITE_URL}/${locale}/about/`,
       changeFrequency: "monthly",
       priority: 0.6,
     });
     entries.push({
-      url: `${SITE_URL}/${locale}/sources`,
+      url: `${SITE_URL}/${locale}/sources/`,
       changeFrequency: "monthly",
       priority: 0.5,
     });
@@ -70,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       if (!fs.existsSync(path.join(CONTENT_DIR, "wiki", locale, `${slug}.md`))) continue;
       entries.push({
-        url: `${SITE_URL}/${locale}/ingredients/${slug}`,
+        url: `${SITE_URL}/${locale}/ingredients/${slug}/`,
         changeFrequency: "monthly",
         priority: 0.8,
       });
@@ -82,7 +82,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of LOCALES) {
       if (!fs.existsSync(path.join(CONTENT_DIR, "recipes", locale, `${slug}.md`))) continue;
       entries.push({
-        url: `${SITE_URL}/${locale}/recipes/${slug}`,
+        url: `${SITE_URL}/${locale}/recipes/${slug}/`,
         changeFrequency: "monthly",
         priority: 0.7,
       });
