@@ -176,12 +176,13 @@ export default async function RecipePage({
                 .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
                 .join(" ");
               return (
-                <span
+                <Link
                   key={ing}
-                  className="text-xs font-semibold border border-accent/30 bg-accent/5 rounded-sm px-3 py-1.5 text-accent"
+                  href={`/${locale}/ingredients/${ing}/`}
+                  className="text-xs font-semibold border border-accent/30 bg-accent/5 rounded-sm px-3 py-1.5 text-accent hover:bg-accent/10 transition-colors !no-underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                 >
                   {label}
-                </span>
+                </Link>
               );
             })}
           </div>

@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState, useCallback } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 import type { RecipeForPlanner } from "@/lib/meal-planner-reducer";
 import { parseShoppingLine } from "@/lib/parse-ingredients";
 
@@ -156,6 +157,7 @@ export function ShoppingList({
 }: Props) {
   const t = useTranslations("meal_planner");
   const tCat = useTranslations("categories");
+  const locale = useLocale();
   const [checked, setChecked] = useState<Set<string>>(new Set());
 
   const getCategoryLabel = useCallback((key: string): string => {
@@ -276,7 +278,17 @@ export function ShoppingList({
 
                       <span className="flex-1">
                         <span className={done ? "line-through" : ""}>
-                          <span>{item.name}</span>
+                          {item.matchedSlug ? (
+                            <Link
+                              href={`/${locale}/ingredients/${item.matchedSlug}/`}
+                              onClick={(e) => e.stopPropagation()}
+                              className="hover:text-accent hover:underline visited:text-muted !border-none transition-colors"
+                            >
+                              {item.name}
+                            </Link>
+                          ) : (
+                            <span>{item.name}</span>
+                          )}
                           {item.quantities.length > 0 && (
                             <span className="text-muted"> ({sumQuantities(item.quantities)})</span>
                           )}

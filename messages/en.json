@@ -9,18 +9,17 @@
   },
   "home": {
     "tagline": "The science of eating well, living longer.",
-    "description": "{count} ingredients studied for their effect on healthy aging. Grounded in peer-reviewed research from multiple sources.",
     "ingredients_label": "Ingredients",
     "recipes_label": "Recipes",
-    "section_ingredients": "Ingredients",
-    "section_recipes": "Recipes",
-    "cta_ingredients": "Ingredients",
-    "cta_ingredients_description": "Browse all ingredients by category, sort A–Z or by longevity score.",
-    "cta_recipes": "Recipes",
-    "cta_recipes_description": "Mediterranean and longevity cuisine grounded in peer-reviewed research.",
-    "cta_meal_planner": "Meal Planner",
-    "cta_meal_planner_description": "Pick how many people and recipes. Get a combined shopping list with links to every ingredient's wiki entry.",
-    "cta_meal_planner_cta": "Plan this week's meals"
+    "hero_heading": "Plan your week. Eat for a longer life.",
+    "hero_description": "Pick a meal type, tell us how many people, and get a recipe plan built from science-backed ingredients.",
+    "hero_cta": "Start planning →",
+    "cta_ingredients": "The science behind the food",
+    "cta_ingredients_description": "{count} ingredients — each one backed by research",
+    "cta_ingredients_link": "Browse all →",
+    "cta_recipes": "Recipes from the wiki",
+    "cta_recipes_description": "{count} recipes built around longevity ingredients",
+    "cta_recipes_link": "Browse all →"
   },
   "ingredients": {
     "search": "Search ingredients...",
