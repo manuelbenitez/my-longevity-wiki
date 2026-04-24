@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useCallback, useEffect, useReducer, useRef, useState } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -203,6 +203,19 @@ function MealPlannerInner({
   const hasSuggestions = state.selectedRecipes.length > 0;
   const triedCount = state.triedRecipes.length;
 
+  // Ingredient coverage: unique longevity slugs across all recipes vs selected recipes
+  const allLongevityIngredients = useMemo(() => {
+    const set = new Set<string>();
+    for (const r of recipes) for (const ing of r.longevity_ingredients) set.add(ing);
+    return set;
+  }, [recipes]);
+
+  const coveredIngredients = useMemo(() => {
+    const set = new Set<string>();
+    for (const r of state.selectedRecipes) for (const ing of r.longevity_ingredients) set.add(ing);
+    return set;
+  }, [state.selectedRecipes]);
+
   return (
     <div className="max-w-[720px] mx-auto px-6 pt-8 pb-24">
       {/* Back link + title */}
@@ -334,6 +347,34 @@ function MealPlannerInner({
       ) : (
         <div className="py-16 text-center text-muted text-sm border border-dashed border-border rounded-lg print:hidden">
           {t("empty_state")}
+        </div>
+      )}
+
+      {/* Ingredient coverage bar */}
+      {hasSuggestions && allLongevityIngredients.size > 0 && (
+        <div className="mt-8 p-5 bg-surface border border-border rounded-lg print:hidden">
+          <div className="flex items-baseline justify-between mb-2">
+            <span className="text-sm text-text">
+              {t("coverage_label")}{" "}
+              <span className="font-semibold text-accent">{coveredIngredients.size}</span>
+              {" "}{t("coverage_of")}{" "}
+              <span className="font-semibold">{allLongevityIngredients.size}</span>
+              {" "}{t("coverage_ingredients")}
+            </span>
+            <span className="text-xs text-muted shrink-0 ml-4">
+              {t("coverage_gap", { count: allLongevityIngredients.size - coveredIngredients.size })}
+            </span>
+          </div>
+          <div className="h-1.5 bg-border rounded-full overflow-hidden">
+            <div
+              className="h-full bg-accent rounded-full transition-all duration-500"
+              style={{
+                width: `${allLongevityIngredients.size > 0
+                  ? Math.round((coveredIngredients.size / allLongevityIngredients.size) * 100)
+                  : 0}%`,
+              }}
+            />
+          </div>
         </div>
       )}
 
