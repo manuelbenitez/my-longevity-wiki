@@ -39,6 +39,7 @@ export const MEAL_TYPE_OPTIONS = [
   "dinner",
   "snack",
   "drink",
+  "sauce",
 ] as const;
 
 export type MealType = (typeof MEAL_TYPE_OPTIONS)[number];
