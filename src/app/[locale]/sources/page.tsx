@@ -19,7 +19,7 @@ export async function generateMetadata({
     description:
       "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Featuring Luigi Fontana and Valter Longo's longevity research.",
     alternates: { canonical: path, languages },
-    openGraph: { url: path },
+    openGraph: { url: path, images: ["/og-image.png"] },
   };
 }
 

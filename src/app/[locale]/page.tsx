@@ -18,7 +18,7 @@ export async function generateMetadata({
   }
   return {
     alternates: { canonical: path, languages },
-    openGraph: { url: path },
+    openGraph: { url: path, images: ["/og-image.png"] },
   };
 }
 

@@ -82,7 +82,7 @@ export async function generateMetadata({
     title: t.meta_title,
     description: t.meta_description,
     alternates: { canonical: path, languages },
-    openGraph: { url: path, type: "profile" },
+    openGraph: { url: path, type: "profile", images: ["/og-image.png"] },
   };
 }
 

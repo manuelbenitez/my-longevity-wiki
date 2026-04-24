@@ -29,7 +29,7 @@ export async function generateMetadata({
     title: t("page_title"),
     description: t("page_description"),
     alternates: { canonical: path, languages },
-    openGraph: { url: path },
+    openGraph: { url: path, images: ["/og-image.png"] },
   };
 }
 

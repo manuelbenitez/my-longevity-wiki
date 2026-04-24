@@ -20,7 +20,7 @@ export async function generateMetadata({
     description:
       "Help keep Longevity Wiki free, ad-free, and growing. Donations buy longevity research books that become new ingredient articles and recipes for everyone.",
     alternates: { canonical: path, languages },
-    openGraph: { url: path },
+    openGraph: { url: path, images: ["/og-image.png"] },
   };
 }
 
