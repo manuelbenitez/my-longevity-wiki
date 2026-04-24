@@ -102,7 +102,7 @@ export default async function LocaleLayout({
           <BackToTop />
         </NextIntlClientProvider>
       </body>
-      <GoogleAnalytics gaId="G-TEEYF701CL" strategy="lazyOnload" />
+      <GoogleAnalytics gaId="G-TEEYF701CL" />
     </html>
   );
 }
