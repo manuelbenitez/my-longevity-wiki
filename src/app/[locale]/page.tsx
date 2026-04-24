@@ -58,7 +58,7 @@ export default async function Home({
           <div className="flex items-center gap-6 mt-2">
             <Link
               href={`/${locale}/meal-planner/`}
-              className="inline-block bg-accent text-surface text-sm font-semibold rounded-sm px-6 py-2.5 hover:bg-accent-hover transition-colors !no-underline !border-none"
+              className="inline-block bg-accent !text-surface text-sm font-semibold rounded-sm px-6 py-2.5 hover:bg-accent-hover transition-colors !no-underline !border-none"
             >
               {t("hero_cta")}
             </Link>
