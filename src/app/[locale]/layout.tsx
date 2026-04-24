@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     images: [
       {
-        url: "/og-image.png",
+        url: `${SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Longevity Wiki — Science-Backed Foods for Healthy Aging",
@@ -102,7 +102,7 @@ export default async function LocaleLayout({
           <BackToTop />
         </NextIntlClientProvider>
       </body>
-      <GoogleAnalytics gaId="G-TEEYF701CL" />
+      <GoogleAnalytics gaId="G-TEEYF701CL" strategy="lazyOnload" />
     </html>
   );
 }
