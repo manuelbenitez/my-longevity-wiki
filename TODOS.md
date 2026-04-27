@@ -1,5 +1,19 @@
 # TODOS
 
+## Strategy / Brand
+
+### Rename around symptom-to-food
+**What:** Rename the app away from "Longevity Wiki" to a name that fits the symptom-to-food + recipe job. Pivot the homepage entry point from "browse longevity ingredients" to "tell us how you feel, get a recipe."
+**Why:** "Longevity" is insider vocabulary — small audience, low search intent. The symptom-to-food job (already a roadmap item) has 100x the search demand: "foods for bloating," "what to eat for fatigue," "anti-inflammatory recipes," etc. The current name actively prevents the rebrand. JTBD says name the job, not the meta-category.
+**Pros:** Aligns the brand with the highest-volume intent class. Recipes get framed as remedies (anchoring → higher perceived value). Removes the curse-of-knowledge gap with non-longevity-curious users — i.e., almost everyone. Compounding benefit: every new page targets a query class that actually has volume.
+**Cons:** Throws away accumulated brand equity in "Longevity Wiki" (modest given indexation state). Risks losing the literary/research credibility if the new name skews wellness-app. Requires redirects and a careful canonical migration so SEO doesn't reset.
+**Context:** Marketing-psychology-driven naming session 2026-04-27. Top candidates: **Apothecary** (Lindy + Anchoring + Mimetic — recipes-as-remedies framing, fits hand-drawn-illustration aesthetic on roadmap), **Remedy** (most direct JTBD fit, generic), **Larder** (beautiful + obscure), **Tonic** (crowded). Recommendation: **Apothecary** — tagline candidate *"Tell us what's bothering you. We'll suggest what to cook."* The longevity research stays as the substrate (every claim still PubMed-backed); the framing shifts from "study longevity" to "consult the apothecary."
+**Effort:** L (new domain + name + every page string + redirect plan + opengraph/og-image refresh + 301s from longevity.mbdev.to → new domain). With CC: M.
+**Priority:** P2 — strategic, not blocking
+**Depends on:** "Symptom to food" roadmap item (in-progress). Don't rename until that feature is real, or the name overpromises.
+
+---
+
 ## Meal Planner — v2 Items
 
 ### Weekly longevity protocol tracker
