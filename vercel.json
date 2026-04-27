@@ -16,6 +16,36 @@
       "source": "/",
       "destination": "/en/",
       "permanent": false
+    },
+    {
+      "source": "/wiki/cruciferous-vegetables",
+      "destination": "/en/ingredients/broccoli/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/cruciferous-vegetables/",
+      "destination": "/en/ingredients/broccoli/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wild-edible-weeds",
+      "destination": "/en/ingredients/purslane/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/wild-edible-weeds/",
+      "destination": "/en/ingredients/purslane/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/:slug",
+      "destination": "/en/ingredients/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/wiki/:slug/",
+      "destination": "/en/ingredients/:slug/",
+      "permanent": true
     }
   ]
 }
