@@ -30,6 +30,8 @@ export async function generateMetadata({
   };
 }
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://longevity.mbdev.to";
+
 export default async function RecipesPage({
   params,
 }: {
@@ -40,8 +42,21 @@ export default async function RecipesPage({
   const t = await getTranslations({ locale, namespace: "recipes" });
   const recipes = getAllRecipes(locale);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/${locale}/` },
+      { "@type": "ListItem", position: 2, name: t("page_title") },
+    ],
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="max-w-[1200px] mx-auto px-6 pt-12 pb-4">
         <Link
           href={`/${locale}/`}

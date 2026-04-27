@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { getAllRecipeSlugs, getRecipe, recipeLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
+import { extractIngredientLines, extractInstructionSteps } from "@/lib/recipe-schema";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
@@ -83,10 +84,16 @@ export default async function RecipePage({
   const { frontmatter, content } = recipe;
   const html = await markdownToHtml(content);
 
-  const recipeIngredientList = frontmatter.longevity_ingredients?.map((s) =>
-    s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
-  );
-  const jsonLd = {
+  // Prefer ingredients-with-quantities parsed from the markdown body (Google Recipe
+  // rich-result requirement). Fall back to capitalized frontmatter list if missing.
+  const recipeIngredientList =
+    extractIngredientLines(content) ??
+    frontmatter.longevity_ingredients?.map((s) =>
+      s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")
+    );
+  const recipeInstructions = extractInstructionSteps(content);
+
+  const recipeJsonLd = {
     "@context": "https://schema.org",
     "@type": "Recipe",
     name: frontmatter.title,
@@ -100,6 +107,7 @@ export default async function RecipePage({
     cookTime: parseDuration(frontmatter.cook_time),
     keywords: frontmatter.tags?.join(", "),
     recipeIngredient: recipeIngredientList,
+    recipeInstructions,
     suitableForDiet: frontmatter.tags?.includes("vegan")
       ? "https://schema.org/VeganDiet"
       : frontmatter.tags?.includes("vegetarian")
@@ -122,11 +130,25 @@ export default async function RecipePage({
     },
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/${locale}/` },
+      { "@type": "ListItem", position: 2, name: "Recipes", item: `${SITE_URL}/${locale}/recipes/` },
+      { "@type": "ListItem", position: 3, name: frontmatter.title },
+    ],
+  };
+
   return (
     <main className="min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link

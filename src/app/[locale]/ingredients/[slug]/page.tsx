@@ -1,5 +1,11 @@
 import { setRequestLocale } from "next-intl/server";
-import { getAllWikiSlugs, getWikiEntry, getAllRecipes, wikiLocales } from "@/lib/data";
+import {
+  getAllWikiSlugs,
+  getWikiEntry,
+  getAllRecipes,
+  getIndividualIngredients,
+  wikiLocales,
+} from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
@@ -85,7 +91,24 @@ export default async function IngredientPage({
     )
   );
 
-  const jsonLd = {
+  // Related ingredients: same category first, then tag overlap. Excludes self.
+  // Internal-link density helps Google understand topical clustering and gives
+  // crawlers more paths into long-tail pages.
+  const allIngredients = getIndividualIngredients(locale);
+  const tagSet = new Set(frontmatter.tags || []);
+  const relatedIngredients = allIngredients
+    .filter((i) => i.slug !== slug)
+    .map((i) => {
+      const sameCategory = i.frontmatter.category === frontmatter.category ? 2 : 0;
+      const tagOverlap = (i.frontmatter.tags || []).filter((t) => tagSet.has(t)).length;
+      return { entry: i, score: sameCategory + tagOverlap };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 6)
+    .map((x) => x.entry);
+
+  const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: frontmatter.title,
@@ -112,11 +135,25 @@ export default async function IngredientPage({
     },
   };
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/${locale}/` },
+      { "@type": "ListItem", position: 2, name: "Ingredients", item: `${SITE_URL}/${locale}/ingredients/` },
+      { "@type": "ListItem", position: 3, name: frontmatter.title },
+    ],
+  };
+
   return (
     <main className="min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
         <Link
@@ -216,6 +253,35 @@ export default async function IngredientPage({
                       )}
                     </div>
                   </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related Ingredients */}
+      {relatedIngredients.length > 0 && (
+        <section className="max-w-[680px] mx-auto px-6 pb-24">
+          <div className="border-t border-border pt-12">
+            <h2 className="font-display text-2xl font-normal mb-6">
+              Related ingredients
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {relatedIngredients.map((i) => (
+                <Link
+                  key={i.slug}
+                  href={`/${locale}/ingredients/${i.slug}/`}
+                  className="block bg-surface border border-border rounded-lg p-4 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5"
+                >
+                  <div className="font-display text-base font-normal text-text mb-1">
+                    {i.frontmatter.title}
+                  </div>
+                  {i.frontmatter.category && (
+                    <div className="text-xs text-muted capitalize">
+                      {i.frontmatter.category}
+                    </div>
+                  )}
                 </Link>
               ))}
             </div>
