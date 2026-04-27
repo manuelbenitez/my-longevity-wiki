@@ -143,7 +143,17 @@
     "shopping_list_title": "Lista de compras",
     "copy_button": "Copiar lista de compras",
     "copied": "¡Copiado!",
-    "copy_failed": "Error al copiar"
+    "copy_failed": "Error al copiar",
+    "seo_section_title": "Cómo funciona el planificador",
+    "seo_intro": "Este planificador arma una semana de comidas alrededor de los alimentos que aparecen más consistentemente en la investigación sobre longevidad — pilares mediterráneos, hojas verdes, legumbres, pescados grasos, lácteos fermentados, y una rotación pequeña pero confiable de frutos secos, hierbas y granos integrales. Cada receta de la base se escribió para reunir 3–5 de estos ingredientes en un plato, así una semana de cinco recetas cubre 20+ alimentos de longevidad sin que tengas que llevar la cuenta.",
+    "seo_step_1_title": "Elige tipo de comida y cantidad",
+    "seo_step_1_body": "Dile al planificador qué tipo de comidas quieres (desayuno, cena, salsa, etc.) y cuántas recetas para la semana. El planificador rota por la biblioteca de recetas y evita repeticiones consecutivas.",
+    "seo_step_2_title": "Recibe un plan y una lista de compras",
+    "seo_step_2_body": "El planificador genera un conjunto de recetas y luego deriva una sola lista de compras deduplicada — las cantidades se escalan según el número de personas. Puedes cambiar cualquier receta que no te guste.",
+    "seo_step_3_title": "Marca lo que ya probaste",
+    "seo_step_3_body": "Marca recetas como probadas para mantenerlas en tu historial. El planificador registra qué ingredientes de longevidad cubrió tu semana, para que veas los huecos antes de que se vuelvan hábito.",
+    "seo_why_title": "¿Por qué planificar alrededor de ingredientes de longevidad?",
+    "seo_why_body": "Los predictores dietéticos más fuertes del healthspan en la epidemiología no son nutrientes aislados — son patrones de alimentos recurrentes. El aceite de oliva, el pescado, las legumbres, las verduras, los granos integrales, los frutos secos y los lácteos fermentados aparecen en cada Blue Zone, en los ensayos de la dieta mediterránea y en los estudios de cohortes más largos. Planificar comidas alrededor de estos ingredientes (en vez de macros o calorías) es la forma de menor fricción para inclinar el consumo semanal hacia los patrones que aparecen en los datos."
   },
   "footer": {
     "description": "Enciclopedia de alimentos de codigo abierto basada en investigacion cientifica sobre longevidad."

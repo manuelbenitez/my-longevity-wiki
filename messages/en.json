@@ -143,7 +143,17 @@
     "shopping_list_title": "Shopping List",
     "copy_button": "Copy shopping list",
     "copied": "Copied!",
-    "copy_failed": "Copy failed"
+    "copy_failed": "Copy failed",
+    "seo_section_title": "How the meal planner works",
+    "seo_intro": "This planner builds a week of meals around the foods that show up most consistently in longevity research — Mediterranean staples, leafy greens, legumes, fatty fish, fermented dairy, and a small but reliable rotation of nuts, herbs, and whole grains. Every recipe in the database was written to land 3–5 of these ingredients in one dish, so a five-recipe week reliably covers 20+ longevity foods without you tracking it manually.",
+    "seo_step_1_title": "Pick a meal type and count",
+    "seo_step_1_body": "Tell the planner what kind of meals you want (breakfast, dinner, sauce, etc.) and how many recipes for the week. The planner rotates through the recipe library and avoids back-to-back repeats.",
+    "seo_step_2_title": "Get a recipe plan and shopping list",
+    "seo_step_2_body": "The planner generates a recipe set, then derives a single deduplicated shopping list — quantities scale to the number of people you're feeding. You can swap any recipe you don't like.",
+    "seo_step_3_title": "Track what you've tried",
+    "seo_step_3_body": "Mark recipes as tried to keep them in your history. The planner tracks which longevity ingredients your week covered, so you can see gaps before they become habits.",
+    "seo_why_title": "Why plan around longevity ingredients?",
+    "seo_why_body": "The strongest dietary predictors of healthspan in epidemiology aren't single nutrients — they're recurring food patterns. Olive oil, fish, legumes, vegetables, whole grains, nuts, and fermented dairy show up across every Blue Zone, the Mediterranean diet trials, and the longest-running cohort studies. Planning meals around these ingredients (rather than around macros or calorie counts) is the lowest-friction way to nudge weekly intake toward the patterns that show up in the data."
   },
   "footer": {
     "description": "Open source food encyclopedia grounded in peer-reviewed longevity research."

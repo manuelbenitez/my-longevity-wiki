@@ -10,10 +10,14 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
+        // Build artifacts have no SEO value and were polluting the
+        // crawled-not-indexed bucket (16/49 pages were _next chunks).
+        disallow: "/_next/",
       },
       {
         userAgent: ["GPTBot", "ClaudeBot", "PerplexityBot", "OAI-SearchBot"],
         allow: "/",
+        disallow: "/_next/",
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,

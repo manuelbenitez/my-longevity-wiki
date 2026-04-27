@@ -40,6 +40,7 @@ export default async function MealPlannerPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "meal_planner" });
 
   const allRecipes = getAllRecipes(locale);
   const allWikiEntries = getAllWikiEntries(locale);
@@ -104,6 +105,37 @@ export default async function MealPlannerPage({
         totalRecipes={recipes.length}
         locale={locale}
       />
+
+      {/* Server-rendered explainer — gives crawlers real content on what is
+          otherwise a client-only interactive page. */}
+      <section className="max-w-[680px] mx-auto px-6 pb-24 pt-12 border-t border-border">
+        <h2 className="font-display text-2xl font-normal mb-4">
+          {t("seo_section_title")}
+        </h2>
+        <p className="text-base text-muted leading-relaxed mb-10">
+          {t("seo_intro")}
+        </p>
+
+        <ol className="space-y-6 mb-12">
+          {[1, 2, 3].map((n) => (
+            <li key={n}>
+              <h3 className="font-display text-lg font-normal mb-1">
+                {n}. {t(`seo_step_${n}_title`)}
+              </h3>
+              <p className="text-sm text-muted leading-relaxed">
+                {t(`seo_step_${n}_body`)}
+              </p>
+            </li>
+          ))}
+        </ol>
+
+        <h2 className="font-display text-2xl font-normal mb-4">
+          {t("seo_why_title")}
+        </h2>
+        <p className="text-base text-muted leading-relaxed">
+          {t("seo_why_body")}
+        </p>
+      </section>
     </main>
   );
 }
