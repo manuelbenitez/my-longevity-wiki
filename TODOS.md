@@ -7,13 +7,27 @@
 **Why:** "Longevity" is insider vocabulary — small audience, low search intent. The symptom-to-food job (already a roadmap item) has 100x the search demand: "foods for bloating," "what to eat for fatigue," "anti-inflammatory recipes," etc. The current name actively prevents the rebrand. JTBD says name the job, not the meta-category.
 **Pros:** Aligns the brand with the highest-volume intent class. Recipes get framed as remedies (anchoring → higher perceived value). Removes the curse-of-knowledge gap with non-longevity-curious users — i.e., almost everyone. Compounding benefit: every new page targets a query class that actually has volume.
 **Cons:** Throws away accumulated brand equity in "Longevity Wiki" (modest given indexation state). Risks losing the literary/research credibility if the new name skews wellness-app. Requires redirects and a careful canonical migration so SEO doesn't reset.
-**Context:** Marketing-psychology naming session 2026-04-27, then competitive research same day. Initial recommendation was **Apothecary**, but research found the word is heavily crowded in food/recipes: thekitchenapothecary.com, outdoorapothecary.com, theamazonapothecary.com, apothekary.com (recipes portal), and theapothecary.app (taken by a beauty brand). Plus 5+ recipe books with "Apothecary" in the title. Generic word, undefendable trademark in this class.
+**Context:** Marketing-psychology naming session + competitive research 2026-04-27. Three rounds of candidates, each filtered against live competition.
 
-Worse, the symptom-to-food niche has a live competitor: **Symptom To Spoon** (Android, AI-driven meals from symptoms, free + Pro tier). And a food-diary cluster (mySymptoms 1M+ users, GutDiaries, Foody) tracks the inverse — log food → find triggers. The pure symptom-to-food category is no longer empty. Healthline / WebMD / Mayo Clinic dominate "foods for X" head queries (DR 90+ vs our DR ~5).
+**Round 1 (rejected after research):**
+- **Apothecary** — too crowded (thekitchenapothecary.com, outdoorapothecary.com, theamazonapothecary.com, apothekary.com /recipes portal, theapothecary.app taken by beauty brand, 5+ books). Generic word, undefendable.
+- **Foodnote** — too phonetically close to **Foodnoms** (live AI nutrition tracker with 9to5Mac coverage). Brand confusion risk.
+- **Forager** — owned by James Beard winner Forager Chef + Backyard Forager.
+- **Almanac** — Old Farmer's Almanac dominates.
+- **Larder** — two established food blogs (Larder Love, Jo's Kitchen Larder).
 
-The wedge has to be the differentiators, not the category: **PubMed-cited claims, hand-written recipes, open source, no ads, no tracking, donation-funded, bilingual.** Name should signal *that* — being the 5th "Apothecary" misses the point.
+**Round 2 — niche reality check:**
+The pure symptom-to-food category is *not* empty. **Symptom To Spoon** (Android, live, AI-driven, Pro tier) does the literal pivot. Food-diary cluster — mySymptoms (1M+ users), GutDiaries, Foody — tracks the inverse (food → triggers). Healthline / WebMD / Mayo dominate "foods for X" head SEO at DR 90+ vs ours ~5. The category isn't a moat — the moat is the **differentiators**: PubMed-cited claims, hand-written recipes, open source, ad-free, donation-funded, bilingual. Name must signal *that*.
 
-Revised candidates: **Foodnote** (every recipe footnoted with research — pun + warm), **Cited** / **Cited Plate** (academic-but-friendly), **Open Pantry** (open-source angle), **Larder** (less crowded than Apothecary), **Marrow** (deep nutrition, short, defensible). Top two: **Foodnote** or **Cited** — both wear the moat on their sleeve. Tagline candidate either way: *"Tell us what's bothering you. We'll suggest what to cook — every claim cited."*
+**Round 3 — finalists (clean lanes after research):**
+
+1. **Materia** ⭐ recommended. Zero food/recipe collisions. From *materia medica* — the historical academic discipline of "which substances heal which conditions." That's literally what this site is, open-sourced. Sounds institutional + warm. Same word in EN and ES (same pronunciation, same meaning) — solves bilingual double-naming. Short, distinctive, brandable. Tagline: *"Food as medicine. Cited."*
+
+2. **Dossier** — also zero collisions. Frames each ingredient as a research file. Accessible (every English speaker knows it), investigative tone. Tagline: *"Every food has a dossier."* Weaker bilingual fit (different connotations in ES).
+
+3. **Receipts** — minimal collisions. Killer double-meaning (1700s English for "recipe" + modern slang for "proof/evidence"). Risk: financial-receipt UX confusion. Tagline: *"Recipes with the receipts."*
+
+**Recommendation: Materia.** Cleanest lane + most meaningful etymology + bilingual-native. The longevity research stays as the substrate (every claim still PubMed-backed); the framing shifts from "longevity wiki" to "the open materia medica."
 **Effort:** L (new domain + name + every page string + redirect plan + opengraph/og-image refresh + 301s from longevity.mbdev.to → new domain). With CC: M.
 **Priority:** P2 — strategic, not blocking
 **Depends on:** "Symptom to food" roadmap item (in-progress). Don't rename until that feature is real, or the name overpromises.
