@@ -4,7 +4,7 @@ slug: watercress
 category: vegetable
 tags: [vegetable, cruciferous, antioxidants, isothiocyanates, longevity-diet]
 longevity_score: 9
-last_updated: 2026-04-18
+last_updated: 2026-04-29
 ---
 
 # Watercress
@@ -22,6 +22,10 @@ Watercress punches well above its weight as a longevity food for three interlock
 **Anti-cancer mechanisms.** PEITC — released when watercress tissue is damaged by chewing or chopping — acts across multiple cancer hallmarks: it induces apoptosis, arrests the cell cycle, and suppresses metastatic signalling. A 2025 narrative review classifies watercress as a functional food for non-communicable disease prevention, with glucosinolates and isothiocyanates as the primary bioactive drivers ([PMC12299072](https://pmc.ncbi.nlm.nih.gov/articles/PMC12299072/)).
 
 **Bone health.** With over 250 µg of vitamin K per 100 g (more than 200% of the RDI), watercress is one of the richest dietary sources of phylloquinone. High vitamin K intake is associated with a 35% lower risk of hip fracture in epidemiological studies.
+
+**PEITC as a dual transcription factor activator.** The mechanistic depth of PEITC's protection extends beyond a single pathway. At physiologically relevant concentrations (1–2.5 µM), PEITC modifies cysteine 151 (C151) in KEAP1 -- the repressor protein that normally keeps NRF2 inactive -- releasing NRF2 to travel to the nucleus and switch on phase II detoxification and antioxidant response genes. At higher concentrations PEITC independently activates heat shock factor 1 (HSF1), inducing heat shock proteins HSP70 and HSP27 that stabilise the proteome against stress. These two complementary pathways together explain why PEITC shows broad protective activity across oxidative, inflammatory, and proteotoxic insults ([Dayalan Naidu et al., 2018, *Mol Nutr Food Res*](https://pubmed.ncbi.nlm.nih.gov/29710398/)). The same review documents that PEITC epigenetically reactivates silenced tumour suppressor genes (GSTP1, RASSF1A) by reducing histone deacetylase (HDAC) and DNA methyltransferase (DNMT) expression -- a mechanism that may be relevant to the reversal of early cancer-related epigenetic changes.
+
+**Clinical carcinogen detoxification in smokers.** A randomised controlled trial in 82 cigarette smokers administered PEITC (40 mg/day for one week) and measured activation of NNK, a tobacco-specific lung carcinogen. PEITC treatment reduced the NNK metabolic activation ratio by 7.7% (p = 0.023) -- a statistically significant inhibition of a known carcinogen with direct human exposure. Given that watercress is the richest food source of PEITC (as gluconasturtiin, yielding ~10–20 mg PEITC per 100 g on chewing), daily watercress consumption at the trial dose used in the DNA-damage RCT (85 g) delivers PEITC at biologically relevant levels ([Yuan et al., 2016, *Cancer Prev Res*](https://pubmed.ncbi.nlm.nih.gov/26951845/)).
 
 ## How to Use It
 
@@ -60,7 +64,9 @@ Taste: peppery, pungent, slightly bitter, mildly astringent. Aroma: fresh, grass
 
 ## The Science
 
-- **[PubMed 17284750](https://pubmed.ncbi.nlm.nih.gov/17284750/):** RCT (n=60, 85 g/day for 8 weeks) — basal DNA damage reduced 17%, oxidative purine damage reduced 23.9%; plasma lutein up 100%, beta-carotene up 33%. Effects more pronounced in smokers.
+- **[Gill et al., 2007, *Am J Clin Nutr*, PubMed 17284750](https://pubmed.ncbi.nlm.nih.gov/17284750/):** RCT (n=60, 85 g/day for 8 weeks) — basal DNA damage reduced 17%, oxidative purine damage reduced 23.9%; plasma lutein up 100%, beta-carotene up 33%. Effects more pronounced in smokers. PEITC mechanism: gluconasturtiin hydrolysis by myrosinase → PEITC → NRF2 activation → upregulated antioxidant enzymes.
+- **[Dayalan Naidu et al., 2018, *Mol Nutr Food Res*, PubMed 29710398](https://pubmed.ncbi.nlm.nih.gov/29710398/):** Mechanistic review — PEITC modifies KEAP1 C151 at 1–2.5 µM to release NRF2; activates HSF1 at higher concentrations; induces HSP70/HSP27; epigenetically reactivates GSTP1 and RASSF1A tumour suppressors via HDAC/DNMT inhibition.
+- **[Yuan et al., 2016, *Cancer Prev Res*, PubMed 26951845](https://pubmed.ncbi.nlm.nih.gov/26951845/):** RCT in 82 smokers — PEITC (40 mg/day, 1 week) reduced NNK tobacco carcinogen metabolic activation ratio by 7.7% (p = 0.023); NNK → PEITC → NRF2 → phase II enzyme induction → carcinogen detoxification.
 - **[PMC8123986](https://pmc.ncbi.nlm.nih.gov/articles/PMC8123986/):** Narrative review — PEITC mediates apoptosis and cell cycle arrest across cancer initiation, proliferation, and metastasis stages; LDL-C lowered 48–52% in hypercholesterolemic models; hepatoprotective and renoprotective effects confirmed.
 - **[PMC12299072](https://pmc.ncbi.nlm.nih.gov/articles/PMC12299072/):** 2025 review — classifies watercress as a functional food; glucosinolates and isothiocyanates drive anti-inflammatory, antiproliferative, and metabolic regulatory effects relevant to CVD, T2D, and cancer risk.
 - **CDC / Healthline:** Ranked #1 on CDC Powerhouse Fruits and Vegetables list; over 40 unique flavonoids; 16% reduced heart disease risk in cruciferous vegetable epidemiological data; vitamin K >100% RDI per cup linked to 35% lower hip fracture risk.
