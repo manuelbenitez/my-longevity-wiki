@@ -1,60 +1,61 @@
 ---
-title: Fruta (Vision General)
+title: Fruta (Visión General)
 slug: fruit
 category: fruit
-tags: [vitamina-c, fibra, polifenoles, cardiovascular, prevencion-cancer, salud-intestinal, matriz-alimentaria]
+tags: [vitamina-c, fibra, polifenoles, cardiovascular, prevención-cancer, salud-intestinal, matriz-alimentaria]
 longevity_score: 8
 type: overview
-last_updated: 2026-04-12
+last_updated: 2026-04-30
 ---
 
 # Fruta
 
-El bajo consumo de fruta mata aproximadamente 3,4 millones de personas al ano segun el analisis de Carga Global de Enfermedad -- convirtiendolo en uno de los principales factores de riesgo dietetico del planeta, por delante incluso del alto consumo de sodio.
+El bajo consumo de fruta mata aproximadamente 3,4 millones de personas al año según el análisis de la Carga Global de Enfermedad — convirtiéndolo en uno de los principales factores de riesgo dietéticos del planeta, por delante incluso del alto consumo de sodio.
 
-## Por Que Importa para la Longevidad
+## Por Qué Importa para la Longevidad
 
-Fontana posiciona la fruta junto con las verduras, legumbres y granos enteros como uno de los cuatro pilares de una dieta de longevidad: alimentos ricos en fibra que proporcionan vitaminas, oligoelementos y fitoquimicos procesados por el microbioma intestinal en metabolitos protectores (Ref 5). El libro tambien destaca un 53% de reduccion del riesgo de enfermedad de Crohn con mayor consumo de frutas y verduras (Ref 40), impulsado por la pectina y otras fibras que alimentan bacterias beneficas productoras de acidos grasos de cadena corta antiinflamatorios.
+Fontana posiciona la fruta junto con las verduras, legumbres y granos enteros como uno de los cuatro pilares de una dieta de longevidad: alimentos ricos en fibra que proporcionan vitaminas, oligoelementos y fitoquímicos procesados por el microbioma intestinal en metabolitos protectores (Ref 5). El libro también destaca una reducción del 53 % del riesgo de enfermedad de Crohn con mayor consumo de frutas y verduras (Ref 40), impulsada por la pectina y otras fibras que alimentan bacterias beneficiosas productoras de ácidos grasos de cadena corta antiinflamatorios.
 
-Los datos epidemiologicos son masivos. Un metaanalisis de 95 estudios prospectivos (Aune et al., 2017, BMJ) encontro que el consumo de fruta redujo de forma dosis-dependiente la enfermedad cardiovascular, el cancer y la mortalidad por todas las causas, con beneficios optimos alrededor de 800g diarios de frutas y verduras combinadas. El China Kadoorie Biobank -- siguiendo a medio millon de personas -- encontro que el consumo diario de fruta fresca se asocio con un 40% menos de mortalidad cardiovascular y un 25% menos de riesgo de accidente cerebrovascular (Du et al., 2016).
+Un metaanálisis de 95 estudios prospectivos encontró que el consumo de fruta redujo de forma dosis-dependiente la enfermedad cardiovascular, el cáncer y la mortalidad por todas las causas, con beneficios óptimos alrededor de 800 g diarios de frutas y verduras combinadas ([Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/)). El China Kadoorie Biobank — con seguimiento de 500 000 participantes — encontró que el consumo diario de fruta fresca se asoció con un 40 % menos de mortalidad cardiovascular y un 25 % menos de riesgo de accidente cerebrovascular ([Du et al., 2016, *N Engl J Med*](https://pubmed.ncbi.nlm.nih.gov/27050205/)).
 
-Un principio recorre toda la guia de Fontana sobre frutas: comerla entera, no en jugo. La matriz alimentaria intacta -- paredes celulares, gel de pectina, fibra -- ralentiza fisicamente la absorcion de azucar. Hacer jugo destruye esta matriz y libera azucares libres para absorcion rapida, convirtiendo un alimento saludable en algo mas parecido a un refresco. Esto aplica a todos los tipos de fruta.
+Un principio recorre toda la orientación de Fontana sobre la fruta: comerla entera, no en zumo. La matriz alimentaria intacta — paredes celulares, gel de pectina, fibra — ralentiza físicamente la absorción del azúcar. Hacer zumo destruye esta matriz y libera azúcares libres para una absorción rápida, convirtiendo un alimento saludable en algo más parecido a un refresco. Esto aplica a todos los tipos de fruta, desde los cítricos hasta los frutos rojos.
 
-La fruta de temporada y la fruta seca tienen sus roles. La fruta fresca de temporada como postre reemplaza los dulces procesados (una tradicion mediterranea que Fontana respalda explicitamente en el capitulo 8). Las frutas secas -- higos, datiles, uvas, duraznos -- concentran nutrientes y sirven como alternativas de invierno. La practica mediterranea tradicional de mermelada de higos sin azucar anadida para el desayuno y frutas secas con nueces como postre representa siglos de sabiduria alimentaria intuitiva ahora respaldada por la ciencia metabolica.
+La diversidad importa tanto como la cantidad. Diferentes frutas aportan distintas clases de compuestos protectores: los frutos rojos y las moras son ricos en anthocyanins, los cítricos en flavanonas y vitamina C, las manzanas en quercetina, la granada en punicalaginas. Comer cinco frutas distintas a lo largo de la semana proporciona una cobertura fitoquímica que ninguna fruta individual puede ofrecer por sí sola. La fruta seca — higos, dátiles, uvas pasas, melocotones secos — concentra nutrientes y sirve como alternativa práctica de invierno, aunque debe consumirse en porciones más pequeñas debido a su mayor densidad calórica.
 
-Diferentes frutas se especializan en diferentes compuestos protectores: moras y frutos rojos para antocianinas, citricos para flavanonas y vitamina C, manzanas para quercetina, granada para punicalaginas. La diversidad importa. La cobertura fitoquimica de comer cinco frutas diferentes por semana supera lo que cualquier fruta individual puede proporcionar.
+## Cómo Usarla
 
-## Como Usarla
+Apunte a 2–4 porciones diarias (aproximadamente 300–400 g), variadas por tipo y temporada. Siempre coma fruta entera, nunca zumo. Combínela con nueces o yogur para ralentizar la absorción de glucosa y mejorar la absorción de nutrientes liposolubles. Use fruta fresca de temporada como postre. Tenga frutos rojos congelados y frutas secas a mano para acceso durante todo el año.
 
-Apunte a 2-4 porciones diarias (aproximadamente 300-400g), variadas por tipo y temporada. Siempre coma fruta entera, no jugo. Combine con nueces o yogur para ralentizar la absorcion de glucosa y mejorar la absorcion de nutrientes liposolubles. Use fruta fresca de temporada como postre. Tenga moras congeladas y frutas secas a mano para acceso durante todo el ano. El protocolo de muestra de Fontana incluye fruta en el desayuno (con yogur y avena) y como postre despues de las comidas principales.
+## Con Qué Combinarla
 
-## Con Que Combinarla
-
-| Ingrediente | Por Que | Tradicion |
+| Ingrediente | Por qué | Tradición |
 |-----------|-----|-----------|
-| Nueces | La grasa mejora la absorcion de carotenoides/polifenoles; merienda completa | Mediterranea / Medio Oriente |
-| Yogur | Probioticos + polifenoles de fruta para sinergia de salud intestinal | Mediterranea / Europea |
-| Avena / granos enteros | Fuentes duales de fibra (pectina + beta-glucano) para colesterol y glucosa | Norte de Europa |
-| Chocolate oscuro | Clases complementarias de polifenoles; postre satisfactorio | Europea / Global |
-| Canela | Efectos sensibilizantes a la insulina moderan la respuesta al azucar de la fruta | Global |
+| Nueces | La grasa mejora la absorción de carotenoides y polifenoles; merienda completa | Mediterránea / Oriente Medio |
+| Yogur | Probióticos + polifenoles de fruta para sinergia de salud intestinal | Mediterránea / Europea |
+| Avena / granos enteros | Fuentes duales de fibra (pectina + beta-glucan) para colesterol y glucosa | Norte de Europa |
+| Chocolate negro | Clases complementarias de polifenoles; postre satisfactorio | Europea / Global |
+| Canela | Efectos sensibilizantes a la insulina moderan la respuesta al azúcar de la fruta | Global |
 
 ## Perfil de Sabor
 
-Tan variado como la categoria misma -- desde citricos acidos hasta higos dulces como la miel, manzanas crujientes hasta lujosos frutos de hueso. Lo que une a toda la fruta es un balance azucar-acido que la evolucion diseno para ser atractivo. La fruta de temporada en su punto maximo de madurez ofrece una complejidad que las importaciones fuera de temporada no pueden igualar. La fruta seca concentra dulzura y masticabilidad, haciendo que pequenas cantidades sean profundamente satisfactorias como reemplazo natural de dulces.
+Tan variado como la categoría misma — desde cítricos ácidos hasta higos dulces como la miel, manzanas crujientes hasta lujosas frutas de hueso. Lo que une a toda la fruta es un equilibrio azúcar-ácido que la evolución diseñó para resultar atractivo. La fruta de temporada en su punto máximo de madurez ofrece una complejidad que las importaciones fuera de temporada no pueden igualar.
 
 ## La Ciencia
 
-- Aune et al. (2017, BMJ): metaanalisis de 95 estudios encontro reduccion de mortalidad dosis-dependiente; optimo a ~800g/dia frutas + verduras
-- China Kadoorie Biobank (Du et al., 2016): fruta fresca diaria vinculada a 40% menos mortalidad cardiovascular en 500.000 personas
-- GBD 2017: bajo consumo de fruta responsable de ~3,4 millones de muertes al ano, un factor de riesgo dietetico principal
-- Fontana: 53% reduccion riesgo de Crohn con mayor consumo de frutas/verduras (Ref 40); fruta entera no jugo (Ref 76)
+- [Aune et al., 2017, *Int J Epidemiol*](https://pubmed.ncbi.nlm.nih.gov/28338764/): Metaanálisis de 95 estudios prospectivos encontró reducción de mortalidad dosis-dependiente; óptimo a ~800 g/día de frutas y verduras combinadas.
+- [Du et al., 2016, *N Engl J Med*](https://pubmed.ncbi.nlm.nih.gov/27050205/): China Kadoorie Biobank (500 000 participantes) encontró que el consumo diario de fruta fresca se asoció con un 40 % menos de mortalidad cardiovascular y un 25 % menos de riesgo de ictus.
+
+## Referencias
+
+1. Aune D, Giovannucci E, Boffetta P, et al. **Fruit and vegetable intake and the risk of cardiovascular disease, total cancer and all-cause mortality -- a systematic review and dose-response meta-analysis of prospective studies.** *Int J Epidemiol*. 2017;46(3):1029-1056. PMID: [28338764](https://pubmed.ncbi.nlm.nih.gov/28338764/). doi:[10.1093/ije/dyw319](https://doi.org/10.1093/ije/dyw319)
+2. Du H, Li L, Bennett D, et al. **Fresh Fruit Consumption and Major Cardiovascular Disease in China.** *N Engl J Med*. 2016;374(14):1332-1343. PMID: [27050205](https://pubmed.ncbi.nlm.nih.gov/27050205/). doi:[10.1056/NEJMoa1501451](https://doi.org/10.1056/NEJMoa1501451)
 
 ## Nutrientes Clave
 
-| Nutriente | Por 100g (rango) | Notas |
+| Nutriente | Por 100 g (rango) | Notas |
 |----------|----------|-------|
-| Vitamina C | 4-90 mg | Citricos y moras los mas altos; se degrada con la coccion |
-| Fibra dietetica | 1-10 g | Matriz de fruta entera critica; pectina fermentada a AGCC protectores |
-| Polifenoles | 50-1500+ mg | Antocianinas, flavanonas, elagitaninos -- diversidad de fruta = diversidad de proteccion |
-| Potasio | 100-700 mg | Fuente dietetica importante; frutas secas concentran las cantidades mas altas |
-| Carotenoides | Varia por color | Liposolubles; combinar con nueces o aceite de oliva para absorcion |
+| Vitamina C | 4–90 mg | Cítricos y frutos rojos los más altos; se degrada con la cocción |
+| Fibra dietética | 1–10 g | Matriz de fruta entera fundamental; pectina fermentada a AGCC protectores |
+| Polifenoles | 50–1500+ mg | Anthocyanins, flavanonas, ellagitannins — diversidad de fruta = diversidad de protección |
+| Potasio | 100–700 mg | Fuente dietética importante; las frutas secas concentran las cantidades más altas |
+| Carotenoides | Varía según el color | Liposolubles; combinar con nueces o aceite de oliva para la absorción |
