@@ -120,17 +120,10 @@ export function Nav() {
           <div className="h-14 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
-              className="flex h-14 items-center font-display text-lg font-normal text-text !no-underline !border-none"
+              className="flex h-14 items-center text-sm font-semibold text-text !no-underline !border-none"
               onClick={() => setOpen(false)}
             >
-              <Image
-                src="/brand/longevity-wiki-wordmark-tight.webp"
-                alt="Longevity Wiki"
-                width={305}
-                height={76}
-                priority
-                className="block h-7 w-auto shrink-0"
-              />
+              Longevity Wiki
             </Link>
 
             <button
