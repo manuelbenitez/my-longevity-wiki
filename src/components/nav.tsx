@@ -50,12 +50,12 @@ export function Nav() {
               <Image src="/logo.svg" alt="" width={30} height={30} className="block" />
             </span>
             <Image
-              src="/brand/longevity-wiki-wordmark.webp"
+              src="/brand/longevity-wiki-wordmark-tight.webp"
               alt="Longevity Wiki"
-              width={149}
-              height={48}
+              width={305}
+              height={76}
               priority
-              className="block h-8 w-auto shrink-0 translate-y-px"
+              className="block h-7 w-auto shrink-0"
             />
           </Link>
 
@@ -109,14 +109,14 @@ export function Nav() {
         id="mobile-menu"
         role="dialog"
         aria-modal="true"
-        className={`fixed top-0 right-0 z-50 md:hidden h-screen w-screen bg-[#F5F0EB] transition-[transform,opacity] duration-300 ease-out ${
+        className={`fixed inset-y-0 right-0 z-50 md:hidden h-dvh w-screen transform-gpu bg-[#F5F0EB] shadow-[-16px_0_40px_rgba(44,36,24,0.08)] transition-transform duration-300 ease-out ${
           open
-            ? "translate-x-0 opacity-100 pointer-events-auto"
-            : "translate-x-full opacity-0 pointer-events-none"
+            ? "translate-x-0 pointer-events-auto"
+            : "translate-x-full pointer-events-none"
         }`}
         aria-hidden={!open}
       >
-        <div className="h-screen w-screen flex flex-col">
+        <div className="h-full w-full flex flex-col">
           <div className="h-16 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
@@ -127,12 +127,12 @@ export function Nav() {
                 <Image src="/logo.svg" alt="" width={30} height={30} className="block" />
               </span>
               <Image
-                src="/brand/longevity-wiki-wordmark.webp"
+                src="/brand/longevity-wiki-wordmark-tight.webp"
                 alt="Longevity Wiki"
-                width={149}
-                height={48}
+                width={305}
+                height={76}
                 priority
-                className="block h-8 w-auto shrink-0 translate-y-px"
+                className="block h-7 w-auto shrink-0"
               />
             </Link>
 
