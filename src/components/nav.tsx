@@ -105,14 +105,14 @@ export function Nav() {
         id="mobile-menu"
         role="dialog"
         aria-modal="true"
-        className={`fixed inset-0 z-50 md:hidden bg-bg transition-[transform,opacity] duration-300 ease-out ${
+        className={`fixed top-0 right-0 z-50 md:hidden h-screen w-screen bg-bg transition-[transform,opacity] duration-300 ease-out ${
           open
             ? "translate-x-0 opacity-100 pointer-events-auto"
             : "translate-x-full opacity-0 pointer-events-none"
         }`}
         aria-hidden={!open}
       >
-        <div className="h-dvh flex flex-col">
+        <div className="h-screen w-screen flex flex-col">
           <div className="h-16 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
