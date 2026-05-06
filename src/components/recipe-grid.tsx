@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { AlphaGroupedGrid } from "@/components/alpha-grouped-grid";
@@ -38,7 +39,10 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
   const [mealType, setMealType] = useState<string>("all");
   const [sortBy, setSortBy] = useState<SortBy>("asc");
 
-  const difficulties = ["all", ...new Set(recipes.map((r) => r.difficulty).filter(Boolean))];
+  const difficulties = [
+    "all",
+    ...new Set(recipes.map((r) => r.difficulty).filter(Boolean)),
+  ];
 
   const filtered = useMemo(() => {
     const base = filterByMealType(recipes, mealType)
@@ -48,8 +52,8 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
           !search ||
           r.title.toLowerCase().includes(search.toLowerCase()) ||
           r.longevity_ingredients?.some((ing) =>
-            ing.toLowerCase().includes(search.toLowerCase())
-          )
+            ing.toLowerCase().includes(search.toLowerCase()),
+          ),
       );
     return sortItems(base, sortBy);
   }, [recipes, difficulty, mealType, search, sortBy]);
@@ -57,7 +61,13 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
   const letters = useMemo(() => {
     const grouped = groupByFirstLetter(filtered);
     return Array.from(grouped.keys()).sort((a, b) =>
-      a === "#" ? 1 : b === "#" ? -1 : sortBy === "desc" ? b.localeCompare(a) : a.localeCompare(b)
+      a === "#"
+        ? 1
+        : b === "#"
+          ? -1
+          : sortBy === "desc"
+            ? b.localeCompare(a)
+            : a.localeCompare(b),
     );
   }, [filtered, sortBy]);
 
@@ -73,7 +83,7 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
           setActiveLetter(visible[0].target.id.replace("letter-", ""));
         }
       },
-      { rootMargin: "-200px 0px -55% 0px", threshold: 0 }
+      { rootMargin: "-200px 0px -55% 0px", threshold: 0 },
     );
     letters.forEach((letter) => {
       const el = document.getElementById(`letter-${letter}`);
@@ -91,32 +101,46 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
     <Link
       key={recipe.slug}
       href={`/${locale}/recipes/${recipe.slug}/`}
-      className="flex flex-col bg-surface border border-border rounded-lg p-6 hover:border-accent transition-all duration-200 !no-underline hover:-translate-y-0.5 h-full"
+      className="group flex flex-col bg-surface border border-border rounded-lg overflow-hidden hover:border-accent hover:shadow-md hover:shadow-accent/30 transition-all duration-200 !no-underline h-full"
     >
-      <div className="flex gap-2 mb-3">
-        {recipe.prep_time && (
-          <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-            {recipe.prep_time}
-          </span>
-        )}
-        {recipe.difficulty && (
-          <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-            {recipe.difficulty}
-          </span>
-        )}
+      <div className="aspect-square w-full border-b border-border bg-bg overflow-hidden">
+        <Image
+          src={`/recipes/${recipe.slug}.webp`}
+          alt=""
+          width={700}
+          height={700}
+          className="h-full w-full object-cover transition-opacity duration-200"
+          onError={(e) => {
+            (e.target as HTMLImageElement).style.display = "none";
+          }}
+        />
       </div>
-      <h3 className="font-display text-xl font-normal mb-3 text-text">
-        {recipe.title}
-      </h3>
-      <div className="flex gap-1.5 flex-wrap mt-auto">
-        {recipe.longevity_ingredients?.slice(0, 4).map((ing) => (
-          <span
-            key={ing}
-            className="text-xs font-semibold border border-border rounded-sm px-2 py-1 text-muted"
-          >
-            {slugToLabel(ing)}
-          </span>
-        ))}
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
+        <div className="flex gap-2 mb-3 flex-wrap">
+          {recipe.prep_time && (
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+              {recipe.prep_time}
+            </span>
+          )}
+          {recipe.difficulty && (
+            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+              {recipe.difficulty}
+            </span>
+          )}
+        </div>
+        <h3 className="font-display text-xl font-normal mb-3 text-text">
+          {recipe.title}
+        </h3>
+        <div className="flex gap-1.5 flex-wrap mt-auto">
+          {recipe.longevity_ingredients?.slice(0, 4).map((ing) => (
+            <span
+              key={ing}
+              className="text-xs font-semibold border border-border rounded-sm px-2 py-1 text-muted"
+            >
+              {slugToLabel(ing)}
+            </span>
+          ))}
+        </div>
       </div>
     </Link>
   );
@@ -195,10 +219,19 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
               >
                 {sortBy === "asc" ? t("sort_asc") : t("sort_desc")}
                 <svg
-                  width="10" height="10" viewBox="0 0 10 10" fill="none"
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
                   className={`transition-transform duration-200 ${sortBy === "desc" ? "rotate-180" : ""}`}
                 >
-                  <path d="M5 2L5 8M5 8L2 5M5 8L8 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path
+                    d="M5 2L5 8M5 8L2 5M5 8L8 5"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </button>
             </div>
@@ -234,26 +267,33 @@ export function RecipeGrid({ recipes }: { recipes: RecipeCard[] }) {
             >
               {sortBy === "asc" ? t("sort_asc") : t("sort_desc")}
               <svg
-                width="10" height="10" viewBox="0 0 10 10" fill="none"
+                width="10"
+                height="10"
+                viewBox="0 0 10 10"
+                fill="none"
                 className={`transition-transform duration-200 ${sortBy === "desc" ? "rotate-180" : ""}`}
               >
-                <path d="M5 2L5 8M5 8L2 5M5 8L8 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path
+                  d="M5 2L5 8M5 8L2 5M5 8L8 5"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
             </button>
           </div>
-
 
           {/* Grid */}
           <AlphaGroupedGrid
             items={filtered}
             reverse={sortBy === "desc"}
+            gridClassName="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6"
             renderCard={recipeCard}
           />
 
           {filtered.length === 0 && (
-            <p className="text-muted text-center py-12">
-              {t("no_results")}
-            </p>
+            <p className="text-muted text-center py-12">{t("no_results")}</p>
           )}
         </div>
       </div>
