@@ -1,8 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- tuna -->
-  <path d="M8 32c6-14 18-18 26-16 8 2 16 10 18 16-2 6-10 14-18 16-8 2-20-2-26-16z" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M52 24c4 4 6 6 6 8s-2 4-6 8" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="18" cy="30" r="3" stroke="#2C2418" stroke-width="1.5" fill="none"/>
-  <path d="M34 16c4 0 8 4 8 16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M34 48c4 0 8-4 8-16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

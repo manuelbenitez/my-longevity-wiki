@@ -1,8 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- coconut-oil -->
-  <path d="M24 14h16v6l4 34H20L24 20V14z" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M24 14c0-4 2-6 8-6s8 2 8 6" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M22 28h20" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="32" cy="42" r="6" stroke="#2C2418" stroke-width="1.5" fill="none"/>
-  <path d="M30 40c0 2 2 4 4 4" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

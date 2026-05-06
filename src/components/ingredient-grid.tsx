@@ -179,23 +179,23 @@ export function IngredientGrid({ ingredients }: { ingredients: IngredientCard[] 
               <Link
                 key={entry.slug}
                 href={`/${locale}/ingredients/${entry.slug}/`}
-                className="group flex items-center gap-3 py-3 !no-underline transition-all duration-200 sm:flex-col sm:items-center sm:gap-0 sm:p-6 sm:text-center sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:-translate-y-0.5 sm:overflow-hidden sm:relative sm:h-full"
+                className="group flex flex-row items-center gap-4 py-3 !no-underline transition-all duration-200 sm:gap-5 sm:p-5 sm:bg-surface sm:border sm:border-border sm:rounded-lg sm:hover:border-accent sm:hover:shadow-md sm:hover:shadow-accent/30 sm:overflow-hidden sm:relative sm:h-full"
               >
-                <div className="w-8 h-8 sm:w-12 sm:h-12 sm:mb-4 flex items-center justify-center shrink-0">
+                <div className="w-12 h-12 sm:w-20 sm:h-20 flex items-center justify-center shrink-0 rounded-md border border-border group-hover:border-accent group-hover:shadow-md group-hover:shadow-accent/30 transition-all duration-200 overflow-hidden">
                   <Image
-                    src={`/icons/${entry.slug}.svg`}
+                    src={`/icons/${entry.slug}.webp`}
                     alt=""
-                    width={48}
-                    height={48}
-                    className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity"
+                    width={80}
+                    height={80}
+                    className="w-full h-full opacity-70 group-hover:opacity-100 transition-opacity duration-200"
                     onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                   />
                 </div>
-                <div className="flex-1 min-w-0 sm:contents">
+                <div className="flex flex-col flex-1 min-w-0">
                   <h3 className="font-display text-sm sm:text-lg font-normal mb-0 sm:mb-1 text-text truncate">
                     {entry.title}
                   </h3>
-                  <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide sm:mt-auto">
+                  <div className="text-[11px] sm:text-xs text-muted uppercase tracking-wide">
                     {CATEGORY_LABELS[entry.category] || entry.category}
                   </div>
                 </div>

@@ -18,15 +18,15 @@ Manuel Benitez — independent software engineer
 https://longevity.mbdev.to/en/about/
 
 ## Key pages
-- https://longevity.mbdev.to/en/ingredients: index of 212 longevity ingredients with research summaries
-- https://longevity.mbdev.to/en/recipes: 43 science-backed recipes using longevity ingredients
+- https://longevity.mbdev.to/en/ingredients: index of 200 longevity ingredients with research summaries
+- https://longevity.mbdev.to/en/recipes: 59 science-backed recipes using longevity ingredients
 - https://longevity.mbdev.to/en/meal-planner: interactive tool to build weekly meal plans from the recipe database
 - https://longevity.mbdev.to/en/sources: research sources and extraction methodology
 - https://longevity.mbdev.to/en/about: authorship and content provenance
 
 ## Content counts
-English: 212 ingredients, 43 recipes
-Spanish: 86 ingredients, 24 recipes
+English: 200 ingredients, 59 recipes
+Spanish: 200 ingredients, 59 recipes
 
 ## Content types
 - Ingredient pages: one page per ingredient with longevity claims, mechanisms, confidence levels, and culinary pairings
@@ -49,7 +49,7 @@ OAI-SearchBot: allowed
 
 ## Languages
 English (en) — primary
-Spanish (es) — partial translation (86/212 ingredients, 24/43 recipes)
+Spanish (es) — partial translation (200/200 ingredients, 59/59 recipes)
 
 ## Last updated
-2026-04-22
+2026-05-06

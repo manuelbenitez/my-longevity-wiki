@@ -20,9 +20,6 @@ El mecanismo es el eje fibra-microbioma: las fibras vegetales diversas alimentan
 ## Temas Relacionados
 
 - [Verduras Verdes](/en/ingredients/green-vegetables) -- menor impacto glucemico, asociacion cardiovascular mas fuerte
-- [Verduras No Almidonadas (Ayuno)](/en/ingredients/non-starchy-vegetables-fasting) -- el protocolo de dia de ayuno
-- [Espinaca, Acelga y Remolacha](/en/ingredients/spinach-chard-beets) -- potencias de nitrato
-- [Verduras Cruciferas](/en/ingredients/cruciferous-vegetables) -- sulforafano y prevencion del cancer
 - [Tomates](/en/ingredients/tomatoes) -- licopeno y salud prostatica
 - [Camote](/en/ingredients/sweet-potatoes) -- campeones del beta-caroteno
 - [Calabaza](/en/ingredients/pumpkin) -- cobertura multicarotenoide

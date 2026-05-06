@@ -1,8 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- oyster-mushrooms -->
-  <path d="M14 38c-2-10 4-20 14-22 8-2 16 4 18 12" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M46 28c4 4 6 10 4 16-2 6-8 10-14 10" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M36 54c-10 2-18-4-22-12" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M32 38v10" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M24 40v8" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

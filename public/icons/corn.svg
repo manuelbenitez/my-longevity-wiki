@@ -1,9 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- corn -->
-  <path d="M32 8c0 0-14 12-14 28 0 8 6 16 14 16s14-8 14-16c0-16-14-28-14-28z" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M24 28c0 6 2 12 4 16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M32 24c0 8 0 16 0 20" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M40 28c0 6-2 12-4 16" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 36c4-2 8 0 14 0s10 2 14 0" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M19 42c4-2 8 0 13 0s9 2 13 0" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

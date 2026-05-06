@@ -1,6 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- parmesan-cheese -->
-  <path d="M8 38V26c0-6 10-12 24-12s24 6 24 12v12" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8 38c0 6 10 14 24 14s24-8 24-14" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8 38h48" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

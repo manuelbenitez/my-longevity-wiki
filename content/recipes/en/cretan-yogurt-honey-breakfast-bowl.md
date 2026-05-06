@@ -5,7 +5,7 @@ servings: 2
 prep_time: "10 min"
 cook_time: "0 min"
 difficulty: easy
-longevity_ingredients: [goat-s-milk-yogurt, honey]
+longevity_ingredients: [goats-milk-yogurt, honey]
 tags: [mediterranean, cretan, greek, breakfast-bowl, probiotic, no-cook, gut-health]
 meal_type: [breakfast]
 ---

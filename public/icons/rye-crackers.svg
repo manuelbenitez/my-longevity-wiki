@@ -1,9 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- rye-crackers -->
-  <rect x="10" y="16" width="44" height="14" rx="2" stroke="#2C2418" stroke-width="1.5" fill="none"/>
-  <path d="M18 20h28" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 26h28" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10" y="34" width="44" height="14" rx="2" stroke="#2C2418" stroke-width="1.5" fill="none"/>
-  <path d="M18 38h28" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 44h28" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

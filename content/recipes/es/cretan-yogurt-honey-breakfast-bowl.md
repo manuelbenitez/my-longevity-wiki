@@ -5,7 +5,7 @@ servings: 2
 prep_time: "10 min"
 cook_time: "0 min"
 difficulty: fácil
-longevity_ingredients: [goat-s-milk-yogurt, honey]
+longevity_ingredients: [goats-milk-yogurt, honey]
 tags: [mediterranea, cretense, griega, desayuno-bowl, probiotico, sin-coccion, salud-intestinal]
 meal_type: [breakfast]
 ---

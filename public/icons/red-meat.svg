@@ -1,7 +1,0 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- red-meat -->
-  <path d="M16 40c-4-4-6-10-4-16 4-12 16-20 26-18 8 2 14 10 12 18-2 8-10 14-18 14-6 0-12-2-16-8" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M44 20c4-2 8-2 8 2" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M44 26c4-2 10-2 10 2" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M26 34c4-2 10-2 12 2" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>

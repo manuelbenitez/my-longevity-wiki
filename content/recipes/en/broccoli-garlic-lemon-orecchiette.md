@@ -5,7 +5,7 @@ servings: 4
 prep_time: 10 min
 cook_time: 15 min
 difficulty: easy
-longevity_ingredients: [cabbage-broccoli, garlic, extra-virgin-olive-oil]
+longevity_ingredients: [broccoli, garlic, extra-virgin-olive-oil]
 tags: [pasta, italian, pugliese, quick, sulforaphane, anti-cancer, vegan]
 meal_type: [lunch, dinner]
 ---
