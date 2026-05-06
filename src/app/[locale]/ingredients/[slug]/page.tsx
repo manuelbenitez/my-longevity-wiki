@@ -8,6 +8,7 @@ import {
 } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -25,6 +26,7 @@ export async function generateMetadata({
   if (!entry) return {};
   const { title, category, tags } = entry.frontmatter;
   const path = `/${locale}/ingredients/${slug}/`;
+  const seoImage = `/seo/ingredients/${slug}.jpg`;
   const locales = wikiLocales(slug);
   const languages: Record<string, string> = {};
   if (locales.includes("en")) languages["x-default"] = `/en/ingredients/${slug}/`;
@@ -52,7 +54,20 @@ export async function generateMetadata({
       description: `Science-backed guide to ${title.toLowerCase()} for healthy aging. Evidence-based nutrition, preparation tips, and synergies.`,
       type: "article",
       url: path,
-      images: ["/og-image.png"],
+      images: [
+        {
+          url: seoImage,
+          width: 1200,
+          height: 630,
+          alt: `${title} — Longevity Wiki ingredient guide`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} — Longevity Wiki`,
+      description: `Science-backed guide to ${title.toLowerCase()} for healthy aging.`,
+      images: [seoImage],
     },
   };
 }
@@ -77,7 +92,15 @@ export default async function IngredientPage({
   }
 
   const { frontmatter, content } = entry;
-  const html = await markdownToHtml(content);
+  // Pull the lead paragraph out of the body so we can render it in the hero.
+  const bodyAfterTitle = content.replace(/^\s*#\s+.+\n+/m, "");
+  const leadMatch = bodyAfterTitle.match(/^([^\n][\s\S]*?)(?:\n\n|$)/);
+  const leadMarkdown = leadMatch?.[1]?.trim() ?? "";
+  const leadHtml = leadMarkdown ? await markdownToHtml(leadMarkdown) : "";
+  const remainingContent = leadMarkdown
+    ? content.replace(leadMarkdown, "").replace(/^\s*#\s+.+\n+/m, "")
+    : content;
+  const html = await markdownToHtml(remainingContent);
 
   // Find recipes that use this ingredient
   const allRecipes = getAllRecipes(locale);
@@ -113,7 +136,7 @@ export default async function IngredientPage({
     "@type": "Article",
     headline: frontmatter.title,
     url: `${SITE_URL}/${locale}/ingredients/${slug}/`,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/icons/${slug}.webp`,
     inLanguage: locale,
     articleSection: frontmatter.category,
     keywords: frontmatter.tags?.join(", "),
@@ -165,27 +188,44 @@ export default async function IngredientPage({
       </div>
 
       <article className="max-w-[680px] mx-auto px-6 pb-12">
-        {/* Meta */}
-        <div className="flex items-center gap-3 mb-8 flex-wrap">
-          {frontmatter.category && (
-            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-              {frontmatter.category}
-            </span>
-          )}
-          {frontmatter.tags?.slice(0, 3).map((tag) => (
-            <span
-              key={tag}
-              className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize"
-            >
-              {tag}
-            </span>
-          ))}
+        {/* Hero */}
+        <div className="flex items-start gap-5 sm:gap-6 mb-12">
+          <div className="w-32 h-32 sm:w-87.5 sm:h-87.5 shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
+            <Image
+              src={`/icons/${slug}.webp`}
+              alt=""
+              width={350}
+              height={350}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="flex flex-col flex-1 min-w-0">
+            <h1 className="font-display text-3xl sm:text-[42px] font-light leading-[1.1] mb-3 sm:mb-4">
+              {frontmatter.title}
+            </h1>
+            <div className="flex items-center gap-2 flex-wrap mb-4">
+              {frontmatter.category && (
+                <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+                  {frontmatter.category}
+                </span>
+              )}
+              {frontmatter.tags?.slice(0, 3).map((tag) => (
+                <span
+                  key={tag}
+                  className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+            {leadHtml && (
+              <div
+                className="wiki-content text-text"
+                dangerouslySetInnerHTML={{ __html: leadHtml }}
+              />
+            )}
+          </div>
         </div>
-
-        {/* Title */}
-        <h1 className="font-display text-[42px] font-light leading-[1.1] mb-12">
-          {frontmatter.title}
-        </h1>
 
         {/* Content rendered server-side */}
         <div

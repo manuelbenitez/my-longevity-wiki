@@ -23,6 +23,7 @@ export async function generateMetadata({
     ?.map((s) => s.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" "))
     .join(", ");
   const path = `/${locale}/recipes/${slug}/`;
+  const seoImage = `/seo/recipes/${slug}.jpg`;
   const locales = recipeLocales(slug);
   const languages: Record<string, string> = {};
   if (locales.includes("en")) languages["x-default"] = `/en/recipes/${slug}/`;
@@ -49,7 +50,20 @@ export async function generateMetadata({
       description: `Science-backed recipe with ${ingredients}. Every ingredient chosen for its longevity benefits.`,
       type: "article",
       url: path,
-      images: ["/og-image.png"],
+      images: [
+        {
+          url: seoImage,
+          width: 1200,
+          height: 630,
+          alt: `${title} — Longevity Wiki recipe`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} — Longevity Wiki Recipe`,
+      description: `Science-backed recipe with ${ingredients}.`,
+      images: [seoImage],
     },
   };
 }
@@ -98,7 +112,7 @@ export default async function RecipePage({
     "@type": "Recipe",
     name: frontmatter.title,
     url: `${SITE_URL}/${locale}/recipes/${slug}/`,
-    image: `${SITE_URL}/og-image.png`,
+    image: `${SITE_URL}/recipes/${slug}.webp`,
     inLanguage: locale,
     recipeCategory: frontmatter.meal_type?.[0],
     recipeCuisine: frontmatter.tags?.includes("Mediterranean") ? "Mediterranean" : undefined,
