@@ -120,7 +120,7 @@ export function Nav() {
           <div className="h-14 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
-              className="flex h-14 items-center text-sm font-semibold text-text !no-underline !border-none"
+              className="flex h-14 opacity-0 items-center text-sm font-semibold text-text !no-underline !border-none"
               onClick={() => setOpen(false)}
             >
               Longevity Wiki
