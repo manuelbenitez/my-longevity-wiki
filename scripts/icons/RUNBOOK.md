@@ -13,7 +13,7 @@ Get an OpenAI API key at https://platform.openai.com/api-keys and add credit
 repo root:
 
 ```
-OPENAI_API_KEY=sk-...
+OPENAI_API_KEY=<your-openai-api-key>
 ```
 
 `.env.local` is already in `.gitignore`.
