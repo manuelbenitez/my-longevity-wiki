@@ -38,74 +38,76 @@ export function Nav() {
   }, [open]);
 
   return (
-    <nav className="sticky top-0 z-40 bg-bg/90 backdrop-blur-sm border-b border-border">
-      <div className="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
-        <Link
-          href={`/${locale}/`}
-          className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
-          onClick={() => setOpen(false)}
-        >
-          <Image src="/logo.svg" alt="" width={28} height={28} className="shrink-0" />
-          <Image
-            src="/brand/longevity-wiki-wordmark.webp"
-            alt="Longevity Wiki"
-            width={149}
-            height={48}
-            priority
-            className="h-11 w-auto shrink-0"
-          />
-        </Link>
+    <>
+      <nav className="sticky top-0 z-40 bg-bg/90 backdrop-blur-sm border-b border-border">
+        <div className="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
+          <Link
+            href={`/${locale}/`}
+            className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
+            onClick={() => setOpen(false)}
+          >
+            <Image src="/logo.svg" alt="" width={28} height={28} className="shrink-0" />
+            <Image
+              src="/brand/longevity-wiki-wordmark.webp"
+              alt="Longevity Wiki"
+              width={149}
+              height={48}
+              priority
+              className="h-11 w-auto shrink-0"
+            />
+          </Link>
 
-        {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-6">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`text-sm !no-underline !border-none transition-colors ${
-                link.accent
-                  ? "font-semibold text-accent hover:text-accent-hover"
-                  : "text-muted hover:text-accent"
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-center gap-6">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`text-sm !no-underline !border-none transition-colors ${
+                  link.accent
+                    ? "font-semibold text-accent hover:text-accent-hover"
+                    : "text-muted hover:text-accent"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <LanguageToggle />
+          </div>
+
+          {/* Mobile hamburger */}
+          <button
+            onClick={() => setOpen(!open)}
+            className="md:hidden flex flex-col gap-1.5 p-2"
+            aria-label="Menu"
+            aria-expanded={open}
+            aria-controls="mobile-menu"
+          >
+            <span
+              className={`w-5 h-0.5 bg-text transition-transform duration-200 ${
+                open ? "rotate-45 translate-y-2" : ""
               }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <LanguageToggle />
+            />
+            <span
+              className={`w-5 h-0.5 bg-text transition-opacity duration-200 ${
+                open ? "opacity-0" : ""
+              }`}
+            />
+            <span
+              className={`w-5 h-0.5 bg-text transition-transform duration-200 ${
+                open ? "-rotate-45 -translate-y-2" : ""
+              }`}
+            />
+          </button>
         </div>
-
-        {/* Mobile hamburger */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="md:hidden flex flex-col gap-1.5 p-2"
-          aria-label="Menu"
-          aria-expanded={open}
-          aria-controls="mobile-menu"
-        >
-          <span
-            className={`w-5 h-0.5 bg-text transition-transform duration-200 ${
-              open ? "rotate-45 translate-y-2" : ""
-            }`}
-          />
-          <span
-            className={`w-5 h-0.5 bg-text transition-opacity duration-200 ${
-              open ? "opacity-0" : ""
-            }`}
-          />
-          <span
-            className={`w-5 h-0.5 bg-text transition-transform duration-200 ${
-              open ? "-rotate-45 -translate-y-2" : ""
-            }`}
-          />
-        </button>
-      </div>
+      </nav>
 
       {/* Mobile menu */}
       <div
         id="mobile-menu"
         role="dialog"
         aria-modal="true"
-        className={`fixed top-0 right-0 z-50 md:hidden h-screen w-screen bg-bg transition-[transform,opacity] duration-300 ease-out ${
+        className={`fixed top-0 right-0 z-50 md:hidden h-screen w-screen bg-[#F5F0EB] transition-[transform,opacity] duration-300 ease-out ${
           open
             ? "translate-x-0 opacity-100 pointer-events-auto"
             : "translate-x-full opacity-0 pointer-events-none"
@@ -164,6 +166,6 @@ export function Nav() {
           </div>
         </div>
       </div>
-    </nav>
+    </>
   );
 }
