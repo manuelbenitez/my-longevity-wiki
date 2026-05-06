@@ -189,8 +189,8 @@ export default async function IngredientPage({
 
       <article className="max-w-[680px] mx-auto px-6 pb-12">
         {/* Hero */}
-        <div className="flex items-start gap-5 sm:gap-6 mb-12">
-          <div className="w-32 h-32 sm:w-87.5 sm:h-87.5 shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
+        <div className="flex flex-col items-center text-center gap-5 sm:flex-row sm:items-start sm:text-left sm:gap-6 mb-12">
+          <div className="w-full aspect-square sm:w-87.5 sm:h-87.5 sm:aspect-auto shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
             <Image
               src={`/icons/${slug}.webp`}
               alt=""

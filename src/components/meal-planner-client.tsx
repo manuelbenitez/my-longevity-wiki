@@ -230,7 +230,7 @@ function MealPlannerInner({
       </div>
 
       <div className="flex flex-col items-center text-center gap-5 sm:flex-row sm:items-start sm:text-left sm:gap-6 mb-6 print:block print:mb-2">
-        <div className="w-48 h-48 sm:w-87.5 sm:h-87.5 shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center print:hidden">
+        <div className="w-full aspect-square sm:w-87.5 sm:h-87.5 sm:aspect-auto shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center print:hidden">
           <Image
             src="/headers/meal-planner.webp"
             alt=""
