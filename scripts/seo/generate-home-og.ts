@@ -152,12 +152,6 @@ async function renderOg() {
       <circle cx="960" cy="118" r="184" fill="#EFE5D2" opacity="0.42"/>
       <circle cx="214" cy="506" r="156" fill="#FFFFFF" opacity="0.32"/>
       <path d="M78 517 C218 469, 331 477, 463 521 S746 576, 913 510 S1082 467, 1140 493" fill="none" stroke="${GREEN}" stroke-width="5" stroke-linecap="round" opacity="0.34"/>
-      <text x="372" y="426" fill="${escapeXml(MUTED)}" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="0">
-        Ingredients • Recipes • Meal Planner
-      </text>
-      <text x="372" y="476" fill="${escapeXml(GREEN)}" font-family="Georgia, 'Times New Roman', serif" font-size="25" letter-spacing="0">
-        longevity.mbdev.to
-      </text>
       ${
         subtitleExists
           ? ""
