@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { LanguageToggle } from "@/components/language-toggle";
 
@@ -18,6 +18,24 @@ export function Nav() {
     { href: `/${locale}/sources/`, label: t("sources"), accent: false },
     { href: `/${locale}/support/`, label: t("support"), accent: false },
   ];
+
+  useEffect(() => {
+    if (!open) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", onKeyDown);
+    };
+  }, [open]);
 
   return (
     <nav className="sticky top-0 z-40 bg-bg/90 backdrop-blur-sm border-b border-border">
@@ -61,6 +79,8 @@ export function Nav() {
           onClick={() => setOpen(!open)}
           className="md:hidden flex flex-col gap-1.5 p-2"
           aria-label="Menu"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
         >
           <span
             className={`w-5 h-0.5 bg-text transition-transform duration-200 ${
@@ -81,29 +101,69 @@ export function Nav() {
       </div>
 
       {/* Mobile menu */}
-      {open && (
-        <div className="md:hidden border-t border-border bg-bg/95 backdrop-blur-sm">
-          <div className="max-w-[1200px] mx-auto px-6 py-4 flex flex-col gap-4">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className={`text-sm !no-underline !border-none transition-colors py-1 ${
-                  link.accent
-                    ? "font-semibold text-accent"
-                    : "text-muted hover:text-accent"
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <div className="pt-2 border-t border-border">
+      <div
+        id="mobile-menu"
+        role="dialog"
+        aria-modal="true"
+        className={`fixed inset-0 z-50 md:hidden bg-bg transition-[transform,opacity] duration-300 ease-out ${
+          open
+            ? "translate-x-0 opacity-100 pointer-events-auto"
+            : "translate-x-full opacity-0 pointer-events-none"
+        }`}
+        aria-hidden={!open}
+      >
+        <div className="h-dvh flex flex-col">
+          <div className="h-16 px-6 flex items-center justify-between border-b border-border">
+            <Link
+              href={`/${locale}/`}
+              className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none"
+              onClick={() => setOpen(false)}
+            >
+              <Image src="/logo.svg" alt="" width={30} height={30} className="shrink-0" />
+              <Image
+                src="/brand/longevity-wiki-wordmark.webp"
+                alt="Longevity Wiki"
+                width={149}
+                height={48}
+                priority
+                className="h-11 w-auto shrink-0"
+              />
+            </Link>
+
+            <button
+              onClick={() => setOpen(false)}
+              className="relative w-11 h-11 flex items-center justify-center"
+              aria-label="Close menu"
+            >
+              <span className="absolute w-6 h-0.5 bg-text rotate-45" />
+              <span className="absolute w-6 h-0.5 bg-text -rotate-45" />
+            </button>
+          </div>
+
+          <div className="flex-1 px-6 py-10 flex flex-col">
+            <div className="flex flex-col gap-1">
+              {links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className={`font-display text-[34px] leading-tight !no-underline !border-none transition-colors py-3 ${
+                    link.accent
+                      ? "font-normal text-accent"
+                      : "font-light text-muted hover:text-accent"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+
+            <div className="mt-auto pt-8 border-t border-border">
               <LanguageToggle />
             </div>
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 }
