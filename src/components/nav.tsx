@@ -117,15 +117,12 @@ export function Nav() {
         aria-hidden={!open}
       >
         <div className="h-full w-full flex flex-col">
-          <div className="h-16 px-6 flex items-center justify-between border-b border-border">
+          <div className="h-14 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
-              className="flex h-16 items-center gap-3 font-display text-lg font-normal text-text !no-underline !border-none"
+              className="flex h-14 items-center font-display text-lg font-normal text-text !no-underline !border-none"
               onClick={() => setOpen(false)}
             >
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center">
-                <Image src="/logo.svg" alt="" width={30} height={30} className="block" />
-              </span>
               <Image
                 src="/brand/longevity-wiki-wordmark-tight.webp"
                 alt="Longevity Wiki"
