@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 
 export function Footer() {
@@ -12,7 +13,13 @@ export function Footer() {
     <footer className="max-w-[1200px] mx-auto px-6 py-12 border-t border-border">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         <div>
-          <p className="font-display text-sm text-text mb-1">Longevity Wiki</p>
+          <Image
+            src="/brand/longevity-wiki-wordmark.webp"
+            alt="Longevity Wiki"
+            width={112}
+            height={36}
+            className="h-7 w-auto mb-1"
+          />
           <p className="text-xs text-muted">{tFooter("description")}</p>
         </div>
         <div className="flex gap-6">

@@ -1,8 +1,7 @@
-<svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="36" height="36" rx="8" fill="#F5F0EB"/>
-  <circle cx="18" cy="18" r="12" stroke="#2C2418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <ellipse cx="18" cy="18" rx="8" ry="7" stroke="#2C2418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <ellipse cx="18" cy="18" rx="4.5" ry="3.5" stroke="#2C2418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="18" cy="18" r="1.5" fill="#2C2418"/>
-  <path d="M18 6C18 6 21.5 4 23.5 6C25.5 8 22 9.5 20 7.5" stroke="#2C2418" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="18" cy="18" r="14" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="18" cy="18" rx="10" ry="9" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="18" cy="18" rx="6" ry="5" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18" cy="18" r="2" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 4C18 4 22 2 24 4C26 6 22 8 20 6" stroke="#2C2418" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

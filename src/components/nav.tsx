@@ -28,7 +28,14 @@ export function Nav() {
           onClick={() => setOpen(false)}
         >
           <Image src="/logo.svg" alt="" width={28} height={28} className="shrink-0" />
-          Longevity Wiki
+          <Image
+            src="/brand/longevity-wiki-wordmark.webp"
+            alt="Longevity Wiki"
+            width={149}
+            height={48}
+            priority
+            className="h-11 w-auto shrink-0"
+          />
         </Link>
 
         {/* Desktop nav */}
