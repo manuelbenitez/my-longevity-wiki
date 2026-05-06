@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { DonationFeed } from "@/components/donation-feed";
@@ -44,11 +45,30 @@ export default async function SupportPage({
         </Link>
       </div>
 
-      <article className="max-w-[680px] mx-auto px-6 pb-24">
-        <h1 className="font-display text-[42px] font-light leading-[1.1] mb-6">
-          Support the Wiki
-        </h1>
+      <div className="max-w-[680px] mx-auto px-6 mb-12">
+        <div className="flex flex-col items-center text-center gap-5 sm:flex-row sm:items-start sm:text-left sm:gap-6">
+          <div className="w-48 h-48 sm:w-87.5 sm:h-87.5 shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
+            <Image
+              src="/headers/support.webp"
+              alt=""
+              width={350}
+              height={350}
+              className="w-full h-full object-cover"
+              priority
+            />
+          </div>
+          <div className="flex flex-col flex-1 min-w-0">
+            <h1 className="font-display text-3xl sm:text-[42px] font-light leading-[1.1] mb-3 sm:mb-4">
+              Support the Wiki
+            </h1>
+            <p className="text-muted text-lg leading-relaxed">
+              Help keep the wiki free, ad-free, and grounded in peer-reviewed research.
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <article className="max-w-[680px] mx-auto px-6 pb-24">
         {/* The Pledge */}
         <div className="border border-accent/20 bg-accent/5 rounded-lg p-8 mb-12">
           <h2 className="font-display text-xl font-normal mb-3">
