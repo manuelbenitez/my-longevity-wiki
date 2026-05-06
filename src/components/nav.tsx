@@ -43,17 +43,19 @@ export function Nav() {
         <div className="max-w-[1200px] mx-auto px-6 h-14 flex items-center justify-between">
           <Link
             href={`/${locale}/`}
-            className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
+            className="flex h-14 items-center gap-3 font-display text-lg font-normal text-text !no-underline !border-none hover:text-accent transition-colors"
             onClick={() => setOpen(false)}
           >
-            <Image src="/logo.svg" alt="" width={28} height={28} className="shrink-0" />
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center">
+              <Image src="/logo.svg" alt="" width={30} height={30} className="block" />
+            </span>
             <Image
               src="/brand/longevity-wiki-wordmark.webp"
               alt="Longevity Wiki"
               width={149}
               height={48}
               priority
-              className="h-11 w-auto shrink-0"
+              className="block h-8 w-auto shrink-0 translate-y-px"
             />
           </Link>
 
@@ -118,17 +120,19 @@ export function Nav() {
           <div className="h-16 px-6 flex items-center justify-between border-b border-border">
             <Link
               href={`/${locale}/`}
-              className="flex items-center gap-2.5 font-display text-lg font-normal text-text !no-underline !border-none"
+              className="flex h-16 items-center gap-3 font-display text-lg font-normal text-text !no-underline !border-none"
               onClick={() => setOpen(false)}
             >
-              <Image src="/logo.svg" alt="" width={30} height={30} className="shrink-0" />
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center">
+                <Image src="/logo.svg" alt="" width={30} height={30} className="block" />
+              </span>
               <Image
                 src="/brand/longevity-wiki-wordmark.webp"
                 alt="Longevity Wiki"
                 width={149}
                 height={48}
                 priority
-                className="h-11 w-auto shrink-0"
+                className="block h-8 w-auto shrink-0 translate-y-px"
               />
             </Link>
 
