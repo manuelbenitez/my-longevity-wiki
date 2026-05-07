@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { routing } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
   params,
@@ -10,15 +11,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "sources" });
   const path = `/${locale}/sources/`;
   const languages: Record<string, string> = { "x-default": `/en/sources/` };
   for (const loc of routing.locales) {
     languages[loc] = `/${loc}/sources/`;
   }
   return {
-    title: "Sources — Peer-Reviewed Research Behind the Wiki",
-    description:
-      "Books and publications parsed, verified, and structured into the Longevity Wiki ingredient database. Featuring Luigi Fontana and Valter Longo's longevity research.",
+    title: t("metadata_title"),
+    description: t("metadata_description"),
     alternates: { canonical: path, languages },
     openGraph: { url: path, images: ["/og-image.png"] },
   };
@@ -27,22 +28,21 @@ export async function generateMetadata({
 const SOURCES = [
   {
     title: "The Longevity Diet",
-    subtitle: "Discover the New Science Behind Stem Cell Activation and Regeneration",
+    subtitleKey: "longo_subtitle",
     author: "Dr. Valter Longo",
     year: 2018,
     publisher: "Avery / Penguin Random House",
     isbn: "978-0525534075",
     amazonUrl: "https://www.amazon.com/dp/0525534075",
     googleBooksUrl: "https://books.google.com/books?isbn=9780525534075",
-    description:
-      "Dr. Longo's evidence-based Longevity Diet program, developed from decades of research on fasting, stem cell activation, and the eating patterns of the world's longest-lived populations. Covers the five longevity pillars, the Fasting Mimicking Diet, and practical meal plans grounded in Mediterranean and Okinawan traditions.",
-    chapters_used: [
-      "Ch. 2: The Five Pillars of Longevity",
-      "Ch. 3: Eating for Longevity — Fundamentals",
-      "Ch. 4: What to Eat and Drink",
-      "Ch. 5: When to Eat — Time-Restricted Feeding",
-      "Ch. 6: The Fasting Mimicking Diet",
-      "Ch. 7: Longevity Diet Meal Plans and Recipes",
+    descriptionKey: "longo_description",
+    chapterKeys: [
+      "longo_chapter_2",
+      "longo_chapter_3",
+      "longo_chapter_4",
+      "longo_chapter_5",
+      "longo_chapter_6",
+      "longo_chapter_7",
     ],
     ingredients_extracted: 224,
     claims_extracted: 380,
@@ -50,22 +50,21 @@ const SOURCES = [
   },
   {
     title: "The Path to Longevity",
-    subtitle: "How to Reach 100 with the Health and Stamina of a 40-Year-Old",
+    subtitleKey: "fontana_subtitle",
     author: "Professor Luigi Fontana",
     year: 2020,
     publisher: "Hardie Grant Publishing",
     isbn: "978-1743795965",
     amazonUrl: "https://www.amazon.com/dp/1743795963",
     googleBooksUrl: "https://books.google.com/books?isbn=9781743795965",
-    description:
-      "A summary of more than 20 years of research and clinical practice on healthy longevity. Covers nutrition, calorie restriction, fasting, the Mediterranean diet, the modern longevity food pyramid, exercise, brain health, and prevention. The primary source for ingredient claims, consumption recommendations, and scientific references in this wiki.",
-    chapters_used: [
-      "Ch. 4: The Science of Healthy Nutrition",
-      "Ch. 5: Longevity Effects of Restricting Calories and Fasting",
-      "Ch. 7: Diet Quality Matters",
-      "Ch. 8: The Mediterranean Diet",
-      "Ch. 9: Move to the Modern Healthy Longevity Diet",
-      "Ch. 10: Foods to Eliminate or Drastically Reduce",
+    descriptionKey: "fontana_description",
+    chapterKeys: [
+      "fontana_chapter_4",
+      "fontana_chapter_5",
+      "fontana_chapter_7",
+      "fontana_chapter_8",
+      "fontana_chapter_9",
+      "fontana_chapter_10",
     ],
     ingredients_extracted: 101,
     claims_extracted: 236,
@@ -80,6 +79,7 @@ export default async function SourcesPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "sources" });
   return (
     <main className="min-h-screen">
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
@@ -87,7 +87,7 @@ export default async function SourcesPage({
           href={`/${locale}/`}
           className="text-sm text-muted hover:text-accent transition-colors !no-underline !border-none"
         >
-          &larr; Back to wiki
+          &larr; {t("back")}
         </Link>
       </div>
 
@@ -105,12 +105,10 @@ export default async function SourcesPage({
           </div>
           <div className="flex flex-col flex-1 min-w-0">
             <h1 className="font-display text-3xl sm:text-[42px] font-light leading-[1.1] mb-3 sm:mb-4">
-              Sources
+              {t("title")}
             </h1>
             <p className="text-muted text-lg leading-relaxed">
-              Every claim in this wiki is grounded in peer-reviewed research. These
-              are the books and publications we have parsed, verified, and structured
-              into the ingredient database.
+              {t("description")}
             </p>
           </div>
         </div>
@@ -129,26 +127,26 @@ export default async function SourcesPage({
                   <h2 className="font-display text-2xl font-normal mb-1">
                     {source.title}
                   </h2>
-                  <p className="text-sm text-muted">{source.subtitle}</p>
+                  <p className="text-sm text-muted">{t(source.subtitleKey)}</p>
                 </div>
                 {source.status === "active" && (
                   <span className="shrink-0 text-xs font-semibold bg-accent/10 text-accent border border-accent/20 rounded-sm px-3 py-1.5">
-                    Active
+                    {t("active")}
                   </span>
                 )}
               </div>
 
               <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
                 <div>
-                  <span className="text-muted">Author</span>
+                  <span className="text-muted">{t("author")}</span>
                   <p className="font-medium">{source.author}</p>
                 </div>
                 <div>
-                  <span className="text-muted">Published</span>
+                  <span className="text-muted">{t("published")}</span>
                   <p className="font-medium">{source.year}</p>
                 </div>
                 <div>
-                  <span className="text-muted">Publisher</span>
+                  <span className="text-muted">{t("publisher")}</span>
                   <p className="font-medium">{source.publisher}</p>
                 </div>
                 <div>
@@ -158,7 +156,7 @@ export default async function SourcesPage({
               </div>
 
               <p className="text-sm leading-relaxed mb-6">
-                {source.description}
+                {t(source.descriptionKey)}
               </p>
 
               <div className="flex gap-8 mb-6">
@@ -166,30 +164,30 @@ export default async function SourcesPage({
                   <div className="font-display text-2xl font-light">
                     {source.ingredients_extracted}
                   </div>
-                  <div className="text-xs text-muted">Ingredients Extracted</div>
+                  <div className="text-xs text-muted">{t("ingredients_extracted")}</div>
                 </div>
                 <div>
                   <div className="font-display text-2xl font-light">
                     {source.claims_extracted}
                   </div>
-                  <div className="text-xs text-muted">Health Claims</div>
+                  <div className="text-xs text-muted">{t("health_claims")}</div>
                 </div>
                 <div>
                   <div className="font-display text-2xl font-light">
-                    {source.chapters_used.length}
+                    {source.chapterKeys.length}
                   </div>
-                  <div className="text-xs text-muted">Chapters Parsed</div>
+                  <div className="text-xs text-muted">{t("chapters_parsed")}</div>
                 </div>
               </div>
 
               <div className="mb-6">
                 <p className="text-xs font-semibold text-muted uppercase tracking-wide mb-3">
-                  Chapters Used
+                  {t("chapters_used")}
                 </p>
                 <div className="space-y-1">
-                  {source.chapters_used.map((ch) => (
-                    <p key={ch} className="text-sm text-text">
-                      {ch}
+                  {source.chapterKeys.map((chapterKey) => (
+                    <p key={chapterKey} className="text-sm text-text">
+                      {t(chapterKey)}
                     </p>
                   ))}
                 </div>
@@ -202,7 +200,7 @@ export default async function SourcesPage({
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-semibold border border-border rounded px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
                 >
-                  Buy on Amazon
+                  {t("buy_amazon")}
                 </a>
                 <a
                   href={source.googleBooksUrl}
@@ -210,7 +208,7 @@ export default async function SourcesPage({
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-semibold border border-border rounded px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
                 >
-                  Google Books
+                  {t("google_books")}
                 </a>
               </div>
             </div>
@@ -219,11 +217,10 @@ export default async function SourcesPage({
 
         <div className="mt-16 border border-border border-dashed rounded-lg p-8 text-center">
           <p className="font-display text-lg mb-2 text-muted">
-            More sources coming soon
+            {t("coming_soon")}
           </p>
           <p className="text-sm text-muted">
-            We are actively parsing additional longevity research including works
-            by Peter Attia and Dan Buettner.
+            {t("coming_soon_description")}
           </p>
         </div>
       </article>
