@@ -16,9 +16,9 @@ export function Footer() {
           <Image
             src="/brand/longevity-wiki-wordmark.webp"
             alt="Longevity Wiki"
-            width={112}
-            height={36}
-            className="h-7 w-auto mb-1"
+            width={186}
+            height={60}
+            className="h-11 w-auto mb-1"
           />
           <p className="text-xs text-muted">{tFooter("description")}</p>
         </div>
