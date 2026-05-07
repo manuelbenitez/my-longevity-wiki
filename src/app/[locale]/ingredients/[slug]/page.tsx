@@ -192,7 +192,7 @@ export default async function IngredientPage({
         <div className="flex flex-col items-center text-center gap-5 sm:flex-row sm:items-start sm:text-left sm:gap-6 mb-12">
           <div className="w-full aspect-square sm:w-87.5 sm:h-87.5 sm:aspect-auto shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
             <Image
-              src={`/icons/${slug}.webp`}
+              src={`/icons/${slug}-lg.webp`}
               alt=""
               width={350}
               height={350}
