@@ -13,13 +13,16 @@ export function Footer() {
     <footer className="max-w-[1200px] mx-auto px-6 py-12 border-t border-border">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
         <div>
-          <Image
-            src="/brand/longevity-wiki-wordmark.webp"
-            alt="Longevity Wiki"
-            width={186}
-            height={60}
-            className="h-11 w-auto mb-1"
-          />
+          <div className="flex items-center gap-3 mb-1">
+            <Image src="/logo.svg" alt="" width={36} height={36} className="shrink-0" />
+            <Image
+              src="/brand/longevity-wiki-wordmark.webp"
+              alt="Longevity Wiki"
+              width={186}
+              height={60}
+              className="h-11 w-auto"
+            />
+          </div>
           <p className="text-xs text-muted">{tFooter("description")}</p>
         </div>
         <div className="flex gap-6">
