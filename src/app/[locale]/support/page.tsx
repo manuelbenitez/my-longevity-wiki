@@ -162,7 +162,7 @@ export default async function SupportPage({
         </p>
 
         <div className="space-y-6 mb-12">
-          {/* Shipped — ingredient and recipe images */}
+          {/* Complete — ingredient and recipe images */}
           <div className="border border-accent/20 bg-accent/5 rounded-lg p-8">
             <div className="flex gap-4">
               <div className="w-10 h-10 shrink-0 flex items-center justify-center">
@@ -178,7 +178,7 @@ export default async function SupportPage({
                     Hand-drawn images for every ingredient and recipe
                   </h3>
                   <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] bg-accent text-[#FDFBF8] border border-accent">
-                    Shipped
+                    Complete
                   </span>
                 </div>
                 <p className="text-sm leading-relaxed">
