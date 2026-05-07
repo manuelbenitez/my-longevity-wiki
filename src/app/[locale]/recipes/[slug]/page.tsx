@@ -3,6 +3,7 @@ import { getAllRecipeSlugs, getRecipe, recipeLocales } from "@/lib/data";
 import { markdownToHtml } from "@/lib/markdown";
 import { extractIngredientLines, extractInstructionSteps } from "@/lib/recipe-schema";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
@@ -174,34 +175,46 @@ export default async function RecipePage({
       </div>
 
       <article className="max-w-[680px] mx-auto px-6 pb-24">
-        {/* Meta */}
-        <div className="flex items-center gap-3 mb-8 flex-wrap">
-          {frontmatter.prep_time && (
-            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-              Prep: {frontmatter.prep_time}
-            </span>
-          )}
-          {frontmatter.cook_time && (
-            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-              Cook: {frontmatter.cook_time}
-            </span>
-          )}
-          {frontmatter.servings && (
-            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-              {frontmatter.servings} servings
-            </span>
-          )}
-          {frontmatter.difficulty && (
-            <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
-              {frontmatter.difficulty}
-            </span>
-          )}
+        {/* Hero */}
+        <div className="flex flex-col items-center text-center gap-5 sm:flex-row sm:items-start sm:text-left sm:gap-6 mb-12">
+          <div className="w-full aspect-square sm:w-87.5 sm:h-87.5 sm:aspect-auto shrink-0 rounded-md border border-border overflow-hidden flex items-center justify-center">
+            <Image
+              src={`/recipes/${slug}.webp`}
+              alt=""
+              width={350}
+              height={350}
+              className="w-full h-full object-cover"
+              priority
+            />
+          </div>
+          <div className="flex flex-col flex-1 min-w-0">
+            <h1 className="font-display text-3xl sm:text-[42px] font-light leading-[1.1] mb-3 sm:mb-4">
+              {frontmatter.title}
+            </h1>
+            <div className="flex items-center justify-center sm:justify-start gap-2 flex-wrap">
+              {frontmatter.prep_time && (
+                <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+                  Prep: {frontmatter.prep_time}
+                </span>
+              )}
+              {frontmatter.cook_time && (
+                <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+                  Cook: {frontmatter.cook_time}
+                </span>
+              )}
+              {frontmatter.servings && (
+                <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+                  {frontmatter.servings} servings
+                </span>
+              )}
+              {frontmatter.difficulty && (
+                <span className="text-xs font-semibold border border-border rounded-sm px-3 py-1.5 text-muted capitalize">
+                  {frontmatter.difficulty}
+                </span>
+              )}
+            </div>
+          </div>
         </div>
-
-        {/* Title */}
-        <h1 className="font-display text-[42px] font-light leading-[1.1] mb-6">
-          {frontmatter.title}
-        </h1>
 
         {/* Longevity ingredients */}
         {frontmatter.longevity_ingredients && (
