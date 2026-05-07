@@ -162,6 +162,33 @@ export default async function SupportPage({
         </p>
 
         <div className="space-y-6 mb-12">
+          {/* Shipped — ingredient and recipe images */}
+          <div className="border border-accent/20 bg-accent/5 rounded-lg p-8">
+            <div className="flex gap-4">
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M15 5l4 4L8 20l-5 1 1-5z"/>
+                  <path d="M13 7l4 4"/>
+                  <circle cx="3" cy="21" r="0.8" fill="#2C2418"/>
+                </svg>
+              </div>
+              <div>
+                <div className="flex items-center gap-3 mb-1 flex-wrap">
+                  <h3 className="font-display text-lg font-normal">
+                    Hand-drawn images for every ingredient and recipe
+                  </h3>
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] bg-accent text-[#FDFBF8] border border-accent">
+                    Shipped
+                  </span>
+                </div>
+                <p className="text-sm leading-relaxed">
+                  Every ingredient and recipe now has a matching pen-and-ink
+                  image in the field-guide style. No stock photography, ever.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* In Progress — more books (sage callout, always on top) */}
           <div className="border border-accent/20 bg-accent/5 rounded-lg p-8">
             <div className="flex gap-4">
@@ -246,31 +273,6 @@ export default async function SupportPage({
               <p className="text-sm leading-relaxed">
                 Sign in and keep your meal plans and tried ingredients on
                 any device, with no ads and no data tracking.
-              </p>
-            </div>
-          </div>
-
-          {/* Planned — hand-drawn illustrations (last) */}
-          <div className="flex gap-4">
-            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2C2418" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M15 5l4 4L8 20l-5 1 1-5z"/>
-                <path d="M13 7l4 4"/>
-                <circle cx="3" cy="21" r="0.8" fill="#2C2418"/>
-              </svg>
-            </div>
-            <div>
-              <div className="flex items-center gap-3 mb-1 flex-wrap">
-                <h3 className="font-display text-lg font-normal">
-                  Hand-drawn illustrations for every ingredient
-                </h3>
-                <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
-                  Planned
-                </span>
-              </div>
-              <p className="text-sm leading-relaxed">
-                Every ingredient article gets a pen-and-ink SVG in the
-                field-guide style. No stock photography, ever.
               </p>
             </div>
           </div>
