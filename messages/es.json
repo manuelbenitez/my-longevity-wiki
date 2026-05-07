@@ -109,7 +109,7 @@
     "roadmap_devices_body": "Inicia sesion y manten tus planes de comidas e ingredientes probados en cualquier dispositivo, sin anuncios ni seguimiento de datos.",
     "roadmap_status_planned": "Planeado",
     "roadmap_status_in_progress": "En progreso",
-    "roadmap_status_shipped": "Lanzado"
+    "roadmap_status_complete": "Completado"
   },
   "meal_planner": {
     "page_title": "Planificador de comidas",

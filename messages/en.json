@@ -109,7 +109,7 @@
     "roadmap_devices_body": "Sign in and keep your meal plans and tried ingredients on any device, with no ads and no data tracking.",
     "roadmap_status_planned": "Planned",
     "roadmap_status_in_progress": "In Progress",
-    "roadmap_status_shipped": "Shipped"
+    "roadmap_status_complete": "Complete"
   },
   "meal_planner": {
     "page_title": "Meal Planner",
