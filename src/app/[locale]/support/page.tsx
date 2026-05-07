@@ -4,6 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { DonationFeed } from "@/components/donation-feed";
+import { getTranslations } from "next-intl/server";
 
 export async function generateMetadata({
   params,
@@ -11,15 +12,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "support" });
   const path = `/${locale}/support/`;
   const languages: Record<string, string> = { "x-default": `/en/support/` };
   for (const loc of routing.locales) {
     languages[loc] = `/${loc}/support/`;
   }
   return {
-    title: "Support the Wiki",
-    description:
-      "Help keep Longevity Wiki free, ad-free, and growing. Donations buy longevity research books that become new ingredient articles and recipes for everyone.",
+    title: t("title"),
+    description: t("metadata_description"),
     alternates: { canonical: path, languages },
     openGraph: { url: path, images: ["/og-image.png"] },
   };
@@ -34,6 +35,7 @@ export default async function SupportPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "support" });
   return (
     <main className="min-h-screen">
       <div className="max-w-[680px] mx-auto px-6 pt-12 pb-4">
@@ -41,7 +43,7 @@ export default async function SupportPage({
           href={`/${locale}/`}
           className="text-sm text-muted hover:text-accent transition-colors !no-underline !border-none"
         >
-          &larr; Back to wiki
+          &larr; {t("back")}
         </Link>
       </div>
 
@@ -59,10 +61,10 @@ export default async function SupportPage({
           </div>
           <div className="flex flex-col flex-1 min-w-0">
             <h1 className="font-display text-3xl sm:text-[42px] font-light leading-[1.1] mb-3 sm:mb-4">
-              Support the Wiki
+              {t("title")}
             </h1>
             <p className="text-muted text-lg leading-relaxed">
-              Help keep the wiki free, ad-free, and grounded in peer-reviewed research.
+              {t("page_description")}
             </p>
           </div>
         </div>
@@ -72,23 +74,19 @@ export default async function SupportPage({
         {/* The Pledge */}
         <div className="border border-accent/20 bg-accent/5 rounded-lg p-8 mb-12">
           <h2 className="font-display text-xl font-normal mb-3">
-            Our promise to you
+            {t("pledge_title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            Longevity Wiki will <strong>never</strong> run advertising.
-            No sponsored content. No affiliate links disguised as
-            recommendations. No paywalls. No data collection.
+            {t("pledge_body")}
           </p>
           <p className="leading-relaxed text-muted">
-            Every ingredient article and recipe is written based on
-            peer-reviewed science, not whoever pays the most. This is how
-            nutrition information should work.
+            {t("pledge_sub")}
           </p>
         </div>
 
         {/* Where the money goes */}
         <h2 className="font-display text-2xl font-normal mb-6">
-          Where your donation goes
+          {t("where_title")}
         </h2>
 
         <div className="space-y-6 mb-12">
@@ -102,14 +100,10 @@ export default async function SupportPage({
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
-                Buy the next book
+                {t("books_title")}
               </h3>
               <p className="text-sm text-muted leading-relaxed">
-                Each longevity research book we parse becomes 50-100 new
-                ingredient articles and dozens of science-backed recipes. Next
-                on the list: Valter Longo&apos;s &quot;The Longevity Diet&quot;,
-                Peter Attia&apos;s &quot;Outlive&quot;, and Dan
-                Buettner&apos;s &quot;The Blue Zones Kitchen&quot;.
+                {t("books_description")}
               </p>
             </div>
           </div>
@@ -123,12 +117,10 @@ export default async function SupportPage({
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
-                Keep the site running
+                {t("hosting_title")}
               </h3>
               <p className="text-sm text-muted leading-relaxed">
-                Domain registration, hosting, and the occasional coffee for the
-                person maintaining this. Running costs are minimal since the
-                wiki is a static site with no servers.
+                {t("hosting_description")}
               </p>
             </div>
           </div>
@@ -142,12 +134,10 @@ export default async function SupportPage({
             </div>
             <div>
               <h3 className="font-display text-lg font-normal mb-1">
-                Improve the research
+                {t("research_title")}
               </h3>
               <p className="text-sm text-muted leading-relaxed">
-                Cross-referencing claims with PubMed studies, verifying
-                mechanisms, updating articles when new research comes out. The
-                wiki gets more accurate over time.
+                {t("research_description")}
               </p>
             </div>
           </div>
@@ -155,10 +145,10 @@ export default async function SupportPage({
 
         {/* What's next — Roadmap */}
         <h2 className="font-display text-2xl font-normal mb-6">
-          What&apos;s next
+          {t("roadmap_title")}
         </h2>
         <p className="text-muted leading-relaxed mb-8">
-          Where your donations take us next.
+          {t("roadmap_sub")}
         </p>
 
         <div className="space-y-6 mb-12">
@@ -175,15 +165,14 @@ export default async function SupportPage({
               <div>
                 <div className="flex items-center gap-3 mb-1 flex-wrap">
                   <h3 className="font-display text-lg font-normal">
-                    Hand-drawn images for every ingredient and recipe
+                    {t("roadmap_images_title")}
                   </h3>
                   <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] bg-accent text-[#FDFBF8] border border-accent">
-                    Complete
+                    {t("roadmap_status_complete")}
                   </span>
                 </div>
                 <p className="text-sm leading-relaxed">
-                  Every ingredient and recipe now has a matching pen-and-ink
-                  image in the field-guide style. No stock photography, ever.
+                  {t("roadmap_images_body")}
                 </p>
               </div>
             </div>
@@ -204,22 +193,18 @@ export default async function SupportPage({
               <div>
                 <div className="flex items-center gap-3 mb-1 flex-wrap">
                   <h3 className="font-display text-lg font-normal">
-                    More books on the shelf
+                    {t("roadmap_books_title")}
                   </h3>
                   <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] bg-[#C4963A] text-[#FDFBF8] border border-[#C4963A]">
-                    In Progress
+                    {t("roadmap_status_in_progress")}
                   </span>
                 </div>
                 <p className="inline-flex items-baseline gap-1.5 text-muted mb-2">
                   <span className="font-display text-lg font-normal leading-none">2</span>
-                  <span className="text-[11px] font-medium uppercase tracking-[0.08em]">books so far</span>
+                  <span className="text-[11px] font-medium uppercase tracking-[0.08em]">{t("roadmap_books_count")}</span>
                 </p>
                 <p className="text-sm leading-relaxed">
-                  Each longevity book we parse becomes 50+ new ingredient
-                  articles and dozens of science-backed recipes. Next on
-                  the shelf: Valter Longo&apos;s &quot;The Longevity
-                  Diet,&quot; Peter Attia&apos;s &quot;Outlive,&quot; Dan
-                  Buettner&apos;s &quot;The Blue Zones Kitchen.&quot;
+                  {t("roadmap_books_body")}
                 </p>
               </div>
             </div>
@@ -237,16 +222,14 @@ export default async function SupportPage({
             <div>
               <div className="flex items-center gap-3 mb-1 flex-wrap">
                 <h3 className="font-display text-lg font-normal">
-                  Symptom to food
+                  {t("roadmap_symptoms_title")}
                 </h3>
                 <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
-                  Planned
+                  {t("roadmap_status_planned")}
                 </span>
               </div>
               <p className="text-sm leading-relaxed">
-                Pick how you feel &mdash; low energy, poor sleep, bloating
-                &mdash; and get ingredient suggestions grounded in
-                peer-reviewed science.
+                {t("roadmap_symptoms_body")}
               </p>
             </div>
           </div>
@@ -264,15 +247,14 @@ export default async function SupportPage({
             <div>
               <div className="flex items-center gap-3 mb-1 flex-wrap">
                 <h3 className="font-display text-lg font-normal">
-                  Saved recipes across devices
+                  {t("roadmap_devices_title")}
                 </h3>
                 <span className="inline-flex items-center px-2.5 py-1 rounded-sm text-[11px] font-medium uppercase tracking-[0.08em] text-muted border border-border">
-                  Planned
+                  {t("roadmap_status_planned")}
                 </span>
               </div>
               <p className="text-sm leading-relaxed">
-                Sign in and keep your meal plans and tried ingredients on
-                any device, with no ads and no data tracking.
+                {t("roadmap_devices_body")}
               </p>
             </div>
           </div>
@@ -280,17 +262,16 @@ export default async function SupportPage({
 
         {/* Donate */}
         <h2 className="font-display text-2xl font-normal mb-6">
-          How to support
+          {t("how_title")}
         </h2>
 
         {/* Buy Me a Coffee */}
         <div className="border border-border rounded-lg p-8 bg-surface mb-6">
           <h3 className="font-display text-lg font-normal mb-1">
-            Buy Me a Coffee
+            {t("bmc_title")}
           </h3>
           <p className="text-sm text-muted mb-4">
-            One-time or monthly. Credit card, Apple Pay, Google Pay. No
-            account needed.
+            {t("bmc_description")}
           </p>
           <a
             href="https://buymeacoffee.com/longevity.wiki"
@@ -298,7 +279,7 @@ export default async function SupportPage({
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-accent text-accent px-6 py-3 rounded-sm text-sm font-semibold hover:bg-accent/10 transition-all duration-200 !no-underline !border-b-accent"
           >
-            Buy Me a Coffee
+            {t("bmc_button")}
             <svg
               width="14"
               height="14"
@@ -317,36 +298,33 @@ export default async function SupportPage({
         {/* Crypto */}
         <div className="border border-border rounded-lg p-8 bg-surface mb-12">
           <h3 className="font-display text-lg font-normal mb-1">
-            Crypto (ETH / EVM)
+            {t("crypto_title")}
           </h3>
           <p className="text-sm text-muted mb-4">
-            Send ETH or any EVM-compatible token to this address.
+            {t("crypto_description")}
           </p>
           <div className="bg-bg border border-border rounded-md p-4 font-mono text-sm break-all select-all">
             {CRYPTO_ADDRESS}
           </div>
           <p className="text-xs text-muted mt-3">
-            Ethereum, Polygon, Arbitrum, Optimism, Base, or any EVM chain.
+            {t("crypto_networks")}
           </p>
         </div>
 
         {/* Donation Feed */}
         <div className="mb-12">
           <h2 className="font-display text-2xl font-normal mb-6">
-            Recent donations
+            {t("recent_donations")}
           </h2>
           <DonationFeed />
         </div>
 
         {/* Contribute */}
         <h2 className="font-display text-2xl font-normal mb-6">
-          Support doesn&apos;t only mean money
+          {t("contribute_title")}
         </h2>
         <p className="leading-relaxed mb-6">
-          This is an open source project. You can help by improving the
-          ingredient extraction skills, adding new data, fixing bugs, or
-          writing better wiki articles. Every pull request makes the wiki
-          better for everyone.
+          {t("contribute_description")}
         </p>
 
         <div className="space-y-4 mb-12">
@@ -363,11 +341,10 @@ export default async function SupportPage({
             </div>
             <div>
               <h3 className="font-display text-lg font-normal text-text mb-0.5">
-                Longevity Wiki
+                {t("wiki_repo")}
               </h3>
               <p className="text-sm text-muted">
-                The website, articles, and recipes. Add ingredients, fix content,
-                improve the design.
+                {t("wiki_repo_description")}
               </p>
             </div>
           </a>
@@ -385,11 +362,10 @@ export default async function SupportPage({
             </div>
             <div>
               <h3 className="font-display text-lg font-normal text-text mb-0.5">
-                Longevity Skills
+                {t("skills_repo")}
               </h3>
               <p className="text-sm text-muted">
-                The Claude Code skills that extract, research, and generate
-                content. Improve the pipeline, add new book parsers.
+                {t("skills_repo_description")}
               </p>
             </div>
           </a>

@@ -52,4 +52,4 @@ English (en) — primary
 Spanish (es) — partial translation (200/200 ingredients, 59/59 recipes)
 
 ## Last updated
-2026-05-06
+2026-05-07
