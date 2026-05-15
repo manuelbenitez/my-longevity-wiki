@@ -102,11 +102,22 @@ export interface Recipe {
   content: string;
 }
 
+/**
+ * Returns the union of every book's master ingredient list. With multi-book
+ * support, masters live under data/book-extracts/<slug>/ingredients-master.json
+ * (one per book). Each ingredient retains its book_slug via the claims.
+ */
 export function getMasterIngredients(): Ingredient[] {
-  const filePath = path.join(DATA_DIR, "book-extracts", "ingredients-master.json");
-  if (!fs.existsSync(filePath)) return [];
-  const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  return data.ingredients || [];
+  const bookExtractsDir = path.join(DATA_DIR, "book-extracts");
+  if (!fs.existsSync(bookExtractsDir)) return [];
+  const out: Ingredient[] = [];
+  for (const slugDir of fs.readdirSync(bookExtractsDir)) {
+    const masterPath = path.join(bookExtractsDir, slugDir, "ingredients-master.json");
+    if (!fs.existsSync(masterPath)) continue;
+    const data = JSON.parse(fs.readFileSync(masterPath, "utf-8"));
+    if (Array.isArray(data.ingredients)) out.push(...data.ingredients);
+  }
+  return out;
 }
 
 export function getEnrichedIngredient(slug: string): EnrichedIngredient | null {

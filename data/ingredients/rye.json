@@ -2,7 +2,24 @@
   "name": "Rye",
   "slug": "rye",
   "category": "grain",
-  "book_claims": [],
+  "book_claims": [
+    {
+      "text": "Listed as one of the key whole grains for longevity diet alongside barley, oats, and brown rice",
+      "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
+      "recommendation": null,
+      "reference": "Ref 5 in book",
+      "confidence": "medium",
+      "book_slug": "fontana"
+    },
+    {
+      "text": "Whole grains including rye associated with 17-19% lower all-cause mortality",
+      "mechanism": "Multiple pathways: fiber, phytochemicals, minerals, spermidine. Bran contains ferulic acid, alkylresorcinols, apigenin, and lignans with antioxidative and anticarcinogenic activities.",
+      "recommendation": null,
+      "reference": "Refs 121, 90 in book (NIH-AARP Diet and Health Study)",
+      "confidence": "high",
+      "book_slug": "fontana"
+    }
+  ],
   "supplementary_research": [
     {
       "source": "PubMed (RCT)",
@@ -128,6 +145,8 @@
     4,
     9
   ],
-  "source_books": [],
+  "source_books": [
+    "fontana"
+  ],
   "migration_version": 1
 }

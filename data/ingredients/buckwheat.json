@@ -2,7 +2,16 @@
   "name": "Buckwheat",
   "slug": "buckwheat",
   "category": "grain",
-  "book_claims": [],
+  "book_claims": [
+    {
+      "text": "Whole grains including pseudocereals associated with protective effects against obesity, type 2 diabetes, cardiovascular disease and cancer",
+      "mechanism": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Provides fibre, vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites.",
+      "recommendation": null,
+      "reference": "Refs 113-127 in book",
+      "confidence": "high",
+      "book_slug": "fontana"
+    }
+  ],
   "supplementary_research": [
     {
       "source": "PubMed (meta-analysis)",
@@ -126,6 +135,8 @@
   "source_chapters": [
     9
   ],
-  "source_books": [],
+  "source_books": [
+    "fontana"
+  ],
   "migration_version": 1
 }

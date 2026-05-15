@@ -42,6 +42,14 @@
       "reference": "Ref 123 in book (meta-analysis)",
       "recommendation": null,
       "book_slug": "fontana"
+    },
+    {
+      "text": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models.",
+      "mechanism": "Ferulic acid, alkylresorcinols, apigenin, lignans, phytic acid in bran; spermidine in germ removes damaged cells and reduces inflammation",
+      "recommendation": null,
+      "reference": "Refs 113-127 in book",
+      "confidence": "high",
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [

@@ -115,6 +115,8 @@
   "last_updated": "2026-04-18T00:00:00Z",
   "last_researched": "2026-04-18T00:00:00Z",
   "research_status": "complete",
-  "source_books": [],
+  "source_books": [
+    "longo"
+  ],
   "migration_version": 1
 }

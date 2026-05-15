@@ -10,6 +10,14 @@
       "reference": "Refs 22, 23, 24 in book",
       "recommendation": null,
       "book_slug": "fontana"
+    },
+    {
+      "text": "Vitamin C from citrus increases iron and zinc absorption from plant foods",
+      "mechanism": "Vitamin C reduces ferric iron (Fe3+) to ferrous iron (Fe2+) which is more readily absorbed; also chelates minerals making them more bioavailable",
+      "recommendation": null,
+      "reference": "Refs 101, 102 in book (via lemon juice entry)",
+      "confidence": "high",
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
