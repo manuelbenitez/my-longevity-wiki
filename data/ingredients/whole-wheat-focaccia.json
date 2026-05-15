@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Whole-grain bread used in the Longevity Diet as a breakfast and side item.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Whole-grain bread used in the Longevity Diet as a breakfast and side item.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -78,23 +81,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Oleic acid slows gastric emptying, lowering glycemic impact; polyphenols add anti-inflammatory effects"
+      "with": "olive oil",
+      "note": "Oleic acid slows gastric emptying, lowering glycemic impact; polyphenols add anti-inflammatory effects"
     },
     {
-      "target_ingredient": "rosemary",
       "type": "synergy",
-      "description": "Rosmarinic acid and carnosic acid in rosemary complement ferulic acid in whole wheat for combined antioxidant effects"
+      "with": "rosemary",
+      "note": "Rosmarinic acid and carnosic acid in rosemary complement ferulic acid in whole wheat for combined antioxidant effects"
     },
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Pairing with legumes creates complete amino acid profile and combined fiber types"
+      "with": "legumes",
+      "note": "Pairing with legumes creates complete amino acid profile and combined fiber types"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

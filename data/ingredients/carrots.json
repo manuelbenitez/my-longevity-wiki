@@ -4,25 +4,31 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Despite high glycaemic index, very low carbohydrate load makes them healthy",
       "mechanism": "High GI but very low total carbohydrate content means negligible actual glucose load; provides vitamins and phytochemicals",
-      "study_ref": "book-assertion (glycaemic index vs glucose load distinction)",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Despite high glycaemic index, very low carbohydrate load makes them healthy",
+      "reference": "book-assertion (glycaemic index vs glucose load distinction)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Loaded with carotenoids essential for vitamin A production, eye health, immune function and prenatal development",
       "mechanism": "Beta-carotene is converted to vitamin A which plays key role in eye and immune function",
-      "study_ref": "Ref 53 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Loaded with carotenoids essential for vitamin A production, eye health, immune function and prenatal development",
+      "reference": "Ref 53 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contains polyacetylene with preventative effects against thrombosis and cancer",
       "mechanism": "Polyacetylene compound found in Apiaceae family (carrots, celery, parsley) displays anti-thrombotic and anti-cancer activity",
-      "study_ref": "Ref 54 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contains polyacetylene with preventative effects against thrombosis and cancer",
+      "reference": "Ref 54 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -52,19 +58,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "earthy", "slightly bitter when raw", "intensely sweet when roasted"],
-    "aroma": ["earthy", "sweet", "woody", "warm when cooked"],
-    "texture": ["crunchy and firm raw", "tender and creamy when pureed", "caramelized edges when roasted"],
+    "taste": [
+      "sweet",
+      "earthy",
+      "slightly bitter when raw",
+      "intensely sweet when roasted"
+    ],
+    "aroma": [
+      "earthy",
+      "sweet",
+      "woody",
+      "warm when cooked"
+    ],
+    "texture": [
+      "crunchy and firm raw",
+      "tender and creamy when pureed",
+      "caramelized edges when roasted"
+    ],
     "culinary_category": "root vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat required for carotenoid absorption; book specifically recommends pairing"},
-    {"ingredient": "ginger", "tradition": "East Asian / Modern", "source": "Carrot-ginger soup is a classic; both provide anti-inflammatory compounds"},
-    {"ingredient": "cumin", "tradition": "North African / Middle Eastern", "source": "Warm spice complements carrot's sweetness in Moroccan salads and soups"},
-    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid balances sweetness; vitamin C enhances iron absorption from carrot greens"},
-    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Fat from sesame aids carotenoid absorption; complementary flavors in roasted carrot dishes"},
-    {"ingredient": "celery", "tradition": "French (mirepoix)", "source": "Same Apiaceae family; foundation of French and Italian cooking bases"},
-    {"ingredient": "turmeric", "tradition": "Indian", "source": "Both provide complementary carotenoids and anti-inflammatory compounds"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat required for carotenoid absorption; book specifically recommends pairing"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian / Modern",
+      "source": "Carrot-ginger soup is a classic; both provide anti-inflammatory compounds"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "North African / Middle Eastern",
+      "source": "Warm spice complements carrot's sweetness in Moroccan salads and soups"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Acid balances sweetness; vitamin C enhances iron absorption from carrot greens"
+    },
+    {
+      "ingredient": "tahini",
+      "tradition": "Middle Eastern",
+      "source": "Fat from sesame aids carotenoid absorption; complementary flavors in roasted carrot dishes"
+    },
+    {
+      "ingredient": "celery",
+      "tradition": "French (mirepoix)",
+      "source": "Same Apiaceae family; foundation of French and Italian cooking bases"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian",
+      "source": "Both provide complementary carotenoids and anti-inflammatory compounds"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -90,13 +138,20 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin olive oil",
       "type": "synergy",
-      "description": "Fat needed at same meal to optimize carotenoid absorption and conversion to vitamin A"
+      "with": "extra-virgin olive oil",
+      "note": "Fat needed at same meal to optimize carotenoid absorption and conversion to vitamin A"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7, 9]
+  "source_chapters": [
+    7,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

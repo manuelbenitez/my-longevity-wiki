@@ -4,18 +4,22 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
       "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
-      "study_ref": "Canadian trial, ref-17",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "reference": "Canadian trial, ref-17",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Beta-glucan fibre in barley lowers glucose, insulin and cholesterol levels",
       "mechanism": "Beta-glucan (found in appreciable amounts only in barley and oats) reduces intestinal absorption of cholesterol and glucose",
-      "study_ref": "Refs 129, 130, 131 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Beta-glucan fibre in barley lowers glucose, insulin and cholesterol levels",
+      "reference": "Refs 129, 130, 131 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,19 +49,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "malty", "slightly sweet", "earthy"],
-    "aroma": ["toasty", "grain-forward", "malty"],
-    "texture": ["chewy", "plump", "hearty"],
+    "taste": [
+      "nutty",
+      "malty",
+      "slightly sweet",
+      "earthy"
+    ],
+    "aroma": [
+      "toasty",
+      "grain-forward",
+      "malty"
+    ],
+    "texture": [
+      "chewy",
+      "plump",
+      "hearty"
+    ],
     "culinary_category": "whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "mushrooms", "tradition": "Eastern European", "source": "Classic pairing in krupnik and mushroom-barley soup"},
-    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid brightens earthy grain in tabbouleh-style salads"},
-    {"ingredient": "root vegetables", "tradition": "Northern European", "source": "Traditional hearty stew and soup base"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat slows carbohydrate absorption and adds richness"},
-    {"ingredient": "herbs (dill, parsley)", "tradition": "Eastern Mediterranean", "source": "Classic grain salad herb pairings"},
-    {"ingredient": "legumes", "tradition": "Middle Eastern", "source": "Complementary amino acid profiles for complete protein"},
-    {"ingredient": "miso", "tradition": "Japanese", "source": "Mugi miso is traditionally made with barley koji"}
+    {
+      "ingredient": "mushrooms",
+      "tradition": "Eastern European",
+      "source": "Classic pairing in krupnik and mushroom-barley soup"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Acid brightens earthy grain in tabbouleh-style salads"
+    },
+    {
+      "ingredient": "root vegetables",
+      "tradition": "Northern European",
+      "source": "Traditional hearty stew and soup base"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat slows carbohydrate absorption and adds richness"
+    },
+    {
+      "ingredient": "herbs (dill, parsley)",
+      "tradition": "Eastern Mediterranean",
+      "source": "Classic grain salad herb pairings"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Middle Eastern",
+      "source": "Complementary amino acid profiles for complete protein"
+    },
+    {
+      "ingredient": "miso",
+      "tradition": "Japanese",
+      "source": "Mugi miso is traditionally made with barley koji"
+    }
   ],
   "seasonality": "Harvested late summer. Hulled barley stores well year-round. Available dried in bulk; look for hulled (not pearled) for maximum nutrition.",
   "nutrient_highlights": [
@@ -89,18 +134,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "oats",
       "type": "synergy",
-      "description": "Both tested together in cholesterol-lowering food portfolio trial; complementary soluble fibre types"
+      "with": "oats",
+      "note": "Both tested together in cholesterol-lowering food portfolio trial; complementary soluble fibre types"
     },
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Complementary amino acid profiles create complete protein when combined"
+      "with": "legumes",
+      "note": "Complementary amino acid profiles create complete protein when combined"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8, 9]
+  "source_chapters": [
+    8,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

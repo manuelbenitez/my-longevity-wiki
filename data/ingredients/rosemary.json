@@ -4,11 +4,13 @@
   "category": "herb",
   "book_claims": [
     {
-      "claim": "Contains rosmarinic acid and carnosic acid with potential antioxidant, CNS-protective and liver-protective properties",
       "mechanism": "Rosmarinic acid and carnosic acid are potent antioxidant compounds with neuroprotective and hepatoprotective activity",
-      "study_ref": "Refs 106, 107 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contains rosmarinic acid and carnosic acid with potential antioxidant, CNS-protective and liver-protective properties",
+      "reference": "Refs 106, 107 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,19 +40,62 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["piney", "camphoraceous", "slightly bitter", "warm", "peppery"],
-    "aroma": ["evergreen", "woody", "mentholated", "resinous"],
-    "texture": ["woody stems", "needle-like leaves", "leathery when dried"],
+    "taste": [
+      "piney",
+      "camphoraceous",
+      "slightly bitter",
+      "warm",
+      "peppery"
+    ],
+    "aroma": [
+      "evergreen",
+      "woody",
+      "mentholated",
+      "resinous"
+    ],
+    "texture": [
+      "woody stems",
+      "needle-like leaves",
+      "leathery when dried"
+    ],
     "culinary_category": "herb"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Classic pairing for roasted vegetables, meats, and focaccia"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Infused rosemary oil for bread dipping and roasting"},
-    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Brightens rosemary's resinous quality in marinades and dressings"},
-    {"ingredient": "legumes", "tradition": "Tuscan", "source": "Essential in Tuscan white bean dishes (fagioli all'uccelletto)"},
-    {"ingredient": "potatoes", "tradition": "European", "source": "Roasted rosemary potatoes are a universal pairing"},
-    {"ingredient": "walnuts", "tradition": "Italian", "source": "Rosemary-walnut combinations in breads, pestos, and salads"},
-    {"ingredient": "sage", "tradition": "Italian", "source": "Both Lamiaceae herbs; combined in Italian roasts and compound butters"}
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "Classic pairing for roasted vegetables, meats, and focaccia"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Italian",
+      "source": "Infused rosemary oil for bread dipping and roasting"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean",
+      "source": "Brightens rosemary's resinous quality in marinades and dressings"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Tuscan",
+      "source": "Essential in Tuscan white bean dishes (fagioli all'uccelletto)"
+    },
+    {
+      "ingredient": "potatoes",
+      "tradition": "European",
+      "source": "Roasted rosemary potatoes are a universal pairing"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Italian",
+      "source": "Rosemary-walnut combinations in breads, pestos, and salads"
+    },
+    {
+      "ingredient": "sage",
+      "tradition": "Italian",
+      "source": "Both Lamiaceae herbs; combined in Italian roasts and compound butters"
+    }
   ],
   "seasonality": "Evergreen perennial available year-round. Grows easily in pots or garden beds in temperate climates. Fresh rosemary is always preferable to dried for flavour, though dried retains significant active compounds.",
   "nutrient_highlights": [
@@ -77,18 +122,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "sage",
       "type": "complement",
-      "description": "Both Lamiaceae family herbs rich in hydroxycinnamic acids; combined provide broader antioxidant coverage"
+      "with": "sage",
+      "note": "Both Lamiaceae family herbs rich in hydroxycinnamic acids; combined provide broader antioxidant coverage"
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Fat carrier enhances absorption of lipophilic carnosic acid"
+      "with": "extra-virgin-olive-oil",
+      "note": "Fat carrier enhances absorption of lipophilic carnosic acid"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -4,11 +4,12 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Whole grains including pseudocereals associated with protective effects against obesity, type 2 diabetes, cardiovascular disease and cancer",
+      "text": "Whole grains including pseudocereals associated with protective effects against obesity, type 2 diabetes, cardiovascular disease and cancer",
       "mechanism": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Provides fibre, vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites.",
-      "study_ref": "Refs 113-127 in book",
+      "recommendation": null,
+      "reference": "Refs 113-127 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,18 +39,55 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "nutty", "slightly bitter", "robust"],
-    "aroma": ["toasty", "deep", "grain-forward when toasted (kasha)"],
-    "texture": ["tender but distinct grains", "soft when cooked", "slightly gritty in flour"],
+    "taste": [
+      "earthy",
+      "nutty",
+      "slightly bitter",
+      "robust"
+    ],
+    "aroma": [
+      "toasty",
+      "deep",
+      "grain-forward when toasted (kasha)"
+    ],
+    "texture": [
+      "tender but distinct grains",
+      "soft when cooked",
+      "slightly gritty in flour"
+    ],
     "culinary_category": "pseudocereal"
   },
   "culinary_pairings": [
-    {"ingredient": "mushrooms", "tradition": "Eastern European", "source": "Kasha varnishkes and mushroom-buckwheat porridge traditions"},
-    {"ingredient": "soba noodles (dipping sauce)", "tradition": "Japanese", "source": "Traditional soba with dashi and soy; buckwheat flour is the base"},
-    {"ingredient": "butter or ghee", "tradition": "Eastern European / French", "source": "Galettes de sarrasin (Breton crepes); kasha cooked in butter"},
-    {"ingredient": "onions (caramelized)", "tradition": "Eastern European", "source": "Classic kasha varnishkes with caramelized onions and bow-tie pasta"},
-    {"ingredient": "honey", "tradition": "Russian / Eastern European", "source": "Buckwheat honey is a traditional pairing; sweetens bitterness"},
-    {"ingredient": "goat cheese", "tradition": "French", "source": "Galette filling; tangy dairy complements earthy grain"}
+    {
+      "ingredient": "mushrooms",
+      "tradition": "Eastern European",
+      "source": "Kasha varnishkes and mushroom-buckwheat porridge traditions"
+    },
+    {
+      "ingredient": "soba noodles (dipping sauce)",
+      "tradition": "Japanese",
+      "source": "Traditional soba with dashi and soy; buckwheat flour is the base"
+    },
+    {
+      "ingredient": "butter or ghee",
+      "tradition": "Eastern European / French",
+      "source": "Galettes de sarrasin (Breton crepes); kasha cooked in butter"
+    },
+    {
+      "ingredient": "onions (caramelized)",
+      "tradition": "Eastern European",
+      "source": "Classic kasha varnishkes with caramelized onions and bow-tie pasta"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Russian / Eastern European",
+      "source": "Buckwheat honey is a traditional pairing; sweetens bitterness"
+    },
+    {
+      "ingredient": "goat cheese",
+      "tradition": "French",
+      "source": "Galette filling; tangy dairy complements earthy grain"
+    }
   ],
   "seasonality": "Available year-round as dried groats or flour. Toasted buckwheat (kasha) has deeper flavor. Raw groats are milder. Buckwheat flour best stored in fridge or freezer.",
   "nutrient_highlights": [
@@ -81,18 +119,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "While buckwheat has complete protein, combining with legumes further improves amino acid balance"
+      "with": "legumes",
+      "note": "While buckwheat has complete protein, combining with legumes further improves amino acid balance"
     },
     {
-      "target_ingredient": "vegetables",
       "type": "synergy",
-      "description": "Vitamin C from vegetables improves iron absorption from buckwheat"
+      "with": "vegetables",
+      "note": "Vitamin C from vegetables improves iron absorption from buckwheat"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

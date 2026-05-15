@@ -4,16 +4,20 @@
   "category": "nut",
   "book_claims": [
     {
-      "claim": "Part of a nutritionally complete daily diet",
       "mechanism": "Provides protein, healthy fats, fibre and minerals as part of a plant-based diet",
-      "study_ref": "Author's calculated sample diet",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Part of a nutritionally complete daily diet",
+      "reference": "Author's calculated sample diet",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Six-month RCT showed eating cholesterol-lowering foods including almonds led to 15% reduction in blood cholesterol",
       "mechanism": "Rich in vitamin E (antioxidant), monounsaturated fats, soluble fibre that reduces intestinal cholesterol absorption",
-      "study_ref": "Ref 175 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Six-month RCT showed eating cholesterol-lowering foods including almonds led to 15% reduction in blood cholesterol",
+      "reference": "Ref 175 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,17 +41,51 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mildly sweet", "nutty", "slightly bitter (skin)", "buttery"],
-    "aroma": ["sweet", "toasty when roasted", "marzipan-like"],
-    "texture": ["crunchy", "firm", "smooth when ground", "creamy (almond milk/butter)"],
+    "taste": [
+      "mildly sweet",
+      "nutty",
+      "slightly bitter (skin)",
+      "buttery"
+    ],
+    "aroma": [
+      "sweet",
+      "toasty when roasted",
+      "marzipan-like"
+    ],
+    "texture": [
+      "crunchy",
+      "firm",
+      "smooth when ground",
+      "creamy (almond milk/butter)"
+    ],
     "culinary_category": "tree nut"
   },
   "culinary_pairings": [
-    {"ingredient": "dark chocolate", "tradition": "European", "source": "Complementary polyphenols; classic confectionery pairing"},
-    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional sweet pairing; antioxidant synergy"},
-    {"ingredient": "berries", "tradition": "Global", "source": "Vitamin E + anthocyanins for combined antioxidant protection"},
-    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Almond + oat porridge; complementary fibres and fats"},
-    {"ingredient": "citrus fruits", "tradition": "Mediterranean", "source": "Vitamin C enhances vitamin E regeneration; Sicilian almond-citrus tradition"}
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "European",
+      "source": "Complementary polyphenols; classic confectionery pairing"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional sweet pairing; antioxidant synergy"
+    },
+    {
+      "ingredient": "berries",
+      "tradition": "Global",
+      "source": "Vitamin E + anthocyanins for combined antioxidant protection"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Northern European / Global",
+      "source": "Almond + oat porridge; complementary fibres and fats"
+    },
+    {
+      "ingredient": "citrus fruits",
+      "tradition": "Mediterranean",
+      "source": "Vitamin C enhances vitamin E regeneration; Sicilian almond-citrus tradition"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -70,5 +108,12 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7, 9]
+  "source_chapters": [
+    7,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

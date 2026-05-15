@@ -4,10 +4,12 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
       "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
-      "study_ref": "Ref 105 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+      "reference": "Ref 105 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,52 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["tangy", "sour", "complex", "mildly sweet (crust)"],
-    "aroma": ["yeasty", "lactic", "nutty (crust)", "wheaty"],
-    "texture": ["chewy crumb", "crisp crust", "open irregular crumb structure", "dense"],
+    "taste": [
+      "tangy",
+      "sour",
+      "complex",
+      "mildly sweet (crust)"
+    ],
+    "aroma": [
+      "yeasty",
+      "lactic",
+      "nutty (crust)",
+      "wheaty"
+    ],
+    "texture": [
+      "chewy crumb",
+      "crisp crust",
+      "open irregular crumb structure",
+      "dense"
+    ],
     "culinary_category": "fermented grain"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Classic bread dipping; fat slows carbohydrate absorption"},
-    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Bruschetta and panzanella; traditional pairing"},
-    {"ingredient": "legumes", "tradition": "Mediterranean / Middle Eastern", "source": "Bread + bean soups for complete protein"},
-    {"ingredient": "cheese (aged)", "tradition": "European", "source": "Fermented + fermented pairing; calcium and protein complement"},
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Garlic rubbed on toasted bread (fettunta); allicin + mineral-rich bread"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Classic bread dipping; fat slows carbohydrate absorption"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian",
+      "source": "Bruschetta and panzanella; traditional pairing"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Bread + bean soups for complete protein"
+    },
+    {
+      "ingredient": "cheese (aged)",
+      "tradition": "European",
+      "source": "Fermented + fermented pairing; calcium and protein complement"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "Garlic rubbed on toasted bread (fettunta); allicin + mineral-rich bread"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -62,13 +99,19 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "refined-grains",
       "type": "antagonism",
-      "description": "Sourdough whole grain bread far superior to white bread"
+      "with": "refined-grains",
+      "note": "Sourdough whole grain bread far superior to white bread"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

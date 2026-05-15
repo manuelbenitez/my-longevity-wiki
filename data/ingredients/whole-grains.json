@@ -4,40 +4,52 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Regular consumption prevents chronic disease and supports longevity",
       "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
-      "study_ref": "Ref 5 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Regular consumption prevents chronic disease and supports longevity",
+      "reference": "Ref 5 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Regular consumption reduces cardiovascular disease risk by 20-40% and diabetes risk by 20-30%",
       "mechanism": "Fibre-rich cell wall restricts rate of starch/sugar digestion and absorption; slow glucose release reduces insulin spikes; low glycaemic index induces satiety",
-      "study_ref": "Refs 78, 79, 80 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Regular consumption reduces cardiovascular disease risk by 20-40% and diabetes risk by 20-30%",
+      "reference": "Refs 78, 79, 80 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Highest intake of wholegrain fibre associated with 19% lower all-cause mortality and 15-34% lower disease-specific mortality",
       "mechanism": "Fibre increases stool bulk, increases bile acid excretion, alters colonic flora, and generates short-chain fatty acids",
-      "study_ref": "Ref 90 in book (NIH-AARP Diet and Health Study, 367,442 participants)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Highest intake of wholegrain fibre associated with 19% lower all-cause mortality and 15-34% lower disease-specific mortality",
+      "reference": "Ref 90 in book (NIH-AARP Diet and Health Study, 367,442 participants)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Two servings per day associated with 21% reduction in type 2 diabetes risk",
       "mechanism": "Beta-glucan fibre lowers glucose, insulin and cholesterol by reducing intestinal absorption",
-      "study_ref": "Ref 122 in book (286,125 participants)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Two servings per day associated with 21% reduction in type 2 diabetes risk",
+      "reference": "Ref 122 in book (286,125 participants)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Three to five servings daily associated with 21% lower cardiovascular disease risk",
       "mechanism": "Multiple pathways including cholesterol reduction and anti-inflammatory effects",
-      "study_ref": "Ref 123 in book (meta-analysis)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Three to five servings daily associated with 21% lower cardiovascular disease risk",
+      "reference": "Ref 123 in book (meta-analysis)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models.",
+      "text": "Bran contains phyto-protectants with antioxidative and anticarcinogenic activities. Germ contains spermidine which extends lifespan in animal models.",
       "mechanism": "Ferulic acid, alkylresorcinols, apigenin, lignans, phytic acid in bran; spermidine in germ removes damaged cells and reduces inflammation",
-      "study_ref": "Refs 113-127 in book",
-      "confidence": "high"
+      "recommendation": null,
+      "reference": "Refs 113-127 in book",
+      "confidence": "high",
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -61,17 +73,50 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "earthy", "mildly sweet", "complex"],
-    "aroma": ["toasty", "wheaty", "grassy (fresh)"],
-    "texture": ["chewy", "substantial", "varied (porridge to pilaf)"],
+    "taste": [
+      "nutty",
+      "earthy",
+      "mildly sweet",
+      "complex"
+    ],
+    "aroma": [
+      "toasty",
+      "wheaty",
+      "grassy (fresh)"
+    ],
+    "texture": [
+      "chewy",
+      "substantial",
+      "varied (porridge to pilaf)"
+    ],
     "culinary_category": "whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "legumes", "tradition": "Mediterranean / Global", "source": "Complementary amino acids for complete protein"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Olive oil slows carbohydrate absorption from grains"},
-    {"ingredient": "vegetables", "tradition": "Global", "source": "Combined fibre sources for microbiome diversity"},
-    {"ingredient": "garlic and onion", "tradition": "Mediterranean", "source": "Allium prebiotic fibres complement grain fibres"},
-    {"ingredient": "herbs and spices", "tradition": "Global", "source": "Polyphenol-rich seasonings add anti-inflammatory compounds"}
+    {
+      "ingredient": "legumes",
+      "tradition": "Mediterranean / Global",
+      "source": "Complementary amino acids for complete protein"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Olive oil slows carbohydrate absorption from grains"
+    },
+    {
+      "ingredient": "vegetables",
+      "tradition": "Global",
+      "source": "Combined fibre sources for microbiome diversity"
+    },
+    {
+      "ingredient": "garlic and onion",
+      "tradition": "Mediterranean",
+      "source": "Allium prebiotic fibres complement grain fibres"
+    },
+    {
+      "ingredient": "herbs and spices",
+      "tradition": "Global",
+      "source": "Polyphenol-rich seasonings add anti-inflammatory compounds"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -92,23 +137,32 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Complementary amino acid profiles; combined provide complete protein"
+      "with": "legumes",
+      "note": "Complementary amino acid profiles; combined provide complete protein"
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Olive oil slows carbohydrate absorption from grains"
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil slows carbohydrate absorption from grains"
     },
     {
-      "target_ingredient": "beans-legumes",
       "type": "complement",
-      "description": "Complementary fibre-rich food group"
+      "with": "beans-legumes",
+      "note": "Complementary fibre-rich food group"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [4, 5, 7, 9]
+  "source_chapters": [
+    4,
+    5,
+    7,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

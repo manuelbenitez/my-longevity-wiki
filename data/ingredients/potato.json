@@ -2,39 +2,56 @@
   "name": "Potato",
   "slug": "potato",
   "category": "vegetable",
-  "aliases": ["sweet potato", "white potato", "Solanum tuberosum", "Ipomoea batatas"],
+  "aliases": [
+    "sweet potato",
+    "white potato",
+    "Solanum tuberosum",
+    "Ipomoea batatas"
+  ],
   "book_claims": [
     {
-      "claim": "Potatoes (including sweet potatoes) are used in several Longevity Diet soups and stews. A medium baked regular potato provides iron (2 mg, ~11% DV), magnesium (43 mg per 3.5 oz baked with skin, ~11% DV), vitamin C (17 mg, ~28% DV), and calcium (62 mg per cup baked with salt, ~6% DV). Sweet potato is a top vitamin A source (1,403 mcg RAE per whole baked, 561% DV) and provides calcium (62 mg, ~6% DV).",
       "mechanism": "Regular potato provides diverse micronutrients and resistant starch when cooked and cooled; sweet potato's extraordinary beta-carotene content supports immune function, skin integrity, and acts as a powerful antioxidant.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Potatoes (including sweet potatoes) are used in several Longevity Diet soups and stews. A medium baked regular potato provides iron (2 mg, ~11% DV), magnesium (43 mg per 3.5 oz baked with skin, ~11% DV), vitamin C (17 mg, ~28% DV), and calcium (62 mg per cup baked with salt, ~6% DV). Sweet potato is a top vitamin A source (1,403 mcg RAE per whole baked, 561% DV) and provides calcium (62 mg, ~6% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "PubMed — Birt et al., Advances in Nutrition (2013) — PMID 24228191",
+      "source": "PubMed \u2014 Birt et al., Advances in Nutrition (2013) \u2014 PMID 24228191",
       "url": "https://pubmed.ncbi.nlm.nih.gov/24228191/",
-      "finding": "Cooked and cooled potatoes contain significant resistant starch (RS3 type); resistant starch resists digestion, feeds beneficial gut microbiota (Bifidobacterium, Ruminococcus), produces short-chain fatty acids, and improves insulin sensitivity — mechanisms relevant to metabolic longevity.",
+      "finding": "Cooked and cooled potatoes contain significant resistant starch (RS3 type); resistant starch resists digestion, feeds beneficial gut microbiota (Bifidobacterium, Ruminococcus), produces short-chain fatty acids, and improves insulin sensitivity \u2014 mechanisms relevant to metabolic longevity.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Moser et al., Nutrients (2016) — PMID 27754404",
+      "source": "PubMed \u2014 Moser et al., Nutrients (2016) \u2014 PMID 27754404",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27754404/",
       "finding": "Sweet potato purple-fleshed varieties (and orange varieties) contain anthocyanins and beta-carotene respectively; both pigment classes exhibit anti-inflammatory and antioxidant activity, and epidemiological data link sweet potato consumption to lower cardiovascular risk in Asian populations.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Willcox et al., Annals of the New York Academy of Sciences (2009) — PMID 19735238",
+      "source": "PubMed \u2014 Willcox et al., Annals of the New York Academy of Sciences (2009) \u2014 PMID 19735238",
       "url": "https://pubmed.ncbi.nlm.nih.gov/19735238/",
       "finding": "Traditional Okinawan diet, one of the longevity Blue Zones, was historically dominated by purple sweet potato (>60% calories); its carotenoid and flavonoid content is proposed as a key factor in the population's exceptionally low rates of cardiovascular disease and cancer.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["starchy and neutral (white)", "sweet and earthy (sweet potato)"],
-    "aroma": ["mild earthy", "caramelizes when roasted"],
-    "texture": ["fluffy and soft when baked", "creamy when mashed", "firm and waxy when boiled (waxy varieties)"],
+    "taste": [
+      "starchy and neutral (white)",
+      "sweet and earthy (sweet potato)"
+    ],
+    "aroma": [
+      "mild earthy",
+      "caramelizes when roasted"
+    ],
+    "texture": [
+      "fluffy and soft when baked",
+      "creamy when mashed",
+      "firm and waxy when boiled (waxy varieties)"
+    ],
     "culinary_category": "starchy tuber"
   },
   "culinary_pairings": [
@@ -72,7 +89,7 @@
     },
     {
       "compound": "Resistant starch",
-      "amount_per_100g": "~3–4 g (cooked and cooled white potato)",
+      "amount_per_100g": "~3\u20134 g (cooked and cooled white potato)",
       "bioavailability_notes": "Increases substantially when cooked potato is cooled (retrogradation); reheating at lower temperatures preserves more RS than re-boiling."
     },
     {
@@ -83,23 +100,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Dietary fat from olive oil dramatically increases carotenoid absorption from sweet potato; drizzling olive oil on sweet potato is a practical longevity strategy."
+      "with": "extra-virgin-olive-oil",
+      "note": "Dietary fat from olive oil dramatically increases carotenoid absorption from sweet potato; drizzling olive oil on sweet potato is a practical longevity strategy."
     },
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Potato contributes potassium and resistant starch while legumes add protein and fiber; combined they form a satiating, nutritionally complete longevity meal base."
+      "with": "legumes",
+      "note": "Potato contributes potassium and resistant starch while legumes add protein and fiber; combined they form a satiating, nutritionally complete longevity meal base."
     },
     {
-      "target_ingredient": "garlic",
       "type": "complement",
-      "description": "Garlic's prebiotic compounds synergize with potato resistant starch to maximize short-chain fatty acid production by the gut microbiome."
+      "with": "garlic",
+      "note": "Garlic's prebiotic compounds synergize with potato resistant starch to maximize short-chain fatty acid production by the gut microbiome."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

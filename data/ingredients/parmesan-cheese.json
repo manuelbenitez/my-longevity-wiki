@@ -2,39 +2,61 @@
   "name": "Parmesan Cheese",
   "slug": "parmesan-cheese",
   "category": "dairy",
-  "aliases": ["parmigiano reggiano", "parmigiano", "grana padano"],
+  "aliases": [
+    "parmigiano reggiano",
+    "parmigiano",
+    "grana padano"
+  ],
   "book_claims": [
     {
-      "claim": "A small amount of aged Parmesan cheese (5 g, approximately 1 tbsp) is used as a finishing ingredient in several Longevity Diet pasta and vegetable dishes, adding flavour without excessive protein or saturated fat.",
       "mechanism": "Used as a flavour enhancer in small amounts; aged cheeses have concentrated umami from glutamates, enabling significant flavour impact at very low serving sizes consistent with the diet's protein moderation goals.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "A small amount of aged Parmesan cheese (5 g, approximately 1 tbsp) is used as a finishing ingredient in several Longevity Diet pasta and vegetable dishes, adding flavour without excessive protein or saturated fat.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Tong et al., European Heart Journal (2022) — PMID 35338360",
+      "source": "Tong et al., European Heart Journal (2022) \u2014 PMID 35338360",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35338360/",
       "finding": "Meta-analysis of 29 prospective cohort studies found that cheese consumption (up to 40 g/day) was not associated with increased cardiovascular mortality and was inversely associated with all-cause mortality at moderate intakes, suggesting small amounts of hard cheese like Parmesan can be part of a longevity diet.",
       "agrees_with_book": true
     },
     {
-      "source": "Lordan et al., Nutrients (2019) — PMID 31140933",
+      "source": "Lordan et al., Nutrients (2019) \u2014 PMID 31140933",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31140933/",
       "finding": "Long-aged cheeses such as Parmigiano Reggiano contain bioactive peptides (ACE-inhibitory, antimicrobial) released during proteolysis; these may contribute to blood pressure regulation and gut microbiota modulation at dietary doses.",
       "agrees_with_book": true
     },
     {
-      "source": "Poulain et al., Experimental Gerontology (2004) — PMID 15489063",
+      "source": "Poulain et al., Experimental Gerontology (2004) \u2014 PMID 15489063",
       "url": "https://pubmed.ncbi.nlm.nih.gov/15489063/",
-      "finding": "Sardinian centenarian dietary patterns include moderate amounts of aged sheep and cow milk cheeses; epidemiological analysis of this Blue Zone population suggests fermented dairy in small amounts is compatible with — and possibly supportive of — exceptional longevity.",
+      "finding": "Sardinian centenarian dietary patterns include moderate amounts of aged sheep and cow milk cheeses; epidemiological analysis of this Blue Zone population suggests fermented dairy in small amounts is compatible with \u2014 and possibly supportive of \u2014 exceptional longevity.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["sharp", "umami", "salty", "nutty", "crystalline sweetness from tyrosine crystals"],
-    "aroma": ["pungent", "fruity", "nutty", "aged dairy"],
-    "texture": ["hard", "granular", "crystalline", "finely powdery when grated"],
+    "taste": [
+      "sharp",
+      "umami",
+      "salty",
+      "nutty",
+      "crystalline sweetness from tyrosine crystals"
+    ],
+    "aroma": [
+      "pungent",
+      "fruity",
+      "nutty",
+      "aged dairy"
+    ],
+    "texture": [
+      "hard",
+      "granular",
+      "crystalline",
+      "finely powdery when grated"
+    ],
     "culinary_category": "aged hard cheese / condiment"
   },
   "culinary_pairings": [
@@ -88,23 +110,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "pasta",
       "type": "complement",
-      "description": "The intense umami of Parmesan at 5 g elevates an entire pasta dish, permitting flavour satisfaction with minimal added protein, consistent with the longevity diet's moderate protein goal."
+      "with": "pasta",
+      "note": "The intense umami of Parmesan at 5 g elevates an entire pasta dish, permitting flavour satisfaction with minimal added protein, consistent with the longevity diet's moderate protein goal."
     },
     {
-      "target_ingredient": "oyster-mushrooms",
       "type": "complement",
-      "description": "Both are high-glutamate ingredients; together they create a 'stacking' umami effect that makes plant-forward dishes deeply satisfying."
+      "with": "oyster-mushrooms",
+      "note": "Both are high-glutamate ingredients; together they create a 'stacking' umami effect that makes plant-forward dishes deeply satisfying."
     },
     {
-      "target_ingredient": "walnuts",
       "type": "complement",
-      "description": "Walnuts' omega-3 ALA helps offset the modest saturated fat contribution of Parmesan when the two are paired in salads or pasta."
+      "with": "walnuts",
+      "note": "Walnuts' omega-3 ALA helps offset the modest saturated fat contribution of Parmesan when the two are paired in salads or pasta."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

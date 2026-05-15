@@ -2,39 +2,55 @@
   "name": "Banana",
   "slug": "banana",
   "category": "fruit",
-  "aliases": ["Musa sapientum", "plantain (cooking variety)"],
+  "aliases": [
+    "Musa sapientum",
+    "plantain (cooking variety)"
+  ],
   "book_claims": [
     {
-      "claim": "Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, providing folate (24 mcg per medium, 6% DV) and magnesium (32 mg per medium, 8% DV).",
       "mechanism": "Folate supports one-carbon metabolism and DNA methylation; magnesium acts as a cofactor in over 300 enzymatic reactions including ATP synthesis and protein synthesis.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Fresh banana is used in the Longevity Diet as a breakfast and snack fruit, providing folate (24 mcg per medium, 6% DV) and magnesium (32 mg per medium, 8% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Slavin & Lloyd, Advances in Nutrition (2012) — PMID 22797986",
+      "source": "Slavin & Lloyd, Advances in Nutrition (2012) \u2014 PMID 22797986",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22797986/",
       "finding": "Bananas provide resistant starch and fructooligosaccharides that selectively feed beneficial gut bacteria (Bifidobacterium, Lactobacillus), supporting a microbiome profile associated with reduced systemic inflammation and extended healthspan.",
       "agrees_with_book": true
     },
     {
-      "source": "Dreher & Davenport, Critical Reviews in Food Science (2013) — PMID 23638933",
+      "source": "Dreher & Davenport, Critical Reviews in Food Science (2013) \u2014 PMID 23638933",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23638933/",
       "finding": "Banana consumption is associated with improved glycemic response compared to other high-carbohydrate fruits due to its fiber and resistant starch content; unripe bananas have a glycemic index of ~30 versus ~60 for very ripe ones.",
       "agrees_with_book": true
     },
     {
-      "source": "Bhowmik et al., Asian Pacific Journal of Tropical Biomedicine (2012) — PMID 23569783",
+      "source": "Bhowmik et al., Asian Pacific Journal of Tropical Biomedicine (2012) \u2014 PMID 23569783",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23569783/",
       "finding": "Bananas contain dopamine and catechins, potent antioxidants linked to reduced risk of degenerative diseases and heart disease; antioxidant activity is comparable to many berries on a per-serving basis.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "mildly tangy when unripe"],
-    "aroma": ["fruity", "floral", "isoamyl acetate-forward"],
-    "texture": ["creamy", "soft", "starchy when unripe"],
+    "taste": [
+      "sweet",
+      "mildly tangy when unripe"
+    ],
+    "aroma": [
+      "fruity",
+      "floral",
+      "isoamyl acetate-forward"
+    ],
+    "texture": [
+      "creamy",
+      "soft",
+      "starchy when unripe"
+    ],
     "culinary_category": "fresh fruit"
   },
   "culinary_pairings": [
@@ -78,18 +94,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "oats",
       "type": "complement",
-      "description": "Combined soluble and resistant fiber from banana and oats provides sustained energy and robust prebiotic effect."
+      "with": "oats",
+      "note": "Combined soluble and resistant fiber from banana and oats provides sustained energy and robust prebiotic effect."
     },
     {
-      "target_ingredient": "walnuts",
       "type": "complement",
-      "description": "Pairing banana with walnuts adds protein and healthy fats, lowering the overall glycemic response of the meal."
+      "with": "walnuts",
+      "note": "Pairing banana with walnuts adds protein and healthy fats, lowering the overall glycemic response of the meal."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

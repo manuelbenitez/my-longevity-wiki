@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Leucine activates TOR-S6K, accelerating aging",
       "mechanism": "Leucine is a potent activator of the mTOR/TOR-S6K signaling complex, which promotes cell growth and accelerates aging when chronically elevated",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Leucine activates TOR-S6K, accelerating aging",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -73,23 +76,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Plant-based leucine from legumes provides episodic mTOR stimulation without chronic excess"
+      "with": "legumes",
+      "note": "Plant-based leucine from legumes provides episodic mTOR stimulation without chronic excess"
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Oleic acid moderates mTOR signaling, partially buffering leucine's pro-aging effects"
+      "with": "olive oil",
+      "note": "Oleic acid moderates mTOR signaling, partially buffering leucine's pro-aging effects"
     },
     {
-      "target_ingredient": "fish",
       "type": "synergy",
-      "description": "Fish provides leucine alongside omega-3s that modulate inflammatory pathways downstream of mTOR"
+      "with": "fish",
+      "note": "Fish provides leucine alongside omega-3s that modulate inflammatory pathways downstream of mTOR"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

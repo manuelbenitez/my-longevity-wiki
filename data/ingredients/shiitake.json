@@ -2,39 +2,62 @@
   "name": "Shiitake",
   "slug": "shiitake",
   "category": "mushroom",
-  "aliases": ["Lentinula edodes", "black forest mushroom", "oak mushroom", "Chinese mushroom"],
+  "aliases": [
+    "Lentinula edodes",
+    "black forest mushroom",
+    "oak mushroom",
+    "Chinese mushroom"
+  ],
   "book_claims": [
     {
-      "claim": "Shiitake mushrooms are used across multiple Longevity Diet dishes and provide 41 IU of vitamin D per cup cooked (10.25% DV). Mushrooms synthesize vitamin D upon UV light exposure, making them a significant dietary vitamin D source for those limiting animal products.",
       "mechanism": "Mushrooms convert ergosterol to vitamin D2 (ergocalciferol) upon UV/sunlight exposure; dietary vitamin D2 raises serum 25(OH)D, supporting immune regulation, bone metabolism, and cardiovascular health.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Shiitake mushrooms are used across multiple Longevity Diet dishes and provide 41 IU of vitamin D per cup cooked (10.25% DV). Mushrooms synthesize vitamin D upon UV light exposure, making them a significant dietary vitamin D source for those limiting animal products.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Dai et al., Nutrients (2015) — PMID 26244363",
+      "source": "Dai et al., Nutrients (2015) \u2014 PMID 26244363",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26244363/",
-      "finding": "Daily consumption of 5–10 g dried shiitake mushrooms for 4 weeks improved markers of immunity including T-cell proliferation, NK cell activity, secretory IgA levels, and reduced C-reactive protein — suggesting immunomodulatory longevity benefits beyond vitamin D content.",
+      "finding": "Daily consumption of 5\u201310 g dried shiitake mushrooms for 4 weeks improved markers of immunity including T-cell proliferation, NK cell activity, secretory IgA levels, and reduced C-reactive protein \u2014 suggesting immunomodulatory longevity benefits beyond vitamin D content.",
       "agrees_with_book": true
     },
     {
-      "source": "Wasser, Applied Microbiology and Biotechnology (2002) — PMID 12012168",
+      "source": "Wasser, Applied Microbiology and Biotechnology (2002) \u2014 PMID 12012168",
       "url": "https://pubmed.ncbi.nlm.nih.gov/12012168/",
-      "finding": "Shiitake's beta-glucan (lentinan) activates macrophages and NK cells, enhances tumor surveillance, and modulates Th1/Th2 balance — mechanisms relevant to immune aging and cancer prevention in longevity contexts.",
+      "finding": "Shiitake's beta-glucan (lentinan) activates macrophages and NK cells, enhances tumor surveillance, and modulates Th1/Th2 balance \u2014 mechanisms relevant to immune aging and cancer prevention in longevity contexts.",
       "agrees_with_book": true
     },
     {
-      "source": "Kabir et al., Journal of Nutritional Science and Vitaminology (1987) — PMID 3437695",
+      "source": "Kabir et al., Journal of Nutritional Science and Vitaminology (1987) \u2014 PMID 3437695",
       "url": "https://pubmed.ncbi.nlm.nih.gov/3437695/",
-      "finding": "Shiitake consumption significantly reduced total cholesterol and LDL in animal models via eritadenine, a unique compound that shifts cholesterol metabolism — supporting cardiovascular aspects of the longevity diet.",
+      "finding": "Shiitake consumption significantly reduced total cholesterol and LDL in animal models via eritadenine, a unique compound that shifts cholesterol metabolism \u2014 supporting cardiovascular aspects of the longevity diet.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["umami-rich", "earthy", "smoky", "savory", "slightly woody"],
-    "aroma": ["woodsy", "earthy", "meaty", "mushroomy"],
-    "texture": ["chewy", "meaty", "dense cap", "silky when cooked"],
+    "taste": [
+      "umami-rich",
+      "earthy",
+      "smoky",
+      "savory",
+      "slightly woody"
+    ],
+    "aroma": [
+      "woodsy",
+      "earthy",
+      "meaty",
+      "mushroomy"
+    ],
+    "texture": [
+      "chewy",
+      "meaty",
+      "dense cap",
+      "silky when cooked"
+    ],
     "culinary_category": "culinary mushroom"
   },
   "culinary_pairings": [
@@ -77,7 +100,7 @@
     },
     {
       "compound": "Beta-glucan (lentinan)",
-      "amount_per_100g": "~2–3 g",
+      "amount_per_100g": "~2\u20133 g",
       "bioavailability_notes": "Lentinan is a 1,3/1,6-beta-glucan with high immunostimulatory potency; partially resistant to digestion allowing interaction with intestinal immune cells (Peyer's patches)."
     },
     {
@@ -93,18 +116,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "garlic",
       "type": "synergy",
-      "description": "Shiitake beta-glucans and garlic allicin both enhance NK cell activity and macrophage function via distinct immune receptors — complementary immunostimulatory longevity effects."
+      "with": "garlic",
+      "note": "Shiitake beta-glucans and garlic allicin both enhance NK cell activity and macrophage function via distinct immune receptors \u2014 complementary immunostimulatory longevity effects."
     },
     {
-      "target_ingredient": "spinach",
       "type": "complement",
-      "description": "Shiitake's vitamin D promotes calcium absorption and immune regulation while spinach provides iron and folate; together they address multiple micronutrient gaps common in plant-forward longevity diets."
+      "with": "spinach",
+      "note": "Shiitake's vitamin D promotes calcium absorption and immune regulation while spinach provides iron and folate; together they address multiple micronutrient gaps common in plant-forward longevity diets."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

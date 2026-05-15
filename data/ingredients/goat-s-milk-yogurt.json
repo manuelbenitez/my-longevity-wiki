@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Recommended for those over 65 losing muscle mass, consumed in high-longevity areas",
       "mechanism": "Goat's milk proteins and probiotics support gut health; easier digestion than cow's milk",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Recommended for those over 65 losing muscle mass, consumed in high-longevity areas",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -76,23 +79,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "walnuts",
       "type": "complement",
-      "description": "Omega-3 fats in walnuts complement the anti-inflammatory capric acid in goat yogurt, supporting gut-brain axis health"
+      "with": "walnuts",
+      "note": "Omega-3 fats in walnuts complement the anti-inflammatory capric acid in goat yogurt, supporting gut-brain axis health"
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Polyphenols in olive oil enhance absorption of fat-soluble vitamins (A, D) in goat yogurt"
+      "with": "olive oil",
+      "note": "Polyphenols in olive oil enhance absorption of fat-soluble vitamins (A, D) in goat yogurt"
     },
     {
-      "target_ingredient": "blueberries",
       "type": "synergy",
-      "description": "Anthocyanins in blueberries and probiotics in yogurt together enhance gut microbiota diversity and reduce oxidative stress"
+      "with": "blueberries",
+      "note": "Anthocyanins in blueberries and probiotics in yogurt together enhance gut microbiota diversity and reduce oxidative stress"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

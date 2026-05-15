@@ -4,25 +4,31 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Provides phytochemicals with antioxidant and anti-inflammatory properties as part of Mediterranean diet pattern",
       "mechanism": "Allicin and organosulfur compounds modulate inflammatory pathways",
-      "study_ref": "book-assertion",
       "confidence": "low",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Provides phytochemicals with antioxidant and anti-inflammatory properties as part of Mediterranean diet pattern",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Regular garlic-powder intake has protective effect against hypertension and age-dependent arterial stiffening",
       "mechanism": "When crushed, alliin is exposed to alliinase producing allicin, which lowers blood pressure and cholesterol. Diallyl sulphide inhibits bowel cancer incidence by 74% in mice.",
-      "study_ref": "Refs 62, 63, 64, 65, 66 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Regular garlic-powder intake has protective effect against hypertension and age-dependent arterial stiffening",
+      "reference": "Refs 62, 63, 64, 65, 66 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Associated with reduced risk of gastric, colon, prostate and endometrial cancers",
       "mechanism": "Multiple bioactive organosulphur compounds including allicin and diallyl sulphide",
-      "study_ref": "Refs 65, 66 in book (case-controlled studies)",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Associated with reduced risk of gastric, colon, prostate and endometrial cancers",
+      "reference": "Refs 65, 66 in book (case-controlled studies)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -58,22 +64,77 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["pungent", "sharp when raw", "sweet and nutty when roasted", "savory", "umami"],
-    "aroma": ["pungent", "sulfurous", "acrid when raw", "rich and mellow when cooked"],
-    "texture": ["firm and crisp when raw", "soft and creamy when roasted", "sticky when minced"],
+    "taste": [
+      "pungent",
+      "sharp when raw",
+      "sweet and nutty when roasted",
+      "savory",
+      "umami"
+    ],
+    "aroma": [
+      "pungent",
+      "sulfurous",
+      "acrid when raw",
+      "rich and mellow when cooked"
+    ],
+    "texture": [
+      "firm and crisp when raw",
+      "soft and creamy when roasted",
+      "sticky when minced"
+    ],
     "culinary_category": "aromatic"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Foundation of aglio e olio and most Mediterranean sauces"},
-    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Classic soffritto base; synergistic anti-cancer compounds (S-allylcysteine + lycopene)"},
-    {"ingredient": "ginger", "tradition": "East Asian", "source": "Foundational aromatic duo in Chinese, Thai, and Indian cooking"},
-    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Acid brightens garlic's pungency in dressings and marinades"},
-    {"ingredient": "parsley", "tradition": "French / Mediterranean", "source": "Persillade (garlic + parsley) is a classic French finishing condiment"},
-    {"ingredient": "chili peppers", "tradition": "Global (Sichuan, Thai, Italian, Mexican)", "source": "Heat and pungency amplify each other across many cuisines"},
-    {"ingredient": "butter", "tradition": "French", "source": "Garlic butter (beurre a l'ail) for bread, shellfish, and vegetables"},
-    {"ingredient": "rosemary", "tradition": "Mediterranean", "source": "Classic herb pairing for roasted meats and vegetables"},
-    {"ingredient": "soy sauce", "tradition": "East Asian", "source": "Umami base for stir-fries, marinades, and dipping sauces"},
-    {"ingredient": "cumin", "tradition": "Middle Eastern / Indian", "source": "Foundational spice combination in curries, hummus, and legume dishes"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Foundation of aglio e olio and most Mediterranean sauces"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian / Mediterranean",
+      "source": "Classic soffritto base; synergistic anti-cancer compounds (S-allylcysteine + lycopene)"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian",
+      "source": "Foundational aromatic duo in Chinese, Thai, and Indian cooking"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Acid brightens garlic's pungency in dressings and marinades"
+    },
+    {
+      "ingredient": "parsley",
+      "tradition": "French / Mediterranean",
+      "source": "Persillade (garlic + parsley) is a classic French finishing condiment"
+    },
+    {
+      "ingredient": "chili peppers",
+      "tradition": "Global (Sichuan, Thai, Italian, Mexican)",
+      "source": "Heat and pungency amplify each other across many cuisines"
+    },
+    {
+      "ingredient": "butter",
+      "tradition": "French",
+      "source": "Garlic butter (beurre a l'ail) for bread, shellfish, and vegetables"
+    },
+    {
+      "ingredient": "rosemary",
+      "tradition": "Mediterranean",
+      "source": "Classic herb pairing for roasted meats and vegetables"
+    },
+    {
+      "ingredient": "soy sauce",
+      "tradition": "East Asian",
+      "source": "Umami base for stir-fries, marinades, and dipping sauces"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Middle Eastern / Indian",
+      "source": "Foundational spice combination in curries, hummus, and legume dishes"
+    }
   ],
   "seasonality": "Fresh garlic harvested mid-summer (July-August in Northern Hemisphere). Green/spring garlic available April-June. Cured garlic stores well and is available year-round. Black garlic is fermented and shelf-stable.",
   "nutrient_highlights": [
@@ -105,18 +166,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "Extra-Virgin Olive Oil",
       "type": "complement",
-      "description": "Traditional pairing in Mediterranean cooking"
+      "with": "Extra-Virgin Olive Oil",
+      "note": "Traditional pairing in Mediterranean cooking"
     },
     {
-      "target_ingredient": "tomatoes",
       "type": "synergy",
-      "description": "Garlic (S-allylcysteine) + tomatoes (lycopene) inhibit stomach cancer at lower doses than either alone"
+      "with": "tomatoes",
+      "note": "Garlic (S-allylcysteine) + tomatoes (lycopene) inhibit stomach cancer at lower doses than either alone"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8, 9]
+  "source_chapters": [
+    8,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

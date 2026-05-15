@@ -2,13 +2,17 @@
   "name": "Fennel",
   "slug": "fennel",
   "category": "vegetable",
-  "aliases": ["fennel bulb"],
+  "aliases": [
+    "fennel bulb"
+  ],
   "book_claims": [
     {
-      "claim": "Vegetable used in the Longevity Diet fennel salad and as a side dish ingredient.",
       "mechanism": "Provides dietary fiber, vitamin C, and potassium as part of a plant-forward longevity eating pattern.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Vegetable used in the Longevity Diet fennel salad and as a side dish ingredient.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -32,31 +36,93 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mildly sweet", "anise-like", "subtly licorice"],
-    "aroma": ["fresh", "anise", "herbaceous"],
-    "texture": ["crisp raw", "tender when cooked"],
+    "taste": [
+      "mildly sweet",
+      "anise-like",
+      "subtly licorice"
+    ],
+    "aroma": [
+      "fresh",
+      "anise",
+      "herbaceous"
+    ],
+    "texture": [
+      "crisp raw",
+      "tender when cooked"
+    ],
     "culinary_category": "aromatic vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "olive oil", "tradition": "Italian Mediterranean", "source": "The Longevity Diet"},
-    {"ingredient": "lemon", "tradition": "Italian Mediterranean", "source": "The Longevity Diet"},
-    {"ingredient": "olives", "tradition": "Italian Mediterranean", "source": "The Longevity Diet"},
-    {"ingredient": "fish", "tradition": "Italian Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "orange", "tradition": "Sicilian", "source": "culinary tradition"}
+    {
+      "ingredient": "olive oil",
+      "tradition": "Italian Mediterranean",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Italian Mediterranean",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "olives",
+      "tradition": "Italian Mediterranean",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "fish",
+      "tradition": "Italian Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "orange",
+      "tradition": "Sicilian",
+      "source": "culinary tradition"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Vitamin C", "amount_per_100g": "12 mg", "bioavailability_notes": "Water-soluble; best consumed raw or lightly cooked"},
-    {"compound": "Potassium", "amount_per_100g": "414 mg", "bioavailability_notes": "Well absorbed from plant sources"},
-    {"compound": "Dietary fiber", "amount_per_100g": "3.1 g", "bioavailability_notes": "Mix of soluble and insoluble fiber; supports gut microbiome"},
-    {"compound": "Anethole (phytochemical)", "amount_per_100g": "trace in bulb", "bioavailability_notes": "Higher in fennel seeds; anti-inflammatory and antioxidant"}
+    {
+      "compound": "Vitamin C",
+      "amount_per_100g": "12 mg",
+      "bioavailability_notes": "Water-soluble; best consumed raw or lightly cooked"
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "414 mg",
+      "bioavailability_notes": "Well absorbed from plant sources"
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "3.1 g",
+      "bioavailability_notes": "Mix of soluble and insoluble fiber; supports gut microbiome"
+    },
+    {
+      "compound": "Anethole (phytochemical)",
+      "amount_per_100g": "trace in bulb",
+      "bioavailability_notes": "Higher in fennel seeds; anti-inflammatory and antioxidant"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "olive oil", "type": "complement", "description": "Fat-soluble antioxidants in fennel are better absorbed when combined with olive oil"},
-    {"target_ingredient": "lemon", "type": "complement", "description": "Classic pairing in Mediterranean salads; vitamin C from lemon enhances iron absorption from fennel"},
-    {"target_ingredient": "fish", "type": "complement", "description": "Traditional Italian pairing; fennel's anise notes complement oily fish and provide complementary phytonutrients"}
+    {
+      "type": "complement",
+      "with": "olive oil",
+      "note": "Fat-soluble antioxidants in fennel are better absorbed when combined with olive oil"
+    },
+    {
+      "type": "complement",
+      "with": "lemon",
+      "note": "Classic pairing in Mediterranean salads; vitamin C from lemon enhances iron absorption from fennel"
+    },
+    {
+      "type": "complement",
+      "with": "fish",
+      "note": "Traditional Italian pairing; fennel's anise notes complement oily fish and provide complementary phytonutrients"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

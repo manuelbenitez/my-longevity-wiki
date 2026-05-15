@@ -4,10 +4,12 @@
   "category": "seed",
   "book_claims": [
     {
-      "claim": "Sesamin (a lignan in sesame) associated with reduced serum cholesterol in rodents and humans",
       "mechanism": "Sesamin modulates hepatic cholesterol metabolism",
-      "study_ref": "Ref 187 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Sesamin (a lignan in sesame) associated with reduced serum cholesterol in rodents and humans",
+      "reference": "Ref 187 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,50 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "sweet", "toasty (when roasted)", "rich"],
-    "aroma": ["warm", "toasty", "smoky (black sesame)"],
-    "texture": ["tiny and crunchy", "creamy when ground (tahini)", "oily"],
+    "taste": [
+      "nutty",
+      "sweet",
+      "toasty (when roasted)",
+      "rich"
+    ],
+    "aroma": [
+      "warm",
+      "toasty",
+      "smoky (black sesame)"
+    ],
+    "texture": [
+      "tiny and crunchy",
+      "creamy when ground (tahini)",
+      "oily"
+    ],
     "culinary_category": "seed"
   },
   "culinary_pairings": [
-    {"ingredient": "chickpeas", "tradition": "Middle Eastern", "source": "Hummus: tahini + chickpeas for complete protein and complementary minerals"},
-    {"ingredient": "honey", "tradition": "Middle Eastern / Mediterranean", "source": "Halvah; traditional sesame-honey confection"},
-    {"ingredient": "ginger", "tradition": "East Asian", "source": "Classic sesame-ginger dressing and stir-fry combination"},
-    {"ingredient": "dark green leafy vegetables", "tradition": "East Asian / Middle Eastern", "source": "Sesame on spinach (goma-ae); calcium-rich pairing"},
-    {"ingredient": "whole grains", "tradition": "Middle Eastern / East Asian", "source": "Sesame on bread (simit), rice, or noodles"}
+    {
+      "ingredient": "chickpeas",
+      "tradition": "Middle Eastern",
+      "source": "Hummus: tahini + chickpeas for complete protein and complementary minerals"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Middle Eastern / Mediterranean",
+      "source": "Halvah; traditional sesame-honey confection"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian",
+      "source": "Classic sesame-ginger dressing and stir-fry combination"
+    },
+    {
+      "ingredient": "dark green leafy vegetables",
+      "tradition": "East Asian / Middle Eastern",
+      "source": "Sesame on spinach (goma-ae); calcium-rich pairing"
+    },
+    {
+      "ingredient": "whole grains",
+      "tradition": "Middle Eastern / East Asian",
+      "source": "Sesame on bread (simit), rice, or noodles"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -64,5 +99,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

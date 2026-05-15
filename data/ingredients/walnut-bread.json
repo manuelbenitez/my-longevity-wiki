@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Specialty breads used as breakfast items in the Longevity Diet.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Specialty breads used as breakfast items in the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -79,23 +82,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "blueberry jam",
       "type": "synergy",
-      "description": "Ellagitannins from walnuts and anthocyanins from blueberries synergistically inhibit NF-kB and reduce cardiovascular risk markers"
+      "with": "blueberry jam",
+      "note": "Ellagitannins from walnuts and anthocyanins from blueberries synergistically inhibit NF-kB and reduce cardiovascular risk markers"
     },
     {
-      "target_ingredient": "goat's milk yogurt",
       "type": "synergy",
-      "description": "Probiotic bacteria in yogurt enhance urolithin production from walnut ellagitannins, amplifying mitochondrial health benefits"
+      "with": "goat's milk yogurt",
+      "note": "Probiotic bacteria in yogurt enhance urolithin production from walnut ellagitannins, amplifying mitochondrial health benefits"
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Oleic acid improves absorption of walnut's fat-soluble vitamin E and tocopherols"
+      "with": "olive oil",
+      "note": "Oleic acid improves absorption of walnut's fat-soluble vitamin E and tocopherols"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

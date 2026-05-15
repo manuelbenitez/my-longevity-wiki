@@ -2,39 +2,60 @@
   "name": "Oysters",
   "slug": "oysters",
   "category": "shellfish",
-  "aliases": ["eastern oysters", "Pacific oysters", "Crassostrea virginica", "Magallana gigas"],
+  "aliases": [
+    "eastern oysters",
+    "Pacific oysters",
+    "Crassostrea virginica",
+    "Magallana gigas"
+  ],
   "book_claims": [
     {
-      "claim": "Oysters are top shellfish sources of vitamin B12 (18.2 mcg per 75 g cooked, 303% DV) and iron (8 mg per 3 oz eastern oysters cooked with moist heat, 44% DV). Pacific oysters also deliver 1.04 g omega-3 EPA/DHA per 75 g cooked.",
       "mechanism": "Vitamin B12 is essential for neurological integrity, DNA methylation, and red blood cell formation; heme iron supports hemoglobin and mitochondrial electron transport; omega-3 fatty acids reduce systemic inflammation and cardiovascular risk.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Oysters are top shellfish sources of vitamin B12 (18.2 mcg per 75 g cooked, 303% DV) and iron (8 mg per 3 oz eastern oysters cooked with moist heat, 44% DV). Pacific oysters also deliver 1.04 g omega-3 EPA/DHA per 75 g cooked.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Watanabe et al., European Journal of Clinical Nutrition (2014) — PMID 24646707",
+      "source": "Watanabe et al., European Journal of Clinical Nutrition (2014) \u2014 PMID 24646707",
       "url": "https://pubmed.ncbi.nlm.nih.gov/24646707/",
       "finding": "Oysters have the highest vitamin B12 concentration of any commonly consumed whole food; their B12 is highly bioavailable via intrinsic-factor-dependent absorption, making them the most efficient dietary strategy for preventing B12 deficiency, particularly in older adults with reduced gastric acid.",
       "agrees_with_book": true
     },
     {
-      "source": "Prasad, Nutrition (1995) — PMID 7749260",
+      "source": "Prasad, Nutrition (1995) \u2014 PMID 7749260",
       "url": "https://pubmed.ncbi.nlm.nih.gov/7749260/",
-      "finding": "Oysters are the richest dietary source of zinc (up to 32–74 mg per 3 oz cooked); zinc is required for over 300 enzymatic reactions, DNA repair, immune function, and maintenance of taste and smell — all critical to healthy aging and longevity.",
+      "finding": "Oysters are the richest dietary source of zinc (up to 32\u201374 mg per 3 oz cooked); zinc is required for over 300 enzymatic reactions, DNA repair, immune function, and maintenance of taste and smell \u2014 all critical to healthy aging and longevity.",
       "agrees_with_book": true
     },
     {
-      "source": "De Backer & Meysman, Frontiers in Marine Science (2018) — PMID unavailable; DOI 10.3389/fmars.2018.00082",
+      "source": "De Backer & Meysman, Frontiers in Marine Science (2018) \u2014 PMID unavailable; DOI 10.3389/fmars.2018.00082",
       "url": "https://pubmed.ncbi.nlm.nih.gov/",
-      "finding": "Oyster aquaculture has a net carbon sequestration benefit through shell calcification and water filtration, making oysters one of the most environmentally sustainable animal protein sources — aligned with the sustainability goals of a longevity diet.",
+      "finding": "Oyster aquaculture has a net carbon sequestration benefit through shell calcification and water filtration, making oysters one of the most environmentally sustainable animal protein sources \u2014 aligned with the sustainability goals of a longevity diet.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["briny", "mineral", "creamy", "faintly sweet"],
-    "aroma": ["oceanic", "fresh seawater", "mineral"],
-    "texture": ["slippery", "plump", "tender", "gelatinous when raw"],
+    "taste": [
+      "briny",
+      "mineral",
+      "creamy",
+      "faintly sweet"
+    ],
+    "aroma": [
+      "oceanic",
+      "fresh seawater",
+      "mineral"
+    ],
+    "texture": [
+      "slippery",
+      "plump",
+      "tender",
+      "gelatinous when raw"
+    ],
     "culinary_category": "shellfish / bivalve"
   },
   "culinary_pairings": [
@@ -67,44 +88,47 @@
   "nutrient_highlights": [
     {
       "compound": "Vitamin B12",
-      "amount_per_100g": "~16–24 mcg (cooked)",
+      "amount_per_100g": "~16\u201324 mcg (cooked)",
       "bioavailability_notes": "Highest bioavailable B12 concentration of any common food; a single serving meets weekly requirements for many adults."
     },
     {
       "compound": "Zinc",
-      "amount_per_100g": "~16–39 mg (cooked)",
-      "bioavailability_notes": "Richest dietary zinc source; heme-associated zinc has high bioavailability (~30–40%); essential for immune function, DNA repair, and testosterone synthesis."
+      "amount_per_100g": "~16\u201339 mg (cooked)",
+      "bioavailability_notes": "Richest dietary zinc source; heme-associated zinc has high bioavailability (~30\u201340%); essential for immune function, DNA repair, and testosterone synthesis."
     },
     {
       "compound": "EPA + DHA (omega-3)",
-      "amount_per_100g": "~0.7–1.4 g (Pacific oysters, cooked)",
+      "amount_per_100g": "~0.7\u20131.4 g (Pacific oysters, cooked)",
       "bioavailability_notes": "Marine long-chain omega-3; directly incorporated into neuronal and cardiovascular cell membranes without conversion."
     },
     {
       "compound": "Iron (heme)",
       "amount_per_100g": "~6.7 mg (eastern, cooked)",
-      "bioavailability_notes": "Heme iron absorption 15–35%; one of the most concentrated shellfish iron sources; important for women of reproductive age and older adults with borderline iron status."
+      "bioavailability_notes": "Heme iron absorption 15\u201335%; one of the most concentrated shellfish iron sources; important for women of reproductive age and older adults with borderline iron status."
     }
   ],
   "synergies": [
     {
-      "target_ingredient": "lemon",
       "type": "complement",
-      "description": "Lemon vitamin C further enhances oyster iron absorption and brightens their mineral flavour; a classic pairing with functional benefits."
+      "with": "lemon",
+      "note": "Lemon vitamin C further enhances oyster iron absorption and brightens their mineral flavour; a classic pairing with functional benefits."
     },
     {
-      "target_ingredient": "mussels",
       "type": "complement",
-      "description": "Together, oysters and mussels provide the highest B12, iron, omega-3, and zinc density of any shellfish combination, making mixed shellfish dishes nutritionally optimal."
+      "with": "mussels",
+      "note": "Together, oysters and mussels provide the highest B12, iron, omega-3, and zinc density of any shellfish combination, making mixed shellfish dishes nutritionally optimal."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Fat from olive oil supports absorption of fat-soluble vitamins (A, E) present in oysters and amplifies cardiovascular benefits of omega-3 through combined anti-inflammatory action."
+      "with": "extra-virgin-olive-oil",
+      "note": "Fat from olive oil supports absorption of fat-soluble vitamins (A, E) present in oysters and amplifies cardiovascular benefits of omega-3 through combined anti-inflammatory action."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

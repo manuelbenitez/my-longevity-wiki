@@ -4,11 +4,13 @@
   "category": "spice",
   "book_claims": [
     {
-      "claim": "Contains piperine which doubles blood curcumin levels when combined with turmeric",
       "mechanism": "Piperine inhibits metabolic clearance of curcumin, improving bioavailability",
-      "study_ref": "Ref 88 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contains piperine which doubles blood curcumin levels when combined with turmeric",
+      "reference": "Ref 88 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -32,18 +34,56 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sharp", "pungent", "warm", "slightly woody", "mildly floral"],
-    "aroma": ["piney", "citrusy", "warm", "penetrating"],
-    "texture": ["coarsely ground provides crunch", "finely ground is powdery"],
+    "taste": [
+      "sharp",
+      "pungent",
+      "warm",
+      "slightly woody",
+      "mildly floral"
+    ],
+    "aroma": [
+      "piney",
+      "citrusy",
+      "warm",
+      "penetrating"
+    ],
+    "texture": [
+      "coarsely ground provides crunch",
+      "finely ground is powdery"
+    ],
     "culinary_category": "spice"
   },
   "culinary_pairings": [
-    {"ingredient": "turmeric", "tradition": "Indian / Global", "source": "Piperine doubles curcumin bioavailability; foundational in curry blends"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Cacio e pepe; fat carrier for piperine and enhanced compound absorption"},
-    {"ingredient": "lemon", "tradition": "Global", "source": "Acid and heat create flavour contrast in dressings and marinades"},
-    {"ingredient": "garlic", "tradition": "Global", "source": "Universal aromatic pairing across virtually all savoury cuisines"},
-    {"ingredient": "ginger", "tradition": "Indian / East Asian", "source": "Both warming spices; combined in chai, curries, and stir-fries"},
-    {"ingredient": "green-tea", "tradition": "Functional pairing", "source": "Piperine enhances EGCG bioavailability from green tea"}
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian / Global",
+      "source": "Piperine doubles curcumin bioavailability; foundational in curry blends"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Cacio e pepe; fat carrier for piperine and enhanced compound absorption"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Global",
+      "source": "Acid and heat create flavour contrast in dressings and marinades"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Global",
+      "source": "Universal aromatic pairing across virtually all savoury cuisines"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "Indian / East Asian",
+      "source": "Both warming spices; combined in chai, curries, and stir-fries"
+    },
+    {
+      "ingredient": "green-tea",
+      "tradition": "Functional pairing",
+      "source": "Piperine enhances EGCG bioavailability from green tea"
+    }
   ],
   "seasonality": "Available year-round as dried peppercorns. Freshly ground black pepper retains volatile oils and piperine far better than pre-ground. Whole peppercorns have a shelf life of 3-4 years; ground pepper degrades within months.",
   "nutrient_highlights": [
@@ -65,18 +105,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "turmeric",
       "type": "synergy",
-      "description": "Piperine doubles blood curcumin levels by inhibiting glucuronidation"
+      "with": "turmeric",
+      "note": "Piperine doubles blood curcumin levels by inhibiting glucuronidation"
     },
     {
-      "target_ingredient": "green-tea",
       "type": "synergy",
-      "description": "Piperine enhances bioavailability of EGCG from green tea"
+      "with": "green-tea",
+      "note": "Piperine enhances bioavailability of EGCG from green tea"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

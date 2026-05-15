@@ -2,39 +2,55 @@
   "name": "Cauliflower",
   "slug": "cauliflower",
   "category": "vegetable",
-  "aliases": ["Brassica oleracea var. botrytis", "white cauliflower"],
+  "aliases": [
+    "Brassica oleracea var. botrytis",
+    "white cauliflower"
+  ],
   "book_claims": [
     {
-      "claim": "Cauliflower is listed as a source of vitamin C (26 mg per 1/2 cup raw, ~43% DV).",
       "mechanism": "Vitamin C is the primary water-soluble antioxidant in plasma; required for collagen biosynthesis, immune cell function, and regeneration of vitamin E; protects against oxidative stress associated with aging.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Cauliflower is listed as a source of vitamin C (26 mg per 1/2 cup raw, ~43% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Lam et al., JNCI (2010) — PMID 20651274",
+      "source": "Lam et al., JNCI (2010) \u2014 PMID 20651274",
       "url": "https://pubmed.ncbi.nlm.nih.gov/20651274/",
       "finding": "Frequent consumption of cruciferous vegetables including cauliflower was associated with a statistically significant reduction in lung cancer risk (OR 0.72), attributed to isothiocyanate-mediated induction of phase II detoxification enzymes and inhibition of carcinogen activation.",
       "agrees_with_book": true
     },
     {
-      "source": "Manchali et al., Food Chemistry (2012) — PMID 22397945",
+      "source": "Manchali et al., Food Chemistry (2012) \u2014 PMID 22397945",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22397945/",
       "finding": "Cauliflower contains glucosinolates (principally glucobrassicin and glucoraphanin) that generate isothiocyanates and indole-3-carbinol upon hydrolysis; these compounds inhibit phase I activating enzymes and induce phase II detoxifying enzymes, supporting chemoprevention and cellular longevity.",
       "agrees_with_book": true
     },
     {
-      "source": "Kaulmann & Bohn, Nutrition Research Reviews (2014) — PMID 24965336",
+      "source": "Kaulmann & Bohn, Nutrition Research Reviews (2014) \u2014 PMID 24965336",
       "url": "https://pubmed.ncbi.nlm.nih.gov/24965336/",
-      "finding": "Carotenoids and vitamin C from cruciferous vegetables including cauliflower work synergistically to reduce oxidative damage to DNA and lipids, with epidemiological evidence linking regular consumption to reduced incidence of cardiovascular disease and cancers — core longevity endpoints.",
+      "finding": "Carotenoids and vitamin C from cruciferous vegetables including cauliflower work synergistically to reduce oxidative damage to DNA and lipids, with epidemiological evidence linking regular consumption to reduced incidence of cardiovascular disease and cancers \u2014 core longevity endpoints.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "slightly nutty when roasted", "subtly sweet"],
-    "aroma": ["mild sulfurous (raw)", "nutty and caramelized (roasted)"],
-    "texture": ["firm and crunchy (raw)", "tender (steamed)", "crispy (roasted)"],
+    "taste": [
+      "mild",
+      "slightly nutty when roasted",
+      "subtly sweet"
+    ],
+    "aroma": [
+      "mild sulfurous (raw)",
+      "nutty and caramelized (roasted)"
+    ],
+    "texture": [
+      "firm and crunchy (raw)",
+      "tender (steamed)",
+      "crispy (roasted)"
+    ],
     "culinary_category": "cruciferous vegetable"
   },
   "culinary_pairings": [
@@ -88,23 +104,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "turmeric",
       "type": "synergy",
-      "description": "Curcumin from turmeric and isothiocyanates from cauliflower synergistically inhibit NF-kB signaling, providing additive anti-inflammatory effects."
+      "with": "turmeric",
+      "note": "Curcumin from turmeric and isothiocyanates from cauliflower synergistically inhibit NF-kB signaling, providing additive anti-inflammatory effects."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Olive oil increases fat-soluble carotenoid absorption from cauliflower and contributes polyphenols that act synergistically with glucosinolate metabolites."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil increases fat-soluble carotenoid absorption from cauliflower and contributes polyphenols that act synergistically with glucosinolate metabolites."
     },
     {
-      "target_ingredient": "garlic",
       "type": "synergy",
-      "description": "Garlic's allicin and cauliflower's isothiocyanates both activate Nrf2 through independent pathways, providing additive induction of antioxidant defense genes."
+      "with": "garlic",
+      "note": "Garlic's allicin and cauliflower's isothiocyanates both activate Nrf2 through independent pathways, providing additive induction of antioxidant defense genes."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,11 +4,13 @@
   "category": "beverage",
   "book_claims": [
     {
-      "claim": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
       "mechanism": "Polyphenols (resveratrol, anthocyanins) provide antioxidant effects; consumed only with meals to moderate absorption",
-      "study_ref": "Seven Countries Study context, book-assertion",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Moderate consumption with meals is part of the traditional Mediterranean dietary pattern associated with lower cardiovascular mortality",
+      "reference": "Seven Countries Study context, book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -32,18 +34,58 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["tannic", "fruity", "dry to sweet", "acidic", "complex"],
-    "aroma": ["berry", "earthy", "oak", "spicy", "floral"],
-    "texture": ["light to full-bodied", "astringent tannins", "silky"],
+    "taste": [
+      "tannic",
+      "fruity",
+      "dry to sweet",
+      "acidic",
+      "complex"
+    ],
+    "aroma": [
+      "berry",
+      "earthy",
+      "oak",
+      "spicy",
+      "floral"
+    ],
+    "texture": [
+      "light to full-bodied",
+      "astringent tannins",
+      "silky"
+    ],
     "culinary_category": "beverage"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin-olive-oil", "tradition": "Mediterranean", "source": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"},
-    {"ingredient": "legumes", "tradition": "Mediterranean", "source": "Traditional accompaniment to bean-based Mediterranean meals"},
-    {"ingredient": "dark-chocolate", "tradition": "European", "source": "Shared polyphenol profiles; classic flavour affinity"},
-    {"ingredient": "walnuts", "tradition": "Mediterranean", "source": "Classic cheese-and-wine board; complementary polyphenols"},
-    {"ingredient": "garlic", "tradition": "French / Mediterranean", "source": "Red wine reduction sauces and braised dishes"},
-    {"ingredient": "rosemary", "tradition": "Mediterranean", "source": "Herb-forward red wine marinades and braised meats"}
+    {
+      "ingredient": "extra-virgin-olive-oil",
+      "tradition": "Mediterranean",
+      "source": "Together accounted for ~25% of calories in traditional Neapolitan diet surveyed by Keys"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Mediterranean",
+      "source": "Traditional accompaniment to bean-based Mediterranean meals"
+    },
+    {
+      "ingredient": "dark-chocolate",
+      "tradition": "European",
+      "source": "Shared polyphenol profiles; classic flavour affinity"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean",
+      "source": "Classic cheese-and-wine board; complementary polyphenols"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "French / Mediterranean",
+      "source": "Red wine reduction sauces and braised dishes"
+    },
+    {
+      "ingredient": "rosemary",
+      "tradition": "Mediterranean",
+      "source": "Herb-forward red wine marinades and braised meats"
+    }
   ],
   "seasonality": "Available year-round. Quality varies by vintage and region. Wines aged in oak may have higher ellagitannin content. No specific seasonal consumption pattern, but traditionally consumed with meals in Mediterranean cultures.",
   "nutrient_highlights": [
@@ -70,9 +112,9 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Together accounted for ~25% of calories in traditional Neapolitan diet; combined polyphenol synergy"
+      "with": "extra-virgin-olive-oil",
+      "note": "Together accounted for ~25% of calories in traditional Neapolitan diet; combined polyphenol synergy"
     }
   ],
   "warnings": [
@@ -83,5 +125,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8]
+  "source_chapters": [
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -2,37 +2,53 @@
   "name": "Fava Beans",
   "slug": "fava-beans",
   "category": "legume",
-  "aliases": ["broad beans", "fave", "Vicia faba", "horse beans", "field beans"],
+  "aliases": [
+    "broad beans",
+    "fave",
+    "Vicia faba",
+    "horse beans",
+    "field beans"
+  ],
   "book_claims": [
     {
-      "claim": "Regular legume consumption (3+ servings/week) associated with longest lifespan among Loma Linda Adventists",
       "mechanism": "High fiber, plant protein, and complex carbohydrates; low glycemic load; does not activate pro-aging pathways like animal protein",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Regular legume consumption (3+ servings/week) associated with longest lifespan among Loma Linda Adventists",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Legumes are a core food in all centenarian blue-zone diets (Okinawa, Sardinia, Calabria, Loma Linda, Costa Rica, Greece)",
       "mechanism": "Plant protein without IGF-1-elevating effect of animal protein; high fiber for gut health",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Legumes are a core food in all centenarian blue-zone diets (Okinawa, Sardinia, Calabria, Loma Linda, Costa Rica, Greece)",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Beans eaten almost every day by Molochio centenarians, especially in traditional dishes with vegetables",
       "mechanism": "High plant protein, fiber, and complex carbohydrates without animal-protein IGF-1 effects",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Beans eaten almost every day by Molochio centenarians, especially in traditional dishes with vegetables",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Legumes are a core component of the Longevity Diet and associated with healthy aging, protection from cardiovascular disease, and cancer prevention",
       "mechanism": "High in plant-based protein, complex carbohydrates, fiber, vitamins, and minerals; low in saturated fat; cause a lower insulin release than processed carbohydrates",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Legumes are a core component of the Longevity Diet and associated with healthy aging, protection from cardiovascular disease, and cancer prevention",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Intake of beans reduces the risk of heart disease in women",
       "mechanism": "Plant protein and soluble fiber lower LDL cholesterol and reduce cardiovascular risk",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Intake of beans reduces the risk of heart disease in women",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -56,31 +72,96 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "slightly bitter", "nutty", "rich", "savory"],
-    "aroma": ["vegetal", "grassy", "legume-sweet when fresh"],
-    "texture": ["creamy when cooked", "meaty", "dense"],
+    "taste": [
+      "earthy",
+      "slightly bitter",
+      "nutty",
+      "rich",
+      "savory"
+    ],
+    "aroma": [
+      "vegetal",
+      "grassy",
+      "legume-sweet when fresh"
+    ],
+    "texture": [
+      "creamy when cooked",
+      "meaty",
+      "dense"
+    ],
     "culinary_category": "legume"
   },
   "culinary_pairings": [
-    {"ingredient": "olive oil", "tradition": "Italian / Sicilian", "source": "culinary tradition"},
-    {"ingredient": "pecorino or feta cheese", "tradition": "Sardinian", "source": "culinary tradition"},
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "lemon", "tradition": "Middle Eastern", "source": "culinary tradition"},
-    {"ingredient": "mint", "tradition": "Italian / British", "source": "culinary tradition"}
+    {
+      "ingredient": "olive oil",
+      "tradition": "Italian / Sicilian",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "pecorino or feta cheese",
+      "tradition": "Sardinian",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Middle Eastern",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "mint",
+      "tradition": "Italian / British",
+      "source": "culinary tradition"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Protein", "amount_per_100g": "7.6 g (cooked)", "bioavailability_notes": "Plant protein with good digestibility; lower leucine content than animal protein reduces IGF-1 activation"},
-    {"compound": "Folate", "amount_per_100g": "106 mcg (cooked)", "bioavailability_notes": "Water-soluble; essential for DNA methylation and cell division; highly bioavailable from legumes"},
-    {"compound": "Manganese", "amount_per_100g": "0.46 mg (cooked)", "bioavailability_notes": "Cofactor for superoxide dismutase (MnSOD), the primary mitochondrial antioxidant enzyme"},
-    {"compound": "Dietary fiber", "amount_per_100g": "5.4 g (cooked)", "bioavailability_notes": "Combination of soluble and insoluble fiber; supports SCFA production and gut microbiome diversity"}
+    {
+      "compound": "Protein",
+      "amount_per_100g": "7.6 g (cooked)",
+      "bioavailability_notes": "Plant protein with good digestibility; lower leucine content than animal protein reduces IGF-1 activation"
+    },
+    {
+      "compound": "Folate",
+      "amount_per_100g": "106 mcg (cooked)",
+      "bioavailability_notes": "Water-soluble; essential for DNA methylation and cell division; highly bioavailable from legumes"
+    },
+    {
+      "compound": "Manganese",
+      "amount_per_100g": "0.46 mg (cooked)",
+      "bioavailability_notes": "Cofactor for superoxide dismutase (MnSOD), the primary mitochondrial antioxidant enzyme"
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "5.4 g (cooked)",
+      "bioavailability_notes": "Combination of soluble and insoluble fiber; supports SCFA production and gut microbiome diversity"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "olive oil", "type": "synergy", "description": "Olive oil's oleic acid promotes satiety and reduces the glycemic response; traditional Italian fave e cicoria (fava beans with chicory) exemplifies this pairing"},
-    {"target_ingredient": "lemon juice", "type": "synergy", "description": "Vitamin C from lemon enhances non-heme iron absorption from fava beans; also brightens flavor"},
-    {"target_ingredient": "farro", "type": "complement", "description": "Fava beans and farro together create a nutritionally complete protein profile, echoing the traditional Calabrian pasta e fagioli longevity diet"}
+    {
+      "type": "synergy",
+      "with": "olive oil",
+      "note": "Olive oil's oleic acid promotes satiety and reduces the glycemic response; traditional Italian fave e cicoria (fava beans with chicory) exemplifies this pairing"
+    },
+    {
+      "type": "synergy",
+      "with": "lemon juice",
+      "note": "Vitamin C from lemon enhances non-heme iron absorption from fava beans; also brightens flavor"
+    },
+    {
+      "type": "complement",
+      "with": "farro",
+      "note": "Fava beans and farro together create a nutritionally complete protein profile, echoing the traditional Calabrian pasta e fagioli longevity diet"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,18 +4,22 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Rich in lycopene and vitamin C providing antioxidant protection",
       "mechanism": "Lycopene is a potent carotenoid antioxidant; vitamin C neutralises free radicals",
-      "study_ref": "book-assertion",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Rich in lycopene and vitamin C providing antioxidant protection",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contain lycopene important in prevention of prostate, digestive tract and cervical cancers",
       "mechanism": "Lycopene reduces IGF-I bioavailability, which may mediate anti-cancer effect. RCT showed reduction in prostate cancer growth with lycopene supplementation before surgery.",
-      "study_ref": "Refs 56, 57, 58 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contain lycopene important in prevention of prostate, digestive tract and cervical cancers",
+      "reference": "Refs 56, 57, 58 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,19 +49,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["acidic", "sweet", "savory", "umami-rich when cooked", "bright when fresh"],
-    "aroma": ["green and vine-like (fresh)", "rich and concentrated (cooked)", "sweet-sour"],
-    "texture": ["juicy and soft (ripe)", "thick and velvety (sauce)", "chewy (sun-dried)"],
+    "taste": [
+      "acidic",
+      "sweet",
+      "savory",
+      "umami-rich when cooked",
+      "bright when fresh"
+    ],
+    "aroma": [
+      "green and vine-like (fresh)",
+      "rich and concentrated (cooked)",
+      "sweet-sour"
+    ],
+    "texture": [
+      "juicy and soft (ripe)",
+      "thick and velvety (sauce)",
+      "chewy (sun-dried)"
+    ],
     "culinary_category": "fruit-vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances lycopene absorption 2-3x; foundational combination in Italian cuisine"},
-    {"ingredient": "garlic", "tradition": "Italian / Mediterranean", "source": "Synergistic anti-cancer effect: S-allylcysteine + lycopene inhibit stomach cancer at lower doses than either alone"},
-    {"ingredient": "basil", "tradition": "Italian", "source": "Insalata caprese; basil's eugenol complements tomato's acidity and adds anti-inflammatory properties"},
-    {"ingredient": "onion", "tradition": "Global", "source": "Base of virtually every tomato sauce worldwide; complementary flavonoids"},
-    {"ingredient": "oregano", "tradition": "Italian / Greek", "source": "One of the highest-antioxidant herbs; traditional pairing in pizza sauce and Greek salads"},
-    {"ingredient": "mozzarella", "tradition": "Italian", "source": "Fat from cheese enhances lycopene bioavailability; caprese is a classic combination"},
-    {"ingredient": "chili peppers", "tradition": "Mexican / Italian", "source": "Capsaicin and lycopene are both fat-soluble and complementary antioxidants; salsa fresca, arrabbiata"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat enhances lycopene absorption 2-3x; foundational combination in Italian cuisine"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Italian / Mediterranean",
+      "source": "Synergistic anti-cancer effect: S-allylcysteine + lycopene inhibit stomach cancer at lower doses than either alone"
+    },
+    {
+      "ingredient": "basil",
+      "tradition": "Italian",
+      "source": "Insalata caprese; basil's eugenol complements tomato's acidity and adds anti-inflammatory properties"
+    },
+    {
+      "ingredient": "onion",
+      "tradition": "Global",
+      "source": "Base of virtually every tomato sauce worldwide; complementary flavonoids"
+    },
+    {
+      "ingredient": "oregano",
+      "tradition": "Italian / Greek",
+      "source": "One of the highest-antioxidant herbs; traditional pairing in pizza sauce and Greek salads"
+    },
+    {
+      "ingredient": "mozzarella",
+      "tradition": "Italian",
+      "source": "Fat from cheese enhances lycopene bioavailability; caprese is a classic combination"
+    },
+    {
+      "ingredient": "chili peppers",
+      "tradition": "Mexican / Italian",
+      "source": "Capsaicin and lycopene are both fat-soluble and complementary antioxidants; salsa fresca, arrabbiata"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -83,18 +129,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "Extra-Virgin Olive Oil",
       "type": "synergy",
-      "description": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
+      "with": "Extra-Virgin Olive Oil",
+      "note": "Fat from EVOO enhances absorption of fat-soluble lycopene from tomatoes"
     },
     {
-      "target_ingredient": "Garlic",
       "type": "complement",
-      "description": "Traditional pairing providing complementary phytochemical profiles"
+      "with": "Garlic",
+      "note": "Traditional pairing providing complementary phytochemical profiles"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8, 9]
+  "source_chapters": [
+    8,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

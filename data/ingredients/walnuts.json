@@ -4,10 +4,12 @@
   "category": "nut",
   "book_claims": [
     {
-      "claim": "Excellent source of omega-3 alpha-linolenic acid with cardioprotective properties",
       "mechanism": "100g provides 9g alpha-linolenic acid, converted to DHA and EPA. These omega-3 reduce inflammation, platelet aggregation, triglycerides. Rich in vitamin E and polyphenols preventing LDL oxidation.",
-      "study_ref": "Refs 177, 178, 179, 180 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Excellent source of omega-3 alpha-linolenic acid with cardioprotective properties",
+      "reference": "Refs 177, 178, 179, 180 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -43,22 +45,78 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["bitter (skin)", "mildly sweet", "earthy", "tannic", "creamy"],
-    "aroma": ["woody", "slightly musty", "warm", "buttery when toasted"],
-    "texture": ["crunchy", "meaty", "crumbly", "oily"],
+    "taste": [
+      "bitter (skin)",
+      "mildly sweet",
+      "earthy",
+      "tannic",
+      "creamy"
+    ],
+    "aroma": [
+      "woody",
+      "slightly musty",
+      "warm",
+      "buttery when toasted"
+    ],
+    "texture": [
+      "crunchy",
+      "meaty",
+      "crumbly",
+      "oily"
+    ],
     "culinary_category": "tree nut"
   },
   "culinary_pairings": [
-    {"ingredient": "blue cheese / gorgonzola", "tradition": "Italian / French", "source": "Classic European salad and pasta combination"},
-    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional pairing in baklava and cheese plates"},
-    {"ingredient": "pomegranate", "tradition": "Persian / Georgian", "source": "Fesenjan (Persian walnut-pomegranate stew)"},
-    {"ingredient": "apple / pear", "tradition": "European", "source": "Classic Waldorf salad; autumn fruit-nut pairings"},
-    {"ingredient": "olive oil", "tradition": "Italian", "source": "Pesto alla genovese variation; Ligurian walnut sauce"},
-    {"ingredient": "dark chocolate", "tradition": "French / Global", "source": "Confectionery tradition; complementary polyphenol profiles"},
-    {"ingredient": "banana", "tradition": "American / Global", "source": "Banana walnut bread; breakfast combinations"},
-    {"ingredient": "beets", "tradition": "Eastern European / Mediterranean", "source": "Roasted beet and walnut salad"},
-    {"ingredient": "basil", "tradition": "Italian (Ligurian)", "source": "Salsa di noci (Ligurian walnut sauce for pasta)"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Balkan", "source": "Baklava and pastry spice pairings"}
+    {
+      "ingredient": "blue cheese / gorgonzola",
+      "tradition": "Italian / French",
+      "source": "Classic European salad and pasta combination"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional pairing in baklava and cheese plates"
+    },
+    {
+      "ingredient": "pomegranate",
+      "tradition": "Persian / Georgian",
+      "source": "Fesenjan (Persian walnut-pomegranate stew)"
+    },
+    {
+      "ingredient": "apple / pear",
+      "tradition": "European",
+      "source": "Classic Waldorf salad; autumn fruit-nut pairings"
+    },
+    {
+      "ingredient": "olive oil",
+      "tradition": "Italian",
+      "source": "Pesto alla genovese variation; Ligurian walnut sauce"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "French / Global",
+      "source": "Confectionery tradition; complementary polyphenol profiles"
+    },
+    {
+      "ingredient": "banana",
+      "tradition": "American / Global",
+      "source": "Banana walnut bread; breakfast combinations"
+    },
+    {
+      "ingredient": "beets",
+      "tradition": "Eastern European / Mediterranean",
+      "source": "Roasted beet and walnut salad"
+    },
+    {
+      "ingredient": "basil",
+      "tradition": "Italian (Ligurian)",
+      "source": "Salsa di noci (Ligurian walnut sauce for pasta)"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern / Balkan",
+      "source": "Baklava and pastry spice pairings"
+    }
   ],
   "seasonality": "Harvested September-November in Northern Hemisphere. Best fresh (in-shell) in autumn/winter. Available year-round shelled. Store refrigerated or frozen to prevent rancidity of omega-3 oils.",
   "nutrient_highlights": [
@@ -92,5 +150,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Can potentially lower inflammation, blood pressure and artery plaque build-up. Small trials suggest may inhibit prostate tumour growth.",
       "mechanism": "Very rich in polyphenols, especially punicalagin (responsible for ~50% of juice's antioxidant activity). May lower PSA levels.",
-      "study_ref": "Refs 210, 211, 212, 213, 214 in book. Not confirmed in larger trials (ref 215).",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Can potentially lower inflammation, blood pressure and artery plaque build-up. Small trials suggest may inhibit prostate tumour growth.",
+      "reference": "Refs 210, 211, 212, 213, 214 in book. Not confirmed in larger trials (ref 215).",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet-tart", "astringent", "bright", "wine-like"],
-    "aroma": ["fruity", "floral", "slightly musty", "berry-like"],
-    "texture": ["crunchy seeds (arils)", "juicy", "bursting"],
+    "taste": [
+      "sweet-tart",
+      "astringent",
+      "bright",
+      "wine-like"
+    ],
+    "aroma": [
+      "fruity",
+      "floral",
+      "slightly musty",
+      "berry-like"
+    ],
+    "texture": [
+      "crunchy seeds (arils)",
+      "juicy",
+      "bursting"
+    ],
     "culinary_category": "seeded fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "walnuts", "tradition": "Persian / Georgian", "source": "Fesenjan (Persian walnut-pomegranate stew); complementary urolithin production"},
-    {"ingredient": "yogurt / labneh", "tradition": "Middle Eastern / Mediterranean", "source": "Classic garnish; probiotics may enhance urolithin conversion"},
-    {"ingredient": "lamb", "tradition": "Persian / Turkish / Moroccan", "source": "Pomegranate molasses with roasted meats; traditional pairing"},
-    {"ingredient": "mint", "tradition": "Middle Eastern / Mediterranean", "source": "Fresh herb brightness with pomegranate in salads and drinks"},
-    {"ingredient": "olive oil", "tradition": "Mediterranean / Middle Eastern", "source": "Pomegranate vinaigrette; combined polyphenol profiles"},
-    {"ingredient": "dark leafy greens", "tradition": "Mediterranean", "source": "Pomegranate arils in salads; vitamin C aids iron absorption from greens"},
-    {"ingredient": "dark chocolate", "tradition": "Global", "source": "Both rich in polyphenols; complementary antioxidant activity"}
+    {
+      "ingredient": "walnuts",
+      "tradition": "Persian / Georgian",
+      "source": "Fesenjan (Persian walnut-pomegranate stew); complementary urolithin production"
+    },
+    {
+      "ingredient": "yogurt / labneh",
+      "tradition": "Middle Eastern / Mediterranean",
+      "source": "Classic garnish; probiotics may enhance urolithin conversion"
+    },
+    {
+      "ingredient": "lamb",
+      "tradition": "Persian / Turkish / Moroccan",
+      "source": "Pomegranate molasses with roasted meats; traditional pairing"
+    },
+    {
+      "ingredient": "mint",
+      "tradition": "Middle Eastern / Mediterranean",
+      "source": "Fresh herb brightness with pomegranate in salads and drinks"
+    },
+    {
+      "ingredient": "olive oil",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Pomegranate vinaigrette; combined polyphenol profiles"
+    },
+    {
+      "ingredient": "dark leafy greens",
+      "tradition": "Mediterranean",
+      "source": "Pomegranate arils in salads; vitamin C aids iron absorption from greens"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "Global",
+      "source": "Both rich in polyphenols; complementary antioxidant activity"
+    }
   ],
   "seasonality": "Northern Hemisphere harvest September-February. Southern Hemisphere March-May. Peak flavour October-January. Arils freeze well. Juice and molasses available year-round.",
   "nutrient_highlights": [
@@ -75,16 +119,24 @@
   ],
   "synergies": [
     {
-      "ingredient": "walnuts",
-      "mechanism": "Both contain ellagitannins converted to urolithins by gut bacteria; combined intake may enhance urolithin production"
+      "with": "walnuts",
+      "note": "Both contain ellagitannins converted to urolithins by gut bacteria; combined intake may enhance urolithin production",
+      "type": "synergy"
     },
     {
-      "ingredient": "probiotics / fermented foods",
-      "mechanism": "Urolithin production depends on gut microbiome composition; probiotics may support the conversion pathway"
+      "with": "probiotics / fermented foods",
+      "note": "Urolithin production depends on gut microbiome composition; probiotics may support the conversion pathway",
+      "type": "synergy"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

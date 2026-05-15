@@ -4,18 +4,20 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Listed as one of the key whole grains for longevity diet alongside barley, oats, and brown rice",
+      "text": "Listed as one of the key whole grains for longevity diet alongside barley, oats, and brown rice",
       "mechanism": "Rich in vegetable fibre that feeds gut microbes to produce protective metabolites; provides vitamins, oligo-elements and phytochemicals",
-      "study_ref": "Ref 5 in book",
+      "recommendation": null,
+      "reference": "Ref 5 in book",
       "confidence": "medium",
-      "_from_chapter": 4
+      "book_slug": "fontana"
     },
     {
-      "claim": "Whole grains including rye associated with 17-19% lower all-cause mortality",
+      "text": "Whole grains including rye associated with 17-19% lower all-cause mortality",
       "mechanism": "Multiple pathways: fiber, phytochemicals, minerals, spermidine. Bran contains ferulic acid, alkylresorcinols, apigenin, and lignans with antioxidative and anticarcinogenic activities.",
-      "study_ref": "Refs 121, 90 in book (NIH-AARP Diet and Health Study)",
+      "recommendation": null,
+      "reference": "Refs 121, 90 in book (NIH-AARP Diet and Health Study)",
       "confidence": "high",
-      "_from_chapter": 9
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,18 +47,56 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "slightly sour", "malty", "robust"],
-    "aroma": ["deep", "tangy", "grain-forward", "complex"],
-    "texture": ["dense", "moist", "chewy"],
+    "taste": [
+      "earthy",
+      "slightly sour",
+      "malty",
+      "robust"
+    ],
+    "aroma": [
+      "deep",
+      "tangy",
+      "grain-forward",
+      "complex"
+    ],
+    "texture": [
+      "dense",
+      "moist",
+      "chewy"
+    ],
     "culinary_category": "whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "caraway seeds", "tradition": "Northern / Eastern European", "source": "Classic rye bread flavoring; both share earthy aromatic compounds"},
-    {"ingredient": "smoked fish", "tradition": "Scandinavian", "source": "Open-faced sandwiches (smorrebrod); dense rye supports rich toppings"},
-    {"ingredient": "sauerkraut", "tradition": "German / Eastern European", "source": "Fermented pairing; both provide gut-beneficial bacteria and fiber"},
-    {"ingredient": "dark honey", "tradition": "Northern European", "source": "Sweetens rye's tangy bitterness in baking tradition"},
-    {"ingredient": "dill", "tradition": "Scandinavian / Eastern European", "source": "Fresh herb complements rye's earthy depth"},
-    {"ingredient": "beetroot", "tradition": "Nordic / Eastern European", "source": "Earthy root vegetable on rye bread; complementary flavors"}
+    {
+      "ingredient": "caraway seeds",
+      "tradition": "Northern / Eastern European",
+      "source": "Classic rye bread flavoring; both share earthy aromatic compounds"
+    },
+    {
+      "ingredient": "smoked fish",
+      "tradition": "Scandinavian",
+      "source": "Open-faced sandwiches (smorrebrod); dense rye supports rich toppings"
+    },
+    {
+      "ingredient": "sauerkraut",
+      "tradition": "German / Eastern European",
+      "source": "Fermented pairing; both provide gut-beneficial bacteria and fiber"
+    },
+    {
+      "ingredient": "dark honey",
+      "tradition": "Northern European",
+      "source": "Sweetens rye's tangy bitterness in baking tradition"
+    },
+    {
+      "ingredient": "dill",
+      "tradition": "Scandinavian / Eastern European",
+      "source": "Fresh herb complements rye's earthy depth"
+    },
+    {
+      "ingredient": "beetroot",
+      "tradition": "Nordic / Eastern European",
+      "source": "Earthy root vegetable on rye bread; complementary flavors"
+    }
   ],
   "seasonality": "Rye grain and flour available year-round. Harvested in late summer. Rye flour should be stored in fridge or freezer to prevent rancidity from its higher fat content.",
   "nutrient_highlights": [
@@ -88,18 +128,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Complementary amino acid profiles create complete protein when combined"
+      "with": "legumes",
+      "note": "Complementary amino acid profiles create complete protein when combined"
     },
     {
-      "target_ingredient": "sourdough-bread-wholegrain",
       "type": "complement",
-      "description": "Sourdough fermentation of rye reduces phytic acid and improves mineral bioavailability"
+      "with": "sourdough-bread-wholegrain",
+      "note": "Sourdough fermentation of rye reduces phytic acid and improves mineral bioavailability"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [4, 9]
+  "source_chapters": [
+    4,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

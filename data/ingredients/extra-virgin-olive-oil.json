@@ -1,91 +1,115 @@
 {
   "name": "Extra-Virgin Olive Oil",
   "slug": "extra-virgin-olive-oil",
-  "category": "oil_condiment",
+  "category": "oil",
   "book_claims": [
     {
-      "claim": "Suitable fat source during fasting days that does not disrupt fasting metabolic benefits",
       "mechanism": "Provides essential fatty acids without activating insulin/IGF-1/mTOR pathway as animal proteins would",
-      "study_ref": "Author's clinical fasting protocol",
       "confidence": "medium",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Suitable fat source during fasting days that does not disrupt fasting metabolic benefits",
+      "reference": "Author's clinical fasting protocol",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Slows absorption of carbohydrates when added to meals",
       "mechanism": "Fat delays gastric emptying and carbohydrate absorption in the intestine",
-      "study_ref": "book-assertion (detailed in Chapter 7)",
       "confidence": "medium",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Slows absorption of carbohydrates when added to meals",
+      "reference": "book-assertion (detailed in Chapter 7)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Monounsaturated fat from plant origins associated with lower cardiovascular and cancer death rate",
       "mechanism": "Contains primarily monounsaturated fatty acids that do not increase cholesterol; reduces LDL without affecting HDL; reduces blood sugar and triglycerides in diabetes",
-      "study_ref": "Refs 66, 67, 68, 69 in book (Nurses' Health Study and others)",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Monounsaturated fat from plant origins associated with lower cardiovascular and cancer death rate",
+      "reference": "Refs 66, 67, 68, 69 in book (Nurses' Health Study and others)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Excellent source of vitamin E and precious phytochemicals",
       "mechanism": "Cold-pressed extraction preserves vitamin E (antioxidant) and polyphenols with anti-inflammatory properties",
-      "study_ref": "Ref 73 in book",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Excellent source of vitamin E and precious phytochemicals",
+      "reference": "Ref 73 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Plant-origin monounsaturated fats reduce coronary heart disease risk",
       "mechanism": "Substituting monounsaturated fat for saturated fat reduces LDL-cholesterol without reducing HDL-cholesterol",
-      "study_ref": "Refs 66, 67 in book (Nurses' Health Study)",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Plant-origin monounsaturated fats reduce coronary heart disease risk",
+      "reference": "Refs 66, 67 in book (Nurses' Health Study)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Provides monounsaturated fatty acids that reduce LDL-cholesterol and heart disease risk",
       "mechanism": "Replaces saturated fat intake; monounsaturated fat substitution for 5% of saturated fat calories associated with 15% lower coronary heart disease risk",
-      "study_ref": "ref-14",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Provides monounsaturated fatty acids that reduce LDL-cholesterol and heart disease risk",
+      "reference": "ref-14",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contains oleocanthal which inhibits inflammation",
       "mechanism": "Oleocanthal phytochemical inhibits inflammatory pathways, similar mechanism to ibuprofen",
-      "study_ref": "ref-30",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Contains oleocanthal which inhibits inflammation",
+      "reference": "ref-30",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Reduces circulating oxidised LDL and inflammatory markers",
       "mechanism": "Antioxidant compounds prevent oxidation of LDL particles, reducing binding to endothelial and immune cell receptors that drive atherosclerotic plaque growth",
-      "study_ref": "refs-25,26",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Reduces circulating oxidised LDL and inflammatory markers",
+      "reference": "refs-25,26",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Mediterranean diet supplemented with EVOO reduces cardiovascular events, especially strokes",
       "mechanism": "Combined anti-inflammatory, cholesterol-lowering and antioxidant effects reduce atherosclerosis progression",
-      "study_ref": "PREDIMED trial, ref-10",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Mediterranean diet supplemented with EVOO reduces cardiovascular events, especially strokes",
+      "reference": "PREDIMED trial, ref-10",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "May reduce risk of type 2 diabetes, peripheral artery disease, atrial fibrillation and breast cancer",
       "mechanism": "Multiple pathways including reduced inflammation and oxidative stress",
-      "study_ref": "PREDIMED secondary analysis, refs-11-13",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "May reduce risk of type 2 diabetes, peripheral artery disease, atrial fibrillation and breast cancer",
+      "reference": "PREDIMED secondary analysis, refs-11-13",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Reduces plasma triglycerides, oxidative stress markers, and increases HDL-cholesterol. Phenolics inhibit inflammation and thrombosis.",
       "mechanism": "Contains 30+ phytocompounds including oleuropein, tyrosol, hydroxytyrosol. 100g provides up to 25mg alpha-tocopherol, 20-500mg oleuropein, 98-185mg phytosterols.",
-      "study_ref": "Refs 227, 228, 229, 230 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Reduces plasma triglycerides, oxidative stress markers, and increases HDL-cholesterol. Phenolics inhibit inflammation and thrombosis.",
+      "reference": "Refs 227, 228, 229, 230 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contains oleocanthal that prevents blood clots. 50g daily equivalent to a baby aspirin for heart disease prevention.",
       "mechanism": "Oleocanthal has structural profile similar to ibuprofen. Anti-inflammatory and anti-platelet aggregation. The pungent, peppery throat sensation indicates oleocanthal presence.",
-      "study_ref": "Refs 231, 232, 233, 234, 235 in book",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contains oleocanthal that prevents blood clots. 50g daily equivalent to a baby aspirin for heart disease prevention.",
+      "reference": "Refs 231, 232, 233, 234, 235 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -121,20 +145,68 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["peppery", "bitter", "fruity", "grassy", "slightly astringent"],
-    "aroma": ["herbaceous", "green apple", "artichoke", "fresh-cut grass", "tomato leaf"],
-    "texture": ["smooth", "viscous", "coating"],
+    "taste": [
+      "peppery",
+      "bitter",
+      "fruity",
+      "grassy",
+      "slightly astringent"
+    ],
+    "aroma": [
+      "herbaceous",
+      "green apple",
+      "artichoke",
+      "fresh-cut grass",
+      "tomato leaf"
+    ],
+    "texture": [
+      "smooth",
+      "viscous",
+      "coating"
+    ],
     "culinary_category": "finishing oil and cooking fat"
   },
   "culinary_pairings": [
-    {"ingredient": "tomatoes", "tradition": "Italian / Mediterranean", "source": "Traditional Italian cuisine"},
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Foundational soffritto base across Southern European cuisines"},
-    {"ingredient": "lemon juice", "tradition": "Greek / Lebanese", "source": "Classic vinaigrette and ladolemono dressing"},
-    {"ingredient": "fresh basil", "tradition": "Italian", "source": "Caprese salad, pesto Genovese"},
-    {"ingredient": "crusty bread", "tradition": "Italian / Spanish", "source": "Bruschetta, pan con tomate"},
-    {"ingredient": "legumes (chickpeas, lentils, white beans)", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional hummus, pasta e fagioli, ribollita"},
-    {"ingredient": "balsamic vinegar", "tradition": "Italian (Emilia-Romagna)", "source": "Classic Italian salad dressing and drizzle"},
-    {"ingredient": "dark leafy greens (kale, spinach, chard)", "tradition": "Italian / Greek", "source": "Horta vrasta, sauteed greens"}
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian / Mediterranean",
+      "source": "Traditional Italian cuisine"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "Foundational soffritto base across Southern European cuisines"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Greek / Lebanese",
+      "source": "Classic vinaigrette and ladolemono dressing"
+    },
+    {
+      "ingredient": "fresh basil",
+      "tradition": "Italian",
+      "source": "Caprese salad, pesto Genovese"
+    },
+    {
+      "ingredient": "crusty bread",
+      "tradition": "Italian / Spanish",
+      "source": "Bruschetta, pan con tomate"
+    },
+    {
+      "ingredient": "legumes (chickpeas, lentils, white beans)",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional hummus, pasta e fagioli, ribollita"
+    },
+    {
+      "ingredient": "balsamic vinegar",
+      "tradition": "Italian (Emilia-Romagna)",
+      "source": "Classic Italian salad dressing and drizzle"
+    },
+    {
+      "ingredient": "dark leafy greens (kale, spinach, chard)",
+      "tradition": "Italian / Greek",
+      "source": "Horta vrasta, sauteed greens"
+    }
   ],
   "seasonality": "Year-round availability. Freshest oil from November-February harvest in Northern Hemisphere (October-January in Southern Hemisphere). Best consumed within 12-14 months of harvest date.",
   "nutrient_highlights": [
@@ -171,58 +243,67 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "non-starchy-vegetables-fasting",
       "type": "complement",
-      "description": "Used to dress vegetables on fasting days"
+      "with": "non-starchy-vegetables-fasting",
+      "note": "Used to dress vegetables on fasting days"
     },
     {
-      "target_ingredient": "whole-grains",
       "type": "synergy",
-      "description": "Adding olive oil to carbohydrate meals slows glucose absorption"
+      "with": "whole-grains",
+      "note": "Adding olive oil to carbohydrate meals slows glucose absorption"
     },
     {
-      "target_ingredient": "corn-sunflower-oil",
       "type": "antagonism",
-      "description": "Olive oil recommended over omega-6-rich vegetable oils which promote inflammation"
+      "with": "corn-sunflower-oil",
+      "note": "Olive oil recommended over omega-6-rich vegetable oils which promote inflammation"
     },
     {
-      "target_ingredient": "butter-margarine",
       "type": "antagonism",
-      "description": "Olive oil should replace butter (saturated fat) and margarine (trans fats)"
+      "with": "butter-margarine",
+      "note": "Olive oil should replace butter (saturated fat) and margarine (trans fats)"
     },
     {
-      "target_ingredient": "Nuts",
       "type": "synergy",
-      "description": "Both provide monounsaturated and polyunsaturated fats; PREDIMED trial tested both EVOO-supplemented and nut-supplemented Mediterranean diets with similar cardiovascular benefits"
+      "with": "Nuts",
+      "note": "Both provide monounsaturated and polyunsaturated fats; PREDIMED trial tested both EVOO-supplemented and nut-supplemented Mediterranean diets with similar cardiovascular benefits"
     },
     {
-      "target_ingredient": "Whole Grains",
       "type": "complement",
-      "description": "Both contain anti-inflammatory phytochemicals (oleocanthal in EVOO, ferulic acid in whole grains) that work through complementary pathways"
+      "with": "Whole Grains",
+      "note": "Both contain anti-inflammatory phytochemicals (oleocanthal in EVOO, ferulic acid in whole grains) that work through complementary pathways"
     },
     {
-      "target_ingredient": "Vegetables",
       "type": "synergy",
-      "description": "EVOO enhances absorption of fat-soluble antioxidants (beta-carotene, vitamin E) from vegetables"
+      "with": "Vegetables",
+      "note": "EVOO enhances absorption of fat-soluble antioxidants (beta-carotene, vitamin E) from vegetables"
     },
     {
-      "target_ingredient": "carrots",
       "type": "synergy",
-      "description": "Fat enables absorption of fat-soluble carotenoids"
+      "with": "carrots",
+      "note": "Fat enables absorption of fat-soluble carotenoids"
     },
     {
-      "target_ingredient": "kale",
       "type": "synergy",
-      "description": "Fat enables absorption of fat-soluble vitamins K, A, E"
+      "with": "kale",
+      "note": "Fat enables absorption of fat-soluble vitamins K, A, E"
     },
     {
-      "target_ingredient": "turmeric",
       "type": "synergy",
-      "description": "Fat-soluble curcuminoids require dietary fat for absorption"
+      "with": "turmeric",
+      "note": "Fat-soluble curcuminoids require dietary fat for absorption"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5, 7, 8, 9]
+  "source_chapters": [
+    5,
+    7,
+    8,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Relatively high concentration of vegetable omega-3 fatty acids",
       "mechanism": "50g fresh purslane contains approximately 200mg alpha-linolenic acid",
-      "study_ref": "Ref 39 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Relatively high concentration of vegetable omega-3 fatty acids",
+      "reference": "Ref 39 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["slightly sour", "salty", "lemony", "peppery", "succulent"],
-    "aroma": ["mild", "fresh", "green"],
-    "texture": ["crunchy stems", "succulent and fleshy leaves", "mucilaginous when cooked"],
+    "taste": [
+      "slightly sour",
+      "salty",
+      "lemony",
+      "peppery",
+      "succulent"
+    ],
+    "aroma": [
+      "mild",
+      "fresh",
+      "green"
+    ],
+    "texture": [
+      "crunchy stems",
+      "succulent and fleshy leaves",
+      "mucilaginous when cooked"
+    ],
     "culinary_category": "wild edible / salad green"
   },
   "culinary_pairings": [
-    {"ingredient": "tomatoes", "tradition": "Mediterranean / Turkish", "source": "Classic Turkish salad; purslane and tomato with olive oil is a summer staple"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances absorption of fat-soluble omega-3 ALA and carotenoids"},
-    {"ingredient": "cucumber", "tradition": "Turkish / Greek", "source": "Fresh salad combination; both are cooling and hydrating summer vegetables"},
-    {"ingredient": "yogurt", "tradition": "Turkish / Middle Eastern", "source": "Purslane with yogurt (yoğurtlu semizotu) is a classic Turkish meze"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean", "source": "Acid complements purslane's own tartness; enhances iron absorption"},
-    {"ingredient": "garlic", "tradition": "Mediterranean / Middle Eastern", "source": "Adds depth to purslane salads; complementary organosulfur compounds"},
-    {"ingredient": "walnuts", "tradition": "Georgian / Turkish", "source": "Both rich in omega-3 ALA; combined in Georgian pkhali preparations"}
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mediterranean / Turkish",
+      "source": "Classic Turkish salad; purslane and tomato with olive oil is a summer staple"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat enhances absorption of fat-soluble omega-3 ALA and carotenoids"
+    },
+    {
+      "ingredient": "cucumber",
+      "tradition": "Turkish / Greek",
+      "source": "Fresh salad combination; both are cooling and hydrating summer vegetables"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Turkish / Middle Eastern",
+      "source": "Purslane with yogurt (yo\u011furtlu semizotu) is a classic Turkish meze"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean",
+      "source": "Acid complements purslane's own tartness; enhances iron absorption"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Adds depth to purslane salads; complementary organosulfur compounds"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Georgian / Turkish",
+      "source": "Both rich in omega-3 ALA; combined in Georgian pkhali preparations"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -76,5 +120,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

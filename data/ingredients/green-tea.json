@@ -4,10 +4,12 @@
   "category": "beverage",
   "book_claims": [
     {
-      "claim": "Both green and black tea prevent cancer in variety of animal models (skin, lung, mouth, oesophagus, stomach, colon, pancreas, bladder, prostate). Small RCT suggests green tea catechins prevent precancerous prostate lesions turning cancerous.",
       "mechanism": "EGCG (epigallocatechin gallate, 60% of catechin content) promotes self-destruction of tumour cells while sparing healthy cells. Reverses endothelial dysfunction in smokers and coronary artery disease patients.",
-      "study_ref": "Refs 237-246 in book (animal models, small clinical trial)",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Both green and black tea prevent cancer in variety of animal models (skin, lung, mouth, oesophagus, stomach, colon, pancreas, bladder, prostate). Small RCT suggests green tea catechins prevent precancerous prostate lesions turning cancerous.",
+      "reference": "Refs 237-246 in book (animal models, small clinical trial)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -43,20 +45,68 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["vegetal", "astringent", "umami", "slightly sweet", "grassy", "marine (gyokuro)"],
-    "aroma": ["fresh-cut grass", "toasted rice (genmaicha)", "floral", "oceanic"],
-    "texture": ["light body", "smooth (high-grade)", "slightly drying (astringent tannins)"],
+    "taste": [
+      "vegetal",
+      "astringent",
+      "umami",
+      "slightly sweet",
+      "grassy",
+      "marine (gyokuro)"
+    ],
+    "aroma": [
+      "fresh-cut grass",
+      "toasted rice (genmaicha)",
+      "floral",
+      "oceanic"
+    ],
+    "texture": [
+      "light body",
+      "smooth (high-grade)",
+      "slightly drying (astringent tannins)"
+    ],
     "culinary_category": "infusion / beverage base"
   },
   "culinary_pairings": [
-    {"ingredient": "lemon", "tradition": "Western / Global", "source": "Classic tea pairing; vitamin C enhances catechin stability"},
-    {"ingredient": "honey", "tradition": "Global", "source": "Traditional sweetener for tea"},
-    {"ingredient": "mint", "tradition": "Moroccan", "source": "Moroccan mint tea (gunpowder green + spearmint)"},
-    {"ingredient": "jasmine", "tradition": "Chinese", "source": "Jasmine-scented green tea tradition from Fujian province"},
-    {"ingredient": "rice", "tradition": "Japanese", "source": "Genmaicha (green tea + toasted brown rice); ochazuke (tea over rice)"},
-    {"ingredient": "matcha in baking", "tradition": "Japanese / Western fusion", "source": "Modern pastry tradition"},
-    {"ingredient": "white fish", "tradition": "Japanese", "source": "Green tea as palate cleanser with sushi and sashimi"},
-    {"ingredient": "ginger", "tradition": "Japanese / Chinese", "source": "Common combination in health tonics and teas"}
+    {
+      "ingredient": "lemon",
+      "tradition": "Western / Global",
+      "source": "Classic tea pairing; vitamin C enhances catechin stability"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Global",
+      "source": "Traditional sweetener for tea"
+    },
+    {
+      "ingredient": "mint",
+      "tradition": "Moroccan",
+      "source": "Moroccan mint tea (gunpowder green + spearmint)"
+    },
+    {
+      "ingredient": "jasmine",
+      "tradition": "Chinese",
+      "source": "Jasmine-scented green tea tradition from Fujian province"
+    },
+    {
+      "ingredient": "rice",
+      "tradition": "Japanese",
+      "source": "Genmaicha (green tea + toasted brown rice); ochazuke (tea over rice)"
+    },
+    {
+      "ingredient": "matcha in baking",
+      "tradition": "Japanese / Western fusion",
+      "source": "Modern pastry tradition"
+    },
+    {
+      "ingredient": "white fish",
+      "tradition": "Japanese",
+      "source": "Green tea as palate cleanser with sushi and sashimi"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "Japanese / Chinese",
+      "source": "Common combination in health tonics and teas"
+    }
   ],
   "seasonality": "First flush (shincha/spring harvest) in April-May is most prized. Available year-round as dried leaf. Quality peaks with spring and early summer harvests.",
   "nutrient_highlights": [
@@ -85,5 +135,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

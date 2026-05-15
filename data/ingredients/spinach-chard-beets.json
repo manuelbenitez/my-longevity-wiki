@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "High oxalate content hinders calcium absorption",
       "mechanism": "Oxalates chelate calcium forming insoluble calcium oxalate that cannot be absorbed in the intestine",
-      "study_ref": "Ref 107 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "High oxalate content hinders calcium absorption",
+      "reference": "Ref 107 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,19 +39,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy (beets)", "mineral and iron-rich (spinach)", "slightly bitter (chard)", "sweet undertones (beets)"],
-    "aroma": ["earthy and petrichor-like (beets)", "green and metallic (spinach)", "mild (chard)"],
-    "texture": ["tender leaves (spinach)", "sturdy stems (chard)", "firm-dense (beets)", "silky when cooked"],
+    "taste": [
+      "earthy (beets)",
+      "mineral and iron-rich (spinach)",
+      "slightly bitter (chard)",
+      "sweet undertones (beets)"
+    ],
+    "aroma": [
+      "earthy and petrichor-like (beets)",
+      "green and metallic (spinach)",
+      "mild (chard)"
+    ],
+    "texture": [
+      "tender leaves (spinach)",
+      "sturdy stems (chard)",
+      "firm-dense (beets)",
+      "silky when cooked"
+    ],
     "culinary_category": "leafy green / root vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances absorption of carotenoids and vitamin K from greens"},
-    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Sauteed spinach or chard with garlic is universal; complementary anti-inflammatory compounds"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean", "source": "Acid brightens earthy flavors; vitamin C enhances iron absorption from these iron-rich greens"},
-    {"ingredient": "goat cheese", "tradition": "French / Mediterranean", "source": "Classic beet-goat cheese salad; tangy cheese balances beet sweetness"},
-    {"ingredient": "walnuts", "tradition": "Mediterranean", "source": "Omega-3 fats pair with nitrate-rich greens; textural contrast in salads"},
-    {"ingredient": "nutmeg", "tradition": "French / Italian", "source": "Classic seasoning for creamed spinach and chard gratins; masks bitterness"},
-    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Sesame calcium complements these vegetables for calcium-conscious eaters; tahini beet dips"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat enhances absorption of carotenoids and vitamin K from greens"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Global",
+      "source": "Sauteed spinach or chard with garlic is universal; complementary anti-inflammatory compounds"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean",
+      "source": "Acid brightens earthy flavors; vitamin C enhances iron absorption from these iron-rich greens"
+    },
+    {
+      "ingredient": "goat cheese",
+      "tradition": "French / Mediterranean",
+      "source": "Classic beet-goat cheese salad; tangy cheese balances beet sweetness"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean",
+      "source": "Omega-3 fats pair with nitrate-rich greens; textural contrast in salads"
+    },
+    {
+      "ingredient": "nutmeg",
+      "tradition": "French / Italian",
+      "source": "Classic seasoning for creamed spinach and chard gratins; masks bitterness"
+    },
+    {
+      "ingredient": "tahini",
+      "tradition": "Middle Eastern",
+      "source": "Sesame calcium complements these vegetables for calcium-conscious eaters; tahini beet dips"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -80,13 +124,19 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "cabbage-broccoli",
       "type": "complement",
-      "description": "Complement with low-oxalate vegetables for calcium needs"
+      "with": "cabbage-broccoli",
+      "note": "Complement with low-oxalate vegetables for calcium needs"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

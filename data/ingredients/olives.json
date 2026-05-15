@@ -2,19 +2,27 @@
   "name": "Olives",
   "slug": "olives",
   "category": "other",
-  "aliases": ["black olives", "green olives", "Kalamata olives"],
+  "aliases": [
+    "black olives",
+    "green olives",
+    "Kalamata olives"
+  ],
   "book_claims": [
     {
-      "claim": "Olives were a regular food of Molochio centenarians like Salvatore Caruso",
       "mechanism": "Rich in monounsaturated fats, antioxidants (oleuropein, hydroxytyrosol), and vitamin E",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Olives were a regular food of Molochio centenarians like Salvatore Caruso",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Used as a flavoring and fat source in multiple Longevity Diet dishes; provides healthy unsaturated fats",
       "mechanism": "Source of healthy monounsaturated fats",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Used as a flavoring and fat source in multiple Longevity Diet dishes; provides healthy unsaturated fats",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -32,28 +40,78 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["briny", "savory", "bitter", "rich"],
-    "aroma": ["fruity", "vegetal"],
-    "texture": ["meaty", "firm"],
+    "taste": [
+      "briny",
+      "savory",
+      "bitter",
+      "rich"
+    ],
+    "aroma": [
+      "fruity",
+      "vegetal"
+    ],
+    "texture": [
+      "meaty",
+      "firm"
+    ],
     "culinary_category": "condiment/fat source"
   },
   "culinary_pairings": [
-    {"ingredient": "olive oil", "tradition": "Mediterranean", "source": "The Longevity Diet"},
-    {"ingredient": "tomatoes", "tradition": "Italian/Mediterranean", "source": "traditional"},
-    {"ingredient": "capers", "tradition": "Sicilian/Mediterranean", "source": "traditional"}
+    {
+      "ingredient": "olive oil",
+      "tradition": "Mediterranean",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian/Mediterranean",
+      "source": "traditional"
+    },
+    {
+      "ingredient": "capers",
+      "tradition": "Sicilian/Mediterranean",
+      "source": "traditional"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Oleic acid (MUFA)", "amount_per_100g": "11 g", "bioavailability_notes": "Primary fatty acid; cardioprotective; anti-inflammatory"},
-    {"compound": "Oleuropein", "amount_per_100g": "varies by variety", "bioavailability_notes": "Bitter polyphenol; antioxidant and anti-inflammatory; reduced in curing process"},
-    {"compound": "Vitamin E", "amount_per_100g": "3.8 mg", "bioavailability_notes": "Fat-soluble antioxidant; protects cell membranes from oxidative damage"}
+    {
+      "compound": "Oleic acid (MUFA)",
+      "amount_per_100g": "11 g",
+      "bioavailability_notes": "Primary fatty acid; cardioprotective; anti-inflammatory"
+    },
+    {
+      "compound": "Oleuropein",
+      "amount_per_100g": "varies by variety",
+      "bioavailability_notes": "Bitter polyphenol; antioxidant and anti-inflammatory; reduced in curing process"
+    },
+    {
+      "compound": "Vitamin E",
+      "amount_per_100g": "3.8 mg",
+      "bioavailability_notes": "Fat-soluble antioxidant; protects cell membranes from oxidative damage"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "olive oil", "type": "synergy", "description": "Both whole-food forms of longevity-promoting monounsaturated fats from the same Mediterranean tradition"},
-    {"target_ingredient": "tomatoes", "type": "complement", "description": "Fat in olives enhances lycopene absorption from tomatoes"},
-    {"target_ingredient": "legumes", "type": "complement", "description": "Olives as fat source alongside legumes mirrors traditional blue-zone Mediterranean meal composition"}
+    {
+      "type": "synergy",
+      "with": "olive oil",
+      "note": "Both whole-food forms of longevity-promoting monounsaturated fats from the same Mediterranean tradition"
+    },
+    {
+      "type": "complement",
+      "with": "tomatoes",
+      "note": "Fat in olives enhances lycopene absorption from tomatoes"
+    },
+    {
+      "type": "complement",
+      "with": "legumes",
+      "note": "Olives as fat source alongside legumes mirrors traditional blue-zone Mediterranean meal composition"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

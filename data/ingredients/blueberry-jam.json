@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "No-sugar-added jam used as a breakfast spread in the Longevity Diet.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "No-sugar-added jam used as a breakfast spread in the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -76,23 +79,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "goat's milk yogurt",
       "type": "synergy",
-      "description": "Anthocyanins feed yogurt's probiotic bacteria; lactic acid from yogurt enhances anthocyanin stability"
+      "with": "goat's milk yogurt",
+      "note": "Anthocyanins feed yogurt's probiotic bacteria; lactic acid from yogurt enhances anthocyanin stability"
     },
     {
-      "target_ingredient": "walnuts",
       "type": "synergy",
-      "description": "Ellagitannins in walnuts and anthocyanins act synergistically on NF-kB inflammatory pathway"
+      "with": "walnuts",
+      "note": "Ellagitannins in walnuts and anthocyanins act synergistically on NF-kB inflammatory pathway"
     },
     {
-      "target_ingredient": "whole-wheat focaccia",
       "type": "complement",
-      "description": "Pectin in jam slows starch absorption, moderating postprandial glucose"
+      "with": "whole-wheat focaccia",
+      "note": "Pectin in jam slows starch absorption, moderating postprandial glucose"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

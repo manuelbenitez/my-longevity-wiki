@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "3-day-old broccoli sprouts contain 10-100x higher glucoraphanin levels than mature plants, highly effective in reducing breast cancer incidence in animals",
       "mechanism": "Glucoraphanin is converted to sulforaphane, a potent activator of phase 2 detoxification enzymes via Nrf2 pathway",
-      "study_ref": "Refs 193, 194, 195 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "3-day-old broccoli sprouts contain 10-100x higher glucoraphanin levels than mature plants, highly effective in reducing breast cancer incidence in animals",
+      "reference": "Refs 193, 194, 195 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,19 +39,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mildly bitter", "peppery", "slightly sweet", "green"],
-    "aroma": ["fresh", "mildly sulfurous", "grassy"],
-    "texture": ["crunchy", "delicate", "tender stems"],
+    "taste": [
+      "mildly bitter",
+      "peppery",
+      "slightly sweet",
+      "green"
+    ],
+    "aroma": [
+      "fresh",
+      "mildly sulfurous",
+      "grassy"
+    ],
+    "texture": [
+      "crunchy",
+      "delicate",
+      "tender stems"
+    ],
     "culinary_category": "garnish / salad green"
   },
   "culinary_pairings": [
-    {"ingredient": "avocado", "tradition": "Californian / modern health", "source": "Fat from avocado enhances sulforaphane absorption; mild flavor balances bitterness"},
-    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid brightens sprouts and may help stabilize sulforaphane"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Healthy fat carrier for fat-soluble isothiocyanates"},
-    {"ingredient": "mustard seeds", "tradition": "European", "source": "Mustard provides exogenous myrosinase to boost sulforaphane conversion when sprouts are cooked"},
-    {"ingredient": "smoked salmon", "tradition": "Scandinavian", "source": "Classic open-sandwich topping; omega-3 complements sprout antioxidants"},
-    {"ingredient": "rice bowls", "tradition": "Japanese", "source": "Kaiware daikon sprouts are traditional; broccoli sprouts serve the same role"},
-    {"ingredient": "eggs", "tradition": "Western brunch", "source": "Sprouts added to scrambled eggs or omelettes as finishing garnish"}
+    {
+      "ingredient": "avocado",
+      "tradition": "Californian / modern health",
+      "source": "Fat from avocado enhances sulforaphane absorption; mild flavor balances bitterness"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Global",
+      "source": "Acid brightens sprouts and may help stabilize sulforaphane"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Healthy fat carrier for fat-soluble isothiocyanates"
+    },
+    {
+      "ingredient": "mustard seeds",
+      "tradition": "European",
+      "source": "Mustard provides exogenous myrosinase to boost sulforaphane conversion when sprouts are cooked"
+    },
+    {
+      "ingredient": "smoked salmon",
+      "tradition": "Scandinavian",
+      "source": "Classic open-sandwich topping; omega-3 complements sprout antioxidants"
+    },
+    {
+      "ingredient": "rice bowls",
+      "tradition": "Japanese",
+      "source": "Kaiware daikon sprouts are traditional; broccoli sprouts serve the same role"
+    },
+    {
+      "ingredient": "eggs",
+      "tradition": "Western brunch",
+      "source": "Sprouts added to scrambled eggs or omelettes as finishing garnish"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -75,13 +118,19 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "cruciferous vegetables",
       "type": "synergy",
-      "description": "Same sulforaphane pathway but 10-100x more concentrated"
+      "with": "cruciferous vegetables",
+      "note": "Same sulforaphane pathway but 10-100x more concentrated"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

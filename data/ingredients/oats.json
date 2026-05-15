@@ -4,11 +4,13 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
       "mechanism": "Beta-glucan soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
-      "study_ref": "Canadian trial, ref-17",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "reference": "Canadian trial, ref-17",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,19 +40,59 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "slightly sweet", "nutty", "clean"],
-    "aroma": ["warm", "toasty", "grain-forward"],
-    "texture": ["variable: chewy (steel-cut) to creamy (rolled)", "absorbent"],
+    "taste": [
+      "mild",
+      "slightly sweet",
+      "nutty",
+      "clean"
+    ],
+    "aroma": [
+      "warm",
+      "toasty",
+      "grain-forward"
+    ],
+    "texture": [
+      "variable: chewy (steel-cut) to creamy (rolled)",
+      "absorbent"
+    ],
     "culinary_category": "whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "blueberries", "tradition": "Northern European / American", "source": "Classic porridge and granola pairing"},
-    {"ingredient": "honey", "tradition": "Global", "source": "Traditional sweetener for oat preparations"},
-    {"ingredient": "almonds", "tradition": "European / American", "source": "Granola and muesli tradition; healthy fats complement fiber"},
-    {"ingredient": "apple", "tradition": "Swiss / Northern European", "source": "Bircher muesli original recipe (Dr. Bircher-Benner)"},
-    {"ingredient": "cinnamon", "tradition": "Scandinavian / American", "source": "Warming spice with complementary blood sugar benefits"},
-    {"ingredient": "banana", "tradition": "Global", "source": "Natural binder in oat pancakes and smoothie bowls"},
-    {"ingredient": "dark chocolate", "tradition": "European", "source": "Complementary flavonoid profiles in granola and energy bites"}
+    {
+      "ingredient": "blueberries",
+      "tradition": "Northern European / American",
+      "source": "Classic porridge and granola pairing"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Global",
+      "source": "Traditional sweetener for oat preparations"
+    },
+    {
+      "ingredient": "almonds",
+      "tradition": "European / American",
+      "source": "Granola and muesli tradition; healthy fats complement fiber"
+    },
+    {
+      "ingredient": "apple",
+      "tradition": "Swiss / Northern European",
+      "source": "Bircher muesli original recipe (Dr. Bircher-Benner)"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Scandinavian / American",
+      "source": "Warming spice with complementary blood sugar benefits"
+    },
+    {
+      "ingredient": "banana",
+      "tradition": "Global",
+      "source": "Natural binder in oat pancakes and smoothie bowls"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "European",
+      "source": "Complementary flavonoid profiles in granola and energy bites"
+    }
   ],
   "seasonality": "Year-round pantry staple. Steel-cut (Irish), rolled (old-fashioned), and quick oats differ in processing level and GI. Whole oat groats are least processed.",
   "nutrient_highlights": [
@@ -82,18 +124,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "barley",
       "type": "synergy",
-      "description": "Both tested together in cholesterol-lowering food portfolio trial with complementary soluble fibre types"
+      "with": "barley",
+      "note": "Both tested together in cholesterol-lowering food portfolio trial with complementary soluble fibre types"
     },
     {
-      "target_ingredient": "psyllium",
       "type": "synergy",
-      "description": "Combined soluble fibre sources for enhanced cholesterol reduction"
+      "with": "psyllium",
+      "note": "Combined soluble fibre sources for enhanced cholesterol reduction"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8]
+  "source_chapters": [
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -2,13 +2,20 @@
   "name": "Apricots",
   "slug": "apricots",
   "category": "fruit",
-  "aliases": ["apricots dried sulfured", "dried apricots", "fresh apricots", "Prunus armeniaca"],
+  "aliases": [
+    "apricots dried sulfured",
+    "dried apricots",
+    "fresh apricots",
+    "Prunus armeniaca"
+  ],
   "book_claims": [
     {
-      "claim": "Dried apricots suggested as a dessert in the Longevity Diet; source of vitamin A (63 mcg RAE per 10 halves dried, 25% DV) as beta-carotene",
       "mechanism": "Dried fruit source of provitamin A (beta-carotene); beta-carotene is a fat-soluble antioxidant carotenoid that converts to retinol in the intestine",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Dried apricots suggested as a dessert in the Longevity Diet; source of vitamin A (63 mcg RAE per 10 halves dried, 25% DV) as beta-carotene",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -32,32 +39,100 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "tart", "fruity", "honeyed when dried"],
-    "aroma": ["floral", "fruity", "slightly musky"],
-    "texture": ["chewy (dried)", "soft and juicy (fresh)", "velvety skin"],
+    "taste": [
+      "sweet",
+      "tart",
+      "fruity",
+      "honeyed when dried"
+    ],
+    "aroma": [
+      "floral",
+      "fruity",
+      "slightly musky"
+    ],
+    "texture": [
+      "chewy (dried)",
+      "soft and juicy (fresh)",
+      "velvety skin"
+    ],
     "culinary_category": "stone fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "walnuts", "tradition": "Mediterranean (Longevity Diet dessert)", "source": "The Longevity Diet"},
-    {"ingredient": "almonds", "tradition": "Middle Eastern", "source": "culinary tradition"},
-    {"ingredient": "yogurt", "tradition": "Middle Eastern/European", "source": "culinary tradition"},
-    {"ingredient": "rosemary", "tradition": "Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "chicken", "tradition": "Moroccan/Mediterranean", "source": "culinary tradition"}
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean (Longevity Diet dessert)",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "almonds",
+      "tradition": "Middle Eastern",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Middle Eastern/European",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "rosemary",
+      "tradition": "Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "chicken",
+      "tradition": "Moroccan/Mediterranean",
+      "source": "culinary tradition"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Beta-carotene (provitamin A)", "amount_per_100g": "2163 mcg (dried)", "bioavailability_notes": "Fat-soluble; absorption significantly enhanced by co-ingested fat (e.g., nuts or olive oil)"},
-    {"compound": "Potassium", "amount_per_100g": "1162 mg (dried)", "bioavailability_notes": "Highly bioavailable; supports blood pressure regulation and cardiovascular health"},
-    {"compound": "Dietary fiber", "amount_per_100g": "7.3 g (dried)", "bioavailability_notes": "Soluble and insoluble fiber; supports gut microbiome and slows sugar absorption"},
-    {"compound": "Chlorogenic acid (polyphenol)", "amount_per_100g": "~150 mg (fresh)", "bioavailability_notes": "Absorbed in small intestine and colon; anti-inflammatory and antioxidant"},
-    {"compound": "Iron (non-heme)", "amount_per_100g": "2.7 mg (dried)", "bioavailability_notes": "Pairing with vitamin C significantly improves absorption"}
+    {
+      "compound": "Beta-carotene (provitamin A)",
+      "amount_per_100g": "2163 mcg (dried)",
+      "bioavailability_notes": "Fat-soluble; absorption significantly enhanced by co-ingested fat (e.g., nuts or olive oil)"
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "1162 mg (dried)",
+      "bioavailability_notes": "Highly bioavailable; supports blood pressure regulation and cardiovascular health"
+    },
+    {
+      "compound": "Dietary fiber",
+      "amount_per_100g": "7.3 g (dried)",
+      "bioavailability_notes": "Soluble and insoluble fiber; supports gut microbiome and slows sugar absorption"
+    },
+    {
+      "compound": "Chlorogenic acid (polyphenol)",
+      "amount_per_100g": "~150 mg (fresh)",
+      "bioavailability_notes": "Absorbed in small intestine and colon; anti-inflammatory and antioxidant"
+    },
+    {
+      "compound": "Iron (non-heme)",
+      "amount_per_100g": "2.7 mg (dried)",
+      "bioavailability_notes": "Pairing with vitamin C significantly improves absorption"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "walnuts", "type": "complement", "description": "Classic Longevity Diet dessert pairing; walnuts' fat enhances beta-carotene absorption from apricots; protein and fat buffer apricot's sugar"},
-    {"target_ingredient": "olive oil", "type": "synergy", "description": "Fat from olive oil dramatically increases bioavailability of apricot's beta-carotene (provitamin A)"},
-    {"target_ingredient": "vitamin c foods", "type": "synergy", "description": "Pairing apricots with a vitamin C source (e.g., citrus) enhances non-heme iron absorption from the dried fruit"}
+    {
+      "type": "complement",
+      "with": "walnuts",
+      "note": "Classic Longevity Diet dessert pairing; walnuts' fat enhances beta-carotene absorption from apricots; protein and fat buffer apricot's sugar"
+    },
+    {
+      "type": "synergy",
+      "with": "olive oil",
+      "note": "Fat from olive oil dramatically increases bioavailability of apricot's beta-carotene (provitamin A)"
+    },
+    {
+      "type": "synergy",
+      "with": "vitamin c foods",
+      "note": "Pairing apricots with a vitamin C source (e.g., citrus) enhances non-heme iron absorption from the dried fruit"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

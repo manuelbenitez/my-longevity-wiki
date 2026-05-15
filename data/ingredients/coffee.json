@@ -4,11 +4,13 @@
   "category": "beverage",
   "book_claims": [
     {
-      "claim": "3-4 cups per day achieves largest risk reduction for cardiovascular and cancer outcomes",
       "mechanism": "Not fully specified in this chapter; epidemiological association",
-      "study_ref": "Ref 236 in book (epidemiological studies)",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "3-4 cups per day achieves largest risk reduction for cardiovascular and cancer outcomes",
+      "reference": "Ref 236 in book (epidemiological studies)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,17 +40,53 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["bitter", "complex", "acidic (light roast)", "chocolatey (dark roast)", "nutty"],
-    "aroma": ["roasted", "caramel", "fruity (light roast)", "smoky (dark roast)", "earthy"],
-    "texture": ["liquid", "full-bodied (French press)", "clean (filter)"],
+    "taste": [
+      "bitter",
+      "complex",
+      "acidic (light roast)",
+      "chocolatey (dark roast)",
+      "nutty"
+    ],
+    "aroma": [
+      "roasted",
+      "caramel",
+      "fruity (light roast)",
+      "smoky (dark roast)",
+      "earthy"
+    ],
+    "texture": [
+      "liquid",
+      "full-bodied (French press)",
+      "clean (filter)"
+    ],
     "culinary_category": "beverage"
   },
   "culinary_pairings": [
-    {"ingredient": "dark-chocolate", "tradition": "Global", "source": "Mocha; shared chlorogenic acid and flavanol compounds"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Turkish", "source": "Traditional Middle Eastern coffee spicing; complementary blood glucose effects"},
-    {"ingredient": "walnuts", "tradition": "European", "source": "Classic accompaniment; shared polyphenol benefits"},
-    {"ingredient": "oat-porridge", "tradition": "Western", "source": "Breakfast pairing; but consume coffee between meals for iron absorption"},
-    {"ingredient": "cardamom", "tradition": "Middle Eastern", "source": "Arabic/Turkish coffee tradition; adds complexity and digestive benefits"}
+    {
+      "ingredient": "dark-chocolate",
+      "tradition": "Global",
+      "source": "Mocha; shared chlorogenic acid and flavanol compounds"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern / Turkish",
+      "source": "Traditional Middle Eastern coffee spicing; complementary blood glucose effects"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "European",
+      "source": "Classic accompaniment; shared polyphenol benefits"
+    },
+    {
+      "ingredient": "oat-porridge",
+      "tradition": "Western",
+      "source": "Breakfast pairing; but consume coffee between meals for iron absorption"
+    },
+    {
+      "ingredient": "cardamom",
+      "tradition": "Middle Eastern",
+      "source": "Arabic/Turkish coffee tradition; adds complexity and digestive benefits"
+    }
   ],
   "seasonality": "Available year-round. Beans from different origins have seasonal harvests (October-March for Central America, April-August for East Africa). Freshly roasted and ground beans retain volatile compounds and chlorogenic acids better than pre-ground.",
   "nutrient_highlights": [
@@ -75,9 +113,9 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "dark-chocolate",
       "type": "complement",
-      "description": "Shared chlorogenic acid family compounds; complementary flavanol profiles"
+      "with": "dark-chocolate",
+      "note": "Shared chlorogenic acid family compounds; complementary flavanol profiles"
     }
   ],
   "warnings": [
@@ -88,5 +126,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

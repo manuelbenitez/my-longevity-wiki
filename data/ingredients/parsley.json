@@ -4,11 +4,13 @@
   "category": "herb",
   "book_claims": [
     {
-      "claim": "Contains high levels of apigenin which inhibits proliferation of tumour cells in cell culture",
       "mechanism": "Flavone apigenin directly inhibits tumour cell proliferation",
-      "study_ref": "Ref 104 in book (cell culture studies)",
       "confidence": "low",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Contains high levels of apigenin which inhibits proliferation of tumour cells in cell culture",
+      "reference": "Ref 104 in book (cell culture studies)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -32,19 +34,62 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["fresh", "grassy", "peppery", "slightly bitter", "clean"],
-    "aroma": ["bright", "herbaceous", "green", "slightly anise-like (flat-leaf)"],
-    "texture": ["crisp stems", "delicate leaves", "light and feathery (curly variety)"],
+    "taste": [
+      "fresh",
+      "grassy",
+      "peppery",
+      "slightly bitter",
+      "clean"
+    ],
+    "aroma": [
+      "bright",
+      "herbaceous",
+      "green",
+      "slightly anise-like (flat-leaf)"
+    ],
+    "texture": [
+      "crisp stems",
+      "delicate leaves",
+      "light and feathery (curly variety)"
+    ],
     "culinary_category": "herb"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "French", "source": "Persillade (garlic + parsley) is the classic French finishing condiment"},
-    {"ingredient": "lemon", "tradition": "Mediterranean / Middle Eastern", "source": "Gremolata, tabbouleh, and fresh dressings"},
-    {"ingredient": "tomatoes", "tradition": "Italian / Middle Eastern", "source": "Foundation of tabbouleh; classic in Italian tomato sauces"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Salsa verde, chimichurri, and herb-oil dressings"},
-    {"ingredient": "bulgur wheat", "tradition": "Lebanese / Middle Eastern", "source": "Tabbouleh: parsley is the main ingredient, not a garnish"},
-    {"ingredient": "fish", "tradition": "French / Mediterranean", "source": "Classic herb for court-bouillon and fish en papillote"},
-    {"ingredient": "legumes", "tradition": "Middle Eastern", "source": "Essential in falafel, hummus garnish, and bean salads"}
+    {
+      "ingredient": "garlic",
+      "tradition": "French",
+      "source": "Persillade (garlic + parsley) is the classic French finishing condiment"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Gremolata, tabbouleh, and fresh dressings"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian / Middle Eastern",
+      "source": "Foundation of tabbouleh; classic in Italian tomato sauces"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Salsa verde, chimichurri, and herb-oil dressings"
+    },
+    {
+      "ingredient": "bulgur wheat",
+      "tradition": "Lebanese / Middle Eastern",
+      "source": "Tabbouleh: parsley is the main ingredient, not a garnish"
+    },
+    {
+      "ingredient": "fish",
+      "tradition": "French / Mediterranean",
+      "source": "Classic herb for court-bouillon and fish en papillote"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Middle Eastern",
+      "source": "Essential in falafel, hummus garnish, and bean salads"
+    }
   ],
   "seasonality": "Available year-round. Peak freshness in spring and autumn. Grows easily in pots or garden beds. Flat-leaf (Italian) parsley has more flavour than curly varieties.",
   "nutrient_highlights": [
@@ -71,18 +116,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "garlic",
       "type": "complement",
-      "description": "Persillade tradition; parsley's vitamin C enhances iron absorption from garlic-containing dishes"
+      "with": "garlic",
+      "note": "Persillade tradition; parsley's vitamin C enhances iron absorption from garlic-containing dishes"
     },
     {
-      "target_ingredient": "lemon-juice-vitamin-c",
       "type": "synergy",
-      "description": "Both enhance non-heme iron absorption; combined in gremolata and Middle Eastern salads"
+      "with": "lemon-juice-vitamin-c",
+      "note": "Both enhance non-heme iron absorption; combined in gremolata and Middle Eastern salads"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

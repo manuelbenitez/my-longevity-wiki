@@ -5,18 +5,33 @@ import matter from "gray-matter";
 const DATA_DIR = path.join(process.cwd(), "data");
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
+// Canonical claim shape (matches schemas/book-extract.schema.json + ingredient.schema.json).
+// Migrated from legacy {claim, study_ref} → {text, reference, recommendation} in 2026-05.
+export interface BookClaim {
+  text: string;
+  mechanism: string;
+  recommendation?: string | null;
+  reference?: string;
+  confidence: "high" | "medium" | "low";
+  book_slug?: string; // Required on EnrichedIngredient claims; absent on raw extracts.
+  inherited_from?: string;
+}
+
+export interface Relationship {
+  with: string;
+  type: "synergy" | "antagonism" | "complement";
+  note?: string;
+}
+
 export interface Ingredient {
   name: string;
   slug: string;
-  category: string;
-  claims: { claim: string; mechanism: string; confidence: string }[];
+  category?: string;
+  aliases?: string[];
+  page_refs?: number[];
+  claims: BookClaim[];
   consumption?: { amount?: string; frequency?: string; preparation?: string };
-  relationships: {
-    target_ingredient: string;
-    type: string;
-    description: string;
-  }[];
-  source_chapters: number[];
+  relationships?: Relationship[];
   [key: string]: unknown;
 }
 
@@ -24,7 +39,9 @@ export interface EnrichedIngredient {
   name: string;
   slug: string;
   category: string;
-  book_claims: { claim: string; mechanism: string; confidence: string }[];
+  aliases?: string[];
+  source_books: string[]; // Denormalized; recomputed on every write.
+  book_claims: BookClaim[];
   supplementary_research: {
     source: string;
     url?: string;
@@ -47,12 +64,11 @@ export interface EnrichedIngredient {
     amount_per_100g?: string;
     bioavailability_notes?: string;
   }[];
-  synergies: {
-    target_ingredient: string;
-    type: string;
-    description: string;
-  }[];
-  research_status: string;
+  synergies: Relationship[];
+  research_status: "complete" | "partial" | "book-only";
+  last_updated?: string;
+  last_researched?: string;
+  migration_version?: number;
   [key: string]: unknown;
 }
 
@@ -86,11 +102,22 @@ export interface Recipe {
   content: string;
 }
 
+/**
+ * Returns the union of every book's master ingredient list. With multi-book
+ * support, masters live under data/book-extracts/<slug>/ingredients-master.json
+ * (one per book). Each ingredient retains its book_slug via the claims.
+ */
 export function getMasterIngredients(): Ingredient[] {
-  const filePath = path.join(DATA_DIR, "book-extracts", "ingredients-master.json");
-  if (!fs.existsSync(filePath)) return [];
-  const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  return data.ingredients || [];
+  const bookExtractsDir = path.join(DATA_DIR, "book-extracts");
+  if (!fs.existsSync(bookExtractsDir)) return [];
+  const out: Ingredient[] = [];
+  for (const slugDir of fs.readdirSync(bookExtractsDir)) {
+    const masterPath = path.join(bookExtractsDir, slugDir, "ingredients-master.json");
+    if (!fs.existsSync(masterPath)) continue;
+    const data = JSON.parse(fs.readFileSync(masterPath, "utf-8"));
+    if (Array.isArray(data.ingredients)) out.push(...data.ingredients);
+  }
+  return out;
 }
 
 export function getEnrichedIngredient(slug: string): EnrichedIngredient | null {

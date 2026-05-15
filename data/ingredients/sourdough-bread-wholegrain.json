@@ -4,32 +4,40 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Slow-fermented sourdough has superior nutritional qualities compared to white bread made with refined flour and baker's yeast",
       "mechanism": "Lactobacillus bacteria in sourdough starter ferment in symbiosis with yeasts, breaking down phytic acid and improving mineral bioavailability; wholegrain flour retains wheat germ and bran providing fibre and micronutrients",
-      "study_ref": "book-assertion",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Slow-fermented sourdough has superior nutritional qualities compared to white bread made with refined flour and baker's yeast",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "High-fibre whole grains contribute to cholesterol lowering",
       "mechanism": "Dietary fibre blocks reabsorption of cholesterol and bile acids in small intestine; low-glycaemic foods rich in fibre reduce circulating insulin and increase short-chain fatty acid production",
-      "study_ref": "refs-20,21",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "High-fibre whole grains contribute to cholesterol lowering",
+      "reference": "refs-20,21",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contains ferulic acid which inhibits inflammation",
       "mechanism": "Ferulic acid phytochemical found in whole grains inhibits inflammatory pathways",
-      "study_ref": "ref-30",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Contains ferulic acid which inhibits inflammation",
+      "reference": "ref-30",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
       "mechanism": "Lactic acid bacteria in sourdough starter produce phytase enzymes that degrade phytic acid during long fermentation, releasing bound minerals",
-      "study_ref": "Ref 105 in book",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Slow fermentation reduces phytate levels, increasing iron and zinc absorption",
+      "reference": "Ref 105 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -59,18 +67,58 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["tangy", "complex", "slightly sour", "wheaty", "deep"],
-    "aroma": ["fermented", "yeasty", "lactic", "nutty crust"],
-    "texture": ["chewy crumb", "crisp crust", "open crumb structure", "moist"],
+    "taste": [
+      "tangy",
+      "complex",
+      "slightly sour",
+      "wheaty",
+      "deep"
+    ],
+    "aroma": [
+      "fermented",
+      "yeasty",
+      "lactic",
+      "nutty crust"
+    ],
+    "texture": [
+      "chewy crumb",
+      "crisp crust",
+      "open crumb structure",
+      "moist"
+    ],
     "culinary_category": "fermented whole grain bread"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Traditional bread-dipping; fat slows carbohydrate absorption"},
-    {"ingredient": "hummus", "tradition": "Middle Eastern", "source": "Complete protein when grain meets chickpea; classic combination"},
-    {"ingredient": "avocado", "tradition": "Modern global", "source": "Healthy monounsaturated fats on whole grain base"},
-    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Bruschetta tradition; lycopene with whole grain fiber"},
-    {"ingredient": "aged cheese", "tradition": "European", "source": "Tangy sourdough complements fermented dairy flavors"},
-    {"ingredient": "legume soups", "tradition": "Mediterranean / European", "source": "Bread for dipping in bean or lentil soup; complete protein combination"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Traditional bread-dipping; fat slows carbohydrate absorption"
+    },
+    {
+      "ingredient": "hummus",
+      "tradition": "Middle Eastern",
+      "source": "Complete protein when grain meets chickpea; classic combination"
+    },
+    {
+      "ingredient": "avocado",
+      "tradition": "Modern global",
+      "source": "Healthy monounsaturated fats on whole grain base"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian",
+      "source": "Bruschetta tradition; lycopene with whole grain fiber"
+    },
+    {
+      "ingredient": "aged cheese",
+      "tradition": "European",
+      "source": "Tangy sourdough complements fermented dairy flavors"
+    },
+    {
+      "ingredient": "legume soups",
+      "tradition": "Mediterranean / European",
+      "source": "Bread for dipping in bean or lentil soup; complete protein combination"
+    }
   ],
   "seasonality": "Year-round. Best made fresh weekly. True sourdough uses only flour, water, salt, and sourdough starter -- no added yeast. Check labels: many commercial 'sourdough' breads use yeast with added acid, missing the fermentation benefits.",
   "nutrient_highlights": [
@@ -102,18 +150,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Together provide complementary amino acids and combined soluble/insoluble fibre for gut microbiome diversity"
+      "with": "legumes",
+      "note": "Together provide complementary amino acids and combined soluble/insoluble fibre for gut microbiome diversity"
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Traditional pairing; bread with EVOO provides slow-release carbohydrates with healthy fats"
+      "with": "extra-virgin-olive-oil",
+      "note": "Traditional pairing; bread with EVOO provides slow-release carbohydrates with healthy fats"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7, 8]
+  "source_chapters": [
+    7,
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

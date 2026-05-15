@@ -4,28 +4,36 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
       "mechanism": "Absence of animal protein, grains and fruit combined with very low calorie content (~500 cal/day) inhibits the insulin/IGF-1/mTOR pathway that modulates ageing and cancer development",
-      "study_ref": "Refs 46, 47 in book; author's own clinical studies",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Consuming only non-starchy vegetables on fasting days powerfully shuts down the insulin/IGF-1/mTOR pro-ageing pathway",
+      "reference": "Refs 46, 47 in book; author's own clinical studies",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
       "mechanism": "Very low calorie density of non-starchy vegetables keeps intake below 500 cal/day, achieving ~20-23% weekly calorie restriction",
-      "study_ref": "Author's clinical randomised studies",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Vegetable fasting 2-3 times per week causes significant weight loss without calorie counting",
+      "reference": "Author's clinical randomised studies",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Vegetable fasting activates longevity pathways via hormesis",
       "mechanism": "Fasting acts as chronic mild stressor (hormetic agent) that activates cellular protective and anti-ageing pathways, increases stress resistance, elevates cortisol moderately, and enhances removal of damaged proteins",
-      "study_ref": "Refs 48, 49, 50 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Vegetable fasting activates longevity pathways via hormesis",
+      "reference": "Refs 48, 49, 50 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Fasting increases brain-derived neurotrophic factor (BDNF)",
       "mechanism": "BDNF promotes growth and survival of nerve cells, strengthening brain function",
-      "study_ref": "book-assertion",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Fasting increases brain-derived neurotrophic factor (BDNF)",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -55,19 +63,59 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["varied: bitter (endive), mild (zucchini), peppery (arugula)", "refreshing", "clean"],
-    "aroma": ["fresh", "green", "earthy"],
-    "texture": ["crunchy raw", "tender cooked", "high water content"],
+    "taste": [
+      "varied: bitter (endive), mild (zucchini), peppery (arugula)",
+      "refreshing",
+      "clean"
+    ],
+    "aroma": [
+      "fresh",
+      "green",
+      "earthy"
+    ],
+    "texture": [
+      "crunchy raw",
+      "tender cooked",
+      "high water content"
+    ],
     "culinary_category": "mixed vegetables (fasting context)"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean / Book protocol", "source": "Book allows 1 tbsp at lunch and dinner on fasting days; essential for fat-soluble nutrient absorption"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean / Book protocol", "source": "Permitted dressing on fasting days alongside olive oil and vinegar"},
-    {"ingredient": "vinegar", "tradition": "Mediterranean / Book protocol", "source": "Acetic acid may further improve insulin sensitivity; permitted on fasting days"},
-    {"ingredient": "herbs (fresh)", "tradition": "Mediterranean", "source": "Zero-calorie flavor enhancement; rosemary, basil, parsley, mint"},
-    {"ingredient": "mixed salad leaves", "tradition": "Mediterranean", "source": "Lettuce, arugula, endive, chicory form the base of fasting-day meals"},
-    {"ingredient": "zucchini", "tradition": "Mediterranean", "source": "Low-calorie, versatile non-starchy vegetable for soups and grills on fasting days"},
-    {"ingredient": "fennel", "tradition": "Italian", "source": "Crunchy, aromatic, very low calorie; satisfying raw or braised"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean / Book protocol",
+      "source": "Book allows 1 tbsp at lunch and dinner on fasting days; essential for fat-soluble nutrient absorption"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean / Book protocol",
+      "source": "Permitted dressing on fasting days alongside olive oil and vinegar"
+    },
+    {
+      "ingredient": "vinegar",
+      "tradition": "Mediterranean / Book protocol",
+      "source": "Acetic acid may further improve insulin sensitivity; permitted on fasting days"
+    },
+    {
+      "ingredient": "herbs (fresh)",
+      "tradition": "Mediterranean",
+      "source": "Zero-calorie flavor enhancement; rosemary, basil, parsley, mint"
+    },
+    {
+      "ingredient": "mixed salad leaves",
+      "tradition": "Mediterranean",
+      "source": "Lettuce, arugula, endive, chicory form the base of fasting-day meals"
+    },
+    {
+      "ingredient": "zucchini",
+      "tradition": "Mediterranean",
+      "source": "Low-calorie, versatile non-starchy vegetable for soups and grills on fasting days"
+    },
+    {
+      "ingredient": "fennel",
+      "tradition": "Italian",
+      "source": "Crunchy, aromatic, very low calorie; satisfying raw or braised"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -93,18 +141,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil used as dressing on fasting days; each tablespoon adds ~100 calories so limited to 2 per day"
     },
     {
-      "target_ingredient": "lemon-juice",
       "type": "complement",
-      "description": "Used as dressing alongside olive oil on fasting day vegetables"
+      "with": "lemon-juice",
+      "note": "Used as dressing alongside olive oil on fasting day vegetables"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5]
+  "source_chapters": [
+    5
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

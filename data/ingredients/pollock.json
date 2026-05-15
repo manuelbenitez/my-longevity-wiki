@@ -2,39 +2,58 @@
   "name": "Pollock",
   "slug": "pollock",
   "category": "fish",
-  "aliases": ["Alaska pollock", "walleye pollock", "Gadus chalcogrammus"],
+  "aliases": [
+    "Alaska pollock",
+    "walleye pollock",
+    "Gadus chalcogrammus"
+  ],
   "book_claims": [
     {
-      "claim": "Pollock is listed in the Longevity Diet as a lean fish providing 0.4 g EPA/DHA omega-3 per 75 g cooked serving, recommended as part of the diet's twice-weekly fatty/lean fish component.",
       "mechanism": "EPA and DHA omega-3 fatty acids reduce triglycerides, lower inflammatory eicosanoid production, support neuronal membrane integrity, and are associated with reduced cardiovascular and all-cause mortality.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Pollock is listed in the Longevity Diet as a lean fish providing 0.4 g EPA/DHA omega-3 per 75 g cooked serving, recommended as part of the diet's twice-weekly fatty/lean fish component.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "PubMed — Mozaffarian & Wu, Journal of the American College of Cardiology (2011) — PMID 21945129",
+      "source": "PubMed \u2014 Mozaffarian & Wu, Journal of the American College of Cardiology (2011) \u2014 PMID 21945129",
       "url": "https://pubmed.ncbi.nlm.nih.gov/21945129/",
       "finding": "Seafood omega-3s (EPA/DHA) reduce cardiovascular mortality by ~36% in meta-analyses; even modest intakes from lean fish like pollock contribute to cardioprotective thresholds.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Hosomi et al., Journal of Nutritional Science and Vitaminology (2011) — PMID 22101551",
+      "source": "PubMed \u2014 Hosomi et al., Journal of Nutritional Science and Vitaminology (2011) \u2014 PMID 22101551",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22101551/",
       "finding": "Alaska pollock provides high-quality complete protein (DIAAS > 1.0) with all essential amino acids; lean white fish protein supports muscle protein synthesis and maintenance of lean mass during aging (sarcopenia prevention).",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — FAO/WHO Joint Expert Consultation (2011) — PMID 22254072",
+      "source": "PubMed \u2014 FAO/WHO Joint Expert Consultation (2011) \u2014 PMID 22254072",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22254072/",
       "finding": "Pollock is among the most sustainable commercially harvested fish; low mercury content (<0.04 ppm) makes it suitable for regular consumption in longevity diets where fish frequency is emphasized.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "slightly sweet", "clean", "neutral"],
-    "aroma": ["mild ocean", "neutral", "clean"],
-    "texture": ["flaky", "firm", "moist when not overcooked"],
+    "taste": [
+      "mild",
+      "slightly sweet",
+      "clean",
+      "neutral"
+    ],
+    "aroma": [
+      "mild ocean",
+      "neutral",
+      "clean"
+    ],
+    "texture": [
+      "flaky",
+      "firm",
+      "moist when not overcooked"
+    ],
     "culinary_category": "lean white fish"
   },
   "culinary_pairings": [
@@ -67,7 +86,7 @@
     },
     {
       "compound": "Protein",
-      "amount_per_100g": "19–21 g (cooked)",
+      "amount_per_100g": "19\u201321 g (cooked)",
       "bioavailability_notes": "Complete, high-quality protein; DIAAS > 1.0; supports muscle maintenance during aging and IGF-1 modulation relevant to longevity."
     },
     {
@@ -83,23 +102,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "lemon",
       "type": "complement",
-      "description": "Lemon juice brightens the mild flavor and vitamin C enhances absorption of any non-heme iron or fat-soluble nutrients in an accompanying vegetable side."
+      "with": "lemon",
+      "note": "Lemon juice brightens the mild flavor and vitamin C enhances absorption of any non-heme iron or fat-soluble nutrients in an accompanying vegetable side."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Olive oil adds monounsaturated fats and polyphenols that complement the omega-3 profile of pollock, forming a broadly cardioprotective meal."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil adds monounsaturated fats and polyphenols that complement the omega-3 profile of pollock, forming a broadly cardioprotective meal."
     },
     {
-      "target_ingredient": "garlic",
       "type": "complement",
-      "description": "Garlic allicin compounds have complementary cardiovascular benefits (blood pressure, platelet aggregation) that synergize with fish omega-3s."
+      "with": "garlic",
+      "note": "Garlic allicin compounds have complementary cardiovascular benefits (blood pressure, platelet aggregation) that synergize with fish omega-3s."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

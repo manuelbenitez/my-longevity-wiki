@@ -4,25 +4,31 @@
   "category": "herb",
   "book_claims": [
     {
-      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
       "mechanism": "Water-soluble fibre blocks reabsorption of cholesterol and bile acids in small intestine",
-      "study_ref": "Canadian trial, ref-17",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "reference": "Canadian trial, ref-17",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Reduces severity of colitis",
       "mechanism": "Soluble fibre feeds beneficial gut bacteria, produces anti-inflammatory short-chain fatty acids; directly modulates intestinal immune response",
-      "study_ref": "ref-38",
       "confidence": "high",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Reduces severity of colitis",
+      "reference": "ref-38",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Supplementation causes substantial improvement in gastrointestinal symptoms in ulcerative colitis patients in remission",
       "mechanism": "Prebiotic fibre supports beneficial bacterial populations and SCFA production; reduces intestinal inflammation",
-      "study_ref": "ref-42 (small randomised clinical trial)",
       "confidence": "medium",
-      "_from_chapter": 8
+      "_from_chapter": 8,
+      "text": "Supplementation causes substantial improvement in gastrointestinal symptoms in ulcerative colitis patients in remission",
+      "reference": "ref-42 (small randomised clinical trial)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -52,18 +58,53 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["neutral", "slightly earthy", "bland"],
-    "aroma": ["mild", "hay-like"],
-    "texture": ["mucilaginous when hydrated", "gritty if undissolved", "gel-like"],
+    "taste": [
+      "neutral",
+      "slightly earthy",
+      "bland"
+    ],
+    "aroma": [
+      "mild",
+      "hay-like"
+    ],
+    "texture": [
+      "mucilaginous when hydrated",
+      "gritty if undissolved",
+      "gel-like"
+    ],
     "culinary_category": "functional supplement"
   },
   "culinary_pairings": [
-    {"ingredient": "oat-porridge", "tradition": "Western health food", "source": "Both soluble fibre sources; combined in breakfast porridge for cholesterol lowering"},
-    {"ingredient": "smoothies", "tradition": "Modern health food", "source": "Blends seamlessly into fruit and vegetable smoothies"},
-    {"ingredient": "yogurt", "tradition": "Western", "source": "Mixed into yogurt for added fibre without flavour change"},
-    {"ingredient": "legumes", "tradition": "Functional pairing", "source": "Different fibre types feed complementary gut bacteria populations"},
-    {"ingredient": "cinnamon", "tradition": "Modern health food", "source": "Cinnamon masks psyllium's mild earthiness in drinks and porridge"},
-    {"ingredient": "flaxseeds", "tradition": "Health food", "source": "Combined soluble fibre sources for comprehensive gut and cholesterol support"}
+    {
+      "ingredient": "oat-porridge",
+      "tradition": "Western health food",
+      "source": "Both soluble fibre sources; combined in breakfast porridge for cholesterol lowering"
+    },
+    {
+      "ingredient": "smoothies",
+      "tradition": "Modern health food",
+      "source": "Blends seamlessly into fruit and vegetable smoothies"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Western",
+      "source": "Mixed into yogurt for added fibre without flavour change"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Functional pairing",
+      "source": "Different fibre types feed complementary gut bacteria populations"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Modern health food",
+      "source": "Cinnamon masks psyllium's mild earthiness in drinks and porridge"
+    },
+    {
+      "ingredient": "flaxseeds",
+      "tradition": "Health food",
+      "source": "Combined soluble fibre sources for comprehensive gut and cholesterol support"
+    }
   ],
   "seasonality": "Available year-round as dried husk supplement. Plantago ovata grown primarily in India. No seasonal variation in supplemental form.",
   "nutrient_highlights": [
@@ -80,18 +121,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "oats",
       "type": "synergy",
-      "description": "Both are soluble fibre sources in the cholesterol-lowering food portfolio"
+      "with": "oats",
+      "note": "Both are soluble fibre sources in the cholesterol-lowering food portfolio"
     },
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Different fibre types (soluble psyllium vs mixed legume fibre) feed complementary gut bacteria populations"
+      "with": "legumes",
+      "note": "Different fibre types (soluble psyllium vs mixed legume fibre) feed complementary gut bacteria populations"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8]
+  "source_chapters": [
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

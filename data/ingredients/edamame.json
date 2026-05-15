@@ -2,39 +2,59 @@
   "name": "Edamame",
   "slug": "edamame",
   "category": "legume",
-  "aliases": ["edamame, shelled, cooked", "fresh soybeans", "green soybeans", "Glycine max (immature)"],
+  "aliases": [
+    "edamame, shelled, cooked",
+    "fresh soybeans",
+    "green soybeans",
+    "Glycine max (immature)"
+  ],
   "book_claims": [
     {
-      "claim": "Listed as a source of magnesium (50 mg per ½ cup shelled cooked, 13% DV). Immature soybeans providing magnesium and plant protein. Recommended serving: ½ cup shelled cooked.",
-      "mechanism": "Magnesium is an essential cofactor for ATP synthesis, DNA repair, and over 300 enzymatic reactions; adequate magnesium status is associated with reduced cardiovascular disease, type 2 diabetes, and all-cause mortality risk — all central longevity targets.",
-      "study_ref": null,
-      "confidence": "high"
+      "mechanism": "Magnesium is an essential cofactor for ATP synthesis, DNA repair, and over 300 enzymatic reactions; adequate magnesium status is associated with reduced cardiovascular disease, type 2 diabetes, and all-cause mortality risk \u2014 all central longevity targets.",
+      "confidence": "high",
+      "text": "Listed as a source of magnesium (50 mg per \u00bd cup shelled cooked, 13% DV). Immature soybeans providing magnesium and plant protein. Recommended serving: \u00bd cup shelled cooked.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Aune et al., BMC Medicine (2016) — PMID 27916000",
+      "source": "Aune et al., BMC Medicine (2016) \u2014 PMID 27916000",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27916000/",
-      "finding": "Meta-analysis of 40 prospective studies found each 100 mg/day increment in magnesium intake reduced risk of type 2 diabetes by 19%, cardiovascular disease by 22%, and all-cause mortality by 10% — directly supporting edamame as a longevity-relevant magnesium source.",
+      "finding": "Meta-analysis of 40 prospective studies found each 100 mg/day increment in magnesium intake reduced risk of type 2 diabetes by 19%, cardiovascular disease by 22%, and all-cause mortality by 10% \u2014 directly supporting edamame as a longevity-relevant magnesium source.",
       "agrees_with_book": true
     },
     {
-      "source": "Messina, Nutrients (2016) — PMID 26751040",
+      "source": "Messina, Nutrients (2016) \u2014 PMID 26751040",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26751040/",
-      "finding": "Soy foods including edamame provide isoflavones (genistein, daidzein) that modulate estrogen receptor signaling, reducing menopausal symptoms and potentially breast cancer risk; soy protein also significantly reduces LDL cholesterol when replacing animal protein — a key Longevity Diet goal.",
+      "finding": "Soy foods including edamame provide isoflavones (genistein, daidzein) that modulate estrogen receptor signaling, reducing menopausal symptoms and potentially breast cancer risk; soy protein also significantly reduces LDL cholesterol when replacing animal protein \u2014 a key Longevity Diet goal.",
       "agrees_with_book": true
     },
     {
-      "source": "Li et al., JAMA Internal Medicine (2020) — PMID 32478837",
+      "source": "Li et al., JAMA Internal Medicine (2020) \u2014 PMID 32478837",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32478837/",
       "finding": "High soy food consumption is associated with reduced all-cause and cardiovascular mortality in a large prospective cohort study of over 74,000 participants; edamame provides a whole-food soy source with fiber and micronutrients intact.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["mildly sweet", "fresh", "slightly grassy", "beany"],
-    "aroma": ["fresh green", "faintly grassy", "clean"],
-    "texture": ["firm", "slightly waxy", "tender when fully cooked"],
+    "taste": [
+      "mildly sweet",
+      "fresh",
+      "slightly grassy",
+      "beany"
+    ],
+    "aroma": [
+      "fresh green",
+      "faintly grassy",
+      "clean"
+    ],
+    "texture": [
+      "firm",
+      "slightly waxy",
+      "tender when fully cooked"
+    ],
     "culinary_category": "legume / fresh bean"
   },
   "culinary_pairings": [
@@ -68,12 +88,12 @@
     {
       "compound": "Magnesium",
       "amount_per_100g (cooked)": "~64 mg",
-      "bioavailability_notes": "Absorbed in small intestine; 30–40% of dietary magnesium is absorbed; phytate in edamame slightly reduces absorption but the high absolute content makes it a reliable magnesium source."
+      "bioavailability_notes": "Absorbed in small intestine; 30\u201340% of dietary magnesium is absorbed; phytate in edamame slightly reduces absorption but the high absolute content makes it a reliable magnesium source."
     },
     {
       "compound": "Isoflavones (genistein + daidzein)",
       "amount_per_100g (cooked)": "~18 mg",
-      "bioavailability_notes": "Highest isoflavone content per serving among soy foods; equol production from daidzein by gut bacteria in ~30–50% of adults amplifies estrogenic and anti-inflammatory effects; bioavailability increased by fermentation."
+      "bioavailability_notes": "Highest isoflavone content per serving among soy foods; equol production from daidzein by gut bacteria in ~30\u201350% of adults amplifies estrogenic and anti-inflammatory effects; bioavailability increased by fermentation."
     },
     {
       "compound": "Complete plant protein",
@@ -83,18 +103,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "brown-rice",
       "type": "complement",
-      "description": "Edamame is high in lysine (limiting amino acid in rice) while rice supplies methionine (present but lower in edamame); classic East Asian complementary protein pairing delivering a complete amino acid profile."
+      "with": "brown-rice",
+      "note": "Edamame is high in lysine (limiting amino acid in rice) while rice supplies methionine (present but lower in edamame); classic East Asian complementary protein pairing delivering a complete amino acid profile."
     },
     {
-      "target_ingredient": "sesame-oil",
       "type": "synergy",
-      "description": "Sesame lignans (sesamin, sesamolin) synergistically enhance the bioavailability of isoflavones from edamame by inhibiting their hepatic metabolism; traditional East Asian pairing with nutritional rationale."
+      "with": "sesame-oil",
+      "note": "Sesame lignans (sesamin, sesamolin) synergistically enhance the bioavailability of isoflavones from edamame by inhibiting their hepatic metabolism; traditional East Asian pairing with nutritional rationale."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

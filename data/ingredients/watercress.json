@@ -16,13 +16,13 @@
       "agrees_with_book": true
     },
     {
-      "source": "PubMed – PMC8123986",
+      "source": "PubMed \u2013 PMC8123986",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8123986/",
-      "finding": "Narrative review (PMID 34055006): watercress extract upregulates superoxide dismutase and catalase, reduces malondialdehyde; in hypercholesterolemic models, lowers LDL-C by 48–52%, triglycerides by 30–44%, raises HDL-C; hepatoprotective and renoprotective effects confirmed across multiple models; anti-cancer activity spans initiation, proliferation, and metastasis stages via PEITC-mediated apoptosis and cell cycle arrest.",
+      "finding": "Narrative review (PMID 34055006): watercress extract upregulates superoxide dismutase and catalase, reduces malondialdehyde; in hypercholesterolemic models, lowers LDL-C by 48\u201352%, triglycerides by 30\u201344%, raises HDL-C; hepatoprotective and renoprotective effects confirmed across multiple models; anti-cancer activity spans initiation, proliferation, and metastasis stages via PEITC-mediated apoptosis and cell cycle arrest.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed – PMC12299072",
+      "source": "PubMed \u2013 PMC12299072",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12299072/",
       "finding": "2025 narrative review classifies watercress as a functional food for non-communicable disease prevention; identifies glucosinolates and isothiocyanates (especially PEITC) as primary bioactive drivers of anti-inflammatory, antiproliferative, and metabolic regulatory effects relevant to cardiovascular disease, type 2 diabetes, and cancer risk reduction.",
       "agrees_with_book": true
@@ -59,30 +59,30 @@
     {
       "ingredient": "orange",
       "tradition": "British",
-      "source": "Great British Chefs – classic watercress and orange salad"
+      "source": "Great British Chefs \u2013 classic watercress and orange salad"
     },
     {
       "ingredient": "smoked salmon",
       "tradition": "British / Nordic",
-      "source": "Food and Travel Magazine – smoked fish and watercress pairings"
+      "source": "Food and Travel Magazine \u2013 smoked fish and watercress pairings"
     },
     {
       "ingredient": "walnuts",
       "tradition": "French",
-      "source": "Flavonomics – watercress, walnut and blue cheese salad tradition"
+      "source": "Flavonomics \u2013 watercress, walnut and blue cheese salad tradition"
     }
   ],
   "seasonality": "Spring and autumn peak; available year-round from aquatic farms",
   "nutrient_highlights": [
     {
       "compound": "Vitamin K (phylloquinone)",
-      "amount_per_100g": "~250 µg (>200% RDI)",
+      "amount_per_100g": "~250 \u00b5g (>200% RDI)",
       "bioavailability_notes": "Fat-soluble; absorption improved with dietary fat. High intake may interact with warfarin anticoagulation therapy."
     },
     {
       "compound": "Phenethyl isothiocyanate (PEITC)",
-      "amount_per_100g": "~10–20 mg (formed from gluconasturtiin hydrolysis)",
-      "bioavailability_notes": "Released by chewing or chopping; heat-sensitive – raw consumption preserves levels. Primary driver of anti-cancer and antioxidant effects."
+      "amount_per_100g": "~10\u201320 mg (formed from gluconasturtiin hydrolysis)",
+      "bioavailability_notes": "Released by chewing or chopping; heat-sensitive \u2013 raw consumption preserves levels. Primary driver of anti-cancer and antioxidant effects."
     },
     {
       "compound": "Lutein + zeaxanthin",
@@ -97,23 +97,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Fat from olive oil enhances absorption of fat-soluble compounds in watercress (vitamin K, carotenoids, PEITC). A drizzle of olive oil in salads or wilted preparations maximises bioavailability."
+      "with": "olive oil",
+      "note": "Fat from olive oil enhances absorption of fat-soluble compounds in watercress (vitamin K, carotenoids, PEITC). A drizzle of olive oil in salads or wilted preparations maximises bioavailability."
     },
     {
-      "target_ingredient": "broccoli",
       "type": "synergy",
-      "description": "Both are glucosinolate-rich cruciferous vegetables; combined intake broadens the spectrum of isothiocyanates (PEITC from watercress, sulforaphane from broccoli), potentially additive in Nrf2 pathway activation and phase II detoxification enzyme induction."
+      "with": "broccoli",
+      "note": "Both are glucosinolate-rich cruciferous vegetables; combined intake broadens the spectrum of isothiocyanates (PEITC from watercress, sulforaphane from broccoli), potentially additive in Nrf2 pathway activation and phase II detoxification enzyme induction."
     },
     {
-      "target_ingredient": "citrus (lemon/orange)",
       "type": "complement",
-      "description": "Vitamin C in citrus stabilises watercress carotenoids and enhances non-haem iron absorption from watercress. Lemon juice also brightens the peppery flavour and is a standard pairing in both raw salads and cooked applications."
+      "with": "citrus (lemon/orange)",
+      "note": "Vitamin C in citrus stabilises watercress carotenoids and enhances non-haem iron absorption from watercress. Lemon juice also brightens the peppery flavour and is a standard pairing in both raw salads and cooked applications."
     }
   ],
   "last_updated": "2026-04-18T00:00:00Z",
   "last_researched": "2026-04-18T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

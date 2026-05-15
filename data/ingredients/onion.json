@@ -4,16 +4,20 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "One of the richest sources of dietary flavonoids important for cardiovascular disease and cancer prevention, especially gastric cancer",
       "mechanism": "Contains fructooligosaccharides and thiosulfinates. Flavonoids prevent cardiovascular disease and cancer.",
-      "study_ref": "Ref 67 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "One of the richest sources of dietary flavonoids important for cardiovascular disease and cancer prevention, especially gastric cancer",
+      "reference": "Ref 67 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Italian sweet red onion Tropea contains taxifolin, a powerful inhibitor of many cancer cell types",
       "mechanism": "Taxifolin directly inhibits cultured cancer cell growth. Red onions have highest flavonol levels; yellow onions contain half as much.",
-      "study_ref": "Ref 68 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Italian sweet red onion Tropea contains taxifolin, a powerful inhibitor of many cancer cell types",
+      "reference": "Ref 68 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -43,19 +47,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["pungent and sharp raw", "sweet when caramelized", "savory", "mild sulfurous"],
-    "aroma": ["acrid and tear-inducing raw", "rich and sweet when cooked", "caramel notes when browned"],
-    "texture": ["crisp and crunchy raw", "silky and soft caramelized", "melting when slow-cooked"],
+    "taste": [
+      "pungent and sharp raw",
+      "sweet when caramelized",
+      "savory",
+      "mild sulfurous"
+    ],
+    "aroma": [
+      "acrid and tear-inducing raw",
+      "rich and sweet when cooked",
+      "caramel notes when browned"
+    ],
+    "texture": [
+      "crisp and crunchy raw",
+      "silky and soft caramelized",
+      "melting when slow-cooked"
+    ],
     "culinary_category": "aromatic"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "Global", "source": "Fellow alliums; foundational aromatic duo in virtually every cuisine on earth"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Base for soffritto; fat enhances quercetin absorption"},
-    {"ingredient": "tomatoes", "tradition": "Mediterranean / Indian", "source": "Onion-tomato base is fundamental in Italian sauces and Indian curries alike"},
-    {"ingredient": "bell peppers", "tradition": "Mediterranean / Cajun", "source": "Part of the Holy Trinity (Cajun) and standard Mediterranean roasted vegetables"},
-    {"ingredient": "vinegar (balsamic)", "tradition": "Italian", "source": "Acid and sweet balance onion's pungency; classic agrodolce pairing"},
-    {"ingredient": "thyme", "tradition": "French", "source": "Classic French onion soup; thyme's earthiness deepens caramelized onion flavor"},
-    {"ingredient": "lentils", "tradition": "Indian / Middle Eastern", "source": "Onion is the base of virtually all dal and lentil soups; complementary nutrients"}
+    {
+      "ingredient": "garlic",
+      "tradition": "Global",
+      "source": "Fellow alliums; foundational aromatic duo in virtually every cuisine on earth"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Base for soffritto; fat enhances quercetin absorption"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mediterranean / Indian",
+      "source": "Onion-tomato base is fundamental in Italian sauces and Indian curries alike"
+    },
+    {
+      "ingredient": "bell peppers",
+      "tradition": "Mediterranean / Cajun",
+      "source": "Part of the Holy Trinity (Cajun) and standard Mediterranean roasted vegetables"
+    },
+    {
+      "ingredient": "vinegar (balsamic)",
+      "tradition": "Italian",
+      "source": "Acid and sweet balance onion's pungency; classic agrodolce pairing"
+    },
+    {
+      "ingredient": "thyme",
+      "tradition": "French",
+      "source": "Classic French onion soup; thyme's earthiness deepens caramelized onion flavor"
+    },
+    {
+      "ingredient": "lentils",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Onion is the base of virtually all dal and lentil soups; complementary nutrients"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -83,5 +128,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }
