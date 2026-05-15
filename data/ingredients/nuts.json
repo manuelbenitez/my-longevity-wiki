@@ -4,28 +4,36 @@
   "category": "nut",
   "book_claims": [
     {
-      "claim": "Regular consumption supports disease prevention and longevity",
       "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
-      "study_ref": "Ref 5 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Regular consumption supports disease prevention and longevity",
+      "reference": "Ref 5 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Five servings per week associated with 40-60% reduction in heart attack risk",
       "mechanism": "Provide polyunsaturated omega-3 fatty acids (walnuts) and omega-6 fatty acids plus plant sterols (almonds, hazelnuts, pine nuts) that reduce LDL-cholesterol",
-      "study_ref": "ref-18 (epidemiological studies)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Five servings per week associated with 40-60% reduction in heart attack risk",
+      "reference": "ref-18 (epidemiological studies)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
       "mechanism": "Combined effect of nuts with soy protein, oats, barley and psyllium on cholesterol absorption and synthesis",
-      "study_ref": "Canadian trial, ref-17",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Part of cholesterol-lowering food portfolio that lowers LDL-cholesterol by 13%",
+      "reference": "Canadian trial, ref-17",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
       "mechanism": "Omega-3 and omega-6 fatty acids reduce inflammation and improve lipid profile",
-      "study_ref": "ref-9 (randomised trial)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Indo-Mediterranean diet with walnuts and almonds reduced non-fatal heart attacks by 50% and sudden cardiac death by 60%",
+      "reference": "ref-9 (randomised trial)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -49,17 +57,50 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "sweet to bitter (varies by type)", "earthy", "rich"],
-    "aroma": ["toasty", "buttery", "woody"],
-    "texture": ["crunchy", "creamy when ground", "oily"],
+    "taste": [
+      "nutty",
+      "sweet to bitter (varies by type)",
+      "earthy",
+      "rich"
+    ],
+    "aroma": [
+      "toasty",
+      "buttery",
+      "woody"
+    ],
+    "texture": [
+      "crunchy",
+      "creamy when ground",
+      "oily"
+    ],
     "culinary_category": "tree nut"
   },
   "culinary_pairings": [
-    {"ingredient": "dried fruits", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional dessert pairing; fat + fibre moderate glycemic response"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Complementary unsaturated fatty acid profiles; PREDIMED tested both"},
-    {"ingredient": "dark chocolate", "tradition": "European / Global", "source": "Combined polyphenol profiles for additive cardiovascular benefit"},
-    {"ingredient": "oats / whole grains", "tradition": "Global", "source": "Cholesterol-lowering food portfolio combining nuts, oats, and barley"},
-    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional sweetener with nuts; baklava, nougat, nut bars"}
+    {
+      "ingredient": "dried fruits",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional dessert pairing; fat + fibre moderate glycemic response"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Complementary unsaturated fatty acid profiles; PREDIMED tested both"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "European / Global",
+      "source": "Combined polyphenol profiles for additive cardiovascular benefit"
+    },
+    {
+      "ingredient": "oats / whole grains",
+      "tradition": "Global",
+      "source": "Cholesterol-lowering food portfolio combining nuts, oats, and barley"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional sweetener with nuts; baklava, nougat, nut bars"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -80,18 +121,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
+      "with": "extra-virgin-olive-oil",
+      "note": "Both provide complementary unsaturated fatty acid profiles; PREDIMED tested both as Mediterranean diet supplements"
     },
     {
-      "target_ingredient": "fish",
       "type": "complement",
-      "description": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
+      "with": "fish",
+      "note": "Walnuts provide plant-based omega-3 (ALA) complementing marine omega-3 (EPA/DHA) from fish"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [4, 7, 8]
+  "source_chapters": [
+    4,
+    7,
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

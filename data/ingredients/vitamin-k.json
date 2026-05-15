@@ -2,19 +2,30 @@
   "name": "Vitamin K",
   "slug": "vitamin-k",
   "category": "nutrient",
-  "aliases": ["phylloquinone", "menaquinone", "vitamin K1", "vitamin K2", "MK-4", "MK-7"],
+  "aliases": [
+    "phylloquinone",
+    "menaquinone",
+    "vitamin K1",
+    "vitamin K2",
+    "MK-4",
+    "MK-7"
+  ],
   "book_claims": [
     {
-      "claim": "50–90% of US adults are deficient in vitamin K; it is important for essential body functions.",
       "mechanism": "Vitamin K is an essential cofactor for blood clotting proteins (factors II, VII, IX, X) and for the carboxylation of osteocalcin, the bone matrix protein that binds calcium. Deficiency leads to impaired coagulation and reduced bone mineralization.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "50\u201390% of US adults are deficient in vitamin K; it is important for essential body functions.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Longo recommends ensuring adequate vitamin K intake via a multivitamin every 2–3 days and through green leafy vegetables.",
       "mechanism": "Plant foods (kale, spinach, broccoli) provide vitamin K1 (phylloquinone); fermented foods and some animal products provide K2 (menaquinones), which has greater affinity for vascular and bone tissues.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Longo recommends ensuring adequate vitamin K intake via a multivitamin every 2\u20133 days and through green leafy vegetables.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -33,7 +44,7 @@
     {
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/28025257/",
-      "finding": "PMID 28025257: Review confirms widespread subclinical K deficiency in Western populations (consistent with the 50–90% figure cited by Longo) and links inadequate status to accelerated vascular calcification and frailty in aging.",
+      "finding": "PMID 28025257: Review confirms widespread subclinical K deficiency in Western populations (consistent with the 50\u201390% figure cited by Longo) and links inadequate status to accelerated vascular calcification and frailty in aging.",
       "agrees_with_book": true
     },
     {
@@ -84,29 +95,32 @@
     },
     {
       "compound": "Menaquinone-7 (K2 MK-7)",
-      "amount_per_100g": "Natto ~1000 mcg; other fermented foods ~10–50 mcg",
+      "amount_per_100g": "Natto ~1000 mcg; other fermented foods ~10\u201350 mcg",
       "bioavailability_notes": "MK-7 has a plasma half-life of ~72 hours vs ~1 hour for K1; better sustained activation of vascular and bone K-dependent proteins."
     }
   ],
   "synergies": [
     {
-      "target_ingredient": "vitamin d",
       "type": "synergy",
-      "description": "Vitamin D promotes calcium absorption and osteocalcin synthesis; vitamin K2 activates osteocalcin via carboxylation, directing calcium into bone rather than soft tissues. Co-supplementation is widely recommended for bone and vascular health."
+      "with": "vitamin d",
+      "note": "Vitamin D promotes calcium absorption and osteocalcin synthesis; vitamin K2 activates osteocalcin via carboxylation, directing calcium into bone rather than soft tissues. Co-supplementation is widely recommended for bone and vascular health."
     },
     {
-      "target_ingredient": "calcium",
       "type": "synergy",
-      "description": "K2 activates matrix Gla protein (MGP) and osteocalcin, which guide calcium into bone and prevent arterial calcification; without adequate K, calcium supplementation may increase vascular calcification risk."
+      "with": "calcium",
+      "note": "K2 activates matrix Gla protein (MGP) and osteocalcin, which guide calcium into bone and prevent arterial calcification; without adequate K, calcium supplementation may increase vascular calcification risk."
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Dietary fat is required for absorption of fat-soluble vitamin K1 from vegetables; drizzling olive oil on leafy greens significantly increases phylloquinone bioavailability."
+      "with": "olive oil",
+      "note": "Dietary fat is required for absorption of fat-soluble vitamin K1 from vegetables; drizzling olive oil on leafy greens significantly increases phylloquinone bioavailability."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

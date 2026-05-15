@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Traditional frugal food consumed at dusk during Ramadan fasting",
       "mechanism": "Provides quick glucose replenishment after extended fast without large caloric load",
-      "study_ref": "book-assertion (cultural reference)",
-      "confidence": "low"
+      "confidence": "low",
+      "text": "Traditional frugal food consumed at dusk during Ramadan fasting",
+      "reference": "book-assertion (cultural reference)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,18 +33,57 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["intensely sweet", "caramel-like", "butterscotch", "honey-like"],
-    "aroma": ["warm", "molasses-like", "slightly fermented", "toffee"],
-    "texture": ["sticky", "chewy", "dense", "fudge-like (Medjool)"],
+    "taste": [
+      "intensely sweet",
+      "caramel-like",
+      "butterscotch",
+      "honey-like"
+    ],
+    "aroma": [
+      "warm",
+      "molasses-like",
+      "slightly fermented",
+      "toffee"
+    ],
+    "texture": [
+      "sticky",
+      "chewy",
+      "dense",
+      "fudge-like (Medjool)"
+    ],
     "culinary_category": "dried fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "walnuts / almonds", "tradition": "Middle Eastern / North African", "source": "Traditional pairing as stuffed dates; protein + fat slow glucose absorption"},
-    {"ingredient": "tahini / sesame", "tradition": "Middle Eastern", "source": "Date-tahini balls; traditional energy food"},
-    {"ingredient": "dark chocolate", "tradition": "Global", "source": "Chocolate-stuffed dates; complementary polyphenol profiles"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern / North African", "source": "Spiced date preparations; cinnamon moderates glycaemic response"},
-    {"ingredient": "yogurt", "tradition": "Middle Eastern", "source": "Dates with labneh; natural sweetener for dairy"},
-    {"ingredient": "oats", "tradition": "Global", "source": "Date-sweetened oatmeal and energy bars; whole food sugar replacement"}
+    {
+      "ingredient": "walnuts / almonds",
+      "tradition": "Middle Eastern / North African",
+      "source": "Traditional pairing as stuffed dates; protein + fat slow glucose absorption"
+    },
+    {
+      "ingredient": "tahini / sesame",
+      "tradition": "Middle Eastern",
+      "source": "Date-tahini balls; traditional energy food"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "Global",
+      "source": "Chocolate-stuffed dates; complementary polyphenol profiles"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern / North African",
+      "source": "Spiced date preparations; cinnamon moderates glycaemic response"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Middle Eastern",
+      "source": "Dates with labneh; natural sweetener for dairy"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Global",
+      "source": "Date-sweetened oatmeal and energy bars; whole food sugar replacement"
+    }
   ],
   "seasonality": "Harvested September-December. Dried dates available year-round. Medjool are the premium fresh-eating variety. Deglet Noor are drier and better for cooking.",
   "nutrient_highlights": [
@@ -76,5 +117,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5]
+  "source_chapters": [
+    5
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

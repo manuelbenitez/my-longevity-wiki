@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Used as a finishing ingredient in Ligurian minestrone and rice dishes.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Used as a finishing ingredient in Ligurian minestrone and rice dishes.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -79,23 +82,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "whole-grain pasta",
       "type": "complement",
-      "description": "Olive oil in pesto slows starch digestion, lowering the glycemic response; polyphenols add anti-inflammatory benefit"
+      "with": "whole-grain pasta",
+      "note": "Olive oil in pesto slows starch digestion, lowering the glycemic response; polyphenols add anti-inflammatory benefit"
     },
     {
-      "target_ingredient": "minestrone",
       "type": "synergy",
-      "description": "Pesto's allicin and rosmarinic acid extend the anti-inflammatory profile of vegetable-legume soup"
+      "with": "minestrone",
+      "note": "Pesto's allicin and rosmarinic acid extend the anti-inflammatory profile of vegetable-legume soup"
     },
     {
-      "target_ingredient": "fish",
       "type": "complement",
-      "description": "Basil's rosmarinic acid and fish's omega-3s together reduce oxidative stress via complementary mechanisms"
+      "with": "fish",
+      "note": "Basil's rosmarinic acid and fish's omega-3s together reduce oxidative stress via complementary mechanisms"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

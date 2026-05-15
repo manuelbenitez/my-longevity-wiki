@@ -2,36 +2,45 @@
   "name": "B Vitamins",
   "slug": "b-vitamins",
   "category": "nutrient",
-  "aliases": ["folate", "vitamin B12", "folic acid", "B-complex"],
+  "aliases": [
+    "folate",
+    "vitamin B12",
+    "folic acid",
+    "B-complex"
+  ],
   "book_claims": [
     {
-      "claim": "Deficiencies in B vitamins have been implicated in brain aging and dementias; Alzheimer's disease patients have lower levels of folate and vitamin B12.",
       "mechanism": "B vitamins are essential for neuronal function, myelin sheath maintenance, and homocysteine metabolism; deficiency may accelerate brain degeneration by elevating homocysteine, a neurotoxic amino acid.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Deficiencies in B vitamins have been implicated in brain aging and dementias; Alzheimer's disease patients have lower levels of folate and vitamin B12.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "B vitamin supplementation was found largely ineffective for dementia prevention except in countries where food is not fortified with folate.",
       "mechanism": "In countries with mandatory folate fortification, baseline B-vitamin status is often adequate, so supplementation provides marginal additional benefit.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "B vitamin supplementation was found largely ineffective for dementia prevention except in countries where food is not fortified with folate.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Smith et al., PLoS ONE (2010) — PMID 20838622",
+      "source": "Smith et al., PLoS ONE (2010) \u2014 PMID 20838622",
       "url": "https://pubmed.ncbi.nlm.nih.gov/20838622/",
       "finding": "High-dose B-vitamin supplementation (folic acid, B6, B12) slowed brain atrophy rate by ~30% over 2 years in older adults with mild cognitive impairment and elevated homocysteine, suggesting a protective role against neurodegeneration.",
       "agrees_with_book": true
     },
     {
-      "source": "Douaud et al., PNAS (2013) — PMID 23690582",
+      "source": "Douaud et al., PNAS (2013) \u2014 PMID 23690582",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23690582/",
       "finding": "B-vitamin treatment specifically reduced atrophy in brain regions most affected by Alzheimer's disease (medial temporal lobe), with greater benefit in those with higher baseline homocysteine, reinforcing the brain-aging connection.",
       "agrees_with_book": true
     },
     {
-      "source": "Clarke et al., BMJ (2014) — PMID 25525286",
+      "source": "Clarke et al., BMJ (2014) \u2014 PMID 25525286",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25525286/",
       "finding": "Meta-analysis of 11 trials found that B-vitamin supplementation lowered homocysteine and significantly reduced stroke risk by ~7%, supporting cardiovascular longevity benefits beyond cognitive effects.",
       "agrees_with_book": true
@@ -79,23 +88,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "vitamin-d",
       "type": "complement",
-      "description": "Both nutrients support neurological health; combined deficiency further increases dementia risk."
+      "with": "vitamin-d",
+      "note": "Both nutrients support neurological health; combined deficiency further increases dementia risk."
     },
     {
-      "target_ingredient": "omega-3",
       "type": "synergy",
-      "description": "Omega-3 fatty acids and B vitamins together more effectively slow brain atrophy than either alone, as shown in the VITACOG trial."
+      "with": "omega-3",
+      "note": "Omega-3 fatty acids and B vitamins together more effectively slow brain atrophy than either alone, as shown in the VITACOG trial."
     },
     {
-      "target_ingredient": "leafy-greens",
       "type": "complement",
-      "description": "Dark leafy greens are among the richest dietary sources of folate, making them a key food vehicle for B9 intake."
+      "with": "leafy-greens",
+      "note": "Dark leafy greens are among the richest dietary sources of folate, making them a key food vehicle for B9 intake."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,22 +4,28 @@
   "category": "spice",
   "book_claims": [
     {
-      "claim": "Curcumin has anti-inflammatory, antioxidant and anti-cancer effects, particularly relevant to colon cancer prevention",
       "mechanism": "Curcumin affects gene activity and induces apoptosis (programmed death) of cancer cells. Inhibitory effects against colon, skin and oral cancer in rodents.",
-      "study_ref": "Refs 81, 82, 83 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Curcumin has anti-inflammatory, antioxidant and anti-cancer effects, particularly relevant to colon cancer prevention",
+      "reference": "Refs 81, 82, 83 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Six months of curcumin + quercetin treatment resulted in significant reduction of colon polyp number and size",
       "mechanism": "Synergistic effect of curcumin and quercetin on colon polyp regression",
-      "study_ref": "Refs 84, 85 in book (pilot study)",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Six months of curcumin + quercetin treatment resulted in significant reduction of colon polyp number and size",
+      "reference": "Refs 84, 85 in book (pilot study)",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "May play a role in dementia prevention by inhibiting amyloid plaque formation",
       "mechanism": "Curcumin inhibits formation of amyloid plaques associated with Alzheimer's disease",
-      "study_ref": "Ref 86 in book",
-      "confidence": "low"
+      "confidence": "low",
+      "text": "May play a role in dementia prevention by inhibiting amyloid plaque formation",
+      "reference": "Ref 86 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -55,20 +61,67 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "slightly bitter", "warm", "mildly peppery", "mustard-like"],
-    "aroma": ["earthy", "warm", "ginger-like", "slightly musky", "peppery"],
-    "texture": ["fine powder (dried)", "fibrous and dense (fresh rhizome)"],
+    "taste": [
+      "earthy",
+      "slightly bitter",
+      "warm",
+      "mildly peppery",
+      "mustard-like"
+    ],
+    "aroma": [
+      "earthy",
+      "warm",
+      "ginger-like",
+      "slightly musky",
+      "peppery"
+    ],
+    "texture": [
+      "fine powder (dried)",
+      "fibrous and dense (fresh rhizome)"
+    ],
     "culinary_category": "spice / coloring agent"
   },
   "culinary_pairings": [
-    {"ingredient": "black pepper", "tradition": "Indian (Ayurvedic)", "source": "Traditional Ayurvedic medicine and Indian cuisine; piperine synergy for curcumin absorption"},
-    {"ingredient": "ginger", "tradition": "Indian / Southeast Asian", "source": "Classic curry base; both rhizomes with complementary anti-inflammatory pathways"},
-    {"ingredient": "coconut milk", "tradition": "Thai / Indonesian", "source": "Thai yellow curry, Indonesian jamu (turmeric tonic)"},
-    {"ingredient": "cumin", "tradition": "Indian / Middle Eastern", "source": "Core Indian spice blend; foundational curry powder combination"},
-    {"ingredient": "lentils and chickpeas", "tradition": "Indian", "source": "Dal and chana masala; turmeric is essential in nearly all Indian legume dishes"},
-    {"ingredient": "rice", "tradition": "Persian / Indian / Southeast Asian", "source": "Turmeric rice (tahdig, biryani, nasi kuning)"},
-    {"ingredient": "cauliflower", "tradition": "Indian", "source": "Aloo gobi; cauliflower readily absorbs turmeric color and flavor"},
-    {"ingredient": "cinnamon and cardamom", "tradition": "Indian / Middle Eastern", "source": "Golden milk (haldi doodh); warming spice blends"}
+    {
+      "ingredient": "black pepper",
+      "tradition": "Indian (Ayurvedic)",
+      "source": "Traditional Ayurvedic medicine and Indian cuisine; piperine synergy for curcumin absorption"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "Indian / Southeast Asian",
+      "source": "Classic curry base; both rhizomes with complementary anti-inflammatory pathways"
+    },
+    {
+      "ingredient": "coconut milk",
+      "tradition": "Thai / Indonesian",
+      "source": "Thai yellow curry, Indonesian jamu (turmeric tonic)"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Core Indian spice blend; foundational curry powder combination"
+    },
+    {
+      "ingredient": "lentils and chickpeas",
+      "tradition": "Indian",
+      "source": "Dal and chana masala; turmeric is essential in nearly all Indian legume dishes"
+    },
+    {
+      "ingredient": "rice",
+      "tradition": "Persian / Indian / Southeast Asian",
+      "source": "Turmeric rice (tahdig, biryani, nasi kuning)"
+    },
+    {
+      "ingredient": "cauliflower",
+      "tradition": "Indian",
+      "source": "Aloo gobi; cauliflower readily absorbs turmeric color and flavor"
+    },
+    {
+      "ingredient": "cinnamon and cardamom",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Golden milk (haldi doodh); warming spice blends"
+    }
   ],
   "seasonality": "Year-round as dried powder. Fresh turmeric rhizomes peak availability in late autumn to winter harvest (October-March). Store dried powder away from light to preserve curcuminoid content.",
   "nutrient_highlights": [
@@ -105,18 +158,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "black pepper",
       "type": "synergy",
-      "description": "Piperine in black pepper doubles blood curcumin levels by improving absorption"
+      "with": "black pepper",
+      "note": "Piperine in black pepper doubles blood curcumin levels by improving absorption"
     },
     {
-      "target_ingredient": "capers",
       "type": "synergy",
-      "description": "Quercetin (in capers) + curcumin resulted in significant colon polyp reduction in pilot study"
+      "with": "capers",
+      "note": "Quercetin (in capers) + curcumin resulted in significant colon polyp reduction in pilot study"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

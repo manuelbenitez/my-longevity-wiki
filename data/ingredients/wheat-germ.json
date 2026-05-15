@@ -2,13 +2,19 @@
   "name": "Wheat Germ",
   "slug": "wheat-germ",
   "category": "grain",
-  "aliases": ["wheat germ oil", "toasted wheat germ", "raw wheat germ"],
+  "aliases": [
+    "wheat germ oil",
+    "toasted wheat germ",
+    "raw wheat germ"
+  ],
   "book_claims": [
     {
-      "claim": "Wheat germ is a source of folate (40 mcg per 2 tbsp, 10% DV); wheat germ oil is the top food source of vitamin E (20.3 mg per 1 tbsp, 102% DV).",
       "mechanism": "Wheat germ oil is the most concentrated dietary source of vitamin E (alpha-tocopherol), a fat-soluble antioxidant that protects cell membranes from oxidative damage. Wheat germ provides folate essential for DNA synthesis and homocysteine regulation.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Wheat germ is a source of folate (40 mcg per 2 tbsp, 10% DV); wheat germ oil is the top food source of vitamin E (20.3 mg per 1 tbsp, 102% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -27,7 +33,7 @@
     {
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/11722957/",
-      "finding": "PMID 11722957: Wheat germ is a rich source of spermidine, a polyamine that induces autophagy — a core longevity pathway. Spermidine supplementation extended lifespan in multiple model organisms, providing a molecular mechanism beyond simple vitamin content.",
+      "finding": "PMID 11722957: Wheat germ is a rich source of spermidine, a polyamine that induces autophagy \u2014 a core longevity pathway. Spermidine supplementation extended lifespan in multiple model organisms, providing a molecular mechanism beyond simple vitamin content.",
       "agrees_with_book": true
     },
     {
@@ -38,9 +44,21 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "slightly sweet", "toasty", "mild"],
-    "aroma": ["toasted grain", "nutty", "warm"],
-    "texture": ["fine granules", "slightly oily when toasted"],
+    "taste": [
+      "nutty",
+      "slightly sweet",
+      "toasty",
+      "mild"
+    ],
+    "aroma": [
+      "toasted grain",
+      "nutty",
+      "warm"
+    ],
+    "texture": [
+      "fine granules",
+      "slightly oily when toasted"
+    ],
     "culinary_category": "topping / fortifier"
   },
   "culinary_pairings": [
@@ -94,23 +112,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Wheat germ oil's vitamin E protects polyunsaturated fats (including olive oil's minor components) from oxidation; using both provides complementary fat-soluble antioxidants."
+      "with": "olive oil",
+      "note": "Wheat germ oil's vitamin E protects polyunsaturated fats (including olive oil's minor components) from oxidation; using both provides complementary fat-soluble antioxidants."
     },
     {
-      "target_ingredient": "yogurt",
       "type": "complement",
-      "description": "Sprinkling wheat germ on yogurt combines probiotic gut-health benefits with spermidine-induced autophagy and vitamin E antioxidant protection — a practical longevity breakfast pairing."
+      "with": "yogurt",
+      "note": "Sprinkling wheat germ on yogurt combines probiotic gut-health benefits with spermidine-induced autophagy and vitamin E antioxidant protection \u2014 a practical longevity breakfast pairing."
     },
     {
-      "target_ingredient": "folate",
       "type": "synergy",
-      "description": "Wheat germ provides both folate and spermidine; folate supports one-carbon metabolism and DNA methylation while spermidine promotes cellular renewal via autophagy — complementary anti-aging mechanisms."
+      "with": "folate",
+      "note": "Wheat germ provides both folate and spermidine; folate supports one-carbon metabolism and DNA methylation while spermidine promotes cellular renewal via autophagy \u2014 complementary anti-aging mechanisms."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

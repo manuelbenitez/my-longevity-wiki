@@ -1,25 +1,31 @@
 {
   "name": "Iodised Salt",
   "slug": "iodised-salt",
-  "category": "oil_condiment",
+  "category": "oil",
   "book_claims": [
     {
-      "claim": "Diets high in salt increase calcium loss from bones",
       "mechanism": "High sodium intake increases renal calcium excretion, promoting negative calcium balance and bone loss",
-      "study_ref": "Ref 109 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Diets high in salt increase calcium loss from bones",
+      "reference": "Ref 109 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Essential for meeting daily iodine requirement (150mcg/day) which is critical for thyroid hormone production",
       "mechanism": "Potassium iodide in iodised salt provides iodine substrate for thyroid peroxidase enzyme to synthesize T3 and T4 hormones",
-      "study_ref": "book-assertion with refs-37-40",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Essential for meeting daily iodine requirement (150mcg/day) which is critical for thyroid hormone production",
+      "reference": "book-assertion with refs-37-40",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Mild iodine deficiency during pregnancy and breastfeeding affects brain development of unborn children and infants, potentially reducing IQ and causing ADHD",
       "mechanism": "Thyroid hormones are essential for neuronal migration, myelination, and synaptogenesis in developing brain",
-      "study_ref": "refs-38-40",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Mild iodine deficiency during pregnancy and breastfeeding affects brain development of unborn children and infants, potentially reducing IQ and causing ADHD",
+      "reference": "refs-38-40",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -43,17 +49,46 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["salty", "mineral", "clean"],
-    "aroma": ["none"],
-    "texture": ["crystalline", "fine or coarse"],
+    "taste": [
+      "salty",
+      "mineral",
+      "clean"
+    ],
+    "aroma": [
+      "none"
+    ],
+    "texture": [
+      "crystalline",
+      "fine or coarse"
+    ],
     "culinary_category": "seasoning / mineral"
   },
   "culinary_pairings": [
-    {"ingredient": "seaweed (dried)", "tradition": "Japanese / Korean", "source": "Natural iodine source allowing further salt reduction while maintaining iodine adequacy"},
-    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid can partially replace salt for flavor, reducing sodium needs"},
-    {"ingredient": "herbs and spices", "tradition": "Global", "source": "Flavor complexity from herbs reduces dependence on salt for taste"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Oil + salt as fundamental seasoning base"},
-    {"ingredient": "garlic", "tradition": "Global", "source": "Garlic's pungency reduces need for excess salt"}
+    {
+      "ingredient": "seaweed (dried)",
+      "tradition": "Japanese / Korean",
+      "source": "Natural iodine source allowing further salt reduction while maintaining iodine adequacy"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Global",
+      "source": "Acid can partially replace salt for flavor, reducing sodium needs"
+    },
+    {
+      "ingredient": "herbs and spices",
+      "tradition": "Global",
+      "source": "Flavor complexity from herbs reduces dependence on salt for taste"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Oil + salt as fundamental seasoning base"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Global",
+      "source": "Garlic's pungency reduces need for excess salt"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -74,13 +109,20 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "cabbage-broccoli",
       "type": "antagonism",
-      "description": "Excess salt counteracts calcium intake from vegetables by increasing calcium excretion"
+      "with": "cabbage-broccoli",
+      "note": "Excess salt counteracts calcium intake from vegetables by increasing calcium excretion"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7, 10]
+  "source_chapters": [
+    7,
+    10
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

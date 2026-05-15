@@ -2,31 +2,45 @@
   "name": "Yogurt",
   "slug": "yogurt",
   "category": "dairy",
-  "aliases": ["plain yogurt", "yogurt plain low fat", "Greek yogurt", "goat's milk yogurt", "sheep's milk yogurt"],
+  "aliases": [
+    "plain yogurt",
+    "yogurt plain low fat",
+    "Greek yogurt",
+    "goat's milk yogurt",
+    "sheep's milk yogurt"
+  ],
   "book_claims": [
     {
-      "claim": "Yogurt (particularly goat's milk yogurt) is used as a snack in the Longevity Diet at 125 g per serving.",
       "mechanism": "Fermented dairy provides probiotics that support gut microbiome diversity, a key longevity factor. Goat's milk has a different protein and fat profile from cow's milk and has historically been part of the diet of long-lived populations in Sardinia and southern Italy.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Yogurt (particularly goat's milk yogurt) is used as a snack in the Longevity Diet at 125 g per serving.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Goat's milk and yogurt were consumed at approximately 84 grams per day in the Biosphere 2 longevity experiment diet.",
       "mechanism": "Small amounts of fermented dairy provide protein, calcium, and probiotics without the larger IGF-1 and saturated fat burden of heavy dairy consumption.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Goat's milk and yogurt were consumed at approximately 84 grams per day in the Biosphere 2 longevity experiment diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Goat's milk yogurt is recommended for those over 65 who are losing muscle mass, as it is consumed in high-longevity areas.",
       "mechanism": "Yogurt provides easily digestible protein and calcium; goat's milk proteins are smaller and more digestible than cow's milk proteins for many individuals, particularly useful for elderly populations at risk of sarcopenia.",
-      "study_ref": "",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Goat's milk yogurt is recommended for those over 65 who are losing muscle mass, as it is consumed in high-longevity areas.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Plain low-fat yogurt provides vitamin A (32 mcg RAE per cup, 116 IU, 2% DV).",
       "mechanism": "Dairy retinol supports immune function, epithelial integrity, and vision; one of the micronutrients Longo tracks across the Longevity Diet.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Plain low-fat yogurt provides vitamin A (32 mcg RAE per cup, 116 IU, 2% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -45,20 +59,33 @@
     {
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/31484794/",
-      "finding": "PMID 31484794: Probiotic-rich yogurt consumption improved gut microbiota diversity and reduced inflammatory markers (IL-6, CRP) in elderly subjects — a population specifically targeted by Longo's recommendation to use yogurt after age 65.",
+      "finding": "PMID 31484794: Probiotic-rich yogurt consumption improved gut microbiota diversity and reduced inflammatory markers (IL-6, CRP) in elderly subjects \u2014 a population specifically targeted by Longo's recommendation to use yogurt after age 65.",
       "agrees_with_book": true
     },
     {
       "source": "Examine.com",
       "url": "https://examine.com/nutrition/is-yogurt-good-for-you/",
-      "finding": "Examine confirms that the probiotics in yogurt (L. bulgaricus, S. thermophilus) survive gastric transit and colonize the gut transiently, improving lactose tolerance and immune function; Greek yogurt provides ~2× the protein of regular yogurt.",
+      "finding": "Examine confirms that the probiotics in yogurt (L. bulgaricus, S. thermophilus) survive gastric transit and colonize the gut transiently, improving lactose tolerance and immune function; Greek yogurt provides ~2\u00d7 the protein of regular yogurt.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["tangy", "slightly sour", "creamy", "mild"],
-    "aroma": ["lactic", "fresh dairy", "slightly fermented"],
-    "texture": ["creamy", "thick", "smooth"],
+    "taste": [
+      "tangy",
+      "slightly sour",
+      "creamy",
+      "mild"
+    ],
+    "aroma": [
+      "lactic",
+      "fresh dairy",
+      "slightly fermented"
+    ],
+    "texture": [
+      "creamy",
+      "thick",
+      "smooth"
+    ],
     "culinary_category": "dairy / snack / condiment"
   },
   "culinary_pairings": [
@@ -106,7 +133,7 @@
     },
     {
       "compound": "Live cultures (Lactobacillus, Bifidobacterium)",
-      "amount_per_100g": "10^6–10^8 CFU/g",
+      "amount_per_100g": "10^6\u201310^8 CFU/g",
       "bioavailability_notes": "Surviving probiotic bacteria transiently colonize the colon, producing short-chain fatty acids (butyrate, propionate) that feed colonocytes and modulate immune function."
     },
     {
@@ -117,23 +144,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "wheat germ",
       "type": "complement",
-      "description": "Wheat germ adds spermidine (autophagy inducer), vitamin E, and folate to the probiotic and protein base of yogurt; a synergistic longevity breakfast pairing."
+      "with": "wheat germ",
+      "note": "Wheat germ adds spermidine (autophagy inducer), vitamin E, and folate to the probiotic and protein base of yogurt; a synergistic longevity breakfast pairing."
     },
     {
-      "target_ingredient": "walnuts",
       "type": "complement",
-      "description": "Walnuts add omega-3 ALA, polyphenols, and prebiotic fiber to yogurt; the combination supports gut microbiome diversity from both the probiotic (yogurt) and prebiotic (walnuts) sides."
+      "with": "walnuts",
+      "note": "Walnuts add omega-3 ALA, polyphenols, and prebiotic fiber to yogurt; the combination supports gut microbiome diversity from both the probiotic (yogurt) and prebiotic (walnuts) sides."
     },
     {
-      "target_ingredient": "feta cheese",
       "type": "complement",
-      "description": "Both goat/sheep milk fermented dairy products recommended in the Longevity Diet; together they provide a Mediterranean dairy pattern associated with longevity in Sardinia and Crete."
+      "with": "feta cheese",
+      "note": "Both goat/sheep milk fermented dairy products recommended in the Longevity Diet; together they provide a Mediterranean dairy pattern associated with longevity in Sardinia and Crete."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

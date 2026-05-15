@@ -2,39 +2,57 @@
   "name": "Reishi",
   "slug": "reishi",
   "category": "mushroom",
-  "aliases": ["Ganoderma lucidum", "lingzhi", "mushroom of immortality"],
+  "aliases": [
+    "Ganoderma lucidum",
+    "lingzhi",
+    "mushroom of immortality"
+  ],
   "book_claims": [
     {
-      "claim": "Reishi is included in the Longevity Diet mushroom group (75–150 g raw or boiled per dish). As a mushroom, it is recognized for vitamin D synthesis upon UV exposure — maitake leads at 786 IU/cup raw; all culinary mushrooms provide meaningful vitamin D when UV-exposed.",
       "mechanism": "Ergosterol in mushroom cell walls converts to ergocalciferol (vitamin D2) upon UV light exposure; vitamin D supports immune function, bone health, and anti-inflammatory signaling relevant to aging.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Reishi is included in the Longevity Diet mushroom group (75\u2013150 g raw or boiled per dish). As a mushroom, it is recognized for vitamin D synthesis upon UV exposure \u2014 maitake leads at 786 IU/cup raw; all culinary mushrooms provide meaningful vitamin D when UV-exposed.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "PubMed — Wachtel-Galor et al., Herbal Medicine: Biomolecular and Clinical Aspects (2011) — PMID 22593926",
+      "source": "PubMed \u2014 Wachtel-Galor et al., Herbal Medicine: Biomolecular and Clinical Aspects (2011) \u2014 PMID 22593926",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22593922/",
-      "finding": "Reishi mushroom polysaccharides (beta-glucans) and triterpenoids (ganoderic acids) demonstrate immunomodulatory, anti-inflammatory, and antioxidant activities in cell and animal studies; proposed mechanisms include NF-κB inhibition and enhancement of natural killer cell activity.",
+      "finding": "Reishi mushroom polysaccharides (beta-glucans) and triterpenoids (ganoderic acids) demonstrate immunomodulatory, anti-inflammatory, and antioxidant activities in cell and animal studies; proposed mechanisms include NF-\u03baB inhibition and enhancement of natural killer cell activity.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Jin et al., Cochrane Database of Systematic Reviews (2016) — PMID 27045853",
+      "source": "PubMed \u2014 Jin et al., Cochrane Database of Systematic Reviews (2016) \u2014 PMID 27045853",
       "url": "https://pubmed.ncbi.nlm.nih.gov/27045853/",
       "finding": "A Cochrane review of 5 randomized trials of Ganoderma lucidum found evidence of improved immune biomarkers and quality of life in cancer patients; authors note insufficient evidence to recommend as primary cancer therapy but acknowledge biologically plausible immunostimulatory mechanisms.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Zhu et al., International Journal of Medicinal Mushrooms (2015) — PMID 26756237",
+      "source": "PubMed \u2014 Zhu et al., International Journal of Medicinal Mushrooms (2015) \u2014 PMID 26756237",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26756237/",
       "finding": "Reishi beta-glucans extend median and maximum lifespan in C. elegans and Drosophila models; proposed mechanisms include activation of DAF-16/FOXO transcription factor (analogous to longevity-associated pathways in mammals) and reduction of oxidative stress.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["bitter", "earthy", "woody", "umami (in small amounts)"],
-    "aroma": ["woody", "earthy", "mushroom-like"],
-    "texture": ["tough and woody (fresh/dried whole)", "silky in liquid extracts"],
+    "taste": [
+      "bitter",
+      "earthy",
+      "woody",
+      "umami (in small amounts)"
+    ],
+    "aroma": [
+      "woody",
+      "earthy",
+      "mushroom-like"
+    ],
+    "texture": [
+      "tough and woody (fresh/dried whole)",
+      "silky in liquid extracts"
+    ],
     "culinary_category": "medicinal mushroom / tea / supplement"
   },
   "culinary_pairings": [
@@ -62,17 +80,17 @@
   "nutrient_highlights": [
     {
       "compound": "Beta-glucans (polysaccharides)",
-      "amount_per_100g": "~10–50 g (dried fruiting body varies widely)",
+      "amount_per_100g": "~10\u201350 g (dried fruiting body varies widely)",
       "bioavailability_notes": "High-molecular-weight polysaccharides stimulate immune cells via Dectin-1 and TLR-2 receptors; water extraction (tea/broth) enhances bioavailability compared to raw dried powder."
     },
     {
       "compound": "Triterpenoids (ganoderic acids)",
-      "amount_per_100g": "~1–3 g (dried extract)",
+      "amount_per_100g": "~1\u20133 g (dried extract)",
       "bioavailability_notes": "Fat-soluble; bile salt extraction or alcohol tincture improves bioavailability. Responsible for the characteristic bitter taste and anti-inflammatory properties."
     },
     {
       "compound": "Ergothioneine",
-      "amount_per_100g": "~5–10 mg (varies by strain)",
+      "amount_per_100g": "~5\u201310 mg (varies by strain)",
       "bioavailability_notes": "Potent antioxidant amino acid concentrated in mushrooms; may function as a 'longevity vitamin' with tissue-protective roles."
     },
     {
@@ -83,23 +101,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "portobello",
       "type": "complement",
-      "description": "Combining reishi triterpenoids with portobello beta-glucans offers complementary immune-modulating mechanisms; blending mushroom varieties maximizes bioactive diversity."
+      "with": "portobello",
+      "note": "Combining reishi triterpenoids with portobello beta-glucans offers complementary immune-modulating mechanisms; blending mushroom varieties maximizes bioactive diversity."
     },
     {
-      "target_ingredient": "ginger",
       "type": "complement",
-      "description": "Ginger gingerols and reishi ganoderic acids both inhibit NF-κB; their combination may produce additive anti-inflammatory effects in traditional tea preparations."
+      "with": "ginger",
+      "note": "Ginger gingerols and reishi ganoderic acids both inhibit NF-\u03baB; their combination may produce additive anti-inflammatory effects in traditional tea preparations."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Dietary fat enhances absorption of fat-soluble triterpenoids from reishi, suggesting consuming reishi-containing dishes with olive oil improves bioavailability."
+      "with": "extra-virgin-olive-oil",
+      "note": "Dietary fat enhances absorption of fat-soluble triterpenoids from reishi, suggesting consuming reishi-containing dishes with olive oil improves bioavailability."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

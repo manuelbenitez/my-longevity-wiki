@@ -2,13 +2,19 @@
   "name": "Herring",
   "slug": "herring",
   "category": "fish",
-  "aliases": ["Atlantic herring", "pickled herring", "kippered herring"],
+  "aliases": [
+    "Atlantic herring",
+    "pickled herring",
+    "kippered herring"
+  ],
   "book_claims": [
     {
-      "claim": "Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g cooked), vitamin A (Atlantic pickled: 219 mcg RAE per 3 oz, 15% DV), and vitamin D (Atlantic cooked dry heat: 306 IU per fillet, 76.5% DV).",
       "mechanism": "Omega-3 fatty acids EPA and DHA reduce inflammation and cardiovascular disease risk; vitamin D supports immune function and bone health; vitamin B12 is essential for neurological function and DNA synthesis.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Rich source of vitamin B12 (7.2 mcg per 250 mL cooked or kippered, 120% DV), omega-3 fatty acids (1.6 g EPA/DHA per 75 g cooked), vitamin A (Atlantic pickled: 219 mcg RAE per 3 oz, 15% DV), and vitamin D (Atlantic cooked dry heat: 306 IU per fillet, 76.5% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -38,34 +44,110 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["rich", "savory", "briny", "slightly smoky when kippered"],
-    "aroma": ["oceanic", "smoky (kippered)", "tangy (pickled)"],
-    "texture": ["tender", "flaky", "soft"],
+    "taste": [
+      "rich",
+      "savory",
+      "briny",
+      "slightly smoky when kippered"
+    ],
+    "aroma": [
+      "oceanic",
+      "smoky (kippered)",
+      "tangy (pickled)"
+    ],
+    "texture": [
+      "tender",
+      "flaky",
+      "soft"
+    ],
     "culinary_category": "oily fish"
   },
   "culinary_pairings": [
-    {"ingredient": "mustard", "tradition": "Nordic/German", "source": "culinary tradition"},
-    {"ingredient": "onion", "tradition": "Nordic", "source": "culinary tradition"},
-    {"ingredient": "rye bread", "tradition": "Scandinavian", "source": "culinary tradition"},
-    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "fennel", "tradition": "Italian Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "olive oil", "tradition": "Mediterranean", "source": "culinary tradition"}
+    {
+      "ingredient": "mustard",
+      "tradition": "Nordic/German",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "onion",
+      "tradition": "Nordic",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "rye bread",
+      "tradition": "Scandinavian",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "fennel",
+      "tradition": "Italian Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "olive oil",
+      "tradition": "Mediterranean",
+      "source": "culinary tradition"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "EPA + DHA (omega-3)", "amount_per_100g": "~2.1 g", "bioavailability_notes": "Marine omega-3s are the most bioavailable form; phospholipid-bound forms in fish are superior to triglyceride-form supplements"},
-    {"compound": "Vitamin D", "amount_per_100g": "~270 IU", "bioavailability_notes": "Fat-soluble; absorption enhanced when consumed with dietary fat; herring is one of the best natural food sources"},
-    {"compound": "Vitamin B12", "amount_per_100g": "~10 mcg", "bioavailability_notes": "Highly bioavailable from animal sources; critical for methylation and neurological longevity"},
-    {"compound": "Vitamin A (retinol)", "amount_per_100g": "~28 mcg RAE", "bioavailability_notes": "Preformed retinol from fish; directly usable without conversion"},
-    {"compound": "Selenium", "amount_per_100g": "~36 mcg", "bioavailability_notes": "Well-absorbed from fish; selenoprotein cofactor for antioxidant defense"}
+    {
+      "compound": "EPA + DHA (omega-3)",
+      "amount_per_100g": "~2.1 g",
+      "bioavailability_notes": "Marine omega-3s are the most bioavailable form; phospholipid-bound forms in fish are superior to triglyceride-form supplements"
+    },
+    {
+      "compound": "Vitamin D",
+      "amount_per_100g": "~270 IU",
+      "bioavailability_notes": "Fat-soluble; absorption enhanced when consumed with dietary fat; herring is one of the best natural food sources"
+    },
+    {
+      "compound": "Vitamin B12",
+      "amount_per_100g": "~10 mcg",
+      "bioavailability_notes": "Highly bioavailable from animal sources; critical for methylation and neurological longevity"
+    },
+    {
+      "compound": "Vitamin A (retinol)",
+      "amount_per_100g": "~28 mcg RAE",
+      "bioavailability_notes": "Preformed retinol from fish; directly usable without conversion"
+    },
+    {
+      "compound": "Selenium",
+      "amount_per_100g": "~36 mcg",
+      "bioavailability_notes": "Well-absorbed from fish; selenoprotein cofactor for antioxidant defense"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "olive oil", "type": "synergy", "description": "Monounsaturated fats in olive oil enhance absorption of fat-soluble vitamins D and A in herring"},
-    {"target_ingredient": "lemon", "type": "complement", "description": "Vitamin C in lemon juice enhances non-heme iron absorption and provides contrasting acidity that balances herring's richness"},
-    {"target_ingredient": "fennel", "type": "complement", "description": "Fennel's anti-inflammatory anethole complements herring's EPA/DHA for additive anti-inflammatory effect; classic Italian pairing"},
-    {"target_ingredient": "magnesium", "type": "synergy", "description": "Omega-3 fatty acids from herring and magnesium both support cardiovascular health through complementary pathways"}
+    {
+      "type": "synergy",
+      "with": "olive oil",
+      "note": "Monounsaturated fats in olive oil enhance absorption of fat-soluble vitamins D and A in herring"
+    },
+    {
+      "type": "complement",
+      "with": "lemon",
+      "note": "Vitamin C in lemon juice enhances non-heme iron absorption and provides contrasting acidity that balances herring's richness"
+    },
+    {
+      "type": "complement",
+      "with": "fennel",
+      "note": "Fennel's anti-inflammatory anethole complements herring's EPA/DHA for additive anti-inflammatory effect; classic Italian pairing"
+    },
+    {
+      "type": "synergy",
+      "with": "magnesium",
+      "note": "Omega-3 fatty acids from herring and magnesium both support cardiovascular health through complementary pathways"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

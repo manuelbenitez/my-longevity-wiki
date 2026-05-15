@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Lower glycaemic impact; should be eaten whole not juiced",
       "mechanism": "Whole fruit food matrix and fibre slow sugar digestion; juicing destroys matrix and releases free sugars for rapid absorption",
-      "study_ref": "Ref 76 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Lower glycaemic impact; should be eaten whole not juiced",
+      "reference": "Ref 76 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "tart", "mildly tannic", "crisp"],
-    "aroma": ["floral", "fruity", "honey-like (when ripe)"],
-    "texture": ["crunchy", "juicy", "firm"],
+    "taste": [
+      "sweet",
+      "tart",
+      "mildly tannic",
+      "crisp"
+    ],
+    "aroma": [
+      "floral",
+      "fruity",
+      "honey-like (when ripe)"
+    ],
+    "texture": [
+      "crunchy",
+      "juicy",
+      "firm"
+    ],
     "culinary_category": "pome fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "cinnamon", "tradition": "European / American", "source": "Classic apple pie and baked apple pairing"},
-    {"ingredient": "walnuts", "tradition": "European", "source": "Waldorf salad; autumn fruit-nut combinations"},
-    {"ingredient": "oats", "tradition": "Northern European", "source": "Bircher muesli; apple crumbles"},
-    {"ingredient": "ginger", "tradition": "British / Asian", "source": "Apple-ginger chutneys and compotes"},
-    {"ingredient": "celery", "tradition": "American", "source": "Waldorf salad; classic flavour bridge"},
-    {"ingredient": "lemon juice", "tradition": "Global", "source": "Prevents oxidation; brightens apple flavour in salads and sauces"},
-    {"ingredient": "honey", "tradition": "Mediterranean / Middle Eastern", "source": "Baked apples with honey; Rosh Hashanah tradition"}
+    {
+      "ingredient": "cinnamon",
+      "tradition": "European / American",
+      "source": "Classic apple pie and baked apple pairing"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "European",
+      "source": "Waldorf salad; autumn fruit-nut combinations"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Northern European",
+      "source": "Bircher muesli; apple crumbles"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "British / Asian",
+      "source": "Apple-ginger chutneys and compotes"
+    },
+    {
+      "ingredient": "celery",
+      "tradition": "American",
+      "source": "Waldorf salad; classic flavour bridge"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Global",
+      "source": "Prevents oxidation; brightens apple flavour in salads and sauces"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Baked apples with honey; Rosh Hashanah tradition"
+    }
   ],
   "seasonality": "Peak harvest August-November in Northern Hemisphere. Many varieties store well through winter. Available year-round but flavour peaks in autumn.",
   "nutrient_highlights": [
@@ -77,5 +120,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

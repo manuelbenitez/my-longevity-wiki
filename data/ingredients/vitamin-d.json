@@ -2,25 +2,35 @@
   "name": "Vitamin D",
   "slug": "vitamin-d",
   "category": "nutrient",
-  "aliases": ["cholecalciferol", "vitamin D3", "calciferol"],
+  "aliases": [
+    "cholecalciferol",
+    "vitamin D3",
+    "calciferol"
+  ],
   "book_claims": [
     {
-      "claim": "50–90% of US adults are deficient in vitamin D; deficiency associated with increased risk of diabetes, autoimmune diseases, and cardiovascular disease",
       "mechanism": "Vitamin D is essential for immune modulation, calcium absorption, and cardiovascular health; acts as a steroid hormone affecting hundreds of gene expressions",
-      "study_ref": "ch4-17 — Wang S., Nutrition Research Reviews, 2009",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "50\u201390% of US adults are deficient in vitamin D; deficiency associated with increased risk of diabetes, autoimmune diseases, and cardiovascular disease",
+      "reference": "ch4-17 \u2014 Wang S., Nutrition Research Reviews, 2009",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Vitamin D is important for normal immune function and maintaining bone mineral density",
       "mechanism": "Regulates immune cell differentiation; essential cofactor for calcium absorption in bone",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Vitamin D is important for normal immune function and maintaining bone mineral density",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Deficiency in vitamin D has been implicated in brain aging and dementias",
       "mechanism": "Vitamin D receptors are present throughout the brain; vitamin D may have neuroprotective anti-inflammatory effects",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Deficiency in vitamin D has been implicated in brain aging and dementias",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -44,21 +54,56 @@
     "culinary_category": "supplement"
   },
   "culinary_pairings": [
-    {"ingredient": "fatty fish", "tradition": "dietary", "source": "nutritional"},
-    {"ingredient": "egg yolk", "tradition": "dietary", "source": "nutritional"},
-    {"ingredient": "fortified plant milk", "tradition": "dietary", "source": "nutritional"}
+    {
+      "ingredient": "fatty fish",
+      "tradition": "dietary",
+      "source": "nutritional"
+    },
+    {
+      "ingredient": "egg yolk",
+      "tradition": "dietary",
+      "source": "nutritional"
+    },
+    {
+      "ingredient": "fortified plant milk",
+      "tradition": "dietary",
+      "source": "nutritional"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Vitamin D3 (cholecalciferol)", "amount_per_100g": "supplement form", "bioavailability_notes": "Fat-soluble; take with a meal containing fat for optimal absorption"},
-    {"compound": "Calcidiol (25-OH-D)", "amount_per_100g": "serum marker", "bioavailability_notes": "Optimal serum level 40–60 ng/mL; conversion depends on sun exposure and liver function"}
+    {
+      "compound": "Vitamin D3 (cholecalciferol)",
+      "amount_per_100g": "supplement form",
+      "bioavailability_notes": "Fat-soluble; take with a meal containing fat for optimal absorption"
+    },
+    {
+      "compound": "Calcidiol (25-OH-D)",
+      "amount_per_100g": "serum marker",
+      "bioavailability_notes": "Optimal serum level 40\u201360 ng/mL; conversion depends on sun exposure and liver function"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "calcium", "type": "synergy", "description": "Vitamin D is required for intestinal calcium absorption; deficiency nullifies calcium supplementation"},
-    {"target_ingredient": "zinc", "type": "synergy", "description": "Both vitamin D and zinc support immune function; often co-deficient"},
-    {"target_ingredient": "multivitamin", "type": "complement", "description": "Book recommends taking vitamin D within a multivitamin every 2–3 days to avoid toxicity risk"}
+    {
+      "type": "synergy",
+      "with": "calcium",
+      "note": "Vitamin D is required for intestinal calcium absorption; deficiency nullifies calcium supplementation"
+    },
+    {
+      "type": "synergy",
+      "with": "zinc",
+      "note": "Both vitamin D and zinc support immune function; often co-deficient"
+    },
+    {
+      "type": "complement",
+      "with": "multivitamin",
+      "note": "Book recommends taking vitamin D within a multivitamin every 2\u20133 days to avoid toxicity risk"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

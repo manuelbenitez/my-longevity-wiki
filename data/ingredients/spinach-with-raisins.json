@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Used in multiple Longevity Diet dishes including spinach with raisins and Brussels sprouts.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Used in multiple Longevity Diet dishes including spinach with raisins and Brussels sprouts.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -77,23 +80,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Fat in olive oil dramatically increases lutein and zeaxanthin bioavailability from spinach"
+      "with": "olive oil",
+      "note": "Fat in olive oil dramatically increases lutein and zeaxanthin bioavailability from spinach"
     },
     {
-      "target_ingredient": "garlic",
       "type": "complement",
-      "description": "Allicin from garlic and iron from spinach support immune function; garlic enhances spinach's folate retention"
+      "with": "garlic",
+      "note": "Allicin from garlic and iron from spinach support immune function; garlic enhances spinach's folate retention"
     },
     {
-      "target_ingredient": "pine nuts",
       "type": "complement",
-      "description": "Pine nuts provide fat for carotenoid absorption and add pinoleic acid, complementing spinach's micronutrient density"
+      "with": "pine nuts",
+      "note": "Pine nuts provide fat for carotenoid absorption and add pinoleic acid, complementing spinach's micronutrient density"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

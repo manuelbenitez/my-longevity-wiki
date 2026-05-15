@@ -2,13 +2,19 @@
   "name": "Almond Milk",
   "slug": "almond-milk",
   "category": "beverage",
-  "aliases": ["almond milk beverage", "unsweetened almond milk", "fortified almond milk"],
+  "aliases": [
+    "almond milk beverage",
+    "unsweetened almond milk",
+    "fortified almond milk"
+  ],
   "book_claims": [
     {
-      "claim": "Recommended unsweetened, calcium- and vitamin-supplemented plant milk for the Longevity Diet; source of calcium (451 mg per cup, 45% DV when fortified) and omega-3 ALA (0.1 g per 250 mL)",
       "mechanism": "Plant-based calcium and vitamin source replacing dairy; omega-3 ALA source; choose unsweetened and supplemented with calcium, B12, B2, and D",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Recommended unsweetened, calcium- and vitamin-supplemented plant milk for the Longevity Diet; source of calcium (451 mg per cup, 45% DV when fortified) and omega-3 ALA (0.1 g per 250 mL)",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -32,31 +38,94 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "slightly nutty", "neutral", "clean"],
-    "aroma": ["faintly almond", "neutral"],
-    "texture": ["thin", "watery", "smooth"],
+    "taste": [
+      "mild",
+      "slightly nutty",
+      "neutral",
+      "clean"
+    ],
+    "aroma": [
+      "faintly almond",
+      "neutral"
+    ],
+    "texture": [
+      "thin",
+      "watery",
+      "smooth"
+    ],
     "culinary_category": "plant-based milk"
   },
   "culinary_pairings": [
-    {"ingredient": "oats", "tradition": "Contemporary", "source": "culinary tradition"},
-    {"ingredient": "berries", "tradition": "Contemporary", "source": "culinary tradition"},
-    {"ingredient": "coffee", "tradition": "Contemporary", "source": "culinary tradition"},
-    {"ingredient": "whole grain cereal", "tradition": "Contemporary", "source": "The Longevity Diet"}
+    {
+      "ingredient": "oats",
+      "tradition": "Contemporary",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "berries",
+      "tradition": "Contemporary",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "coffee",
+      "tradition": "Contemporary",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "whole grain cereal",
+      "tradition": "Contemporary",
+      "source": "The Longevity Diet"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Calcium (fortified)", "amount_per_100g": "188 mg (fortified, per 100 mL)", "bioavailability_notes": "Calcium carbonate or tricalcium phosphate typically used for fortification; shake well as calcium may settle; bioavailability comparable to dairy"},
-    {"compound": "Vitamin D (fortified)", "amount_per_100g": "42 IU (per 100 mL, fortified)", "bioavailability_notes": "Fat-soluble; the minimal fat in almond milk still aids absorption; choose D3 (cholecalciferol) fortified varieties"},
-    {"compound": "Vitamin E (natural)", "amount_per_100g": "~6.3 mg (per 100 mL)", "bioavailability_notes": "Naturally present from almonds; fat-soluble antioxidant"},
-    {"compound": "Omega-3 ALA", "amount_per_100g": "0.04 g (per 100 mL)", "bioavailability_notes": "Plant form omega-3; conversion to EPA/DHA is limited; contributes modestly to overall omega-3 intake"},
-    {"compound": "Protein", "amount_per_100g": "0.4 g (per 100 mL unfortified)", "bioavailability_notes": "Very low protein; not a substitute for protein-rich foods; protein-fortified versions available"}
+    {
+      "compound": "Calcium (fortified)",
+      "amount_per_100g": "188 mg (fortified, per 100 mL)",
+      "bioavailability_notes": "Calcium carbonate or tricalcium phosphate typically used for fortification; shake well as calcium may settle; bioavailability comparable to dairy"
+    },
+    {
+      "compound": "Vitamin D (fortified)",
+      "amount_per_100g": "42 IU (per 100 mL, fortified)",
+      "bioavailability_notes": "Fat-soluble; the minimal fat in almond milk still aids absorption; choose D3 (cholecalciferol) fortified varieties"
+    },
+    {
+      "compound": "Vitamin E (natural)",
+      "amount_per_100g": "~6.3 mg (per 100 mL)",
+      "bioavailability_notes": "Naturally present from almonds; fat-soluble antioxidant"
+    },
+    {
+      "compound": "Omega-3 ALA",
+      "amount_per_100g": "0.04 g (per 100 mL)",
+      "bioavailability_notes": "Plant form omega-3; conversion to EPA/DHA is limited; contributes modestly to overall omega-3 intake"
+    },
+    {
+      "compound": "Protein",
+      "amount_per_100g": "0.4 g (per 100 mL unfortified)",
+      "bioavailability_notes": "Very low protein; not a substitute for protein-rich foods; protein-fortified versions available"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "oats", "type": "complement", "description": "Almond milk with oats provides plant-based calcium and fiber together; beta-glucan from oats may enhance mineral absorption"},
-    {"target_ingredient": "vitamin d", "type": "synergy", "description": "Fortified almond milk co-delivers calcium and vitamin D, optimizing calcium absorption just as dairy does"},
-    {"target_ingredient": "coffee", "type": "complement", "description": "Replaces dairy creamer while avoiding IGF-1-stimulating properties of cow's milk; unsweetened version adds minimal calories"}
+    {
+      "type": "complement",
+      "with": "oats",
+      "note": "Almond milk with oats provides plant-based calcium and fiber together; beta-glucan from oats may enhance mineral absorption"
+    },
+    {
+      "type": "synergy",
+      "with": "vitamin d",
+      "note": "Fortified almond milk co-delivers calcium and vitamin D, optimizing calcium absorption just as dairy does"
+    },
+    {
+      "type": "complement",
+      "with": "coffee",
+      "note": "Replaces dairy creamer while avoiding IGF-1-stimulating properties of cow's milk; unsweetened version adds minimal calories"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,11 +4,13 @@
   "category": "legume",
   "book_claims": [
     {
-      "claim": "Consumption associated with lower risk of developing cancer and cardiovascular disease",
       "mechanism": "Second highest protein content of legumes (27%). One of highest concentrations of phenolic compounds and antioxidants among legumes.",
-      "study_ref": "Refs 151, 152, 153 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Consumption associated with lower risk of developing cancer and cardiovascular disease",
+      "reference": "Refs 151, 152, 153 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,19 +40,59 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "peppery", "mild", "slightly sweet"],
-    "aroma": ["earthy", "warm", "subtle"],
-    "texture": ["variable: firm (green/brown) to creamy (red/yellow)", "tender"],
+    "taste": [
+      "earthy",
+      "peppery",
+      "mild",
+      "slightly sweet"
+    ],
+    "aroma": [
+      "earthy",
+      "warm",
+      "subtle"
+    ],
+    "texture": [
+      "variable: firm (green/brown) to creamy (red/yellow)",
+      "tender"
+    ],
     "culinary_category": "legume / pulse"
   },
   "culinary_pairings": [
-    {"ingredient": "brown rice", "tradition": "Indian / Middle Eastern", "source": "Mujaddara, dal-chawal; complementary amino acids for complete protein"},
-    {"ingredient": "cumin", "tradition": "Indian / Middle Eastern", "source": "Essential spice in dal, soups, and lentil stews"},
-    {"ingredient": "tomatoes", "tradition": "Mediterranean / Indian", "source": "Acid brightens earthy lentils in soups, stews, and curries"},
-    {"ingredient": "garlic", "tradition": "Global", "source": "Aromatic base for virtually all lentil preparations"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean / Indian", "source": "Vitamin C improves iron absorption; acid finishes lentil dishes"},
-    {"ingredient": "spinach", "tradition": "Indian / Mediterranean", "source": "Palak dal; complementary iron sources with combined phytonutrients"},
-    {"ingredient": "turmeric", "tradition": "Indian", "source": "Anti-inflammatory spice; standard in all Indian dal preparations"}
+    {
+      "ingredient": "brown rice",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Mujaddara, dal-chawal; complementary amino acids for complete protein"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Essential spice in dal, soups, and lentil stews"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mediterranean / Indian",
+      "source": "Acid brightens earthy lentils in soups, stews, and curries"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Global",
+      "source": "Aromatic base for virtually all lentil preparations"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean / Indian",
+      "source": "Vitamin C improves iron absorption; acid finishes lentil dishes"
+    },
+    {
+      "ingredient": "spinach",
+      "tradition": "Indian / Mediterranean",
+      "source": "Palak dal; complementary iron sources with combined phytonutrients"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian",
+      "source": "Anti-inflammatory spice; standard in all Indian dal preparations"
+    }
   ],
   "seasonality": "Dried lentils available year-round. No soaking required unlike most beans. Red and yellow lentils cook in 15-20 minutes; green and brown in 25-35 minutes. French green (Puy) lentils hold shape best.",
   "nutrient_highlights": [
@@ -82,18 +124,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "brown-rice",
       "type": "synergy",
-      "description": "Brown rice + lentils provides complete protein with all essential amino acids"
+      "with": "brown-rice",
+      "note": "Brown rice + lentils provides complete protein with all essential amino acids"
     },
     {
-      "target_ingredient": "lemon-juice",
       "type": "synergy",
-      "description": "Vitamin C from lemon dramatically improves non-heme iron absorption"
+      "with": "lemon-juice",
+      "note": "Vitamin C from lemon dramatically improves non-heme iron absorption"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

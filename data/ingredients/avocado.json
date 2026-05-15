@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Plant-origin monounsaturated fat associated with lower cardiovascular and cancer death rate",
       "mechanism": "Contains monounsaturated fatty acids that do not increase cholesterol and protect the heart; plant-origin MUFA specifically associated with lower mortality vs animal-origin MUFA",
-      "study_ref": "Ref 69 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Plant-origin monounsaturated fat associated with lower cardiovascular and cancer death rate",
+      "reference": "Ref 69 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["buttery", "mildly nutty", "creamy", "subtly grassy"],
-    "aroma": ["green", "fresh", "slightly herbaceous"],
-    "texture": ["silky", "creamy", "dense", "smooth"],
+    "taste": [
+      "buttery",
+      "mildly nutty",
+      "creamy",
+      "subtly grassy"
+    ],
+    "aroma": [
+      "green",
+      "fresh",
+      "slightly herbaceous"
+    ],
+    "texture": [
+      "silky",
+      "creamy",
+      "dense",
+      "smooth"
+    ],
     "culinary_category": "fatty fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "lime / lemon juice", "tradition": "Mexican / Latin American", "source": "Guacamole; acidity balances richness and prevents oxidation"},
-    {"ingredient": "tomato", "tradition": "Mexican", "source": "Guacamole, salads; lycopene absorption enhanced by avocado fat"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Both provide complementary plant-origin MUFA profiles"},
-    {"ingredient": "chilli / jalapeño", "tradition": "Mexican / Latin American", "source": "Classic guacamole pairing; capsaicin complementary benefits"},
-    {"ingredient": "eggs", "tradition": "American / Global", "source": "Avocado toast pairing; fat aids absorption of fat-soluble vitamins"},
-    {"ingredient": "black beans", "tradition": "Mexican / Central American", "source": "Complete protein when combined; traditional bowl pairing"},
-    {"ingredient": "cilantro / coriander", "tradition": "Mexican / Southeast Asian", "source": "Classic herb pairing in guacamole and salads"}
+    {
+      "ingredient": "lime / lemon juice",
+      "tradition": "Mexican / Latin American",
+      "source": "Guacamole; acidity balances richness and prevents oxidation"
+    },
+    {
+      "ingredient": "tomato",
+      "tradition": "Mexican",
+      "source": "Guacamole, salads; lycopene absorption enhanced by avocado fat"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Both provide complementary plant-origin MUFA profiles"
+    },
+    {
+      "ingredient": "chilli / jalape\u00f1o",
+      "tradition": "Mexican / Latin American",
+      "source": "Classic guacamole pairing; capsaicin complementary benefits"
+    },
+    {
+      "ingredient": "eggs",
+      "tradition": "American / Global",
+      "source": "Avocado toast pairing; fat aids absorption of fat-soluble vitamins"
+    },
+    {
+      "ingredient": "black beans",
+      "tradition": "Mexican / Central American",
+      "source": "Complete protein when combined; traditional bowl pairing"
+    },
+    {
+      "ingredient": "cilantro / coriander",
+      "tradition": "Mexican / Southeast Asian",
+      "source": "Classic herb pairing in guacamole and salads"
+    }
   ],
   "seasonality": "Hass variety available year-round due to global sourcing. Peak flavour varies by region: California spring-summer, Mexico year-round, Peru winter. Best consumed when slightly soft to gentle pressure.",
   "nutrient_highlights": [
@@ -75,16 +119,24 @@
   ],
   "synergies": [
     {
-      "ingredient": "tomato",
-      "mechanism": "Avocado fat increases lycopene absorption from tomatoes by 2-4x"
+      "with": "tomato",
+      "note": "Avocado fat increases lycopene absorption from tomatoes by 2-4x",
+      "type": "synergy"
     },
     {
-      "ingredient": "leafy greens",
-      "mechanism": "Fat from avocado increases absorption of fat-soluble carotenoids (beta-carotene, lutein) from greens by 3-5x"
+      "with": "leafy greens",
+      "note": "Fat from avocado increases absorption of fat-soluble carotenoids (beta-carotene, lutein) from greens by 3-5x",
+      "type": "synergy"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

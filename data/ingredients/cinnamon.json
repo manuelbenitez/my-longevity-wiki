@@ -4,18 +4,22 @@
   "category": "spice",
   "book_claims": [
     {
-      "claim": "Has potential anti-diabetic effects: may lower blood glucose and reverse fructose-induced insulin resistance",
       "mechanism": "Hydroxycinnamaldehyde has antioxidant and anti-inflammatory properties. Improves metabolic syndrome symptoms in rodents and humans.",
-      "study_ref": "Refs 90, 91, 92, 93, 94, 95 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Has potential anti-diabetic effects: may lower blood glucose and reverse fructose-induced insulin resistance",
+      "reference": "Refs 90, 91, 92, 93, 94, 95 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Mild blood cholesterol-lowering effect in animals and humans",
       "mechanism": "Not fully specified; likely related to hydroxycinnamaldehyde and other extracts",
-      "study_ref": "Ref 95 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Mild blood cholesterol-lowering effect in animals and humans",
+      "reference": "Ref 95 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,18 +49,58 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["warm", "sweet", "woody", "slightly spicy", "aromatic"],
-    "aroma": ["sweet", "warm", "complex", "slightly citrusy (Ceylon)", "sharp (cassia)"],
-    "texture": ["brittle sticks", "fine powder when ground", "papery bark (Ceylon)"],
+    "taste": [
+      "warm",
+      "sweet",
+      "woody",
+      "slightly spicy",
+      "aromatic"
+    ],
+    "aroma": [
+      "sweet",
+      "warm",
+      "complex",
+      "slightly citrusy (Ceylon)",
+      "sharp (cassia)"
+    ],
+    "texture": [
+      "brittle sticks",
+      "fine powder when ground",
+      "papery bark (Ceylon)"
+    ],
     "culinary_category": "spice"
   },
   "culinary_pairings": [
-    {"ingredient": "honey-natural-sweeteners", "tradition": "Global", "source": "Classic combination in teas, desserts, and Middle Eastern dishes"},
-    {"ingredient": "turmeric", "tradition": "Indian / Middle Eastern", "source": "Combined in golden milk and many curry blends"},
-    {"ingredient": "ginger", "tradition": "Global", "source": "Warming spice pairing in chai, baking, and stir-fries"},
-    {"ingredient": "legumes", "tradition": "Middle Eastern / Moroccan", "source": "Essential in Moroccan tagines and Middle Eastern lentil soups"},
-    {"ingredient": "oat-porridge", "tradition": "Western", "source": "Classic breakfast combination; both lower blood glucose"},
-    {"ingredient": "dark-chocolate", "tradition": "Mexican / European", "source": "Traditional in Mexican hot chocolate and European baking"}
+    {
+      "ingredient": "honey-natural-sweeteners",
+      "tradition": "Global",
+      "source": "Classic combination in teas, desserts, and Middle Eastern dishes"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Combined in golden milk and many curry blends"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "Global",
+      "source": "Warming spice pairing in chai, baking, and stir-fries"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Middle Eastern / Moroccan",
+      "source": "Essential in Moroccan tagines and Middle Eastern lentil soups"
+    },
+    {
+      "ingredient": "oat-porridge",
+      "tradition": "Western",
+      "source": "Classic breakfast combination; both lower blood glucose"
+    },
+    {
+      "ingredient": "dark-chocolate",
+      "tradition": "Mexican / European",
+      "source": "Traditional in Mexican hot chocolate and European baking"
+    }
   ],
   "seasonality": "Available year-round as sticks or ground powder. Sticks retain flavour for up to 3 years. Ground cinnamon loses fragrance quickly -- buy fresh or grind from sticks. Ceylon cinnamon preferred for regular consumption due to lower coumarin levels.",
   "nutrient_highlights": [
@@ -83,18 +127,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "turmeric",
       "type": "complement",
-      "description": "Both have anti-inflammatory and blood glucose-lowering properties; combined in golden milk"
+      "with": "turmeric",
+      "note": "Both have anti-inflammatory and blood glucose-lowering properties; combined in golden milk"
     },
     {
-      "target_ingredient": "oats",
       "type": "synergy",
-      "description": "Both independently lower blood glucose; combined effect may be additive"
+      "with": "oats",
+      "note": "Both independently lower blood glucose; combined effect may be additive"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

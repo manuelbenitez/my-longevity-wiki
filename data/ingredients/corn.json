@@ -2,39 +2,62 @@
   "name": "Corn",
   "slug": "corn",
   "category": "grain",
-  "aliases": ["maize", "corn tortilla", "polenta", "Zea mays", "sweet corn", "field corn"],
+  "aliases": [
+    "maize",
+    "corn tortilla",
+    "polenta",
+    "Zea mays",
+    "sweet corn",
+    "field corn"
+  ],
   "book_claims": [
     {
-      "claim": "Corn is used in barley salad in the Longevity Diet. Corn tortilla provides calcium (46 mg per 6-inch tortilla, 5% DV). Polenta is listed as an acceptable pasta substitute (40 g serving). Recommended serving: 20 g in salad; 6-inch tortilla; polenta as pasta substitute.",
       "mechanism": "Whole-grain corn provides complex carbohydrates, resistant starch (in polenta), and modest calcium; nixtamalization of tortillas increases bioavailability of calcium and niacin; fits the Longevity Diet's emphasis on plant-based carbohydrates over refined grains.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Corn is used in barley salad in the Longevity Diet. Corn tortilla provides calcium (46 mg per 6-inch tortilla, 5% DV). Polenta is listed as an acceptable pasta substitute (40 g serving). Recommended serving: 20 g in salad; 6-inch tortilla; polenta as pasta substitute.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "de la Parra et al., Journal of Cereal Science (2007) — PMID 17765691",
+      "source": "de la Parra et al., Journal of Cereal Science (2007) \u2014 PMID 17765691",
       "url": "https://pubmed.ncbi.nlm.nih.gov/17765691/",
-      "finding": "Nixtamalization (traditional alkali processing of corn for tortilla production) increases calcium content 20-fold, dramatically improves niacin bioavailability, and reduces mycotoxin burden — explaining why corn tortillas are a nutritionally superior form of corn compared to unprocessed maize.",
+      "finding": "Nixtamalization (traditional alkali processing of corn for tortilla production) increases calcium content 20-fold, dramatically improves niacin bioavailability, and reduces mycotoxin burden \u2014 explaining why corn tortillas are a nutritionally superior form of corn compared to unprocessed maize.",
       "agrees_with_book": true
     },
     {
-      "source": "Slavin, Nutrition (2013) — PMID 23482058",
+      "source": "Slavin, Nutrition (2013) \u2014 PMID 23482058",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23482058/",
-      "finding": "Polenta (cooked cornmeal) contains retrograded starch that behaves as resistant starch after cooling, selectively feeding beneficial colonic bacteria and reducing postprandial glucose response — supporting the Longevity Diet's use of polenta as a pasta substitute.",
+      "finding": "Polenta (cooked cornmeal) contains retrograded starch that behaves as resistant starch after cooling, selectively feeding beneficial colonic bacteria and reducing postprandial glucose response \u2014 supporting the Longevity Diet's use of polenta as a pasta substitute.",
       "agrees_with_book": true
     },
     {
-      "source": "Fardet & Rock, Nutrition Reviews (2014) — PMID 25110994",
+      "source": "Fardet & Rock, Nutrition Reviews (2014) \u2014 PMID 25110994",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25110994/",
       "finding": "Whole grain corn and polenta fit the whole-food plant-based dietary pattern associated with reduced chronic disease incidence and all-cause mortality in meta-analyses, supporting their place in longevity-focused eating.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "mildly starchy", "earthy (polenta)", "nutty when grilled"],
-    "aroma": ["sweet corn", "faintly grassy", "toasty when cooked"],
-    "texture": ["crisp (fresh)", "creamy (polenta)", "chewy (tortilla)", "tender kernels"],
+    "taste": [
+      "sweet",
+      "mildly starchy",
+      "earthy (polenta)",
+      "nutty when grilled"
+    ],
+    "aroma": [
+      "sweet corn",
+      "faintly grassy",
+      "toasty when cooked"
+    ],
+    "texture": [
+      "crisp (fresh)",
+      "creamy (polenta)",
+      "chewy (tortilla)",
+      "tender kernels"
+    ],
     "culinary_category": "grain / whole grain"
   },
   "culinary_pairings": [
@@ -83,18 +106,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "The classic 'Three Sisters' (corn + beans + squash) combination provides complementary amino acid profiles: corn is low in lysine (abundant in beans), beans are low in methionine (present in corn) — together they form a complete protein."
+      "with": "legumes",
+      "note": "The classic 'Three Sisters' (corn + beans + squash) combination provides complementary amino acid profiles: corn is low in lysine (abundant in beans), beans are low in methionine (present in corn) \u2014 together they form a complete protein."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Olive oil fat enhances absorption of corn's fat-soluble lutein and zeaxanthin carotenoids; the dressing-based salad preparation in the Longevity Diet is nutritionally optimal for this purpose."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil fat enhances absorption of corn's fat-soluble lutein and zeaxanthin carotenoids; the dressing-based salad preparation in the Longevity Diet is nutritionally optimal for this purpose."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

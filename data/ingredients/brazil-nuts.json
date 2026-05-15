@@ -4,10 +4,12 @@
   "category": "nut",
   "book_claims": [
     {
-      "claim": "Richest food source of selenium, a powerful antioxidant mineral preventing free radical tissue damage",
       "mechanism": "6 nuts supply ~780% RDA selenium. Selenium is cofactor for glutathione peroxidase, a key antioxidant enzyme.",
-      "study_ref": "book-assertion",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Richest food source of selenium, a powerful antioxidant mineral preventing free radical tissue damage",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,51 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["rich", "creamy", "mildly sweet", "earthy"],
-    "aroma": ["nutty", "slightly coconut-like", "buttery"],
-    "texture": ["dense", "waxy", "crunchy", "creamy when chewed"],
+    "taste": [
+      "rich",
+      "creamy",
+      "mildly sweet",
+      "earthy"
+    ],
+    "aroma": [
+      "nutty",
+      "slightly coconut-like",
+      "buttery"
+    ],
+    "texture": [
+      "dense",
+      "waxy",
+      "crunchy",
+      "creamy when chewed"
+    ],
     "culinary_category": "tree nut"
   },
   "culinary_pairings": [
-    {"ingredient": "dark chocolate", "tradition": "Brazilian / Global", "source": "Selenium + flavanols for combined antioxidant protection"},
-    {"ingredient": "berries", "tradition": "Global", "source": "Selenium + anthocyanins complement antioxidant defense systems"},
-    {"ingredient": "oats", "tradition": "Global", "source": "Morning smoothie or porridge topping for daily selenium"},
-    {"ingredient": "cocoa powder", "tradition": "South American / Global", "source": "Traditional pairing; both high in minerals"},
-    {"ingredient": "banana", "tradition": "Brazilian", "source": "Smoothie base; potassium + selenium for combined mineral benefit"}
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "Brazilian / Global",
+      "source": "Selenium + flavanols for combined antioxidant protection"
+    },
+    {
+      "ingredient": "berries",
+      "tradition": "Global",
+      "source": "Selenium + anthocyanins complement antioxidant defense systems"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Global",
+      "source": "Morning smoothie or porridge topping for daily selenium"
+    },
+    {
+      "ingredient": "cocoa powder",
+      "tradition": "South American / Global",
+      "source": "Traditional pairing; both high in minerals"
+    },
+    {
+      "ingredient": "banana",
+      "tradition": "Brazilian",
+      "source": "Smoothie base; potassium + selenium for combined mineral benefit"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -64,5 +100,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

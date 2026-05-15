@@ -2,39 +2,61 @@
   "name": "Cod",
   "slug": "cod",
   "category": "fish",
-  "aliases": ["stockfish", "baccalà", "Atlantic cod", "Gadus morhua", "salt cod", "dried cod"],
+  "aliases": [
+    "stockfish",
+    "baccal\u00e0",
+    "Atlantic cod",
+    "Gadus morhua",
+    "salt cod",
+    "dried cod"
+  ],
   "book_claims": [
     {
-      "claim": "Cod (including dried stockfish) is a recommended low-mercury fish high in omega-3 and vitamin B12; historically consumed by Molochio centenarians. Include as one of 2–3 fish servings per week.",
       "mechanism": "Lean white fish providing high-quality complete protein and micronutrients (vitamin B12, iodine, selenium) without the high mercury burden of large predatory fish or the excess saturated fat of red meat; omega-3 fatty acids support cardiovascular and cognitive health.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Cod (including dried stockfish) is a recommended low-mercury fish high in omega-3 and vitamin B12; historically consumed by Molochio centenarians. Include as one of 2\u20133 fish servings per week.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Bagnardi et al., European Journal of Clinical Nutrition (2004) — PMID 15164101",
+      "source": "Bagnardi et al., European Journal of Clinical Nutrition (2004) \u2014 PMID 15164101",
       "url": "https://pubmed.ncbi.nlm.nih.gov/15164101/",
-      "finding": "Traditional populations in Molochio (Calabria, Italy) — a documented longevity blue zone — historically consumed stockfish (dried cod) as a primary protein source 2–3 times per week, consistent with the Longevity Diet recommendation.",
+      "finding": "Traditional populations in Molochio (Calabria, Italy) \u2014 a documented longevity blue zone \u2014 historically consumed stockfish (dried cod) as a primary protein source 2\u20133 times per week, consistent with the Longevity Diet recommendation.",
       "agrees_with_book": true
     },
     {
-      "source": "Hosomi et al., Journal of Food Science (2012) — PMID 22537083",
+      "source": "Hosomi et al., Journal of Food Science (2012) \u2014 PMID 22537083",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22537083/",
-      "finding": "Cod protein hydrolysates exhibit ACE-inhibitory activity reducing blood pressure in hypertensive models, and cod provides bioactive peptides with anti-thrombotic properties — cardiovascular benefits complementing omega-3 content.",
+      "finding": "Cod protein hydrolysates exhibit ACE-inhibitory activity reducing blood pressure in hypertensive models, and cod provides bioactive peptides with anti-thrombotic properties \u2014 cardiovascular benefits complementing omega-3 content.",
       "agrees_with_book": true
     },
     {
-      "source": "Zhao et al., Frontiers in Nutrition (2022) — PMID 35495915",
+      "source": "Zhao et al., Frontiers in Nutrition (2022) \u2014 PMID 35495915",
       "url": "https://pubmed.ncbi.nlm.nih.gov/35495915/",
-      "finding": "Regular fish consumption (2+ servings/week), including lean white fish like cod, is associated with reduced all-cause mortality and slower cognitive decline in meta-analyses of prospective cohort studies, supporting the 2–3 servings/week recommendation.",
+      "finding": "Regular fish consumption (2+ servings/week), including lean white fish like cod, is associated with reduced all-cause mortality and slower cognitive decline in meta-analyses of prospective cohort studies, supporting the 2\u20133 servings/week recommendation.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "slightly sweet", "clean", "briny when salted"],
-    "aroma": ["fresh ocean", "neutral when fresh", "more pronounced when dried/salted"],
-    "texture": ["firm flaky flesh", "dense when dried", "tender when cooked fresh"],
+    "taste": [
+      "mild",
+      "slightly sweet",
+      "clean",
+      "briny when salted"
+    ],
+    "aroma": [
+      "fresh ocean",
+      "neutral when fresh",
+      "more pronounced when dried/salted"
+    ],
+    "texture": [
+      "firm flaky flesh",
+      "dense when dried",
+      "tender when cooked fresh"
+    ],
     "culinary_category": "lean white fish"
   },
   "culinary_pairings": [
@@ -88,18 +110,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Traditional Molochio combination: cod protein complements legume amino acid profile (legumes low in methionine, fish provides it); together they deliver complete protein with fiber, matching the exact dietary pattern of centenarians the book documents."
+      "with": "legumes",
+      "note": "Traditional Molochio combination: cod protein complements legume amino acid profile (legumes low in methionine, fish provides it); together they deliver complete protein with fiber, matching the exact dietary pattern of centenarians the book documents."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Olive oil fat enhances absorption of cod's fat-soluble vitamins (A, D in liver); oleic acid complements fish omega-3 in cardiovascular protection via distinct mechanisms."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil fat enhances absorption of cod's fat-soluble vitamins (A, D in liver); oleic acid complements fish omega-3 in cardiovascular protection via distinct mechanisms."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,10 +4,12 @@
   "category": "seed",
   "book_claims": [
     {
-      "claim": "Consuming whole flaxseed results in significant reduction in total and LDL-cholesterol",
       "mechanism": "Richest plant source of antioxidant lignans (up to 13mg/g) and omega-3 alpha-linolenic acid. Takes <2 weeks for omega-3 to incorporate into cell membranes. Enterolignans (produced by gut bacteria from lignans) associated with lower heart disease and cancer risk.",
-      "study_ref": "Refs 188, 189, 190 in book (several RCTs)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Consuming whole flaxseed results in significant reduction in total and LDL-cholesterol",
+      "reference": "Refs 188, 189, 190 in book (several RCTs)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,50 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "earthy", "mildly sweet", "slightly bitter"],
-    "aroma": ["grassy", "warm", "oily"],
-    "texture": ["crunchy (whole)", "gritty when ground", "mucilaginous when soaked"],
+    "taste": [
+      "nutty",
+      "earthy",
+      "mildly sweet",
+      "slightly bitter"
+    ],
+    "aroma": [
+      "grassy",
+      "warm",
+      "oily"
+    ],
+    "texture": [
+      "crunchy (whole)",
+      "gritty when ground",
+      "mucilaginous when soaked"
+    ],
     "culinary_category": "seed"
   },
   "culinary_pairings": [
-    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Classic porridge addition; complementary soluble fibres"},
-    {"ingredient": "yogurt", "tradition": "Global", "source": "Probiotic + lignan-prebiotic synergy; texture complement"},
-    {"ingredient": "berries", "tradition": "Global", "source": "Lignans + anthocyanins for combined antioxidant and anticancer pathways"},
-    {"ingredient": "lemon juice", "tradition": "Global", "source": "Acid preserves ALA from oxidation; brightens earthy flavor"},
-    {"ingredient": "dark green leafy vegetables", "tradition": "Global", "source": "Combined plant omega-3 sources; salad topping"}
+    {
+      "ingredient": "oats",
+      "tradition": "Northern European / Global",
+      "source": "Classic porridge addition; complementary soluble fibres"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Global",
+      "source": "Probiotic + lignan-prebiotic synergy; texture complement"
+    },
+    {
+      "ingredient": "berries",
+      "tradition": "Global",
+      "source": "Lignans + anthocyanins for combined antioxidant and anticancer pathways"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Global",
+      "source": "Acid preserves ALA from oxidation; brightens earthy flavor"
+    },
+    {
+      "ingredient": "dark green leafy vegetables",
+      "tradition": "Global",
+      "source": "Combined plant omega-3 sources; salad topping"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -64,5 +99,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

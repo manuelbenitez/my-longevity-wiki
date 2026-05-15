@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Contain the highest concentration of beta-carotene among common vegetables",
       "mechanism": "31mg beta-carotene per 100g cooked, converted to vitamin A for eye health and immune function",
-      "study_ref": "book-assertion",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Contain the highest concentration of beta-carotene among common vegetables",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,19 +39,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "earthy", "nutty", "caramel notes when roasted"],
-    "aroma": ["warm", "sweet", "starchy", "honey-like when baked"],
-    "texture": ["dense and creamy when baked", "fluffy when steamed", "crispy when roasted at high heat"],
+    "taste": [
+      "sweet",
+      "earthy",
+      "nutty",
+      "caramel notes when roasted"
+    ],
+    "aroma": [
+      "warm",
+      "sweet",
+      "starchy",
+      "honey-like when baked"
+    ],
+    "texture": [
+      "dense and creamy when baked",
+      "fluffy when steamed",
+      "crispy when roasted at high heat"
+    ],
     "culinary_category": "starchy root vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean / Modern", "source": "Fat essential for beta-carotene absorption; roasted sweet potato wedges with EVOO"},
-    {"ingredient": "black beans", "tradition": "Latin American", "source": "Complementary amino acids and flavors; sweet potato and black bean tacos/bowls"},
-    {"ingredient": "ginger", "tradition": "Asian / African", "source": "Ginger cuts sweetness and adds anti-inflammatory synergy; sweet potato-ginger curry"},
-    {"ingredient": "cumin", "tradition": "North African / Middle Eastern", "source": "Warm spice complements natural sweetness in Moroccan-style sweet potato dishes"},
-    {"ingredient": "lime", "tradition": "Thai / Mexican", "source": "Acid balances sweetness; classic in Thai sweet potato curry and Mexican preparations"},
-    {"ingredient": "tahini", "tradition": "Middle Eastern / Modern", "source": "Creamy fat source aids carotenoid absorption; roasted sweet potato with tahini drizzle"},
-    {"ingredient": "kale", "tradition": "Modern health cuisine", "source": "Complementary nutrients: sweet potato provides beta-carotene, kale provides vitamin K and sulforaphane"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean / Modern",
+      "source": "Fat essential for beta-carotene absorption; roasted sweet potato wedges with EVOO"
+    },
+    {
+      "ingredient": "black beans",
+      "tradition": "Latin American",
+      "source": "Complementary amino acids and flavors; sweet potato and black bean tacos/bowls"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "Asian / African",
+      "source": "Ginger cuts sweetness and adds anti-inflammatory synergy; sweet potato-ginger curry"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "North African / Middle Eastern",
+      "source": "Warm spice complements natural sweetness in Moroccan-style sweet potato dishes"
+    },
+    {
+      "ingredient": "lime",
+      "tradition": "Thai / Mexican",
+      "source": "Acid balances sweetness; classic in Thai sweet potato curry and Mexican preparations"
+    },
+    {
+      "ingredient": "tahini",
+      "tradition": "Middle Eastern / Modern",
+      "source": "Creamy fat source aids carotenoid absorption; roasted sweet potato with tahini drizzle"
+    },
+    {
+      "ingredient": "kale",
+      "tradition": "Modern health cuisine",
+      "source": "Complementary nutrients: sweet potato provides beta-carotene, kale provides vitamin K and sulforaphane"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -82,5 +126,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

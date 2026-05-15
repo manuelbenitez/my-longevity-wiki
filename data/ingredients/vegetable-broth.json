@@ -2,19 +2,28 @@
   "name": "Vegetable Broth",
   "slug": "vegetable-broth",
   "category": "beverage",
-  "aliases": ["vegetable juice", "herbal tea", "veggie broth", "stock"],
+  "aliases": [
+    "vegetable juice",
+    "herbal tea",
+    "veggie broth",
+    "stock"
+  ],
   "book_claims": [
     {
-      "claim": "Vegetable broth and vegetable juice, supplemented with linseed oil, were used as the caloric source (200–350 calories/day) during the 7-day Fasting Mimicking Diet for multiple sclerosis patients and were safe and potentially effective.",
       "mechanism": "Minimal caloric intake mimics fasting while providing micronutrients; linseed oil supplies omega-3 fatty acids during the fasting period, supporting anti-inflammatory pathways without breaking the fasting state.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Vegetable broth and vegetable juice, supplemented with linseed oil, were used as the caloric source (200\u2013350 calories/day) during the 7-day Fasting Mimicking Diet for multiple sclerosis patients and were safe and potentially effective.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Used as part of the FMD protocol: vegetable broth/juice + linseed oil three times daily, alongside 2–3 liters unsweetened fluids per day.",
       "mechanism": "Electrolytes and phytonutrients in broth help maintain hydration and mineral balance during prolonged caloric restriction.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Used as part of the FMD protocol: vegetable broth/juice + linseed oil three times daily, alongside 2\u20133 liters unsweetened fluids per day.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -33,14 +42,26 @@
     {
       "source": "Examine.com",
       "url": "https://examine.com/nutrition/fasting-mimicking-diet/",
-      "finding": "Examine summarizes FMD evidence showing reduced markers of biological aging, metabolic risk factors, and improved cellular autophagy — mechanisms supported by the low-calorie, plant-based broth protocol.",
+      "finding": "Examine summarizes FMD evidence showing reduced markers of biological aging, metabolic risk factors, and improved cellular autophagy \u2014 mechanisms supported by the low-calorie, plant-based broth protocol.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["savory", "umami", "mildly sweet", "herbal"],
-    "aroma": ["aromatic", "vegetal", "earthy"],
-    "texture": ["liquid", "thin"],
+    "taste": [
+      "savory",
+      "umami",
+      "mildly sweet",
+      "herbal"
+    ],
+    "aroma": [
+      "aromatic",
+      "vegetal",
+      "earthy"
+    ],
+    "texture": [
+      "liquid",
+      "thin"
+    ],
     "culinary_category": "base/liquid"
   },
   "culinary_pairings": [
@@ -73,12 +94,12 @@
   "nutrient_highlights": [
     {
       "compound": "Potassium",
-      "amount_per_100g": "~70–100 mg (varies by recipe)",
+      "amount_per_100g": "~70\u2013100 mg (varies by recipe)",
       "bioavailability_notes": "Highly bioavailable in liquid form; supports electrolyte balance during fasting"
     },
     {
       "compound": "Sodium",
-      "amount_per_100g": "~200–400 mg (low-sodium ~72 mg)",
+      "amount_per_100g": "~200\u2013400 mg (low-sodium ~72 mg)",
       "bioavailability_notes": "Critical for fluid balance during FMD; choose low-sodium versions for daily use"
     },
     {
@@ -89,18 +110,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "linseed oil",
       "type": "synergy",
-      "description": "Used together in the FMD protocol; broth provides electrolytes and phytonutrients while linseed oil supplies omega-3 ALA, together supporting anti-inflammatory and fasting-mimicking effects."
+      "with": "linseed oil",
+      "note": "Used together in the FMD protocol; broth provides electrolytes and phytonutrients while linseed oil supplies omega-3 ALA, together supporting anti-inflammatory and fasting-mimicking effects."
     },
     {
-      "target_ingredient": "herbal tea",
       "type": "complement",
-      "description": "Both are FMD-approved fluids that provide hydration with minimal caloric load; rotating between them reduces palatability fatigue during multi-day fasting protocols."
+      "with": "herbal tea",
+      "note": "Both are FMD-approved fluids that provide hydration with minimal caloric load; rotating between them reduces palatability fatigue during multi-day fasting protocols."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

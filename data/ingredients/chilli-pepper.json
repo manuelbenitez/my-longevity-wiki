@@ -4,18 +4,22 @@
   "category": "spice",
   "book_claims": [
     {
-      "claim": "May play a role in prevention of obesity by activating TRPV1 and AMPK pathways",
       "mechanism": "Capsaicin and capsaicinoids activate TRPV1 and AMPK molecular pathways. Inhibits inflammation in fat and liver cells, improves glucose control in animal studies.",
-      "study_ref": "Refs 75, 76, 77 in book",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "May play a role in prevention of obesity by activating TRPV1 and AMPK pathways",
+      "reference": "Refs 75, 76, 77 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Capsinoid supplementation associated with abdominal fat loss and increased energy expenditure",
       "mechanism": "Capsinoids enhance heat-producing activity of brown adipose tissue, increasing energy expenditure over 6 weeks",
-      "study_ref": "Refs 78, 79 in book (small RCTs)",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Capsinoid supplementation associated with abdominal fat loss and increased energy expenditure",
+      "reference": "Refs 78, 79 in book (small RCTs)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,18 +49,57 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["hot", "pungent", "fruity (when fresh)", "smoky (when dried)", "sweet undertones"],
-    "aroma": ["sharp", "warm", "fruity", "smoky (dried varieties)"],
-    "texture": ["crisp when fresh", "leathery when dried", "flaky when ground"],
+    "taste": [
+      "hot",
+      "pungent",
+      "fruity (when fresh)",
+      "smoky (when dried)",
+      "sweet undertones"
+    ],
+    "aroma": [
+      "sharp",
+      "warm",
+      "fruity",
+      "smoky (dried varieties)"
+    ],
+    "texture": [
+      "crisp when fresh",
+      "leathery when dried",
+      "flaky when ground"
+    ],
     "culinary_category": "spice"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "Global", "source": "Universal pairing across Sichuan, Thai, Italian, and Mexican cuisines"},
-    {"ingredient": "ginger", "tradition": "East Asian / Indian", "source": "Complementary heat compounds in curries and stir-fries"},
-    {"ingredient": "tomatoes", "tradition": "Mexican / Italian", "source": "Salsa, arrabiata, and Thai-style sauces"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Aglio, olio e peperoncino -- the ultimate minimalist pasta"},
-    {"ingredient": "dark-chocolate", "tradition": "Mexican / Aztec", "source": "Ancient Mesoamerican combination; mole sauces"},
-    {"ingredient": "cumin", "tradition": "Mexican / Indian", "source": "Foundational heat-spice pairing in chili con carne and curries"}
+    {
+      "ingredient": "garlic",
+      "tradition": "Global",
+      "source": "Universal pairing across Sichuan, Thai, Italian, and Mexican cuisines"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian / Indian",
+      "source": "Complementary heat compounds in curries and stir-fries"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mexican / Italian",
+      "source": "Salsa, arrabiata, and Thai-style sauces"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Italian",
+      "source": "Aglio, olio e peperoncino -- the ultimate minimalist pasta"
+    },
+    {
+      "ingredient": "dark-chocolate",
+      "tradition": "Mexican / Aztec",
+      "source": "Ancient Mesoamerican combination; mole sauces"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Mexican / Indian",
+      "source": "Foundational heat-spice pairing in chili con carne and curries"
+    }
   ],
   "seasonality": "Fresh chillies peak in summer and early autumn. Dried chillies available year-round with excellent shelf life. Hundreds of varieties from mild (Anaheim) to extreme (Carolina Reaper). Sweet peppers contain similar but non-pungent compounds (capsinoids).",
   "nutrient_highlights": [
@@ -83,18 +126,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "garlic",
       "type": "complement",
-      "description": "Heat and pungency amplify each other across many cuisines"
+      "with": "garlic",
+      "note": "Heat and pungency amplify each other across many cuisines"
     },
     {
-      "target_ingredient": "turmeric",
       "type": "complement",
-      "description": "Both activate anti-inflammatory pathways; combined in many curry blends"
+      "with": "turmeric",
+      "note": "Both activate anti-inflammatory pathways; combined in many curry blends"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

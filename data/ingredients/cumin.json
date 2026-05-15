@@ -30,18 +30,56 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "warm", "nutty", "slightly bitter", "peppery"],
-    "aroma": ["warm", "earthy", "slightly musty", "toasted-nut when dry-roasted"],
-    "texture": ["small ridged seeds", "fine powder when ground"],
+    "taste": [
+      "earthy",
+      "warm",
+      "nutty",
+      "slightly bitter",
+      "peppery"
+    ],
+    "aroma": [
+      "warm",
+      "earthy",
+      "slightly musty",
+      "toasted-nut when dry-roasted"
+    ],
+    "texture": [
+      "small ridged seeds",
+      "fine powder when ground"
+    ],
     "culinary_category": "spice"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "Middle Eastern / Indian", "source": "Foundational spice combination in curries, hummus, and legume dishes"},
-    {"ingredient": "legumes", "tradition": "Global", "source": "Essential in dals, falafel, hummus, and chilli"},
-    {"ingredient": "turmeric", "tradition": "Indian", "source": "Core curry spice trio with coriander"},
-    {"ingredient": "chilli-pepper", "tradition": "Mexican / Indian", "source": "Heat and earthiness in chilli con carne and curries"},
-    {"ingredient": "coriander", "tradition": "Indian / Middle Eastern", "source": "Classic pairing; often used in equal parts in spice blends"},
-    {"ingredient": "tomatoes", "tradition": "Mexican / Indian", "source": "Base for salsas, curry sauces, and stewed dishes"}
+    {
+      "ingredient": "garlic",
+      "tradition": "Middle Eastern / Indian",
+      "source": "Foundational spice combination in curries, hummus, and legume dishes"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Global",
+      "source": "Essential in dals, falafel, hummus, and chilli"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian",
+      "source": "Core curry spice trio with coriander"
+    },
+    {
+      "ingredient": "chilli-pepper",
+      "tradition": "Mexican / Indian",
+      "source": "Heat and earthiness in chilli con carne and curries"
+    },
+    {
+      "ingredient": "coriander",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Classic pairing; often used in equal parts in spice blends"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mexican / Indian",
+      "source": "Base for salsas, curry sauces, and stewed dishes"
+    }
   ],
   "seasonality": "Available year-round as whole seeds or ground. Whole seeds retain flavour far longer than ground. Dry-roasting whole seeds before grinding intensifies flavour significantly. Store in airtight containers away from light.",
   "nutrient_highlights": [
@@ -68,18 +106,20 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "turmeric",
       "type": "complement",
-      "description": "Traditional curry combination; complementary anti-inflammatory pathways"
+      "with": "turmeric",
+      "note": "Traditional curry combination; complementary anti-inflammatory pathways"
     },
     {
-      "target_ingredient": "legumes",
       "type": "complement",
-      "description": "Cumin aids digestibility of legumes and is a universal legume spice across cultures"
+      "with": "legumes",
+      "note": "Cumin aids digestibility of legumes and is a universal legume spice across cultures"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": []
+  "source_chapters": [],
+  "source_books": [],
+  "migration_version": 1
 }

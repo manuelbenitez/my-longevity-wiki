@@ -2,25 +2,37 @@
   "name": "White Meat",
   "slug": "white-meat",
   "category": "meat",
-  "aliases": ["poultry", "chicken", "turkey", "chicken breast", "turkey breast"],
+  "aliases": [
+    "poultry",
+    "chicken",
+    "turkey",
+    "chicken breast",
+    "turkey breast"
+  ],
   "book_claims": [
     {
-      "claim": "White meat (chicken, poultry) is excluded from the core Longevity Diet and associated with elevated IGF-1 when consumed as a primary protein source.",
-      "mechanism": "Though lower in saturated fat than red meat, white meat still elevates IGF-1 and activates TOR-S6K signaling. Okinawans consumed 10× less poultry than Americans, and centenarian populations rely primarily on legumes and fish rather than poultry for protein.",
-      "study_ref": "",
-      "confidence": "high"
+      "mechanism": "Though lower in saturated fat than red meat, white meat still elevates IGF-1 and activates TOR-S6K signaling. Okinawans consumed 10\u00d7 less poultry than Americans, and centenarian populations rely primarily on legumes and fish rather than poultry for protein.",
+      "confidence": "high",
+      "text": "White meat (chicken, poultry) is excluded from the core Longevity Diet and associated with elevated IGF-1 when consumed as a primary protein source.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "White meat may be cautiously reintroduced after age 65 if muscle mass or weight is declining.",
       "mechanism": "After age 65, the risk-benefit ratio shifts; the anabolic effects of higher protein (including from animal sources) become more important for sarcopenia prevention. The IGF-1 risk becomes less relevant relative to the benefit of maintaining muscle mass.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "White meat may be cautiously reintroduced after age 65 if muscle mass or weight is declining.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Fish is recommended as the replacement for red and white meat as the primary animal protein source in the Longevity Diet.",
       "mechanism": "Fish provides equivalent or superior protein quality with lower branched-chain amino acid content relative to red/white meat, lower saturated fat, and additional longevity-promoting nutrients (omega-3, B12, vitamin D).",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Fish is recommended as the replacement for red and white meat as the primary animal protein source in the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -33,7 +45,7 @@
     {
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/24619916/",
-      "finding": "PMID 24619916: In the NHANES cohort, high animal protein intake (including white meat) in people aged 50–65 was associated with a 4× increased mortality risk; risk did not persist in those over 65 — consistent with Longo's age-stratified recommendation.",
+      "finding": "PMID 24619916: In the NHANES cohort, high animal protein intake (including white meat) in people aged 50\u201365 was associated with a 4\u00d7 increased mortality risk; risk did not persist in those over 65 \u2014 consistent with Longo's age-stratified recommendation.",
       "agrees_with_book": true
     },
     {
@@ -50,9 +62,22 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "savory", "clean", "neutral"],
-    "aroma": ["roasted", "savory", "subtle"],
-    "texture": ["lean", "firm", "tender when cooked properly"],
+    "taste": [
+      "mild",
+      "savory",
+      "clean",
+      "neutral"
+    ],
+    "aroma": [
+      "roasted",
+      "savory",
+      "subtle"
+    ],
+    "texture": [
+      "lean",
+      "firm",
+      "tender when cooked properly"
+    ],
     "culinary_category": "protein / main"
   },
   "culinary_pairings": [
@@ -96,18 +121,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "antagonism",
-      "description": "Legumes are the recommended protein replacement for white meat in the Longevity Diet. Legumes provide comparable protein with significantly lower mTOR/IGF-1 activation, additional fiber, and longevity-associated micronutrients."
+      "with": "legumes",
+      "note": "Legumes are the recommended protein replacement for white meat in the Longevity Diet. Legumes provide comparable protein with significantly lower mTOR/IGF-1 activation, additional fiber, and longevity-associated micronutrients."
     },
     {
-      "target_ingredient": "fish",
       "type": "antagonism",
-      "description": "Fish is the preferred animal protein in the Longevity Diet over white meat; fish provides omega-3, vitamin B12, and vitamin D that poultry lacks, with a better longevity risk-benefit profile."
+      "with": "fish",
+      "note": "Fish is the preferred animal protein in the Longevity Diet over white meat; fish provides omega-3, vitamin B12, and vitamin D that poultry lacks, with a better longevity risk-benefit profile."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

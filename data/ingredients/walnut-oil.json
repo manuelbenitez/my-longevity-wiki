@@ -2,13 +2,18 @@
   "name": "Walnut Oil",
   "slug": "walnut-oil",
   "category": "oil",
-  "aliases": ["walnut seed oil", "huile de noix"],
+  "aliases": [
+    "walnut seed oil",
+    "huile de noix"
+  ],
   "book_claims": [
     {
-      "claim": "Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL).",
       "mechanism": "Rich in alpha-linolenic acid (ALA), the plant-based omega-3 precursor; ALA can be elongated and desaturated to EPA and DHA, supporting anti-inflammatory eicosanoid production and cardiovascular protection.",
-      "study_ref": "",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Walnut oil is listed as a dietary source of omega-3 ALA providing 0.48 g per 1 tsp (5 mL).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -27,7 +32,7 @@
     {
       "source": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov/33086688/",
-      "finding": "PMID 33086688: The WAHA trial found that walnut supplementation reduced LDL cholesterol and inflammatory markers, and was associated with slower brain aging — extending the longevity relevance beyond the book's omega-3 framing.",
+      "finding": "PMID 33086688: The WAHA trial found that walnut supplementation reduced LDL cholesterol and inflammatory markers, and was associated with slower brain aging \u2014 extending the longevity relevance beyond the book's omega-3 framing.",
       "agrees_with_book": true
     },
     {
@@ -38,9 +43,21 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "rich", "slightly bitter", "earthy"],
-    "aroma": ["toasted walnut", "woody", "warm"],
-    "texture": ["light oil", "fluid"],
+    "taste": [
+      "nutty",
+      "rich",
+      "slightly bitter",
+      "earthy"
+    ],
+    "aroma": [
+      "toasted walnut",
+      "woody",
+      "warm"
+    ],
+    "texture": [
+      "light oil",
+      "fluid"
+    ],
     "culinary_category": "finishing oil / salad dressing"
   },
   "culinary_pairings": [
@@ -74,7 +91,7 @@
     {
       "compound": "Alpha-linolenic acid (ALA, omega-3)",
       "amount_per_100g": "~10.4 g per 100 mL (~0.48 g per 1 tsp)",
-      "bioavailability_notes": "ALA bioavailability from oil is high; however, conversion to EPA/DHA is limited (~5–10%); best used alongside direct EPA/DHA sources (fatty fish) for full omega-3 benefits."
+      "bioavailability_notes": "ALA bioavailability from oil is high; however, conversion to EPA/DHA is limited (~5\u201310%); best used alongside direct EPA/DHA sources (fatty fish) for full omega-3 benefits."
     },
     {
       "compound": "Linoleic acid (omega-6)",
@@ -89,23 +106,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "linseed oil",
       "type": "complement",
-      "description": "Both are plant ALA sources; linseed oil has a higher ALA concentration (~7 g/tsp), while walnut oil offers superior culinary palatability. Using both diversifies polyphenol and tocopherol intake."
+      "with": "linseed oil",
+      "note": "Both are plant ALA sources; linseed oil has a higher ALA concentration (~7 g/tsp), while walnut oil offers superior culinary palatability. Using both diversifies polyphenol and tocopherol intake."
     },
     {
-      "target_ingredient": "walnuts",
       "type": "complement",
-      "description": "Whole walnuts provide fiber and protein in addition to ALA; walnut oil provides concentrated omega-3 fat without the caloric bulk of the whole nut — useful for adding omega-3 to dressings and light dishes."
+      "with": "walnuts",
+      "note": "Whole walnuts provide fiber and protein in addition to ALA; walnut oil provides concentrated omega-3 fat without the caloric bulk of the whole nut \u2014 useful for adding omega-3 to dressings and light dishes."
     },
     {
-      "target_ingredient": "leafy greens",
       "type": "synergy",
-      "description": "Fat-soluble vitamins K, A, and E in dark leafy greens require dietary fat for absorption; using walnut oil as a dressing simultaneously delivers ALA and enhances micronutrient bioavailability."
+      "with": "leafy greens",
+      "note": "Fat-soluble vitamins K, A, and E in dark leafy greens require dietary fat for absorption; using walnut oil as a dressing simultaneously delivers ALA and enhances micronutrient bioavailability."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

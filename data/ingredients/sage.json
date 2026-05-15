@@ -4,11 +4,13 @@
   "category": "herb",
   "book_claims": [
     {
-      "claim": "One of the richest sources of potent antioxidants with potential cognitive-enhancing and protective effects",
       "mechanism": "Contains an impressive range of biologically active compounds. Medieval School of Medicine considered it essential for health.",
-      "study_ref": "Ref 108 in book (animal studies + preliminary human trials)",
       "confidence": "medium",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "One of the richest sources of potent antioxidants with potential cognitive-enhancing and protective effects",
+      "reference": "Ref 108 in book (animal studies + preliminary human trials)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,19 +40,62 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "slightly peppery", "warm", "camphoraceous", "musty-sweet"],
-    "aroma": ["aromatic", "musty", "pine-like", "eucalyptus undertones"],
-    "texture": ["velvety leaves", "slightly fuzzy", "leathery when dried"],
+    "taste": [
+      "earthy",
+      "slightly peppery",
+      "warm",
+      "camphoraceous",
+      "musty-sweet"
+    ],
+    "aroma": [
+      "aromatic",
+      "musty",
+      "pine-like",
+      "eucalyptus undertones"
+    ],
+    "texture": [
+      "velvety leaves",
+      "slightly fuzzy",
+      "leathery when dried"
+    ],
     "culinary_category": "herb"
   },
   "culinary_pairings": [
-    {"ingredient": "brown butter", "tradition": "Italian", "source": "Sage butter (burro e salvia) is the classic sauce for ravioli and gnocchi"},
-    {"ingredient": "legumes", "tradition": "Tuscan", "source": "Essential in Tuscan bean soups (ribollita, pasta e fagioli)"},
-    {"ingredient": "squash", "tradition": "Italian / European", "source": "Classic autumn pairing in risotto, ravioli fillings, and roasted dishes"},
-    {"ingredient": "rosemary", "tradition": "Italian", "source": "Both Lamiaceae herbs; combined in Italian roasts and herb blends"},
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Foundational aromatic combination in Mediterranean cooking"},
-    {"ingredient": "walnuts", "tradition": "Italian", "source": "Sage-walnut pesto; traditional Ligurian variation"},
-    {"ingredient": "honey-natural-sweeteners", "tradition": "European", "source": "Sage honey is a prized single-varietal honey in Mediterranean regions"}
+    {
+      "ingredient": "brown butter",
+      "tradition": "Italian",
+      "source": "Sage butter (burro e salvia) is the classic sauce for ravioli and gnocchi"
+    },
+    {
+      "ingredient": "legumes",
+      "tradition": "Tuscan",
+      "source": "Essential in Tuscan bean soups (ribollita, pasta e fagioli)"
+    },
+    {
+      "ingredient": "squash",
+      "tradition": "Italian / European",
+      "source": "Classic autumn pairing in risotto, ravioli fillings, and roasted dishes"
+    },
+    {
+      "ingredient": "rosemary",
+      "tradition": "Italian",
+      "source": "Both Lamiaceae herbs; combined in Italian roasts and herb blends"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "Foundational aromatic combination in Mediterranean cooking"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Italian",
+      "source": "Sage-walnut pesto; traditional Ligurian variation"
+    },
+    {
+      "ingredient": "honey-natural-sweeteners",
+      "tradition": "European",
+      "source": "Sage honey is a prized single-varietal honey in Mediterranean regions"
+    }
   ],
   "seasonality": "Perennial herb available year-round in temperate climates. Grows easily in pots near windows. Fresh sage has more nuanced flavour than dried, though dried sage is more concentrated. Best harvested before flowering.",
   "nutrient_highlights": [
@@ -77,18 +122,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "rosemary",
       "type": "complement",
-      "description": "Both Lamiaceae herbs with overlapping but complementary antioxidant profiles"
+      "with": "rosemary",
+      "note": "Both Lamiaceae herbs with overlapping but complementary antioxidant profiles"
     },
     {
-      "target_ingredient": "green-tea",
       "type": "complement",
-      "description": "Book recommends alternating sage infusions with green tea for varied polyphenol intake"
+      "with": "green-tea",
+      "note": "Book recommends alternating sage infusions with green tea for varied polyphenol intake"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -72,7 +72,7 @@
       "source": "Running to the Kitchen"
     }
   ],
-  "seasonality": "Spring (peak March–May); available year-round from cultivated sources",
+  "seasonality": "Spring (peak March\u2013May); available year-round from cultivated sources",
   "nutrient_highlights": [
     {
       "compound": "Vitamin K1 (phylloquinone)",
@@ -86,44 +86,45 @@
     },
     {
       "compound": "Luteolin (flavonoid)",
-      "amount_per_100g": "~8–12 mg (estimated)",
-      "bioavailability_notes": "A potent NF-κB inhibitor and mTOR modulator. Bioavailability enhanced by mild cooking; pairs well with quercetin from onions for additive anti-inflammatory effect."
+      "amount_per_100g": "~8\u201312 mg (estimated)",
+      "bioavailability_notes": "A potent NF-\u03baB inhibitor and mTOR modulator. Bioavailability enhanced by mild cooking; pairs well with quercetin from onions for additive anti-inflammatory effect."
     },
     {
       "compound": "Inulin (prebiotic fiber)",
-      "amount_per_100g": "~0.5–1.5 g in leaves (higher in root)",
+      "amount_per_100g": "~0.5\u20131.5 g in leaves (higher in root)",
       "bioavailability_notes": "Fermented by Bifidobacterium and Lactobacillus species in the colon; supports gut microbiome diversity linked to reduced systemic inflammation and healthy aging."
     },
     {
       "compound": "Potassium",
       "amount_per_100g": "397 mg",
-      "bioavailability_notes": "Bioavailable form; supports blood pressure regulation and cardiovascular health. Retained well in sautéed preparations."
+      "bioavailability_notes": "Bioavailable form; supports blood pressure regulation and cardiovascular health. Retained well in saut\u00e9ed preparations."
     }
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Fat-soluble carotenoids (beta-carotene, lutein) and vitamin K in dandelion greens require dietary fat for absorption. Extra-virgin olive oil also contributes oleocanthal (anti-inflammatory) and oleic acid, amplifying the overall anti-inflammatory and cardiovascular-protective effect of the pairing."
+      "with": "olive oil",
+      "note": "Fat-soluble carotenoids (beta-carotene, lutein) and vitamin K in dandelion greens require dietary fat for absorption. Extra-virgin olive oil also contributes oleocanthal (anti-inflammatory) and oleic acid, amplifying the overall anti-inflammatory and cardiovascular-protective effect of the pairing."
     },
     {
-      "target_ingredient": "lemon juice",
       "type": "synergy",
-      "description": "Vitamin C in lemon juice (and dandelion itself) enhances non-heme iron absorption from dandelion greens (3.1 mg/100g). The acidity also balances bitterness and may improve polyphenol stability during cooking."
+      "with": "lemon juice",
+      "note": "Vitamin C in lemon juice (and dandelion itself) enhances non-heme iron absorption from dandelion greens (3.1 mg/100g). The acidity also balances bitterness and may improve polyphenol stability during cooking."
     },
     {
-      "target_ingredient": "garlic",
       "type": "synergy",
-      "description": "Allicin and diallyl sulfides in garlic complement dandelion's flavonoids (luteolin, quercetin) with additive NF-κB and mTOR suppression. The combination appears across Italian and Middle Eastern longevity cuisines as a foundational bitter-green preparation."
+      "with": "garlic",
+      "note": "Allicin and diallyl sulfides in garlic complement dandelion's flavonoids (luteolin, quercetin) with additive NF-\u03baB and mTOR suppression. The combination appears across Italian and Middle Eastern longevity cuisines as a foundational bitter-green preparation."
     },
     {
-      "target_ingredient": "white beans",
       "type": "complement",
-      "description": "Beans provide plant protein and resistant starch that buffer dandelion's bitterness; dandelion's inulin adds prebiotic fiber to the beans' fiber load, supporting a robust gut microbiome. Classic pairing in Italian cucina povera and Blue Zone-adjacent diets."
+      "with": "white beans",
+      "note": "Beans provide plant protein and resistant starch that buffer dandelion's bitterness; dandelion's inulin adds prebiotic fiber to the beans' fiber load, supporting a robust gut microbiome. Classic pairing in Italian cucina povera and Blue Zone-adjacent diets."
     }
   ],
   "last_updated": "2026-04-18T00:00:00Z",
   "last_researched": "2026-04-18T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [],
+  "migration_version": 1
 }

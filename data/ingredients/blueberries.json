@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Wild blueberries and blackberries contain highest phenolic phytochemical content among fruits, contributing to lower inflammation",
       "mechanism": "Anthocyanins and proanthocyanidins with potent antioxidant and anti-inflammatory activity",
-      "study_ref": "Refs 208, 209 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Wild blueberries and blackberries contain highest phenolic phytochemical content among fruits, contributing to lower inflammation",
+      "reference": "Refs 208, 209 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -43,22 +45,77 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "tart", "mildly tannic", "fruity"],
-    "aroma": ["floral", "fruity", "wine-like", "jammy"],
-    "texture": ["juicy", "tender skin", "small seeds", "bursting"],
+    "taste": [
+      "sweet",
+      "tart",
+      "mildly tannic",
+      "fruity"
+    ],
+    "aroma": [
+      "floral",
+      "fruity",
+      "wine-like",
+      "jammy"
+    ],
+    "texture": [
+      "juicy",
+      "tender skin",
+      "small seeds",
+      "bursting"
+    ],
     "culinary_category": "berry fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "lemon", "tradition": "American/European", "source": "classic pastry tradition"},
-    {"ingredient": "yogurt", "tradition": "global", "source": "breakfast and smoothie bowl tradition"},
-    {"ingredient": "oats", "tradition": "Northern European/American", "source": "porridge and granola tradition"},
-    {"ingredient": "dark chocolate", "tradition": "European confectionery", "source": "The Flavor Bible (Page & Dornenburg)"},
-    {"ingredient": "almonds", "tradition": "Mediterranean", "source": "baking and snack tradition"},
-    {"ingredient": "mint", "tradition": "American/Middle Eastern", "source": "herb-fruit pairing tradition"},
-    {"ingredient": "cinnamon", "tradition": "American baking", "source": "classic spice-fruit pairing"},
-    {"ingredient": "vanilla", "tradition": "French pastry", "source": "The Flavor Bible (Page & Dornenburg)"},
-    {"ingredient": "peaches", "tradition": "Southern American", "source": "summer fruit combination"},
-    {"ingredient": "walnuts", "tradition": "European", "source": "salad and baking tradition"}
+    {
+      "ingredient": "lemon",
+      "tradition": "American/European",
+      "source": "classic pastry tradition"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "global",
+      "source": "breakfast and smoothie bowl tradition"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Northern European/American",
+      "source": "porridge and granola tradition"
+    },
+    {
+      "ingredient": "dark chocolate",
+      "tradition": "European confectionery",
+      "source": "The Flavor Bible (Page & Dornenburg)"
+    },
+    {
+      "ingredient": "almonds",
+      "tradition": "Mediterranean",
+      "source": "baking and snack tradition"
+    },
+    {
+      "ingredient": "mint",
+      "tradition": "American/Middle Eastern",
+      "source": "herb-fruit pairing tradition"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "American baking",
+      "source": "classic spice-fruit pairing"
+    },
+    {
+      "ingredient": "vanilla",
+      "tradition": "French pastry",
+      "source": "The Flavor Bible (Page & Dornenburg)"
+    },
+    {
+      "ingredient": "peaches",
+      "tradition": "Southern American",
+      "source": "summer fruit combination"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "European",
+      "source": "salad and baking tradition"
+    }
   ],
   "seasonality": "Peak season June through August in Northern Hemisphere; frozen available year-round. Wild (lowbush) blueberries typically harvested late July to early September.",
   "nutrient_highlights": [
@@ -92,5 +149,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "partial",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

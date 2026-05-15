@@ -2,13 +2,20 @@
   "name": "Grapes",
   "slug": "grapes",
   "category": "fruit",
-  "aliases": ["raisins", "red grapes", "green grapes", "black grapes"],
+  "aliases": [
+    "raisins",
+    "red grapes",
+    "green grapes",
+    "black grapes"
+  ],
   "book_claims": [
     {
-      "claim": "Suggested as a dessert option in the Longevity Diet; 100–150 g fresh or 20 g raisins as a substitute.",
       "mechanism": "Provides natural sugars, polyphenols, and resveratrol within the context of a predominantly plant-based longevity eating pattern.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Suggested as a dessert option in the Longevity Diet; 100\u2013150 g fresh or 20 g raisins as a substitute.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -38,31 +45,94 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "slightly tart", "juicy"],
-    "aroma": ["fruity", "floral", "musky (dark varieties)"],
-    "texture": ["crisp", "juicy", "thin-skinned"],
+    "taste": [
+      "sweet",
+      "slightly tart",
+      "juicy"
+    ],
+    "aroma": [
+      "fruity",
+      "floral",
+      "musky (dark varieties)"
+    ],
+    "texture": [
+      "crisp",
+      "juicy",
+      "thin-skinned"
+    ],
     "culinary_category": "table fruit / dessert fruit"
   },
   "culinary_pairings": [
-    {"ingredient": "walnuts", "tradition": "Mediterranean", "source": "culinary tradition"},
-    {"ingredient": "fennel", "tradition": "Italian", "source": "culinary tradition"},
-    {"ingredient": "olive oil", "tradition": "Mediterranean salad", "source": "culinary tradition"},
-    {"ingredient": "honey", "tradition": "Middle Eastern", "source": "culinary tradition"}
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "fennel",
+      "tradition": "Italian",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "olive oil",
+      "tradition": "Mediterranean salad",
+      "source": "culinary tradition"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Middle Eastern",
+      "source": "culinary tradition"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Resveratrol", "amount_per_100g": "0.1–0.7 mg (red/black varieties)", "bioavailability_notes": "Concentrated in skin; absorbed in small intestine; metabolized rapidly"},
-    {"compound": "Quercetin", "amount_per_100g": "~3.5 mg", "bioavailability_notes": "Enhanced absorption with dietary fat"},
-    {"compound": "Anthocyanins", "amount_per_100g": "25–92 mg (dark varieties)", "bioavailability_notes": "Higher in red/black grapes; antioxidant and anti-inflammatory"},
-    {"compound": "Vitamin K", "amount_per_100g": "14.6 mcg", "bioavailability_notes": "Fat-soluble; absorption improved with a small amount of fat"},
-    {"compound": "Potassium", "amount_per_100g": "191 mg", "bioavailability_notes": "Well bioavailable from fresh fruit"}
+    {
+      "compound": "Resveratrol",
+      "amount_per_100g": "0.1\u20130.7 mg (red/black varieties)",
+      "bioavailability_notes": "Concentrated in skin; absorbed in small intestine; metabolized rapidly"
+    },
+    {
+      "compound": "Quercetin",
+      "amount_per_100g": "~3.5 mg",
+      "bioavailability_notes": "Enhanced absorption with dietary fat"
+    },
+    {
+      "compound": "Anthocyanins",
+      "amount_per_100g": "25\u201392 mg (dark varieties)",
+      "bioavailability_notes": "Higher in red/black grapes; antioxidant and anti-inflammatory"
+    },
+    {
+      "compound": "Vitamin K",
+      "amount_per_100g": "14.6 mcg",
+      "bioavailability_notes": "Fat-soluble; absorption improved with a small amount of fat"
+    },
+    {
+      "compound": "Potassium",
+      "amount_per_100g": "191 mg",
+      "bioavailability_notes": "Well bioavailable from fresh fruit"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "walnuts", "type": "synergy", "description": "Both contain resveratrol and polyphenols; combined consumption amplifies SIRT1 activation and anti-inflammatory signaling"},
-    {"target_ingredient": "honey", "type": "complement", "description": "Traditional pairing; both provide polyphenols with complementary antioxidant profiles"},
-    {"target_ingredient": "olive oil", "type": "complement", "description": "Fat in olive oil enhances absorption of fat-soluble grape polyphenols and vitamin K"}
+    {
+      "type": "synergy",
+      "with": "walnuts",
+      "note": "Both contain resveratrol and polyphenols; combined consumption amplifies SIRT1 activation and anti-inflammatory signaling"
+    },
+    {
+      "type": "complement",
+      "with": "honey",
+      "note": "Traditional pairing; both provide polyphenols with complementary antioxidant profiles"
+    },
+    {
+      "type": "complement",
+      "with": "olive oil",
+      "note": "Fat in olive oil enhances absorption of fat-soluble grape polyphenols and vitamin K"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

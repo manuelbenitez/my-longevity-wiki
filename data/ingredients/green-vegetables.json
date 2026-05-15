@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "Almost undetectable effect on blood glucose",
       "mechanism": "Very low carbohydrate content and high fibre means virtually no glucose load",
-      "study_ref": "book-assertion (glycaemic index data)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Almost undetectable effect on blood glucose",
+      "reference": "book-assertion (glycaemic index data)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild to bitter", "grassy", "fresh", "mineral"],
-    "aroma": ["green", "fresh", "vegetal"],
-    "texture": ["varies: crunchy (raw), tender (cooked)", "leafy", "fibrous"],
+    "taste": [
+      "mild to bitter",
+      "grassy",
+      "fresh",
+      "mineral"
+    ],
+    "aroma": [
+      "green",
+      "fresh",
+      "vegetal"
+    ],
+    "texture": [
+      "varies: crunchy (raw), tender (cooked)",
+      "leafy",
+      "fibrous"
+    ],
     "culinary_category": "leafy and cruciferous vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Standard dressing for all green vegetables; enhances fat-soluble nutrient absorption"},
-    {"ingredient": "garlic", "tradition": "Mediterranean / Asian", "source": "Universal aromatic for sauteed greens across all cuisines"},
-    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Brightens flavors and enhances non-heme iron absorption"},
-    {"ingredient": "tofu", "tradition": "East Asian", "source": "Classic pairing in stir-fries; complementary plant protein"},
-    {"ingredient": "ginger", "tradition": "East Asian", "source": "Aromatics cut green bitterness; anti-inflammatory synergy"},
-    {"ingredient": "walnuts", "tradition": "Mediterranean / Modern", "source": "Omega-3 fats enhance carotenoid absorption; textural contrast"},
-    {"ingredient": "nutritional yeast", "tradition": "Modern plant-based", "source": "Adds umami and B-vitamins to greens"}
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Standard dressing for all green vegetables; enhances fat-soluble nutrient absorption"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Asian",
+      "source": "Universal aromatic for sauteed greens across all cuisines"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean",
+      "source": "Brightens flavors and enhances non-heme iron absorption"
+    },
+    {
+      "ingredient": "tofu",
+      "tradition": "East Asian",
+      "source": "Classic pairing in stir-fries; complementary plant protein"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian",
+      "source": "Aromatics cut green bitterness; anti-inflammatory synergy"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean / Modern",
+      "source": "Omega-3 fats enhance carotenoid absorption; textural contrast"
+    },
+    {
+      "ingredient": "nutritional yeast",
+      "tradition": "Modern plant-based",
+      "source": "Adds umami and B-vitamins to greens"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -71,5 +114,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -2,39 +2,56 @@
   "name": "Celery",
   "slug": "celery",
   "category": "vegetable",
-  "aliases": ["Apium graveolens", "garden celery"],
+  "aliases": [
+    "Apium graveolens",
+    "garden celery"
+  ],
   "book_claims": [
     {
-      "claim": "Celery is used in the Longevity Diet tomato soup base, with 1 medium stalk per recipe.",
-      "mechanism": "Aromatic base vegetable providing 3-n-butylphthalide (3nB), apigenin, and luteolin — bioactives with anti-inflammatory and cardiovascular properties. Also contributes flavor complexity that supports adherence to the plant-forward diet.",
-      "study_ref": null,
-      "confidence": "high"
+      "mechanism": "Aromatic base vegetable providing 3-n-butylphthalide (3nB), apigenin, and luteolin \u2014 bioactives with anti-inflammatory and cardiovascular properties. Also contributes flavor complexity that supports adherence to the plant-forward diet.",
+      "confidence": "high",
+      "text": "Celery is used in the Longevity Diet tomato soup base, with 1 medium stalk per recipe.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Sowbhagya, Critical Reviews in Food Science and Nutrition (2014) — PMID 24279396",
+      "source": "Sowbhagya, Critical Reviews in Food Science and Nutrition (2014) \u2014 PMID 24279396",
       "url": "https://pubmed.ncbi.nlm.nih.gov/24279396/",
       "finding": "Celery's 3-n-butylphthalide (3nB) is a potent antihypertensive compound shown to lower blood pressure by relaxing smooth muscle in arterial walls; studies show ~14% reduction in systolic BP with celery seed extract, supporting cardiovascular longevity.",
       "agrees_with_book": true
     },
     {
-      "source": "Yao et al., Nutrients (2020) — PMID 32443899",
+      "source": "Yao et al., Nutrients (2020) \u2014 PMID 32443899",
       "url": "https://pubmed.ncbi.nlm.nih.gov/32443899/",
       "finding": "Apigenin and luteolin from celery demonstrate significant neuroprotective effects in in vitro and animal models by inhibiting neuroinflammation through NF-kB suppression and AMPK activation, mechanisms relevant to Alzheimer's disease prevention and cognitive aging.",
       "agrees_with_book": true
     },
     {
-      "source": "Tang et al., PLOS ONE (2017) — PMID 28700697",
+      "source": "Tang et al., PLOS ONE (2017) \u2014 PMID 28700697",
       "url": "https://pubmed.ncbi.nlm.nih.gov/28700697/",
       "finding": "Celery seed extract reduced serum uric acid levels and alleviated gout-related inflammation in animal models; celery consumption has traditional use in joint health, relevant to maintaining mobility and quality of life in aging.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["mildly bitter", "herbaceous", "slightly salty"],
-    "aroma": ["herbal", "grassy", "anise-like phthalide notes"],
-    "texture": ["crunchy", "fibrous", "stringy"],
+    "taste": [
+      "mildly bitter",
+      "herbaceous",
+      "slightly salty"
+    ],
+    "aroma": [
+      "herbal",
+      "grassy",
+      "anise-like phthalide notes"
+    ],
+    "texture": [
+      "crunchy",
+      "fibrous",
+      "stringy"
+    ],
     "culinary_category": "aromatic vegetable"
   },
   "culinary_pairings": [
@@ -83,23 +100,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "tomato",
       "type": "complement",
-      "description": "In the Longevity Diet soup, celery's 3nB (antihypertensive) and tomato's lycopene (cardiovascular antioxidant) create a complementary cardiovascular-protective combination."
+      "with": "tomato",
+      "note": "In the Longevity Diet soup, celery's 3nB (antihypertensive) and tomato's lycopene (cardiovascular antioxidant) create a complementary cardiovascular-protective combination."
     },
     {
-      "target_ingredient": "carrot",
       "type": "complement",
-      "description": "Celery and carrots form the classic mirepoix pairing; together they provide a broader range of carotenoids, flavonoids, and phthalides than either alone."
+      "with": "carrot",
+      "note": "Celery and carrots form the classic mirepoix pairing; together they provide a broader range of carotenoids, flavonoids, and phthalides than either alone."
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Olive oil enhances absorption of celery's fat-soluble bioactives (3nB, vitamin K) and contributes anti-inflammatory oleocanthal to the dish."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil enhances absorption of celery's fat-soluble bioactives (3nB, vitamin K) and contributes anti-inflammatory oleocanthal to the dish."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

@@ -4,18 +4,22 @@
   "category": "legume",
   "book_claims": [
     {
-      "claim": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
       "mechanism": "Fibre-rich food that after gut microbe processing releases protective metabolites; low in empty calories compared to processed foods",
-      "study_ref": "Ref 5 in book",
       "confidence": "medium",
-      "_from_chapter": 4
+      "_from_chapter": 4,
+      "text": "Regular consumption helps prevent accumulation of belly fat and chronic disease",
+      "reference": "Ref 5 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
       "mechanism": "High fibre induces early satiety; source of plant protein, vitamins, phytocompounds and minerals",
-      "study_ref": "Author's metabolic kitchen study",
       "confidence": "high",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Part of fibre-rich diet that causes spontaneous weight loss and metabolic improvement",
+      "reference": "Author's metabolic kitchen study",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,19 +49,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["earthy", "creamy", "mild", "starchy"],
-    "aroma": ["subtle", "earthy", "comforting"],
-    "texture": ["creamy interior", "tender skin", "variable by variety"],
+    "taste": [
+      "earthy",
+      "creamy",
+      "mild",
+      "starchy"
+    ],
+    "aroma": [
+      "subtle",
+      "earthy",
+      "comforting"
+    ],
+    "texture": [
+      "creamy interior",
+      "tender skin",
+      "variable by variety"
+    ],
     "culinary_category": "legume / pulse"
   },
   "culinary_pairings": [
-    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Aromatic base for nearly all bean preparations worldwide"},
-    {"ingredient": "cumin", "tradition": "Middle Eastern / Mexican / Indian", "source": "Classic spice pairing across multiple bean-centric cuisines"},
-    {"ingredient": "tomatoes", "tradition": "Mediterranean / Mexican", "source": "Acid and umami complement creamy beans; classic in chili and fasolada"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Finishing fat that carries flavor and adds healthy monounsaturated fats"},
-    {"ingredient": "whole grains", "tradition": "Global", "source": "Complementary amino acids for complete protein; rice and beans is universal"},
-    {"ingredient": "onions", "tradition": "Global", "source": "Foundation aromatic in virtually every bean dish worldwide"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean / Middle Eastern", "source": "Vitamin C improves non-heme iron absorption from beans"}
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Global",
+      "source": "Aromatic base for nearly all bean preparations worldwide"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Middle Eastern / Mexican / Indian",
+      "source": "Classic spice pairing across multiple bean-centric cuisines"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Mediterranean / Mexican",
+      "source": "Acid and umami complement creamy beans; classic in chili and fasolada"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Finishing fat that carries flavor and adds healthy monounsaturated fats"
+    },
+    {
+      "ingredient": "whole grains",
+      "tradition": "Global",
+      "source": "Complementary amino acids for complete protein; rice and beans is universal"
+    },
+    {
+      "ingredient": "onions",
+      "tradition": "Global",
+      "source": "Foundation aromatic in virtually every bean dish worldwide"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Vitamin C improves non-heme iron absorption from beans"
+    }
   ],
   "seasonality": "Dried beans available year-round. Fresh shell beans (cranberry, fava, lima) seasonal in summer. Canned beans are nutritionally equivalent to home-cooked for most purposes.",
   "nutrient_highlights": [
@@ -89,18 +134,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "whole-grains",
       "type": "complement",
-      "description": "Part of the core fibre-rich food group; complementary amino acids for complete protein"
+      "with": "whole-grains",
+      "note": "Part of the core fibre-rich food group; complementary amino acids for complete protein"
     },
     {
-      "target_ingredient": "lemon-juice",
       "type": "synergy",
-      "description": "Vitamin C from citrus dramatically improves non-heme iron absorption from beans"
+      "with": "lemon-juice",
+      "note": "Vitamin C from citrus dramatically improves non-heme iron absorption from beans"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [4, 5]
+  "source_chapters": [
+    4,
+    5
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

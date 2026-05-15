@@ -4,10 +4,12 @@
   "category": "vegetable",
   "book_claims": [
     {
-      "claim": "40-60% of calcium is absorbed (higher bioavailability than cow's milk at 31-32%)",
       "mechanism": "Low oxalate content allows high calcium bioavailability; oxalates in other vegetables (spinach, chard, beets) chelate calcium and block absorption",
-      "study_ref": "Ref 107 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "40-60% of calcium is absorbed (higher bioavailability than cow's milk at 31-32%)",
+      "reference": "Ref 107 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,19 +39,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild cruciferous", "slightly sweet (cabbage)", "earthy-green (broccoli)", "nutty when roasted"],
-    "aroma": ["sulfurous when overcooked", "mild and fresh when raw", "nutty when roasted"],
-    "texture": ["crunchy raw", "tender-crisp steamed", "soft when braised", "florets hold sauce well"],
+    "taste": [
+      "mild cruciferous",
+      "slightly sweet (cabbage)",
+      "earthy-green (broccoli)",
+      "nutty when roasted"
+    ],
+    "aroma": [
+      "sulfurous when overcooked",
+      "mild and fresh when raw",
+      "nutty when roasted"
+    ],
+    "texture": [
+      "crunchy raw",
+      "tender-crisp steamed",
+      "soft when braised",
+      "florets hold sauce well"
+    ],
     "culinary_category": "cruciferous vegetable"
   },
   "culinary_pairings": [
-    {"ingredient": "mustard", "tradition": "European", "source": "Myrosinase in mustard seeds restores sulforaphane conversion after cooking"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Fat enhances absorption of fat-soluble sulforaphane and vitamin K"},
-    {"ingredient": "garlic", "tradition": "Mediterranean / Asian", "source": "Complementary organosulfur compounds; classic sauteed greens base"},
-    {"ingredient": "lemon", "tradition": "Mediterranean", "source": "Acid brightens brassica flavors and adds vitamin C"},
-    {"ingredient": "chili flakes", "tradition": "Italian / Asian", "source": "Heat cuts through brassica sweetness; broccoli with garlic and chili is a staple"},
-    {"ingredient": "sesame oil", "tradition": "East Asian", "source": "Toasted sesame complements nutty roasted brassica flavors"},
-    {"ingredient": "white beans", "tradition": "Italian", "source": "Classic Tuscan combination; complementary amino acid profiles"}
+    {
+      "ingredient": "mustard",
+      "tradition": "European",
+      "source": "Myrosinase in mustard seeds restores sulforaphane conversion after cooking"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Fat enhances absorption of fat-soluble sulforaphane and vitamin K"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Asian",
+      "source": "Complementary organosulfur compounds; classic sauteed greens base"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Mediterranean",
+      "source": "Acid brightens brassica flavors and adds vitamin C"
+    },
+    {
+      "ingredient": "chili flakes",
+      "tradition": "Italian / Asian",
+      "source": "Heat cuts through brassica sweetness; broccoli with garlic and chili is a staple"
+    },
+    {
+      "ingredient": "sesame oil",
+      "tradition": "East Asian",
+      "source": "Toasted sesame complements nutty roasted brassica flavors"
+    },
+    {
+      "ingredient": "white beans",
+      "tradition": "Italian",
+      "source": "Classic Tuscan combination; complementary amino acid profiles"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -80,18 +124,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "spinach-chard-beets",
       "type": "antagonism",
-      "description": "Unlike spinach/chard/beets which are high in oxalates, cabbage/broccoli have low oxalates allowing better calcium absorption"
+      "with": "spinach-chard-beets",
+      "note": "Unlike spinach/chard/beets which are high in oxalates, cabbage/broccoli have low oxalates allowing better calcium absorption"
     },
     {
-      "target_ingredient": "vitamin-d",
       "type": "synergy",
-      "description": "Vitamin D facilitates calcium absorption"
+      "with": "vitamin-d",
+      "note": "Vitamin D facilitates calcium absorption"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -4,10 +4,12 @@
   "category": "seed",
   "book_claims": [
     {
-      "claim": "Regular consumption supports disease prevention and longevity",
       "mechanism": "Part of fibre-rich food group providing vitamins, oligo-elements and phytochemicals processed by gut microbiome into protective metabolites",
-      "study_ref": "Ref 5 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Regular consumption supports disease prevention and longevity",
+      "reference": "Ref 5 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,49 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "earthy", "mild to rich (varies by type)"],
-    "aroma": ["grassy", "warm", "toasty when roasted"],
-    "texture": ["crunchy", "small", "oily"],
+    "taste": [
+      "nutty",
+      "earthy",
+      "mild to rich (varies by type)"
+    ],
+    "aroma": [
+      "grassy",
+      "warm",
+      "toasty when roasted"
+    ],
+    "texture": [
+      "crunchy",
+      "small",
+      "oily"
+    ],
     "culinary_category": "seed"
   },
   "culinary_pairings": [
-    {"ingredient": "yogurt", "tradition": "Global", "source": "Probiotic + prebiotic fibre synergy; classic topping"},
-    {"ingredient": "salads", "tradition": "Global", "source": "Nutrient-dense topping adding healthy fats and crunch"},
-    {"ingredient": "oats", "tradition": "Northern European / Global", "source": "Classic porridge addition for omega-3 and minerals"},
-    {"ingredient": "dark green leafy vegetables", "tradition": "Global", "source": "Mineral-rich seeds on mineral-rich greens"},
-    {"ingredient": "berries", "tradition": "Global", "source": "Seed + berry combinations for combined antioxidant profiles"}
+    {
+      "ingredient": "yogurt",
+      "tradition": "Global",
+      "source": "Probiotic + prebiotic fibre synergy; classic topping"
+    },
+    {
+      "ingredient": "salads",
+      "tradition": "Global",
+      "source": "Nutrient-dense topping adding healthy fats and crunch"
+    },
+    {
+      "ingredient": "oats",
+      "tradition": "Northern European / Global",
+      "source": "Classic porridge addition for omega-3 and minerals"
+    },
+    {
+      "ingredient": "dark green leafy vegetables",
+      "tradition": "Global",
+      "source": "Mineral-rich seeds on mineral-rich greens"
+    },
+    {
+      "ingredient": "berries",
+      "tradition": "Global",
+      "source": "Seed + berry combinations for combined antioxidant profiles"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -64,5 +98,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [4]
+  "source_chapters": [
+    4
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

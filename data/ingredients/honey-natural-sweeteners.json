@@ -1,13 +1,15 @@
 {
   "name": "Honey and Natural Sweeteners (mosto cotto, miele di fichi)",
   "slug": "honey-natural-sweeteners",
-  "category": "oil_condiment",
+  "category": "oil",
   "book_claims": [
     {
-      "claim": "Traditional alternative to refined sugar for occasional sweets",
       "mechanism": "Lower glycaemic impact than refined sugar; contains trace minerals and antioxidants absent in refined sugar",
-      "study_ref": "book-assertion",
-      "confidence": "low"
+      "confidence": "low",
+      "text": "Traditional alternative to refined sugar for occasional sweets",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,17 +33,51 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "floral (honey)", "caramel (mosto cotto)", "fig-like (miele di fichi)"],
-    "aroma": ["floral", "complex", "fruity", "caramelized"],
-    "texture": ["viscous", "syrupy", "thick"],
+    "taste": [
+      "sweet",
+      "floral (honey)",
+      "caramel (mosto cotto)",
+      "fig-like (miele di fichi)"
+    ],
+    "aroma": [
+      "floral",
+      "complex",
+      "fruity",
+      "caramelized"
+    ],
+    "texture": [
+      "viscous",
+      "syrupy",
+      "thick"
+    ],
     "culinary_category": "natural sweetener"
   },
   "culinary_pairings": [
-    {"ingredient": "nuts", "tradition": "Mediterranean / Middle Eastern", "source": "Baklava, nougat, and nut-honey desserts"},
-    {"ingredient": "yogurt", "tradition": "Mediterranean / Greek", "source": "Traditional breakfast and dessert; probiotic + prebiotic synergy"},
-    {"ingredient": "aged cheese", "tradition": "Italian", "source": "Honey with pecorino or gorgonzola; classic antipasto"},
-    {"ingredient": "lemon juice", "tradition": "Mediterranean / Global", "source": "Honey-lemon in teas and dressings"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern", "source": "Traditional spice pairing in desserts and beverages"}
+    {
+      "ingredient": "nuts",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Baklava, nougat, and nut-honey desserts"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Mediterranean / Greek",
+      "source": "Traditional breakfast and dessert; probiotic + prebiotic synergy"
+    },
+    {
+      "ingredient": "aged cheese",
+      "tradition": "Italian",
+      "source": "Honey with pecorino or gorgonzola; classic antipasto"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Mediterranean / Global",
+      "source": "Honey-lemon in teas and dressings"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern",
+      "source": "Traditional spice pairing in desserts and beverages"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -64,5 +100,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8]
+  "source_chapters": [
+    8
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -2,19 +2,28 @@
   "name": "Pasta",
   "slug": "pasta",
   "category": "grain",
-  "aliases": ["spaghetti", "whole-grain pasta", "whole-wheat pasta", "refined pasta"],
+  "aliases": [
+    "spaghetti",
+    "whole-grain pasta",
+    "whole-wheat pasta",
+    "refined pasta"
+  ],
   "book_claims": [
     {
-      "claim": "Pasta should be consumed in limited portions as it is easily converted to sugars; paired with vegetables, legumes, and olive oil to lower glycemic load",
       "mechanism": "Refined semolina pasta has moderate-to-high glycemic index; rapidly converted to glucose in the intestine",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Pasta should be consumed in limited portions as it is easily converted to sugars; paired with vegetables, legumes, and olive oil to lower glycemic load",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     },
     {
-      "claim": "Primary grain/starch in many Longevity Diet dinners; whole-grain pasta provides folate (83 mcg per ½ cup enriched cooked, 21% DV) and iron (1 mg per cup whole wheat cooked, 6% DV)",
       "mechanism": "Complex carbohydrate source; enriched/whole-wheat varieties provide folate and iron",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Primary grain/starch in many Longevity Diet dinners; whole-grain pasta provides folate (83 mcg per \u00bd cup enriched cooked, 21% DV) and iron (1 mg per cup whole wheat cooked, 6% DV)",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -32,28 +41,78 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["neutral", "mildly nutty (whole wheat)", "starchy"],
-    "aroma": ["wheat", "neutral"],
-    "texture": ["al dente", "firm", "chewy"],
+    "taste": [
+      "neutral",
+      "mildly nutty (whole wheat)",
+      "starchy"
+    ],
+    "aroma": [
+      "wheat",
+      "neutral"
+    ],
+    "texture": [
+      "al dente",
+      "firm",
+      "chewy"
+    ],
     "culinary_category": "grain staple"
   },
   "culinary_pairings": [
-    {"ingredient": "legumes", "tradition": "Southern Italian (Calabrian)", "source": "The Longevity Diet"},
-    {"ingredient": "olive oil", "tradition": "Italian/Mediterranean", "source": "The Longevity Diet"},
-    {"ingredient": "vegetables", "tradition": "Italian", "source": "The Longevity Diet"}
+    {
+      "ingredient": "legumes",
+      "tradition": "Southern Italian (Calabrian)",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "olive oil",
+      "tradition": "Italian/Mediterranean",
+      "source": "The Longevity Diet"
+    },
+    {
+      "ingredient": "vegetables",
+      "tradition": "Italian",
+      "source": "The Longevity Diet"
+    }
   ],
   "nutrient_highlights": [
-    {"compound": "Folate", "amount_per_100g": "166 mcg (enriched)", "bioavailability_notes": "Enriched pasta is a reliable folate source; bioavailability ~85%"},
-    {"compound": "Complex carbohydrate", "amount_per_100g": "62 g", "bioavailability_notes": "Lower GI than bread; cooling increases resistant starch"},
-    {"compound": "Iron", "amount_per_100g": "1–2 mg", "bioavailability_notes": "Non-heme iron; enhanced absorption with vitamin C-containing vegetables"}
+    {
+      "compound": "Folate",
+      "amount_per_100g": "166 mcg (enriched)",
+      "bioavailability_notes": "Enriched pasta is a reliable folate source; bioavailability ~85%"
+    },
+    {
+      "compound": "Complex carbohydrate",
+      "amount_per_100g": "62 g",
+      "bioavailability_notes": "Lower GI than bread; cooling increases resistant starch"
+    },
+    {
+      "compound": "Iron",
+      "amount_per_100g": "1\u20132 mg",
+      "bioavailability_notes": "Non-heme iron; enhanced absorption with vitamin C-containing vegetables"
+    }
   ],
   "synergies": [
-    {"target_ingredient": "legumes", "type": "complement", "description": "Pasta e vaianeia — traditional Molochio longevity dish; legumes add protein and fiber, completing amino acid profile"},
-    {"target_ingredient": "olive oil", "type": "synergy", "description": "Fat lowers glycemic response and provides healthy MUFA; core Longevity Diet combination"},
-    {"target_ingredient": "vegetables", "type": "complement", "description": "Vegetables add fiber and micronutrients; book explicitly states bulk should shift from pasta to vegetables"}
+    {
+      "type": "complement",
+      "with": "legumes",
+      "note": "Pasta e vaianeia \u2014 traditional Molochio longevity dish; legumes add protein and fiber, completing amino acid profile"
+    },
+    {
+      "type": "synergy",
+      "with": "olive oil",
+      "note": "Fat lowers glycemic response and provides healthy MUFA; core Longevity Diet combination"
+    },
+    {
+      "type": "complement",
+      "with": "vegetables",
+      "note": "Vegetables add fiber and micronutrients; book explicitly states bulk should shift from pasta to vegetables"
+    }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

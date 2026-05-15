@@ -4,16 +4,20 @@
   "category": "spice",
   "book_claims": [
     {
-      "claim": "Speeds up gastric emptying, promotes satiety and increases thermic effect of food, helping prevent obesity",
       "mechanism": "Active molecule gingerol (converted to zingerone when cooked). Studies in healthy men and women showed these effects.",
-      "study_ref": "Refs 98, 99 in book",
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Speeds up gastric emptying, promotes satiety and increases thermic effect of food, helping prevent obesity",
+      "reference": "Refs 98, 99 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "May reduce nausea and vomiting during chemotherapy",
       "mechanism": "Gingerol's effect on digestive tract motility and nausea receptors",
-      "study_ref": "Ref 100 in book (clinical trials)",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "May reduce nausea and vomiting during chemotherapy",
+      "reference": "Ref 100 in book (clinical trials)",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -49,22 +53,78 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["pungent", "warm", "slightly sweet", "peppery", "citrusy"],
-    "aroma": ["sharp", "warm", "earthy", "lemony", "woody"],
-    "texture": ["fibrous (fresh)", "powdery (dried)", "crisp when young"],
+    "taste": [
+      "pungent",
+      "warm",
+      "slightly sweet",
+      "peppery",
+      "citrusy"
+    ],
+    "aroma": [
+      "sharp",
+      "warm",
+      "earthy",
+      "lemony",
+      "woody"
+    ],
+    "texture": [
+      "fibrous (fresh)",
+      "powdery (dried)",
+      "crisp when young"
+    ],
     "culinary_category": "aromatic rhizome"
   },
   "culinary_pairings": [
-    {"ingredient": "turmeric", "tradition": "Indian / Southeast Asian", "source": "Ayurvedic tradition"},
-    {"ingredient": "garlic", "tradition": "Chinese / pan-Asian", "source": "Chinese culinary canon"},
-    {"ingredient": "lemon", "tradition": "Global", "source": "Classic pairing in teas and dressings"},
-    {"ingredient": "soy sauce", "tradition": "Japanese / Chinese", "source": "Foundational stir-fry aromatics"},
-    {"ingredient": "honey", "tradition": "Global", "source": "Traditional remedy and tea pairing"},
-    {"ingredient": "sesame oil", "tradition": "Korean / Chinese", "source": "Classic Asian cooking base"},
-    {"ingredient": "chili", "tradition": "Thai / Indian", "source": "Thai curry pastes and Indian masalas"},
-    {"ingredient": "coconut milk", "tradition": "Thai / Malaysian", "source": "Southeast Asian curry tradition"},
-    {"ingredient": "cinnamon", "tradition": "Moroccan / Indian", "source": "Warming spice blends (garam masala, ras el hanout)"},
-    {"ingredient": "scallion", "tradition": "Chinese", "source": "Classic Chinese aromatic trinity with garlic"}
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian / Southeast Asian",
+      "source": "Ayurvedic tradition"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Chinese / pan-Asian",
+      "source": "Chinese culinary canon"
+    },
+    {
+      "ingredient": "lemon",
+      "tradition": "Global",
+      "source": "Classic pairing in teas and dressings"
+    },
+    {
+      "ingredient": "soy sauce",
+      "tradition": "Japanese / Chinese",
+      "source": "Foundational stir-fry aromatics"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Global",
+      "source": "Traditional remedy and tea pairing"
+    },
+    {
+      "ingredient": "sesame oil",
+      "tradition": "Korean / Chinese",
+      "source": "Classic Asian cooking base"
+    },
+    {
+      "ingredient": "chili",
+      "tradition": "Thai / Indian",
+      "source": "Thai curry pastes and Indian masalas"
+    },
+    {
+      "ingredient": "coconut milk",
+      "tradition": "Thai / Malaysian",
+      "source": "Southeast Asian curry tradition"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Moroccan / Indian",
+      "source": "Warming spice blends (garam masala, ras el hanout)"
+    },
+    {
+      "ingredient": "scallion",
+      "tradition": "Chinese",
+      "source": "Classic Chinese aromatic trinity with garlic"
+    }
   ],
   "seasonality": "Available year-round; fresh ginger peaks in autumn harvest but is stored and shipped globally. Young ginger (spring ginger) available seasonally with milder flavor.",
   "nutrient_highlights": [
@@ -91,13 +151,19 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "turmeric",
       "type": "complement",
-      "description": "Both are rhizomes. Ginger's COX-2 pathway complements turmeric's NF-kB pathway for broader anti-inflammatory coverage."
+      "with": "turmeric",
+      "note": "Both are rhizomes. Ginger's COX-2 pathway complements turmeric's NF-kB pathway for broader anti-inflammatory coverage."
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [9]
+  "source_chapters": [
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Minestrone was a major part of Emma Morano's earlier diet",
       "mechanism": "High vegetable, legume, and complex carbohydrate content; low glycemic; rich in micronutrients and fiber",
-      "confidence": "low"
+      "confidence": "low",
+      "text": "Minestrone was a major part of Emma Morano's earlier diet",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -78,23 +81,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Olive oil enhances lycopene and fat-soluble vitamin absorption; adds oleocanthal anti-inflammatory effects"
+      "with": "olive oil",
+      "note": "Olive oil enhances lycopene and fat-soluble vitamin absorption; adds oleocanthal anti-inflammatory effects"
     },
     {
-      "target_ingredient": "pesto",
       "type": "complement",
-      "description": "Basil and garlic in pesto add allicin and rosmarinic acid, extending the soup's anti-inflammatory profile"
+      "with": "pesto",
+      "note": "Basil and garlic in pesto add allicin and rosmarinic acid, extending the soup's anti-inflammatory profile"
     },
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Bean varieties provide resistant starch and prebiotic fiber that synergize with vegetable polyphenols"
+      "with": "legumes",
+      "note": "Bean varieties provide resistant starch and prebiotic fiber that synergize with vegetable polyphenols"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

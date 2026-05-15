@@ -4,11 +4,13 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Al dente spaghetti produces much lower glycaemic spike than white rice",
       "mechanism": "Dense food matrix of durum wheat flour is digested more slowly than disrupted starch granules in overcooked rice; restricts rate of starch access by pancreatic amylases",
-      "study_ref": "Refs 82, 83 in book",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Al dente spaghetti produces much lower glycaemic spike than white rice",
+      "reference": "Refs 82, 83 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -38,19 +40,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["wheaty", "mild", "slightly nutty", "clean"],
-    "aroma": ["flour-forward", "toasty when cooked", "neutral"],
-    "texture": ["firm al dente bite", "smooth", "starchy coating from cooking water"],
+    "taste": [
+      "wheaty",
+      "mild",
+      "slightly nutty",
+      "clean"
+    ],
+    "aroma": [
+      "flour-forward",
+      "toasty when cooked",
+      "neutral"
+    ],
+    "texture": [
+      "firm al dente bite",
+      "smooth",
+      "starchy coating from cooking water"
+    ],
     "culinary_category": "whole grain / pasta"
   },
   "culinary_pairings": [
-    {"ingredient": "chickpeas", "tradition": "Southern Italian", "source": "Pasta e ceci -- complete protein with all essential amino acids"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Italian", "source": "Foundation of aglio e olio; fat slows carbohydrate absorption"},
-    {"ingredient": "tomatoes", "tradition": "Italian", "source": "Classic combination; lycopene from tomatoes adds antioxidant benefit"},
-    {"ingredient": "garlic", "tradition": "Mediterranean", "source": "Aromatic base for most pasta sauces"},
-    {"ingredient": "broccoli", "tradition": "Southern Italian", "source": "Orecchiette con cime di rapa; sulforaphane from cruciferous vegetables"},
-    {"ingredient": "lentils", "tradition": "Italian / Middle Eastern", "source": "Pasta e lenticchie for New Year's tradition and complete protein"},
-    {"ingredient": "basil", "tradition": "Italian", "source": "Classic herb pairing from pesto to marinara"}
+    {
+      "ingredient": "chickpeas",
+      "tradition": "Southern Italian",
+      "source": "Pasta e ceci -- complete protein with all essential amino acids"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Italian",
+      "source": "Foundation of aglio e olio; fat slows carbohydrate absorption"
+    },
+    {
+      "ingredient": "tomatoes",
+      "tradition": "Italian",
+      "source": "Classic combination; lycopene from tomatoes adds antioxidant benefit"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean",
+      "source": "Aromatic base for most pasta sauces"
+    },
+    {
+      "ingredient": "broccoli",
+      "tradition": "Southern Italian",
+      "source": "Orecchiette con cime di rapa; sulforaphane from cruciferous vegetables"
+    },
+    {
+      "ingredient": "lentils",
+      "tradition": "Italian / Middle Eastern",
+      "source": "Pasta e lenticchie for New Year's tradition and complete protein"
+    },
+    {
+      "ingredient": "basil",
+      "tradition": "Italian",
+      "source": "Classic herb pairing from pesto to marinara"
+    }
   ],
   "seasonality": "Dried pasta available year-round as a pantry staple. Fresh pasta is higher GI than dried due to different starch structure.",
   "nutrient_highlights": [
@@ -82,18 +125,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "chickpeas",
       "type": "synergy",
-      "description": "Durum wheat pasta + chickpeas provides complete protein with all essential amino acids"
+      "with": "chickpeas",
+      "note": "Durum wheat pasta + chickpeas provides complete protein with all essential amino acids"
     },
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Adding olive oil further slows carbohydrate absorption from pasta"
+      "with": "extra-virgin-olive-oil",
+      "note": "Adding olive oil further slows carbohydrate absorption from pasta"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

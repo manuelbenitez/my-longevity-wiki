@@ -2,13 +2,21 @@
   "name": "Wild Rice",
   "slug": "wild-rice",
   "category": "grain",
-  "aliases": ["Zizania", "Canada rice", "Indian rice", "water oats", "manoomin"],
+  "aliases": [
+    "Zizania",
+    "Canada rice",
+    "Indian rice",
+    "water oats",
+    "manoomin"
+  ],
   "book_claims": [
     {
-      "claim": "Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pasta at 40 g dry weight per serving.",
       "mechanism": "Whole grain with intact bran providing fiber, resistant starch, and micronutrients; lower glycemic impact than refined white rice, supporting stable blood glucose and insulin signaling.",
-      "study_ref": "",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Wild rice is used in the Longevity Diet as a base for vegetable dishes and is listed as an acceptable substitute for pasta at 40 g dry weight per serving.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -38,9 +46,22 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "earthy", "slightly grassy", "rich"],
-    "aroma": ["toasted grain", "woodsy", "earthy"],
-    "texture": ["chewy", "firm", "slightly al dente when cooked"],
+    "taste": [
+      "nutty",
+      "earthy",
+      "slightly grassy",
+      "rich"
+    ],
+    "aroma": [
+      "toasted grain",
+      "woodsy",
+      "earthy"
+    ],
+    "texture": [
+      "chewy",
+      "firm",
+      "slightly al dente when cooked"
+    ],
     "culinary_category": "whole grain / base"
   },
   "culinary_pairings": [
@@ -93,29 +114,32 @@
     },
     {
       "compound": "Anthocyanins and phenolic acids",
-      "amount_per_100g": "~40–60 mg GAE per 100 g (varies by source)",
+      "amount_per_100g": "~40\u201360 mg GAE per 100 g (varies by source)",
       "bioavailability_notes": "Dark pigmentation indicates high anthocyanin content; these antioxidants reduce oxidative stress and inflammation associated with aging."
     }
   ],
   "synergies": [
     {
-      "target_ingredient": "zucchini",
       "type": "complement",
-      "description": "Featured together in the Longevity Diet recipe; wild rice provides sustained energy and protein while zucchini contributes water content, potassium, and vitamin C — a balanced longevity grain bowl."
+      "with": "zucchini",
+      "note": "Featured together in the Longevity Diet recipe; wild rice provides sustained energy and protein while zucchini contributes water content, potassium, and vitamin C \u2014 a balanced longevity grain bowl."
     },
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Wild rice is low in lysine; legumes are rich in lysine but low in methionine (abundant in rice). Combining them creates a complete amino acid profile — the classic protein complementarity of traditional diets."
+      "with": "legumes",
+      "note": "Wild rice is low in lysine; legumes are rich in lysine but low in methionine (abundant in rice). Combining them creates a complete amino acid profile \u2014 the classic protein complementarity of traditional diets."
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Adding olive oil to cooked wild rice increases caloric density (important for those over 65) and enhances absorption of fat-soluble vitamins present in accompanying vegetables."
+      "with": "olive oil",
+      "note": "Adding olive oil to cooked wild rice increases caloric density (important for those over 65) and enhances absorption of fat-soluble vitamins present in accompanying vegetables."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

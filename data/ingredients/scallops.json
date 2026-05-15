@@ -2,39 +2,61 @@
   "name": "Scallops",
   "slug": "scallops",
   "category": "shellfish",
-  "aliases": ["bay scallops", "sea scallops", "Pecten maximus", "Argopecten irradians"],
+  "aliases": [
+    "bay scallops",
+    "sea scallops",
+    "Pecten maximus",
+    "Argopecten irradians"
+  ],
   "book_claims": [
     {
-      "claim": "Scallops are listed as a dietary source of omega-3 fatty acids, providing 0.27 g EPA/DHA per 75 g cooked serving, contributing to the recommended weekly omega-3 intake on the Longevity Diet.",
       "mechanism": "Shellfish omega-3 source supporting cardiovascular and cognitive health; low mercury content makes scallops a safe, regular inclusion unlike larger predatory fish.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Scallops are listed as a dietary source of omega-3 fatty acids, providing 0.27 g EPA/DHA per 75 g cooked serving, contributing to the recommended weekly omega-3 intake on the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Mozaffarian & Rimm, JAMA (2006) — PMID 17093249",
+      "source": "Mozaffarian & Rimm, JAMA (2006) \u2014 PMID 17093249",
       "url": "https://pubmed.ncbi.nlm.nih.gov/17093249/",
       "finding": "Regular consumption of seafood including low-mercury shellfish is associated with significantly reduced cardiovascular mortality; EPA and DHA contribute to anti-arrhythmic, anti-inflammatory, and anti-atherogenic effects.",
       "agrees_with_book": true
     },
     {
-      "source": "Hosomi et al., Journal of Food Science (2012) — PMID 22537083",
+      "source": "Hosomi et al., Journal of Food Science (2012) \u2014 PMID 22537083",
       "url": "https://pubmed.ncbi.nlm.nih.gov/22537083/",
-      "finding": "Scallops are rich in taurine and glycine — amino acids with cardioprotective and anti-inflammatory properties — complementing their omega-3 content in supporting vascular health.",
+      "finding": "Scallops are rich in taurine and glycine \u2014 amino acids with cardioprotective and anti-inflammatory properties \u2014 complementing their omega-3 content in supporting vascular health.",
       "agrees_with_book": true
     },
     {
-      "source": "Bao et al., Journal of Nutritional Biochemistry (2016) — PMID 26963470",
+      "source": "Bao et al., Journal of Nutritional Biochemistry (2016) \u2014 PMID 26963470",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26963470/",
       "finding": "Scallop-derived glycosaminoglycans and bioactive peptides exhibit antioxidant and ACE-inhibitory activity in vitro, suggesting additional cardiovascular-protective mechanisms beyond fatty acid content.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "briny", "mild", "buttery", "umami"],
-    "aroma": ["fresh ocean", "sweet shellfish", "light brine"],
-    "texture": ["tender", "firm when seared", "silky when just cooked", "rubbery if overcooked"],
+    "taste": [
+      "sweet",
+      "briny",
+      "mild",
+      "buttery",
+      "umami"
+    ],
+    "aroma": [
+      "fresh ocean",
+      "sweet shellfish",
+      "light brine"
+    ],
+    "texture": [
+      "tender",
+      "firm when seared",
+      "silky when just cooked",
+      "rubbery if overcooked"
+    ],
     "culinary_category": "shellfish / seafood"
   },
   "culinary_pairings": [
@@ -88,18 +110,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "synergy",
-      "description": "Olive oil's oleic acid complements scallops' EPA/DHA in cardiovascular protection via complementary anti-inflammatory pathways; fat also enhances absorption of fat-soluble nutrients."
+      "with": "extra-virgin-olive-oil",
+      "note": "Olive oil's oleic acid complements scallops' EPA/DHA in cardiovascular protection via complementary anti-inflammatory pathways; fat also enhances absorption of fat-soluble nutrients."
     },
     {
-      "target_ingredient": "garlic",
       "type": "synergy",
-      "description": "Garlic's organosulfur compounds (allicin) and scallop taurine both exert blood pressure-lowering and anti-thrombotic effects via distinct mechanisms — a cardiovascular longevity synergy."
+      "with": "garlic",
+      "note": "Garlic's organosulfur compounds (allicin) and scallop taurine both exert blood pressure-lowering and anti-thrombotic effects via distinct mechanisms \u2014 a cardiovascular longevity synergy."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

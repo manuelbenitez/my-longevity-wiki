@@ -4,10 +4,12 @@
   "category": "fruit",
   "book_claims": [
     {
-      "claim": "Provide dietary calcium for vegans",
       "mechanism": "Naturally contain calcium in bioavailable form",
-      "study_ref": "Ref 108 in book",
-      "confidence": "low"
+      "confidence": "low",
+      "text": "Provide dietary calcium for vegans",
+      "reference": "Ref 108 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -31,19 +33,62 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["honey-sweet", "jammy", "berry-like", "mildly musky"],
-    "aroma": ["floral", "honey-like", "earthy", "warm"],
-    "texture": ["soft", "seedy", "chewy (dried)", "luscious (fresh)"],
+    "taste": [
+      "honey-sweet",
+      "jammy",
+      "berry-like",
+      "mildly musky"
+    ],
+    "aroma": [
+      "floral",
+      "honey-like",
+      "earthy",
+      "warm"
+    ],
+    "texture": [
+      "soft",
+      "seedy",
+      "chewy (dried)",
+      "luscious (fresh)"
+    ],
     "culinary_category": "fruit (fresh and dried)"
   },
   "culinary_pairings": [
-    {"ingredient": "goat cheese / ricotta", "tradition": "Mediterranean", "source": "Classic Italian antipasto; fat aids mineral absorption"},
-    {"ingredient": "walnuts", "tradition": "Mediterranean / Middle Eastern", "source": "Traditional pairing; complementary mineral profiles"},
-    {"ingredient": "honey", "tradition": "Mediterranean", "source": "Roasted figs with honey; traditional dessert"},
-    {"ingredient": "prosciutto / jamón", "tradition": "Italian / Spanish", "source": "Classic sweet-savoury pairing (for non-vegans)"},
-    {"ingredient": "balsamic vinegar", "tradition": "Italian", "source": "Aged balsamic with roasted figs; acidity balances sweetness"},
-    {"ingredient": "yogurt", "tradition": "Mediterranean / Middle Eastern", "source": "Dried figs with yogurt for breakfast; calcium-rich combination"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern / North African", "source": "Spiced fig preparations; traditional pastry filling"}
+    {
+      "ingredient": "goat cheese / ricotta",
+      "tradition": "Mediterranean",
+      "source": "Classic Italian antipasto; fat aids mineral absorption"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Traditional pairing; complementary mineral profiles"
+    },
+    {
+      "ingredient": "honey",
+      "tradition": "Mediterranean",
+      "source": "Roasted figs with honey; traditional dessert"
+    },
+    {
+      "ingredient": "prosciutto / jam\u00f3n",
+      "tradition": "Italian / Spanish",
+      "source": "Classic sweet-savoury pairing (for non-vegans)"
+    },
+    {
+      "ingredient": "balsamic vinegar",
+      "tradition": "Italian",
+      "source": "Aged balsamic with roasted figs; acidity balances sweetness"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Mediterranean / Middle Eastern",
+      "source": "Dried figs with yogurt for breakfast; calcium-rich combination"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern / North African",
+      "source": "Spiced fig preparations; traditional pastry filling"
+    }
   ],
   "seasonality": "Fresh figs have two short seasons: early crop (breba) June-July, main crop August-October. Extremely perishable fresh (2-3 days). Dried figs available year-round and concentrate nutrients. Mission, Kadota, Brown Turkey, and Calimyrna are common varieties.",
   "nutrient_highlights": [
@@ -75,12 +120,19 @@
   ],
   "synergies": [
     {
-      "ingredient": "lemon juice / citrus",
-      "mechanism": "Vitamin C dramatically improves absorption of fig's non-heme iron and calcium"
+      "with": "lemon juice / citrus",
+      "note": "Vitamin C dramatically improves absorption of fig's non-heme iron and calcium",
+      "type": "synergy"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

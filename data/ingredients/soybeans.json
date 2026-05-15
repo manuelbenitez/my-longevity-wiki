@@ -4,16 +4,20 @@
   "category": "legume",
   "book_claims": [
     {
-      "claim": "Soy consumption modestly lowers blood pressure and improves arterial health. Isoflavones reduce osteoporosis, cancer risk and hot flush severity.",
       "mechanism": "Soy isoflavones (genistein, daidzein) mimic oestrogen, binding to oestrogen receptors and blocking cancer cell proliferation. Soy protein replaces animal fats to reduce LDL cholesterol.",
-      "study_ref": "Refs 155, 156, 157, 158, 159 in book",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Soy consumption modestly lowers blood pressure and improves arterial health. Isoflavones reduce osteoporosis, cancer risk and hot flush severity.",
+      "reference": "Refs 155, 156, 157, 158, 159 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
       "mechanism": "Plant protein with isoflavones that modulate LDL receptor expression and cholesterol metabolism",
-      "study_ref": "Canadian trial, ref-17",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Part of cholesterol-lowering food portfolio reducing LDL-cholesterol by 13%",
+      "reference": "Canadian trial, ref-17",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -37,17 +41,51 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "beany", "slightly nutty", "neutral (tofu)"],
-    "aroma": ["grassy (fresh)", "nutty (roasted)", "umami (fermented)"],
-    "texture": ["firm (edamame)", "silky (tofu)", "chewy (tempeh)", "creamy (soy milk)"],
+    "taste": [
+      "mild",
+      "beany",
+      "slightly nutty",
+      "neutral (tofu)"
+    ],
+    "aroma": [
+      "grassy (fresh)",
+      "nutty (roasted)",
+      "umami (fermented)"
+    ],
+    "texture": [
+      "firm (edamame)",
+      "silky (tofu)",
+      "chewy (tempeh)",
+      "creamy (soy milk)"
+    ],
     "culinary_category": "legume / plant protein"
   },
   "culinary_pairings": [
-    {"ingredient": "ginger", "tradition": "East Asian", "source": "Classic aromatic complement for tofu and edamame"},
-    {"ingredient": "garlic", "tradition": "East Asian / Global", "source": "Universal savory base for soy dishes"},
-    {"ingredient": "sesame", "tradition": "East Asian / Middle Eastern", "source": "Traditional pairing; complementary plant protein profiles"},
-    {"ingredient": "capers", "tradition": "Mediterranean-Asian fusion", "source": "Genistein + quercetin synergy blocks cancer cell growth at lower doses than either alone"},
-    {"ingredient": "turmeric", "tradition": "Southeast Asian", "source": "Curcumin + genistein combined anti-inflammatory and anticancer effects"}
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian",
+      "source": "Classic aromatic complement for tofu and edamame"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "East Asian / Global",
+      "source": "Universal savory base for soy dishes"
+    },
+    {
+      "ingredient": "sesame",
+      "tradition": "East Asian / Middle Eastern",
+      "source": "Traditional pairing; complementary plant protein profiles"
+    },
+    {
+      "ingredient": "capers",
+      "tradition": "Mediterranean-Asian fusion",
+      "source": "Genistein + quercetin synergy blocks cancer cell growth at lower doses than either alone"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Southeast Asian",
+      "source": "Curcumin + genistein combined anti-inflammatory and anticancer effects"
+    }
   ],
   "nutrient_highlights": [
     {
@@ -68,18 +106,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "capers",
       "type": "synergy",
-      "description": "Soybeans (genistein) + quercetin-rich foods (capers, apples) block prostate and ovarian cancer cell growth at lower doses than either alone"
+      "with": "capers",
+      "note": "Soybeans (genistein) + quercetin-rich foods (capers, apples) block prostate and ovarian cancer cell growth at lower doses than either alone"
     },
     {
-      "target_ingredient": "nuts",
       "type": "complement",
-      "description": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
+      "with": "nuts",
+      "note": "Combined plant protein sources that together lower cholesterol through multiple mechanisms"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [8, 9]
+  "source_chapters": [
+    8,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

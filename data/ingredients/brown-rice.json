@@ -4,25 +4,31 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Induces greater satiety than white rice, making overeating difficult",
       "mechanism": "Fibre-rich cell wall slows gastric emptying and small bowel transit, triggering early satiety signals",
-      "study_ref": "book-assertion",
       "confidence": "medium",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Induces greater satiety than white rice, making overeating difficult",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Contains 3x more fibre than white rice (3g vs 1g per cup)",
       "mechanism": "Fibre-rich cell wall restricts rate of starch digestion and absorption; slow glucose release reduces insulin spikes",
-      "study_ref": "Table 3 in book",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Contains 3x more fibre than white rice (3g vs 1g per cup)",
+      "reference": "Table 3 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Part of a sample daily diet providing 73g fibre in only 1886 kcal with complete nutrition",
       "mechanism": "2 cups brown rice + 1 cup lentils + 20 almonds + vegetables + fruit + olive oil + flax seeds = 73g fibre, 76g protein, 64g fat",
-      "study_ref": "Author's calculated example diet",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Part of a sample daily diet providing 73g fibre in only 1886 kcal with complete nutrition",
+      "reference": "Author's calculated example diet",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -52,19 +58,60 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "slightly sweet", "earthy", "mild"],
-    "aroma": ["toasty", "grain-forward", "slightly grassy"],
-    "texture": ["chewy", "firm", "slightly sticky"],
+    "taste": [
+      "nutty",
+      "slightly sweet",
+      "earthy",
+      "mild"
+    ],
+    "aroma": [
+      "toasty",
+      "grain-forward",
+      "slightly grassy"
+    ],
+    "texture": [
+      "chewy",
+      "firm",
+      "slightly sticky"
+    ],
     "culinary_category": "whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "lentils", "tradition": "Indian / Middle Eastern", "source": "Classic combination for complete protein (mujaddara, dal-chawal)"},
-    {"ingredient": "sesame oil", "tradition": "East Asian", "source": "Nutty fat complements grain flavor; improves nutrient absorption"},
-    {"ingredient": "vegetables (stir-fried)", "tradition": "East Asian", "source": "Foundation of bibimbap, fried rice, grain bowls"},
-    {"ingredient": "miso", "tradition": "Japanese", "source": "Traditional genmai with miso soup for balanced meal"},
-    {"ingredient": "turmeric", "tradition": "Indian / Southeast Asian", "source": "Anti-inflammatory spice in pilaf and biryani preparations"},
-    {"ingredient": "black beans", "tradition": "Latin American", "source": "Classic rice and beans for complete protein"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Healthy fat slows carbohydrate absorption"}
+    {
+      "ingredient": "lentils",
+      "tradition": "Indian / Middle Eastern",
+      "source": "Classic combination for complete protein (mujaddara, dal-chawal)"
+    },
+    {
+      "ingredient": "sesame oil",
+      "tradition": "East Asian",
+      "source": "Nutty fat complements grain flavor; improves nutrient absorption"
+    },
+    {
+      "ingredient": "vegetables (stir-fried)",
+      "tradition": "East Asian",
+      "source": "Foundation of bibimbap, fried rice, grain bowls"
+    },
+    {
+      "ingredient": "miso",
+      "tradition": "Japanese",
+      "source": "Traditional genmai with miso soup for balanced meal"
+    },
+    {
+      "ingredient": "turmeric",
+      "tradition": "Indian / Southeast Asian",
+      "source": "Anti-inflammatory spice in pilaf and biryani preparations"
+    },
+    {
+      "ingredient": "black beans",
+      "tradition": "Latin American",
+      "source": "Classic rice and beans for complete protein"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Healthy fat slows carbohydrate absorption"
+    }
   ],
   "seasonality": "Available year-round as a dried pantry staple. Short-grain, long-grain, and basmati varieties each suit different preparations.",
   "nutrient_highlights": [
@@ -96,18 +143,25 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "lentils",
       "type": "synergy",
-      "description": "Brown rice + lentils provides complete protein with all essential amino acids"
+      "with": "lentils",
+      "note": "Brown rice + lentils provides complete protein with all essential amino acids"
     },
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Complementary amino acid profiles; grains supply methionine, legumes supply lysine"
+      "with": "legumes",
+      "note": "Complementary amino acid profiles; grains supply methionine, legumes supply lysine"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5, 7]
+  "source_chapters": [
+    5,
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

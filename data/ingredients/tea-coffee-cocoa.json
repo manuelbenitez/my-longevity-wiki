@@ -3,14 +3,20 @@
   "slug": "tea-coffee-cocoa",
   "category": "beverage",
   "overview_page": true,
-  "related_entries": ["green-tea", "coffee", "dark-chocolate"],
+  "related_entries": [
+    "green-tea",
+    "coffee",
+    "dark-chocolate"
+  ],
   "book_claims": [
     {
-      "claim": "Consuming during meals reduces absorption of iron, zinc and other minerals",
       "mechanism": "Polyphenols (tannins) in tea, coffee and cocoa chelate iron and other minerals, reducing their bioavailability",
-      "study_ref": "Ref 106 in book",
       "confidence": "high",
-      "_from_chapter": 7
+      "_from_chapter": 7,
+      "text": "Consuming during meals reduces absorption of iron, zinc and other minerals",
+      "reference": "Ref 106 in book",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -34,17 +40,43 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["varies by beverage"],
-    "aroma": ["varies by beverage"],
-    "texture": ["liquid"],
+    "taste": [
+      "varies by beverage"
+    ],
+    "aroma": [
+      "varies by beverage"
+    ],
+    "texture": [
+      "liquid"
+    ],
     "culinary_category": "beverage"
   },
   "culinary_pairings": [
-    {"ingredient": "lemon-juice-vitamin-c", "tradition": "Functional pairing", "source": "Vitamin C counteracts iron chelation -- add lemon to tea or consume vitamin C-rich foods at meals"},
-    {"ingredient": "honey-natural-sweeteners", "tradition": "Global", "source": "Traditional sweetener for tea and coffee across all cultures"},
-    {"ingredient": "cinnamon", "tradition": "Middle Eastern / Indian", "source": "Classic spice addition to all three beverages"},
-    {"ingredient": "ginger", "tradition": "East Asian / Indian", "source": "Fresh ginger in tea; ginger-chocolate combinations"},
-    {"ingredient": "cardamom", "tradition": "Middle Eastern / Indian", "source": "Arabic coffee and chai tea spice"}
+    {
+      "ingredient": "lemon-juice-vitamin-c",
+      "tradition": "Functional pairing",
+      "source": "Vitamin C counteracts iron chelation -- add lemon to tea or consume vitamin C-rich foods at meals"
+    },
+    {
+      "ingredient": "honey-natural-sweeteners",
+      "tradition": "Global",
+      "source": "Traditional sweetener for tea and coffee across all cultures"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Middle Eastern / Indian",
+      "source": "Classic spice addition to all three beverages"
+    },
+    {
+      "ingredient": "ginger",
+      "tradition": "East Asian / Indian",
+      "source": "Fresh ginger in tea; ginger-chocolate combinations"
+    },
+    {
+      "ingredient": "cardamom",
+      "tradition": "Middle Eastern / Indian",
+      "source": "Arabic coffee and chai tea spice"
+    }
   ],
   "seasonality": "All three beverages available year-round.",
   "nutrient_highlights": [
@@ -68,5 +100,11 @@
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [7]
+  "source_chapters": [
+    7
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

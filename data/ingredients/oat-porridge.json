@@ -4,11 +4,13 @@
   "category": "grain",
   "book_claims": [
     {
-      "claim": "Suitable whole grain breakfast food in a longevity diet",
       "mechanism": "Provides slow-releasing carbohydrates and soluble fibre for sustained energy and satiety",
-      "study_ref": "Author's metabolic kitchen study protocol",
       "confidence": "low",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Suitable whole grain breakfast food in a longevity diet",
+      "reference": "Author's metabolic kitchen study protocol",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -32,18 +34,57 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["mild", "creamy", "slightly sweet", "oaty"],
-    "aroma": ["warm", "comforting", "grain-forward", "milky"],
-    "texture": ["creamy", "thick", "warming", "variable from smooth to chunky"],
+    "taste": [
+      "mild",
+      "creamy",
+      "slightly sweet",
+      "oaty"
+    ],
+    "aroma": [
+      "warm",
+      "comforting",
+      "grain-forward",
+      "milky"
+    ],
+    "texture": [
+      "creamy",
+      "thick",
+      "warming",
+      "variable from smooth to chunky"
+    ],
     "culinary_category": "prepared whole grain"
   },
   "culinary_pairings": [
-    {"ingredient": "blueberries", "tradition": "Northern European / American", "source": "Classic porridge topping; anthocyanin-rich fruit adds antioxidant benefit"},
-    {"ingredient": "walnuts", "tradition": "European / American", "source": "Omega-3 rich nuts add healthy fats and protein to grain base"},
-    {"ingredient": "cinnamon", "tradition": "Scandinavian / American", "source": "Warming spice with blood sugar-stabilizing properties"},
-    {"ingredient": "banana", "tradition": "Global", "source": "Natural sweetener with potassium; creamy texture complement"},
-    {"ingredient": "flax seeds", "tradition": "Northern European", "source": "Omega-3 and lignans add anti-inflammatory benefit"},
-    {"ingredient": "yogurt", "tradition": "Scandinavian / Global", "source": "Probiotics complement prebiotic beta-glucan fiber"}
+    {
+      "ingredient": "blueberries",
+      "tradition": "Northern European / American",
+      "source": "Classic porridge topping; anthocyanin-rich fruit adds antioxidant benefit"
+    },
+    {
+      "ingredient": "walnuts",
+      "tradition": "European / American",
+      "source": "Omega-3 rich nuts add healthy fats and protein to grain base"
+    },
+    {
+      "ingredient": "cinnamon",
+      "tradition": "Scandinavian / American",
+      "source": "Warming spice with blood sugar-stabilizing properties"
+    },
+    {
+      "ingredient": "banana",
+      "tradition": "Global",
+      "source": "Natural sweetener with potassium; creamy texture complement"
+    },
+    {
+      "ingredient": "flax seeds",
+      "tradition": "Northern European",
+      "source": "Omega-3 and lignans add anti-inflammatory benefit"
+    },
+    {
+      "ingredient": "yogurt",
+      "tradition": "Scandinavian / Global",
+      "source": "Probiotics complement prebiotic beta-glucan fiber"
+    }
   ],
   "seasonality": "Year-round pantry staple. Steel-cut oats take longest to cook (20-30 min) but retain most texture and lowest GI. Rolled oats cook in 5 minutes. Instant oats have highest GI.",
   "nutrient_highlights": [
@@ -75,18 +116,24 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "nuts",
       "type": "complement",
-      "description": "Combined at breakfast with yogurt, nuts and fruit for sustained energy and complete nutrition"
+      "with": "nuts",
+      "note": "Combined at breakfast with yogurt, nuts and fruit for sustained energy and complete nutrition"
     },
     {
-      "target_ingredient": "berries",
       "type": "synergy",
-      "description": "Vitamin C from berries enhances iron absorption from oats; antioxidants complement beta-glucan's cardiovascular benefits"
+      "with": "berries",
+      "note": "Vitamin C from berries enhances iron absorption from oats; antioxidants complement beta-glucan's cardiovascular benefits"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5]
+  "source_chapters": [
+    5
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

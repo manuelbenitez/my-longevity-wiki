@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Used to make garbanzo bean bread (farinata), a gluten-free bread from Liguria, Italy",
       "mechanism": "Gluten-free plant protein and carbohydrate source",
-      "confidence": "high"
+      "confidence": "high",
+      "text": "Used to make garbanzo bean bread (farinata), a gluten-free bread from Liguria, Italy",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -77,23 +80,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "olive oil",
       "type": "synergy",
-      "description": "Oleic acid enhances absorption of chickpea's fat-soluble phytosterols; combined effect reduces LDL cholesterol"
+      "with": "olive oil",
+      "note": "Oleic acid enhances absorption of chickpea's fat-soluble phytosterols; combined effect reduces LDL cholesterol"
     },
     {
-      "target_ingredient": "rosemary",
       "type": "complement",
-      "description": "Rosemary's carnosic acid complements chickpea's isoflavones for combined antioxidant and anti-inflammatory activity"
+      "with": "rosemary",
+      "note": "Rosemary's carnosic acid complements chickpea's isoflavones for combined antioxidant and anti-inflammatory activity"
     },
     {
-      "target_ingredient": "whole grains",
       "type": "complement",
-      "description": "Provides complete protein and combined fiber for sustained energy and gut microbiome support"
+      "with": "whole grains",
+      "note": "Provides complete protein and combined fiber for sustained energy and gut microbiome support"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

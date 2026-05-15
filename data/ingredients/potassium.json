@@ -2,32 +2,37 @@
   "name": "Potassium",
   "slug": "potassium",
   "category": "nutrient",
-  "aliases": ["K", "dietary potassium"],
+  "aliases": [
+    "K",
+    "dietary potassium"
+  ],
   "book_claims": [
     {
-      "claim": "50–90% of US adults are deficient in potassium, making it one of the most widespread nutritional gaps. The Longevity Diet addresses this through adequate intake via a comprehensive multivitamin every 2–3 days and regular consumption of legumes, vegetables, and fish.",
       "mechanism": "Potassium is essential for fluid and electrolyte balance, nerve impulse transmission, muscle contraction (including cardiac muscle), and blood pressure regulation via the renin-angiotensin-aldosterone system.",
-      "study_ref": null,
-      "confidence": "high"
+      "confidence": "high",
+      "text": "50\u201390% of US adults are deficient in potassium, making it one of the most widespread nutritional gaps. The Longevity Diet addresses this through adequate intake via a comprehensive multivitamin every 2\u20133 days and regular consumption of legumes, vegetables, and fish.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "PubMed — Aburto et al., BMJ (2013) — PMID 23558164",
+      "source": "PubMed \u2014 Aburto et al., BMJ (2013) \u2014 PMID 23558164",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23558164/",
       "finding": "Increased potassium intake significantly reduced systolic blood pressure by 3.49 mmHg in a meta-analysis of 22 randomized trials; higher potassium intake was associated with 24% lower stroke risk, establishing a direct cardiovascular longevity benefit.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Palmer et al., American Journal of Clinical Nutrition (2011) — PMID 21430119",
+      "source": "PubMed \u2014 Palmer et al., American Journal of Clinical Nutrition (2011) \u2014 PMID 21430119",
       "url": "https://pubmed.ncbi.nlm.nih.gov/21430119/",
       "finding": "In the PREDIMED cohort, dietary potassium intake was inversely associated with total mortality; each 1,000 mg/day increment was associated with a ~20% reduction in cardiovascular mortality, supporting the Longevity Diet's emphasis on potassium adequacy.",
       "agrees_with_book": true
     },
     {
-      "source": "PubMed — Weaver, Advances in Nutrition (2013) — PMID 23858094",
+      "source": "PubMed \u2014 Weaver, Advances in Nutrition (2013) \u2014 PMID 23858094",
       "url": "https://pubmed.ncbi.nlm.nih.gov/23858094/",
-      "finding": "Dietary potassium from plant sources (legumes, vegetables) is accompanied by bicarbonate precursors that neutralize acid load from protein metabolism, reducing urinary calcium excretion and protecting bone mineral density — a key aging concern.",
+      "finding": "Dietary potassium from plant sources (legumes, vegetables) is accompanied by bicarbonate precursors that neutralize acid load from protein metabolism, reducing urinary calcium excretion and protecting bone mineral density \u2014 a key aging concern.",
       "agrees_with_book": true
     }
   ],
@@ -68,23 +73,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "legumes",
       "type": "synergy",
-      "description": "Legumes are among the richest potassium sources (500–1,000 mg per cooked cup); the Longevity Diet's legume emphasis partly serves as a potassium delivery strategy."
+      "with": "legumes",
+      "note": "Legumes are among the richest potassium sources (500\u20131,000 mg per cooked cup); the Longevity Diet's legume emphasis partly serves as a potassium delivery strategy."
     },
     {
-      "target_ingredient": "sodium",
       "type": "antagonism",
-      "description": "Potassium and sodium have opposing effects on blood pressure; high potassium intake partially offsets the hypertensive effects of sodium excess, a key interaction in longevity cardiovascular risk management."
+      "with": "sodium",
+      "note": "Potassium and sodium have opposing effects on blood pressure; high potassium intake partially offsets the hypertensive effects of sodium excess, a key interaction in longevity cardiovascular risk management."
     },
     {
-      "target_ingredient": "magnesium",
       "type": "synergy",
-      "description": "Potassium and magnesium work together in maintaining membrane potential and cardiac rhythm; both are commonly deficient in Western diets and both are emphasized in the Longevity Diet."
+      "with": "magnesium",
+      "note": "Potassium and magnesium work together in maintaining membrane potential and cardiac rhythm; both are commonly deficient in Western diets and both are emphasized in the Longevity Diet."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

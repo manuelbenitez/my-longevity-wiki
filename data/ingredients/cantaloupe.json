@@ -2,39 +2,57 @@
   "name": "Cantaloupe",
   "slug": "cantaloupe",
   "category": "fruit",
-  "aliases": ["rockmelon", "muskmelon", "Cucumis melo var. cantalupensis"],
+  "aliases": [
+    "rockmelon",
+    "muskmelon",
+    "Cucumis melo var. cantalupensis"
+  ],
   "book_claims": [
     {
-      "claim": "Cantaloupe is listed as a source of folate (14 mcg per wedge raw, ~4% DV) and a particularly rich source of vitamin A as beta-carotene (135 mcg RAE per 1/2 cup raw, ~54% DV).",
       "mechanism": "Beta-carotene is a provitamin A carotenoid converted to retinol; supports immune function, vision, and epithelial cell integrity; folate supports DNA methylation and one-carbon metabolism.",
-      "study_ref": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "text": "Cantaloupe is listed as a source of folate (14 mcg per wedge raw, ~4% DV) and a particularly rich source of vitamin A as beta-carotene (135 mcg RAE per 1/2 cup raw, ~54% DV).",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
     {
-      "source": "Michaud et al., JNCI (2000) — PMID 10814676",
+      "source": "Michaud et al., JNCI (2000) \u2014 PMID 10814676",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10814676/",
       "finding": "Higher carotenoid intake, including beta-carotene from orange-fleshed fruits like cantaloupe, was significantly associated with reduced lung cancer risk in a large prospective cohort, with the strongest protective effect for beta-cryptoxanthin and beta-carotene from whole foods (not supplements).",
       "agrees_with_book": true
     },
     {
-      "source": "Sluijs et al., European Journal of Nutrition (2015) — PMID 25471183",
+      "source": "Sluijs et al., European Journal of Nutrition (2015) \u2014 PMID 25471183",
       "url": "https://pubmed.ncbi.nlm.nih.gov/25471183/",
       "finding": "Circulating beta-carotene levels were inversely associated with all-cause mortality and cardiovascular mortality in EPIC-NL cohort (over 16,000 adults followed 10 years), with each 0.1 umol/L increase in plasma beta-carotene corresponding to a 7% reduction in all-cause mortality risk.",
       "agrees_with_book": true
     },
     {
-      "source": "Figueroa et al., Nutrients (2017) — PMID 28696352",
+      "source": "Figueroa et al., Nutrients (2017) \u2014 PMID 28696352",
       "url": "https://pubmed.ncbi.nlm.nih.gov/28696352/",
       "finding": "Cantaloupe consumption provided meaningful hydration (92% water content), electrolyte balance, and antioxidant carotenoids with low glycemic load (GL~4 per serving), making it a longevity-compatible fruit for blood sugar management and cellular protection.",
       "agrees_with_book": true
     }
   ],
   "flavor_profile": {
-    "taste": ["sweet", "floral", "mildly musky"],
-    "aroma": ["intensely floral", "fruity", "musky-sweet"],
-    "texture": ["juicy", "soft", "slightly granular when ripe"],
+    "taste": [
+      "sweet",
+      "floral",
+      "mildly musky"
+    ],
+    "aroma": [
+      "intensely floral",
+      "fruity",
+      "musky-sweet"
+    ],
+    "texture": [
+      "juicy",
+      "soft",
+      "slightly granular when ripe"
+    ],
     "culinary_category": "fresh fruit"
   },
   "culinary_pairings": [
@@ -83,18 +101,21 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "extra-virgin-olive-oil",
       "type": "complement",
-      "description": "Adding a fat source (even a drizzle of olive oil or nuts alongside) significantly increases beta-carotene bioavailability from cantaloupe."
+      "with": "extra-virgin-olive-oil",
+      "note": "Adding a fat source (even a drizzle of olive oil or nuts alongside) significantly increases beta-carotene bioavailability from cantaloupe."
     },
     {
-      "target_ingredient": "lime",
       "type": "complement",
-      "description": "Lime juice brightens flavor and provides additional vitamin C, enhancing total antioxidant value of the serving."
+      "with": "lime",
+      "note": "Lime juice brightens flavor and provides additional vitamin C, enhancing total antioxidant value of the serving."
     }
   ],
   "last_updated": "2026-04-17T00:00:00Z",
   "last_researched": "2026-04-17T00:00:00Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

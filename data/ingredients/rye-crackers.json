@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Whole-grain cracker used as a side in the Longevity Diet.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Whole-grain cracker used as a side in the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -78,23 +81,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "salmon",
       "type": "synergy",
-      "description": "Omega-3s in salmon combined with rye fiber create potent anti-inflammatory and cardiovascular-protective combination"
+      "with": "salmon",
+      "note": "Omega-3s in salmon combined with rye fiber create potent anti-inflammatory and cardiovascular-protective combination"
     },
     {
-      "target_ingredient": "sardines",
       "type": "synergy",
-      "description": "EPA/DHA from sardines and arabinoxylan from rye together reduce triglycerides and support gut microbiome diversity"
+      "with": "sardines",
+      "note": "EPA/DHA from sardines and arabinoxylan from rye together reduce triglycerides and support gut microbiome diversity"
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Olive oil's oleocanthal anti-inflammatory effects complement rye's alkylresorcinols for combined NF-kB inhibition"
+      "with": "olive oil",
+      "note": "Olive oil's oleocanthal anti-inflammatory effects complement rye's alkylresorcinols for combined NF-kB inhibition"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }

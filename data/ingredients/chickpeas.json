@@ -4,18 +4,22 @@
   "category": "legume",
   "book_claims": [
     {
-      "claim": "Far lower calorie density than cheese while providing fibre and protein",
       "mechanism": "100g cooked chickpeas = 164 cal (2.6g fat, 27g carbs incl 7g fibre, 9g protein) vs 100g Parmesan = 384 cal (28g fat, 0g fibre, 33g protein); fibre induces early satiety",
-      "study_ref": "Nutritional comparison cited in text",
       "confidence": "high",
-      "_from_chapter": 5
+      "_from_chapter": 5,
+      "text": "Far lower calorie density than cheese while providing fibre and protein",
+      "reference": "Nutritional comparison cited in text",
+      "recommendation": null,
+      "book_slug": "fontana"
     },
     {
-      "claim": "Concentrated source of protein, fibre, vitamins, minerals and low-glycaemic starches",
       "mechanism": "Complex carbohydrates with high amylose content slowly digested, low glycaemic index",
-      "study_ref": "book-assertion",
       "confidence": "high",
-      "_from_chapter": 9
+      "_from_chapter": 9,
+      "text": "Concentrated source of protein, fibre, vitamins, minerals and low-glycaemic starches",
+      "reference": "book-assertion",
+      "recommendation": null,
+      "book_slug": "fontana"
     }
   ],
   "supplementary_research": [
@@ -45,19 +49,61 @@
     }
   ],
   "flavor_profile": {
-    "taste": ["nutty", "earthy", "mild", "buttery"],
-    "aroma": ["subtle", "earthy", "slightly grassy when fresh"],
-    "texture": ["creamy interior", "firm skin", "mealy when well-cooked", "fluffy in hummus"],
+    "taste": [
+      "nutty",
+      "earthy",
+      "mild",
+      "buttery"
+    ],
+    "aroma": [
+      "subtle",
+      "earthy",
+      "slightly grassy when fresh"
+    ],
+    "texture": [
+      "creamy interior",
+      "firm skin",
+      "mealy when well-cooked",
+      "fluffy in hummus"
+    ],
     "culinary_category": "legume / pulse"
   },
   "culinary_pairings": [
-    {"ingredient": "tahini", "tradition": "Middle Eastern", "source": "Hummus -- sesame adds methionine complementing chickpea's lysine for complete protein"},
-    {"ingredient": "durum wheat pasta", "tradition": "Southern Italian", "source": "Pasta e ceci -- complete protein; traditional Neapolitan comfort food"},
-    {"ingredient": "cumin", "tradition": "Middle Eastern / Indian", "source": "Essential spice in falafel, chana masala, and hummus"},
-    {"ingredient": "lemon juice", "tradition": "Middle Eastern", "source": "Acid brightens earthy flavors; vitamin C improves iron absorption"},
-    {"ingredient": "extra-virgin olive oil", "tradition": "Mediterranean", "source": "Finishing fat for hummus and roasted chickpeas"},
-    {"ingredient": "garlic", "tradition": "Mediterranean / Global", "source": "Aromatic foundation of hummus, chana, and stews"},
-    {"ingredient": "spinach", "tradition": "Indian / Mediterranean", "source": "Chana palak; iron from both sources enhanced by combined vitamin C"}
+    {
+      "ingredient": "tahini",
+      "tradition": "Middle Eastern",
+      "source": "Hummus -- sesame adds methionine complementing chickpea's lysine for complete protein"
+    },
+    {
+      "ingredient": "durum wheat pasta",
+      "tradition": "Southern Italian",
+      "source": "Pasta e ceci -- complete protein; traditional Neapolitan comfort food"
+    },
+    {
+      "ingredient": "cumin",
+      "tradition": "Middle Eastern / Indian",
+      "source": "Essential spice in falafel, chana masala, and hummus"
+    },
+    {
+      "ingredient": "lemon juice",
+      "tradition": "Middle Eastern",
+      "source": "Acid brightens earthy flavors; vitamin C improves iron absorption"
+    },
+    {
+      "ingredient": "extra-virgin olive oil",
+      "tradition": "Mediterranean",
+      "source": "Finishing fat for hummus and roasted chickpeas"
+    },
+    {
+      "ingredient": "garlic",
+      "tradition": "Mediterranean / Global",
+      "source": "Aromatic foundation of hummus, chana, and stews"
+    },
+    {
+      "ingredient": "spinach",
+      "tradition": "Indian / Mediterranean",
+      "source": "Chana palak; iron from both sources enhanced by combined vitamin C"
+    }
   ],
   "seasonality": "Dried chickpeas available year-round. Canned are convenient and nutritionally similar. Fresh green chickpeas available briefly in spring in Mediterranean climates. Soak dried chickpeas 24 hours before cooking for best results.",
   "nutrient_highlights": [
@@ -89,23 +135,30 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "durum-wheat-pasta",
       "type": "synergy",
-      "description": "Complete protein with all essential amino acids; traditional Italian combination"
+      "with": "durum-wheat-pasta",
+      "note": "Complete protein with all essential amino acids; traditional Italian combination"
     },
     {
-      "target_ingredient": "tahini",
       "type": "complement",
-      "description": "Combined in hummus for complete amino acid profile and healthy fats"
+      "with": "tahini",
+      "note": "Combined in hummus for complete amino acid profile and healthy fats"
     },
     {
-      "target_ingredient": "lemon-juice",
       "type": "synergy",
-      "description": "Vitamin C from lemon improves non-heme iron absorption"
+      "with": "lemon-juice",
+      "note": "Vitamin C from lemon improves non-heme iron absorption"
     }
   ],
   "last_updated": "2026-04-12T00:00:00Z",
   "last_researched": "2026-04-12T00:00:00Z",
   "research_status": "complete",
-  "source_chapters": [5, 9]
+  "source_chapters": [
+    5,
+    9
+  ],
+  "source_books": [
+    "fontana"
+  ],
+  "migration_version": 1
 }

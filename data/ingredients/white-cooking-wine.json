@@ -5,9 +5,12 @@
   "aliases": [],
   "book_claims": [
     {
-      "claim": "Used in small amounts for cooking shellfish in the Longevity Diet.",
-      "mechanism": null,
-      "confidence": "high"
+      "mechanism": "",
+      "confidence": "high",
+      "text": "Used in small amounts for cooking shellfish in the Longevity Diet.",
+      "reference": "",
+      "recommendation": null,
+      "book_slug": "longo"
     }
   ],
   "supplementary_research": [
@@ -76,23 +79,26 @@
   ],
   "synergies": [
     {
-      "target_ingredient": "shellfish",
       "type": "complement",
-      "description": "Acidity of wine denatures shellfish proteins improving texture; enhances absorption of shellfish zinc and selenium"
+      "with": "shellfish",
+      "note": "Acidity of wine denatures shellfish proteins improving texture; enhances absorption of shellfish zinc and selenium"
     },
     {
-      "target_ingredient": "garlic",
       "type": "synergy",
-      "description": "Allicin from garlic and tyrosol from wine together inhibit platelet aggregation and reduce cardiovascular risk"
+      "with": "garlic",
+      "note": "Allicin from garlic and tyrosol from wine together inhibit platelet aggregation and reduce cardiovascular risk"
     },
     {
-      "target_ingredient": "olive oil",
       "type": "complement",
-      "description": "Wine acids and olive oil polyphenols form an emulsion improving flavor integration and phytonutrient delivery"
+      "with": "olive oil",
+      "note": "Wine acids and olive oil polyphenols form an emulsion improving flavor integration and phytonutrient delivery"
     }
   ],
   "last_updated": "2026-04-18T08:08:05Z",
   "last_researched": "2026-04-18T08:08:05Z",
   "research_status": "complete",
-  "source_book": "The Longevity Diet"
+  "source_books": [
+    "longo"
+  ],
+  "migration_version": 1
 }
